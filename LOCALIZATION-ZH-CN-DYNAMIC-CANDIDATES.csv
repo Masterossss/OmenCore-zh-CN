@@ -1,9 +1,9 @@
 ﻿path,line_at_scan,source_line,category,user_visible,status,note
 src/OmenCoreApp/ViewModels/BloatwareManagerViewModel.cs,274,_service.StatusChanged += status => DispatcherHelper.RunOnUiThread(() => StatusMessage = status);,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/BloatwareManagerViewModel.cs,561,var confirmation = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/BloatwareManagerViewModel.cs,597,var createRestorePoint = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/BloatwareManagerViewModel.cs,619,var continueWithoutRestorePoint = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/BloatwareManagerViewModel.cs,727,var result = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/BloatwareManagerViewModel.cs,561,var confirmation = MessageBox.Show(,A,是,已资源化,Strings.Bloat* 确认框；选择分支未更改
+src/OmenCoreApp/ViewModels/BloatwareManagerViewModel.cs,597,var createRestorePoint = MessageBox.Show(,A,是,已资源化,Strings.Bloat* 确认框；选择分支未更改
+src/OmenCoreApp/ViewModels/BloatwareManagerViewModel.cs,619,var continueWithoutRestorePoint = MessageBox.Show(,A,是,部分资源化,Strings.Bloat* 确认框；还原点失败时的服务详情仍保留原文
+src/OmenCoreApp/ViewModels/BloatwareManagerViewModel.cs,727,var result = MessageBox.Show(,A,是,已资源化,Strings.Bloat* 确认框；选择分支未更改
 src/OmenCoreApp/ViewModels/BloatwareManagerViewModel.cs,893,"StatusMessage = $""{action.Trim().TrimEnd('.')}..."";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/ViewModels/BloatwareManagerViewModel.cs,898,"StatusMessage = $""Done: {details}"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/ViewModels/BloatwareManagerViewModel.cs,903,"StatusMessage = $""Failed: {reason}"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务

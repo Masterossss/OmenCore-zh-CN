@@ -367,6 +367,21 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void RemovalWarningsPreserveRiskAndRestorePointChoice()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                Strings.BloatRiskPrompt.Should().Contain("中/高风险").And.Contain("继续移除");
+                string.Format(Strings.BloatRestorePointFailedPrompt, "test detail")
+                    .Should().Contain("无法创建还原点").And.Contain("test detail").And.Contain("没有还原点").And.Contain("继续移除");
+                string.Format(Strings.BloatPreviewConflict, 2).Should().Contain("2 个").And.Contain("风扇").And.Contain("还原点");
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void Apply_ChangesOnlyTheUiCulture()
         {
             // Numbers must keep the invariant formatting App installs on every thread; a UI

@@ -1345,4 +1345,23 @@
   <data name="BloatwareManagerViewText511" xml:space="preserve"><value>打开最近的移除报告</value></data>
   <data name="BloatwareManagerViewText515" xml:space="preserve"><value>查看报告</value></data>
   <data name="BloatwareManagerViewText519" xml:space="preserve"><value>部分移除操作可能需要重启</value></data>
+  <data name="BloatPreviewSelected" xml:space="preserve"><value>已选择 {1} 项中的 {0} 项。</value></data>
+  <data name="BloatPreviewConflict" xml:space="preserve"><value> {0} 个项目可能发生冲突：移除前请确认风扇、RGB、快捷键、更新途径和还原点。</value></data>
+  <data name="BloatRiskPrompt" xml:space="preserve"><value>一个或多个所选项目属于中/高风险。是否继续移除？</value></data>
+  <data name="BloatRiskTitle" xml:space="preserve"><value>确认风险移除</value></data>
+  <data name="BloatRestorePointPrompt" xml:space="preserve"><value>移除 {0} 个项目前是否创建 Windows 还原点？
+
+为安全起见，建议在更改系统前创建还原点。</value></data>
+  <data name="BloatRestorePointTitle" xml:space="preserve"><value>创建还原点</value></data>
+  <data name="BloatRestorePointFailedPrompt" xml:space="preserve"><value>无法创建还原点：
+{0}
+
+是否在没有还原点的情况下继续移除？</value></data>
+  <data name="BloatRestorePointFailedTitle" xml:space="preserve"><value>创建还原点失败</value></data>
+  <data name="BloatRestoreAllPrompt" xml:space="preserve"><value>这将恢复 {0} 个已移除项目。
+
+所有依赖项或设置都将从其原始来源重新安装。
+
+是否继续？</value></data>
+  <data name="BloatRestoreAllTitle" xml:space="preserve"><value>恢复所有已移除的预装软件</value></data>
 </root>

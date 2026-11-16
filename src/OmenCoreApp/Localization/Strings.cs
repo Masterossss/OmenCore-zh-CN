@@ -1233,5 +1233,15 @@ namespace OmenCore.Localization
         public static string BloatwareManagerViewText511 => Get(nameof(BloatwareManagerViewText511));
         public static string BloatwareManagerViewText515 => Get(nameof(BloatwareManagerViewText515));
         public static string BloatwareManagerViewText519 => Get(nameof(BloatwareManagerViewText519));
+        public static string BloatPreviewSelected => Get(nameof(BloatPreviewSelected));
+        public static string BloatPreviewConflict => Get(nameof(BloatPreviewConflict));
+        public static string BloatRiskPrompt => Get(nameof(BloatRiskPrompt));
+        public static string BloatRiskTitle => Get(nameof(BloatRiskTitle));
+        public static string BloatRestorePointPrompt => Get(nameof(BloatRestorePointPrompt));
+        public static string BloatRestorePointTitle => Get(nameof(BloatRestorePointTitle));
+        public static string BloatRestorePointFailedPrompt => Get(nameof(BloatRestorePointFailedPrompt));
+        public static string BloatRestorePointFailedTitle => Get(nameof(BloatRestorePointFailedTitle));
+        public static string BloatRestoreAllPrompt => Get(nameof(BloatRestoreAllPrompt));
+        public static string BloatRestoreAllTitle => Get(nameof(BloatRestoreAllTitle));
     }
 }

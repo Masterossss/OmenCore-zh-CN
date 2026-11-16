@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
 using OmenCore.Services;
+using OmenCore.Localization;
 using OmenCore.Services.BloatwareManager;
 using OmenCore.Utils;
 
@@ -527,10 +528,10 @@ namespace OmenCore.ViewModels
                 .ToList();
             var conflictSensitiveCount = selectedApps.Count(app => app.ConflictSensitive || app.RequiresOmenCoreValidation);
 
-            RemovalPreviewSummary = $"Selected {selectedCount} of {totalCount} item(s).";
+            RemovalPreviewSummary = string.Format(Strings.BloatPreviewSelected, selectedCount, totalCount);
             if (conflictSensitiveCount > 0)
             {
-                RemovalPreviewSummary += $" {conflictSensitiveCount} conflict-sensitive item(s): verify fan, RGB, hotkeys, update path, and restore point before removal.";
+                RemovalPreviewSummary += string.Format(Strings.BloatPreviewConflict, conflictSensitiveCount);
             }
 
             OnPropertyChanged(nameof(RemovalPreviewEstimatedText));
@@ -559,8 +560,8 @@ namespace OmenCore.ViewModels
             if (selectedApps.Any(app => app.RemovalRisk >= RemovalRisk.Medium))
             {
                 var confirmation = MessageBox.Show(
-                    "One or more selected items are Medium/High risk. Continue with removal?",
-                    "Confirm Risky Removal",
+                    Strings.BloatRiskPrompt,
+                    Strings.BloatRiskTitle,
                     MessageBoxButton.YesNo,
                     MessageBoxImage.Warning);
 
@@ -595,8 +596,8 @@ namespace OmenCore.ViewModels
             }
 
             var createRestorePoint = MessageBox.Show(
-                $"Create a Windows restore point before removing {selectedCount} item(s)?\n\nRecommended for safety before system changes.",
-                "Create Restore Point",
+                string.Format(Strings.BloatRestorePointPrompt, selectedCount),
+                Strings.BloatRestorePointTitle,
                 MessageBoxButton.YesNo,
                 MessageBoxImage.Question);
 
@@ -617,8 +618,8 @@ namespace OmenCore.ViewModels
             }
 
             var continueWithoutRestorePoint = MessageBox.Show(
-                $"Restore point could not be created:\n{restorePointResult.Message}\n\nContinue removal without a restore point?",
-                "Restore Point Creation Failed",
+                string.Format(Strings.BloatRestorePointFailedPrompt, restorePointResult.Message),
+                Strings.BloatRestorePointFailedTitle,
                 MessageBoxButton.YesNo,
                 MessageBoxImage.Warning);
 
@@ -725,8 +726,8 @@ namespace OmenCore.ViewModels
             if (!removedApps.Any()) return;
 
             var result = MessageBox.Show(
-                $"This will restore {removedApps.Count} removed items.\n\nAny dependencies or settings will be re-installed from their original sources.\n\nContinue?",
-                "Restore All Removed Bloatware",
+                string.Format(Strings.BloatRestoreAllPrompt, removedApps.Count),
+                Strings.BloatRestoreAllTitle,
                 MessageBoxButton.YesNo,
                 MessageBoxImage.Question);
 

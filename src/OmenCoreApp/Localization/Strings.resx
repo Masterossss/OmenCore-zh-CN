@@ -1353,4 +1353,23 @@ Try it anyway?</value></data>
   <data name="BloatwareManagerViewText511" xml:space="preserve"><value>Open the most recent removal report</value></data>
   <data name="BloatwareManagerViewText515" xml:space="preserve"><value>View Report</value></data>
   <data name="BloatwareManagerViewText519" xml:space="preserve"><value>Some removals may require a restart</value></data>
+  <data name="BloatPreviewSelected" xml:space="preserve"><value>Selected {0} of {1} item(s).</value></data>
+  <data name="BloatPreviewConflict" xml:space="preserve"><value> {0} conflict-sensitive item(s): verify fan, RGB, hotkeys, update path, and restore point before removal.</value></data>
+  <data name="BloatRiskPrompt" xml:space="preserve"><value>One or more selected items are Medium/High risk. Continue with removal?</value></data>
+  <data name="BloatRiskTitle" xml:space="preserve"><value>Confirm Risky Removal</value></data>
+  <data name="BloatRestorePointPrompt" xml:space="preserve"><value>Create a Windows restore point before removing {0} item(s)?
+
+Recommended for safety before system changes.</value></data>
+  <data name="BloatRestorePointTitle" xml:space="preserve"><value>Create Restore Point</value></data>
+  <data name="BloatRestorePointFailedPrompt" xml:space="preserve"><value>Restore point could not be created:
+{0}
+
+Continue removal without a restore point?</value></data>
+  <data name="BloatRestorePointFailedTitle" xml:space="preserve"><value>Restore Point Creation Failed</value></data>
+  <data name="BloatRestoreAllPrompt" xml:space="preserve"><value>This will restore {0} removed items.
+
+Any dependencies or settings will be re-installed from their original sources.
+
+Continue?</value></data>
+  <data name="BloatRestoreAllTitle" xml:space="preserve"><value>Restore All Removed Bloatware</value></data>
 </root>
