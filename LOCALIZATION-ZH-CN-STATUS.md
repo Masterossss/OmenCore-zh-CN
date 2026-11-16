@@ -51,3 +51,11 @@
 - 最终 Debug 解决方案构建 0 错误、0 警告；本地化及 NVIDIA 状态纯软件测试共 16 项通过。曾发现既有 NVIDIA 状态测试依赖系统英文，已改为分别指定英文和中文文化并复测通过。
 - 下一步从 NvidiaPowerService 的 `Reason`/`Outcome.Message`、GpuClampViewModel 的服务返回文字和 FanDiagnosticsViewModel 的 GuidedTestResult/诊断报告正文继续，先追踪是否同时用于日志或结构化导出；再审查 SystemControlViewModel 的 CPU/GPU 调校反馈，以及 Lighting、MemoryOptimizer、SystemOptimizer、Bloatware、托盘和 OSD。
 - 未执行真实 GUI 验证、实际硬件测试、驱动安装或最终发布打包；请勿将现有构建等同于完整验收。
+
+## 调用链显示层检查点（未完成）
+
+- 从 92afb29 起新增 44 个资源，中文资源共 834 键。NvidiaPowerDisplayText 在 ViewModel 显示边界匹配 29 种已核实的 NVIDIA 后端固定消息；GpuDiagnosticDisplayText 匹配 5 种固定拒绝原因。未识别、参数化或复合结果保留原文；服务返回值、控制判断和底层硬件代码未改变。
+- 风扇诊断新增 GuidedTestDisplay，界面显示已知报告标签和散热保护中断说明的中文；GuidedTestResult、复制按钮和日志仍使用原报告。动态依据、评级及其他诊断报告仍待处理。
+- 当前动态候选共 251 行，A 42、C 8、D 10、E 191；其中 47 已资源化、8 已核实、5 部分资源化、191 待审查。静态候选共 1263 行，A 554、B 19、E 690。这些是扫描入口而非未翻译字符串总数。
+- Debug 解决方案构建 0 错误、0 警告；本地化与 NVIDIA 状态纯软件测试 19 项通过；38 个 Views/Controls XAML 和资源文件 XML 解析通过。未执行真实 GUI 验证或硬件操作，未达到最终发布条件。
+- 下一步：继续逐项处理 NvidiaPowerService/后端参数化结果、GpuClampViewModel 及适配器和 APU 服务结果；审查 FanDiagnosticsViewModel 的 RGB 结果、动态依据及报告内容；随后处理 CPU 调校、灯光、内存优化、系统优化、托盘和 OSD。未知技术文本仍保留原文，不能将本检查点当作完整模块验收。
