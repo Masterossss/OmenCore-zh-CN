@@ -1865,4 +1865,43 @@
   <data name="SafetyCriticalBatch20" xml:space="preserve"><value>手动创建还原点</value></data>
   <data name="SafetyCriticalBatch21" xml:space="preserve"><value>——不正确的数值可能导致崩溃或死机。请从小幅调整开始，并测试稳定性。除非启用自动应用，否则设置会在重启后重置。</value></data>
   <data name="BloatRestoreFailed" xml:space="preserve"><value>失败：无法还原 {0}</value></data>
+  <data name="DiagnosticsCapabilityBatch0" xml:space="preserve"><value>✓ 用户已验证的配置</value></data>
+  <data name="DiagnosticsCapabilityBatch1" xml:space="preserve"><value>⚠ 推断结果，尚未验证</value></data>
+  <data name="DiagnosticsCapabilityBatch2" xml:space="preserve"><value>✓ 支持</value></data>
+  <data name="DiagnosticsCapabilityBatch3" xml:space="preserve"><value>✗ 不支持</value></data>
+  <data name="DiagnosticsCapabilityBatch4" xml:space="preserve"><value>✓ 存在</value></data>
+  <data name="DiagnosticsCapabilityBatch5" xml:space="preserve"><value>✗ 不存在</value></data>
+  <data name="FanCalServiceUnavailable" xml:space="preserve"><value>当前环境中的风扇校准服务不可用。</value></data>
+  <data name="FanCalWizardUnavailable" xml:space="preserve"><value>无法运行校准向导：缺少风扇验证服务。</value></data>
+  <data name="FanCalModel" xml:space="preserve"><value>机型：{0}
+机型 ID：{1}</value></data>
+  <data name="FanCalModelError" xml:space="preserve"><value>无法检测机型信息</value></data>
+  <data name="FanCalAvailable" xml:space="preserve"><value>已有校准数据（创建于 {0}）</value></data>
+  <data name="FanCalNone" xml:space="preserve"><value>未找到校准数据，请先运行校准</value></data>
+  <data name="FanCalVerifyUnavailable" xml:space="preserve"><value>风扇验证服务不可用。</value></data>
+  <data name="FanCalStatus" xml:space="preserve"><value>当前：{0} RPM（档位：{1}，来源：{2}）
+估计转速：约 {3}%</value></data>
+  <data name="FanCalReadError" xml:space="preserve"><value>读取风扇状态时出错：{0}</value></data>
+  <data name="FanCalStartUnavailable" xml:space="preserve"><value>风扇验证服务不可用。请检查硬件监控是否正常工作。</value></data>
+  <data name="FanCalUnavailableTitle" xml:space="preserve"><value>校准不可用</value></data>
+  <data name="FanCalStartPrompt" xml:space="preserve"><value>风扇校准将测试 0% 至 100% 的转速，可能需要 5–10 分钟。
+
+• 请确保笔记本电脑通风良好
+• 请勿中断校准过程
+• 风扇将以不同转速运行
+
+是否继续校准？</value></data>
+  <data name="FanCalStartTitle" xml:space="preserve"><value>开始风扇校准</value></data>
+  <data name="FanCalStarting" xml:space="preserve"><value>正在开始校准…</value></data>
+  <data name="FanCalCompleted" xml:space="preserve"><value>校准已完成</value></data>
+  <data name="FanCalCanceled" xml:space="preserve"><value>校准已取消</value></data>
+  <data name="FanCalFailed" xml:space="preserve"><value>校准失败：{0}</value></data>
+  <data name="FanCalErrorTitle" xml:space="preserve"><value>校准错误</value></data>
+  <data name="FanCalSuccess" xml:space="preserve"><value>校准成功：在 {1:F1} 秒内完成 {0} 个测试点</value></data>
+  <data name="FanCalPartial" xml:space="preserve"><value>校准完成但存在问题：共 {0} 个测试点，{1} 个失败</value></data>
+  <data name="FanCalPass" xml:space="preserve"><value>✓ 通过</value></data>
+  <data name="FanCalFail" xml:space="preserve"><value>✗ 失败</value></data>
+  <data name="FanCalAutoTitle" xml:space="preserve"><value>无法恢复自动模式</value></data>
+  <data name="FanCalAutoRestored" xml:space="preserve"><value>已恢复 BIOS 自动风扇控制</value></data>
+  <data name="FanCalAutoFailed" xml:space="preserve"><value>无法通过此后端恢复 BIOS 自动风扇控制</value></data>
 </root>

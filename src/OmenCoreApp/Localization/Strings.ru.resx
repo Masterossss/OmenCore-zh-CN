@@ -1869,4 +1869,43 @@ Continue?</value></data>
   <data name="SafetyCriticalBatch20" xml:space="preserve"><value>Create Manual Restore Point</value></data>
   <data name="SafetyCriticalBatch21" xml:space="preserve"><value> — Improper values may cause crashes or freezes. Start small, test stability. Settings reset on reboot unless auto-apply is enabled.</value></data>
   <data name="BloatRestoreFailed" xml:space="preserve"><value>Failed: Restore failed: {0}</value></data>
+  <data name="DiagnosticsCapabilityBatch0" xml:space="preserve"><value>✓ User-verified profile</value></data>
+  <data name="DiagnosticsCapabilityBatch1" xml:space="preserve"><value>⚠ Inferred, not yet verified</value></data>
+  <data name="DiagnosticsCapabilityBatch2" xml:space="preserve"><value>✓ Supported</value></data>
+  <data name="DiagnosticsCapabilityBatch3" xml:space="preserve"><value>✗ Not supported</value></data>
+  <data name="DiagnosticsCapabilityBatch4" xml:space="preserve"><value>✓ Present</value></data>
+  <data name="DiagnosticsCapabilityBatch5" xml:space="preserve"><value>✗ Not present</value></data>
+  <data name="FanCalServiceUnavailable" xml:space="preserve"><value>Fan calibration service is unavailable in this context.</value></data>
+  <data name="FanCalWizardUnavailable" xml:space="preserve"><value>Calibration wizard cannot run: missing fan verification service.</value></data>
+  <data name="FanCalModel" xml:space="preserve"><value>Model: {0}
+Model ID: {1}</value></data>
+  <data name="FanCalModelError" xml:space="preserve"><value>Failed to detect model information</value></data>
+  <data name="FanCalAvailable" xml:space="preserve"><value>Calibration available (created {0})</value></data>
+  <data name="FanCalNone" xml:space="preserve"><value>No calibration data found - run calibration first</value></data>
+  <data name="FanCalVerifyUnavailable" xml:space="preserve"><value>Fan verification service is unavailable.</value></data>
+  <data name="FanCalStatus" xml:space="preserve"><value>Current: {0} RPM (Level: {1}, Source: {2})
+Estimated: ~{3}% speed</value></data>
+  <data name="FanCalReadError" xml:space="preserve"><value>Error reading fan status: {0}</value></data>
+  <data name="FanCalStartUnavailable" xml:space="preserve"><value>Fan verification service is not available. Please check that hardware monitoring is working.</value></data>
+  <data name="FanCalUnavailableTitle" xml:space="preserve"><value>Calibration Unavailable</value></data>
+  <data name="FanCalStartPrompt" xml:space="preserve"><value>Fan calibration will test speeds from 0% to 100% and may take 5-10 minutes.
+
+• Ensure your laptop has good ventilation
+• Do not interrupt the process
+• Fans will run at various speeds
+
+Continue with calibration?</value></data>
+  <data name="FanCalStartTitle" xml:space="preserve"><value>Start Fan Calibration</value></data>
+  <data name="FanCalStarting" xml:space="preserve"><value>Starting calibration...</value></data>
+  <data name="FanCalCompleted" xml:space="preserve"><value>Calibration completed</value></data>
+  <data name="FanCalCanceled" xml:space="preserve"><value>Calibration cancelled</value></data>
+  <data name="FanCalFailed" xml:space="preserve"><value>Calibration failed: {0}</value></data>
+  <data name="FanCalErrorTitle" xml:space="preserve"><value>Calibration Error</value></data>
+  <data name="FanCalSuccess" xml:space="preserve"><value>Calibration successful - {0} test points completed in {1:F1} seconds</value></data>
+  <data name="FanCalPartial" xml:space="preserve"><value>Calibration completed with issues - {0} test points, {1} failed</value></data>
+  <data name="FanCalPass" xml:space="preserve"><value>✓ Pass</value></data>
+  <data name="FanCalFail" xml:space="preserve"><value>✗ Fail</value></data>
+  <data name="FanCalAutoTitle" xml:space="preserve"><value>Restore Auto Unavailable</value></data>
+  <data name="FanCalAutoRestored" xml:space="preserve"><value>BIOS auto fan control restored</value></data>
+  <data name="FanCalAutoFailed" xml:space="preserve"><value>Could not restore BIOS auto fan control from this backend</value></data>
 </root>

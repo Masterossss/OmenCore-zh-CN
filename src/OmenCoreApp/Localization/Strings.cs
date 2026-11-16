@@ -1729,5 +1729,36 @@ namespace OmenCore.Localization
         public static string SafetyCriticalBatch20 => Get(nameof(SafetyCriticalBatch20));
         public static string SafetyCriticalBatch21 => Get(nameof(SafetyCriticalBatch21));
         public static string BloatRestoreFailed => Get(nameof(BloatRestoreFailed));
+        public static string DiagnosticsCapabilityBatch0 => Get(nameof(DiagnosticsCapabilityBatch0));
+        public static string DiagnosticsCapabilityBatch1 => Get(nameof(DiagnosticsCapabilityBatch1));
+        public static string DiagnosticsCapabilityBatch2 => Get(nameof(DiagnosticsCapabilityBatch2));
+        public static string DiagnosticsCapabilityBatch3 => Get(nameof(DiagnosticsCapabilityBatch3));
+        public static string DiagnosticsCapabilityBatch4 => Get(nameof(DiagnosticsCapabilityBatch4));
+        public static string DiagnosticsCapabilityBatch5 => Get(nameof(DiagnosticsCapabilityBatch5));
+        public static string FanCalServiceUnavailable => Get(nameof(FanCalServiceUnavailable));
+        public static string FanCalWizardUnavailable => Get(nameof(FanCalWizardUnavailable));
+        public static string FanCalModel => Get(nameof(FanCalModel));
+        public static string FanCalModelError => Get(nameof(FanCalModelError));
+        public static string FanCalAvailable => Get(nameof(FanCalAvailable));
+        public static string FanCalNone => Get(nameof(FanCalNone));
+        public static string FanCalVerifyUnavailable => Get(nameof(FanCalVerifyUnavailable));
+        public static string FanCalStatus => Get(nameof(FanCalStatus));
+        public static string FanCalReadError => Get(nameof(FanCalReadError));
+        public static string FanCalStartUnavailable => Get(nameof(FanCalStartUnavailable));
+        public static string FanCalUnavailableTitle => Get(nameof(FanCalUnavailableTitle));
+        public static string FanCalStartPrompt => Get(nameof(FanCalStartPrompt));
+        public static string FanCalStartTitle => Get(nameof(FanCalStartTitle));
+        public static string FanCalStarting => Get(nameof(FanCalStarting));
+        public static string FanCalCompleted => Get(nameof(FanCalCompleted));
+        public static string FanCalCanceled => Get(nameof(FanCalCanceled));
+        public static string FanCalFailed => Get(nameof(FanCalFailed));
+        public static string FanCalErrorTitle => Get(nameof(FanCalErrorTitle));
+        public static string FanCalSuccess => Get(nameof(FanCalSuccess));
+        public static string FanCalPartial => Get(nameof(FanCalPartial));
+        public static string FanCalPass => Get(nameof(FanCalPass));
+        public static string FanCalFail => Get(nameof(FanCalFail));
+        public static string FanCalAutoTitle => Get(nameof(FanCalAutoTitle));
+        public static string FanCalAutoRestored => Get(nameof(FanCalAutoRestored));
+        public static string FanCalAutoFailed => Get(nameof(FanCalAutoFailed));
     }
 }

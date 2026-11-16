@@ -10,6 +10,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Threading;
 using OmenCore.Services;
+using OmenCore.Localization;
 
 namespace OmenCore.Controls
 {
@@ -58,8 +59,8 @@ namespace OmenCore.Controls
         {
             if (_fanVerifier == null)
             {
-                ModelInfoText.Text = "Fan calibration service is unavailable in this context.";
-                CalibrationStatusText.Text = "Calibration wizard cannot run: missing fan verification service.";
+                ModelInfoText.Text = Strings.FanCalServiceUnavailable;
+                CalibrationStatusText.Text = Strings.FanCalWizardUnavailable;
                 CalibrationStatusText.Foreground = System.Windows.Media.Brushes.OrangeRed;
                 StartCalibrationButton.IsEnabled = false;
                 LoadCalibrationButton.IsEnabled = false;
@@ -97,12 +98,12 @@ namespace OmenCore.Controls
                 // Generate model ID from model info
                 _currentModelId = GenerateModelId(modelInfo);
 
-                ModelInfoText.Text = $"Model: {modelInfo}\nModel ID: {_currentModelId}";
+                ModelInfoText.Text = string.Format(Strings.FanCalModel, modelInfo, _currentModelId);
             }
             catch (Exception ex)
             {
                 _logging.Error($"Failed to load model information: {ex.Message}", ex);
-                ModelInfoText.Text = "Failed to detect model information";
+                ModelInfoText.Text = Strings.FanCalModelError;
                 _currentModelId = "unknown";
             }
         }
@@ -112,13 +113,13 @@ namespace OmenCore.Controls
             if (_calibrationStorage.HasCalibration(_currentModelId))
             {
                 var calibration = _calibrationStorage.GetCalibration(_currentModelId);
-                CalibrationStatusText.Text = $"Calibration available (created {calibration?.CreatedDate.ToShortDateString()})";
+                CalibrationStatusText.Text = string.Format(Strings.FanCalAvailable, calibration?.CreatedDate.ToShortDateString());
                 CalibrationStatusText.Foreground = System.Windows.Media.Brushes.Green;
                 LoadCalibrationButton.IsEnabled = true;
             }
             else
             {
-                CalibrationStatusText.Text = "No calibration data found - run calibration first";
+                CalibrationStatusText.Text = Strings.FanCalNone;
                 CalibrationStatusText.Foreground = System.Windows.Media.Brushes.Orange;
                 LoadCalibrationButton.IsEnabled = false;
             }
@@ -140,7 +141,7 @@ namespace OmenCore.Controls
         {
             if (_fanVerifier == null)
             {
-                FanStatusText.Text = "Fan verification service is unavailable.";
+                FanStatusText.Text = Strings.FanCalVerifyUnavailable;
                 return;
             }
 
@@ -149,11 +150,11 @@ namespace OmenCore.Controls
                 var (rpm, level, source) = _fanVerifier.GetCurrentFanStateWithSource(_selectedFanIndex);
                 var expectedPercent = _calibrationStorage.GetCalibratedPercent(_currentModelId, _selectedFanIndex, rpm);
 
-                FanStatusText.Text = $"Current: {rpm} RPM (Level: {level}, Source: {source})\nEstimated: ~{expectedPercent}% speed";
+                FanStatusText.Text = string.Format(Strings.FanCalStatus, rpm, level, source, expectedPercent);
             }
             catch (Exception ex)
             {
-                FanStatusText.Text = $"Error reading fan status: {ex.Message}";
+                FanStatusText.Text = string.Format(Strings.FanCalReadError, ex.Message);
                 _logging.Error($"Failed to update fan status: {ex.Message}", ex);
             }
         }
@@ -162,18 +163,14 @@ namespace OmenCore.Controls
         {
             if (_fanVerifier == null || !_fanVerifier.IsAvailable)
             {
-                MessageBox.Show("Fan verification service is not available. Please check that hardware monitoring is working.",
-                              "Calibration Unavailable", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show(Strings.FanCalStartUnavailable,
+                              Strings.FanCalUnavailableTitle, MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
             var result = MessageBox.Show(
-                "Fan calibration will test speeds from 0% to 100% and may take 5-10 minutes.\n\n" +
-                "• Ensure your laptop has good ventilation\n" +
-                "• Do not interrupt the process\n" +
-                "• Fans will run at various speeds\n\n" +
-                "Continue with calibration?",
-                "Start Fan Calibration",
+                Strings.FanCalStartPrompt,
+                Strings.FanCalStartTitle,
                 MessageBoxButton.YesNo,
                 MessageBoxImage.Question);
 
@@ -202,14 +199,14 @@ namespace OmenCore.Controls
                 SaveCalibrationButton.Visibility = Visibility.Collapsed;
 
                 CalibrationProgress.Value = 0;
-                ProgressText.Text = "Starting calibration...";
+                ProgressText.Text = Strings.FanCalStarting;
 
                 // Perform calibration
                 var calibrationResult = await _fanVerifier.PerformFanCalibrationAsync(_selectedFanIndex, _calibrationCts.Token);
 
                 // Update progress
                 CalibrationProgress.Value = 100;
-                ProgressText.Text = "Calibration completed";
+                ProgressText.Text = Strings.FanCalCompleted;
 
                 // Show results
                 await DisplayCalibrationResultsAsync(calibrationResult);
@@ -225,14 +222,14 @@ namespace OmenCore.Controls
             }
             catch (OperationCanceledException)
             {
-                ProgressText.Text = "Calibration cancelled";
+                ProgressText.Text = Strings.FanCalCanceled;
                 _logging.Info("Fan calibration cancelled by user");
             }
             catch (Exception ex)
             {
-                ProgressText.Text = $"Calibration failed: {ex.Message}";
+                ProgressText.Text = string.Format(Strings.FanCalFailed, ex.Message);
                 _logging.Error($"Fan calibration failed: {ex.Message}", ex);
-                MessageBox.Show($"Calibration failed: {ex.Message}", "Calibration Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show(string.Format(Strings.FanCalFailed, ex.Message), Strings.FanCalErrorTitle, MessageBoxButton.OK, MessageBoxImage.Error);
             }
             finally
             {
@@ -250,12 +247,12 @@ namespace OmenCore.Controls
 
             if (result.Success)
             {
-                ResultsSummaryText.Text = $"Calibration successful - {result.CalibrationPoints.Count} test points completed in {result.Duration.TotalSeconds:F1} seconds";
+                ResultsSummaryText.Text = string.Format(Strings.FanCalSuccess, result.CalibrationPoints.Count, result.Duration.TotalSeconds);
                 ResultsSummaryText.Foreground = System.Windows.Media.Brushes.Green;
             }
             else
             {
-                ResultsSummaryText.Text = $"Calibration completed with issues - {result.CalibrationPoints.Count} test points, {result.CalibrationPoints.Count(p => !p.VerificationPassed)} failed";
+                ResultsSummaryText.Text = string.Format(Strings.FanCalPartial, result.CalibrationPoints.Count, result.CalibrationPoints.Count(p => !p.VerificationPassed));
                 ResultsSummaryText.Foreground = System.Windows.Media.Brushes.Orange;
             }
 
@@ -266,7 +263,7 @@ namespace OmenCore.Controls
                 AppliedLevel = p.AppliedLevel,
                 MeasuredRpm = p.MeasuredRpm,
                 RpmRange = $"{p.RpmRangeMin}-{p.RpmRangeMax}",
-                Status = p.VerificationPassed ? "✓ Pass" : "✗ Fail",
+                Status = p.VerificationPassed ? Strings.FanCalPass : Strings.FanCalFail,
                 DurationFormatted = p.Duration.TotalSeconds.ToString("F1") + "s"
             }).ToList();
 
@@ -284,14 +281,14 @@ namespace OmenCore.Controls
         {
             if (_fanVerifier == null)
             {
-                MessageBox.Show("Fan verification service is unavailable.", "Restore Auto Unavailable", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show(Strings.FanCalVerifyUnavailable, Strings.FanCalAutoTitle, MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
             var restored = _fanVerifier.RestoreFanControlAfterCalibration();
             ProgressText.Text = restored
-                ? "BIOS auto fan control restored"
-                : "Could not restore BIOS auto fan control from this backend";
+                ? Strings.FanCalAutoRestored
+                : Strings.FanCalAutoFailed;
             ProgressGroup.Visibility = Visibility.Visible;
             UpdateFanStatus();
         }

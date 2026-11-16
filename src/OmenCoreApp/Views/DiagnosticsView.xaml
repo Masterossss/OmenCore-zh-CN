@@ -300,12 +300,12 @@
                         <Border Grid.Column="1" CornerRadius="6" Padding="10,4" VerticalAlignment="Center"
                                 Background="#1A00FF88"
                                 Visibility="{Binding DetectedCapabilities.ModelConfig.UserVerified, Converter={StaticResource BoolToVisibility}}">
-                            <TextBlock Text="✓ User-verified profile" FontSize="10" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}"/>
+                            <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch0}" FontSize="10" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}"/>
                         </Border>
                         <Border Grid.Column="1" CornerRadius="6" Padding="10,4" VerticalAlignment="Center"
                                 Background="#1AFF9800"
                                 Visibility="{Binding DetectedCapabilities.ModelConfig.UserVerified, Converter={StaticResource InverseBoolToVisibility}}">
-                            <TextBlock Text="⚠ Inferred, not yet verified" FontSize="10" FontWeight="SemiBold" Foreground="{StaticResource WarningBrush}"/>
+                            <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch1}" FontSize="10" FontWeight="SemiBold" Foreground="{StaticResource WarningBrush}"/>
                         </Border>
                     </Grid>
 
@@ -324,8 +324,8 @@
                                 <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
                                 <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.DiagnosticsViewText324}" FontSize="12" Foreground="{StaticResource TextPrimaryBrush}" VerticalAlignment="Center"/>
                                 <StackPanel Grid.Column="1" Orientation="Horizontal">
-                                    <TextBlock Text="✓ Supported" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsFanCurves, Converter={StaticResource BoolToVisibility}}"/>
-                                    <TextBlock Text="✗ Not supported" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsFanCurves, Converter={StaticResource InverseBoolToVisibility}}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch2}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsFanCurves, Converter={StaticResource BoolToVisibility}}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch3}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsFanCurves, Converter={StaticResource InverseBoolToVisibility}}"/>
                                 </StackPanel>
                             </Grid>
                         </Border>
@@ -334,8 +334,8 @@
                                 <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
                                 <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.DiagnosticsViewText334}" FontSize="12" Foreground="{StaticResource TextPrimaryBrush}" VerticalAlignment="Center"/>
                                 <StackPanel Grid.Column="1" Orientation="Horizontal">
-                                    <TextBlock Text="✓ Supported" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsIndependentFanCurves, Converter={StaticResource BoolToVisibility}}"/>
-                                    <TextBlock Text="✗ Not supported" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsIndependentFanCurves, Converter={StaticResource InverseBoolToVisibility}}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch2}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsIndependentFanCurves, Converter={StaticResource BoolToVisibility}}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch3}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsIndependentFanCurves, Converter={StaticResource InverseBoolToVisibility}}"/>
                                 </StackPanel>
                             </Grid>
                         </Border>
@@ -351,8 +351,8 @@
                                 <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
                                 <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.DiagnosticsViewText351}" FontSize="12" Foreground="{StaticResource TextPrimaryBrush}" VerticalAlignment="Center"/>
                                 <StackPanel Grid.Column="1" Orientation="Horizontal">
-                                    <TextBlock Text="✓ Present" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.HasMuxSwitch, Converter={StaticResource BoolToVisibility}}"/>
-                                    <TextBlock Text="✗ Not present" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.HasMuxSwitch, Converter={StaticResource InverseBoolToVisibility}}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch4}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.HasMuxSwitch, Converter={StaticResource BoolToVisibility}}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch5}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.HasMuxSwitch, Converter={StaticResource InverseBoolToVisibility}}"/>
                                 </StackPanel>
                             </Grid>
                         </Border>
@@ -361,8 +361,8 @@
                                 <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
                                 <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.DiagnosticsViewText361}" FontSize="12" Foreground="{StaticResource TextPrimaryBrush}" VerticalAlignment="Center"/>
                                 <StackPanel Grid.Column="1" Orientation="Horizontal">
-                                    <TextBlock Text="✓ Supported" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsGpuPowerBoost, Converter={StaticResource BoolToVisibility}}"/>
-                                    <TextBlock Text="✗ Not supported" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsGpuPowerBoost, Converter={StaticResource InverseBoolToVisibility}}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch2}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsGpuPowerBoost, Converter={StaticResource BoolToVisibility}}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch3}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsGpuPowerBoost, Converter={StaticResource InverseBoolToVisibility}}"/>
                                 </StackPanel>
                             </Grid>
                         </Border>
@@ -371,8 +371,8 @@
                                 <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
                                 <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.DiagnosticsViewText371}" FontSize="12" Foreground="{StaticResource TextPrimaryBrush}" VerticalAlignment="Center"/>
                                 <StackPanel Grid.Column="1" Orientation="Horizontal">
-                                    <TextBlock Text="✓ Supported" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsAdvancedOptimus, Converter={StaticResource BoolToVisibility}}"/>
-                                    <TextBlock Text="✗ Not supported" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsAdvancedOptimus, Converter={StaticResource InverseBoolToVisibility}}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch2}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsAdvancedOptimus, Converter={StaticResource BoolToVisibility}}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch3}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsAdvancedOptimus, Converter={StaticResource InverseBoolToVisibility}}"/>
                                 </StackPanel>
                             </Grid>
                         </Border>
@@ -381,8 +381,8 @@
                                 <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
                                 <TextBlock Grid.Column="0" Text="4-zone keyboard RGB" FontSize="12" Foreground="{StaticResource TextPrimaryBrush}" VerticalAlignment="Center"/>
                                 <StackPanel Grid.Column="1" Orientation="Horizontal">
-                                    <TextBlock Text="✓ Supported" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.HasFourZoneRgb, Converter={StaticResource BoolToVisibility}}"/>
-                                    <TextBlock Text="✗ Not supported" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.HasFourZoneRgb, Converter={StaticResource InverseBoolToVisibility}}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch2}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.HasFourZoneRgb, Converter={StaticResource BoolToVisibility}}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch3}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.HasFourZoneRgb, Converter={StaticResource InverseBoolToVisibility}}"/>
                                 </StackPanel>
                             </Grid>
                         </Border>
@@ -391,8 +391,8 @@
                                 <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
                                 <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.DiagnosticsViewText391}" FontSize="12" Foreground="{StaticResource TextPrimaryBrush}" VerticalAlignment="Center"/>
                                 <StackPanel Grid.Column="1" Orientation="Horizontal">
-                                    <TextBlock Text="✓ Supported" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.HasPerKeyRgb, Converter={StaticResource BoolToVisibility}}"/>
-                                    <TextBlock Text="✗ Not supported" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.HasPerKeyRgb, Converter={StaticResource InverseBoolToVisibility}}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch2}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.HasPerKeyRgb, Converter={StaticResource BoolToVisibility}}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch3}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.HasPerKeyRgb, Converter={StaticResource InverseBoolToVisibility}}"/>
                                 </StackPanel>
                             </Grid>
                         </Border>
@@ -401,8 +401,8 @@
                                 <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
                                 <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.DiagnosticsViewText401}" FontSize="12" Foreground="{StaticResource TextPrimaryBrush}" VerticalAlignment="Center"/>
                                 <StackPanel Grid.Column="1" Orientation="Horizontal">
-                                    <TextBlock Text="✓ Present" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.HasLightBar, Converter={StaticResource BoolToVisibility}}"/>
-                                    <TextBlock Text="✗ Not present" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.HasLightBar, Converter={StaticResource InverseBoolToVisibility}}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch4}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.HasLightBar, Converter={StaticResource BoolToVisibility}}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch5}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.HasLightBar, Converter={StaticResource InverseBoolToVisibility}}"/>
                                 </StackPanel>
                             </Grid>
                         </Border>
@@ -411,8 +411,8 @@
                                 <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
                                 <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.DiagnosticsViewText411}" FontSize="12" Foreground="{StaticResource TextPrimaryBrush}" VerticalAlignment="Center"/>
                                 <StackPanel Grid.Column="1" Orientation="Horizontal">
-                                    <TextBlock Text="✓ Supported" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsUndervolt, Converter={StaticResource BoolToVisibility}}"/>
-                                    <TextBlock Text="✗ Not supported" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsUndervolt, Converter={StaticResource InverseBoolToVisibility}}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch2}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsUndervolt, Converter={StaticResource BoolToVisibility}}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch3}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsUndervolt, Converter={StaticResource InverseBoolToVisibility}}"/>
                                 </StackPanel>
                             </Grid>
                         </Border>
@@ -428,8 +428,8 @@
                                 <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
                                 <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.DiagnosticsViewText428}" FontSize="12" Foreground="{StaticResource TextPrimaryBrush}" VerticalAlignment="Center"/>
                                 <StackPanel Grid.Column="1" Orientation="Horizontal">
-                                    <TextBlock Text="✓ Supported" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsOverboost, Converter={StaticResource BoolToVisibility}}"/>
-                                    <TextBlock Text="✗ Not supported" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsOverboost, Converter={StaticResource InverseBoolToVisibility}}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch2}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SuccessBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsOverboost, Converter={StaticResource BoolToVisibility}}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.DiagnosticsCapabilityBatch3}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Visibility="{Binding DetectedCapabilities.ModelConfig.SupportsOverboost, Converter={StaticResource InverseBoolToVisibility}}"/>
                                 </StackPanel>
                             </Grid>
                         </Border>
