@@ -216,4 +216,46 @@
   <data name="DpiSavePrompt" xml:space="preserve"><value>输入 DPI 配置文件的名称：</value></data>
   <data name="DpiOverwriteTitle" xml:space="preserve"><value>覆盖 DPI 配置文件</value></data>
   <data name="DpiOverwritePrompt" xml:space="preserve"><value>名为“{0}”的 DPI 配置文件已存在。是否覆盖？</value></data>
+  <data name="DashboardText01" xml:space="preserve"><value>系统概览</value></data>
+  <data name="DashboardText02" xml:space="preserve"><value>实时硬件数据</value></data>
+  <data name="DashboardText03" xml:space="preserve"><value>性能受限</value></data>
+  <data name="DashboardText04" xml:space="preserve"><value>刷新仪表盘数据</value></data>
+  <data name="DashboardText05" xml:space="preserve"><value>刷新</value></data>
+  <data name="DashboardText06" xml:space="preserve"><value>CPU 峰值：</value></data>
+  <data name="DashboardText07" xml:space="preserve"><value>GPU 峰值：</value></data>
+  <data name="DashboardText08" xml:space="preserve"><value>风扇</value></data>
+  <data name="DashboardText09" xml:space="preserve"><value>性能模式</value></data>
+  <data name="DashboardText10" xml:space="preserve"><value>风扇模式</value></data>
+  <data name="DashboardText11" xml:space="preserve"><value>功率</value></data>
+  <data name="DashboardText12" xml:space="preserve"><value>CPU 温度和利用率。绿色表示正常，黄色表示温热，橙色表示高温，红色表示危险。</value></data>
+  <data name="DashboardText13" xml:space="preserve"><value>处理器</value></data>
+  <data name="DashboardText14" xml:space="preserve"><value>GPU 温度、负载和显存使用情况。GPU 的安全工作温度可以高于 CPU。</value></data>
+  <data name="DashboardText15" xml:space="preserve"><value>显卡</value></data>
+  <data name="DashboardText16" xml:space="preserve"><value>温度状态</value></data>
+  <data name="DashboardText17" xml:space="preserve"><value>系统内存使用情况。使用率过高可能导致运行缓慢，请考虑关闭不用的应用。</value></data>
+  <data name="DashboardText18" xml:space="preserve"><value>内存</value></data>
+  <data name="DashboardText19" xml:space="preserve"><value>内存使用指示</value></data>
+  <data name="DashboardText20" xml:space="preserve"><value>存储</value></data>
+  <data name="DashboardText21" xml:space="preserve"><value>SSD 温度指示</value></data>
+  <data name="DashboardText22" xml:space="preserve"><value>电池电量及电源状态。为延长电池寿命，建议将电量保持在 20% 至 80% 之间。</value></data>
+  <data name="DashboardText23" xml:space="preserve"><value>电池</value></data>
+  <data name="DashboardText24" xml:space="preserve"><value>电池电量指示</value></data>
+  <data name="DashboardText25" xml:space="preserve"><value>CPU 和 GPU 的系统功耗。数值越高表示工作负载越重。</value></data>
+  <data name="DashboardText26" xml:space="preserve"><value>系统总功耗</value></data>
+  <data name="DashboardText27" xml:space="preserve"><value>实时风扇曲线，显示温度与风扇转速之间的关系。</value></data>
+  <data name="DashboardText28" xml:space="preserve"><value>风扇曲线</value></data>
+  <data name="DashboardText29" xml:space="preserve"><value>当前风扇转速</value></data>
+  <data name="DashboardText30" xml:space="preserve"><value>历史记录：</value></data>
+  <data name="DashboardText31" xml:space="preserve"><value>CPU 温度</value></data>
+  <data name="DashboardText32" xml:space="preserve"><value>GPU 温度</value></data>
+  <data name="DashboardText33" xml:space="preserve"><value>利用率</value></data>
+  <data name="DashboardText34" xml:space="preserve"><value>CPU 频率</value></data>
+  <data name="DashboardText35" xml:space="preserve"><value>GPU 电压与电流</value></data>
+  <data name="DashboardText36" xml:space="preserve"><value>电压</value></data>
+  <data name="DashboardText37" xml:space="preserve"><value>电流</value></data>
+  <data name="DashboardText38" xml:space="preserve"><value>CPU 风扇</value></data>
+  <data name="DashboardText39" xml:space="preserve"><value>GPU 风扇</value></data>
+  <data name="DashboardText40" xml:space="preserve"><value>降低 CPU 占用模式</value></data>
+  <data name="DashboardText41" xml:space="preserve"><value>实时图表已禁用，以减少监控开销。</value></data>
+  <data name="DashboardText42" xml:space="preserve"><value>上方仍可查看硬件摘要信息。</value></data>
 </root>

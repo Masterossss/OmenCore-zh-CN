@@ -224,4 +224,46 @@ Open GitHub releases to download manually?</value></data>
   <data name="DpiSavePrompt" xml:space="preserve"><value>Enter a name for the DPI profile:</value></data>
   <data name="DpiOverwriteTitle" xml:space="preserve"><value>Overwrite DPI Profile</value></data>
   <data name="DpiOverwritePrompt" xml:space="preserve"><value>A DPI profile named '{0}' already exists. Overwrite it?</value></data>
+  <data name="DashboardText01" xml:space="preserve"><value>System Overview</value></data>
+  <data name="DashboardText02" xml:space="preserve"><value>Real-time hardware telemetry</value></data>
+  <data name="DashboardText03" xml:space="preserve"><value>THROTTLING</value></data>
+  <data name="DashboardText04" xml:space="preserve"><value>Refresh dashboard readings</value></data>
+  <data name="DashboardText05" xml:space="preserve"><value>Refresh</value></data>
+  <data name="DashboardText06" xml:space="preserve"><value>CPU Peak:</value></data>
+  <data name="DashboardText07" xml:space="preserve"><value>GPU Peak:</value></data>
+  <data name="DashboardText08" xml:space="preserve"><value>FANS</value></data>
+  <data name="DashboardText09" xml:space="preserve"><value>PERFORMANCE MODE</value></data>
+  <data name="DashboardText10" xml:space="preserve"><value>FAN MODE</value></data>
+  <data name="DashboardText11" xml:space="preserve"><value>POWER</value></data>
+  <data name="DashboardText12" xml:space="preserve"><value>CPU temperature and utilization. Green = OK, Yellow = Warm, Orange = Hot, Red = Critical</value></data>
+  <data name="DashboardText13" xml:space="preserve"><value>PROCESSOR</value></data>
+  <data name="DashboardText14" xml:space="preserve"><value>GPU temperature, load, and VRAM usage. GPUs can safely run hotter than CPUs.</value></data>
+  <data name="DashboardText15" xml:space="preserve"><value>GRAPHICS</value></data>
+  <data name="DashboardText16" xml:space="preserve"><value>Temperature status</value></data>
+  <data name="DashboardText17" xml:space="preserve"><value>System RAM usage. High usage may cause slowdowns - consider closing unused applications.</value></data>
+  <data name="DashboardText18" xml:space="preserve"><value>MEMORY</value></data>
+  <data name="DashboardText19" xml:space="preserve"><value>Memory usage indicator</value></data>
+  <data name="DashboardText20" xml:space="preserve"><value>STORAGE</value></data>
+  <data name="DashboardText21" xml:space="preserve"><value>SSD temperature indicator</value></data>
+  <data name="DashboardText22" xml:space="preserve"><value>Battery charge level and power status. Keep battery between 20-80% for longevity.</value></data>
+  <data name="DashboardText23" xml:space="preserve"><value>BATTERY</value></data>
+  <data name="DashboardText24" xml:space="preserve"><value>Battery level indicator</value></data>
+  <data name="DashboardText25" xml:space="preserve"><value>System power consumption from CPU and GPU. Higher values indicate more intensive workloads.</value></data>
+  <data name="DashboardText26" xml:space="preserve"><value>Total system power</value></data>
+  <data name="DashboardText27" xml:space="preserve"><value>Live fan curve showing temperature vs fan speed relationship.</value></data>
+  <data name="DashboardText28" xml:space="preserve"><value>FAN CURVE</value></data>
+  <data name="DashboardText29" xml:space="preserve"><value>Current fan speeds</value></data>
+  <data name="DashboardText30" xml:space="preserve"><value>History:</value></data>
+  <data name="DashboardText31" xml:space="preserve"><value>CPU TEMPERATURE</value></data>
+  <data name="DashboardText32" xml:space="preserve"><value>GPU TEMPERATURE</value></data>
+  <data name="DashboardText33" xml:space="preserve"><value>UTILIZATION</value></data>
+  <data name="DashboardText34" xml:space="preserve"><value>CPU FREQUENCIES</value></data>
+  <data name="DashboardText35" xml:space="preserve"><value>GPU VOLTAGE &amp; CURRENT</value></data>
+  <data name="DashboardText36" xml:space="preserve"><value>VOLTAGE</value></data>
+  <data name="DashboardText37" xml:space="preserve"><value>CURRENT</value></data>
+  <data name="DashboardText38" xml:space="preserve"><value>CPU FAN</value></data>
+  <data name="DashboardText39" xml:space="preserve"><value>GPU FAN</value></data>
+  <data name="DashboardText40" xml:space="preserve"><value>Reduced CPU Usage Mode</value></data>
+  <data name="DashboardText41" xml:space="preserve"><value>Live charts are disabled to minimize monitoring overhead.</value></data>
+  <data name="DashboardText42" xml:space="preserve"><value>Hardware summary information is still available above.</value></data>
 </root>
