@@ -676,4 +676,144 @@ Open GitHub releases to download manually?</value></data>
   <data name="GameProfileManagerViewText406" xml:space="preserve"><value>Modified: </value></data>
   <data name="GameProfileManagerViewText417" xml:space="preserve"><value>Save &amp; Close</value></data>
   <data name="GameProfileManagerViewText422" xml:space="preserve"><value>Cancel</value></data>
+  <data name="SettingsReferenceText28Text" xml:space="preserve"><value>Configure application behavior, startup options, and driver settings</value></data>
+  <data name="SettingsReferenceText62Text" xml:space="preserve"><value>Search Results</value></data>
+  <data name="SettingsReferenceText100Text" xml:space="preserve"><value>System Status</value></data>
+  <data name="SettingsReferenceText111Text" xml:space="preserve"><value>Fan Control Backend</value></data>
+  <data name="SettingsReferenceText113Text" xml:space="preserve"><value>The method used to control fans on your system</value></data>
+  <data name="SettingsReferenceText133Text" xml:space="preserve"><value>Secure Boot</value></data>
+  <data name="SettingsReferenceText183Text" xml:space="preserve"><value>PawnIO Driver</value></data>
+  <data name="SettingsReferenceText185Text" xml:space="preserve"><value>Secure Boot compatible driver for EC/MSR access</value></data>
+  <data name="SettingsReferenceText225Text" xml:space="preserve"><value>HP's official control software - provides WMI access</value></data>
+  <data name="SettingsReferenceText292Text" xml:space="preserve"><value>Standalone Status</value></data>
+  <data name="SettingsReferenceText373Text" xml:space="preserve"><value>Model Identity Resolution</value></data>
+  <data name="SettingsReferenceText388Text" xml:space="preserve"><value>Resolved Model</value></data>
+  <data name="SettingsReferenceText401Text" xml:space="preserve"><value>Resolution Source</value></data>
+  <data name="SettingsReferenceText408Text" xml:space="preserve"><value>Confidence</value></data>
+  <data name="SettingsReferenceText421Text" xml:space="preserve"><value>Keyboard Profile</value></data>
+  <data name="SettingsReferenceText428Text" xml:space="preserve"><value>Keyboard Source</value></data>
+  <data name="SettingsReferenceText488Content" xml:space="preserve"><value>Copy Summary</value></data>
+  <data name="SettingsReferenceText506Text" xml:space="preserve"><value>PawnIO-Only Mode</value></data>
+  <data name="SettingsReferenceText528Text" xml:space="preserve"><value>BIOS WMI Reliability</value></data>
+  <data name="SettingsReferenceText918Text" xml:space="preserve"><value>Automatic monitoring cadence</value></data>
+  <data name="SettingsReferenceText930Text" xml:space="preserve"><value>Cadence tiers</value></data>
+  <data name="SettingsReferenceText944Text" xml:space="preserve"><value>Chart history</value></data>
+  <data name="SettingsReferenceText946Text" xml:space="preserve"><value>Number of data points to display in charts</value></data>
+  <data name="SettingsReferenceText969Text" xml:space="preserve"><value>Low overhead mode</value></data>
+  <data name="SettingsReferenceText971Text" xml:space="preserve"><value>Reduce CPU usage by limiting sensor polling</value></data>
+  <data name="SettingsReferenceText982Text" xml:space="preserve"><value>Live cadence status</value></data>
+  <data name="SettingsReferenceText1082Text" xml:space="preserve"><value>Hardware Worker</value></data>
+  <data name="SettingsReferenceText1093Text" xml:space="preserve"><value>Enable orphan timeout</value></data>
+  <data name="SettingsReferenceText1111Text" xml:space="preserve"><value>Orphan timeout duration</value></data>
+  <data name="SettingsReferenceText1140Text" xml:space="preserve"><value>Power Automation</value></data>
+  <data name="SettingsReferenceText1151Text" xml:space="preserve"><value>Auto-switch on power change</value></data>
+  <data name="SettingsReferenceText1163Text" xml:space="preserve"><value>When on AC Power:</value></data>
+  <data name="SettingsReferenceText1171Text" xml:space="preserve"><value>Fan preset</value></data>
+  <data name="SettingsReferenceText1185Text" xml:space="preserve"><value>Performance mode</value></data>
+  <data name="SettingsReferenceText1195Text" xml:space="preserve"><value>When on Battery:</value></data>
+  <data name="SettingsReferenceText1203Text" xml:space="preserve"><value>Fan preset</value></data>
+  <data name="SettingsReferenceText1217Text" xml:space="preserve"><value>Performance mode</value></data>
+  <data name="SettingsReferenceText1233Text" xml:space="preserve"><value>Link fan to performance mode</value></data>
+  <data name="SettingsReferenceText1235Text" xml:space="preserve"><value>Automatically apply the matching fan preset whenever you change performance mode.</value></data>
+  <data name="SettingsReferenceText1295Text" xml:space="preserve"><value>Restore last hardware settings on startup</value></data>
+  <data name="SettingsReferenceText1312Text" xml:space="preserve"><value>Allow startup restore on OMEN 16/Victus</value></data>
+  <data name="SettingsReferenceText1451Text" xml:space="preserve"><value>Updates</value></data>
+  <data name="SettingsReferenceText1462Text" xml:space="preserve"><value>Check for updates automatically</value></data>
+  <data name="SettingsReferenceText1464Text" xml:space="preserve"><value>Periodically check GitHub for new releases</value></data>
+  <data name="SettingsReferenceText1480Text" xml:space="preserve"><value>Check interval</value></data>
+  <data name="SettingsReferenceText1482Text" xml:space="preserve"><value>How often to check for updates</value></data>
+  <data name="SettingsReferenceText1504Text" xml:space="preserve"><value>Include pre-releases</value></data>
+  <data name="SettingsReferenceText1506Text" xml:space="preserve"><value>Get notified about beta and preview versions</value></data>
+  <data name="SettingsReferenceText1523Text" xml:space="preserve"><value>Hotkeys</value></data>
+  <data name="SettingsReferenceText1534Text" xml:space="preserve"><value>Enable global hotkeys</value></data>
+  <data name="SettingsReferenceText1536Text" xml:space="preserve"><value>Use keyboard shortcuts even when app is in background</value></data>
+  <data name="SettingsReferenceText1551Text" xml:space="preserve"><value>Only enable hotkeys when window is focused</value></data>
+  <data name="SettingsReferenceText1573Text" xml:space="preserve"><value>Experimental firmware Fn+P profile cycle</value></data>
+  <data name="SettingsReferenceText1588Text" xml:space="preserve"><value>Default Hotkeys</value></data>
+  <data name="SettingsReferenceText1607Text" xml:space="preserve"><value>Cycle fan modes</value></data>
+  <data name="SettingsReferenceText1612Text" xml:space="preserve"><value>Cycle performance modes</value></data>
+  <data name="SettingsReferenceText1627Text" xml:space="preserve"><value>Quiet mode</value></data>
+  <data name="SettingsReferenceText1632Text" xml:space="preserve"><value>Show/hide OmenCore window</value></data>
+  <data name="SettingsReferenceText1637Text" xml:space="preserve"><value>Show OmenCore window</value></data>
+  <data name="SettingsReferenceText1651Text" xml:space="preserve"><value>Notifications</value></data>
+  <data name="SettingsReferenceText1662Text" xml:space="preserve"><value>Enable notifications</value></data>
+  <data name="SettingsReferenceText1664Text" xml:space="preserve"><value>Show Windows toast notifications for events</value></data>
+  <data name="SettingsReferenceText1680Text" xml:space="preserve"><value>Game profile notifications</value></data>
+  <data name="SettingsReferenceText1699Text" xml:space="preserve"><value>Mode change notifications</value></data>
+  <data name="SettingsReferenceText1718Text" xml:space="preserve"><value>Temperature warnings</value></data>
+  <data name="SettingsReferenceText1720Text" xml:space="preserve"><value>Alert when CPU/GPU temperature exceeds threshold</value></data>
+  <data name="SettingsReferenceText1740Text" xml:space="preserve"><value>Hardware Driver</value></data>
+  <data name="SettingsReferenceText1825Text" xml:space="preserve"><value>BIOS Information</value></data>
+  <data name="SettingsReferenceText1922Text" xml:space="preserve"><value>HP Driver &amp; Support Resources</value></data>
+  <data name="SettingsReferenceText1941Text" xml:space="preserve"><value>HP Support</value></data>
+  <data name="SettingsReferenceText2371Text" xml:space="preserve"><value>Custom Fan Curves</value></data>
+  <data name="SettingsReferenceText2389Text" xml:space="preserve"><value>Power Source Automation</value></data>
+  <data name="SettingsReferenceText2407Text" xml:space="preserve"><value>GPU Mode Switching</value></data>
+  <data name="SettingsReferenceText2425Text" xml:space="preserve"><value>CPU Undervolt Controls</value></data>
+  <data name="SettingsReferenceText2447Text" xml:space="preserve"><value>OMEN Key Interception</value></data>
+  <data name="SettingsReferenceText2530Text" xml:space="preserve"><value>In-Game OSD</value></data>
+  <data name="SettingsReferenceText2532Text" xml:space="preserve"><value>On-screen overlay showing system stats during gaming</value></data>
+  <data name="SettingsReferenceText2544Text" xml:space="preserve"><value>Enable OSD Overlay</value></data>
+  <data name="SettingsReferenceText2576Text" xml:space="preserve"><value>Target Monitor</value></data>
+  <data name="SettingsReferenceText2589Text" xml:space="preserve"><value>Overlay Density</value></data>
+  <data name="SettingsReferenceText2602Text" xml:space="preserve"><value>Toggle Hotkey</value></data>
+  <data name="SettingsReferenceText2609Text" xml:space="preserve"><value>Hotkey OSD Visuals</value></data>
+  <data name="SettingsReferenceText2617Text" xml:space="preserve"><value>Popup Duration</value></data>
+  <data name="SettingsReferenceText2632Text" xml:space="preserve"><value>Popup Size</value></data>
+  <data name="SettingsReferenceText2647Text" xml:space="preserve"><value>Accent Theme</value></data>
+  <data name="SettingsReferenceText2655Text" xml:space="preserve"><value>Compact Popup</value></data>
+  <data name="SettingsReferenceText2661Text" xml:space="preserve"><value>Metrics to Display</value></data>
+  <data name="SettingsReferenceText2664Text" xml:space="preserve"><value>Metric Groups</value></data>
+  <data name="SettingsReferenceText2685Text" xml:space="preserve"><value>Temperature &amp; Load</value></data>
+  <data name="SettingsReferenceText2688Text" xml:space="preserve"><value>CPU Temp</value></data>
+  <data name="SettingsReferenceText2692Text" xml:space="preserve"><value>GPU Temp</value></data>
+  <data name="SettingsReferenceText2706Text" xml:space="preserve"><value>Power &amp; Memory</value></data>
+  <data name="SettingsReferenceText2717Text" xml:space="preserve"><value>RAM Usage</value></data>
+  <data name="SettingsReferenceText2721Text" xml:space="preserve"><value>VRAM Usage</value></data>
+  <data name="SettingsReferenceText2734Text" xml:space="preserve"><value>Frametime (ms)</value></data>
+  <data name="SettingsReferenceText2738Text" xml:space="preserve"><value>Network Ping</value></data>
+  <data name="SettingsReferenceText2742Text" xml:space="preserve"><value>Net Upload</value></data>
+  <data name="SettingsReferenceText2746Text" xml:space="preserve"><value>Net Download</value></data>
+  <data name="SettingsReferenceText2752Text" xml:space="preserve"><value>System Status</value></data>
+  <data name="SettingsReferenceText2755Text" xml:space="preserve"><value>Fan Speed (RPM)</value></data>
+  <data name="SettingsReferenceText2759Text" xml:space="preserve"><value>Fan Mode</value></data>
+  <data name="SettingsReferenceText2767Text" xml:space="preserve"><value>Clock Time</value></data>
+  <data name="SettingsReferenceText2775Text" xml:space="preserve"><value>CPU Clock</value></data>
+  <data name="SettingsReferenceText2779Text" xml:space="preserve"><value>GPU Clock</value></data>
+  <data name="SettingsReferenceText2787Text" xml:space="preserve"><value>Horizontal Layout</value></data>
+  <data name="SettingsReferenceText2803Text" xml:space="preserve"><value>Battery Care</value></data>
+  <data name="SettingsReferenceText2805Text" xml:space="preserve"><value>Extend battery lifespan with smart charge limiting</value></data>
+  <data name="SettingsReferenceText2817Text" xml:space="preserve"><value>Enable Charge Limit</value></data>
+  <data name="SettingsReferenceText2819Text" xml:space="preserve"><value>Stop charging at a custom threshold to preserve battery health</value></data>
+  <data name="SettingsReferenceText2837Text" xml:space="preserve"><value>Charge Threshold</value></data>
+  <data name="SettingsReferenceText2839Text" xml:space="preserve"><value>Set maximum battery charge level</value></data>
+  <data name="SettingsReferenceText2879Text" xml:space="preserve"><value>Fan Hysteresis</value></data>
+  <data name="SettingsReferenceText2881Text" xml:space="preserve"><value>Prevent fan speed oscillation with dead-zone and delays</value></data>
+  <data name="SettingsReferenceText2893Text" xml:space="preserve"><value>Enable Hysteresis</value></data>
+  <data name="SettingsReferenceText2895Text" xml:space="preserve"><value>Smooth out fan speed changes to reduce noise fluctuation</value></data>
+  <data name="SettingsReferenceText2914Text" xml:space="preserve"><value>Temperature Dead-Zone</value></data>
+  <data name="SettingsReferenceText2934Text" xml:space="preserve"><value>Ramp-Up Delay</value></data>
+  <data name="SettingsReferenceText2954Text" xml:space="preserve"><value>Ramp-Down Delay</value></data>
+  <data name="SettingsReferenceText2974Text" xml:space="preserve"><value>Thermal Protection</value></data>
+  <data name="SettingsReferenceText2993Text" xml:space="preserve"><value>Thermal Protection Threshold</value></data>
+  <data name="SettingsReferenceText3036Text" xml:space="preserve"><value>Max Fan Level Override</value></data>
+  <data name="SettingsReferenceText3060Text" xml:space="preserve"><value>HP OMEN Gaming Hub Cleanup</value></data>
+  <data name="SettingsReferenceText3080Text" xml:space="preserve"><value>Kill running HP OMEN processes</value></data>
+  <data name="SettingsReferenceText3091Text" xml:space="preserve"><value>Uninstall HP OMEN Gaming Hub application</value></data>
+  <data name="SettingsReferenceText3113Text" xml:space="preserve"><value>Clean HP OMEN registry entries</value></data>
+  <data name="SettingsReferenceText3135Text" xml:space="preserve"><value>Remove residual HP OMEN files and folders</value></data>
+  <data name="SettingsReferenceText3163Content" xml:space="preserve"><value>Create Manual Restore Point</value></data>
+  <data name="SettingsReferenceText3251Text" xml:space="preserve"><value>Profile Management</value></data>
+  <data name="SettingsReferenceText3253Text" xml:space="preserve"><value>Save and load your complete OmenCore configuration</value></data>
+  <data name="SettingsReferenceText3301Text" xml:space="preserve"><value>Data &amp; Storage</value></data>
+  <data name="SettingsReferenceText3346Text" xml:space="preserve"><value>About OmenCore</value></data>
+  <data name="SettingsReferenceText3387Text" xml:space="preserve"><value>Donate via PayPal</value></data>
+  <data name="SettingsReferenceText3406Text" xml:space="preserve"><value>Profile Scheduler</value></data>
+  <data name="SettingsReferenceText3528Text" xml:space="preserve"><value>Start time</value></data>
+  <data name="SettingsReferenceText3534Text" xml:space="preserve"><value>End time</value></data>
+  <data name="SettingsReferenceText3540Text" xml:space="preserve"><value>Battery threshold</value></data>
+  <data name="SettingsReferenceText3546Text" xml:space="preserve"><value>Battery condition</value></data>
+  <data name="SettingsReferenceText3553Text" xml:space="preserve"><value>AC power state</value></data>
+  <data name="SettingsReferenceText3611Text" xml:space="preserve"><value>Fan preset action</value></data>
+  <data name="SettingsReferenceText3617Text" xml:space="preserve"><value>Performance mode action</value></data>
 </root>

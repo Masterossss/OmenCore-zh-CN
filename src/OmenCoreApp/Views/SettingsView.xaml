@@ -25,7 +25,7 @@
                 <TextBlock Text="Settings" 
                            FontSize="28" FontWeight="Bold" 
                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                <TextBlock Text="Configure application behavior, startup options, and driver settings" 
+                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText28Text}"
                            FontSize="12" 
                            Foreground="{StaticResource TextSecondaryBrush}"
                            Opacity="0.9"
@@ -59,7 +59,7 @@
         <Border Grid.Row="1" Style="{StaticResource SurfaceCard}" Padding="16" Margin="0,0,0,8"
                 Visibility="{Binding SettingsSearchVisible, Converter={StaticResource BooleanToVisibilityConverter}}">
             <StackPanel>
-                <TextBlock Text="Search Results" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,8"/>
+                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText62Text}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,8"/>
                 <ItemsControl ItemsSource="{Binding SettingsSearchResults}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
@@ -97,7 +97,7 @@
                                   Fill="#4CAF50" 
                                   Width="24" Height="24" Stretch="Uniform" 
                                   VerticalAlignment="Center" Margin="0,0,12,0"/>
-                            <TextBlock Text="System Status" FontSize="20" FontWeight="SemiBold" 
+                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText100Text}" FontSize="20" FontWeight="SemiBold"
                                        Foreground="{StaticResource TextPrimaryBrush}"/>
                         </StackPanel>
                         
@@ -108,9 +108,9 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Fan Control Backend" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText111Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="The method used to control fans on your system" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText113Text}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <Border Grid.Column="1" Background="#1A4CAF50" CornerRadius="4" Padding="12,6">
@@ -130,7 +130,7 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Secure Boot" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText133Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <TextBlock FontSize="12" Foreground="{StaticResource TextSecondaryBrush}">
                                     <TextBlock.Style>
@@ -180,9 +180,9 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="PawnIO Driver" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText183Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Secure Boot compatible driver for EC/MSR access" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText185Text}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <Border Grid.Column="1" CornerRadius="4" Padding="12,6">
@@ -222,7 +222,7 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="OMEN Gaming Hub" FontSize="14" 
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="HP's official control software - provides WMI access" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText225Text}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                                 <!-- Show detection detail when OGH is detected -->
                                 <TextBlock Text="{Binding OghDetectionDetail}" 
@@ -289,7 +289,7 @@
                                     <TextBlock Text="🔍" FontSize="24"/>
                                 </StackPanel>
                                 <StackPanel Grid.Column="1" VerticalAlignment="Center">
-                                    <TextBlock Text="Standalone Status" FontSize="14" FontWeight="SemiBold" 
+                                    <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText292Text}" FontSize="14" FontWeight="SemiBold"
                                                Foreground="{StaticResource TextPrimaryBrush}"/>
                                     <TextBlock Text="{Binding StandaloneStatusSummary, FallbackValue=Checking dependencies...}" 
                                                FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" 
@@ -370,7 +370,7 @@
                                 BorderBrush="{StaticResource BorderBrush}" BorderThickness="1">
                             <StackPanel>
                                 <StackPanel VerticalAlignment="Center">
-                                    <TextBlock Text="Model Identity Resolution" FontSize="14" FontWeight="SemiBold"
+                                    <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText373Text}" FontSize="14" FontWeight="SemiBold"
                                                Foreground="{StaticResource TextPrimaryBrush}"/>
                                     <TextBlock Text="{Binding ModelIdentitySummary}" FontSize="12"
                                                Foreground="{StaticResource TextSecondaryBrush}"
@@ -385,7 +385,7 @@
                                                 <ColumnDefinition Width="Auto"/>
                                                 <ColumnDefinition Width="*"/>
                                             </Grid.ColumnDefinitions>
-                                            <TextBlock Text="Resolved Model" FontSize="11" FontWeight="SemiBold"
+                                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText388Text}" FontSize="11" FontWeight="SemiBold"
                                                        Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,12,0"/>
                                             <TextBlock Grid.Column="1" Text="{Binding ModelIdentityResolvedModel}" FontSize="12"
                                                        Foreground="{StaticResource TextPrimaryBrush}" TextWrapping="Wrap"/>
@@ -398,14 +398,14 @@
                                             <ColumnDefinition Width="*"/>
                                         </Grid.ColumnDefinitions>
                                         <StackPanel Grid.Column="0" Margin="0,0,12,0">
-                                            <TextBlock Text="Resolution Source" FontSize="11" FontWeight="SemiBold"
+                                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText401Text}" FontSize="11" FontWeight="SemiBold"
                                                        Foreground="{StaticResource TextTertiaryBrush}"/>
                                             <TextBlock Text="{Binding ModelIdentityResolutionSource}" FontSize="12"
                                                        Foreground="{StaticResource TextPrimaryBrush}" Margin="0,2,0,0"
                                                        TextWrapping="Wrap"/>
                                         </StackPanel>
                                         <StackPanel Grid.Column="1">
-                                            <TextBlock Text="Confidence" FontSize="11" FontWeight="SemiBold"
+                                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText408Text}" FontSize="11" FontWeight="SemiBold"
                                                        Foreground="{StaticResource TextTertiaryBrush}"/>
                                             <TextBlock Text="{Binding ModelIdentityConfidence}" FontSize="12"
                                                        Foreground="{StaticResource TextPrimaryBrush}" Margin="0,2,0,0"/>
@@ -418,14 +418,14 @@
                                             <ColumnDefinition Width="*"/>
                                         </Grid.ColumnDefinitions>
                                         <StackPanel Grid.Column="0" Margin="0,0,12,0">
-                                            <TextBlock Text="Keyboard Profile" FontSize="11" FontWeight="SemiBold"
+                                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText421Text}" FontSize="11" FontWeight="SemiBold"
                                                        Foreground="{StaticResource TextTertiaryBrush}"/>
                                             <TextBlock Text="{Binding ModelIdentityKeyboardModel}" FontSize="12"
                                                        Foreground="{StaticResource TextPrimaryBrush}" Margin="0,2,0,0"
                                                        TextWrapping="Wrap"/>
                                         </StackPanel>
                                         <StackPanel Grid.Column="1">
-                                            <TextBlock Text="Keyboard Source" FontSize="11" FontWeight="SemiBold"
+                                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText428Text}" FontSize="11" FontWeight="SemiBold"
                                                        Foreground="{StaticResource TextTertiaryBrush}"/>
                                             <TextBlock Text="{Binding ModelIdentityKeyboardSource}" FontSize="12"
                                                        Foreground="{StaticResource TextPrimaryBrush}" Margin="0,2,0,0"
@@ -485,7 +485,7 @@
                                             </TextBlock.Style>
                                         </TextBlock>
                                     </Border>
-                                    <Button AutomationProperties.Name="Copy Summary" Content="Copy Summary"
+                                    <Button AutomationProperties.Name="Copy Summary" Content="{x:Static loc:Strings.SettingsReferenceText488Content}"
                                             Style="{StaticResource ModernButton}"
                                             Command="{Binding CopyModelIdentitySummaryCommand}"
                                             Padding="12,6" Margin="10,0,0,0"/>
@@ -503,7 +503,7 @@
                                     <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
                                 <StackPanel Grid.Column="0" VerticalAlignment="Center">
-                                    <TextBlock Text="PawnIO-Only Mode" FontSize="14" FontWeight="SemiBold" 
+                                    <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText506Text}" FontSize="14" FontWeight="SemiBold"
                                                Foreground="{StaticResource TextPrimaryBrush}"/>
                                     <TextBlock Text="Disable HP service-dependent features (performance modes, GPU switching). Use only PawnIO for EC fan control and temperature monitoring." 
                                                FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" 
@@ -525,7 +525,7 @@
                                     <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
                                 <StackPanel Grid.Column="0" VerticalAlignment="Center">
-                                    <TextBlock Text="BIOS WMI Reliability" FontSize="14" FontWeight="SemiBold" 
+                                    <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText528Text}" FontSize="14" FontWeight="SemiBold"
                                                Foreground="{StaticResource TextPrimaryBrush}"/>
                                     <TextBlock Text="{Binding BiosReliabilityText, FallbackValue=Waiting for commands...}" 
                                                FontSize="12" Margin="0,4,0,0">
@@ -915,7 +915,7 @@
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Automatic monitoring cadence" FontSize="14"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText918Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <TextBlock Text="OmenCore now owns cadence automatically: active windows and OSD stay responsive, idle sessions slow down safely, and low-overhead tray-only mode can settle to the ultra-low cadence when nothing is blocking it." FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
@@ -927,7 +927,7 @@
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Cadence tiers" FontSize="14"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText930Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <TextBlock Text="1s when the UI or OSD needs live data, 5s in standard background idle, and 10s for eligible tray-only low-overhead sessions. Use Low overhead mode below to favor the lighter cadence path." FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
@@ -941,9 +941,9 @@
                                 <ColumnDefinition Width="200"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Chart history" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText944Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Number of data points to display in charts" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText946Text}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
@@ -966,9 +966,9 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Low overhead mode" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText969Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Reduce CPU usage by limiting sensor polling" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText971Text}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
@@ -979,7 +979,7 @@
 
                         <Border Margin="0,16,0,0" Padding="14" CornerRadius="10" Background="#141A20" BorderBrush="#22303C" BorderThickness="1">
                             <StackPanel>
-                                <TextBlock Text="Live cadence status" FontSize="13" FontWeight="SemiBold"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText982Text}" FontSize="13" FontWeight="SemiBold"
                                            Foreground="{StaticResource TextPrimaryBrush}" Margin="0,0,0,8"/>
 
                                 <TextBlock Foreground="{StaticResource TextPrimaryBrush}" Margin="0,0,0,4">
@@ -1079,7 +1079,7 @@
                                   Fill="#81C784"
                                   Width="24" Height="24" Stretch="Uniform"
                                   VerticalAlignment="Center" Margin="0,0,12,0"/>
-                            <TextBlock Text="Hardware Worker" FontSize="20" FontWeight="SemiBold"
+                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1082Text}" FontSize="20" FontWeight="SemiBold"
                                        Foreground="{StaticResource TextPrimaryBrush}"/>
                         </StackPanel>
 
@@ -1090,7 +1090,7 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Enable orphan timeout" FontSize="14"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1093Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <TextBlock Text="Worker process exits after main app closes if no reconnection occurs" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
@@ -1108,7 +1108,7 @@
                                 <ColumnDefinition Width="220"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Orphan timeout duration" FontSize="13"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1111Text}" FontSize="13"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <TextBlock Text="Minutes to wait for reconnection before worker exits" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
@@ -1137,7 +1137,7 @@
                                   Fill="#FFB74D" 
                                   Width="24" Height="24" Stretch="Uniform" 
                                   VerticalAlignment="Center" Margin="0,0,12,0"/>
-                            <TextBlock Text="Power Automation" FontSize="20" FontWeight="SemiBold" 
+                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1140Text}" FontSize="20" FontWeight="SemiBold"
                                        Foreground="{StaticResource TextPrimaryBrush}"/>
                         </StackPanel>
 
@@ -1148,7 +1148,7 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Auto-switch on power change" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1151Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <TextBlock Text="Automatically switch profiles when AC power is connected or disconnected" FontSize="12" 
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
@@ -1160,7 +1160,7 @@
                         </Grid>
 
                         <!-- AC Power Settings -->
-                        <TextBlock Text="When on AC Power:" FontSize="14" FontWeight="SemiBold"
+                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1163Text}" FontSize="14" FontWeight="SemiBold"
                                    Foreground="{StaticResource TextPrimaryBrush}" Margin="0,0,0,8"/>
                         <Grid Margin="0,0,0,16">
                             <Grid.ColumnDefinitions>
@@ -1168,7 +1168,7 @@
                                 <ColumnDefinition Width="150"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Fan preset" FontSize="13" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1171Text}" FontSize="13"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ComboBox Grid.Column="1" SelectedItem="{Binding AcFanPreset, Mode=TwoWay}"
@@ -1182,7 +1182,7 @@
                                 <ColumnDefinition Width="150"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Performance mode" FontSize="13" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1185Text}" FontSize="13"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ComboBox Grid.Column="1" SelectedItem="{Binding AcPerformanceMode, Mode=TwoWay}"
@@ -1192,7 +1192,7 @@
                         </Grid>
 
                         <!-- Battery Settings -->
-                        <TextBlock Text="When on Battery:" FontSize="14" FontWeight="SemiBold"
+                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1195Text}" FontSize="14" FontWeight="SemiBold"
                                    Foreground="{StaticResource TextPrimaryBrush}" Margin="0,8,0,8"/>
                         <Grid Margin="0,0,0,16">
                             <Grid.ColumnDefinitions>
@@ -1200,7 +1200,7 @@
                                 <ColumnDefinition Width="150"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Fan preset" FontSize="13" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1203Text}" FontSize="13"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ComboBox Grid.Column="1" SelectedItem="{Binding BatteryFanPreset, Mode=TwoWay}"
@@ -1214,7 +1214,7 @@
                                 <ColumnDefinition Width="150"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Performance mode" FontSize="13" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1217Text}" FontSize="13"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ComboBox Grid.Column="1" SelectedItem="{Binding BatteryPerformanceMode, Mode=TwoWay}"
@@ -1230,9 +1230,9 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Link fan to performance mode" FontSize="14"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1233Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Automatically apply the matching fan preset whenever you change performance mode." FontSize="12"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1235Text}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1"
@@ -1292,7 +1292,7 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Restore last hardware settings on startup" FontSize="14"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1295Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <TextBlock Text="Reapply the saved fan preset, performance mode, GPU boost, and tuning settings after OmenCore starts." FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
@@ -1309,7 +1309,7 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Allow startup restore on OMEN 16/Victus" FontSize="14"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1312Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <TextBlock Text="Overrides the extra guardrail for models that have reported firmware sensitivity during boot. Leave off unless you want automatic reapply on those systems." FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
@@ -1448,7 +1448,7 @@
                                   Fill="#81C784" 
                                   Width="24" Height="24" Stretch="Uniform" 
                                   VerticalAlignment="Center" Margin="0,0,12,0"/>
-                            <TextBlock Text="Updates" FontSize="20" FontWeight="SemiBold" 
+                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1451Text}" FontSize="20" FontWeight="SemiBold"
                                        Foreground="{StaticResource TextPrimaryBrush}"/>
                         </StackPanel>
 
@@ -1459,9 +1459,9 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Check for updates automatically" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1462Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Periodically check GitHub for new releases" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1464Text}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
@@ -1477,9 +1477,9 @@
                                 <ColumnDefinition Width="200"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Check interval" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1480Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="How often to check for updates" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1482Text}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ComboBox Grid.Column="1"
@@ -1501,9 +1501,9 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Include pre-releases" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1504Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Get notified about beta and preview versions" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1506Text}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
@@ -1520,7 +1520,7 @@
                         <StackPanel Orientation="Horizontal" Margin="0,0,0,16">
                             <TextBlock Text="⌨️" FontSize="24" 
                                        VerticalAlignment="Center" Margin="0,0,12,0"/>
-                            <TextBlock Text="Hotkeys" FontSize="20" FontWeight="SemiBold" 
+                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1523Text}" FontSize="20" FontWeight="SemiBold"
                                        Foreground="{StaticResource TextPrimaryBrush}"/>
                         </StackPanel>
 
@@ -1531,9 +1531,9 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Enable global hotkeys" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1534Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Use keyboard shortcuts even when app is in background" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1536Text}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
@@ -1548,7 +1548,7 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Only enable hotkeys when window is focused" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1551Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <TextBlock Text="Prevents conflicts by deactivating hotkeys when the app isn’t active" FontSize="12" 
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
@@ -1570,7 +1570,7 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Experimental firmware Fn+P profile cycle" FontSize="14"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1573Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <TextBlock Text="Use BIOS WMI event mapping to cycle performance profiles. Disabled by default because event codes vary by model." FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
@@ -1585,7 +1585,7 @@
                         <Border Background="{StaticResource SurfaceDarkBrush}" 
                                 CornerRadius="8" Padding="16" Margin="0,8,0,0">
                             <StackPanel>
-                                <TextBlock Text="Default Hotkeys" FontSize="14" FontWeight="SemiBold" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1588Text}" FontSize="14" FontWeight="SemiBold"
                                            Foreground="{StaticResource TextPrimaryBrush}" Margin="0,0,0,12"/>
                                 <Grid>
                                     <Grid.ColumnDefinitions>
@@ -1604,12 +1604,12 @@
                                     
                                     <TextBlock Grid.Row="0" Grid.Column="0" Text="Ctrl + Shift + F" FontFamily="{StaticResource MonospaceFontFamily}" 
                                                Foreground="{StaticResource AccentBrush}" FontSize="12"/>
-                                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Cycle fan modes" 
+                                    <TextBlock Grid.Row="0" Grid.Column="1" Text="{x:Static loc:Strings.SettingsReferenceText1607Text}"
                                                Foreground="{StaticResource TextSecondaryBrush}" FontSize="12"/>
                                     
                                     <TextBlock Grid.Row="1" Grid.Column="0" Text="Ctrl + Shift + P" FontFamily="{StaticResource MonospaceFontFamily}" 
                                                Foreground="{StaticResource AccentBrush}" FontSize="12" Margin="0,4,0,0"/>
-                                    <TextBlock Grid.Row="1" Grid.Column="1" Text="Cycle performance modes" 
+                                    <TextBlock Grid.Row="1" Grid.Column="1" Text="{x:Static loc:Strings.SettingsReferenceText1612Text}"
                                                Foreground="{StaticResource TextSecondaryBrush}" FontSize="12" Margin="0,4,0,0"/>
                                     
                                     <TextBlock Grid.Row="2" Grid.Column="0" Text="Ctrl + Shift + E" FontFamily="{StaticResource MonospaceFontFamily}"
@@ -1624,17 +1624,17 @@
 
                                     <TextBlock Grid.Row="4" Grid.Column="0" Text="Ctrl + Shift + Q" FontFamily="{StaticResource MonospaceFontFamily}"
                                                Foreground="{StaticResource AccentBrush}" FontSize="12" Margin="0,4,0,0"/>
-                                    <TextBlock Grid.Row="4" Grid.Column="1" Text="Quiet mode"
+                                    <TextBlock Grid.Row="4" Grid.Column="1" Text="{x:Static loc:Strings.SettingsReferenceText1627Text}"
                                                Foreground="{StaticResource TextSecondaryBrush}" FontSize="12" Margin="0,4,0,0"/>
 
                                     <TextBlock Grid.Row="5" Grid.Column="0" Text="Ctrl + Shift + O" FontFamily="{StaticResource MonospaceFontFamily}"
                                                Foreground="{StaticResource AccentBrush}" FontSize="12" Margin="0,4,0,0"/>
-                                    <TextBlock Grid.Row="5" Grid.Column="1" Text="Show/hide OmenCore window"
+                                    <TextBlock Grid.Row="5" Grid.Column="1" Text="{x:Static loc:Strings.SettingsReferenceText1632Text}"
                                                Foreground="{StaticResource TextSecondaryBrush}" FontSize="12" Margin="0,4,0,0"/>
 
                                     <TextBlock Grid.Row="6" Grid.Column="0" Text="Win + F12" FontFamily="{StaticResource MonospaceFontFamily}"
                                                Foreground="{StaticResource AccentBrush}" FontSize="12" Margin="0,4,0,0"/>
-                                    <TextBlock Grid.Row="6" Grid.Column="1" Text="Show OmenCore window"
+                                    <TextBlock Grid.Row="6" Grid.Column="1" Text="{x:Static loc:Strings.SettingsReferenceText1637Text}"
                                                Foreground="{StaticResource TextSecondaryBrush}" FontSize="12" Margin="0,4,0,0"/>
                                 </Grid>
                             </StackPanel>
@@ -1648,7 +1648,7 @@
                         <StackPanel Orientation="Horizontal" Margin="0,0,0,16">
                             <TextBlock Text="🔔" FontSize="24" 
                                        VerticalAlignment="Center" Margin="0,0,12,0"/>
-                            <TextBlock Text="Notifications" FontSize="20" FontWeight="SemiBold" 
+                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1651Text}" FontSize="20" FontWeight="SemiBold"
                                        Foreground="{StaticResource TextPrimaryBrush}"/>
                         </StackPanel>
 
@@ -1659,9 +1659,9 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Enable notifications" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1662Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Show Windows toast notifications for events" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1664Text}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
@@ -1677,7 +1677,7 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Game profile notifications" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1680Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <TextBlock Text="Notify when game profiles are activated/deactivated" FontSize="12" 
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
@@ -1696,7 +1696,7 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Mode change notifications" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1699Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <TextBlock Text="Notify when fan or performance modes change via hotkey" FontSize="12" 
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
@@ -1715,9 +1715,9 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Temperature warnings" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1718Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Alert when CPU/GPU temperature exceeds threshold" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1720Text}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
@@ -1737,7 +1737,7 @@
                                   Fill="#9575CD" 
                                   Width="24" Height="24" Stretch="Uniform" 
                                   VerticalAlignment="Center" Margin="0,0,12,0"/>
-                            <TextBlock Text="Hardware Driver" FontSize="20" FontWeight="SemiBold" 
+                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1740Text}" FontSize="20" FontWeight="SemiBold"
                                        Foreground="{StaticResource TextPrimaryBrush}"/>
                         </StackPanel>
 
@@ -1822,7 +1822,7 @@
                                   Fill="#4DD0E1" 
                                   Width="24" Height="24" Stretch="Uniform" 
                                   VerticalAlignment="Center" Margin="0,0,12,0"/>
-                            <TextBlock Text="BIOS Information" FontSize="20" FontWeight="SemiBold" 
+                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1825Text}" FontSize="20" FontWeight="SemiBold"
                                        Foreground="{StaticResource TextPrimaryBrush}"/>
                         </StackPanel>
 
@@ -1919,7 +1919,7 @@
                                   Fill="#29B6F6" 
                                   Width="24" Height="24" Stretch="Uniform" 
                                   VerticalAlignment="Center" Margin="0,0,12,0"/>
-                            <TextBlock Text="HP Driver &amp; Support Resources" FontSize="20" FontWeight="SemiBold" 
+                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1922Text}" FontSize="20" FontWeight="SemiBold"
                                        Foreground="{StaticResource TextPrimaryBrush}"/>
                         </StackPanel>
 
@@ -1938,7 +1938,7 @@
                                     Margin="0,0,8,8" Padding="12,16">
                                 <StackPanel>
                                     <TextBlock Text="🔧" FontSize="24" HorizontalAlignment="Center" Margin="0,0,0,8"/>
-                                    <TextBlock Text="HP Support" FontSize="12" FontWeight="SemiBold" 
+                                    <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1941Text}" FontSize="12" FontWeight="SemiBold"
                                                HorizontalAlignment="Center"
                                                Foreground="{StaticResource TextPrimaryBrush}"/>
                                     <TextBlock Text="Assistant" FontSize="12" FontWeight="SemiBold" 
@@ -2368,7 +2368,7 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Custom Fan Curves" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2371Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <TextBlock Text="Continuous fan speed adjustment (disable for BIOS-only control)" FontSize="12" 
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
@@ -2386,7 +2386,7 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Power Source Automation" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2389Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <TextBlock Text="Auto-switch profiles when plugging/unplugging AC" FontSize="12" 
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
@@ -2404,7 +2404,7 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="GPU Mode Switching" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2407Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <TextBlock Text="Control Hybrid/Discrete/Optimus modes" FontSize="12" 
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
@@ -2422,7 +2422,7 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="CPU Undervolt Controls" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2425Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <TextBlock Text="Voltage offset adjustment (requires compatible CPU)" FontSize="12" 
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
@@ -2444,7 +2444,7 @@
                                     <StackPanel Grid.Column="0">
                                         <StackPanel Orientation="Horizontal">
                                             <TextBlock Text="🎮" FontSize="16" Margin="0,0,8,0"/>
-                                            <TextBlock Text="OMEN Key Interception" FontSize="14" FontWeight="SemiBold"
+                                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2447Text}" FontSize="14" FontWeight="SemiBold"
                                                        Foreground="{StaticResource TextPrimaryBrush}"/>
                                         </StackPanel>
                                         <TextBlock Text="Capture OMEN key to show OmenCore instead of HP Gaming Hub" FontSize="12" 
@@ -2527,9 +2527,9 @@
                             <TextBlock Text="📊" FontSize="24" 
                                        VerticalAlignment="Center" Margin="0,0,12,0"/>
                             <StackPanel>
-                                <TextBlock Text="In-Game OSD" FontSize="20" FontWeight="SemiBold" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2530Text}" FontSize="20" FontWeight="SemiBold"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="On-screen overlay showing system stats during gaming" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2532Text}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                         </StackPanel>
@@ -2541,7 +2541,7 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Enable OSD Overlay" FontSize="14" FontWeight="SemiBold"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2544Text}" FontSize="14" FontWeight="SemiBold"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <TextBlock Text="When disabled, no OSD background process runs at all" FontSize="12" 
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
@@ -2573,7 +2573,7 @@
                                         <ColumnDefinition Width="*"/>
                                         <ColumnDefinition Width="150"/>
                                     </Grid.ColumnDefinitions>
-                                    <TextBlock Grid.Column="0" Text="Target Monitor" FontSize="13"
+                                    <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText2576Text}" FontSize="13"
                                                Foreground="{StaticResource TextSecondaryBrush}" VerticalAlignment="Center"/>
                                     <ComboBox AutomationProperties.Name="Target Monitor" Grid.Column="1"
                                               SelectedItem="{Binding OsdMonitorTarget, Mode=TwoWay}"
@@ -2586,7 +2586,7 @@
                                         <ColumnDefinition Width="*"/>
                                         <ColumnDefinition Width="150"/>
                                     </Grid.ColumnDefinitions>
-                                    <TextBlock Grid.Column="0" Text="Overlay Density" FontSize="13"
+                                    <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText2589Text}" FontSize="13"
                                                Foreground="{StaticResource TextSecondaryBrush}" VerticalAlignment="Center"/>
                                     <ComboBox AutomationProperties.Name="Overlay Density" Grid.Column="1"
                                               SelectedItem="{Binding OsdDensityMode, Mode=TwoWay}"
@@ -2599,14 +2599,14 @@
                                         <ColumnDefinition Width="*"/>
                                         <ColumnDefinition Width="150"/>
                                     </Grid.ColumnDefinitions>
-                                    <TextBlock Grid.Column="0" Text="Toggle Hotkey" FontSize="13" 
+                                    <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText2602Text}" FontSize="13"
                                                Foreground="{StaticResource TextSecondaryBrush}" VerticalAlignment="Center"/>
                                     <TextBox AutomationProperties.Name="Toggle Hotkey" Grid.Column="1" Text="{Binding OsdHotkey, Mode=TwoWay}" 
                                              Padding="8,6"/>
                                 </Grid>
 
                                 <!-- Hotkey OSD visual polish controls -->
-                                <TextBlock Text="Hotkey OSD Visuals" FontSize="13" FontWeight="SemiBold"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2609Text}" FontSize="13" FontWeight="SemiBold"
                                            Foreground="{StaticResource TextPrimaryBrush}" Margin="0,2,0,8"/>
 
                                 <Grid Margin="0,0,0,10">
@@ -2614,7 +2614,7 @@
                                         <ColumnDefinition Width="*"/>
                                         <ColumnDefinition Width="200"/>
                                     </Grid.ColumnDefinitions>
-                                    <TextBlock Grid.Column="0" Text="Popup Duration" FontSize="13"
+                                    <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText2617Text}" FontSize="13"
                                                Foreground="{StaticResource TextSecondaryBrush}" VerticalAlignment="Center"/>
                                     <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
                                         <Slider AutomationProperties.Name="Osd Hotkey Toast Duration Ms" Minimum="800" Maximum="6000" TickFrequency="100" IsSnapToTickEnabled="True"
@@ -2629,7 +2629,7 @@
                                         <ColumnDefinition Width="*"/>
                                         <ColumnDefinition Width="200"/>
                                     </Grid.ColumnDefinitions>
-                                    <TextBlock Grid.Column="0" Text="Popup Size" FontSize="13"
+                                    <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText2632Text}" FontSize="13"
                                                Foreground="{StaticResource TextSecondaryBrush}" VerticalAlignment="Center"/>
                                     <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
                                         <Slider AutomationProperties.Name="Osd Hotkey Toast Scale Percent" Minimum="80" Maximum="140" TickFrequency="5" IsSnapToTickEnabled="True"
@@ -2644,7 +2644,7 @@
                                         <ColumnDefinition Width="*"/>
                                         <ColumnDefinition Width="150"/>
                                     </Grid.ColumnDefinitions>
-                                    <TextBlock Grid.Column="0" Text="Accent Theme" FontSize="13"
+                                    <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText2647Text}" FontSize="13"
                                                Foreground="{StaticResource TextSecondaryBrush}" VerticalAlignment="Center"/>
                                     <ComboBox AutomationProperties.Name="Accent Theme" Grid.Column="1"
                                               SelectedItem="{Binding OsdHotkeyToastAccent, Mode=TwoWay}"
@@ -2652,16 +2652,16 @@
                                 </Grid>
 
                                 <StackPanel Orientation="Horizontal" Margin="0,0,0,12">
-                                    <TextBlock Text="Compact Popup" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2655Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
                                     <ToggleButton AutomationProperties.Name="Compact Popup" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdHotkeyToastCompact}"/>
                                     <TextBlock Text="(smaller card, less secondary text)" VerticalAlignment="Center" Margin="8,0,0,0" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}"/>
                                 </StackPanel>
 
                                 <!-- Metrics Selection -->
-                                <TextBlock Text="Metrics to Display" FontSize="13" FontWeight="SemiBold"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2661Text}" FontSize="13" FontWeight="SemiBold"
                                            Foreground="{StaticResource TextPrimaryBrush}" Margin="0,4,0,8"/>
 
-                                <TextBlock Text="Metric Groups" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2664Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
                                 <WrapPanel Margin="0,0,0,8">
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
                                         <TextBlock Text="Thermals" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
@@ -2682,14 +2682,14 @@
                                 </WrapPanel>
                                 
                                 <!-- Temperature & Load -->
-                                <TextBlock Text="Temperature &amp; Load" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2685Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
                                 <WrapPanel Margin="0,0,0,8">
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
-                                        <TextBlock Text="CPU Temp" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2688Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
                                         <ToggleButton AutomationProperties.Name="CPU Temp" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowCpuTemp}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
-                                        <TextBlock Text="GPU Temp" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2692Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
                                         <ToggleButton AutomationProperties.Name="GPU Temp" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowGpuTemp}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
@@ -2703,7 +2703,7 @@
                                 </WrapPanel>
                                 
                                 <!-- Power & Memory -->
-                                <TextBlock Text="Power &amp; Memory" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,4,0,4"/>
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2706Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,4,0,4"/>
                                 <WrapPanel Margin="0,0,0,8">
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
                                         <TextBlock Text="CPU Power (W)" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
@@ -2714,11 +2714,11 @@
                                         <ToggleButton AutomationProperties.Name="GPU Power (W)" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowGpuPower}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
-                                        <TextBlock Text="RAM Usage" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2717Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
                                         <ToggleButton AutomationProperties.Name="RAM Usage" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowRamUsage}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
-                                        <TextBlock Text="VRAM Usage" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2721Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
                                         <ToggleButton AutomationProperties.Name="VRAM Usage" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowVramUsage}"/>
                                     </StackPanel>
                                 </WrapPanel>
@@ -2731,32 +2731,32 @@
                                         <ToggleButton AutomationProperties.Name="FPS (RTSS)" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowFps}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
-                                        <TextBlock Text="Frametime (ms)" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2734Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
                                         <ToggleButton AutomationProperties.Name="Frametime (ms)" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowFrametime}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
-                                        <TextBlock Text="Network Ping" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2738Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
                                         <ToggleButton AutomationProperties.Name="Network Ping" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowNetworkLatency}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
-                                        <TextBlock Text="Net Upload" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2742Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
                                         <ToggleButton AutomationProperties.Name="Net Upload" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowNetworkUpload}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
-                                        <TextBlock Text="Net Download" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2746Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
                                         <ToggleButton AutomationProperties.Name="Net Download" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowNetworkDownload}"/>
                                     </StackPanel>
                                 </WrapPanel>
                                 
                                 <!-- System Status -->
-                                <TextBlock Text="System Status" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,4,0,4"/>
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2752Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,4,0,4"/>
                                 <WrapPanel Margin="0,0,0,4">
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
-                                        <TextBlock Text="Fan Speed (RPM)" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2755Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
                                         <ToggleButton AutomationProperties.Name="Fan Speed (RPM)" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowFanSpeed}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
-                                        <TextBlock Text="Fan Mode" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2759Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
                                         <ToggleButton AutomationProperties.Name="Fan Mode" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowFanMode}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
@@ -2764,7 +2764,7 @@
                                         <ToggleButton AutomationProperties.Name="Perf. Mode" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowPerformanceMode}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
-                                        <TextBlock Text="Clock Time" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2767Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
                                         <ToggleButton AutomationProperties.Name="Clock Time" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowTime}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
@@ -2772,11 +2772,11 @@
                                         <ToggleButton AutomationProperties.Name="Battery %" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowBattery}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
-                                        <TextBlock Text="CPU Clock" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2775Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
                                         <ToggleButton AutomationProperties.Name="CPU Clock" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowCpuClock}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
-                                        <TextBlock Text="GPU Clock" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2779Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
                                         <ToggleButton AutomationProperties.Name="GPU Clock" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowGpuClock}"/>
                                     </StackPanel>
                                 </WrapPanel>
@@ -2784,7 +2784,7 @@
                                 <!-- Layout -->
                                 <TextBlock Text="Layout" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,8,0,4"/>
                                 <StackPanel Orientation="Horizontal" Margin="0,0,0,4">
-                                    <TextBlock Text="Horizontal Layout" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2787Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
                                     <ToggleButton AutomationProperties.Name="Horizontal Layout" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding IsOsdHorizontalLayout}"/>
                                     <TextBlock Text="(Compact bar at screen edge)" VerticalAlignment="Center" Margin="8,0,0,0" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}"/>
                                 </StackPanel>
@@ -2800,9 +2800,9 @@
                             <TextBlock Text="🔋" FontSize="24" 
                                        VerticalAlignment="Center" Margin="0,0,12,0"/>
                             <StackPanel>
-                                <TextBlock Text="Battery Care" FontSize="20" FontWeight="SemiBold" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2803Text}" FontSize="20" FontWeight="SemiBold"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Extend battery lifespan with smart charge limiting" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2805Text}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                         </StackPanel>
@@ -2814,9 +2814,9 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Enable Charge Limit" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2817Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Stop charging at a custom threshold to preserve battery health" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2819Text}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
@@ -2834,9 +2834,9 @@
                                     <ColumnDefinition Width="140"/>
                                 </Grid.ColumnDefinitions>
                                 <StackPanel Grid.Column="0">
-                                    <TextBlock Text="Charge Threshold" FontSize="14" FontWeight="SemiBold"
+                                    <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2837Text}" FontSize="14" FontWeight="SemiBold"
                                                Foreground="{StaticResource TextPrimaryBrush}" Margin="0,0,0,4"/>
-                                    <TextBlock Text="Set maximum battery charge level" FontSize="12" 
+                                    <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2839Text}" FontSize="12"
                                                Foreground="{StaticResource TextSecondaryBrush}"/>
                                 </StackPanel>
                                 <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
@@ -2876,9 +2876,9 @@
                             <TextBlock Text="🌀" FontSize="24" 
                                        VerticalAlignment="Center" Margin="0,0,12,0"/>
                             <StackPanel>
-                                <TextBlock Text="Fan Hysteresis" FontSize="20" FontWeight="SemiBold" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2879Text}" FontSize="20" FontWeight="SemiBold"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Prevent fan speed oscillation with dead-zone and delays" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2881Text}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                         </StackPanel>
@@ -2890,9 +2890,9 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Enable Hysteresis" FontSize="14" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2893Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Smooth out fan speed changes to reduce noise fluctuation" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2895Text}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
@@ -2911,7 +2911,7 @@
                                         <ColumnDefinition Width="80"/>
                                     </Grid.ColumnDefinitions>
                                     <StackPanel Grid.Column="0">
-                                        <TextBlock Text="Temperature Dead-Zone" FontSize="13" 
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2914Text}" FontSize="13"
                                                    Foreground="{StaticResource TextSecondaryBrush}"/>
                                         <TextBlock Text="Fans won't change unless temp moves beyond this" FontSize="11" 
                                                    Foreground="{StaticResource TextTertiaryBrush}"/>
@@ -2931,7 +2931,7 @@
                                         <ColumnDefinition Width="80"/>
                                     </Grid.ColumnDefinitions>
                                     <StackPanel Grid.Column="0">
-                                        <TextBlock Text="Ramp-Up Delay" FontSize="13" 
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2934Text}" FontSize="13"
                                                    Foreground="{StaticResource TextSecondaryBrush}"/>
                                         <TextBlock Text="Wait before increasing fan speed" FontSize="11" 
                                                    Foreground="{StaticResource TextTertiaryBrush}"/>
@@ -2951,7 +2951,7 @@
                                         <ColumnDefinition Width="80"/>
                                     </Grid.ColumnDefinitions>
                                     <StackPanel Grid.Column="0">
-                                        <TextBlock Text="Ramp-Down Delay" FontSize="13" 
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2954Text}" FontSize="13"
                                                    Foreground="{StaticResource TextSecondaryBrush}"/>
                                         <TextBlock Text="Wait before decreasing fan speed" FontSize="11" 
                                                    Foreground="{StaticResource TextTertiaryBrush}"/>
@@ -2971,7 +2971,7 @@
                                         <ColumnDefinition Width="Auto"/>
                                     </Grid.ColumnDefinitions>
                                     <StackPanel Grid.Column="0">
-                                        <TextBlock Text="Thermal Protection" FontSize="13"
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2974Text}" FontSize="13"
                                                    Foreground="{StaticResource TextSecondaryBrush}"/>
                                         <TextBlock Text="Auto-boost fans when temps exceed threshold, including the emergency 100% override on custom curves. Disable if your laptop naturally runs hot and you manage fans manually — you take full responsibility for thermal management." FontSize="11"
                                                    Foreground="{StaticResource TextTertiaryBrush}" TextWrapping="Wrap"/>
@@ -2990,7 +2990,7 @@
                                         <ColumnDefinition Width="80"/>
                                     </Grid.ColumnDefinitions>
                                     <StackPanel Grid.Column="0">
-                                        <TextBlock Text="Thermal Protection Threshold" FontSize="13"
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2993Text}" FontSize="13"
                                                    Foreground="{StaticResource TextSecondaryBrush}"/>
                                         <TextBlock Text="Fans ramp up when temps exceed this (70-95°C)" FontSize="11"
                                                    Foreground="{StaticResource TextTertiaryBrush}"/>
@@ -3033,7 +3033,7 @@
                                         <ColumnDefinition Width="80"/>
                                     </Grid.ColumnDefinitions>
                                     <StackPanel Grid.Column="0">
-                                        <TextBlock Text="Max Fan Level Override" FontSize="13" 
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3036Text}" FontSize="13"
                                                    Foreground="{StaticResource TextSecondaryBrush}"/>
                                         <TextBlock Text="Override auto-detected max fan level. Set to 0 for auto-detect. If fans don't reach full speed, try 63 or 100. Requires restart." FontSize="11" 
                                                    Foreground="{StaticResource TextTertiaryBrush}" TextWrapping="Wrap"/>
@@ -3057,7 +3057,7 @@
                                   Fill="OrangeRed" 
                                   Width="24" Height="24" Stretch="Uniform" 
                                   VerticalAlignment="Center" Margin="0,0,12,0"/>
-                            <TextBlock Text="HP OMEN Gaming Hub Cleanup" FontSize="20" FontWeight="SemiBold" 
+                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3060Text}" FontSize="20" FontWeight="SemiBold"
                                        Foreground="{StaticResource TextPrimaryBrush}"/>
                         </StackPanel>
                         
@@ -3077,7 +3077,7 @@
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <TextBlock Grid.Column="0" Text="Kill running HP OMEN processes" 
+                                <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText3080Text}"
                                            VerticalAlignment="Center" Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <ToggleButton AutomationProperties.Name="Kill running HP OMEN processes" Grid.Column="1" Style="{StaticResource ModernToggleButton}" 
                                               IsChecked="{Binding CleanupKillProcesses}" HorizontalAlignment="Right"/>
@@ -3088,7 +3088,7 @@
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <TextBlock Grid.Column="0" Text="Uninstall HP OMEN Gaming Hub application" 
+                                <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText3091Text}"
                                            VerticalAlignment="Center" Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <ToggleButton AutomationProperties.Name="Uninstall HP OMEN Gaming Hub application" Grid.Column="1" Style="{StaticResource ModernToggleButton}" 
                                               IsChecked="{Binding CleanupUninstallApp}" HorizontalAlignment="Right"/>
@@ -3110,7 +3110,7 @@
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <TextBlock Grid.Column="0" Text="Clean HP OMEN registry entries" 
+                                <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText3113Text}"
                                            VerticalAlignment="Center" Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <ToggleButton AutomationProperties.Name="Clean HP OMEN registry entries" Grid.Column="1" Style="{StaticResource ModernToggleButton}" 
                                               IsChecked="{Binding CleanupRegistryEntries}" HorizontalAlignment="Right"/>
@@ -3132,7 +3132,7 @@
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <TextBlock Grid.Column="0" Text="Remove residual HP OMEN files and folders" 
+                                <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText3135Text}"
                                            VerticalAlignment="Center" Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <ToggleButton AutomationProperties.Name="Remove residual HP OMEN files and folders" Grid.Column="1" Style="{StaticResource ModernToggleButton}" 
                                               IsChecked="{Binding CleanupRemoveFiles}" HorizontalAlignment="Right"/>
@@ -3160,7 +3160,7 @@
                                     <Run Text="Tip: You can also manually create a restore point using the button below if you want extra safety."/>
                                 </TextBlock>
                                 
-                                <Button AutomationProperties.Name="Create Manual Restore Point" Content="Create Manual Restore Point" 
+                                <Button AutomationProperties.Name="Create Manual Restore Point" Content="{x:Static loc:Strings.SettingsReferenceText3163Content}"
                                         Style="{StaticResource SecondaryButton}"
                                         Command="{Binding CreateRestorePointCommand}"
                                         HorizontalAlignment="Left" Padding="16,8" Margin="0,12,0,0"
@@ -3248,9 +3248,9 @@
                                   Width="24" Height="24" Stretch="Uniform" 
                                   VerticalAlignment="Center" Margin="0,0,12,0"/>
                             <StackPanel>
-                                <TextBlock Text="Profile Management" FontSize="20" FontWeight="SemiBold" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3251Text}" FontSize="20" FontWeight="SemiBold"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Save and load your complete OmenCore configuration" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3253Text}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                         </StackPanel>
@@ -3298,7 +3298,7 @@
                                   Fill="#CE93D8" 
                                   Width="24" Height="24" Stretch="Uniform" 
                                   VerticalAlignment="Center" Margin="0,0,12,0"/>
-                            <TextBlock Text="Data &amp; Storage" FontSize="20" FontWeight="SemiBold" 
+                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3301Text}" FontSize="20" FontWeight="SemiBold"
                                        Foreground="{StaticResource TextPrimaryBrush}"/>
                         </StackPanel>
 
@@ -3343,7 +3343,7 @@
                                   Fill="{StaticResource AccentBrush}" 
                                   Width="24" Height="24" Stretch="Uniform" 
                                   VerticalAlignment="Center" Margin="0,0,12,0"/>
-                            <TextBlock Text="About OmenCore" FontSize="20" FontWeight="SemiBold" 
+                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3346Text}" FontSize="20" FontWeight="SemiBold"
                                        Foreground="{StaticResource TextPrimaryBrush}"/>
                         </StackPanel>
 
@@ -3384,7 +3384,7 @@
                                         Padding="20,10" HorizontalAlignment="Left">
                                     <StackPanel Orientation="Horizontal">
                                         <TextBlock Text="☕" FontSize="16" Margin="0,0,8,0"/>
-                                        <TextBlock Text="Donate via PayPal" VerticalAlignment="Center"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3387Text}" VerticalAlignment="Center"/>
                                     </StackPanel>
                                 </Button>
                             </StackPanel>
@@ -3403,7 +3403,7 @@
                             <StackPanel>
                                 <StackPanel Orientation="Horizontal" Margin="0,0,0,4">
                                     <Path Data="{StaticResource IconSchedule}" Fill="{StaticResource AccentBrush}" Width="22" Height="22" Stretch="Uniform" VerticalAlignment="Center" Margin="0,0,10,0"/>
-                                    <TextBlock Text="Profile Scheduler" FontSize="20" FontWeight="SemiBold" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3406Text}" FontSize="20" FontWeight="SemiBold" Foreground="{StaticResource TextPrimaryBrush}"/>
                                 </StackPanel>
                                 <TextBlock Text="Automatically apply fan presets and performance modes at scheduled times each day." FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" Margin="0,0,0,20"/>
 
@@ -3525,32 +3525,32 @@
 
                                                         <StackPanel Grid.Column="0" Margin="0,0,12,0"
                                                                     Visibility="{Binding IsTimeTrigger, Converter={StaticResource BooleanToVisibilityConverter}}">
-                                                            <TextBlock Text="Start time" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
+                                                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3528Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
                                                             <TextBox AutomationProperties.Name="Start time" Text="{Binding StartTimeText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource ModernTextBox}" Padding="8,4"/>
                                                         </StackPanel>
 
                                                         <StackPanel Grid.Column="1" Margin="0,0,12,0"
                                                                     Visibility="{Binding IsTimeTrigger, Converter={StaticResource BooleanToVisibilityConverter}}">
-                                                            <TextBlock Text="End time" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
+                                                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3534Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
                                                             <TextBox AutomationProperties.Name="End time" Text="{Binding EndTimeText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource ModernTextBox}" Padding="8,4"/>
                                                         </StackPanel>
 
                                                         <StackPanel Grid.Column="0" Margin="0,0,12,0"
                                                                     Visibility="{Binding IsBatteryTrigger, Converter={StaticResource BooleanToVisibilityConverter}}">
-                                                            <TextBlock Text="Battery threshold" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
+                                                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3540Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
                                                             <TextBox AutomationProperties.Name="Battery threshold" Text="{Binding BatteryThreshold, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource ModernTextBox}" Padding="8,4"/>
                                                         </StackPanel>
 
                                                         <StackPanel Grid.Column="1" Margin="0,0,12,0"
                                                                     Visibility="{Binding IsBatteryTrigger, Converter={StaticResource BooleanToVisibilityConverter}}">
-                                                            <TextBlock Text="Battery condition" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
+                                                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3546Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
                                                             <ComboBox AutomationProperties.Name="Battery condition" ItemsSource="{Binding BatteryConditions}" SelectedItem="{Binding BatteryCondition, Mode=TwoWay}"
                                                                       Style="{StaticResource ModernComboBox}"/>
                                                         </StackPanel>
 
                                                         <StackPanel Grid.Column="0" Margin="0,0,12,0"
                                                                     Visibility="{Binding IsACPowerTrigger, Converter={StaticResource BooleanToVisibilityConverter}}">
-                                                            <TextBlock Text="AC power state" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
+                                                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3553Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
                                                             <ComboBox AutomationProperties.Name="AC power state" ItemsSource="{Binding AcPowerStates}" SelectedItem="{Binding AcPowerState, Mode=TwoWay}"
                                                                       Style="{StaticResource ModernComboBox}"/>
                                                         </StackPanel>
@@ -3608,13 +3608,13 @@
                                                         </Grid.ColumnDefinitions>
 
                                                         <StackPanel Grid.Column="0" Margin="0,0,12,0">
-                                                            <TextBlock Text="Fan preset action" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
+                                                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3611Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
                                                             <ComboBox AutomationProperties.Name="Fan preset action" ItemsSource="{Binding FanPresetOptions}" SelectedItem="{Binding FanPreset, Mode=TwoWay}"
                                                                       Style="{StaticResource ModernComboBox}"/>
                                                         </StackPanel>
 
                                                         <StackPanel Grid.Column="1">
-                                                            <TextBlock Text="Performance mode action" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
+                                                            <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3617Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
                                                             <ComboBox AutomationProperties.Name="Performance mode action" ItemsSource="{Binding PerformanceModeOptions}" SelectedItem="{Binding PerformanceMode, Mode=TwoWay}"
                                                                       Style="{StaticResource ModernComboBox}"/>
                                                         </StackPanel>

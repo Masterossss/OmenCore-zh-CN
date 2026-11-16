@@ -798,43 +798,43 @@ src/OmenCoreApp/Views/QuickPopupWindow.xaml,248,ToolTip,Toggle refresh rate,E,�
 src/OmenCoreApp/Views/QuickPopupWindow.xaml,254,ToolTip,Run a safe RAM clean,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/QuickPopupWindow.xaml,257,Text,Clean RAM,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,25,Text,Settings,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,28,Text,"Configure application behavior, startup options, and driver settings",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,62,Text,Search Results,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,28,Text,"Configure application behavior, startup options, and driver settings",A,是,已迁移,SettingsReferenceText28Text
+src/OmenCoreApp/Views/SettingsView.xaml,62,Text,Search Results,A,是,已迁移,SettingsReferenceText62Text
 src/OmenCoreApp/Views/SettingsView.xaml,87,Header,Status,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,100,Text,System Status,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,111,Text,Fan Control Backend,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,113,Text,The method used to control fans on your system,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,133,Text,Secure Boot,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,183,Text,PawnIO Driver,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,185,Text,Secure Boot compatible driver for EC/MSR access,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,100,Text,System Status,A,是,已迁移,SettingsReferenceText100Text
+src/OmenCoreApp/Views/SettingsView.xaml,111,Text,Fan Control Backend,A,是,已迁移,SettingsReferenceText111Text
+src/OmenCoreApp/Views/SettingsView.xaml,113,Text,The method used to control fans on your system,A,是,已迁移,SettingsReferenceText113Text
+src/OmenCoreApp/Views/SettingsView.xaml,133,Text,Secure Boot,A,是,已迁移,SettingsReferenceText133Text
+src/OmenCoreApp/Views/SettingsView.xaml,183,Text,PawnIO Driver,A,是,已迁移,SettingsReferenceText183Text
+src/OmenCoreApp/Views/SettingsView.xaml,185,Text,Secure Boot compatible driver for EC/MSR access,A,是,已迁移,SettingsReferenceText185Text
 src/OmenCoreApp/Views/SettingsView.xaml,223,Text,OMEN Gaming Hub,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,225,Text,HP's official control software - provides WMI access,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,292,Text,Standalone Status,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,225,Text,HP's official control software - provides WMI access,A,是,已迁移,SettingsReferenceText225Text
+src/OmenCoreApp/Views/SettingsView.xaml,292,Text,Standalone Status,A,是,已迁移,SettingsReferenceText292Text
 src/OmenCoreApp/Views/SettingsView.xaml,341,Text,Post-Resume Recovery,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,373,Text,Model Identity Resolution,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,388,Text,Resolved Model,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,401,Text,Resolution Source,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,408,Text,Confidence,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,421,Text,Keyboard Profile,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,428,Text,Keyboard Source,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,488,Content,Copy Summary,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,506,Text,PawnIO-Only Mode,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,373,Text,Model Identity Resolution,A,是,已迁移,SettingsReferenceText373Text
+src/OmenCoreApp/Views/SettingsView.xaml,388,Text,Resolved Model,A,是,已迁移,SettingsReferenceText388Text
+src/OmenCoreApp/Views/SettingsView.xaml,401,Text,Resolution Source,A,是,已迁移,SettingsReferenceText401Text
+src/OmenCoreApp/Views/SettingsView.xaml,408,Text,Confidence,A,是,已迁移,SettingsReferenceText408Text
+src/OmenCoreApp/Views/SettingsView.xaml,421,Text,Keyboard Profile,A,是,已迁移,SettingsReferenceText421Text
+src/OmenCoreApp/Views/SettingsView.xaml,428,Text,Keyboard Source,A,是,已迁移,SettingsReferenceText428Text
+src/OmenCoreApp/Views/SettingsView.xaml,488,Content,Copy Summary,A,是,已迁移,SettingsReferenceText488Content
+src/OmenCoreApp/Views/SettingsView.xaml,506,Text,PawnIO-Only Mode,A,是,已迁移,SettingsReferenceText506Text
 src/OmenCoreApp/Views/SettingsView.xaml,508,Text,"Disable HP service-dependent features (performance modes, GPU switching). Use only PawnIO for EC fan control and temperature monitoring.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,528,Text,BIOS WMI Reliability,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,528,Text,BIOS WMI Reliability,A,是,已迁移,SettingsReferenceText528Text
 src/OmenCoreApp/Views/SettingsView.xaml,551,Content,Refresh,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,564,Header,General,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,578,Text,General,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,887,ToolTip,Share anonymous PID success/failure counts to help improve device support. Opt-in only; stored at %LOCALAPPDATA%\OmenCore\telemetry.json,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,896,Header,Advanced,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,908,Text,Monitoring,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,918,Text,Automatic monitoring cadence,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,918,Text,Automatic monitoring cadence,A,是,已迁移,SettingsReferenceText918Text
 src/OmenCoreApp/Views/SettingsView.xaml,920,Text,"OmenCore now owns cadence automatically: active windows and OSD stay responsive, idle sessions slow down safely, and low-overhead tray-only mode can settle to the ultra-low cadence when nothing is blocking it.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,930,Text,Cadence tiers,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,944,Text,Chart history,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,946,Text,Number of data points to display in charts,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,969,Text,Low overhead mode,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,971,Text,Reduce CPU usage by limiting sensor polling,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,982,Text,Live cadence status,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,930,Text,Cadence tiers,A,是,已迁移,SettingsReferenceText930Text
+src/OmenCoreApp/Views/SettingsView.xaml,944,Text,Chart history,A,是,已迁移,SettingsReferenceText944Text
+src/OmenCoreApp/Views/SettingsView.xaml,946,Text,Number of data points to display in charts,A,是,已迁移,SettingsReferenceText946Text
+src/OmenCoreApp/Views/SettingsView.xaml,969,Text,Low overhead mode,A,是,已迁移,SettingsReferenceText969Text
+src/OmenCoreApp/Views/SettingsView.xaml,971,Text,Reduce CPU usage by limiting sensor polling,A,是,已迁移,SettingsReferenceText971Text
+src/OmenCoreApp/Views/SettingsView.xaml,982,Text,Live cadence status,A,是,已迁移,SettingsReferenceText982Text
 src/OmenCoreApp/Views/SettingsView.xaml,986,Text,Current tier: ,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,991,Text,Reason: ,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,996,Text,Ultra-low blockers: ,E,待核实,待审查,尚未判断是否可见或需要翻译
@@ -844,30 +844,30 @@ src/OmenCoreApp/Views/SettingsView.xaml,1027,Text,Safe-mode startup window,E,待
 src/OmenCoreApp/Views/SettingsView.xaml,1029,Text,How long after startup the guard can auto-activate,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1053,Text,Timeout threshold,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1055,Text,Consecutive monitor timeouts required before startup safe mode activates,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1082,Text,Hardware Worker,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1093,Text,Enable orphan timeout,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,1082,Text,Hardware Worker,A,是,已迁移,SettingsReferenceText1082Text
+src/OmenCoreApp/Views/SettingsView.xaml,1093,Text,Enable orphan timeout,A,是,已迁移,SettingsReferenceText1093Text
 src/OmenCoreApp/Views/SettingsView.xaml,1095,Text,Worker process exits after main app closes if no reconnection occurs,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1111,Text,Orphan timeout duration,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,1111,Text,Orphan timeout duration,A,是,已迁移,SettingsReferenceText1111Text
 src/OmenCoreApp/Views/SettingsView.xaml,1113,Text,Minutes to wait for reconnection before worker exits,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1140,Text,Power Automation,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1151,Text,Auto-switch on power change,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,1140,Text,Power Automation,A,是,已迁移,SettingsReferenceText1140Text
+src/OmenCoreApp/Views/SettingsView.xaml,1151,Text,Auto-switch on power change,A,是,已迁移,SettingsReferenceText1151Text
 src/OmenCoreApp/Views/SettingsView.xaml,1153,Text,Automatically switch profiles when AC power is connected or disconnected,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1163,Text,When on AC Power:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1171,Text,Fan preset,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1185,Text,Performance mode,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1195,Text,When on Battery:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1203,Text,Fan preset,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1217,Text,Performance mode,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1233,Text,Link fan to performance mode,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1235,Text,Automatically apply the matching fan preset whenever you change performance mode.,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,1163,Text,When on AC Power:,A,是,已迁移,SettingsReferenceText1163Text
+src/OmenCoreApp/Views/SettingsView.xaml,1171,Text,Fan preset,A,是,已迁移,SettingsReferenceText1171Text
+src/OmenCoreApp/Views/SettingsView.xaml,1185,Text,Performance mode,A,是,已迁移,SettingsReferenceText1185Text
+src/OmenCoreApp/Views/SettingsView.xaml,1195,Text,When on Battery:,A,是,已迁移,SettingsReferenceText1195Text
+src/OmenCoreApp/Views/SettingsView.xaml,1203,Text,Fan preset,A,是,已迁移,SettingsReferenceText1203Text
+src/OmenCoreApp/Views/SettingsView.xaml,1217,Text,Performance mode,A,是,已迁移,SettingsReferenceText1217Text
+src/OmenCoreApp/Views/SettingsView.xaml,1233,Text,Link fan to performance mode,A,是,已迁移,SettingsReferenceText1233Text
+src/OmenCoreApp/Views/SettingsView.xaml,1235,Text,Automatically apply the matching fan preset whenever you change performance mode.,A,是,已迁移,SettingsReferenceText1235Text
 src/OmenCoreApp/Views/SettingsView.xaml,1251,Text,Do not pin a fan level when returning to Auto (experimental),E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1253,Text,For laptops whose fans stay near 2000 RPM at high temperature until you restore the OEM profile. Skips a fan-level hint OmenCore sends when it hands control back to the BIOS. Off by default; takes effect after a restart. Not yet confirmed on hardware.,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1270,Text,Return Max fan mode to Auto,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1272,Text,Off keeps Max until you change it. Cooldown hands the fans back to BIOS Auto when CPU and GPU stay under 60 C for 2 minutes. Timer hands them back after the chosen time. Not yet confirmed on hardware.,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1283,ToolTip,Minutes,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1295,Text,Restore last hardware settings on startup,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,1295,Text,Restore last hardware settings on startup,A,是,已迁移,SettingsReferenceText1295Text
 src/OmenCoreApp/Views/SettingsView.xaml,1297,Text,"Reapply the saved fan preset, performance mode, GPU boost, and tuning settings after OmenCore starts.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1312,Text,Allow startup restore on OMEN 16/Victus,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,1312,Text,Allow startup restore on OMEN 16/Victus,A,是,已迁移,SettingsReferenceText1312Text
 src/OmenCoreApp/Views/SettingsView.xaml,1314,Text,Overrides the extra guardrail for models that have reported firmware sensitivity during boot. Leave off unless you want automatic reapply on those systems.,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1328,Text,Startup Restore Categories,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1337,Text,Fans,E,待核实,待审查,尚未判断是否可见或需要翻译
@@ -884,61 +884,61 @@ src/OmenCoreApp/Views/SettingsView.xaml,1412,Text,Tuning,E,待核实,待审查,�
 src/OmenCoreApp/Views/SettingsView.xaml,1413,Text,"Reapply confirmed undervolt, TCC, CPU power, and GPU OC restore paths. On OMEN 16/Victus models this is skipped unless 'Allow startup restore on OMEN 16/Victus' is on.",E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1425,Text,Startup restore: ,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1434,Text,Current status: ,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1451,Text,Updates,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1462,Text,Check for updates automatically,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1464,Text,Periodically check GitHub for new releases,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1480,Text,Check interval,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1482,Text,How often to check for updates,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,1451,Text,Updates,A,是,已迁移,SettingsReferenceText1451Text
+src/OmenCoreApp/Views/SettingsView.xaml,1462,Text,Check for updates automatically,A,是,已迁移,SettingsReferenceText1462Text
+src/OmenCoreApp/Views/SettingsView.xaml,1464,Text,Periodically check GitHub for new releases,A,是,已迁移,SettingsReferenceText1464Text
+src/OmenCoreApp/Views/SettingsView.xaml,1480,Text,Check interval,A,是,已迁移,SettingsReferenceText1480Text
+src/OmenCoreApp/Views/SettingsView.xaml,1482,Text,How often to check for updates,A,是,已迁移,SettingsReferenceText1482Text
 src/OmenCoreApp/Views/SettingsView.xaml,1490,Content,Every hour,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1491,Content,Every 6 hours,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1492,Content,Daily,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1493,Content,Weekly,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1504,Text,Include pre-releases,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1506,Text,Get notified about beta and preview versions,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1523,Text,Hotkeys,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1534,Text,Enable global hotkeys,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1536,Text,Use keyboard shortcuts even when app is in background,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1551,Text,Only enable hotkeys when window is focused,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,1504,Text,Include pre-releases,A,是,已迁移,SettingsReferenceText1504Text
+src/OmenCoreApp/Views/SettingsView.xaml,1506,Text,Get notified about beta and preview versions,A,是,已迁移,SettingsReferenceText1506Text
+src/OmenCoreApp/Views/SettingsView.xaml,1523,Text,Hotkeys,A,是,已迁移,SettingsReferenceText1523Text
+src/OmenCoreApp/Views/SettingsView.xaml,1534,Text,Enable global hotkeys,A,是,已迁移,SettingsReferenceText1534Text
+src/OmenCoreApp/Views/SettingsView.xaml,1536,Text,Use keyboard shortcuts even when app is in background,A,是,已迁移,SettingsReferenceText1536Text
+src/OmenCoreApp/Views/SettingsView.xaml,1551,Text,Only enable hotkeys when window is focused,A,是,已迁移,SettingsReferenceText1551Text
 src/OmenCoreApp/Views/SettingsView.xaml,1553,Text,Prevents conflicts by deactivating hotkeys when the app isn’t active,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1573,Text,Experimental firmware Fn+P profile cycle,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,1573,Text,Experimental firmware Fn+P profile cycle,A,是,已迁移,SettingsReferenceText1573Text
 src/OmenCoreApp/Views/SettingsView.xaml,1575,Text,Use BIOS WMI event mapping to cycle performance profiles. Disabled by default because event codes vary by model.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1588,Text,Default Hotkeys,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,1588,Text,Default Hotkeys,A,是,已迁移,SettingsReferenceText1588Text
 src/OmenCoreApp/Views/SettingsView.xaml,1605,Text,Ctrl + Shift + F,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1607,Text,Cycle fan modes,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,1607,Text,Cycle fan modes,A,是,已迁移,SettingsReferenceText1607Text
 src/OmenCoreApp/Views/SettingsView.xaml,1610,Text,Ctrl + Shift + P,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1612,Text,Cycle performance modes,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,1612,Text,Cycle performance modes,A,是,已迁移,SettingsReferenceText1612Text
 src/OmenCoreApp/Views/SettingsView.xaml,1615,Text,Ctrl + Shift + E,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1617,Text,Cycle General profiles,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1620,Text,Ctrl + Shift + B,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1622,Text,Boost mode (Performance),E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1625,Text,Ctrl + Shift + Q,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1627,Text,Quiet mode,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,1627,Text,Quiet mode,A,是,已迁移,SettingsReferenceText1627Text
 src/OmenCoreApp/Views/SettingsView.xaml,1630,Text,Ctrl + Shift + O,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1632,Text,Show/hide OmenCore window,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,1632,Text,Show/hide OmenCore window,A,是,已迁移,SettingsReferenceText1632Text
 src/OmenCoreApp/Views/SettingsView.xaml,1635,Text,Win + F12,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1637,Text,Show OmenCore window,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1651,Text,Notifications,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1662,Text,Enable notifications,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1664,Text,Show Windows toast notifications for events,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1680,Text,Game profile notifications,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,1637,Text,Show OmenCore window,A,是,已迁移,SettingsReferenceText1637Text
+src/OmenCoreApp/Views/SettingsView.xaml,1651,Text,Notifications,A,是,已迁移,SettingsReferenceText1651Text
+src/OmenCoreApp/Views/SettingsView.xaml,1662,Text,Enable notifications,A,是,已迁移,SettingsReferenceText1662Text
+src/OmenCoreApp/Views/SettingsView.xaml,1664,Text,Show Windows toast notifications for events,A,是,已迁移,SettingsReferenceText1664Text
+src/OmenCoreApp/Views/SettingsView.xaml,1680,Text,Game profile notifications,A,是,已迁移,SettingsReferenceText1680Text
 src/OmenCoreApp/Views/SettingsView.xaml,1682,Text,Notify when game profiles are activated/deactivated,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1699,Text,Mode change notifications,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,1699,Text,Mode change notifications,A,是,已迁移,SettingsReferenceText1699Text
 src/OmenCoreApp/Views/SettingsView.xaml,1701,Text,Notify when fan or performance modes change via hotkey,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1718,Text,Temperature warnings,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1720,Text,Alert when CPU/GPU temperature exceeds threshold,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1740,Text,Hardware Driver,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,1718,Text,Temperature warnings,A,是,已迁移,SettingsReferenceText1718Text
+src/OmenCoreApp/Views/SettingsView.xaml,1720,Text,Alert when CPU/GPU temperature exceeds threshold,A,是,已迁移,SettingsReferenceText1720Text
+src/OmenCoreApp/Views/SettingsView.xaml,1740,Text,Hardware Driver,A,是,已迁移,SettingsReferenceText1740Text
 src/OmenCoreApp/Views/SettingsView.xaml,1782,ToolTip,Download and install PawnIO — a Secure Boot compatible driver for EC/MSR access,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1788,ToolTip,Re-check driver and EC backend status,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1799,Text,Reset EC to Defaults,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1802,Text,Restores BIOS fan control. Use if BIOS shows stuck/incorrect fan values.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1825,Text,BIOS Information,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,1825,Text,BIOS Information,A,是,已迁移,SettingsReferenceText1825Text
 src/OmenCoreApp/Views/SettingsView.xaml,1835,Text,HP Model:,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1847,Text,Current BIOS:,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1859,Text,Latest BIOS:,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1901,ToolTip,Check HP for available BIOS firmware updates,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1909,ToolTip,Download and launch the BIOS update installer,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1922,Text,HP Driver &amp; Support Resources,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,1941,Text,HP Support,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,1922,Text,HP Driver &amp; Support Resources,A,是,已迁移,SettingsReferenceText1922Text
+src/OmenCoreApp/Views/SettingsView.xaml,1941,Text,HP Support,A,是,已迁移,SettingsReferenceText1941Text
 src/OmenCoreApp/Views/SettingsView.xaml,1944,Text,Assistant,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1956,Text,Driver,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,1959,Text,Downloads,E,待核实,待审查,尚未判断是否可见或需要翻译
@@ -973,125 +973,125 @@ src/OmenCoreApp/Views/SettingsView.xaml,2325,Text,Keyboard Backend,E,待核实,�
 src/OmenCoreApp/Views/SettingsView.xaml,2328,Text,Auto = WMI BIOS → WMI → EC. Set specific if auto-detection fails.,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,2345,Text,Invert RGB Zone Order,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,2348,Text,Enable for OMEN Max 16 light bar (zones run right-to-left),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2371,Text,Custom Fan Curves,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,2371,Text,Custom Fan Curves,A,是,已迁移,SettingsReferenceText2371Text
 src/OmenCoreApp/Views/SettingsView.xaml,2373,Text,Continuous fan speed adjustment (disable for BIOS-only control),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2389,Text,Power Source Automation,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,2389,Text,Power Source Automation,A,是,已迁移,SettingsReferenceText2389Text
 src/OmenCoreApp/Views/SettingsView.xaml,2391,Text,Auto-switch profiles when plugging/unplugging AC,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2407,Text,GPU Mode Switching,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,2407,Text,GPU Mode Switching,A,是,已迁移,SettingsReferenceText2407Text
 src/OmenCoreApp/Views/SettingsView.xaml,2409,Text,Control Hybrid/Discrete/Optimus modes,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2425,Text,CPU Undervolt Controls,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,2425,Text,CPU Undervolt Controls,A,是,已迁移,SettingsReferenceText2425Text
 src/OmenCoreApp/Views/SettingsView.xaml,2427,Text,Voltage offset adjustment (requires compatible CPU),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2447,Text,OMEN Key Interception,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,2447,Text,OMEN Key Interception,A,是,已迁移,SettingsReferenceText2447Text
 src/OmenCoreApp/Views/SettingsView.xaml,2450,Text,Capture OMEN key to show OmenCore instead of HP Gaming Hub,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,2469,Text,"An OMEN Gaming Hub service or process is running. This can conflict with OmenCore's fan control, undervolt, or OMEN key handling. If Gaming Hub itself is still installed, use Bloatware Manager to remove it.",E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,2483,Text,OMEN Key Action,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,2494,Text,Program or script to run,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,2497,Text,Arguments (optional),E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,2519,Header,Appearance,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2530,Text,In-Game OSD,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2532,Text,On-screen overlay showing system stats during gaming,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2544,Text,Enable OSD Overlay,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,2530,Text,In-Game OSD,A,是,已迁移,SettingsReferenceText2530Text
+src/OmenCoreApp/Views/SettingsView.xaml,2532,Text,On-screen overlay showing system stats during gaming,A,是,已迁移,SettingsReferenceText2532Text
+src/OmenCoreApp/Views/SettingsView.xaml,2544,Text,Enable OSD Overlay,A,是,已迁移,SettingsReferenceText2544Text
 src/OmenCoreApp/Views/SettingsView.xaml,2546,Text,"When disabled, no OSD background process runs at all",E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,2564,Text,Position,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2576,Text,Target Monitor,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2589,Text,Overlay Density,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2602,Text,Toggle Hotkey,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2609,Text,Hotkey OSD Visuals,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2617,Text,Popup Duration,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2632,Text,Popup Size,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2647,Text,Accent Theme,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2655,Text,Compact Popup,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2661,Text,Metrics to Display,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2664,Text,Metric Groups,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,2576,Text,Target Monitor,A,是,已迁移,SettingsReferenceText2576Text
+src/OmenCoreApp/Views/SettingsView.xaml,2589,Text,Overlay Density,A,是,已迁移,SettingsReferenceText2589Text
+src/OmenCoreApp/Views/SettingsView.xaml,2602,Text,Toggle Hotkey,A,是,已迁移,SettingsReferenceText2602Text
+src/OmenCoreApp/Views/SettingsView.xaml,2609,Text,Hotkey OSD Visuals,A,是,已迁移,SettingsReferenceText2609Text
+src/OmenCoreApp/Views/SettingsView.xaml,2617,Text,Popup Duration,A,是,已迁移,SettingsReferenceText2617Text
+src/OmenCoreApp/Views/SettingsView.xaml,2632,Text,Popup Size,A,是,已迁移,SettingsReferenceText2632Text
+src/OmenCoreApp/Views/SettingsView.xaml,2647,Text,Accent Theme,A,是,已迁移,SettingsReferenceText2647Text
+src/OmenCoreApp/Views/SettingsView.xaml,2655,Text,Compact Popup,A,是,已迁移,SettingsReferenceText2655Text
+src/OmenCoreApp/Views/SettingsView.xaml,2661,Text,Metrics to Display,A,是,已迁移,SettingsReferenceText2661Text
+src/OmenCoreApp/Views/SettingsView.xaml,2664,Text,Metric Groups,A,是,已迁移,SettingsReferenceText2664Text
 src/OmenCoreApp/Views/SettingsView.xaml,2667,Text,Thermals,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,2671,Text,Performance,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,2675,Text,Network,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,2679,Text,System,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2685,Text,Temperature &amp; Load,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2688,Text,CPU Temp,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2692,Text,GPU Temp,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,2685,Text,Temperature &amp; Load,A,是,已迁移,SettingsReferenceText2685Text
+src/OmenCoreApp/Views/SettingsView.xaml,2688,Text,CPU Temp,A,是,已迁移,SettingsReferenceText2688Text
+src/OmenCoreApp/Views/SettingsView.xaml,2692,Text,GPU Temp,A,是,已迁移,SettingsReferenceText2692Text
 src/OmenCoreApp/Views/SettingsView.xaml,2696,Text,CPU Load %,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,2700,Text,GPU Load %,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2706,Text,Power &amp; Memory,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,2706,Text,Power &amp; Memory,A,是,已迁移,SettingsReferenceText2706Text
 src/OmenCoreApp/Views/SettingsView.xaml,2709,Text,CPU Power (W),E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,2713,Text,GPU Power (W),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2717,Text,RAM Usage,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2721,Text,VRAM Usage,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,2717,Text,RAM Usage,A,是,已迁移,SettingsReferenceText2717Text
+src/OmenCoreApp/Views/SettingsView.xaml,2721,Text,VRAM Usage,A,是,已迁移,SettingsReferenceText2721Text
 src/OmenCoreApp/Views/SettingsView.xaml,2727,Text,Performance,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,2730,Text,FPS (RTSS),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2734,Text,Frametime (ms),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2738,Text,Network Ping,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2742,Text,Net Upload,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2746,Text,Net Download,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2752,Text,System Status,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2755,Text,Fan Speed (RPM),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2759,Text,Fan Mode,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,2734,Text,Frametime (ms),A,是,已迁移,SettingsReferenceText2734Text
+src/OmenCoreApp/Views/SettingsView.xaml,2738,Text,Network Ping,A,是,已迁移,SettingsReferenceText2738Text
+src/OmenCoreApp/Views/SettingsView.xaml,2742,Text,Net Upload,A,是,已迁移,SettingsReferenceText2742Text
+src/OmenCoreApp/Views/SettingsView.xaml,2746,Text,Net Download,A,是,已迁移,SettingsReferenceText2746Text
+src/OmenCoreApp/Views/SettingsView.xaml,2752,Text,System Status,A,是,已迁移,SettingsReferenceText2752Text
+src/OmenCoreApp/Views/SettingsView.xaml,2755,Text,Fan Speed (RPM),A,是,已迁移,SettingsReferenceText2755Text
+src/OmenCoreApp/Views/SettingsView.xaml,2759,Text,Fan Mode,A,是,已迁移,SettingsReferenceText2759Text
 src/OmenCoreApp/Views/SettingsView.xaml,2763,Text,Perf. Mode,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2767,Text,Clock Time,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,2767,Text,Clock Time,A,是,已迁移,SettingsReferenceText2767Text
 src/OmenCoreApp/Views/SettingsView.xaml,2771,Text,Battery %,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2775,Text,CPU Clock,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2779,Text,GPU Clock,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,2775,Text,CPU Clock,A,是,已迁移,SettingsReferenceText2775Text
+src/OmenCoreApp/Views/SettingsView.xaml,2779,Text,GPU Clock,A,是,已迁移,SettingsReferenceText2779Text
 src/OmenCoreApp/Views/SettingsView.xaml,2785,Text,Layout,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2787,Text,Horizontal Layout,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2803,Text,Battery Care,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2805,Text,Extend battery lifespan with smart charge limiting,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2817,Text,Enable Charge Limit,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2819,Text,Stop charging at a custom threshold to preserve battery health,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2837,Text,Charge Threshold,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2839,Text,Set maximum battery charge level,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2879,Text,Fan Hysteresis,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2881,Text,Prevent fan speed oscillation with dead-zone and delays,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2893,Text,Enable Hysteresis,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2895,Text,Smooth out fan speed changes to reduce noise fluctuation,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2914,Text,Temperature Dead-Zone,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,2787,Text,Horizontal Layout,A,是,已迁移,SettingsReferenceText2787Text
+src/OmenCoreApp/Views/SettingsView.xaml,2803,Text,Battery Care,A,是,已迁移,SettingsReferenceText2803Text
+src/OmenCoreApp/Views/SettingsView.xaml,2805,Text,Extend battery lifespan with smart charge limiting,A,是,已迁移,SettingsReferenceText2805Text
+src/OmenCoreApp/Views/SettingsView.xaml,2817,Text,Enable Charge Limit,A,是,已迁移,SettingsReferenceText2817Text
+src/OmenCoreApp/Views/SettingsView.xaml,2819,Text,Stop charging at a custom threshold to preserve battery health,A,是,已迁移,SettingsReferenceText2819Text
+src/OmenCoreApp/Views/SettingsView.xaml,2837,Text,Charge Threshold,A,是,已迁移,SettingsReferenceText2837Text
+src/OmenCoreApp/Views/SettingsView.xaml,2839,Text,Set maximum battery charge level,A,是,已迁移,SettingsReferenceText2839Text
+src/OmenCoreApp/Views/SettingsView.xaml,2879,Text,Fan Hysteresis,A,是,已迁移,SettingsReferenceText2879Text
+src/OmenCoreApp/Views/SettingsView.xaml,2881,Text,Prevent fan speed oscillation with dead-zone and delays,A,是,已迁移,SettingsReferenceText2881Text
+src/OmenCoreApp/Views/SettingsView.xaml,2893,Text,Enable Hysteresis,A,是,已迁移,SettingsReferenceText2893Text
+src/OmenCoreApp/Views/SettingsView.xaml,2895,Text,Smooth out fan speed changes to reduce noise fluctuation,A,是,已迁移,SettingsReferenceText2895Text
+src/OmenCoreApp/Views/SettingsView.xaml,2914,Text,Temperature Dead-Zone,A,是,已迁移,SettingsReferenceText2914Text
 src/OmenCoreApp/Views/SettingsView.xaml,2916,Text,Fans won't change unless temp moves beyond this,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2934,Text,Ramp-Up Delay,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,2934,Text,Ramp-Up Delay,A,是,已迁移,SettingsReferenceText2934Text
 src/OmenCoreApp/Views/SettingsView.xaml,2936,Text,Wait before increasing fan speed,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,2942,Text,s,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2954,Text,Ramp-Down Delay,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,2954,Text,Ramp-Down Delay,A,是,已迁移,SettingsReferenceText2954Text
 src/OmenCoreApp/Views/SettingsView.xaml,2956,Text,Wait before decreasing fan speed,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,2962,Text,s,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2974,Text,Thermal Protection,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,2974,Text,Thermal Protection,A,是,已迁移,SettingsReferenceText2974Text
 src/OmenCoreApp/Views/SettingsView.xaml,2976,Text,"Auto-boost fans when temps exceed threshold, including the emergency 100% override on custom curves. Disable if your laptop naturally runs hot and you manage fans manually — you take full responsibility for thermal management.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,2993,Text,Thermal Protection Threshold,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,2993,Text,Thermal Protection Threshold,A,是,已迁移,SettingsReferenceText2993Text
 src/OmenCoreApp/Views/SettingsView.xaml,2995,Text,Fans ramp up when temps exceed this (70-95°C),E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3015,Text,Emergency Max-Fan Threshold,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3017,Text,"Fans forced to 100% immediately above this (90-99°C, always at least 2°C above the ramp threshold above)",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,3036,Text,Max Fan Level Override,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,3036,Text,Max Fan Level Override,A,是,已迁移,SettingsReferenceText3036Text
 src/OmenCoreApp/Views/SettingsView.xaml,3038,Text,"Override auto-detected max fan level. Set to 0 for auto-detect. If fans don't reach full speed, try 63 or 100. Requires restart.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,3060,Text,HP OMEN Gaming Hub Cleanup,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,3060,Text,HP OMEN Gaming Hub Cleanup,A,是,已迁移,SettingsReferenceText3060Text
 src/OmenCoreApp/Views/SettingsView.xaml,3066,Text,Remove HP OMEN Gaming Hub and related services. This is optional - OmenCore works without OGH installed.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,3080,Text,Kill running HP OMEN processes,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,3091,Text,Uninstall HP OMEN Gaming Hub application,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,3080,Text,Kill running HP OMEN processes,A,是,已迁移,SettingsReferenceText3080Text
+src/OmenCoreApp/Views/SettingsView.xaml,3091,Text,Uninstall HP OMEN Gaming Hub application,A,是,已迁移,SettingsReferenceText3091Text
 src/OmenCoreApp/Views/SettingsView.xaml,3102,Text,"Remove HP OMEN services (OmenService, LightingService)",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,3113,Text,Clean HP OMEN registry entries,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,3113,Text,Clean HP OMEN registry entries,A,是,已迁移,SettingsReferenceText3113Text
 src/OmenCoreApp/Views/SettingsView.xaml,3124,Text,Remove HP OMEN legacy installers (winget/AppX),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,3135,Text,Remove residual HP OMEN files and folders,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,3135,Text,Remove residual HP OMEN files and folders,A,是,已迁移,SettingsReferenceText3135Text
 src/OmenCoreApp/Views/SettingsView.xaml,3154,Text,"A System Restore point will be created automatically before cleanup starts. If restore point creation fails (e.g., System Restore is disabled), you'll be prompted to continue or cancel.",E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3160,Text,Tip: You can also manually create a restore point using the button below if you want extra safety.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,3163,Content,Create Manual Restore Point,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,3163,Content,Create Manual Restore Point,A,是,已迁移,SettingsReferenceText3163Content
 src/OmenCoreApp/Views/SettingsView.xaml,3167,ToolTip,Create a Windows System Restore snapshot before running cleanup,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3198,ToolTip,Execute the selected Windows system cleanup tasks,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3233,Text,Some components may still be running until you restart Windows.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,3251,Text,Profile Management,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,3253,Text,Save and load your complete OmenCore configuration,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,3251,Text,Profile Management,A,是,已迁移,SettingsReferenceText3251Text
+src/OmenCoreApp/Views/SettingsView.xaml,3253,Text,Save and load your complete OmenCore configuration,A,是,已迁移,SettingsReferenceText3253Text
 src/OmenCoreApp/Views/SettingsView.xaml,3264,ToolTip,"Load fan curves, performance modes, and GPU OC settings from .omencore file",E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3269,ToolTip,Save your current configuration to share or backup,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3274,ToolTip,Export logs and system info for troubleshooting,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,3301,Text,Data &amp; Storage,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,3301,Text,Data &amp; Storage,A,是,已迁移,SettingsReferenceText3301Text
 src/OmenCoreApp/Views/SettingsView.xaml,3310,ToolTip,Open %LOCALAPPDATA%\OmenCore — where settings and profiles are stored,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3315,ToolTip,Open the folder containing OmenCore diagnostic log files,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3320,ToolTip,Reset all settings to default values,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3334,Header,About,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,3346,Text,About OmenCore,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,3346,Text,About OmenCore,A,是,已迁移,SettingsReferenceText3346Text
 src/OmenCoreApp/Views/SettingsView.xaml,3351,Text,Version: ,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3362,ToolTip,Open the OmenCore GitHub repository in your browser,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3367,ToolTip,View the full changelog for this release,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3372,ToolTip,Open the GitHub issue tracker to report a bug or request a feature,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3380,Text,"OmenCore is free and open source. If you find it useful, consider supporting its development!",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,3387,Text,Donate via PayPal,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,3387,Text,Donate via PayPal,A,是,已迁移,SettingsReferenceText3387Text
 src/OmenCoreApp/Views/SettingsView.xaml,3399,Header,Scheduler,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,3406,Text,Profile Scheduler,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,3406,Text,Profile Scheduler,A,是,已迁移,SettingsReferenceText3406Text
 src/OmenCoreApp/Views/SettingsView.xaml,3408,Text,Automatically apply fan presets and performance modes at scheduled times each day.,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3432,Text,Time:,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3435,Text,Fan:,E,待核实,待审查,尚未判断是否可见或需要翻译
@@ -1107,11 +1107,11 @@ src/OmenCoreApp/Views/SettingsView.xaml,3450,Content,Silent,E,待核实,待审�
 src/OmenCoreApp/Views/SettingsView.xaml,3481,Text,Automation Rules,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3482,Text,"Promoted triggers for shipped automation: time window, battery threshold, AC power state, CPU/GPU temperature, and system idle time.",E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3511,ToolTip,Lower numbers run first,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,3528,Text,Start time,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,3534,Text,End time,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,3540,Text,Battery threshold,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,3546,Text,Battery condition,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,3553,Text,AC power state,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,3528,Text,Start time,A,是,已迁移,SettingsReferenceText3528Text
+src/OmenCoreApp/Views/SettingsView.xaml,3534,Text,End time,A,是,已迁移,SettingsReferenceText3534Text
+src/OmenCoreApp/Views/SettingsView.xaml,3540,Text,Battery threshold,A,是,已迁移,SettingsReferenceText3540Text
+src/OmenCoreApp/Views/SettingsView.xaml,3546,Text,Battery condition,A,是,已迁移,SettingsReferenceText3546Text
+src/OmenCoreApp/Views/SettingsView.xaml,3553,Text,AC power state,A,是,已迁移,SettingsReferenceText3553Text
 src/OmenCoreApp/Views/SettingsView.xaml,3560,Text,Temperature threshold (°C),E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3566,Text,Temperature condition,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3573,Text,Sensor,E,待核实,待审查,尚未判断是否可见或需要翻译
@@ -1119,8 +1119,8 @@ src/OmenCoreApp/Views/SettingsView.xaml,3580,Text,Idle minutes,E,待核实,待�
 src/OmenCoreApp/Views/SettingsView.xaml,3586,Text,Process name (e.g. game.exe),E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3592,Text,WiFi network name (SSID),E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,3598,Text,Lid state,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,3611,Text,Fan preset action,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SettingsView.xaml,3617,Text,Performance mode action,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SettingsView.xaml,3611,Text,Fan preset action,A,是,已迁移,SettingsReferenceText3611Text
+src/OmenCoreApp/Views/SettingsView.xaml,3617,Text,Performance mode action,A,是,已迁移,SettingsReferenceText3617Text
 src/OmenCoreApp/Views/SplashWindow.xaml,74,Text,OmenCore,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SplashWindow.xaml,80,Text,v2.0.0-alpha1,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SplashWindow.xaml,84,Text,Hardware Control Suite,E,待核实,待审查,尚未判断是否可见或需要翻译

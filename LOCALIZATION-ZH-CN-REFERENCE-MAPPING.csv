@@ -1,0 +1,394 @@
+﻿old_path,old_line,attribute,old_english,old_chinese,new_path,new_english,match_type,confidence,suggested,applied,manual_review,note
+src/OmenCoreApp/Views/AboutWindow.xaml,4,Title,About OmenCore,关于 OmenCore,,,未找到候选对应项,无对应,关于 OmenCore,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/AboutWindow.xaml,33,Text,Gaming Laptop and Desktop Control Center,游戏本和台式机控制中心,,,未找到候选对应项,无对应,游戏本和台式机控制中心,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/AboutWindow.xaml,40,ToolTip,Close (Esc),关闭 (Esc),,,未找到候选对应项,无对应,关闭 (Esc),否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/AboutWindow.xaml,58,Text,"Advanced thermal, power, and RGB control for HP OMEN gaming laptops and desktops.",惠普 OMEN 游戏本和台式机的高级散热、电源和 RGB 控制。,,,未找到候选对应项,无对应,惠普 OMEN 游戏本和台式机的高级散热、电源和 RGB 控制。,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/AboutWindow.xaml,111,Content,⟳ Check for Updates,⟳ 检查更新,,,未找到候选对应项,无对应,⟳ 检查更新,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/AboutWindow.xaml,118,ToolTip,Check GitHub for new releases,检查 GitHub 上的新版本,,,未找到候选对应项,无对应,检查 GitHub 上的新版本,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/AboutWindow.xaml,120,Content,Close,关闭,,,未找到候选对应项,无对应,关闭,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/AboutWindow.xaml,127,ToolTip,Close this window (Esc),关闭此窗口 (Esc),,,未找到候选对应项,无对应,关闭此窗口 (Esc),否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,39,Text,System Overview,系统概览,,,未找到候选对应项,无对应,系统概览,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,40,Text,Real-time hardware telemetry,实时硬件遥测数据,,,未找到候选对应项,无对应,实时硬件遥测数据,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,55,Text,THROTTLING,降频保护,,,未找到候选对应项,无对应,降频保护,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,61,ToolTip,Refresh all sensors,刷新所有传感器,,,未找到候选对应项,无对应,刷新所有传感器,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,65,Text,Refresh,刷新,,,未找到候选对应项,无对应,刷新,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,139,Text,FANS,风扇,,,未找到候选对应项,无对应,风扇,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,150,Text,PERFORMANCE MODE,性能模式,,,未找到候选对应项,无对应,性能模式,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,161,Text,FAN MODE,风扇模式,,,未找到候选对应项,无对应,风扇模式,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,173,Text,POWER,电源,,,未找到候选对应项,无对应,电源,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,207,Text,PROCESSOR,处理器,,,未找到候选对应项,无对应,处理器,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,246,Text,GRAPHICS,显卡,,,未找到候选对应项,无对应,显卡,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,285,Text,MEMORY,内存,,,未找到候选对应项,无对应,内存,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,323,Text,STORAGE,存储,,,未找到候选对应项,无对应,存储,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,352,Text,BATTERY,电池,,,未找到候选对应项,无对应,电池,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,381,Text,POWER,电源,,,未找到候选对应项,无对应,电源,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,410,Text,FAN CURVE,风扇曲线,,,未找到候选对应项,无对应,风扇曲线,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,433,Text,History:,历史:,,,未找到候选对应项,无对应,历史:,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,458,Text,CPU TEMPERATURE,CPU 温度,,,未找到候选对应项,无对应,CPU 温度,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,477,Text,GPU TEMPERATURE,GPU 温度,,,未找到候选对应项,无对应,GPU 温度,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,496,Text,UTILIZATION,利用率,,,未找到候选对应项,无对应,利用率,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,534,Text,CPU FREQUENCIES,CPU 频率,,,未找到候选对应项,无对应,CPU 频率,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,551,Text,GPU VOLTAGE & CURRENT,GPU 电压和电流,,,未找到候选对应项,无对应,GPU 电压和电流,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,555,Text,VOLTAGE,电压,,,未找到候选对应项,无对应,电压,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,566,Text,CURRENT,电流,,,未找到候选对应项,无对应,电流,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,589,Text,FAN CURVE,风扇曲线,,,未找到候选对应项,无对应,风扇曲线,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,593,Text,CPU FAN,CPU 风扇,,,未找到候选对应项,无对应,CPU 风扇,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,604,Text,GPU FAN,GPU 风扇,,,未找到候选对应项,无对应,GPU 风扇,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,635,Text,Reduced CPU Usage Mode,低 CPU 占用模式,,,未找到候选对应项,无对应,低 CPU 占用模式,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,639,Text,Live charts are disabled to minimize monitoring overhead.,实时图表已禁用以减少监控开销。,,,未找到候选对应项,无对应,实时图表已禁用以减少监控开销。,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DashboardView.xaml,645,Text,Hardware summary information is still available above.,硬件摘要信息仍在上方可用。,,,未找到候选对应项,无对应,硬件摘要信息仍在上方可用。,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/DiagnosticsView.xaml,15,Text,System Diagnostics,系统诊断,src/OmenCoreApp/Views/DiagnosticsView.xaml,System Diagnostics,同文件同属性原文一致,候选需语境复核,系统诊断,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/FanControlView.xaml,205,Text,Max,最大,src/OmenCoreApp/Views/FanControlView.xaml,Max,同文件同属性原文一致,候选需语境复核,最大,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/FanControlView.xaml,243,Text,Extreme,狂暴,src/OmenCoreApp/Views/FanControlView.xaml,Extreme,同文件同属性原文一致,候选需语境复核,狂暴,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/FanControlView.xaml,281,Text,Gaming,游戏,src/OmenCoreApp/Views/FanControlView.xaml,Gaming,同文件同属性原文一致,候选需语境复核,游戏,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/FanControlView.xaml,319,Text,Auto,自动,src/OmenCoreApp/Views/FanControlView.xaml,Auto,同文件同属性原文一致,候选需语境复核,自动,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/FanControlView.xaml,357,Text,Silent,静音,src/OmenCoreApp/Views/FanControlView.xaml,Silent,同文件同属性原文一致,候选需语境复核,静音,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GameLibraryView.xaml,184,Text,Add Game,添加游戏,src/OmenCoreApp/Views/GameLibraryView.xaml,Add Game,同文件同属性原文一致,候选需语境复核,添加游戏,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,205,Text,New Profile,新建配置,src/OmenCoreApp/Views/GameProfileManagerView.xaml,New Profile,同文件同属性原文一致,候选需语境复核,新建配置,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,108,Text,PERFORMANCE & COOLING,性能和散热,src/OmenCoreApp/Views/GeneralView.xaml,PERFORMANCE & COOLING,同文件同属性原文一致,候选需语境复核,性能和散热,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,109,Text,Quick profile selection for optimal system tuning,快速选择配置文件以优化系统调校,src/OmenCoreApp/Views/GeneralView.xaml,Quick profile selection for optimal system tuning,同文件同属性原文一致,候选需语境复核,快速选择配置文件以优化系统调校,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,143,Text,QUICK PROFILES,快捷配置文件,src/OmenCoreApp/Views/GeneralView.xaml,QUICK PROFILES,同文件同属性原文一致,候选需语境复核,快捷配置文件,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,145,Text,Click to activate,点击激活,src/OmenCoreApp/Views/GeneralView.xaml,Click to activate,同文件同属性原文一致,候选需语境复核,点击激活,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,157,ToolTip,Maximum CPU/GPU power limits and aggressive fan curves for gaming and heavy workloads,最大 CPU/GPU 功率限制和激进风扇曲线，适用于游戏和高负载任务,src/OmenCoreApp/Views/GeneralView.xaml,Maximum CPU/GPU power limits and aggressive fan curves for gaming and heavy workloads,同文件同属性原文一致,候选需语境复核,最大 CPU/GPU 功率限制和激进风扇曲线，适用于游戏和高负载任务,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,178,Text,Performance,性能模式,src/OmenCoreApp/Views/GeneralView.xaml,Performance,同文件同属性原文一致,候选需语境复核,性能模式,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,180,Text,MAXIMUM OUTPUT,最大输出,src/OmenCoreApp/Views/GeneralView.xaml,MAXIMUM OUTPUT,同文件同属性原文一致,候选需语境复核,最大输出,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,186,Text,Max Power,最大功率,src/OmenCoreApp/Views/GeneralView.xaml,Max Power,同文件同属性原文一致,候选需语境复核,最大功率,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,189,Text,High Fans,高速风扇,src/OmenCoreApp/Views/GeneralView.xaml,High Fans,同文件同属性原文一致,候选需语境复核,高速风扇,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,197,Text,✓ ACTIVE,✓ 已激活,,,未找到候选对应项,无对应,✓ 已激活,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/GeneralView.xaml,208,ToolTip,Default HP profile — balanced power and thermals for everyday use,默认惠普配置 — 平衡功率和散热，适合日常使用,src/OmenCoreApp/Views/GeneralView.xaml,Default HP profile — balanced power and thermals for everyday use,同文件同属性原文一致,候选需语境复核,默认惠普配置 — 平衡功率和散热，适合日常使用,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,228,Text,Balanced,平衡模式,src/OmenCoreApp/Views/GeneralView.xaml,Balanced,同文件同属性原文一致,候选需语境复核,平衡模式,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,230,Text,RECOMMENDED,推荐,src/OmenCoreApp/Views/GeneralView.xaml,RECOMMENDED,同文件同属性原文一致,候选需语境复核,推荐,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,235,Text,Default,默认,src/OmenCoreApp/Views/GeneralView.xaml,Default,同文件同属性原文一致,候选需语境复核,默认,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,238,Text,Auto Fans,自动风扇,src/OmenCoreApp/Views/GeneralView.xaml,Auto Fans,同文件同属性原文一致,候选需语境复核,自动风扇,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,245,Text,✓ ACTIVE,✓ 已激活,,,未找到候选对应项,无对应,✓ 已激活,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/GeneralView.xaml,256,ToolTip,Reduced power limits and minimal fan speed for silent operation,降低功率限制和最低风扇转速，实现静音运行,src/OmenCoreApp/Views/GeneralView.xaml,Reduced power limits and minimal fan speed for silent operation,同文件同属性原文一致,候选需语境复核,降低功率限制和最低风扇转速，实现静音运行,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,276,Text,Quiet,安静模式,src/OmenCoreApp/Views/GeneralView.xaml,Quiet,同文件同属性原文一致,候选需语境复核,安静模式,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,278,Text,SILENT OPERATION,静音运行,src/OmenCoreApp/Views/GeneralView.xaml,SILENT OPERATION,同文件同属性原文一致,候选需语境复核,静音运行,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,283,Text,Power Save,省电,src/OmenCoreApp/Views/GeneralView.xaml,Power Save,同文件同属性原文一致,候选需语境复核,省电,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,286,Text,Low Fans,低转速风扇,src/OmenCoreApp/Views/GeneralView.xaml,Low Fans,同文件同属性原文一致,候选需语境复核,低转速风扇,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,293,Text,✓ ACTIVE,✓ 已激活,,,未找到候选对应项,无对应,✓ 已激活,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/GeneralView.xaml,304,ToolTip,User-defined fan curves and power settings via the OMEN tab,通过 OMEN 选项卡自定义风扇曲线和功率设置,,,未找到候选对应项,无对应,通过 OMEN 选项卡自定义风扇曲线和功率设置,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/GeneralView.xaml,324,Text,Custom,自定义,src/OmenCoreApp/Views/GeneralView.xaml,Custom,同文件同属性原文一致,候选需语境复核,自定义,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,324,Text,Custom,自定义,src/OmenCoreApp/Views/GeneralView.xaml,Custom,同文件同属性原文一致,候选需语境复核,自定义,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,326,Text,ADVANCED CONTROL,高级控制,src/OmenCoreApp/Views/GeneralView.xaml,ADVANCED CONTROL,同文件同属性原文一致,候选需语境复核,高级控制,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,331,Text,Manual,手动,src/OmenCoreApp/Views/GeneralView.xaml,Manual,同文件同属性原文一致,候选需语境复核,手动,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,334,Text,OMEN Tab,OMEN 选项卡,,,未找到候选对应项,无对应,OMEN 选项卡,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/GeneralView.xaml,341,Text,✓ ACTIVE,✓ 已激活,,,未找到候选对应项,无对应,✓ 已激活,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/GeneralView.xaml,404,Text,TEMP,温度,src/OmenCoreApp/Views/GeneralView.xaml,TEMP,同文件同属性原文一致,候选需语境复核,温度,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,404,Text,TEMP,温度,src/OmenCoreApp/Views/GeneralView.xaml,TEMP,同文件同属性原文一致,候选需语境复核,温度,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,422,Text,LOAD,负载,src/OmenCoreApp/Views/GeneralView.xaml,LOAD,同文件同属性原文一致,候选需语境复核,负载,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,422,Text,LOAD,负载,src/OmenCoreApp/Views/GeneralView.xaml,LOAD,同文件同属性原文一致,候选需语境复核,负载,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,445,Text,POWER,功耗,src/OmenCoreApp/Views/GeneralView.xaml,POWER,同文件同属性原文一致,候选需语境复核,功耗,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,445,Text,POWER,功耗,src/OmenCoreApp/Views/GeneralView.xaml,POWER,同文件同属性原文一致,候选需语境复核,功耗,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,453,Text,🌀 FAN,风扇,,,未找到候选对应项,无对应,风扇,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/GeneralView.xaml,513,Text,TEMP,温度,src/OmenCoreApp/Views/GeneralView.xaml,TEMP,同文件同属性原文一致,候选需语境复核,温度,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,513,Text,TEMP,温度,src/OmenCoreApp/Views/GeneralView.xaml,TEMP,同文件同属性原文一致,候选需语境复核,温度,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,531,Text,LOAD,负载,src/OmenCoreApp/Views/GeneralView.xaml,LOAD,同文件同属性原文一致,候选需语境复核,负载,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,531,Text,LOAD,负载,src/OmenCoreApp/Views/GeneralView.xaml,LOAD,同文件同属性原文一致,候选需语境复核,负载,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,554,Text,POWER,功耗,src/OmenCoreApp/Views/GeneralView.xaml,POWER,同文件同属性原文一致,候选需语境复核,功耗,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,554,Text,POWER,功耗,src/OmenCoreApp/Views/GeneralView.xaml,POWER,同文件同属性原文一致,候选需语境复核,功耗,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,562,Text,🌀 FAN,风扇,,,未找到候选对应项,无对应,风扇,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/GeneralView.xaml,593,Text,SYSTEM,系统,src/OmenCoreApp/Views/GeneralView.xaml,SYSTEM,同文件同属性原文一致,候选需语境复核,系统,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,611,Text,RAM,内存,src/OmenCoreApp/Views/GeneralView.xaml,RAM,同文件同属性原文一致,候选需语境复核,内存,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,628,Text,USED,已用,src/OmenCoreApp/Views/GeneralView.xaml,USED,同文件同属性原文一致,候选需语境复核,已用,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/GeneralView.xaml,652,Text,⚡ MODE,⚡ 模式,,,未找到候选对应项,无对应,⚡ 模式,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/GeneralView.xaml,663,Text,🌀 FANS,风扇,,,未找到候选对应项,无对应,风扇,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,12,Title,OmenCore - Gaming Laptop Control Center,OmenCore - 游戏本控制中心,,,未找到候选对应项,无对应,OmenCore - 游戏本控制中心,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,61,ToolTip,Minimize,最小化,,,未找到候选对应项,无对应,最小化,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,62,ToolTip,Maximize,最大化,,,未找到候选对应项,无对应,最大化,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,63,ToolTip,Close,关闭,,,未找到候选对应项,无对应,关闭,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,99,Text,C O N T R O L   C E N T E R,控 制 中 心,src/OmenCoreApp/Views/MainWindow.xaml,C O N T R O L   C E N T E R,同文件同属性原文一致,候选需语境复核,控 制 中 心,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,130,Text,PERFORMANCE,性能模式,src/OmenCoreApp/Views/MainWindow.xaml,PERFORMANCE,同文件同属性原文一致,候选需语境复核,性能模式,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,142,Text,FAN MODE,风扇模式,src/OmenCoreApp/Views/MainWindow.xaml,FAN MODE,同文件同属性原文一致,候选需语境复核,风扇模式,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,265,Text,UTILITIES,工具,,,未找到候选对应项,无对应,工具,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,267,ToolTip,Export your settings,导出设置,src/OmenCoreApp/Views/MainWindow.xaml,Export your settings,同文件同属性原文一致,候选需语境复核,导出设置,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,270,Text,Export,导出,src/OmenCoreApp/Views/MainWindow.xaml,Export,同文件同属性原文一致,候选需语境复核,导出,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,273,ToolTip,Import settings file,导入设置文件,src/OmenCoreApp/Views/MainWindow.xaml,Import settings file,同文件同属性原文一致,候选需语境复核,导入设置文件,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,276,Text,Import,导入,src/OmenCoreApp/Views/MainWindow.xaml,Import,同文件同属性原文一致,候选需语境复核,导入,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,279,ToolTip,Manage per-game settings,管理游戏设置,src/OmenCoreApp/Views/MainWindow.xaml,Manage per-game settings,同文件同属性原文一致,候选需语境复核,管理游戏设置,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,282,Text,Profiles,配置文件,src/OmenCoreApp/Views/MainWindow.xaml,Profiles,同文件同属性原文一致,候选需语境复核,配置文件,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,285,ToolTip,About OmenCore,关于 OmenCore,src/OmenCoreApp/Views/MainWindow.xaml,About OmenCore,同文件同属性原文一致,候选需语境复核,关于 OmenCore,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,288,Text,About,关于,src/OmenCoreApp/Views/MainWindow.xaml,About,同文件同属性原文一致,候选需语境复核,关于,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,292,ToolTip,Manually check for a new version,手动检查新版本,src/OmenCoreApp/Views/MainWindow.xaml,Manually check for a new version,同文件同属性原文一致,候选需语境复核,手动检查新版本,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,307,Text,Check for Updates,检查更新,src/OmenCoreApp/Views/MainWindow.xaml,Check for Updates,同文件同属性原文一致,候选需语境复核,检查更新,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,317,Text,QUICK ACTIONS,快捷操作,,,未找到候选对应项,无对应,快捷操作,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,326,ToolTip,Apply your saved fan preset,应用已保存的风扇预设,src/OmenCoreApp/Views/MainWindow.xaml,Apply your saved fan preset,同文件同属性原文一致,候选需语境复核,应用已保存的风扇预设,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,352,Text,Apply Fan Preset,应用风扇预设,,,未找到候选对应项,无对应,应用风扇预设,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,355,ToolTip,Switch performance profile,切换性能配置文件,src/OmenCoreApp/Views/MainWindow.xaml,Switch performance profile,同文件同属性原文一致,候选需语境复核,切换性能配置文件,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,381,Text,Performance Mode,切换性能模式,,,未找到候选对应项,无对应,切换性能模式,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,384,ToolTip,Apply RGB lighting,应用RGB灯效,src/OmenCoreApp/Views/MainWindow.xaml,Apply RGB lighting,同文件同属性原文一致,候选需语境复核,应用RGB灯效,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,410,Text,Apply Lighting,应用灯光,,,未找到候选对应项,无对应,应用灯光,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,413,ToolTip,Enable gaming optimizations,启用游戏优化,src/OmenCoreApp/Views/MainWindow.xaml,Enable gaming optimizations,同文件同属性原文一致,候选需语境复核,启用游戏优化,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,439,Text,Gaming Mode,游戏模式,,,未找到候选对应项,无对应,游戏模式,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,444,ToolTip,"Reset fan curves, lighting, and performance mode to their defaults",恢复风扇曲线、灯光和性能模式至默认值,,,未找到候选对应项,无对应,恢复风扇曲线、灯光和性能模式至默认值,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,447,Text,Restore Defaults,恢复默认,,,未找到候选对应项,无对应,恢复默认,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,454,Text,SYSTEM,系统信息,,,未找到候选对应项,无对应,系统信息,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,499,Text,PROCESSOR,处理器,,,未找到候选对应项,无对应,处理器,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,503,Text,Cores /,核心 /,,,未找到候选对应项,无对应,核心 /,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,505,Text,Threads,线程,,,未找到候选对应项,无对应,线程,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,520,Text,MEMORY,内存,,,未找到候选对应项,无对应,内存,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,550,Text,GRAPHICS,显卡,,,未找到候选对应项,无对应,显卡,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,592,Text,Update Ready,发现新版本,src/OmenCoreApp/Views/MainWindow.xaml,Update Ready,同文件同属性原文一致,候选需语境复核,发现新版本,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,599,Content,Install Update,安装更新,src/OmenCoreApp/Views/MainWindow.xaml,Install Update,同文件同属性原文一致,候选需语境复核,安装更新,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,605,Content,Release Notes,更新日志,src/OmenCoreApp/Views/MainWindow.xaml,Release Notes,同文件同属性原文一致,候选需语境复核,更新日志,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,640,Text,Warning: Unsupported or Unverified Gaming System Detected,警告: 检测到不受支持或未验证的游戏系统,,,未找到候选对应项,无对应,警告: 检测到不受支持或未验证的游戏系统,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,644,Text,"OmenCore is tuned for validated HP OMEN and Victus models. Your system may be non-HP, non-OMEN HP, or an unverified model fallback, so some features may be limited or unavailable.",OmenCore 针对已验证的 HP OMEN 和 Victus 型号进行了优化。您的系统可能为非惠普设备、非OMEN惠普设备或未经验证的型号，因此部分功能可能受限或不可用。,,,未找到候选对应项,无对应,OmenCore 针对已验证的 HP OMEN 和 Victus 型号进行了优化。您的系统可能为非惠普设备、非OMEN惠普设备或未经验证的型号，因此部分功能可能受限或不可用。,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,661,Text,General,常规,,,未找到候选对应项,无对应,常规,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,681,Text,Tuning,超频调校,,,未找到候选对应项,无对应,超频调校,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,691,Text,Diagnostics,诊断,,,未找到候选对应项,无对应,诊断,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,701,Text,Monitoring,硬件监控,,,未找到候选对应项,无对应,硬件监控,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,712,Text,Optimizer,系统优化,,,未找到候选对应项,无对应,系统优化,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,722,Text,Memory,内存清理,,,未找到候选对应项,无对应,内存清理,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,732,Text,Bloatware,预装软件,,,未找到候选对应项,无对应,预装软件,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,742,Text,RGB,灯效,,,未找到候选对应项,无对应,灯效,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,752,Text,Settings,设置,,,未找到候选对应项,无对应,设置,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,762,Text,Games,游戏库,,,未找到候选对应项,无对应,游戏库,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/MainWindow.xaml,786,Text,RECENT ACTIVITY,最近活动,src/OmenCoreApp/Views/MainWindow.xaml,RECENT ACTIVITY,同文件同属性原文一致,候选需语境复核,最近活动,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/MainWindow.xaml,793,Text,SYSTEM LOG,系统日志,src/OmenCoreApp/Views/MainWindow.xaml,SYSTEM LOG,同文件同属性原文一致,候选需语境复核,系统日志,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,27,Text,"Configure application behavior, startup options, and driver settings",配置应用行为、启动选项和驱动设置,src/OmenCoreApp/Views/SettingsView.xaml,"Configure application behavior, startup options, and driver settings",同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,配置应用行为、启动选项和驱动设置,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText28Text
+src/OmenCoreApp/Views/SettingsView.xaml,61,Text,Search Results,搜索结果,src/OmenCoreApp/Views/SettingsView.xaml,Search Results,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,搜索结果,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText62Text
+src/OmenCoreApp/Views/SettingsView.xaml,86,Header,Status,状态,src/OmenCoreApp/Views/SettingsView.xaml,Status,同文件同属性原文一致,候选需语境复核,状态,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,99,Text,System Status,系统状态,src/OmenCoreApp/Views/SettingsView.xaml,System Status,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,系统状态,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText100Text
+src/OmenCoreApp/Views/SettingsView.xaml,99,Text,System Status,系统状态,src/OmenCoreApp/Views/SettingsView.xaml,System Status,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,系统状态,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText100Text
+src/OmenCoreApp/Views/SettingsView.xaml,110,Text,Fan Control Backend,风扇控制后端,src/OmenCoreApp/Views/SettingsView.xaml,Fan Control Backend,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,风扇控制后端,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText111Text
+src/OmenCoreApp/Views/SettingsView.xaml,112,Text,The method used to control fans on your system,控制系统风扇的方法,src/OmenCoreApp/Views/SettingsView.xaml,The method used to control fans on your system,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,控制系统风扇的方法,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText113Text
+src/OmenCoreApp/Views/SettingsView.xaml,132,Text,Secure Boot,安全启动,src/OmenCoreApp/Views/SettingsView.xaml,Secure Boot,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,安全启动,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText133Text
+src/OmenCoreApp/Views/SettingsView.xaml,182,Text,PawnIO Driver,PawnIO 驱动,src/OmenCoreApp/Views/SettingsView.xaml,PawnIO Driver,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,PawnIO 驱动,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText183Text
+src/OmenCoreApp/Views/SettingsView.xaml,184,Text,Secure Boot compatible driver for EC/MSR access,兼容安全启动的 EC/MSR 访问驱动,src/OmenCoreApp/Views/SettingsView.xaml,Secure Boot compatible driver for EC/MSR access,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,兼容安全启动的 EC/MSR 访问驱动,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText185Text
+src/OmenCoreApp/Views/SettingsView.xaml,224,Text,HP's official control software - provides WMI access,惠普官方控制软件 - 提供 WMI 访问,src/OmenCoreApp/Views/SettingsView.xaml,HP's official control software - provides WMI access,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,惠普官方控制软件 - 提供 WMI 访问,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText225Text
+src/OmenCoreApp/Views/SettingsView.xaml,291,Text,Standalone Status,独立运行状态,src/OmenCoreApp/Views/SettingsView.xaml,Standalone Status,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,独立运行状态,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText292Text
+src/OmenCoreApp/Views/SettingsView.xaml,340,Text,Post-Resume Recovery,休眠恢复,src/OmenCoreApp/Views/SettingsView.xaml,Post-Resume Recovery,同文件同属性原文一致,候选需语境复核,休眠恢复,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,372,Text,Model Identity Resolution,型号识别,src/OmenCoreApp/Views/SettingsView.xaml,Model Identity Resolution,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,型号识别,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText373Text
+src/OmenCoreApp/Views/SettingsView.xaml,387,Text,Resolved Model,识别的型号,src/OmenCoreApp/Views/SettingsView.xaml,Resolved Model,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,识别的型号,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText388Text
+src/OmenCoreApp/Views/SettingsView.xaml,400,Text,Resolution Source,识别来源,src/OmenCoreApp/Views/SettingsView.xaml,Resolution Source,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,识别来源,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText401Text
+src/OmenCoreApp/Views/SettingsView.xaml,407,Text,Confidence,可信度,src/OmenCoreApp/Views/SettingsView.xaml,Confidence,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,可信度,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText408Text
+src/OmenCoreApp/Views/SettingsView.xaml,420,Text,Keyboard Profile,键盘配置文件,src/OmenCoreApp/Views/SettingsView.xaml,Keyboard Profile,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,键盘配置文件,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText421Text
+src/OmenCoreApp/Views/SettingsView.xaml,427,Text,Keyboard Source,键盘来源,src/OmenCoreApp/Views/SettingsView.xaml,Keyboard Source,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,键盘来源,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText428Text
+src/OmenCoreApp/Views/SettingsView.xaml,487,Content,Copy Summary,复制摘要,src/OmenCoreApp/Views/SettingsView.xaml,Copy Summary,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,复制摘要,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText488Content
+src/OmenCoreApp/Views/SettingsView.xaml,505,Text,PawnIO-Only Mode,PawnIO 独占模式,src/OmenCoreApp/Views/SettingsView.xaml,PawnIO-Only Mode,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,PawnIO 独占模式,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText506Text
+src/OmenCoreApp/Views/SettingsView.xaml,527,Text,BIOS WMI Reliability,BIOS WMI 可靠性,src/OmenCoreApp/Views/SettingsView.xaml,BIOS WMI Reliability,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,BIOS WMI 可靠性,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText528Text
+src/OmenCoreApp/Views/SettingsView.xaml,550,Content,Refresh,刷新,src/OmenCoreApp/Views/SettingsView.xaml,Refresh,同文件同属性原文一致,候选需语境复核,刷新,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,563,Header,General,常规,src/OmenCoreApp/Views/SettingsView.xaml,General,同文件同属性原文一致,候选需语境复核,常规,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,582,Text,Topmost,置顶,,,未找到候选对应项,无对应,置顶,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,586,Text,Window Behavior,窗口行为,,,未找到候选对应项,无对应,窗口行为,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,596,Text,Start with Windows,开机自启动,,,未找到候选对应项,无对应,开机自启动,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,598,Text,Launch OmenCore automatically when Windows starts,Windows 启动时自动运行 OmenCore,,,未找到候选对应项,无对应,Windows 启动时自动运行 OmenCore,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,614,Text,Start minimized to tray,启动时最小化到托盘,,,未找到候选对应项,无对应,启动时最小化到托盘,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,616,Text,"Hide main window on startup, show only in system tray",启动时隐藏主窗口，仅在系统托盘中显示,,,未找到候选对应项,无对应,启动时隐藏主窗口，仅在系统托盘中显示,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,632,Text,Lite mode (beginner UI),精简模式（简化界面）,,,未找到候选对应项,无对应,精简模式（简化界面）,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,634,Text,Hides advanced tabs by default. You can disable this anytime to restore full controls.,默认隐藏高级选项卡。可随时禁用以恢复完整控制。,,,未找到候选对应项,无对应,默认隐藏高级选项卡。可随时禁用以恢复完整控制。,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,651,Text,Headless mode (no main window),无头模式（无主窗口）,,,未找到候选对应项,无对应,无头模式（无主窗口）,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,653,Text,"Run without main window, only system tray and background services. Useful for servers.",无主窗口运行，仅保留系统托盘和后台服务。适用于服务器。,,,未找到候选对应项,无对应,无主窗口运行，仅保留系统托盘和后台服务。适用于服务器。,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,668,Text,Software rendering mode,软件渲染模式,,,未找到候选对应项,无对应,软件渲染模式,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,685,Text,Minimize to tray on close,关闭时最小化到托盘,,,未找到候选对应项,无对应,关闭时最小化到托盘,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,703,Text,Stay on top,窗口置顶,,,未找到候选对应项,无对应,窗口置顶,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,705,Text,Keep OmenCore above other windows,保持 OmenCore 窗口在其他窗口之上,,,未找到候选对应项,无对应,保持 OmenCore 窗口在其他窗口之上,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,712,Text,✓ Active,✓ 已激活,,,未找到候选对应项,无对应,✓ 已激活,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,721,Text,Tray & UI,托盘和界面,,,未找到候选对应项,无对应,托盘和界面,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,731,Text,Show temperature on tray icon,托盘图标显示温度,,,未找到候选对应项,无对应,托盘图标显示温度,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,733,Text,Display live CPU/GPU temperature on the system tray icon,在系统托盘图标上显示实时 CPU/GPU 温度,,,未找到候选对应项,无对应,在系统托盘图标上显示实时 CPU/GPU 温度,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,748,Text,Corsair: Disable iCUE fallback (HID-only mode),Corsair: 禁用 iCUE 回退（仅 HID 模式）,,,未找到候选对应项,无对应,Corsair: 禁用 iCUE 回退（仅 HID 模式）,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,769,Text,Enable anonymous lighting telemetry,启用匿名灯光遥测,,,未找到候选对应项,无对应,启用匿名灯光遥测,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,785,Header,Advanced,高级,src/OmenCoreApp/Views/SettingsView.xaml,Advanced,同文件同属性原文一致,候选需语境复核,高级,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,797,Text,Monitoring,硬件监控,src/OmenCoreApp/Views/SettingsView.xaml,Monitoring,同文件同属性原文一致,候选需语境复核,硬件监控,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,807,Text,Automatic monitoring cadence,自动监控频率,src/OmenCoreApp/Views/SettingsView.xaml,Automatic monitoring cadence,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,自动监控频率,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText918Text
+src/OmenCoreApp/Views/SettingsView.xaml,819,Text,Cadence tiers,频率等级,src/OmenCoreApp/Views/SettingsView.xaml,Cadence tiers,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,频率等级,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText930Text
+src/OmenCoreApp/Views/SettingsView.xaml,833,Text,Chart history,图表历史,src/OmenCoreApp/Views/SettingsView.xaml,Chart history,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,图表历史,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText944Text
+src/OmenCoreApp/Views/SettingsView.xaml,835,Text,Number of data points to display in charts,图表中显示的数据点数量,src/OmenCoreApp/Views/SettingsView.xaml,Number of data points to display in charts,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,图表中显示的数据点数量,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText946Text
+src/OmenCoreApp/Views/SettingsView.xaml,858,Text,Low overhead mode,低开销模式,src/OmenCoreApp/Views/SettingsView.xaml,Low overhead mode,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,低开销模式,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText969Text
+src/OmenCoreApp/Views/SettingsView.xaml,860,Text,Reduce CPU usage by limiting sensor polling,通过限制传感器轮询来降低 CPU 使用率,src/OmenCoreApp/Views/SettingsView.xaml,Reduce CPU usage by limiting sensor polling,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,通过限制传感器轮询来降低 CPU 使用率,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText971Text
+src/OmenCoreApp/Views/SettingsView.xaml,870,Text,Live cadence status,实时频率状态,src/OmenCoreApp/Views/SettingsView.xaml,Live cadence status,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,实时频率状态,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText982Text
+src/OmenCoreApp/Views/SettingsView.xaml,897,Text,Startup safe mode guard,启动安全模式守护,src/OmenCoreApp/Views/SettingsView.xaml,Startup safe mode guard,同文件同属性原文一致,候选需语境复核,启动安全模式守护,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,914,Text,Safe-mode startup window,安全模式启动窗口,src/OmenCoreApp/Views/SettingsView.xaml,Safe-mode startup window,同文件同属性原文一致,候选需语境复核,安全模式启动窗口,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,940,Text,Timeout threshold,超时阈值,src/OmenCoreApp/Views/SettingsView.xaml,Timeout threshold,同文件同属性原文一致,候选需语境复核,超时阈值,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,969,Text,Hardware Worker,硬件工作进程,src/OmenCoreApp/Views/SettingsView.xaml,Hardware Worker,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,硬件工作进程,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1082Text
+src/OmenCoreApp/Views/SettingsView.xaml,980,Text,Enable orphan timeout,启用孤立超时,src/OmenCoreApp/Views/SettingsView.xaml,Enable orphan timeout,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,启用孤立超时,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1093Text
+src/OmenCoreApp/Views/SettingsView.xaml,997,Text,Orphan timeout duration,孤立超时时长,src/OmenCoreApp/Views/SettingsView.xaml,Orphan timeout duration,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,孤立超时时长,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1111Text
+src/OmenCoreApp/Views/SettingsView.xaml,1026,Text,Power Automation,电源自动化,src/OmenCoreApp/Views/SettingsView.xaml,Power Automation,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,电源自动化,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1140Text
+src/OmenCoreApp/Views/SettingsView.xaml,1037,Text,Auto-switch on power change,电源切换时自动切换,src/OmenCoreApp/Views/SettingsView.xaml,Auto-switch on power change,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,电源切换时自动切换,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1151Text
+src/OmenCoreApp/Views/SettingsView.xaml,1048,Text,When on AC Power:,接通电源时:,src/OmenCoreApp/Views/SettingsView.xaml,When on AC Power:,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,接通电源时:,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1163Text
+src/OmenCoreApp/Views/SettingsView.xaml,1056,Text,Fan preset,风扇预设,src/OmenCoreApp/Views/SettingsView.xaml,Fan preset,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,风扇预设,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1171Text
+src/OmenCoreApp/Views/SettingsView.xaml,1056,Text,Fan preset,风扇预设,src/OmenCoreApp/Views/SettingsView.xaml,Fan preset,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,风扇预设,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1171Text
+src/OmenCoreApp/Views/SettingsView.xaml,1069,Text,Performance mode,性能模式,src/OmenCoreApp/Views/SettingsView.xaml,Performance mode,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,性能模式,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1185Text
+src/OmenCoreApp/Views/SettingsView.xaml,1069,Text,Performance mode,性能模式,src/OmenCoreApp/Views/SettingsView.xaml,Performance mode,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,性能模式,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1185Text
+src/OmenCoreApp/Views/SettingsView.xaml,1078,Text,When on Battery:,使用电池时:,src/OmenCoreApp/Views/SettingsView.xaml,When on Battery:,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,使用电池时:,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1195Text
+src/OmenCoreApp/Views/SettingsView.xaml,1086,Text,Fan preset,风扇预设,src/OmenCoreApp/Views/SettingsView.xaml,Fan preset,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,风扇预设,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1171Text
+src/OmenCoreApp/Views/SettingsView.xaml,1086,Text,Fan preset,风扇预设,src/OmenCoreApp/Views/SettingsView.xaml,Fan preset,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,风扇预设,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1171Text
+src/OmenCoreApp/Views/SettingsView.xaml,1099,Text,Performance mode,性能模式,src/OmenCoreApp/Views/SettingsView.xaml,Performance mode,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,性能模式,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1185Text
+src/OmenCoreApp/Views/SettingsView.xaml,1099,Text,Performance mode,性能模式,src/OmenCoreApp/Views/SettingsView.xaml,Performance mode,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,性能模式,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1185Text
+src/OmenCoreApp/Views/SettingsView.xaml,1114,Text,Link fan to performance mode,风扇关联性能模式,src/OmenCoreApp/Views/SettingsView.xaml,Link fan to performance mode,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,风扇关联性能模式,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1233Text
+src/OmenCoreApp/Views/SettingsView.xaml,1116,Text,Automatically apply the matching fan preset whenever you change performance mode.,切换性能模式时自动应用匹配的风扇预设。,src/OmenCoreApp/Views/SettingsView.xaml,Automatically apply the matching fan preset whenever you change performance mode.,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,切换性能模式时自动应用匹配的风扇预设。,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1235Text
+src/OmenCoreApp/Views/SettingsView.xaml,1132,Text,Restore last hardware settings on startup,启动时恢复上次硬件设置,src/OmenCoreApp/Views/SettingsView.xaml,Restore last hardware settings on startup,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,启动时恢复上次硬件设置,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1295Text
+src/OmenCoreApp/Views/SettingsView.xaml,1148,Text,Allow startup restore on OMEN 16/Victus,允许 OMEN 16/Victus 启动恢复,src/OmenCoreApp/Views/SettingsView.xaml,Allow startup restore on OMEN 16/Victus,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,允许 OMEN 16/Victus 启动恢复,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1312Text
+src/OmenCoreApp/Views/SettingsView.xaml,1161,Text,Startup restore: ,启动恢复: ,src/OmenCoreApp/Views/SettingsView.xaml,Startup restore: ,同文件同属性原文一致,候选需语境复核,启动恢复: ,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1170,Text,Current status: ,当前状态: ,src/OmenCoreApp/Views/SettingsView.xaml,Current status: ,同文件同属性原文一致,候选需语境复核,当前状态: ,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1187,Text,Updates,更新,src/OmenCoreApp/Views/SettingsView.xaml,Updates,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,更新,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1451Text
+src/OmenCoreApp/Views/SettingsView.xaml,1198,Text,Check for updates automatically,自动检查更新,src/OmenCoreApp/Views/SettingsView.xaml,Check for updates automatically,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,自动检查更新,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1462Text
+src/OmenCoreApp/Views/SettingsView.xaml,1200,Text,Periodically check GitHub for new releases,定期检查 GitHub 上的新版本,src/OmenCoreApp/Views/SettingsView.xaml,Periodically check GitHub for new releases,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,定期检查 GitHub 上的新版本,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1464Text
+src/OmenCoreApp/Views/SettingsView.xaml,1215,Text,Check interval,检查间隔,src/OmenCoreApp/Views/SettingsView.xaml,Check interval,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,检查间隔,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1480Text
+src/OmenCoreApp/Views/SettingsView.xaml,1217,Text,How often to check for updates,检查更新的频率,src/OmenCoreApp/Views/SettingsView.xaml,How often to check for updates,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,检查更新的频率,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1482Text
+src/OmenCoreApp/Views/SettingsView.xaml,1224,Content,Every hour,每小时,src/OmenCoreApp/Views/SettingsView.xaml,Every hour,同文件同属性原文一致,候选需语境复核,每小时,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1225,Content,Every 6 hours,每6小时,src/OmenCoreApp/Views/SettingsView.xaml,Every 6 hours,同文件同属性原文一致,候选需语境复核,每6小时,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1226,Content,Daily,每天,src/OmenCoreApp/Views/SettingsView.xaml,Daily,同文件同属性原文一致,候选需语境复核,每天,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1227,Content,Weekly,每周,src/OmenCoreApp/Views/SettingsView.xaml,Weekly,同文件同属性原文一致,候选需语境复核,每周,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1238,Text,Include pre-releases,包含预发布版本,src/OmenCoreApp/Views/SettingsView.xaml,Include pre-releases,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,包含预发布版本,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1504Text
+src/OmenCoreApp/Views/SettingsView.xaml,1240,Text,Get notified about beta and preview versions,接收测试版和预览版通知,src/OmenCoreApp/Views/SettingsView.xaml,Get notified about beta and preview versions,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,接收测试版和预览版通知,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1506Text
+src/OmenCoreApp/Views/SettingsView.xaml,1256,Text,Hotkeys,快捷键,src/OmenCoreApp/Views/SettingsView.xaml,Hotkeys,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,快捷键,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1523Text
+src/OmenCoreApp/Views/SettingsView.xaml,1267,Text,Enable global hotkeys,启用全局快捷键,src/OmenCoreApp/Views/SettingsView.xaml,Enable global hotkeys,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,启用全局快捷键,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1534Text
+src/OmenCoreApp/Views/SettingsView.xaml,1269,Text,Use keyboard shortcuts even when app is in background,应用在后台时也可使用快捷键,src/OmenCoreApp/Views/SettingsView.xaml,Use keyboard shortcuts even when app is in background,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,应用在后台时也可使用快捷键,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1536Text
+src/OmenCoreApp/Views/SettingsView.xaml,1283,Text,Only enable hotkeys when window is focused,仅在窗口聚焦时启用快捷键,src/OmenCoreApp/Views/SettingsView.xaml,Only enable hotkeys when window is focused,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,仅在窗口聚焦时启用快捷键,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1551Text
+src/OmenCoreApp/Views/SettingsView.xaml,1300,Text,Experimental firmware Fn+P profile cycle,实验性固件 Fn+P 配置循环,src/OmenCoreApp/Views/SettingsView.xaml,Experimental firmware Fn+P profile cycle,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,实验性固件 Fn+P 配置循环,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1573Text
+src/OmenCoreApp/Views/SettingsView.xaml,1314,Text,Default Hotkeys,默认快捷键,src/OmenCoreApp/Views/SettingsView.xaml,Default Hotkeys,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,默认快捷键,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1588Text
+src/OmenCoreApp/Views/SettingsView.xaml,1332,Text,Cycle fan modes,切换风扇模式,src/OmenCoreApp/Views/SettingsView.xaml,Cycle fan modes,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,切换风扇模式,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1607Text
+src/OmenCoreApp/Views/SettingsView.xaml,1337,Text,Cycle performance modes,切换性能模式,src/OmenCoreApp/Views/SettingsView.xaml,Cycle performance modes,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,切换性能模式,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1612Text
+src/OmenCoreApp/Views/SettingsView.xaml,1342,Text,Boost mode (Performance),狂暴模式（性能）,src/OmenCoreApp/Views/SettingsView.xaml,Boost mode (Performance),同文件同属性原文一致,候选需语境复核,狂暴模式（性能）,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1347,Text,Quiet mode,安静模式,src/OmenCoreApp/Views/SettingsView.xaml,Quiet mode,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,安静模式,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1627Text
+src/OmenCoreApp/Views/SettingsView.xaml,1352,Text,Show/hide OmenCore window,显示/隐藏 OmenCore 窗口,src/OmenCoreApp/Views/SettingsView.xaml,Show/hide OmenCore window,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,显示/隐藏 OmenCore 窗口,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1632Text
+src/OmenCoreApp/Views/SettingsView.xaml,1357,Text,Show OmenCore window,显示 OmenCore 窗口,src/OmenCoreApp/Views/SettingsView.xaml,Show OmenCore window,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,显示 OmenCore 窗口,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1637Text
+src/OmenCoreApp/Views/SettingsView.xaml,1371,Text,Notifications,通知,src/OmenCoreApp/Views/SettingsView.xaml,Notifications,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,通知,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1651Text
+src/OmenCoreApp/Views/SettingsView.xaml,1382,Text,Enable notifications,启用通知,src/OmenCoreApp/Views/SettingsView.xaml,Enable notifications,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,启用通知,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1662Text
+src/OmenCoreApp/Views/SettingsView.xaml,1384,Text,Show Windows toast notifications for events,显示 Windows Toast 事件通知,src/OmenCoreApp/Views/SettingsView.xaml,Show Windows toast notifications for events,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,显示 Windows Toast 事件通知,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1664Text
+src/OmenCoreApp/Views/SettingsView.xaml,1399,Text,Game profile notifications,游戏配置文件通知,src/OmenCoreApp/Views/SettingsView.xaml,Game profile notifications,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,游戏配置文件通知,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1680Text
+src/OmenCoreApp/Views/SettingsView.xaml,1417,Text,Mode change notifications,模式切换通知,src/OmenCoreApp/Views/SettingsView.xaml,Mode change notifications,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,模式切换通知,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1699Text
+src/OmenCoreApp/Views/SettingsView.xaml,1435,Text,Temperature warnings,温度警告,src/OmenCoreApp/Views/SettingsView.xaml,Temperature warnings,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,温度警告,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1718Text
+src/OmenCoreApp/Views/SettingsView.xaml,1437,Text,Alert when CPU/GPU temperature exceeds threshold,CPU/GPU 温度超过阈值时提醒,src/OmenCoreApp/Views/SettingsView.xaml,Alert when CPU/GPU temperature exceeds threshold,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,CPU/GPU 温度超过阈值时提醒,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1720Text
+src/OmenCoreApp/Views/SettingsView.xaml,1456,Text,Hardware Driver,硬件驱动,src/OmenCoreApp/Views/SettingsView.xaml,Hardware Driver,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,硬件驱动,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1740Text
+src/OmenCoreApp/Views/SettingsView.xaml,1491,Content,📥 Get PawnIO (Recommended),📥 获取 PawnIO（推荐）,,,未找到候选对应项,无对应,📥 获取 PawnIO（推荐）,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,1499,Content,🔄 Refresh Status,🔄 刷新状态,,,未找到候选对应项,无对应,🔄 刷新状态,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,1515,Text,Reset EC to Defaults,重置 EC 至默认值,src/OmenCoreApp/Views/SettingsView.xaml,Reset EC to Defaults,同文件同属性原文一致,候选需语境复核,重置 EC 至默认值,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1522,Content,🔧 Reset EC,🔧 重置 EC,,,未找到候选对应项,无对应,🔧 重置 EC,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,1541,Text,BIOS Information,BIOS 信息,src/OmenCoreApp/Views/SettingsView.xaml,BIOS Information,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,BIOS 信息,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1825Text
+src/OmenCoreApp/Views/SettingsView.xaml,1551,Text,HP Model:,惠普型号:,src/OmenCoreApp/Views/SettingsView.xaml,HP Model:,同文件同属性原文一致,候选需语境复核,惠普型号:,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1563,Text,Current BIOS:,当前 BIOS:,src/OmenCoreApp/Views/SettingsView.xaml,Current BIOS:,同文件同属性原文一致,候选需语境复核,当前 BIOS:,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1575,Text,Latest BIOS:,最新 BIOS:,src/OmenCoreApp/Views/SettingsView.xaml,Latest BIOS:,同文件同属性原文一致,候选需语境复核,最新 BIOS:,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1610,Content,🔍 Check for Updates,🔍 检查更新,,,未找到候选对应项,无对应,🔍 检查更新,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,1618,Content,⬇️ Download Update,⬇️ 下载更新,,,未找到候选对应项,无对应,⬇️ 下载更新,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,1638,Text,HP Driver & Support Resources,惠普驱动与支持资源,src/OmenCoreApp/Views/SettingsView.xaml,HP Driver & Support Resources,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,惠普驱动与支持资源,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1922Text
+src/OmenCoreApp/Views/SettingsView.xaml,1657,Text,HP Support,惠普支持,src/OmenCoreApp/Views/SettingsView.xaml,HP Support,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,惠普支持,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText1941Text
+src/OmenCoreApp/Views/SettingsView.xaml,1660,Text,Assistant,助手,src/OmenCoreApp/Views/SettingsView.xaml,Assistant,同文件同属性原文一致,候选需语境复核,助手,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1672,Text,Driver,驱动,src/OmenCoreApp/Views/SettingsView.xaml,Driver,同文件同属性原文一致,候选需语境复核,驱动,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1675,Text,Downloads,下载,src/OmenCoreApp/Views/SettingsView.xaml,Downloads,同文件同属性原文一致,候选需语境复核,下载,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1690,Text,(Official),（官方）,,,未找到候选对应项,无对应,（官方）,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,1717,Text,Fan Boost,风扇加速,src/OmenCoreApp/Views/SettingsView.xaml,Fan Boost,同文件同属性原文一致,候选需语境复核,风扇加速,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1760,Content,💨 Start Fan Boost,💨 启动风扇加速,,,未找到候选对应项,无对应,💨 启动风扇加速,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,1792,Text,HP Bloatware Removal,惠普预装软件清理,src/OmenCoreApp/Views/SettingsView.xaml,HP Bloatware Removal,同文件同属性原文一致,候选需语境复核,惠普预装软件清理,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1794,Text,Remove unnecessary HP pre-installed apps,移除不必要的惠普预装应用,src/OmenCoreApp/Views/SettingsView.xaml,Remove unnecessary HP pre-installed apps,同文件同属性原文一致,候选需语境复核,移除不必要的惠普预装应用,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1806,Content,🗑️ Open Bloatware Manager →,🗑️ 打开预装软件管理器 →,,,未找到候选对应项,无对应,🗑️ 打开预装软件管理器 →,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,1823,Text,Feature Modules,功能模块,src/OmenCoreApp/Views/SettingsView.xaml,Feature Modules,同文件同属性原文一致,候选需语境复核,功能模块,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1825,Text,Enable/disable features to reduce resource usage,启用/禁用功能以减少资源占用,src/OmenCoreApp/Views/SettingsView.xaml,Enable/disable features to reduce resource usage,同文件同属性原文一致,候选需语境复核,启用/禁用功能以减少资源占用,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1837,Text,Corsair iCUE Integration,Corsair iCUE 集成,src/OmenCoreApp/Views/SettingsView.xaml,Corsair iCUE Integration,同文件同属性原文一致,候选需语境复核,Corsair iCUE 集成,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1854,Text,Logitech G HUB Integration,Logitech G HUB 集成,src/OmenCoreApp/Views/SettingsView.xaml,Logitech G HUB Integration,同文件同属性原文一致,候选需语境复核,Logitech G HUB 集成,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1871,Text,Game Profile Auto-Switching,游戏配置文件自动切换,src/OmenCoreApp/Views/SettingsView.xaml,Game Profile Auto-Switching,同文件同属性原文一致,候选需语境复核,游戏配置文件自动切换,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,1888,Text,Keyboard Backlight Control,键盘背光控制,src/OmenCoreApp/Views/SettingsView.xaml,Keyboard Backlight Control,同文件同属性原文一致,候选需语境复核,键盘背光控制,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,2072,Text,Custom Fan Curves,自定义风扇曲线,src/OmenCoreApp/Views/SettingsView.xaml,Custom Fan Curves,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,自定义风扇曲线,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2371Text
+src/OmenCoreApp/Views/SettingsView.xaml,2089,Text,Power Source Automation,电源自动化,src/OmenCoreApp/Views/SettingsView.xaml,Power Source Automation,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,电源自动化,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2389Text
+src/OmenCoreApp/Views/SettingsView.xaml,2106,Text,GPU Mode Switching,GPU 模式切换,src/OmenCoreApp/Views/SettingsView.xaml,GPU Mode Switching,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,GPU 模式切换,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2407Text
+src/OmenCoreApp/Views/SettingsView.xaml,2123,Text,CPU Undervolt Controls,CPU 降压控制,src/OmenCoreApp/Views/SettingsView.xaml,CPU Undervolt Controls,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,CPU 降压控制,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2425Text
+src/OmenCoreApp/Views/SettingsView.xaml,2144,Text,OMEN Key Interception,OMEN 键拦截,src/OmenCoreApp/Views/SettingsView.xaml,OMEN Key Interception,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,OMEN 键拦截,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2447Text
+src/OmenCoreApp/Views/SettingsView.xaml,2197,Header,Appearance,外观,src/OmenCoreApp/Views/SettingsView.xaml,Appearance,同文件同属性原文一致,候选需语境复核,外观,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,2208,Text,In-Game OSD,游戏内 OSD,src/OmenCoreApp/Views/SettingsView.xaml,In-Game OSD,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,游戏内 OSD,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2530Text
+src/OmenCoreApp/Views/SettingsView.xaml,2210,Text,On-screen overlay showing system stats during gaming,游戏中显示系统状态的屏幕叠加层,src/OmenCoreApp/Views/SettingsView.xaml,On-screen overlay showing system stats during gaming,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,游戏中显示系统状态的屏幕叠加层,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2532Text
+src/OmenCoreApp/Views/SettingsView.xaml,2222,Text,Enable OSD Overlay,启用 OSD 叠加层,src/OmenCoreApp/Views/SettingsView.xaml,Enable OSD Overlay,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,启用 OSD 叠加层,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2544Text
+src/OmenCoreApp/Views/SettingsView.xaml,2241,Text,Position,位置,src/OmenCoreApp/Views/SettingsView.xaml,Position,同文件同属性原文一致,候选需语境复核,位置,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,2253,Text,Target Monitor,目标显示器,src/OmenCoreApp/Views/SettingsView.xaml,Target Monitor,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,目标显示器,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2576Text
+src/OmenCoreApp/Views/SettingsView.xaml,2266,Text,Overlay Density,叠加层密度,src/OmenCoreApp/Views/SettingsView.xaml,Overlay Density,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,叠加层密度,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2589Text
+src/OmenCoreApp/Views/SettingsView.xaml,2279,Text,Toggle Hotkey,切换快捷键,src/OmenCoreApp/Views/SettingsView.xaml,Toggle Hotkey,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,切换快捷键,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2602Text
+src/OmenCoreApp/Views/SettingsView.xaml,2286,Text,Hotkey OSD Visuals,快捷键 OSD 视觉效果,src/OmenCoreApp/Views/SettingsView.xaml,Hotkey OSD Visuals,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,快捷键 OSD 视觉效果,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2609Text
+src/OmenCoreApp/Views/SettingsView.xaml,2294,Text,Popup Duration,弹窗持续时间,src/OmenCoreApp/Views/SettingsView.xaml,Popup Duration,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,弹窗持续时间,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2617Text
+src/OmenCoreApp/Views/SettingsView.xaml,2309,Text,Popup Size,弹窗大小,src/OmenCoreApp/Views/SettingsView.xaml,Popup Size,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,弹窗大小,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2632Text
+src/OmenCoreApp/Views/SettingsView.xaml,2324,Text,Accent Theme,主题强调色,src/OmenCoreApp/Views/SettingsView.xaml,Accent Theme,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,主题强调色,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2647Text
+src/OmenCoreApp/Views/SettingsView.xaml,2332,Text,Compact Popup,紧凑弹窗,src/OmenCoreApp/Views/SettingsView.xaml,Compact Popup,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,紧凑弹窗,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2655Text
+src/OmenCoreApp/Views/SettingsView.xaml,2338,Text,Metrics to Display,显示的指标,src/OmenCoreApp/Views/SettingsView.xaml,Metrics to Display,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,显示的指标,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2661Text
+src/OmenCoreApp/Views/SettingsView.xaml,2341,Text,Metric Groups,指标组,src/OmenCoreApp/Views/SettingsView.xaml,Metric Groups,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,指标组,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2664Text
+src/OmenCoreApp/Views/SettingsView.xaml,2344,Text,Thermals,温度,src/OmenCoreApp/Views/SettingsView.xaml,Thermals,同文件同属性原文一致,候选需语境复核,温度,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,2348,Text,Performance,性能,src/OmenCoreApp/Views/SettingsView.xaml,Performance,同文件同属性原文一致,候选需语境复核,性能,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,2348,Text,Performance,性能,src/OmenCoreApp/Views/SettingsView.xaml,Performance,同文件同属性原文一致,候选需语境复核,性能,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,2348,Text,Performance,性能,src/OmenCoreApp/Views/SettingsView.xaml,Performance,同文件同属性原文一致,候选需语境复核,性能,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,2352,Text,Network,网络,src/OmenCoreApp/Views/SettingsView.xaml,Network,同文件同属性原文一致,候选需语境复核,网络,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,2356,Text,System,系统,src/OmenCoreApp/Views/SettingsView.xaml,System,同文件同属性原文一致,候选需语境复核,系统,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,2362,Text,Temperature & Load,温度和负载,src/OmenCoreApp/Views/SettingsView.xaml,Temperature & Load,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,温度和负载,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2685Text
+src/OmenCoreApp/Views/SettingsView.xaml,2365,Text,CPU Temp,CPU 温度,src/OmenCoreApp/Views/SettingsView.xaml,CPU Temp,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,CPU 温度,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2688Text
+src/OmenCoreApp/Views/SettingsView.xaml,2369,Text,GPU Temp,GPU 温度,src/OmenCoreApp/Views/SettingsView.xaml,GPU Temp,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,GPU 温度,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2692Text
+src/OmenCoreApp/Views/SettingsView.xaml,2383,Text,Power & Memory,功耗和内存,src/OmenCoreApp/Views/SettingsView.xaml,Power & Memory,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,功耗和内存,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2706Text
+src/OmenCoreApp/Views/SettingsView.xaml,2386,Text,CPU Power (W),CPU 功耗 (W),src/OmenCoreApp/Views/SettingsView.xaml,CPU Power (W),同文件同属性原文一致,候选需语境复核,CPU 功耗 (W),否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,2390,Text,GPU Power (W),GPU 功耗 (W),src/OmenCoreApp/Views/SettingsView.xaml,GPU Power (W),同文件同属性原文一致,候选需语境复核,GPU 功耗 (W),否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,2394,Text,RAM Usage,内存使用,src/OmenCoreApp/Views/SettingsView.xaml,RAM Usage,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,内存使用,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2717Text
+src/OmenCoreApp/Views/SettingsView.xaml,2398,Text,VRAM Usage,显存使用,src/OmenCoreApp/Views/SettingsView.xaml,VRAM Usage,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,显存使用,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2721Text
+src/OmenCoreApp/Views/SettingsView.xaml,2404,Text,Performance,性能,src/OmenCoreApp/Views/SettingsView.xaml,Performance,同文件同属性原文一致,候选需语境复核,性能,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,2404,Text,Performance,性能,src/OmenCoreApp/Views/SettingsView.xaml,Performance,同文件同属性原文一致,候选需语境复核,性能,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,2404,Text,Performance,性能,src/OmenCoreApp/Views/SettingsView.xaml,Performance,同文件同属性原文一致,候选需语境复核,性能,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,2407,Text,FPS / GPU Activity,FPS / GPU 活动,,,未找到候选对应项,无对应,FPS / GPU 活动,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,2411,Text,Frametime (ms),帧时间 (ms),src/OmenCoreApp/Views/SettingsView.xaml,Frametime (ms),同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,帧时间 (ms),是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2734Text
+src/OmenCoreApp/Views/SettingsView.xaml,2415,Text,Network Ping,网络延迟,src/OmenCoreApp/Views/SettingsView.xaml,Network Ping,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,网络延迟,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2738Text
+src/OmenCoreApp/Views/SettingsView.xaml,2419,Text,Net Upload,网络上传,src/OmenCoreApp/Views/SettingsView.xaml,Net Upload,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,网络上传,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2742Text
+src/OmenCoreApp/Views/SettingsView.xaml,2423,Text,Net Download,网络下载,src/OmenCoreApp/Views/SettingsView.xaml,Net Download,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,网络下载,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2746Text
+src/OmenCoreApp/Views/SettingsView.xaml,2429,Text,System Status,系统状态,src/OmenCoreApp/Views/SettingsView.xaml,System Status,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,系统状态,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText100Text
+src/OmenCoreApp/Views/SettingsView.xaml,2429,Text,System Status,系统状态,src/OmenCoreApp/Views/SettingsView.xaml,System Status,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,系统状态,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText100Text
+src/OmenCoreApp/Views/SettingsView.xaml,2432,Text,Fan Speed (RPM),风扇转速 (RPM),src/OmenCoreApp/Views/SettingsView.xaml,Fan Speed (RPM),同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,风扇转速 (RPM),是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2755Text
+src/OmenCoreApp/Views/SettingsView.xaml,2436,Text,Fan Mode,风扇模式,src/OmenCoreApp/Views/SettingsView.xaml,Fan Mode,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,风扇模式,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2759Text
+src/OmenCoreApp/Views/SettingsView.xaml,2444,Text,Clock Time,时钟,src/OmenCoreApp/Views/SettingsView.xaml,Clock Time,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,时钟,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2767Text
+src/OmenCoreApp/Views/SettingsView.xaml,2448,Text,Battery %,电池 %,src/OmenCoreApp/Views/SettingsView.xaml,Battery %,同文件同属性原文一致,候选需语境复核,电池 %,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,2452,Text,CPU Clock,CPU 频率,src/OmenCoreApp/Views/SettingsView.xaml,CPU Clock,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,CPU 频率,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2775Text
+src/OmenCoreApp/Views/SettingsView.xaml,2456,Text,GPU Clock,GPU 频率,src/OmenCoreApp/Views/SettingsView.xaml,GPU Clock,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,GPU 频率,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2779Text
+src/OmenCoreApp/Views/SettingsView.xaml,2462,Text,Layout,布局,src/OmenCoreApp/Views/SettingsView.xaml,Layout,同文件同属性原文一致,候选需语境复核,布局,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,2464,Text,Horizontal Layout,横向布局,src/OmenCoreApp/Views/SettingsView.xaml,Horizontal Layout,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,横向布局,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2787Text
+src/OmenCoreApp/Views/SettingsView.xaml,2480,Text,Battery Care,电池保养,src/OmenCoreApp/Views/SettingsView.xaml,Battery Care,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,电池保养,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2803Text
+src/OmenCoreApp/Views/SettingsView.xaml,2482,Text,Extend battery lifespan with smart charge limiting,通过智能充电限制延长电池寿命,src/OmenCoreApp/Views/SettingsView.xaml,Extend battery lifespan with smart charge limiting,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,通过智能充电限制延长电池寿命,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2805Text
+src/OmenCoreApp/Views/SettingsView.xaml,2494,Text,Enable Charge Limit,启用充电限制,src/OmenCoreApp/Views/SettingsView.xaml,Enable Charge Limit,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,启用充电限制,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2817Text
+src/OmenCoreApp/Views/SettingsView.xaml,2496,Text,Stop charging at a custom threshold to preserve battery health,在自定义阈值停止充电以保护电池健康,src/OmenCoreApp/Views/SettingsView.xaml,Stop charging at a custom threshold to preserve battery health,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,在自定义阈值停止充电以保护电池健康,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2819Text
+src/OmenCoreApp/Views/SettingsView.xaml,2513,Text,Charge Threshold,充电阈值,src/OmenCoreApp/Views/SettingsView.xaml,Charge Threshold,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,充电阈值,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2837Text
+src/OmenCoreApp/Views/SettingsView.xaml,2515,Text,Set maximum battery charge level,设置最大电池充电水平,src/OmenCoreApp/Views/SettingsView.xaml,Set maximum battery charge level,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,设置最大电池充电水平,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2839Text
+src/OmenCoreApp/Views/SettingsView.xaml,2555,Text,Fan Hysteresis,风扇迟滞,src/OmenCoreApp/Views/SettingsView.xaml,Fan Hysteresis,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,风扇迟滞,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2879Text
+src/OmenCoreApp/Views/SettingsView.xaml,2557,Text,Prevent fan speed oscillation with dead-zone and delays,通过死区和延迟防止风扇转速振荡,src/OmenCoreApp/Views/SettingsView.xaml,Prevent fan speed oscillation with dead-zone and delays,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,通过死区和延迟防止风扇转速振荡,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2881Text
+src/OmenCoreApp/Views/SettingsView.xaml,2569,Text,Enable Hysteresis,启用迟滞,src/OmenCoreApp/Views/SettingsView.xaml,Enable Hysteresis,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,启用迟滞,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2893Text
+src/OmenCoreApp/Views/SettingsView.xaml,2571,Text,Smooth out fan speed changes to reduce noise fluctuation,平滑风扇转速变化以减少噪音波动,src/OmenCoreApp/Views/SettingsView.xaml,Smooth out fan speed changes to reduce noise fluctuation,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,平滑风扇转速变化以减少噪音波动,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2895Text
+src/OmenCoreApp/Views/SettingsView.xaml,2589,Text,Temperature Dead-Zone,温度死区,src/OmenCoreApp/Views/SettingsView.xaml,Temperature Dead-Zone,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,温度死区,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2914Text
+src/OmenCoreApp/Views/SettingsView.xaml,2609,Text,Ramp-Up Delay,加速延迟,src/OmenCoreApp/Views/SettingsView.xaml,Ramp-Up Delay,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,加速延迟,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2934Text
+src/OmenCoreApp/Views/SettingsView.xaml,2629,Text,Ramp-Down Delay,减速延迟,src/OmenCoreApp/Views/SettingsView.xaml,Ramp-Down Delay,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,减速延迟,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2954Text
+src/OmenCoreApp/Views/SettingsView.xaml,2649,Text,Thermal Protection,过热保护,src/OmenCoreApp/Views/SettingsView.xaml,Thermal Protection,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,过热保护,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2974Text
+src/OmenCoreApp/Views/SettingsView.xaml,2667,Text,Thermal Protection Threshold,过热保护阈值,src/OmenCoreApp/Views/SettingsView.xaml,Thermal Protection Threshold,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,过热保护阈值,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText2993Text
+src/OmenCoreApp/Views/SettingsView.xaml,2687,Text,Max Fan Level Override,最大风扇级别覆盖,src/OmenCoreApp/Views/SettingsView.xaml,Max Fan Level Override,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,最大风扇级别覆盖,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText3036Text
+src/OmenCoreApp/Views/SettingsView.xaml,2711,Text,HP OMEN Gaming Hub Cleanup,惠普 OMEN Gaming Hub 清理,src/OmenCoreApp/Views/SettingsView.xaml,HP OMEN Gaming Hub Cleanup,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,惠普 OMEN Gaming Hub 清理,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText3060Text
+src/OmenCoreApp/Views/SettingsView.xaml,2731,Text,Kill running HP OMEN processes,终止正在运行的惠普 OMEN 进程,src/OmenCoreApp/Views/SettingsView.xaml,Kill running HP OMEN processes,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,终止正在运行的惠普 OMEN 进程,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText3080Text
+src/OmenCoreApp/Views/SettingsView.xaml,2742,Text,Uninstall HP OMEN Gaming Hub application,卸载惠普 OMEN Gaming Hub 应用,src/OmenCoreApp/Views/SettingsView.xaml,Uninstall HP OMEN Gaming Hub application,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,卸载惠普 OMEN Gaming Hub 应用,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText3091Text
+src/OmenCoreApp/Views/SettingsView.xaml,2764,Text,Clean HP OMEN registry entries,清理惠普 OMEN 注册表项,src/OmenCoreApp/Views/SettingsView.xaml,Clean HP OMEN registry entries,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,清理惠普 OMEN 注册表项,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText3113Text
+src/OmenCoreApp/Views/SettingsView.xaml,2786,Text,Remove residual HP OMEN files and folders,移除残留的惠普 OMEN 文件和文件夹,src/OmenCoreApp/Views/SettingsView.xaml,Remove residual HP OMEN files and folders,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,移除残留的惠普 OMEN 文件和文件夹,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText3135Text
+src/OmenCoreApp/Views/SettingsView.xaml,2798,Text,✓ Automatic System Restore Point,✓ 自动系统还原点,,,未找到候选对应项,无对应,✓ 自动系统还原点,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,2814,Content,Create Manual Restore Point,创建手动还原点,src/OmenCoreApp/Views/SettingsView.xaml,Create Manual Restore Point,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,创建手动还原点,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText3163Content
+src/OmenCoreApp/Views/SettingsView.xaml,2844,Content,🗑️ Run Cleanup,🗑️ 执行清理,,,未找到候选对应项,无对应,🗑️ 执行清理,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,2902,Text,Profile Management,配置文件管理,src/OmenCoreApp/Views/SettingsView.xaml,Profile Management,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,配置文件管理,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText3251Text
+src/OmenCoreApp/Views/SettingsView.xaml,2904,Text,Save and load your complete OmenCore configuration,保存和加载完整的 OmenCore 配置,src/OmenCoreApp/Views/SettingsView.xaml,Save and load your complete OmenCore configuration,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,保存和加载完整的 OmenCore 配置,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText3253Text
+src/OmenCoreApp/Views/SettingsView.xaml,2911,Content,📥 Import Profile,📥 导入配置,,,未找到候选对应项,无对应,📥 导入配置,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,2916,Content,📤 Export Profile,📤 导出配置,,,未找到候选对应项,无对应,📤 导出配置,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,2921,Content,🔬 Export Diagnostics,🔬 导出诊断,,,未找到候选对应项,无对应,🔬 导出诊断,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,2952,Text,Data & Storage,数据和存储,src/OmenCoreApp/Views/SettingsView.xaml,Data & Storage,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,数据和存储,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText3301Text
+src/OmenCoreApp/Views/SettingsView.xaml,2957,Content,📂 Open Config Folder,📂 打开配置文件夹,,,未找到候选对应项,无对应,📂 打开配置文件夹,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,2962,Content,📋 Open Log Folder,📋 打开日志文件夹,,,未找到候选对应项,无对应,📋 打开日志文件夹,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,2967,Content,🔄 Reset to Defaults,🔄 恢复默认设置,,,未找到候选对应项,无对应,🔄 恢复默认设置,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,2985,Header,About,关于,src/OmenCoreApp/Views/SettingsView.xaml,About,同文件同属性原文一致,候选需语境复核,关于,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,2997,Text,About OmenCore,关于 OmenCore,src/OmenCoreApp/Views/SettingsView.xaml,About OmenCore,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,关于 OmenCore,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText3346Text
+src/OmenCoreApp/Views/SettingsView.xaml,3014,Content,📝 Release Notes,📝 更新日志,,,未找到候选对应项,无对应,📝 更新日志,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,3019,Content,🐛 Report Issue,🐛 报告问题,,,未找到候选对应项,无对应,🐛 报告问题,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,3029,Text,💖 Support Development,💖 支持开发,,,未找到候选对应项,无对应,💖 支持开发,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,3038,Text,Donate via PayPal,通过 PayPal 捐赠,src/OmenCoreApp/Views/SettingsView.xaml,Donate via PayPal,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,通过 PayPal 捐赠,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText3387Text
+src/OmenCoreApp/Views/SettingsView.xaml,3050,Header,Scheduler,计划任务,src/OmenCoreApp/Views/SettingsView.xaml,Scheduler,同文件同属性原文一致,候选需语境复核,计划任务,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,3057,Text,Profile Scheduler,配置计划任务,src/OmenCoreApp/Views/SettingsView.xaml,Profile Scheduler,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,配置计划任务,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText3406Text
+src/OmenCoreApp/Views/SettingsView.xaml,3083,Text,Time:,时间:,src/OmenCoreApp/Views/SettingsView.xaml,Time:,同文件同属性原文一致,候选需语境复核,时间:,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,3086,Text,Fan:,风扇:,src/OmenCoreApp/Views/SettingsView.xaml,Fan:,同文件同属性原文一致,候选需语境复核,风扇:,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,3095,Text,Mode:,模式:,src/OmenCoreApp/Views/SettingsView.xaml,Mode:,同文件同属性原文一致,候选需语境复核,模式:,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,3118,Content,+ Add Rule,+ 添加规则,,,未找到候选对应项,无对应,+ 添加规则,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,3132,Text,Automation Rules,自动化规则,src/OmenCoreApp/Views/SettingsView.xaml,Automation Rules,同文件同属性原文一致,候选需语境复核,自动化规则,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/SettingsView.xaml,3135,Content,+ Add Automation Rule,+ 添加自动化规则,,,未找到候选对应项,无对应,+ 添加自动化规则,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SettingsView.xaml,3179,Text,Start time,开始时间,src/OmenCoreApp/Views/SettingsView.xaml,Start time,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,开始时间,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText3528Text
+src/OmenCoreApp/Views/SettingsView.xaml,3185,Text,End time,结束时间,src/OmenCoreApp/Views/SettingsView.xaml,End time,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,结束时间,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText3534Text
+src/OmenCoreApp/Views/SettingsView.xaml,3191,Text,Battery threshold,电池阈值,src/OmenCoreApp/Views/SettingsView.xaml,Battery threshold,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,电池阈值,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText3540Text
+src/OmenCoreApp/Views/SettingsView.xaml,3197,Text,Battery condition,电池条件,src/OmenCoreApp/Views/SettingsView.xaml,Battery condition,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,电池条件,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText3546Text
+src/OmenCoreApp/Views/SettingsView.xaml,3204,Text,AC power state,交流电源状态,src/OmenCoreApp/Views/SettingsView.xaml,AC power state,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,交流电源状态,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText3553Text
+src/OmenCoreApp/Views/SettingsView.xaml,3217,Text,Fan preset action,风扇预设动作,src/OmenCoreApp/Views/SettingsView.xaml,Fan preset action,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,风扇预设动作,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText3611Text
+src/OmenCoreApp/Views/SettingsView.xaml,3223,Text,Performance mode action,性能模式动作,src/OmenCoreApp/Views/SettingsView.xaml,Performance mode action,同文件同属性原文一致,同页同属性原文一致；仍需逐处复核,性能模式动作,是,是,已按原文和属性匹配；应复核每处上下文及排版，资源键：SettingsReferenceText3617Text
+src/OmenCoreApp/Views/SystemControlView.xaml,18,Text,System Control,系统控制,,,未找到候选对应项,无对应,系统控制,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SystemControlView.xaml,19,Text,"Performance modes, CPU undervolting, GPU switching, and system maintenance",性能模式、CPU 降压、GPU 切换和系统维护,,,未找到候选对应项,无对应,性能模式、CPU 降压、GPU 切换和系统维护,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SystemControlView.xaml,29,Text,PERFORMANCE PROFILE,性能配置文件,,,未找到候选对应项,无对应,性能配置文件,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/SystemControlView.xaml,31,Text,Performance Mode,性能模式,,,未找到候选对应项,无对应,性能模式,否,是,可能已资源化、未纳入扫描或版本变更
+src/OmenCoreApp/Views/TuningView.xaml,44,Text,CPU / GPU Tuning,CPU / GPU 超频调校,src/OmenCoreApp/Views/TuningView.xaml,CPU / GPU Tuning,同文件同属性原文一致,候选需语境复核,CPU / GPU 超频调校,否,是,候选表基于修改前扫描；同文不保证语境一致
+src/OmenCoreApp/Views/TuningView.xaml,45,Text,Advanced performance tuning • Undervolt • Overclock • Power Limits,高级性能调校 • 降压 • 超频 • 功率限制,src/OmenCoreApp/Views/TuningView.xaml,Advanced performance tuning • Undervolt • Overclock • Power Limits,同文件同属性原文一致,候选需语境复核,高级性能调校 • 降压 • 超频 • 功率限制,否,是,候选表基于修改前扫描；同文不保证语境一致

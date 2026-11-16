@@ -672,4 +672,144 @@
   <data name="GameProfileManagerViewText406" xml:space="preserve"><value>修改时间：</value></data>
   <data name="GameProfileManagerViewText417" xml:space="preserve"><value>保存并关闭</value></data>
   <data name="GameProfileManagerViewText422" xml:space="preserve"><value>取消</value></data>
+  <data name="SettingsReferenceText28Text" xml:space="preserve"><value>配置应用行为、启动选项和驱动设置</value></data>
+  <data name="SettingsReferenceText62Text" xml:space="preserve"><value>搜索结果</value></data>
+  <data name="SettingsReferenceText100Text" xml:space="preserve"><value>系统状态</value></data>
+  <data name="SettingsReferenceText111Text" xml:space="preserve"><value>风扇控制后端</value></data>
+  <data name="SettingsReferenceText113Text" xml:space="preserve"><value>控制系统风扇的方法</value></data>
+  <data name="SettingsReferenceText133Text" xml:space="preserve"><value>安全启动</value></data>
+  <data name="SettingsReferenceText183Text" xml:space="preserve"><value>PawnIO 驱动</value></data>
+  <data name="SettingsReferenceText185Text" xml:space="preserve"><value>兼容安全启动的 EC/MSR 访问驱动</value></data>
+  <data name="SettingsReferenceText225Text" xml:space="preserve"><value>惠普官方控制软件 - 提供 WMI 访问</value></data>
+  <data name="SettingsReferenceText292Text" xml:space="preserve"><value>独立运行状态</value></data>
+  <data name="SettingsReferenceText373Text" xml:space="preserve"><value>型号识别</value></data>
+  <data name="SettingsReferenceText388Text" xml:space="preserve"><value>识别的型号</value></data>
+  <data name="SettingsReferenceText401Text" xml:space="preserve"><value>识别来源</value></data>
+  <data name="SettingsReferenceText408Text" xml:space="preserve"><value>可信度</value></data>
+  <data name="SettingsReferenceText421Text" xml:space="preserve"><value>键盘配置文件</value></data>
+  <data name="SettingsReferenceText428Text" xml:space="preserve"><value>键盘来源</value></data>
+  <data name="SettingsReferenceText488Content" xml:space="preserve"><value>复制摘要</value></data>
+  <data name="SettingsReferenceText506Text" xml:space="preserve"><value>PawnIO 独占模式</value></data>
+  <data name="SettingsReferenceText528Text" xml:space="preserve"><value>BIOS WMI 可靠性</value></data>
+  <data name="SettingsReferenceText918Text" xml:space="preserve"><value>自动监控频率</value></data>
+  <data name="SettingsReferenceText930Text" xml:space="preserve"><value>频率等级</value></data>
+  <data name="SettingsReferenceText944Text" xml:space="preserve"><value>图表历史</value></data>
+  <data name="SettingsReferenceText946Text" xml:space="preserve"><value>图表中显示的数据点数量</value></data>
+  <data name="SettingsReferenceText969Text" xml:space="preserve"><value>低开销模式</value></data>
+  <data name="SettingsReferenceText971Text" xml:space="preserve"><value>通过限制传感器轮询来降低 CPU 使用率</value></data>
+  <data name="SettingsReferenceText982Text" xml:space="preserve"><value>实时频率状态</value></data>
+  <data name="SettingsReferenceText1082Text" xml:space="preserve"><value>硬件工作进程</value></data>
+  <data name="SettingsReferenceText1093Text" xml:space="preserve"><value>启用孤立超时</value></data>
+  <data name="SettingsReferenceText1111Text" xml:space="preserve"><value>孤立超时时长</value></data>
+  <data name="SettingsReferenceText1140Text" xml:space="preserve"><value>电源自动化</value></data>
+  <data name="SettingsReferenceText1151Text" xml:space="preserve"><value>电源切换时自动切换</value></data>
+  <data name="SettingsReferenceText1163Text" xml:space="preserve"><value>接通电源时:</value></data>
+  <data name="SettingsReferenceText1171Text" xml:space="preserve"><value>风扇预设</value></data>
+  <data name="SettingsReferenceText1185Text" xml:space="preserve"><value>性能模式</value></data>
+  <data name="SettingsReferenceText1195Text" xml:space="preserve"><value>使用电池时:</value></data>
+  <data name="SettingsReferenceText1203Text" xml:space="preserve"><value>风扇预设</value></data>
+  <data name="SettingsReferenceText1217Text" xml:space="preserve"><value>性能模式</value></data>
+  <data name="SettingsReferenceText1233Text" xml:space="preserve"><value>风扇关联性能模式</value></data>
+  <data name="SettingsReferenceText1235Text" xml:space="preserve"><value>切换性能模式时自动应用匹配的风扇预设。</value></data>
+  <data name="SettingsReferenceText1295Text" xml:space="preserve"><value>启动时恢复上次硬件设置</value></data>
+  <data name="SettingsReferenceText1312Text" xml:space="preserve"><value>允许 OMEN 16/Victus 启动恢复</value></data>
+  <data name="SettingsReferenceText1451Text" xml:space="preserve"><value>更新</value></data>
+  <data name="SettingsReferenceText1462Text" xml:space="preserve"><value>自动检查更新</value></data>
+  <data name="SettingsReferenceText1464Text" xml:space="preserve"><value>定期检查 GitHub 上的新版本</value></data>
+  <data name="SettingsReferenceText1480Text" xml:space="preserve"><value>检查间隔</value></data>
+  <data name="SettingsReferenceText1482Text" xml:space="preserve"><value>检查更新的频率</value></data>
+  <data name="SettingsReferenceText1504Text" xml:space="preserve"><value>包含预发布版本</value></data>
+  <data name="SettingsReferenceText1506Text" xml:space="preserve"><value>接收测试版和预览版通知</value></data>
+  <data name="SettingsReferenceText1523Text" xml:space="preserve"><value>快捷键</value></data>
+  <data name="SettingsReferenceText1534Text" xml:space="preserve"><value>启用全局快捷键</value></data>
+  <data name="SettingsReferenceText1536Text" xml:space="preserve"><value>应用在后台时也可使用快捷键</value></data>
+  <data name="SettingsReferenceText1551Text" xml:space="preserve"><value>仅在窗口聚焦时启用快捷键</value></data>
+  <data name="SettingsReferenceText1573Text" xml:space="preserve"><value>实验性固件 Fn+P 配置循环</value></data>
+  <data name="SettingsReferenceText1588Text" xml:space="preserve"><value>默认快捷键</value></data>
+  <data name="SettingsReferenceText1607Text" xml:space="preserve"><value>切换风扇模式</value></data>
+  <data name="SettingsReferenceText1612Text" xml:space="preserve"><value>切换性能模式</value></data>
+  <data name="SettingsReferenceText1627Text" xml:space="preserve"><value>安静模式</value></data>
+  <data name="SettingsReferenceText1632Text" xml:space="preserve"><value>显示/隐藏 OmenCore 窗口</value></data>
+  <data name="SettingsReferenceText1637Text" xml:space="preserve"><value>显示 OmenCore 窗口</value></data>
+  <data name="SettingsReferenceText1651Text" xml:space="preserve"><value>通知</value></data>
+  <data name="SettingsReferenceText1662Text" xml:space="preserve"><value>启用通知</value></data>
+  <data name="SettingsReferenceText1664Text" xml:space="preserve"><value>显示 Windows Toast 事件通知</value></data>
+  <data name="SettingsReferenceText1680Text" xml:space="preserve"><value>游戏配置文件通知</value></data>
+  <data name="SettingsReferenceText1699Text" xml:space="preserve"><value>模式切换通知</value></data>
+  <data name="SettingsReferenceText1718Text" xml:space="preserve"><value>温度警告</value></data>
+  <data name="SettingsReferenceText1720Text" xml:space="preserve"><value>CPU/GPU 温度超过阈值时提醒</value></data>
+  <data name="SettingsReferenceText1740Text" xml:space="preserve"><value>硬件驱动</value></data>
+  <data name="SettingsReferenceText1825Text" xml:space="preserve"><value>BIOS 信息</value></data>
+  <data name="SettingsReferenceText1922Text" xml:space="preserve"><value>惠普驱动与支持资源</value></data>
+  <data name="SettingsReferenceText1941Text" xml:space="preserve"><value>惠普支持</value></data>
+  <data name="SettingsReferenceText2371Text" xml:space="preserve"><value>自定义风扇曲线</value></data>
+  <data name="SettingsReferenceText2389Text" xml:space="preserve"><value>电源自动化</value></data>
+  <data name="SettingsReferenceText2407Text" xml:space="preserve"><value>GPU 模式切换</value></data>
+  <data name="SettingsReferenceText2425Text" xml:space="preserve"><value>CPU 降压控制</value></data>
+  <data name="SettingsReferenceText2447Text" xml:space="preserve"><value>OMEN 键拦截</value></data>
+  <data name="SettingsReferenceText2530Text" xml:space="preserve"><value>游戏内 OSD</value></data>
+  <data name="SettingsReferenceText2532Text" xml:space="preserve"><value>游戏中显示系统状态的屏幕叠加层</value></data>
+  <data name="SettingsReferenceText2544Text" xml:space="preserve"><value>启用 OSD 叠加层</value></data>
+  <data name="SettingsReferenceText2576Text" xml:space="preserve"><value>目标显示器</value></data>
+  <data name="SettingsReferenceText2589Text" xml:space="preserve"><value>叠加层密度</value></data>
+  <data name="SettingsReferenceText2602Text" xml:space="preserve"><value>切换快捷键</value></data>
+  <data name="SettingsReferenceText2609Text" xml:space="preserve"><value>快捷键 OSD 视觉效果</value></data>
+  <data name="SettingsReferenceText2617Text" xml:space="preserve"><value>弹窗持续时间</value></data>
+  <data name="SettingsReferenceText2632Text" xml:space="preserve"><value>弹窗大小</value></data>
+  <data name="SettingsReferenceText2647Text" xml:space="preserve"><value>主题强调色</value></data>
+  <data name="SettingsReferenceText2655Text" xml:space="preserve"><value>紧凑弹窗</value></data>
+  <data name="SettingsReferenceText2661Text" xml:space="preserve"><value>显示的指标</value></data>
+  <data name="SettingsReferenceText2664Text" xml:space="preserve"><value>指标组</value></data>
+  <data name="SettingsReferenceText2685Text" xml:space="preserve"><value>温度和负载</value></data>
+  <data name="SettingsReferenceText2688Text" xml:space="preserve"><value>CPU 温度</value></data>
+  <data name="SettingsReferenceText2692Text" xml:space="preserve"><value>GPU 温度</value></data>
+  <data name="SettingsReferenceText2706Text" xml:space="preserve"><value>功耗和内存</value></data>
+  <data name="SettingsReferenceText2717Text" xml:space="preserve"><value>内存使用</value></data>
+  <data name="SettingsReferenceText2721Text" xml:space="preserve"><value>显存使用</value></data>
+  <data name="SettingsReferenceText2734Text" xml:space="preserve"><value>帧时间 (ms)</value></data>
+  <data name="SettingsReferenceText2738Text" xml:space="preserve"><value>网络延迟</value></data>
+  <data name="SettingsReferenceText2742Text" xml:space="preserve"><value>网络上传</value></data>
+  <data name="SettingsReferenceText2746Text" xml:space="preserve"><value>网络下载</value></data>
+  <data name="SettingsReferenceText2752Text" xml:space="preserve"><value>系统状态</value></data>
+  <data name="SettingsReferenceText2755Text" xml:space="preserve"><value>风扇转速 (RPM)</value></data>
+  <data name="SettingsReferenceText2759Text" xml:space="preserve"><value>风扇模式</value></data>
+  <data name="SettingsReferenceText2767Text" xml:space="preserve"><value>时钟</value></data>
+  <data name="SettingsReferenceText2775Text" xml:space="preserve"><value>CPU 频率</value></data>
+  <data name="SettingsReferenceText2779Text" xml:space="preserve"><value>GPU 频率</value></data>
+  <data name="SettingsReferenceText2787Text" xml:space="preserve"><value>横向布局</value></data>
+  <data name="SettingsReferenceText2803Text" xml:space="preserve"><value>电池保养</value></data>
+  <data name="SettingsReferenceText2805Text" xml:space="preserve"><value>通过智能充电限制延长电池寿命</value></data>
+  <data name="SettingsReferenceText2817Text" xml:space="preserve"><value>启用充电限制</value></data>
+  <data name="SettingsReferenceText2819Text" xml:space="preserve"><value>在自定义阈值停止充电以保护电池健康</value></data>
+  <data name="SettingsReferenceText2837Text" xml:space="preserve"><value>充电阈值</value></data>
+  <data name="SettingsReferenceText2839Text" xml:space="preserve"><value>设置最大电池充电水平</value></data>
+  <data name="SettingsReferenceText2879Text" xml:space="preserve"><value>风扇迟滞</value></data>
+  <data name="SettingsReferenceText2881Text" xml:space="preserve"><value>通过死区和延迟防止风扇转速振荡</value></data>
+  <data name="SettingsReferenceText2893Text" xml:space="preserve"><value>启用迟滞</value></data>
+  <data name="SettingsReferenceText2895Text" xml:space="preserve"><value>平滑风扇转速变化以减少噪音波动</value></data>
+  <data name="SettingsReferenceText2914Text" xml:space="preserve"><value>温度死区</value></data>
+  <data name="SettingsReferenceText2934Text" xml:space="preserve"><value>加速延迟</value></data>
+  <data name="SettingsReferenceText2954Text" xml:space="preserve"><value>减速延迟</value></data>
+  <data name="SettingsReferenceText2974Text" xml:space="preserve"><value>过热保护</value></data>
+  <data name="SettingsReferenceText2993Text" xml:space="preserve"><value>过热保护阈值</value></data>
+  <data name="SettingsReferenceText3036Text" xml:space="preserve"><value>最大风扇级别覆盖</value></data>
+  <data name="SettingsReferenceText3060Text" xml:space="preserve"><value>惠普 OMEN Gaming Hub 清理</value></data>
+  <data name="SettingsReferenceText3080Text" xml:space="preserve"><value>终止正在运行的惠普 OMEN 进程</value></data>
+  <data name="SettingsReferenceText3091Text" xml:space="preserve"><value>卸载惠普 OMEN Gaming Hub 应用</value></data>
+  <data name="SettingsReferenceText3113Text" xml:space="preserve"><value>清理惠普 OMEN 注册表项</value></data>
+  <data name="SettingsReferenceText3135Text" xml:space="preserve"><value>移除残留的惠普 OMEN 文件和文件夹</value></data>
+  <data name="SettingsReferenceText3163Content" xml:space="preserve"><value>创建手动还原点</value></data>
+  <data name="SettingsReferenceText3251Text" xml:space="preserve"><value>配置文件管理</value></data>
+  <data name="SettingsReferenceText3253Text" xml:space="preserve"><value>保存和加载完整的 OmenCore 配置</value></data>
+  <data name="SettingsReferenceText3301Text" xml:space="preserve"><value>数据和存储</value></data>
+  <data name="SettingsReferenceText3346Text" xml:space="preserve"><value>关于 OmenCore</value></data>
+  <data name="SettingsReferenceText3387Text" xml:space="preserve"><value>通过 PayPal 捐赠</value></data>
+  <data name="SettingsReferenceText3406Text" xml:space="preserve"><value>配置计划任务</value></data>
+  <data name="SettingsReferenceText3528Text" xml:space="preserve"><value>开始时间</value></data>
+  <data name="SettingsReferenceText3534Text" xml:space="preserve"><value>结束时间</value></data>
+  <data name="SettingsReferenceText3540Text" xml:space="preserve"><value>电池阈值</value></data>
+  <data name="SettingsReferenceText3546Text" xml:space="preserve"><value>电池条件</value></data>
+  <data name="SettingsReferenceText3553Text" xml:space="preserve"><value>交流电源状态</value></data>
+  <data name="SettingsReferenceText3611Text" xml:space="preserve"><value>风扇预设动作</value></data>
+  <data name="SettingsReferenceText3617Text" xml:space="preserve"><value>性能模式动作</value></data>
 </root>
