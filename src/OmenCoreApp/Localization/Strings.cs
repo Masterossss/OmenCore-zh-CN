@@ -858,5 +858,10 @@ namespace OmenCore.Localization
         public static string FanReportPassedScore => Get(nameof(FanReportPassedScore));
         public static string FanReportScore => Get(nameof(FanReportScore));
         public static string FanReportEvidence => Get(nameof(FanReportEvidence));
+        public static string GpuUnlockDisabledReason => Get(nameof(GpuUnlockDisabledReason));
+        public static string GpuUnlockNoEcReason => Get(nameof(GpuUnlockNoEcReason));
+        public static string GpuUnlockAdapterUnknownReason => Get(nameof(GpuUnlockAdapterUnknownReason));
+        public static string GpuUnlockUsbCReason => Get(nameof(GpuUnlockUsbCReason));
+        public static string GpuUnlockAdapterRatingUnknown => Get(nameof(GpuUnlockAdapterRatingUnknown));
     }
 }

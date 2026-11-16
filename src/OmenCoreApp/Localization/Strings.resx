@@ -978,4 +978,9 @@ Try it anyway?</value></data>
   <data name="FanReportPassedScore" xml:space="preserve"><value> passed | Overall Score: </value></data>
   <data name="FanReportScore" xml:space="preserve"><value> - Score: </value></data>
   <data name="FanReportEvidence" xml:space="preserve"><value>[evidence: </value></data>
+  <data name="GpuUnlockDisabledReason" xml:space="preserve"><value>The GPU power unlock is disabled in this build: its EC write path has not been validated on real 8D87 hardware yet.</value></data>
+  <data name="GpuUnlockNoEcReason" xml:space="preserve"><value>No EC access is available - the unlock needs PawnIO.</value></data>
+  <data name="GpuUnlockAdapterUnknownReason" xml:space="preserve"><value>The connected adapter's power verdict could not be read.</value></data>
+  <data name="GpuUnlockUsbCReason" xml:space="preserve"><value>This is a USB-C Power Delivery supply. The GPU power unlock is not offered there - it was only ever measured on barrel adapters.</value></data>
+  <data name="GpuUnlockAdapterRatingUnknown" xml:space="preserve"><value>The connected adapter's rating was not reported, so there is no way to judge whether it can carry the unlock safely.</value></data>
 </root>

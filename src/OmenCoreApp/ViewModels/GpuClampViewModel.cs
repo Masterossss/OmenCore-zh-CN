@@ -705,7 +705,7 @@ namespace OmenCore.ViewModels
                 // Off the UI thread: Engage() sleeps for the design doc's measured 5 s settle time
                 // before it verifies anything, and the EC hold loop itself is a busy-wait.
                 var result = await Task.Run(() => service.Engage(_productId, ec, adapter)).ConfigureAwait(true);
-                GpuTgpUnlockStatus = result.Message;
+                GpuTgpUnlockStatus = GpuDiagnosticDisplayText.Translate(result.Message);
             }
             catch (Exception ex)
             {

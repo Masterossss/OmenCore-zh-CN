@@ -970,4 +970,9 @@
   <data name="FanReportPassedScore" xml:space="preserve"><value> 通过 | 总分：</value></data>
   <data name="FanReportScore" xml:space="preserve"><value> - 得分：</value></data>
   <data name="FanReportEvidence" xml:space="preserve"><value>[依据：</value></data>
+  <data name="GpuUnlockDisabledReason" xml:space="preserve"><value>此构建已禁用 GPU 功率解锁：其 EC 写入路径尚未在真实 8D87 硬件上验证。</value></data>
+  <data name="GpuUnlockNoEcReason" xml:space="preserve"><value>无法访问 EC——解锁需要 PawnIO。</value></data>
+  <data name="GpuUnlockAdapterUnknownReason" xml:space="preserve"><value>无法读取所连接适配器的功率判定结果。</value></data>
+  <data name="GpuUnlockUsbCReason" xml:space="preserve"><value>当前使用 USB-C Power Delivery 电源。此电源不提供 GPU 功率解锁，因为该功能仅在圆口适配器上测量过。</value></data>
+  <data name="GpuUnlockAdapterRatingUnknown" xml:space="preserve"><value>未报告所连接适配器的额定功率，因此无法判断它是否能安全支持解锁。</value></data>
 </root>

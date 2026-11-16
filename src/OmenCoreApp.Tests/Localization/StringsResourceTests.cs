@@ -253,6 +253,24 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void GpuUnlockDisplayKeepsRefusalsAndUnknownResultsDistinct()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            const string disabled = "The GPU power unlock is disabled in this build: its EC write path has not been validated on real 8D87 hardware yet.";
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                GpuDiagnosticDisplayText.Translate(disabled).Should().Contain("已禁用").And.Contain("尚未").And.Contain("8D87");
+                GpuDiagnosticDisplayText.Translate("No EC access is available - the unlock needs PawnIO.")
+                    .Should().Contain("无法访问 EC").And.Contain("PawnIO");
+                GpuDiagnosticDisplayText.Translate("unknown result: 0x42").Should().Be("unknown result: 0x42");
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                GpuDiagnosticDisplayText.Translate(disabled).Should().Be(disabled);
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void Apply_ChangesOnlyTheUiCulture()
         {
             // Numbers must keep the invariant formatting App installs on every thread; a UI
