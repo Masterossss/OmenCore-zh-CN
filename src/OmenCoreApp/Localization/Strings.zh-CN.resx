@@ -1426,4 +1426,20 @@
   <data name="UpdateBannerAvailable" xml:space="preserve"><value>有可用更新：v{0}（当前 {1}）</value></data>
   <data name="UpdateBannerDownloading" xml:space="preserve"><value>正在下载 v{0}（{1}）</value></data>
   <data name="UpdatePortableMessage" xml:space="preserve"><value>这是 OmenCore 便携版，运行时无法替换自身。更新已下载到 {0}。请关闭 OmenCore，然后将该 ZIP 解压覆盖到当前 OmenCore 文件夹。</value></data>
+  <data name="MemProgressTrim" xml:space="preserve"><value>正在精简进程工作集…</value></data>
+  <data name="MemProgressCache" xml:space="preserve"><value>正在清理系统文件缓存…</value></data>
+  <data name="MemProgressLowStandby" xml:space="preserve"><value>正在清理低优先级备用列表…</value></data>
+  <data name="MemProgressStandby" xml:space="preserve"><value>正在清理备用列表…</value></data>
+  <data name="MemProgressModified" xml:space="preserve"><value>正在清理已修改页面列表…</value></data>
+  <data name="MemProgressCombine" xml:space="preserve"><value>正在合并内存页面…</value></data>
+  <data name="MemErrorBusy" xml:space="preserve"><value>内存清理操作正在进行</value></data>
+  <data name="MemErrorPrivileges" xml:space="preserve"><value>无法获取所需权限。请以管理员身份运行。</value></data>
+  <data name="MemStatusPartial" xml:space="preserve"><value>已释放 {0} MB（共 {1} 项操作，{2} 项失败）</value></data>
+  <data name="MemStatusFailedCompression" xml:space="preserve"><value>无法更改内存压缩状态</value></data>
+  <data name="MemStatusProcessUnavailable" xml:space="preserve"><value>无法获取进程位置</value></data>
+  <data name="MemStatusOpenFailed" xml:space="preserve"><value>无法打开进程位置</value></data>
+  <data name="MemStatusEnabled" xml:space="preserve"><value>已启用内存压缩</value></data>
+  <data name="MemStatusDisabled" xml:space="preserve"><value>已禁用内存压缩</value></data>
+  <data name="MemStatusCopied" xml:space="preserve"><value>已复制 {0}</value></data>
+  <data name="MemStatusExcluded" xml:space="preserve"><value>已将 {0} 排除在工作集精简之外</value></data>
 </root>

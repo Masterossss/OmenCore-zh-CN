@@ -338,9 +338,14 @@ namespace OmenCoreApp.Tests.Localization
                     .And.Contain("3 项操作成功").And.Contain("1 项失败").And.Contain("Delta: 128 MB");
                 MemoryOptimizerDisplayText.Status("Failed: service unavailable").Should().Contain("失败：service unavailable");
                 MemoryOptimizerDisplayText.Result("\nunknown").Should().Be("\nunknown");
+                MemoryOptimizerDisplayText.Status("Trimming process working sets...").Should().Be("正在精简进程工作集…");
+                MemoryOptimizerDisplayText.Status("Failed: Failed to acquire required privileges. Run as administrator.").Should().Contain("管理员");
+                MemoryOptimizerDisplayText.Status("Freed 42 MB (3 operations, 1 failed)...").Should().Contain("42 MB").And.Contain("1 项失败");
                 raw.Should().StartWith("Freed 128 MB");
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
                 MemoryOptimizerDisplayText.Result(raw).Should().Be(raw);
+                MemoryOptimizerDisplayText.Status("Done: Copied test.exe").Should().Be("Done: Copied test.exe");
+                MemoryOptimizerDisplayText.Status("Freed 42 MB (3 operations, 1 failed)...").Should().Be("Freed 42 MB (3 operations, 1 failed)...");
             }
             finally { CultureInfo.CurrentUICulture = original; }
         }

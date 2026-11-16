@@ -1290,5 +1290,21 @@ namespace OmenCore.Localization
         public static string UpdateBannerAvailable => Get(nameof(UpdateBannerAvailable));
         public static string UpdateBannerDownloading => Get(nameof(UpdateBannerDownloading));
         public static string UpdatePortableMessage => Get(nameof(UpdatePortableMessage));
+        public static string MemProgressTrim => Get(nameof(MemProgressTrim));
+        public static string MemProgressCache => Get(nameof(MemProgressCache));
+        public static string MemProgressLowStandby => Get(nameof(MemProgressLowStandby));
+        public static string MemProgressStandby => Get(nameof(MemProgressStandby));
+        public static string MemProgressModified => Get(nameof(MemProgressModified));
+        public static string MemProgressCombine => Get(nameof(MemProgressCombine));
+        public static string MemErrorBusy => Get(nameof(MemErrorBusy));
+        public static string MemErrorPrivileges => Get(nameof(MemErrorPrivileges));
+        public static string MemStatusPartial => Get(nameof(MemStatusPartial));
+        public static string MemStatusFailedCompression => Get(nameof(MemStatusFailedCompression));
+        public static string MemStatusProcessUnavailable => Get(nameof(MemStatusProcessUnavailable));
+        public static string MemStatusOpenFailed => Get(nameof(MemStatusOpenFailed));
+        public static string MemStatusEnabled => Get(nameof(MemStatusEnabled));
+        public static string MemStatusDisabled => Get(nameof(MemStatusDisabled));
+        public static string MemStatusCopied => Get(nameof(MemStatusCopied));
+        public static string MemStatusExcluded => Get(nameof(MemStatusExcluded));
     }
 }

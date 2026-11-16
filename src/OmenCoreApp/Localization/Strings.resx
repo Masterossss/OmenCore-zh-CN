@@ -1434,4 +1434,20 @@ Continue?</value></data>
   <data name="UpdateBannerAvailable" xml:space="preserve"><value>Update available: v{0} (Current {1})</value></data>
   <data name="UpdateBannerDownloading" xml:space="preserve"><value>Downloading v{0} ({1})</value></data>
   <data name="UpdatePortableMessage" xml:space="preserve"><value>This is the portable version of OmenCore, which can't replace itself while it's running. The update has been downloaded to {0}. Close OmenCore, then extract that zip over your current OmenCore folder.</value></data>
+  <data name="MemProgressTrim" xml:space="preserve"><value>Trimming process working sets...</value></data>
+  <data name="MemProgressCache" xml:space="preserve"><value>Flushing system file cache...</value></data>
+  <data name="MemProgressLowStandby" xml:space="preserve"><value>Purging low-priority standby list...</value></data>
+  <data name="MemProgressStandby" xml:space="preserve"><value>Purging standby list...</value></data>
+  <data name="MemProgressModified" xml:space="preserve"><value>Flushing modified page list...</value></data>
+  <data name="MemProgressCombine" xml:space="preserve"><value>Combining memory pages...</value></data>
+  <data name="MemErrorBusy" xml:space="preserve"><value>A memory clean operation is already in progress</value></data>
+  <data name="MemErrorPrivileges" xml:space="preserve"><value>Failed to acquire required privileges. Run as administrator.</value></data>
+  <data name="MemStatusPartial" xml:space="preserve"><value>Freed {0} MB ({1} operations, {2} failed)...</value></data>
+  <data name="MemStatusFailedCompression" xml:space="preserve"><value>Failed to change memory compression state</value></data>
+  <data name="MemStatusProcessUnavailable" xml:space="preserve"><value>Process location unavailable</value></data>
+  <data name="MemStatusOpenFailed" xml:space="preserve"><value>Failed to open process location</value></data>
+  <data name="MemStatusEnabled" xml:space="preserve"><value>Done: Memory compression enabled</value></data>
+  <data name="MemStatusDisabled" xml:space="preserve"><value>Done: Memory compression disabled</value></data>
+  <data name="MemStatusCopied" xml:space="preserve"><value>Done: Copied {0}</value></data>
+  <data name="MemStatusExcluded" xml:space="preserve"><value>Done: Excluded {0} from working-set trims</value></data>
 </root>
