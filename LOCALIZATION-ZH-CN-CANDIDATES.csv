@@ -671,75 +671,75 @@ src/OmenCoreApp/Views/MainWindow.xaml,757,Text,Notice: Model Not Yet Field-Confi
 src/OmenCoreApp/Views/MainWindow.xaml,761,Text,"This is a real HP OMEN/Victus system, but this exact model's capabilities are inferred rather than confirmed by another user - see the Diagnostics tab for exactly which features that affects. Most functionality should still work; please report anything that looks wrong.",E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/MainWindow.xaml,810,Text,RECENT ACTIVITY,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/MainWindow.xaml,817,Text,SYSTEM LOG,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,26,Text,Memory Optimizer,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,28,Text,Monitor and optimize system memory in real-time,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,77,Text,RAM Usage,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,146,Text,Available,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,155,Text,System Cache,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,166,Text,Commit,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,175,Text,Page File,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,198,ToolTip,Copy last result,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,211,ToolTip,"Safe clean: trims working sets, purges low-priority standby, combines pages",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,215,Text,Smart Clean,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,223,ToolTip,Aggressive clean: all operations including standby list purge and cache flush. May cause brief stutter.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,226,Text,Deep Clean,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,261,Text,Top Memory Hogs,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,275,Header,Copy process name,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,278,Header,Open file location,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,281,Header,Add to working-set exclusions,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,291,Header,Process,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,292,Header,Working Set,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,293,Header,Private,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,294,Header,RAM %,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,314,Text,Individual Operations,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,325,Text,Trim Working Sets,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,326,Text,Releases unused memory from all processes,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,329,Text,Safe,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,332,Content,Clean,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,347,Text,Purge Standby List,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,348,Text,Removes cached pages from standby memory,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,351,Text,Medium — may cause brief stutter,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,354,Content,Clean,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,369,Text,Flush File Cache,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,370,Text,Flushes the system file cache,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,373,Text,Medium — may slow file access temporarily,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,376,Content,Clean,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,391,Text,Flush Modified Pages,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,392,Text,Writes modified pages to disk and frees memory,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,395,Text,Medium — disk I/O burst,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,398,Content,Clean,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,413,Text,Combine Memory Pages,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,414,Text,Merges identical memory pages (Windows 10+),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,417,Text,Safe,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,420,Content,Clean,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,433,Text,System Information,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,453,Text,Processes,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,458,Text,Threads,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,463,Text,Handles,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,468,Text,Kernel Non-Paged,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,475,Text,System Cache,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,482,Text,Standby List,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,487,Text,Modified Pages,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,492,Text,Compressed Memory,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,502,Text,Auto Clean,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,513,Text,Automatic Memory Cleaning,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,515,Text,Runs Smart Clean when RAM usage exceeds threshold,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,531,Text,Adaptive Profile,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,543,Text,Usage Threshold,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,557,Text,Minimum Gap Between Cleans,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,566,Text,Set to 0 to use the selected profile default cooldown.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,581,Text,Game-aware quiet window,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,607,Text,Periodic Memory Cleaning,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,609,Text,Runs Smart Clean automatically every N minutes,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,624,Text,Clean Interval,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,643,Text,Working Set Exclusions,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,645,Text,Excluded processes are skipped during working-set trimming (enter with or without .exe).,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,647,Text,"Tip: right-click a process in Top Memory Hogs to add games, capture tools, anti-cheat, or chat apps here before Smart Clean.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,660,Content,Add,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,682,Content,Remove,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,698,Text,Memory Compression,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,705,Content,Toggle,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/MemoryOptimizerView.xaml,716,Text,How It Works,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,26,Text,Memory Optimizer,A,是,已迁移,MemoryViewText26
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,28,Text,Monitor and optimize system memory in real-time,A,是,已迁移,MemoryViewText28
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,77,Text,RAM Usage,A,是,已迁移,MemoryViewText77
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,146,Text,Available,A,是,已迁移,MemoryViewText146
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,155,Text,System Cache,A,是,已迁移,MemoryViewText155
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,166,Text,Commit,A,是,已迁移,MemoryViewText166
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,175,Text,Page File,A,是,已迁移,MemoryViewText175
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,198,ToolTip,Copy last result,A,是,已迁移,MemoryViewText198
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,211,ToolTip,"Safe clean: trims working sets, purges low-priority standby, combines pages",A,是,已迁移,MemoryViewText211
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,215,Text,Smart Clean,A,是,已迁移,MemoryViewText215
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,223,ToolTip,Aggressive clean: all operations including standby list purge and cache flush. May cause brief stutter.,A,是,已迁移,MemoryViewText223
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,226,Text,Deep Clean,A,是,已迁移,MemoryViewText226
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,261,Text,Top Memory Hogs,A,是,已迁移,MemoryViewText261
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,275,Header,Copy process name,A,是,已迁移,MemoryViewText275
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,278,Header,Open file location,A,是,已迁移,MemoryViewText278
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,281,Header,Add to working-set exclusions,A,是,已迁移,MemoryViewText281
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,291,Header,Process,A,是,已迁移,MemoryViewText291
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,292,Header,Working Set,A,是,已迁移,MemoryViewText292
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,293,Header,Private,A,是,已迁移,MemoryViewText293
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,294,Header,RAM %,A,是,已迁移,MemoryViewText294
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,314,Text,Individual Operations,A,是,已迁移,MemoryViewText314
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,325,Text,Trim Working Sets,A,是,已迁移,MemoryViewText325
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,326,Text,Releases unused memory from all processes,A,是,已迁移,MemoryViewText326
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,329,Text,Safe,A,是,已迁移,MemoryViewText329
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,332,Content,Clean,A,是,已迁移,MemoryViewText332
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,347,Text,Purge Standby List,A,是,已迁移,MemoryViewText347
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,348,Text,Removes cached pages from standby memory,A,是,已迁移,MemoryViewText348
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,351,Text,Medium — may cause brief stutter,A,是,已迁移,MemoryViewText351
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,354,Content,Clean,A,是,已迁移,MemoryViewText354
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,369,Text,Flush File Cache,A,是,已迁移,MemoryViewText369
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,370,Text,Flushes the system file cache,A,是,已迁移,MemoryViewText370
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,373,Text,Medium — may slow file access temporarily,A,是,已迁移,MemoryViewText373
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,376,Content,Clean,A,是,已迁移,MemoryViewText376
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,391,Text,Flush Modified Pages,A,是,已迁移,MemoryViewText391
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,392,Text,Writes modified pages to disk and frees memory,A,是,已迁移,MemoryViewText392
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,395,Text,Medium — disk I/O burst,A,是,已迁移,MemoryViewText395
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,398,Content,Clean,A,是,已迁移,MemoryViewText398
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,413,Text,Combine Memory Pages,A,是,已迁移,MemoryViewText413
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,414,Text,Merges identical memory pages (Windows 10+),A,是,已迁移,MemoryViewText414
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,417,Text,Safe,A,是,已迁移,MemoryViewText417
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,420,Content,Clean,A,是,已迁移,MemoryViewText420
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,433,Text,System Information,A,是,已迁移,MemoryViewText433
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,453,Text,Processes,A,是,已迁移,MemoryViewText453
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,458,Text,Threads,A,是,已迁移,MemoryViewText458
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,463,Text,Handles,A,是,已迁移,MemoryViewText463
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,468,Text,Kernel Non-Paged,A,是,已迁移,MemoryViewText468
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,475,Text,System Cache,A,是,已迁移,MemoryViewText475
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,482,Text,Standby List,A,是,已迁移,MemoryViewText482
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,487,Text,Modified Pages,A,是,已迁移,MemoryViewText487
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,492,Text,Compressed Memory,A,是,已迁移,MemoryViewText492
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,502,Text,Auto Clean,A,是,已迁移,MemoryViewText502
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,513,Text,Automatic Memory Cleaning,A,是,已迁移,MemoryViewText513
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,515,Text,Runs Smart Clean when RAM usage exceeds threshold,A,是,已迁移,MemoryViewText515
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,531,Text,Adaptive Profile,A,是,已迁移,MemoryViewText531
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,543,Text,Usage Threshold,A,是,已迁移,MemoryViewText543
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,557,Text,Minimum Gap Between Cleans,A,是,已迁移,MemoryViewText557
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,566,Text,Set to 0 to use the selected profile default cooldown.,A,是,已迁移,MemoryViewText566
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,581,Text,Game-aware quiet window,A,是,已迁移,MemoryViewText581
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,607,Text,Periodic Memory Cleaning,A,是,已迁移,MemoryViewText607
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,609,Text,Runs Smart Clean automatically every N minutes,A,是,已迁移,MemoryViewText609
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,624,Text,Clean Interval,A,是,已迁移,MemoryViewText624
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,643,Text,Working Set Exclusions,A,是,已迁移,MemoryViewText643
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,645,Text,Excluded processes are skipped during working-set trimming (enter with or without .exe).,A,是,已迁移,MemoryViewText645
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,647,Text,"Tip: right-click a process in Top Memory Hogs to add games, capture tools, anti-cheat, or chat apps here before Smart Clean.",A,是,已迁移,MemoryViewText647
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,660,Content,Add,A,是,已迁移,MemoryViewText660
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,682,Content,Remove,A,是,已迁移,MemoryViewText682
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,698,Text,Memory Compression,A,是,已迁移,MemoryViewText698
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,705,Content,Toggle,A,是,已迁移,MemoryViewText705
+src/OmenCoreApp/Views/MemoryOptimizerView.xaml,716,Text,How It Works,A,是,已迁移,MemoryViewText716
 src/OmenCoreApp/Views/OnboardingWindow.xaml,28,Text,OmenCore Setup,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/OnboardingWindow.xaml,50,Text,"OmenCore is a community-built fan, lighting, and performance controller for HP OMEN laptops.",E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/OnboardingWindow.xaml,52,Text,This quick setup takes about 30 seconds and helps OmenCore work best on your system.,E,待核实,待审查,尚未判断是否可见或需要翻译

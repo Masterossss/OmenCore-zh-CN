@@ -987,4 +987,82 @@ Try it anyway?</value></data>
   <data name="NvidiaParamCurrentAboveMax" xml:space="preserve"><value>CURRENT {0} W exceeds live MAX {1} W. Apply MAX first, reboot Windows, then verify the new live MAX before applying CURRENT.</value></data>
   <data name="NvidiaParamMaxSaved" xml:space="preserve"><value>MAX {0} W was saved to NVIDIA romOverride. Reboot is required. After reboot reopen Prophecy Power Unlocker, verify MAX, then apply CURRENT.</value></data>
   <data name="NvidiaParamRestoreCurrent" xml:space="preserve"><value>Restore CURRENT to stock {0} W while GPU is idle before removing MAX override.</value></data>
+  <data name="MemoryViewText26" xml:space="preserve"><value>Memory Optimizer</value></data>
+  <data name="MemoryViewText28" xml:space="preserve"><value>Monitor and optimize system memory in real-time</value></data>
+  <data name="MemoryViewText77" xml:space="preserve"><value>RAM Usage</value></data>
+  <data name="MemoryViewText146" xml:space="preserve"><value>Available</value></data>
+  <data name="MemoryViewText155" xml:space="preserve"><value>System Cache</value></data>
+  <data name="MemoryViewText166" xml:space="preserve"><value>Commit</value></data>
+  <data name="MemoryViewText175" xml:space="preserve"><value>Page File</value></data>
+  <data name="MemoryViewText198" xml:space="preserve"><value>Copy last result</value></data>
+  <data name="MemoryViewText211" xml:space="preserve"><value>Safe clean: trims working sets, purges low-priority standby, combines pages</value></data>
+  <data name="MemoryViewText215" xml:space="preserve"><value>Smart Clean</value></data>
+  <data name="MemoryViewText223" xml:space="preserve"><value>Aggressive clean: all operations including standby list purge and cache flush. May cause brief stutter.</value></data>
+  <data name="MemoryViewText226" xml:space="preserve"><value>Deep Clean</value></data>
+  <data name="MemoryViewText261" xml:space="preserve"><value>Top Memory Hogs</value></data>
+  <data name="MemoryViewText275" xml:space="preserve"><value>Copy process name</value></data>
+  <data name="MemoryViewText278" xml:space="preserve"><value>Open file location</value></data>
+  <data name="MemoryViewText281" xml:space="preserve"><value>Add to working-set exclusions</value></data>
+  <data name="MemoryViewText291" xml:space="preserve"><value>Process</value></data>
+  <data name="MemoryViewText292" xml:space="preserve"><value>Working Set</value></data>
+  <data name="MemoryViewText293" xml:space="preserve"><value>Private</value></data>
+  <data name="MemoryViewText294" xml:space="preserve"><value>RAM %</value></data>
+  <data name="MemoryViewText314" xml:space="preserve"><value>Individual Operations</value></data>
+  <data name="MemoryViewText325" xml:space="preserve"><value>Trim Working Sets</value></data>
+  <data name="MemoryViewText326" xml:space="preserve"><value>Releases unused memory from all processes</value></data>
+  <data name="MemoryViewText329" xml:space="preserve"><value>Safe</value></data>
+  <data name="MemoryViewText332" xml:space="preserve"><value>Clean</value></data>
+  <data name="MemoryViewText347" xml:space="preserve"><value>Purge Standby List</value></data>
+  <data name="MemoryViewText348" xml:space="preserve"><value>Removes cached pages from standby memory</value></data>
+  <data name="MemoryViewText351" xml:space="preserve"><value>Medium — may cause brief stutter</value></data>
+  <data name="MemoryViewText354" xml:space="preserve"><value>Clean</value></data>
+  <data name="MemoryViewText369" xml:space="preserve"><value>Flush File Cache</value></data>
+  <data name="MemoryViewText370" xml:space="preserve"><value>Flushes the system file cache</value></data>
+  <data name="MemoryViewText373" xml:space="preserve"><value>Medium — may slow file access temporarily</value></data>
+  <data name="MemoryViewText376" xml:space="preserve"><value>Clean</value></data>
+  <data name="MemoryViewText391" xml:space="preserve"><value>Flush Modified Pages</value></data>
+  <data name="MemoryViewText392" xml:space="preserve"><value>Writes modified pages to disk and frees memory</value></data>
+  <data name="MemoryViewText395" xml:space="preserve"><value>Medium — disk I/O burst</value></data>
+  <data name="MemoryViewText398" xml:space="preserve"><value>Clean</value></data>
+  <data name="MemoryViewText413" xml:space="preserve"><value>Combine Memory Pages</value></data>
+  <data name="MemoryViewText414" xml:space="preserve"><value>Merges identical memory pages (Windows 10+)</value></data>
+  <data name="MemoryViewText417" xml:space="preserve"><value>Safe</value></data>
+  <data name="MemoryViewText420" xml:space="preserve"><value>Clean</value></data>
+  <data name="MemoryViewText433" xml:space="preserve"><value>System Information</value></data>
+  <data name="MemoryViewText453" xml:space="preserve"><value>Processes</value></data>
+  <data name="MemoryViewText458" xml:space="preserve"><value>Threads</value></data>
+  <data name="MemoryViewText463" xml:space="preserve"><value>Handles</value></data>
+  <data name="MemoryViewText468" xml:space="preserve"><value>Kernel Non-Paged</value></data>
+  <data name="MemoryViewText475" xml:space="preserve"><value>System Cache</value></data>
+  <data name="MemoryViewText482" xml:space="preserve"><value>Standby List</value></data>
+  <data name="MemoryViewText487" xml:space="preserve"><value>Modified Pages</value></data>
+  <data name="MemoryViewText492" xml:space="preserve"><value>Compressed Memory</value></data>
+  <data name="MemoryViewText502" xml:space="preserve"><value>Auto Clean</value></data>
+  <data name="MemoryViewText513" xml:space="preserve"><value>Automatic Memory Cleaning</value></data>
+  <data name="MemoryViewText515" xml:space="preserve"><value>Runs Smart Clean when RAM usage exceeds threshold</value></data>
+  <data name="MemoryViewText531" xml:space="preserve"><value>Adaptive Profile</value></data>
+  <data name="MemoryViewText543" xml:space="preserve"><value>Usage Threshold</value></data>
+  <data name="MemoryViewText557" xml:space="preserve"><value>Minimum Gap Between Cleans</value></data>
+  <data name="MemoryViewText566" xml:space="preserve"><value>Set to 0 to use the selected profile default cooldown.</value></data>
+  <data name="MemoryViewText581" xml:space="preserve"><value>Game-aware quiet window</value></data>
+  <data name="MemoryViewText607" xml:space="preserve"><value>Periodic Memory Cleaning</value></data>
+  <data name="MemoryViewText609" xml:space="preserve"><value>Runs Smart Clean automatically every N minutes</value></data>
+  <data name="MemoryViewText624" xml:space="preserve"><value>Clean Interval</value></data>
+  <data name="MemoryViewText643" xml:space="preserve"><value>Working Set Exclusions</value></data>
+  <data name="MemoryViewText645" xml:space="preserve"><value>Excluded processes are skipped during working-set trimming (enter with or without .exe).</value></data>
+  <data name="MemoryViewText647" xml:space="preserve"><value>Tip: right-click a process in Top Memory Hogs to add games, capture tools, anti-cheat, or chat apps here before Smart Clean.</value></data>
+  <data name="MemoryViewText660" xml:space="preserve"><value>Add</value></data>
+  <data name="MemoryViewText682" xml:space="preserve"><value>Remove</value></data>
+  <data name="MemoryViewText698" xml:space="preserve"><value>Memory Compression</value></data>
+  <data name="MemoryViewText705" xml:space="preserve"><value>Toggle</value></data>
+  <data name="MemoryViewText716" xml:space="preserve"><value>How It Works</value></data>
+  <data name="MemoryCompressionEnabled" xml:space="preserve"><value>Enabled</value></data>
+  <data name="MemoryCompressionUnavailable" xml:space="preserve"><value>Unavailable</value></data>
+  <data name="MemoryPhysicalSummary" xml:space="preserve"><value>Used {0} • Available {1} • Cache {2:F1} GB</value></data>
+  <data name="MemoryVirtualSummary" xml:space="preserve"><value>Commit {0} • Page file {1}</value></data>
+  <data name="MemoryCheckEverySeconds" xml:space="preserve"><value>Every {0} sec</value></data>
+  <data name="MemoryCleanEveryMinutes" xml:space="preserve"><value>Every {0} min</value></data>
+  <data name="MemoryPreviewFree" xml:space="preserve"><value>This profile will free approximately {0} MB</value></data>
+  <data name="MemoryGameAwareOn" xml:space="preserve"><value>On: fullscreen and borderless games get light working-set trims unless memory pressure is critical.</value></data>
+  <data name="MemoryGameAwareOff" xml:space="preserve"><value>Off: Smart Clean can run the full safe cleanup profile while a game is in the foreground.</value></data>
 </root>

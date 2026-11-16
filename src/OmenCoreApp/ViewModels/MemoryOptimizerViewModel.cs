@@ -11,6 +11,7 @@ using System.Windows;
 using System.Windows.Input;
 using System.Windows.Threading;
 using OmenCore.Models;
+using OmenCore.Localization;
 using OmenCore.Services;
 using OmenCore.Utils;
 using OmenCore.Services.Diagnostics;
@@ -207,6 +208,7 @@ namespace OmenCore.ViewModels
                 _memoryService.SetGameAwareQuietWindowEnabled(_gameAwareQuietWindowEnabled);
                 OnPropertyChanged(nameof(GameAwareQuietWindowEnabled));
                 OnPropertyChanged(nameof(GameAwareQuietWindowSummary));
+                OnPropertyChanged(nameof(GameAwareQuietWindowDisplay));
 
                 _autoCleanCooldownMinutes = Math.Clamp(config.MemoryAutoCleanCooldownMinutes, 0, 60);
                 _memoryService.SetAutoCleanCooldownOverrideMinutes(_autoCleanCooldownMinutes);
@@ -401,9 +403,9 @@ namespace OmenCore.ViewModels
         public string PageFileText => $"{UsedPageFileMB / 1024.0:F1} / {TotalPageFileMB / 1024.0:F1} GB";
         public string StandbyListText => $"{StandbyListMB} MB";
         public string ModifiedPageListText => $"{ModifiedPageListMB} MB";
-        public string CompressedMemoryText => CompressedMemoryMB.HasValue ? $"{CompressedMemoryMB.Value} MB" : (MemoryCompressionEnabled ? "Enabled" : "Unavailable");
-        public string PhysicalMemorySummary => $"Used {UsedPhysicalGB} • Available {AvailablePhysicalGB} • Cache {SystemCacheMB / 1024.0:F1} GB";
-        public string VirtualMemorySummary => $"Commit {CommitText} • Page file {PageFileText}";
+        public string CompressedMemoryText => CompressedMemoryMB.HasValue ? $"{CompressedMemoryMB.Value} MB" : (MemoryCompressionEnabled ? Strings.MemoryCompressionEnabled : Strings.MemoryCompressionUnavailable);
+        public string PhysicalMemorySummary => string.Format(Strings.MemoryPhysicalSummary, UsedPhysicalGB, AvailablePhysicalGB, SystemCacheMB / 1024.0);
+        public string VirtualMemorySummary => string.Format(Strings.MemoryVirtualSummary, CommitText, PageFileText);
         public IEnumerable<double> RecentMemoryLoadHistory => _memoryHistory.Select(sample => (double)sample.LoadPercent);
         public bool HasMemoryHistory => _memoryHistory.Count >= 3;
         public string MemoryTrendSummary
@@ -568,7 +570,7 @@ namespace OmenCore.ViewModels
             }
         }
 
-        public string AutoCleanCheckIntervalText => $"Every {_autoCleanCheckIntervalSeconds} sec";
+        public string AutoCleanCheckIntervalText => string.Format(Strings.MemoryCheckEverySeconds, _autoCleanCheckIntervalSeconds);
 
         public bool GameAwareQuietWindowEnabled
         {
@@ -584,6 +586,7 @@ namespace OmenCore.ViewModels
                 _memoryService.SetGameAwareQuietWindowEnabled(value);
                 OnPropertyChanged();
                 OnPropertyChanged(nameof(GameAwareQuietWindowSummary));
+                OnPropertyChanged(nameof(GameAwareQuietWindowDisplay));
                 PersistSettings();
             }
         }
@@ -591,6 +594,8 @@ namespace OmenCore.ViewModels
         public string GameAwareQuietWindowSummary => GameAwareQuietWindowEnabled
             ? "On: fullscreen and borderless games get light working-set trims unless memory pressure is critical."
             : "Off: Smart Clean can run the full safe cleanup profile while a game is in the foreground.";
+
+        public string GameAwareQuietWindowDisplay => GameAwareQuietWindowEnabled ? Strings.MemoryGameAwareOn : Strings.MemoryGameAwareOff;
 
         public bool MemoryCompressionSupported
         {
@@ -668,7 +673,7 @@ namespace OmenCore.ViewModels
             }
         }
 
-        public string CleanEveryMinutesText => $"Every {CleanEveryMinutes} min";
+        public string CleanEveryMinutesText => string.Format(Strings.MemoryCleanEveryMinutes, CleanEveryMinutes);
 
         /// <summary>
         /// Gets or sets the selected memory cleaning profile (Conservative, Balanced, or Aggressive).
@@ -780,7 +785,7 @@ namespace OmenCore.ViewModels
             {
                 var flags = GetProfileFlags(_selectedProfile);
                 var preview = _memoryService.PreviewMemoryCleaning(flags, currentInfo);
-                CleanupPreviewText = $"This profile will free approximately {preview.EstimatedFreeMB} MB";
+                CleanupPreviewText = string.Format(Strings.MemoryPreviewFree, preview.EstimatedFreeMB);
             }
             catch (Exception ex)
             {

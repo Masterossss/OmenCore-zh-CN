@@ -300,6 +300,29 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void MemorySummaryAndRiskDescriptionResolveInBothLanguages()
+        {
+            var originalUi = CultureInfo.CurrentUICulture;
+            var originalFormat = CultureInfo.CurrentCulture;
+            try
+            {
+                CultureInfo.CurrentCulture = CultureInfo.InvariantCulture;
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                string.Format(Strings.MemoryPhysicalSummary, "4.0 GB", "8.0 GB", 1.25)
+                    .Should().Contain("已用 4.0 GB").And.Contain("可用 8.0 GB").And.Contain("1.2 GB");
+                Strings.MemoryViewText223.Should().Contain("备用列表").And.Contain("短暂卡顿");
+                Strings.MemoryGameAwareOn.Should().Contain("内存压力").And.Contain("除外");
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                Strings.MemoryViewText223.Should().Contain("standby list purge").And.Contain("brief stutter");
+            }
+            finally
+            {
+                CultureInfo.CurrentUICulture = originalUi;
+                CultureInfo.CurrentCulture = originalFormat;
+            }
+        }
+
+        [Fact]
         public void Apply_ChangesOnlyTheUiCulture()
         {
             // Numbers must keep the invariant formatting App installs on every thread; a UI

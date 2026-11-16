@@ -250,3 +250,10 @@ src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,60,ResolveAsync: Outcome.Mess
 src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,145,RunAsync: Outcome.Message,A,是,部分资源化,显示边界 NvidiaPowerDisplayText.Translate；已知固定值本地化，未知值保留原文；服务日志仍保留原始值
 src/OmenCoreApp/ViewModels/FanDiagnosticsViewModel.cs,456,GuidedTestResult = summary.ToString(),A,是,部分资源化,界面报告标签及散热保护中断/冷却说明已资源化；动态依据和评级待审查；复制与日志仍为原报告
 src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,707,GpuTgpUnlockStatus = result.Message,A,是,部分资源化,GpuDiagnosticDisplayText 映射五种固定拒绝原因；数值化结果和其他服务消息保留原文待审查
+src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,404,CompressedMemoryText,A,是,已资源化,仅界面显示；Strings.MemoryCompressionEnabled/MemoryCompressionUnavailable；清理结果和服务错误仍待审查
+src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,405,PhysicalMemorySummary,A,是,已资源化,仅界面显示；Strings.MemoryPhysicalSummary；清理结果和服务错误仍待审查
+src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,406,VirtualMemorySummary,A,是,已资源化,仅界面显示；Strings.MemoryVirtualSummary；清理结果和服务错误仍待审查
+src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,571,AutoCleanCheckIntervalText,A,是,已资源化,仅界面显示；Strings.MemoryCheckEverySeconds；清理结果和服务错误仍待审查
+src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,591,GameAwareQuietWindowDisplay,A,是,已资源化,仅界面显示；Strings.MemoryGameAwareOn/MemoryGameAwareOff；清理结果和服务错误仍待审查
+src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,671,CleanEveryMinutesText,A,是,已资源化,仅界面显示；Strings.MemoryCleanEveryMinutes；清理结果和服务错误仍待审查
+src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,783,CleanupPreviewText,A,是,已资源化,仅界面显示；Strings.MemoryPreviewFree；清理结果和服务错误仍待审查

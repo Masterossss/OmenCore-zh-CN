@@ -983,4 +983,82 @@
   <data name="NvidiaParamCurrentAboveMax" xml:space="preserve"><value>CURRENT {0} W 超过实时 MAX {1} W。请先应用 MAX，重启 Windows，再确认新的实时 MAX，然后再应用 CURRENT。</value></data>
   <data name="NvidiaParamMaxSaved" xml:space="preserve"><value>MAX {0} W 已保存到 NVIDIA romOverride。需要重启。重启后请重新打开 Prophecy Power Unlocker，确认 MAX，然后应用 CURRENT。</value></data>
   <data name="NvidiaParamRestoreCurrent" xml:space="preserve"><value>移除 MAX 覆盖设置前，请在 GPU 空闲时将 CURRENT 恢复为出厂值 {0} W。</value></data>
+  <data name="MemoryViewText26" xml:space="preserve"><value>内存优化</value></data>
+  <data name="MemoryViewText28" xml:space="preserve"><value>实时监控和优化系统内存</value></data>
+  <data name="MemoryViewText77" xml:space="preserve"><value>内存使用率</value></data>
+  <data name="MemoryViewText146" xml:space="preserve"><value>可用</value></data>
+  <data name="MemoryViewText155" xml:space="preserve"><value>系统缓存</value></data>
+  <data name="MemoryViewText166" xml:space="preserve"><value>提交内存</value></data>
+  <data name="MemoryViewText175" xml:space="preserve"><value>页面文件</value></data>
+  <data name="MemoryViewText198" xml:space="preserve"><value>复制上次结果</value></data>
+  <data name="MemoryViewText211" xml:space="preserve"><value>安全清理：精简工作集、清除低优先级备用内存并合并内存页</value></data>
+  <data name="MemoryViewText215" xml:space="preserve"><value>智能清理</value></data>
+  <data name="MemoryViewText223" xml:space="preserve"><value>深度清理：执行所有操作，包括清除备用列表和刷新缓存。可能导致短暂卡顿。</value></data>
+  <data name="MemoryViewText226" xml:space="preserve"><value>深度清理</value></data>
+  <data name="MemoryViewText261" xml:space="preserve"><value>内存占用最高的进程</value></data>
+  <data name="MemoryViewText275" xml:space="preserve"><value>复制进程名称</value></data>
+  <data name="MemoryViewText278" xml:space="preserve"><value>打开文件位置</value></data>
+  <data name="MemoryViewText281" xml:space="preserve"><value>添加到工作集排除列表</value></data>
+  <data name="MemoryViewText291" xml:space="preserve"><value>进程</value></data>
+  <data name="MemoryViewText292" xml:space="preserve"><value>工作集</value></data>
+  <data name="MemoryViewText293" xml:space="preserve"><value>专用内存</value></data>
+  <data name="MemoryViewText294" xml:space="preserve"><value>内存 %</value></data>
+  <data name="MemoryViewText314" xml:space="preserve"><value>单项操作</value></data>
+  <data name="MemoryViewText325" xml:space="preserve"><value>精简工作集</value></data>
+  <data name="MemoryViewText326" xml:space="preserve"><value>释放所有进程中未使用的内存</value></data>
+  <data name="MemoryViewText329" xml:space="preserve"><value>安全</value></data>
+  <data name="MemoryViewText332" xml:space="preserve"><value>清理</value></data>
+  <data name="MemoryViewText347" xml:space="preserve"><value>清除备用列表</value></data>
+  <data name="MemoryViewText348" xml:space="preserve"><value>移除备用内存中的缓存页</value></data>
+  <data name="MemoryViewText351" xml:space="preserve"><value>中等风险——可能导致短暂卡顿</value></data>
+  <data name="MemoryViewText354" xml:space="preserve"><value>清理</value></data>
+  <data name="MemoryViewText369" xml:space="preserve"><value>刷新文件缓存</value></data>
+  <data name="MemoryViewText370" xml:space="preserve"><value>刷新系统文件缓存</value></data>
+  <data name="MemoryViewText373" xml:space="preserve"><value>中等风险——可能暂时降低文件访问速度</value></data>
+  <data name="MemoryViewText376" xml:space="preserve"><value>清理</value></data>
+  <data name="MemoryViewText391" xml:space="preserve"><value>刷新已修改页</value></data>
+  <data name="MemoryViewText392" xml:space="preserve"><value>将已修改页写入磁盘并释放内存</value></data>
+  <data name="MemoryViewText395" xml:space="preserve"><value>中等风险——磁盘 I/O 会短时增加</value></data>
+  <data name="MemoryViewText398" xml:space="preserve"><value>清理</value></data>
+  <data name="MemoryViewText413" xml:space="preserve"><value>合并内存页</value></data>
+  <data name="MemoryViewText414" xml:space="preserve"><value>合并相同的内存页（Windows 10 及以上）</value></data>
+  <data name="MemoryViewText417" xml:space="preserve"><value>安全</value></data>
+  <data name="MemoryViewText420" xml:space="preserve"><value>清理</value></data>
+  <data name="MemoryViewText433" xml:space="preserve"><value>系统信息</value></data>
+  <data name="MemoryViewText453" xml:space="preserve"><value>进程</value></data>
+  <data name="MemoryViewText458" xml:space="preserve"><value>线程</value></data>
+  <data name="MemoryViewText463" xml:space="preserve"><value>句柄</value></data>
+  <data name="MemoryViewText468" xml:space="preserve"><value>内核非分页内存</value></data>
+  <data name="MemoryViewText475" xml:space="preserve"><value>系统缓存</value></data>
+  <data name="MemoryViewText482" xml:space="preserve"><value>备用列表</value></data>
+  <data name="MemoryViewText487" xml:space="preserve"><value>已修改页</value></data>
+  <data name="MemoryViewText492" xml:space="preserve"><value>压缩内存</value></data>
+  <data name="MemoryViewText502" xml:space="preserve"><value>自动清理</value></data>
+  <data name="MemoryViewText513" xml:space="preserve"><value>自动内存清理</value></data>
+  <data name="MemoryViewText515" xml:space="preserve"><value>当内存使用率超过阈值时运行智能清理</value></data>
+  <data name="MemoryViewText531" xml:space="preserve"><value>自适应配置</value></data>
+  <data name="MemoryViewText543" xml:space="preserve"><value>使用率阈值</value></data>
+  <data name="MemoryViewText557" xml:space="preserve"><value>两次清理的最短间隔</value></data>
+  <data name="MemoryViewText566" xml:space="preserve"><value>设为 0 时使用所选配置的默认冷却时间。</value></data>
+  <data name="MemoryViewText581" xml:space="preserve"><value>游戏感知静默时段</value></data>
+  <data name="MemoryViewText607" xml:space="preserve"><value>定期内存清理</value></data>
+  <data name="MemoryViewText609" xml:space="preserve"><value>每隔指定分钟数自动运行智能清理</value></data>
+  <data name="MemoryViewText624" xml:space="preserve"><value>清理间隔</value></data>
+  <data name="MemoryViewText643" xml:space="preserve"><value>工作集排除列表</value></data>
+  <data name="MemoryViewText645" xml:space="preserve"><value>精简工作集时会跳过排除的进程（输入时可带或不带 .exe）。</value></data>
+  <data name="MemoryViewText647" xml:space="preserve"><value>提示：在“内存占用最高的进程”中右键单击进程，可在智能清理前将游戏、录制工具、反作弊或聊天应用添加到此处。</value></data>
+  <data name="MemoryViewText660" xml:space="preserve"><value>添加</value></data>
+  <data name="MemoryViewText682" xml:space="preserve"><value>移除</value></data>
+  <data name="MemoryViewText698" xml:space="preserve"><value>内存压缩</value></data>
+  <data name="MemoryViewText705" xml:space="preserve"><value>切换</value></data>
+  <data name="MemoryViewText716" xml:space="preserve"><value>工作原理</value></data>
+  <data name="MemoryCompressionEnabled" xml:space="preserve"><value>已启用</value></data>
+  <data name="MemoryCompressionUnavailable" xml:space="preserve"><value>不可用</value></data>
+  <data name="MemoryPhysicalSummary" xml:space="preserve"><value>已用 {0} • 可用 {1} • 缓存 {2:F1} GB</value></data>
+  <data name="MemoryVirtualSummary" xml:space="preserve"><value>提交内存 {0} • 页面文件 {1}</value></data>
+  <data name="MemoryCheckEverySeconds" xml:space="preserve"><value>每 {0} 秒</value></data>
+  <data name="MemoryCleanEveryMinutes" xml:space="preserve"><value>每 {0} 分钟</value></data>
+  <data name="MemoryPreviewFree" xml:space="preserve"><value>此配置预计释放约 {0} MB</value></data>
+  <data name="MemoryGameAwareOn" xml:space="preserve"><value>已开启：全屏和无边框游戏仅执行轻度工作集精简，内存压力达到严重程度时除外。</value></data>
+  <data name="MemoryGameAwareOff" xml:space="preserve"><value>已关闭：游戏在前台运行时，智能清理可执行完整的安全清理配置。</value></data>
 </root>
