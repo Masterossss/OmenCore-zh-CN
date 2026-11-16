@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace OmenCore.Localization
 {
@@ -59,7 +60,30 @@ namespace OmenCore.Localization
             "Fan Max could not be preserved. CURRENT was not sent." => Strings.NvidiaReasonFanMaxFailed,
             "E633 no-op changed CURRENT unexpectedly; writes remain locked." => Strings.NvidiaReasonNoopChanged,
             "CURRENT/MAX form a valid ordered policy state." => Strings.NvidiaReasonPolicyOrdered,
-            _ => message
+            _ => TranslateParameterized(message)
         };
+
+        // Match complete, known backend messages only. Captured digits remain strings so no numeric
+        // reformatting occurs; unknown or changed messages are displayed exactly as received.
+        private static string TranslateParameterized(string message)
+        {
+            var patterns = new (string Pattern, string Format)[]
+            {
+                (@"\ACURRENT confirmed at ([0-9]+) W\.\z", Strings.NvidiaParamCurrentConfirmed),
+                (@"\AChange CURRENT while GPU is idle\. Current GPU utilization is ([0-9]+)%\.\z", Strings.NvidiaParamCurrentIdle),
+                (@"\AClose GPU workloads before driver validation\. GPU utilization is ([0-9]+)%\.\z", Strings.NvidiaParamCloseWorkloads),
+                (@"\ACURRENT ([0-9]+) W exceeds live MAX ([0-9]+\.[0-9]{2}) W\. Apply MAX first, reboot Windows, then verify the new live MAX before applying CURRENT\.\z", Strings.NvidiaParamCurrentAboveMax),
+                (@"\AMAX ([0-9]+) W was saved to NVIDIA romOverride\. Reboot is required\. After reboot reopen Prophecy Power Unlocker, verify MAX, then apply CURRENT\.\z", Strings.NvidiaParamMaxSaved),
+                (@"\ARestore CURRENT to stock ([0-9]+) W while GPU is idle before removing MAX override\.\z", Strings.NvidiaParamRestoreCurrent)
+            };
+            foreach (var (pattern, format) in patterns)
+            {
+                var match = Regex.Match(message, pattern, RegexOptions.CultureInvariant);
+                if (!match.Success) continue;
+                var args = match.Groups.Cast<Group>().Skip(1).Select(group => (object)group.Value).ToArray();
+                return string.Format(format, args);
+            }
+            return message;
+        }
     }
 }

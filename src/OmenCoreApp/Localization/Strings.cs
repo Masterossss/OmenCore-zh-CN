@@ -865,5 +865,11 @@ namespace OmenCore.Localization
         public static string GpuUnlockAdapterRatingUnknown => Get(nameof(GpuUnlockAdapterRatingUnknown));
         public static string FanReportInterrupted => Get(nameof(FanReportInterrupted));
         public static string FanReportCoolRetry => Get(nameof(FanReportCoolRetry));
+        public static string NvidiaParamCurrentConfirmed => Get(nameof(NvidiaParamCurrentConfirmed));
+        public static string NvidiaParamCurrentIdle => Get(nameof(NvidiaParamCurrentIdle));
+        public static string NvidiaParamCloseWorkloads => Get(nameof(NvidiaParamCloseWorkloads));
+        public static string NvidiaParamCurrentAboveMax => Get(nameof(NvidiaParamCurrentAboveMax));
+        public static string NvidiaParamMaxSaved => Get(nameof(NvidiaParamMaxSaved));
+        public static string NvidiaParamRestoreCurrent => Get(nameof(NvidiaParamRestoreCurrent));
     }
 }

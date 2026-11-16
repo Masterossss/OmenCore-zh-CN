@@ -274,6 +274,32 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void NvidiaParameterizedMessagesPreservePrecisionAndRejectUnknownVariants()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            const string failure = "CURRENT 150 W exceeds live MAX 115.00 W. Apply MAX first, reboot Windows, then verify the new live MAX before applying CURRENT.";
+            const string success = "CURRENT confirmed at 115 W.";
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                NvidiaPowerDisplayText.Translate(failure).Should().Contain("150 W").And.Contain("115.00 W")
+                    .And.Contain("超过").And.Contain("重启 Windows").And.Contain("确认");
+                NvidiaPowerDisplayText.Translate(success).Should().Contain("已确认").And.Contain("115 W");
+                NvidiaPowerDisplayText.Translate(failure + " Rollback could not be confirmed.")
+                    .Should().Be(failure + " Rollback could not be confirmed.");
+                NvidiaPowerDisplayText.Translate("CURRENT 150 W exceeds live MAX 115,00 W.")
+                    .Should().Be("CURRENT 150 W exceeds live MAX 115,00 W.");
+                foreach (var culture in new[] { "en", "ru", "tr" })
+                {
+                    CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo(culture);
+                    NvidiaPowerDisplayText.Translate(failure).Should().Be(failure);
+                    NvidiaPowerDisplayText.Translate(success).Should().Be(success);
+                }
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void Apply_ChangesOnlyTheUiCulture()
         {
             // Numbers must keep the invariant formatting App installs on every thread; a UI

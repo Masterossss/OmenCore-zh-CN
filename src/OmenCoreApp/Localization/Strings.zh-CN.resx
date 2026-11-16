@@ -977,4 +977,10 @@
   <data name="GpuUnlockAdapterRatingUnknown" xml:space="preserve"><value>未报告所连接适配器的额定功率，因此无法判断它是否能安全支持解锁。</value></data>
   <data name="FanReportInterrupted" xml:space="preserve"><value>⚠ {0} 个步骤被散热保护中断，未计为失败：{1}。</value></data>
   <data name="FanReportCoolRetry" xml:space="preserve"><value>请等待笔记本冷却至 {0} C 以下，然后重新运行诊断以完成这些步骤。</value></data>
+  <data name="NvidiaParamCurrentConfirmed" xml:space="preserve"><value>已确认 CURRENT 为 {0} W。</value></data>
+  <data name="NvidiaParamCurrentIdle" xml:space="preserve"><value>请在 GPU 空闲时更改 CURRENT。当前 GPU 利用率为 {0}%。</value></data>
+  <data name="NvidiaParamCloseWorkloads" xml:space="preserve"><value>验证驱动前请关闭 GPU 工作负载。GPU 利用率为 {0}%。</value></data>
+  <data name="NvidiaParamCurrentAboveMax" xml:space="preserve"><value>CURRENT {0} W 超过实时 MAX {1} W。请先应用 MAX，重启 Windows，再确认新的实时 MAX，然后再应用 CURRENT。</value></data>
+  <data name="NvidiaParamMaxSaved" xml:space="preserve"><value>MAX {0} W 已保存到 NVIDIA romOverride。需要重启。重启后请重新打开 Prophecy Power Unlocker，确认 MAX，然后应用 CURRENT。</value></data>
+  <data name="NvidiaParamRestoreCurrent" xml:space="preserve"><value>移除 MAX 覆盖设置前，请在 GPU 空闲时将 CURRENT 恢复为出厂值 {0} W。</value></data>
 </root>

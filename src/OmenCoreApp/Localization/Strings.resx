@@ -985,4 +985,10 @@ Try it anyway?</value></data>
   <data name="GpuUnlockAdapterRatingUnknown" xml:space="preserve"><value>The connected adapter's rating was not reported, so there is no way to judge whether it can carry the unlock safely.</value></data>
   <data name="FanReportInterrupted" xml:space="preserve"><value>⚠ {0} step(s) interrupted by thermal protection and not counted as failures: {1}.</value></data>
   <data name="FanReportCoolRetry" xml:space="preserve"><value>Let the laptop cool below {0} C and run the diagnostic again to complete them.</value></data>
+  <data name="NvidiaParamCurrentConfirmed" xml:space="preserve"><value>CURRENT confirmed at {0} W.</value></data>
+  <data name="NvidiaParamCurrentIdle" xml:space="preserve"><value>Change CURRENT while GPU is idle. Current GPU utilization is {0}%.</value></data>
+  <data name="NvidiaParamCloseWorkloads" xml:space="preserve"><value>Close GPU workloads before driver validation. GPU utilization is {0}%.</value></data>
+  <data name="NvidiaParamCurrentAboveMax" xml:space="preserve"><value>CURRENT {0} W exceeds live MAX {1} W. Apply MAX first, reboot Windows, then verify the new live MAX before applying CURRENT.</value></data>
+  <data name="NvidiaParamMaxSaved" xml:space="preserve"><value>MAX {0} W was saved to NVIDIA romOverride. Reboot is required. After reboot reopen Prophecy Power Unlocker, verify MAX, then apply CURRENT.</value></data>
+  <data name="NvidiaParamRestoreCurrent" xml:space="preserve"><value>Restore CURRENT to stock {0} W while GPU is idle before removing MAX override.</value></data>
 </root>

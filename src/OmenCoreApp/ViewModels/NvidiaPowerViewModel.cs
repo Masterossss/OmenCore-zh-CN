@@ -136,7 +136,9 @@ namespace OmenCore.ViewModels
             {
                 var r = await Task.Run(() => op(watts));
                 ResultText = (r.Success ? Strings.NvidiaPowerResolved : Strings.NvidiaPowerNotApplied) + NvidiaPowerDisplayText.Translate(r.Message) + (r.RebootRequired ? Strings.NvidiaPowerRestartToFinish : "");
-                _logging.Info("NVIDIA power panel: " + ResultText);
+                // Keep the original diagnostic log text independent of the selected UI language.
+                _logging.Info("NVIDIA power panel: " + (r.Success ? "Done: " : "Not applied: ") + r.Message +
+                              (r.RebootRequired ? " Restart Windows to finish." : ""));
             }
             finally
             {
