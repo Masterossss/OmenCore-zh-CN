@@ -97,3 +97,12 @@
 - 应用层差异抽查：系统优化和软件清理的已审查修改集中在确认对话框及显示摘要；仍有大量其他 ViewModel、日志和导出路径未完成逐项核查。不得据此断言应用层所有行为无差异。
 - Debug 和 Release 构建通过，均 0 错误 0 警告；26 项本地化和 NVIDIA 纯软件测试通过。GUI、DPI、真实设备和完整应用安全回归未执行；未生成 RC 或开发预览 ZIP。
 - 恢复位置：先处理 LightingViewModel 的 KeyboardRestoreStatusText 与 RgbSurfaceObservationStatusText 显示链；再处理 SystemOptimizerViewModel 预检格式与项目说明、BloatwareManagerViewModel 的状态及还原结果；托盘实时刷新和 OSD 的调用方也需追踪。提交：60ea920、33fd532、e7ff3d7。
+
+## 第七阶段检查点（未完成）
+
+- 灯光显示边界新增固定状态映射：后端不可用、RGB 探测不可用、配置不可用、保存错误和未配置设备软件；原始状态及未知后端消息保持原文。参数化应用状态、WMI 未验证警告、观察结果、辅助功能及 DPI 状态仍需审计。
+- 软件清理的还原进度、还原完成、取消及部分失败接入显示映射；原 StatusMessage 不变。未知服务错误、卸载进度和其他确认链仍待处理。
+- 系统优化预检风险数量和重启状态按结构化报告本地化；具体警告保留原文，原报告格式化方法保留。项目名称、说明、动态状态及警告尚未完成。
+- 新增 20 个资源，中文资源共 1309 键；Debug 和 Release 构建成功，0 错误、0 警告；本地化、NVIDIA 状态及优化预检相关纯软件测试 31 项通过。未执行实际 GUI、硬件、卸载或优化操作。
+- 按现有证据，四个重点模块、托盘和 OSD 均未达到源码汉化完成标准；应用层差异及原始日志的完整审计尚未完成。下一步从 LightingViewModel 的参数化应用结果和 WMI 警告、SystemOptimizerPreflightFormatter 的具体警告来源、BloatwareManagerViewModel 的 StatusChanged 调用链继续，再处理内存 delta 与托盘实时状态。
+- 代码提交：c1f45cd、0bfdf24、acfd667。
