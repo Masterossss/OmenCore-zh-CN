@@ -1402,5 +1402,25 @@ namespace OmenCore.Localization
         public static string OptimizerDescription18 => Get(nameof(OptimizerDescription18));
         public static string OptimizerDescription19 => Get(nameof(OptimizerDescription19));
         public static string OptimizerDescription20 => Get(nameof(OptimizerDescription20));
+        public static string BloatStatusFixed0 => Get(nameof(BloatStatusFixed0));
+        public static string BloatStatusFixed1 => Get(nameof(BloatStatusFixed1));
+        public static string BloatStatusFixed2 => Get(nameof(BloatStatusFixed2));
+        public static string BloatStatusFixed3 => Get(nameof(BloatStatusFixed3));
+        public static string BloatStatusFixed4 => Get(nameof(BloatStatusFixed4));
+        public static string BloatStatusFixed5 => Get(nameof(BloatStatusFixed5));
+        public static string BloatStatusFixed6 => Get(nameof(BloatStatusFixed6));
+        public static string BloatStatusFixed7 => Get(nameof(BloatStatusFixed7));
+        public static string BloatStatusFixed8 => Get(nameof(BloatStatusFixed8));
+        public static string BloatStatusFixed9 => Get(nameof(BloatStatusFixed9));
+        public static string BloatStatusFixed10 => Get(nameof(BloatStatusFixed10));
+        public static string BloatStatusFixed11 => Get(nameof(BloatStatusFixed11));
+        public static string BloatStatusFixed12 => Get(nameof(BloatStatusFixed12));
+        public static string BloatStatusFixed13 => Get(nameof(BloatStatusFixed13));
+        public static string BloatStatusFixed14 => Get(nameof(BloatStatusFixed14));
+        public static string BloatStatusFixed15 => Get(nameof(BloatStatusFixed15));
+        public static string BloatStatusFixed16 => Get(nameof(BloatStatusFixed16));
+        public static string BloatScanCount => Get(nameof(BloatScanCount));
+        public static string BloatRemoveProgress => Get(nameof(BloatRemoveProgress));
+        public static string BloatRemoveOne => Get(nameof(BloatRemoveOne));
     }
 }

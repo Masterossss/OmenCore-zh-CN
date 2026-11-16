@@ -365,6 +365,8 @@ namespace OmenCoreApp.Tests.Localization
                 BloatwareStatusDisplayText.Translate("Failed: Bulk restore finished with 2 failures. Restored 3/5 items.").Should().Contain("失败").And.Contain("3/5");
                 BloatwareStatusDisplayText.Translate("Restoring 1/5: Example...").Should().Contain("1/5").And.Contain("Example");
                 BloatwareStatusDisplayText.Translate("Failed: unknown backend error").Should().Be("Failed: unknown backend error");
+                BloatwareStatusDisplayText.Translate("Removing 1/3: Example...").Should().Contain("删除 1/3");
+                BloatwareStatusDisplayText.Translate("Failed: Removal canceled because restore point was not created").Should().Contain("取消").And.Contain("还原点");
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
                 BloatwareStatusDisplayText.Translate("Done: Restored 3 bloatware items").Should().Be("Done: Restored 3 bloatware items");
             }

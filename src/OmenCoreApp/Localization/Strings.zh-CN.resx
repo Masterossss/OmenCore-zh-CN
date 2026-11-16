@@ -1538,4 +1538,24 @@
   <data name="OptimizerDescription18" xml:space="preserve"><value>启用 TRIM 命令以维护 SSD 健康和性能</value></data>
   <data name="OptimizerDescription19" xml:space="preserve"><value>禁用 NTFS 上次访问时间更新以减少磁盘活动</value></data>
   <data name="OptimizerDescription20" xml:space="preserve"><value>禁用旧版短文件名创建</value></data>
+  <data name="BloatStatusFixed0" xml:space="preserve"><value>失败：OmenCore 未以管理员身份运行。删除预装软件需要管理员权限。</value></data>
+  <data name="BloatStatusFixed1" xml:space="preserve"><value>正在扫描预装软件…</value></data>
+  <data name="BloatStatusFixed2" xml:space="preserve"><value>失败：无法删除，OmenCore 未以管理员身份运行。</value></data>
+  <data name="BloatStatusFixed3" xml:space="preserve"><value>完成：当前没有可删除的低风险已安装项目</value></data>
+  <data name="BloatStatusFixed4" xml:space="preserve"><value>失败：删除预览中未选择任何应用。</value></data>
+  <data name="BloatStatusFixed5" xml:space="preserve"><value>用户已跳过创建还原点…</value></data>
+  <data name="BloatStatusFixed6" xml:space="preserve"><value>正在创建删除前的还原点…</value></data>
+  <data name="BloatStatusFixed7" xml:space="preserve"><value>失败：用户选择在没有还原点的情况下继续</value></data>
+  <data name="BloatStatusFixed8" xml:space="preserve"><value>失败：由于未创建还原点，删除已取消</value></data>
+  <data name="BloatStatusFixed9" xml:space="preserve"><value>失败：没有可导出的内容；请先扫描，或检查是否存在已安装的候选项目。</value></data>
+  <data name="BloatStatusFixed10" xml:space="preserve"><value>失败：没有可导出的内容，本次会话没有记录删除操作。</value></data>
+  <data name="BloatStatusFixed11" xml:space="preserve"><value>失败：目前没有可用报告。</value></data>
+  <data name="BloatStatusFixed12" xml:space="preserve"><value>已请求取消…</value></data>
+  <data name="BloatStatusFixed13" xml:space="preserve"><value>完成：未检测到遥测软件包</value></data>
+  <data name="BloatStatusFixed14" xml:space="preserve"><value>完成：未检测到冲突的 OMEN 软件包</value></data>
+  <data name="BloatStatusFixed15" xml:space="preserve"><value>完成：未检测到 Windows 消费者应用</value></data>
+  <data name="BloatStatusFixed16" xml:space="preserve"><value>完成：没有软件包符合完全独立预设条件</value></data>
+  <data name="BloatScanCount" xml:space="preserve"><value>完成：扫描结束，检测到 {0} 个项目</value></data>
+  <data name="BloatRemoveProgress" xml:space="preserve"><value>正在删除 {0}/{1}：{2}…</value></data>
+  <data name="BloatRemoveOne" xml:space="preserve"><value>正在删除 {0}…</value></data>
 </root>

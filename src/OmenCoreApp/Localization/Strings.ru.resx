@@ -1542,4 +1542,24 @@ Continue?</value></data>
   <data name="OptimizerDescription18" xml:space="preserve"><value>Enables TRIM command for SSD health and performance</value></data>
   <data name="OptimizerDescription19" xml:space="preserve"><value>Disables NTFS last access time updates for lower disk activity</value></data>
   <data name="OptimizerDescription20" xml:space="preserve"><value>Disables legacy short filename creation</value></data>
+  <data name="BloatStatusFixed0" xml:space="preserve"><value>Failed: OmenCore is not running as Administrator. Bloatware removal requires admin rights.</value></data>
+  <data name="BloatStatusFixed1" xml:space="preserve"><value>Scanning for bloatware...</value></data>
+  <data name="BloatStatusFixed2" xml:space="preserve"><value>Failed: Cannot remove: OmenCore is not running as Administrator.</value></data>
+  <data name="BloatStatusFixed3" xml:space="preserve"><value>Done: No low-risk installed items are currently available for removal</value></data>
+  <data name="BloatStatusFixed4" xml:space="preserve"><value>Failed: No apps selected in removal preview.</value></data>
+  <data name="BloatStatusFixed5" xml:space="preserve"><value>Restore point creation skipped by user...</value></data>
+  <data name="BloatStatusFixed6" xml:space="preserve"><value>Creating pre-removal restore point...</value></data>
+  <data name="BloatStatusFixed7" xml:space="preserve"><value>Failed: Proceeding without restore point by user choice</value></data>
+  <data name="BloatStatusFixed8" xml:space="preserve"><value>Failed: Removal canceled because restore point was not created</value></data>
+  <data name="BloatStatusFixed9" xml:space="preserve"><value>Failed: Nothing to export - scan first or no installed candidates are available.</value></data>
+  <data name="BloatStatusFixed10" xml:space="preserve"><value>Failed: Nothing to export — no removal attempts recorded in this session.</value></data>
+  <data name="BloatStatusFixed11" xml:space="preserve"><value>Failed: No report is available yet.</value></data>
+  <data name="BloatStatusFixed12" xml:space="preserve"><value>Cancel requested...</value></data>
+  <data name="BloatStatusFixed13" xml:space="preserve"><value>Done: No telemetry packages detected</value></data>
+  <data name="BloatStatusFixed14" xml:space="preserve"><value>Done: No conflicting OMEN packages detected</value></data>
+  <data name="BloatStatusFixed15" xml:space="preserve"><value>Done: No Windows consumer apps detected</value></data>
+  <data name="BloatStatusFixed16" xml:space="preserve"><value>Done: No packages match the Full Standalone preset criteria</value></data>
+  <data name="BloatScanCount" xml:space="preserve"><value>Done: Scan completed: {0} items detected</value></data>
+  <data name="BloatRemoveProgress" xml:space="preserve"><value>Removing {0}/{1}: {2}...</value></data>
+  <data name="BloatRemoveOne" xml:space="preserve"><value>Removing {0}...</value></data>
 </root>
