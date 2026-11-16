@@ -78,7 +78,7 @@
                             Style="{StaticResource PrimaryButton}" 
                             Margin="0,0,8,0"
                             Padding="12,6"
-                            AutomationProperties.Name="Scan for Bloatware">
+                            AutomationProperties.Name="{x:Static loc:Strings.BloatAccessibility0}">
                         <StackPanel Orientation="Horizontal">
                             <Path Data="{StaticResource IconRefresh}" Width="14" Height="14" Fill="White" Stretch="Uniform" Margin="0,0,6,0"/>
                             <TextBlock Text="{x:Static loc:Strings.BloatwareManagerViewText83}" FontSize="12"/>
@@ -89,7 +89,7 @@
                             Background="#2E7D32"
                             Margin="0,0,8,0"
                             Padding="10,6"
-                            AutomationProperties.Name="Remove All Low-Risk Items">
+                            AutomationProperties.Name="{x:Static loc:Strings.BloatAccessibility1}">
                         <StackPanel Orientation="Horizontal">
                             <Path Data="{StaticResource IconTrash}" Width="12" Height="12" Fill="White" Stretch="Uniform" Margin="0,0,4,0"/>
                             <TextBlock Text="{x:Static loc:Strings.BloatwareManagerViewText94}" FontSize="11"/>
@@ -99,7 +99,7 @@
                             Style="{StaticResource SecondaryButton}"
                             Margin="0,0,8,0"
                             Padding="10,6"
-                            AutomationProperties.Name="Export Bloatware Dry Run Report">
+                            AutomationProperties.Name="{x:Static loc:Strings.BloatAccessibility2}">
                         <StackPanel Orientation="Horizontal">
                             <Path Data="{StaticResource IconExport}" Width="12" Height="12" Fill="{StaticResource TextSecondaryBrush}" Stretch="Uniform" Margin="0,0,4,0"/>
                             <TextBlock Text="{x:Static loc:Strings.BloatwareManagerViewText104}" FontSize="11"/>
@@ -109,7 +109,7 @@
                             Style="{StaticResource SecondaryButton}"
                             Padding="10,6"
                             Visibility="{Binding CanCancelBulkOperation, Converter={StaticResource BoolToVisibility}}"
-                            AutomationProperties.Name="Cancel Bulk Operation">
+                            AutomationProperties.Name="{x:Static loc:Strings.BloatAccessibility3}">
                         <StackPanel Orientation="Horizontal">
                             <Path Data="{StaticResource IconClose}" Width="12" Height="12" Fill="{StaticResource TextSecondaryBrush}" Stretch="Uniform" Margin="0,0,4,0"/>
                             <TextBlock Text="{x:Static loc:Strings.BloatwareManagerViewText114}" FontSize="11"/>
@@ -186,7 +186,7 @@
                             Background="#C62828"
                             Margin="0,0,8,0"
                             Padding="10,6"
-                            AutomationProperties.Name="Remove Selected Item">
+                            AutomationProperties.Name="{x:Static loc:Strings.BloatAccessibility4}">
                         <StackPanel Orientation="Horizontal">
                             <Path Data="{StaticResource IconTrash}" Width="12" Height="12" Fill="White" Stretch="Uniform" Margin="0,0,4,0"/>
                             <TextBlock Text="{x:Static loc:Strings.BloatwareManagerViewText191}" FontSize="11"/>
@@ -195,7 +195,7 @@
                     <Button Command="{Binding RestoreSelectedCommand}" 
                             Style="{StaticResource SecondaryButton}"
                             Padding="10,6"
-                            AutomationProperties.Name="Restore Selected Item">
+                            AutomationProperties.Name="{x:Static loc:Strings.BloatAccessibility5}">
                         <StackPanel Orientation="Horizontal">
                             <Path Data="{StaticResource IconRestore}" Width="12" Height="12" Fill="{StaticResource TextSecondaryBrush}" Stretch="Uniform" Margin="0,0,4,0"/>
                             <TextBlock Text="{x:Static loc:Strings.BloatwareManagerViewText200}" FontSize="11"/>
@@ -498,7 +498,7 @@
                             Padding="10,4"
                             Margin="0,0,10,0"
                             ToolTip="{x:Static loc:Strings.BloatwareManagerViewText499}"
-                            AutomationProperties.Name="Export Removal Log">
+                            AutomationProperties.Name="{x:Static loc:Strings.BloatAccessibility6}">
                         <StackPanel Orientation="Horizontal">
                             <Path Data="{StaticResource IconExport}" Width="11" Height="11" Fill="{StaticResource TextSecondaryBrush}" Stretch="Uniform" Margin="0,0,4,0"/>
                             <TextBlock Text="{x:Static loc:Strings.BloatwareManagerViewText503}" FontSize="10"/>
@@ -510,7 +510,7 @@
                             Margin="0,0,10,0"
                             Visibility="{Binding HasLastReport, Converter={StaticResource BoolToVisibility}}"
                             ToolTip="{x:Static loc:Strings.BloatwareManagerViewText511}"
-                            AutomationProperties.Name="View Last Removal Report">
+                            AutomationProperties.Name="{x:Static loc:Strings.BloatAccessibility7}">
                         <StackPanel Orientation="Horizontal">
                             <Path Data="{StaticResource IconExport}" Width="11" Height="11" Fill="{StaticResource TextSecondaryBrush}" Stretch="Uniform" Margin="0,0,4,0"/>
                             <TextBlock Text="{x:Static loc:Strings.BloatwareManagerViewText515}" FontSize="10"/>

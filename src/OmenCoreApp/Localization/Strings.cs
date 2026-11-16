@@ -1585,5 +1585,17 @@ namespace OmenCore.Localization
         public static string MemoryDeepCleanLabel => Get(nameof(MemoryDeepCleanLabel));
         public static string MemoryDeepCleanDescription => Get(nameof(MemoryDeepCleanDescription));
         public static string MemoryNativeExplanation => Get(nameof(MemoryNativeExplanation));
+        public static string BloatAccessibility0 => Get(nameof(BloatAccessibility0));
+        public static string BloatAccessibility1 => Get(nameof(BloatAccessibility1));
+        public static string BloatAccessibility2 => Get(nameof(BloatAccessibility2));
+        public static string BloatAccessibility3 => Get(nameof(BloatAccessibility3));
+        public static string BloatAccessibility4 => Get(nameof(BloatAccessibility4));
+        public static string BloatAccessibility5 => Get(nameof(BloatAccessibility5));
+        public static string BloatAccessibility6 => Get(nameof(BloatAccessibility6));
+        public static string BloatAccessibility7 => Get(nameof(BloatAccessibility7));
+        public static string BloatRestorePointCreated => Get(nameof(BloatRestorePointCreated));
+        public static string BloatRestorePointReused => Get(nameof(BloatRestorePointReused));
+        public static string BloatRollbackComplete => Get(nameof(BloatRollbackComplete));
+        public static string BloatRollbackPartial => Get(nameof(BloatRollbackPartial));
     }
 }

@@ -1729,4 +1729,16 @@ Continue?</value></data>
   <data name="MemoryDeepCleanLabel" xml:space="preserve"><value>Deep Clean</value></data>
   <data name="MemoryDeepCleanDescription" xml:space="preserve"><value> additionally purges all standby pages, flushes the system file cache, and writes modified pages to disk. This may cause a brief stutter as data is re-cached.</value></data>
   <data name="MemoryNativeExplanation" xml:space="preserve"><value>Memory is cleaned using Windows Native API (NtSetSystemInformation). Requires administrator privileges. Stats refresh every 2 seconds.</value></data>
+  <data name="BloatAccessibility0" xml:space="preserve"><value>Scan for Bloatware</value></data>
+  <data name="BloatAccessibility1" xml:space="preserve"><value>Remove All Low-Risk Items</value></data>
+  <data name="BloatAccessibility2" xml:space="preserve"><value>Export Bloatware Dry Run Report</value></data>
+  <data name="BloatAccessibility3" xml:space="preserve"><value>Cancel Bulk Operation</value></data>
+  <data name="BloatAccessibility4" xml:space="preserve"><value>Remove Selected Item</value></data>
+  <data name="BloatAccessibility5" xml:space="preserve"><value>Restore Selected Item</value></data>
+  <data name="BloatAccessibility6" xml:space="preserve"><value>Export Removal Log</value></data>
+  <data name="BloatAccessibility7" xml:space="preserve"><value>View Last Removal Report</value></data>
+  <data name="BloatRestorePointCreated" xml:space="preserve"><value>Done: Restore point created ({0})</value></data>
+  <data name="BloatRestorePointReused" xml:space="preserve"><value>Done: Reusing recent restore point ({0})</value></data>
+  <data name="BloatRollbackComplete" xml:space="preserve"><value>Rollback complete ({0} restored, {1} skipped).</value></data>
+  <data name="BloatRollbackPartial" xml:space="preserve"><value>Rollback partial ({0} restored, {1} failed, {2} skipped).</value></data>
 </root>

@@ -56,11 +56,13 @@ namespace OmenCore.Localization
             var rollback = Regex.Match(value, @"\ABulk removal failed at (.+)\. Rolling back previous removals\.\.\.\z", RegexOptions.CultureInvariant);
             if (rollback.Success) return string.Format(Strings.BloatServiceRollback, rollback.Groups[1].Value);
             var stopped = Regex.Match(value, @"\ABulk remove stopped at (.+?)\. (.+)\z", RegexOptions.CultureInvariant);
-            if (stopped.Success) return string.Format(Strings.BloatServiceStopped, stopped.Groups[1].Value, stopped.Groups[2].Value);
+            if (stopped.Success) return string.Format(Strings.BloatServiceStopped, stopped.Groups[1].Value, TranslateRollback(stopped.Groups[2].Value));
             var canceledAt = Regex.Match(value, @"\ABulk (removal|restore) canceled at (.+)\. ([0-9]+) completed, ([0-9]+) skipped\.\z", RegexOptions.CultureInvariant);
             if (canceledAt.Success) return string.Format(canceledAt.Groups[1].Value == "removal" ? Strings.BloatBulkRemoveCancelAt : Strings.BloatBulkRestoreCancelAt, canceledAt.Groups[2].Value, canceledAt.Groups[3].Value, canceledAt.Groups[4].Value);
             var canceledSimple = Regex.Match(value, @"\ABulk (removal|restore) canceled\. ([0-9]+) completed, ([0-9]+) skipped\.\z", RegexOptions.CultureInvariant);
             if (canceledSimple.Success) return string.Format(canceledSimple.Groups[1].Value == "removal" ? Strings.BloatBulkRemoveCancel : Strings.BloatBulkRestoreCancel, canceledSimple.Groups[2].Value, canceledSimple.Groups[3].Value);
+            var restorePoint = Regex.Match(value, @"\ADone: (Restore point created|Reusing recent restore point) \((.+)\)\z", RegexOptions.CultureInvariant);
+            if (restorePoint.Success) return string.Format(restorePoint.Groups[1].Value == "Restore point created" ? Strings.BloatRestorePointCreated : Strings.BloatRestorePointReused, restorePoint.Groups[2].Value);
             var partial = Regex.Match(value, @"\AFailed: Bulk restore finished with ([0-9]+) failures\. Restored ([0-9]+)/([0-9]+) items\.\z", RegexOptions.CultureInvariant);
             if (partial.Success) return string.Format(Strings.BloatRestorePartial, partial.Groups[1].Value, partial.Groups[2].Value, partial.Groups[3].Value);
             var canceled = Regex.Match(value, @"\AFailed: Bulk restore canceled at (.+)\. ([0-9]+) completed, ([0-9]+) skipped\.\z", RegexOptions.CultureInvariant);
@@ -73,6 +75,14 @@ namespace OmenCore.Localization
             if (working.Success) return string.Format(Strings.BloatRestoreWorking, working.Groups[1].Value);
             var done = Regex.Match(value, @"\ADone: Restored (.+)\z", RegexOptions.CultureInvariant);
             if (done.Success) return string.Format(Strings.BloatRestoreDone, done.Groups[1].Value);
+            return value;
+        }
+        private static string TranslateRollback(string value)
+        {
+            var complete = Regex.Match(value, @"\ARollback complete \(([0-9]+) restored, ([0-9]+) skipped\)\.\z", RegexOptions.CultureInvariant);
+            if (complete.Success) return string.Format(Strings.BloatRollbackComplete, complete.Groups[1].Value, complete.Groups[2].Value);
+            var partial = Regex.Match(value, @"\ARollback partial \(([0-9]+) restored, ([0-9]+) failed, ([0-9]+) skipped\)\.\z", RegexOptions.CultureInvariant);
+            if (partial.Success) return string.Format(Strings.BloatRollbackPartial, partial.Groups[1].Value, partial.Groups[2].Value, partial.Groups[3].Value);
             return value;
         }
     }

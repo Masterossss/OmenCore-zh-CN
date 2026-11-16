@@ -1721,4 +1721,16 @@
   <data name="MemoryDeepCleanLabel" xml:space="preserve"><value>深度清理</value></data>
   <data name="MemoryDeepCleanDescription" xml:space="preserve"><value> 还会清除所有备用页、清理系统文件缓存并将已修改的页面写入磁盘。重新缓存数据时可能出现短暂卡顿。</value></data>
   <data name="MemoryNativeExplanation" xml:space="preserve"><value>内存清理使用 Windows 原生 API（NtSetSystemInformation），需要管理员权限。统计数据每 2 秒刷新一次。</value></data>
+  <data name="BloatAccessibility0" xml:space="preserve"><value>扫描预装软件</value></data>
+  <data name="BloatAccessibility1" xml:space="preserve"><value>删除所有低风险项目</value></data>
+  <data name="BloatAccessibility2" xml:space="preserve"><value>导出预装软件模拟运行报告</value></data>
+  <data name="BloatAccessibility3" xml:space="preserve"><value>取消批量操作</value></data>
+  <data name="BloatAccessibility4" xml:space="preserve"><value>删除所选项目</value></data>
+  <data name="BloatAccessibility5" xml:space="preserve"><value>还原所选项目</value></data>
+  <data name="BloatAccessibility6" xml:space="preserve"><value>导出删除日志</value></data>
+  <data name="BloatAccessibility7" xml:space="preserve"><value>查看上次删除报告</value></data>
+  <data name="BloatRestorePointCreated" xml:space="preserve"><value>完成：已创建还原点（{0}）</value></data>
+  <data name="BloatRestorePointReused" xml:space="preserve"><value>完成：使用最近的还原点（{0}）</value></data>
+  <data name="BloatRollbackComplete" xml:space="preserve"><value>回滚完成（已还原 {0} 项，跳过 {1} 项）。</value></data>
+  <data name="BloatRollbackPartial" xml:space="preserve"><value>回滚部分完成（已还原 {0} 项，失败 {1} 项，跳过 {2} 项）。</value></data>
 </root>
