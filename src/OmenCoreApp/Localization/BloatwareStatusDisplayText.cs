@@ -35,6 +35,28 @@ namespace OmenCore.Localization
             if (removingProgress.Success) return string.Format(Strings.BloatRemoveProgress, removingProgress.Groups[1].Value, removingProgress.Groups[2].Value, removingProgress.Groups[3].Value);
             var removing = Regex.Match(value, @"\ARemoving (.+)\.\.\.\z", RegexOptions.CultureInvariant);
             if (removing.Success) return string.Format(Strings.BloatRemoveOne, removing.Groups[1].Value);
+            if (value == "Creating pre-removal system restore point...") return Strings.BloatServiceRestorePoint;
+            if (value == "Administrator privileges required. Please restart OmenCore as Administrator to remove applications.") return Strings.BloatServiceAdmin;
+            var serviceFound = Regex.Match(value, @"\AFound ([0-9]+) bloatware items\z", RegexOptions.CultureInvariant);
+            if (serviceFound.Success) return string.Format(Strings.BloatServiceFound, serviceFound.Groups[1].Value);
+            var serviceOutcome = Regex.Match(value, @"\A(Skipped|Removed|Failed to remove|Error removing) (.+?): (.+)\z", RegexOptions.CultureInvariant);
+            if (serviceOutcome.Success)
+            {
+                var format = serviceOutcome.Groups[1].Value switch
+                {
+                    "Skipped" => Strings.BloatServiceSkipped,
+                    "Removed" => Strings.BloatServiceRemoved,
+                    "Failed to remove" => Strings.BloatServiceFailed,
+                    _ => Strings.BloatServiceError
+                };
+                return string.Format(format, serviceOutcome.Groups[2].Value, serviceOutcome.Groups[3].Value);
+            }
+            var serviceRestore = Regex.Match(value, @"\A(Successfully restored|Canceled restoring) (.+)\z", RegexOptions.CultureInvariant);
+            if (serviceRestore.Success) return string.Format(serviceRestore.Groups[1].Value == "Successfully restored" ? Strings.BloatServiceRestored : Strings.BloatServiceRestoreCanceled, serviceRestore.Groups[2].Value);
+            var rollback = Regex.Match(value, @"\ABulk removal failed at (.+)\. Rolling back previous removals\.\.\.\z", RegexOptions.CultureInvariant);
+            if (rollback.Success) return string.Format(Strings.BloatServiceRollback, rollback.Groups[1].Value);
+            var stopped = Regex.Match(value, @"\ABulk remove stopped at (.+?)\. (.+)\z", RegexOptions.CultureInvariant);
+            if (stopped.Success) return string.Format(Strings.BloatServiceStopped, stopped.Groups[1].Value, stopped.Groups[2].Value);
             var partial = Regex.Match(value, @"\AFailed: Bulk restore finished with ([0-9]+) failures\. Restored ([0-9]+)/([0-9]+) items\.\z", RegexOptions.CultureInvariant);
             if (partial.Success) return string.Format(Strings.BloatRestorePartial, partial.Groups[1].Value, partial.Groups[2].Value, partial.Groups[3].Value);
             var canceled = Regex.Match(value, @"\AFailed: Bulk restore canceled at (.+)\. ([0-9]+) completed, ([0-9]+) skipped\.\z", RegexOptions.CultureInvariant);

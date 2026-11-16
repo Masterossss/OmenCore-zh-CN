@@ -1516,5 +1516,16 @@ namespace OmenCore.Localization
         public static string OptimizerDetails18 => Get(nameof(OptimizerDetails18));
         public static string OptimizerDetails19 => Get(nameof(OptimizerDetails19));
         public static string OptimizerDetails20 => Get(nameof(OptimizerDetails20));
+        public static string BloatServiceRestorePoint => Get(nameof(BloatServiceRestorePoint));
+        public static string BloatServiceAdmin => Get(nameof(BloatServiceAdmin));
+        public static string BloatServiceFound => Get(nameof(BloatServiceFound));
+        public static string BloatServiceSkipped => Get(nameof(BloatServiceSkipped));
+        public static string BloatServiceRemoved => Get(nameof(BloatServiceRemoved));
+        public static string BloatServiceFailed => Get(nameof(BloatServiceFailed));
+        public static string BloatServiceError => Get(nameof(BloatServiceError));
+        public static string BloatServiceRestored => Get(nameof(BloatServiceRestored));
+        public static string BloatServiceRestoreCanceled => Get(nameof(BloatServiceRestoreCanceled));
+        public static string BloatServiceRollback => Get(nameof(BloatServiceRollback));
+        public static string BloatServiceStopped => Get(nameof(BloatServiceStopped));
     }
 }

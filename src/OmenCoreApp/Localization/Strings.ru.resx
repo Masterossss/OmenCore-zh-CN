@@ -1656,4 +1656,15 @@ Continue?</value></data>
   <data name="OptimizerDetails18" xml:space="preserve"><value>Enables the NTFS TRIM path so SSDs can reclaim deleted blocks efficiently and maintain performance over time.</value></data>
   <data name="OptimizerDetails19" xml:space="preserve"><value>Disables NTFS last-access timestamp updates to reduce metadata writes on storage devices.</value></data>
   <data name="OptimizerDetails20" xml:space="preserve"><value>Disables legacy 8.3 short filename generation, which can slightly reduce file-system bookkeeping on modern systems.</value></data>
+  <data name="BloatServiceRestorePoint" xml:space="preserve"><value>Creating pre-removal system restore point...</value></data>
+  <data name="BloatServiceAdmin" xml:space="preserve"><value>Administrator privileges required. Please restart OmenCore as Administrator to remove applications.</value></data>
+  <data name="BloatServiceFound" xml:space="preserve"><value>Found {0} bloatware items</value></data>
+  <data name="BloatServiceSkipped" xml:space="preserve"><value>Skipped {0}: {1}</value></data>
+  <data name="BloatServiceRemoved" xml:space="preserve"><value>Removed {0}: {1}</value></data>
+  <data name="BloatServiceFailed" xml:space="preserve"><value>Failed to remove {0}: {1}</value></data>
+  <data name="BloatServiceError" xml:space="preserve"><value>Error removing {0}: {1}</value></data>
+  <data name="BloatServiceRestored" xml:space="preserve"><value>Successfully restored {0}</value></data>
+  <data name="BloatServiceRestoreCanceled" xml:space="preserve"><value>Canceled restoring {0}</value></data>
+  <data name="BloatServiceRollback" xml:space="preserve"><value>Bulk removal failed at {0}. Rolling back previous removals...</value></data>
+  <data name="BloatServiceStopped" xml:space="preserve"><value>Bulk remove stopped at {0}. {1}</value></data>
 </root>

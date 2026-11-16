@@ -1652,4 +1652,15 @@
   <data name="OptimizerDetails18" xml:space="preserve"><value>启用 NTFS TRIM 路径，使 SSD 能够高效回收已删除的数据块并长期保持性能。</value></data>
   <data name="OptimizerDetails19" xml:space="preserve"><value>禁用 NTFS 上次访问时间戳更新，以减少存储设备的元数据写入。</value></data>
   <data name="OptimizerDetails20" xml:space="preserve"><value>禁用旧版 8.3 短文件名生成，可略微减少现代系统的文件系统管理开销。</value></data>
+  <data name="BloatServiceRestorePoint" xml:space="preserve"><value>正在创建删除前的系统还原点…</value></data>
+  <data name="BloatServiceAdmin" xml:space="preserve"><value>需要管理员权限。请以管理员身份重新启动 OmenCore 后删除应用程序。</value></data>
+  <data name="BloatServiceFound" xml:space="preserve"><value>找到 {0} 个预装软件项目</value></data>
+  <data name="BloatServiceSkipped" xml:space="preserve"><value>已跳过 {0}：{1}</value></data>
+  <data name="BloatServiceRemoved" xml:space="preserve"><value>已删除 {0}：{1}</value></data>
+  <data name="BloatServiceFailed" xml:space="preserve"><value>删除 {0} 失败：{1}</value></data>
+  <data name="BloatServiceError" xml:space="preserve"><value>删除 {0} 时出错：{1}</value></data>
+  <data name="BloatServiceRestored" xml:space="preserve"><value>已成功还原 {0}</value></data>
+  <data name="BloatServiceRestoreCanceled" xml:space="preserve"><value>已取消还原 {0}</value></data>
+  <data name="BloatServiceRollback" xml:space="preserve"><value>批量删除在 {0} 处失败，正在回滚此前的删除…</value></data>
+  <data name="BloatServiceStopped" xml:space="preserve"><value>批量删除在 {0} 处停止。{1}</value></data>
 </root>
