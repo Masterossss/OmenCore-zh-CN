@@ -1442,4 +1442,7 @@
   <data name="MemStatusDisabled" xml:space="preserve"><value>已禁用内存压缩</value></data>
   <data name="MemStatusCopied" xml:space="preserve"><value>已复制 {0}</value></data>
   <data name="MemStatusExcluded" xml:space="preserve"><value>已将 {0} 排除在工作集精简之外</value></data>
+  <data name="OsdViaHotkey" xml:space="preserve"><value>通过热键</value></data>
+  <data name="OsdRtssDisabled" xml:space="preserve"><value>RTSS 已禁用</value></data>
+  <data name="OsdRtssRequired" xml:space="preserve"><value>显示 FPS 需要运行 RTSS（RivaTuner Statistics Server）</value></data>
 </root>

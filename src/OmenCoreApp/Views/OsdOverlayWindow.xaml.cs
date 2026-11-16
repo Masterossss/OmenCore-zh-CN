@@ -781,8 +781,8 @@ namespace OmenCore.Views
 
                             fpsSnapshot = OsdFpsDisplayFormatter.Unavailable(
                                 _rtssService == null
-                                    ? "RTSS disabled"
-                                    : "FPS needs RTSS running (RivaTuner Statistics Server)");
+                                    ? OmenCore.Localization.Strings.OsdRtssDisabled
+                                    : OmenCore.Localization.Strings.OsdRtssRequired);
                         }
 
                         ApplyFpsSnapshot(fpsSnapshot);

@@ -1306,5 +1306,8 @@ namespace OmenCore.Localization
         public static string MemStatusDisabled => Get(nameof(MemStatusDisabled));
         public static string MemStatusCopied => Get(nameof(MemStatusCopied));
         public static string MemStatusExcluded => Get(nameof(MemStatusExcluded));
+        public static string OsdViaHotkey => Get(nameof(OsdViaHotkey));
+        public static string OsdRtssDisabled => Get(nameof(OsdRtssDisabled));
+        public static string OsdRtssRequired => Get(nameof(OsdRtssRequired));
     }
 }

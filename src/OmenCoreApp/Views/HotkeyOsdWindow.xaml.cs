@@ -48,7 +48,7 @@ namespace OmenCore.Views
                 ModeCategory.Text = category;
                 ModeName.Text = modeName;
                 ModeIcon.Text = GetModeIcon(category, modeName);
-                TriggerText.Text = hotkeyDescription ?? "via Hotkey";
+                TriggerText.Text = hotkeyDescription ?? OmenCore.Localization.Strings.OsdViaHotkey;
                 UpdateAccentColor(modeName);
                 _dismissTimer.Stop();
                 _dismissTimer.Interval = TimeSpan.FromMilliseconds(_dismissDurationMs);
@@ -66,7 +66,7 @@ namespace OmenCore.Views
             ModeCategory.Text = category;
             ModeName.Text = modeName;
             ModeIcon.Text = GetModeIcon(category, modeName);
-            TriggerText.Text = hotkeyDescription ?? "via Hotkey";
+            TriggerText.Text = hotkeyDescription ?? OmenCore.Localization.Strings.OsdViaHotkey;
             
             // Update accent color based on mode
             UpdateAccentColor(modeName);
