@@ -1737,4 +1737,8 @@
   <data name="BloatBulkDoneSkipped" xml:space="preserve"><value>完成：批量删除结束，共 {2} 项，已删除 {0} 项，跳过 {1} 项。{3}</value></data>
   <data name="BloatBulkCancelDetail" xml:space="preserve"><value>失败：批量删除在 {0} 处取消，已删除 {1} 项，跳过 {2} 项。请导出日志查看详情。</value></data>
   <data name="BloatBulkFailureDetail" xml:space="preserve"><value>失败：批量删除在 {0} 处停止：{1}。回滚已还原 {2} 项，失败 {3} 项，跳过 {4} 项。请导出日志查看详情。</value></data>
+  <data name="BloatRiskUnknownDisplay" xml:space="preserve"><value>未知</value></data>
+  <data name="BloatRiskLowDisplay" xml:space="preserve"><value>低</value></data>
+  <data name="BloatRiskMediumDisplay" xml:space="preserve"><value>中</value></data>
+  <data name="BloatRiskHighDisplay" xml:space="preserve"><value>高</value></data>
 </root>

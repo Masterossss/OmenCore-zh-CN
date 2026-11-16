@@ -10,6 +10,10 @@
              d:DesignHeight="800" d:DesignWidth="1000"
              Background="Transparent">
 
+    <UserControl.Resources>
+        <loc:BloatwareRiskDisplayConverter x:Key="BloatwareRiskDisplay"/>
+    </UserControl.Resources>
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -270,7 +274,7 @@
                                     </GridViewColumn.CellTemplate>
                                 </GridViewColumn>
                                 <GridViewColumn Header="{x:Static loc:Strings.BloatwareManagerViewText271}" Width="220" DisplayMemberBinding="{Binding Name}"/>
-                                <GridViewColumn Header="{x:Static loc:Strings.BloatwareManagerViewText272}" Width="70" DisplayMemberBinding="{Binding Risk}"/>
+                                <GridViewColumn Header="{x:Static loc:Strings.BloatwareManagerViewText272}" Width="70" DisplayMemberBinding="{Binding Risk, Converter={StaticResource BloatwareRiskDisplay}}"/>
                                 <GridViewColumn Header="{x:Static loc:Strings.BloatwareManagerViewText273}" Width="60" DisplayMemberBinding="{Binding EstimatedText}"/>
                                 <GridViewColumn Header="{x:Static loc:Strings.BloatwareManagerViewText274}" Width="280" DisplayMemberBinding="{Binding DependencyHint}"/>
                             </GridView>
@@ -453,7 +457,7 @@
                                                     </Style.Triggers>
                                                 </Style>
                                             </Border.Style>
-                                            <TextBlock Text="{Binding RemovalRisk}" FontSize="9" FontWeight="Bold" Foreground="White"/>
+                                            <TextBlock Text="{Binding RemovalRisk, Converter={StaticResource BloatwareRiskDisplay}}" FontSize="9" FontWeight="Bold" Foreground="White"/>
                                         </Border>
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>

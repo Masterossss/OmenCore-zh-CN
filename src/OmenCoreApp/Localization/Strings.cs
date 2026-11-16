@@ -1601,5 +1601,9 @@ namespace OmenCore.Localization
         public static string BloatBulkDoneSkipped => Get(nameof(BloatBulkDoneSkipped));
         public static string BloatBulkCancelDetail => Get(nameof(BloatBulkCancelDetail));
         public static string BloatBulkFailureDetail => Get(nameof(BloatBulkFailureDetail));
+        public static string BloatRiskUnknownDisplay => Get(nameof(BloatRiskUnknownDisplay));
+        public static string BloatRiskLowDisplay => Get(nameof(BloatRiskLowDisplay));
+        public static string BloatRiskMediumDisplay => Get(nameof(BloatRiskMediumDisplay));
+        public static string BloatRiskHighDisplay => Get(nameof(BloatRiskHighDisplay));
     }
 }

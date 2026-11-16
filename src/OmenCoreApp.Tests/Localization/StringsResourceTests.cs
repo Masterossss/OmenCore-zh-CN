@@ -358,6 +358,23 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void BloatwareRiskDisplayPreservesRiskIdentityAndEnglishFallback()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                var converter = new BloatwareRiskDisplayConverter();
+                var risk = OmenCore.Services.BloatwareManager.RemovalRisk.High;
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                converter.Convert(risk, typeof(string), null!, CultureInfo.CurrentCulture).Should().Be("高");
+                risk.Should().Be(OmenCore.Services.BloatwareManager.RemovalRisk.High);
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                converter.Convert(risk, typeof(string), null!, CultureInfo.CurrentCulture).Should().Be("High");
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void BloatwareRestoreStatusKeepsFailureAndProgressDistinct()
         {
             var original = CultureInfo.CurrentUICulture;
