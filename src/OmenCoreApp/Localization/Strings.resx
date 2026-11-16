@@ -941,4 +941,33 @@ Try it anyway?</value></data>
   <data name="NvidiaPowerNotReady" xml:space="preserve"><value>not ready</value></data>
   <data name="NvidiaPowerWriteStatus" xml:space="preserve"><value>MAX writes {0}, CURRENT writes {1}. {2}</value></data>
   <data name="NvidiaPowerStockMismatch" xml:space="preserve"><value> Stock max read: {0:0.#} W, expected: {1} W. A difference is normal when a MAX override is installed or the laptop maker set a lower limit; it is not an error by itself.</value></data>
+  <data name="NvidiaReasonGpuProfileUnknown" xml:space="preserve"><value>GPU profile is unknown.</value></data>
+  <data name="NvidiaReasonGpuProfileUnavailable" xml:space="preserve"><value>GPU profile is unavailable.</value></data>
+  <data name="NvidiaReasonUnsupportedProfile" xml:space="preserve"><value>Unsupported GPU profile.</value></data>
+  <data name="NvidiaReasonUnsupportedGpu" xml:space="preserve"><value>Unsupported GPU. Supported family: RTX 4050/4060/4070/4080/4090 and RTX 5050/5060/5070/5070 Ti/5080/5090 Laptop.</value></data>
+  <data name="NvidiaReasonVbiosUnknown" xml:space="preserve"><value>Unknown VBIOS. The automatic read-only ROM resolver must validate this exact GPU/VBIOS before MAX writes are enabled.</value></data>
+  <data name="NvidiaReasonVbiosReference" xml:space="preserve"><value>Reference RTX 5070 Ti VBIOS profile verified.</value></data>
+  <data name="NvidiaReasonRomMissing" xml:space="preserve"><value>ROM file does not exist.</value></data>
+  <data name="NvidiaReasonRomSmall" xml:space="preserve"><value>ROM image is unexpectedly small.</value></data>
+  <data name="NvidiaReasonRomNoLegacy" xml:space="preserve"><value>No NVIDIA legacy code-type-0 image was found in the ROM dump.</value></data>
+  <data name="NvidiaReasonDriverDllMissing" xml:space="preserve"><value>nvapi64_impl.dll file is unavailable.</value></data>
+  <data name="NvidiaReasonDriverRvaFailed" xml:space="preserve"><value>Transport signature matched but RVA conversion failed.</value></data>
+  <data name="NvidiaReasonReadbackUnavailable" xml:space="preserve"><value>Public NVIDIA CURRENT/MAX readback is unavailable.</value></data>
+  <data name="NvidiaReasonCurrentExceedsMax" xml:space="preserve"><value>CURRENT exceeds live MAX.</value></data>
+  <data name="NvidiaReasonOverrideRange" xml:space="preserve"><value>Installed MAX override is outside the detected GPU profile range.</value></data>
+  <data name="NvidiaReasonOverridePending" xml:space="preserve"><value>Tool MAX override is installed but the live NVIDIA policy has not rebuilt to that value yet.</value></data>
+  <data name="NvidiaReasonPolicyStock" xml:space="preserve"><value>Live CURRENT/MAX match the detected stock profile.</value></data>
+  <data name="NvidiaReasonPolicyOverride" xml:space="preserve"><value>MAX override is active; CURRENT remains at the stock value.</value></data>
+  <data name="NvidiaReasonPolicyAligned" xml:space="preserve"><value>CURRENT and MAX are aligned.</value></data>
+  <data name="NvidiaReasonPolicyExternal" xml:space="preserve"><value>Live MAX differs from the nominal profile and no tool-owned override is installed. This may be an OEM/external policy.</value></data>
+  <data name="NvidiaReasonMaxTargetRange" xml:space="preserve"><value>MAX target is outside this GPU profile range.</value></data>
+  <data name="NvidiaReasonCurrentTargetRange" xml:space="preserve"><value>CURRENT target is outside this GPU profile range.</value></data>
+  <data name="NvidiaReasonDriverRegistryMissing" xml:space="preserve"><value>NVIDIA driver registry key not found.</value></data>
+  <data name="NvidiaReasonNoOverride" xml:space="preserve"><value>No MAX override is installed.</value></data>
+  <data name="NvidiaReasonMaxRemoveReboot" xml:space="preserve"><value>MAX override removed. Reboot Windows to restore the factory MAX. After reboot the NVIDIA policy will be rebuilt from stock VBIOS data.</value></data>
+  <data name="NvidiaReasonDiagnosticsActive" xml:space="preserve"><value>Finish OmenCore fan diagnostics before changing GPU CURRENT.</value></data>
+  <data name="NvidiaReasonCoolingFailed" xml:space="preserve"><value>OmenCore could not prepare performance cooling. CURRENT was not sent.</value></data>
+  <data name="NvidiaReasonFanMaxFailed" xml:space="preserve"><value>Fan Max could not be preserved. CURRENT was not sent.</value></data>
+  <data name="NvidiaReasonNoopChanged" xml:space="preserve"><value>E633 no-op changed CURRENT unexpectedly; writes remain locked.</value></data>
+  <data name="NvidiaReasonPolicyOrdered" xml:space="preserve"><value>CURRENT/MAX form a valid ordered policy state.</value></data>
 </root>

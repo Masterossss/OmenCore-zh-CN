@@ -933,4 +933,33 @@
   <data name="NvidiaPowerNotReady" xml:space="preserve"><value>未就绪</value></data>
   <data name="NvidiaPowerWriteStatus" xml:space="preserve"><value>MAX 写入{0}，CURRENT 写入{1}。{2}</value></data>
   <data name="NvidiaPowerStockMismatch" xml:space="preserve"><value> 读取到的出厂最大值：{0:0.#} W，预期：{1} W。安装了 MAX 覆盖设置或笔记本制造商设定了较低限制时，出现差异是正常的；差异本身并不代表错误。</value></data>
+  <data name="NvidiaReasonGpuProfileUnknown" xml:space="preserve"><value>GPU 配置未知。</value></data>
+  <data name="NvidiaReasonGpuProfileUnavailable" xml:space="preserve"><value>GPU 配置不可用。</value></data>
+  <data name="NvidiaReasonUnsupportedProfile" xml:space="preserve"><value>不支持此 GPU 配置。</value></data>
+  <data name="NvidiaReasonUnsupportedGpu" xml:space="preserve"><value>不支持此 GPU。支持的系列：RTX 4050/4060/4070/4080/4090 和 RTX 5050/5060/5070/5070 Ti/5080/5090 笔记本 GPU。</value></data>
+  <data name="NvidiaReasonVbiosUnknown" xml:space="preserve"><value>未知 VBIOS。启用 MAX 写入前，自动只读 ROM 解析器必须验证此 GPU/VBIOS 的确切组合。</value></data>
+  <data name="NvidiaReasonVbiosReference" xml:space="preserve"><value>已验证参考 RTX 5070 Ti VBIOS 配置。</value></data>
+  <data name="NvidiaReasonRomMissing" xml:space="preserve"><value>ROM 文件不存在。</value></data>
+  <data name="NvidiaReasonRomSmall" xml:space="preserve"><value>ROM 映像异常偏小。</value></data>
+  <data name="NvidiaReasonRomNoLegacy" xml:space="preserve"><value>ROM 转储中未找到 NVIDIA 旧式 code-type-0 映像。</value></data>
+  <data name="NvidiaReasonDriverDllMissing" xml:space="preserve"><value>nvapi64_impl.dll 文件不可用。</value></data>
+  <data name="NvidiaReasonDriverRvaFailed" xml:space="preserve"><value>传输特征匹配，但 RVA 转换失败。</value></data>
+  <data name="NvidiaReasonReadbackUnavailable" xml:space="preserve"><value>无法通过 NVIDIA 公共接口读回 CURRENT/MAX。</value></data>
+  <data name="NvidiaReasonCurrentExceedsMax" xml:space="preserve"><value>CURRENT 超过了实时 MAX。</value></data>
+  <data name="NvidiaReasonOverrideRange" xml:space="preserve"><value>已安装的 MAX 覆盖值超出检测到的 GPU 配置范围。</value></data>
+  <data name="NvidiaReasonOverridePending" xml:space="preserve"><value>工具的 MAX 覆盖值已安装，但实时 NVIDIA 策略尚未重建到该值。</value></data>
+  <data name="NvidiaReasonPolicyStock" xml:space="preserve"><value>实时 CURRENT/MAX 与检测到的出厂配置一致。</value></data>
+  <data name="NvidiaReasonPolicyOverride" xml:space="preserve"><value>MAX 覆盖设置已生效；CURRENT 仍为出厂值。</value></data>
+  <data name="NvidiaReasonPolicyAligned" xml:space="preserve"><value>CURRENT 和 MAX 一致。</value></data>
+  <data name="NvidiaReasonPolicyExternal" xml:space="preserve"><value>实时 MAX 与标称配置不同，且未安装本工具的覆盖设置。这可能是 OEM 或外部策略。</value></data>
+  <data name="NvidiaReasonMaxTargetRange" xml:space="preserve"><value>MAX 目标超出此 GPU 配置范围。</value></data>
+  <data name="NvidiaReasonCurrentTargetRange" xml:space="preserve"><value>CURRENT 目标超出此 GPU 配置范围。</value></data>
+  <data name="NvidiaReasonDriverRegistryMissing" xml:space="preserve"><value>未找到 NVIDIA 驱动注册表项。</value></data>
+  <data name="NvidiaReasonNoOverride" xml:space="preserve"><value>未安装 MAX 覆盖设置。</value></data>
+  <data name="NvidiaReasonMaxRemoveReboot" xml:space="preserve"><value>MAX 覆盖设置已移除。请重启 Windows 以恢复出厂 MAX。重启后 NVIDIA 策略将根据出厂 VBIOS 数据重建。</value></data>
+  <data name="NvidiaReasonDiagnosticsActive" xml:space="preserve"><value>更改 GPU CURRENT 前，请先完成 OmenCore 风扇诊断。</value></data>
+  <data name="NvidiaReasonCoolingFailed" xml:space="preserve"><value>OmenCore 无法准备性能散热。CURRENT 未发送。</value></data>
+  <data name="NvidiaReasonFanMaxFailed" xml:space="preserve"><value>无法保持风扇最大模式。CURRENT 未发送。</value></data>
+  <data name="NvidiaReasonNoopChanged" xml:space="preserve"><value>E633 无操作验证意外更改了 CURRENT；写入仍处于锁定状态。</value></data>
+  <data name="NvidiaReasonPolicyOrdered" xml:space="preserve"><value>CURRENT/MAX 构成有效的有序策略状态。</value></data>
 </root>

@@ -821,5 +821,34 @@ namespace OmenCore.Localization
         public static string NvidiaPowerNotReady => Get(nameof(NvidiaPowerNotReady));
         public static string NvidiaPowerWriteStatus => Get(nameof(NvidiaPowerWriteStatus));
         public static string NvidiaPowerStockMismatch => Get(nameof(NvidiaPowerStockMismatch));
+        public static string NvidiaReasonGpuProfileUnknown => Get(nameof(NvidiaReasonGpuProfileUnknown));
+        public static string NvidiaReasonGpuProfileUnavailable => Get(nameof(NvidiaReasonGpuProfileUnavailable));
+        public static string NvidiaReasonUnsupportedProfile => Get(nameof(NvidiaReasonUnsupportedProfile));
+        public static string NvidiaReasonUnsupportedGpu => Get(nameof(NvidiaReasonUnsupportedGpu));
+        public static string NvidiaReasonVbiosUnknown => Get(nameof(NvidiaReasonVbiosUnknown));
+        public static string NvidiaReasonVbiosReference => Get(nameof(NvidiaReasonVbiosReference));
+        public static string NvidiaReasonRomMissing => Get(nameof(NvidiaReasonRomMissing));
+        public static string NvidiaReasonRomSmall => Get(nameof(NvidiaReasonRomSmall));
+        public static string NvidiaReasonRomNoLegacy => Get(nameof(NvidiaReasonRomNoLegacy));
+        public static string NvidiaReasonDriverDllMissing => Get(nameof(NvidiaReasonDriverDllMissing));
+        public static string NvidiaReasonDriverRvaFailed => Get(nameof(NvidiaReasonDriverRvaFailed));
+        public static string NvidiaReasonReadbackUnavailable => Get(nameof(NvidiaReasonReadbackUnavailable));
+        public static string NvidiaReasonCurrentExceedsMax => Get(nameof(NvidiaReasonCurrentExceedsMax));
+        public static string NvidiaReasonOverrideRange => Get(nameof(NvidiaReasonOverrideRange));
+        public static string NvidiaReasonOverridePending => Get(nameof(NvidiaReasonOverridePending));
+        public static string NvidiaReasonPolicyStock => Get(nameof(NvidiaReasonPolicyStock));
+        public static string NvidiaReasonPolicyOverride => Get(nameof(NvidiaReasonPolicyOverride));
+        public static string NvidiaReasonPolicyAligned => Get(nameof(NvidiaReasonPolicyAligned));
+        public static string NvidiaReasonPolicyExternal => Get(nameof(NvidiaReasonPolicyExternal));
+        public static string NvidiaReasonMaxTargetRange => Get(nameof(NvidiaReasonMaxTargetRange));
+        public static string NvidiaReasonCurrentTargetRange => Get(nameof(NvidiaReasonCurrentTargetRange));
+        public static string NvidiaReasonDriverRegistryMissing => Get(nameof(NvidiaReasonDriverRegistryMissing));
+        public static string NvidiaReasonNoOverride => Get(nameof(NvidiaReasonNoOverride));
+        public static string NvidiaReasonMaxRemoveReboot => Get(nameof(NvidiaReasonMaxRemoveReboot));
+        public static string NvidiaReasonDiagnosticsActive => Get(nameof(NvidiaReasonDiagnosticsActive));
+        public static string NvidiaReasonCoolingFailed => Get(nameof(NvidiaReasonCoolingFailed));
+        public static string NvidiaReasonFanMaxFailed => Get(nameof(NvidiaReasonFanMaxFailed));
+        public static string NvidiaReasonNoopChanged => Get(nameof(NvidiaReasonNoopChanged));
+        public static string NvidiaReasonPolicyOrdered => Get(nameof(NvidiaReasonPolicyOrdered));
     }
 }

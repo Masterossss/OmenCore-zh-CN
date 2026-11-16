@@ -57,7 +57,7 @@ namespace OmenCore.ViewModels
             try
             {
                 var r = await Task.Run(() => romPath == null ? _service.ResolveVbiosAuto() : _service.ResolveVbiosFromRom(romPath));
-                ResultText = (r.Success ? Strings.NvidiaPowerResolved : Strings.NvidiaPowerNotResolved) + r.Message;
+                ResultText = (r.Success ? Strings.NvidiaPowerResolved : Strings.NvidiaPowerNotResolved) + NvidiaPowerDisplayText.Translate(r.Message);
             }
             finally
             {
@@ -116,7 +116,7 @@ namespace OmenCore.ViewModels
                 var live = s.LiveCurrentW.HasValue && s.LiveMaxW.HasValue
                     ? string.Format(Strings.NvidiaPowerLiveStatus, s.LiveCurrentW.Value, s.LiveMaxW.Value) : "";
                 StatusText = $"{(string.IsNullOrEmpty(s.Gpu) ? "NVIDIA GPU" : s.Gpu)}: {live}" +
-                             string.Format(Strings.NvidiaPowerWriteStatus, s.MaxReady ? Strings.NvidiaPowerReady : Strings.NvidiaPowerNotReady, s.CurrentReady ? Strings.NvidiaPowerReady : Strings.NvidiaPowerNotReady, s.Reason) +
+                             string.Format(Strings.NvidiaPowerWriteStatus, s.MaxReady ? Strings.NvidiaPowerReady : Strings.NvidiaPowerNotReady, s.CurrentReady ? Strings.NvidiaPowerReady : Strings.NvidiaPowerNotReady, NvidiaPowerDisplayText.Translate(s.Reason)) +
                              StockMismatchNote(s.LiveMaxW, s.ExpectedStockW);
                 RaiseCommands();
             });
@@ -135,7 +135,7 @@ namespace OmenCore.ViewModels
             try
             {
                 var r = await Task.Run(() => op(watts));
-                ResultText = (r.Success ? Strings.NvidiaPowerResolved : Strings.NvidiaPowerNotApplied) + r.Message + (r.RebootRequired ? Strings.NvidiaPowerRestartToFinish : "");
+                ResultText = (r.Success ? Strings.NvidiaPowerResolved : Strings.NvidiaPowerNotApplied) + NvidiaPowerDisplayText.Translate(r.Message) + (r.RebootRequired ? Strings.NvidiaPowerRestartToFinish : "");
                 _logging.Info("NVIDIA power panel: " + ResultText);
             }
             finally

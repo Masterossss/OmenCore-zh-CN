@@ -109,7 +109,7 @@ src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1226,"StatusMessage = $""
 src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,45,return dlg.ShowDialog() == true ? ResolveAsync(dlg.FileName) : Task.CompletedTask;,C,否,已核实,文件对话框执行入口；标题和过滤器已资源化
 src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,86,"if (value) _ = RefreshAsync(); else StatusText = """";",C,否,已核实,清空状态，不包含显示文字
 src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,106,"Post(() => StatusText = ""Could not read the NVIDIA driver: "" + ex.Message);",A,是,已资源化,StatusText 绑定至调校界面；Strings.NvidiaPowerDriverReadFailed，异常内容仍来自系统
-src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,117,"StatusText = $""{(string.IsNullOrEmpty(s.Gpu) ? ""NVIDIA GPU"" : s.Gpu)}: {live}"" +",A,是,部分资源化,显示值和写入就绪状态已资源化；s.Reason 来自服务，仍需追踪
+src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,117,"StatusText = $""{(string.IsNullOrEmpty(s.Gpu) ? ""NVIDIA GPU"" : s.Gpu)}: {live}"" +",A,是,部分资源化,显示边界映射 29 种已知后端文字和组合原因，未知原因保留原文；后端 Reason 不变
 src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,133,"if (MessageBox.Show(prompt, ""NVIDIA power"", MessageBoxButton.OKCancel, MessageBoxImage.Warning) != MessageBoxResult.OK) return;",A,是,已资源化,功率操作确认框；Strings.NvidiaPowerDialogTitle、NvidiaPowerApplyConfirm、NvidiaPowerRemoveConfirm 及重启说明
 src/OmenCoreApp/ViewModels/SettingsViewModel.cs,1570,var result = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/ViewModels/SettingsViewModel.cs,1620,var result = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
@@ -246,3 +246,5 @@ src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,697,Pinning the firmware's power
 src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,712,Failed: {0},A,是,已资源化,DiagnosticsView 绑定状态；Strings.GpuUnlockFailure；服务结果文本仍需审查
 src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,777,Restarting the GPU...,A,是,已资源化,DiagnosticsView 绑定状态；Strings.AdapterGpuRestarting；服务结果文本仍需审查
 src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,802, Now raising the CPU power limits...,A,是,已资源化,DiagnosticsView 绑定状态；Strings.AdapterCpuRaising；服务结果文本仍需审查
+src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,60,ResolveAsync: Outcome.Message,A,是,部分资源化,显示边界 NvidiaPowerDisplayText.Translate；已知固定值本地化，未知值保留原文；服务日志仍保留原始值
+src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,145,RunAsync: Outcome.Message,A,是,部分资源化,显示边界 NvidiaPowerDisplayText.Translate；已知固定值本地化，未知值保留原文；服务日志仍保留原始值

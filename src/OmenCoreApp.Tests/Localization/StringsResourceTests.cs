@@ -214,6 +214,25 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void NvidiaBackendDisplayMappingPreservesUnknownDetailsAndSafetyState()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                NvidiaPowerDisplayText.Translate("OmenCore could not prepare performance cooling. CURRENT was not sent.")
+                    .Should().Contain("无法准备").And.Contain("CURRENT 未发送");
+                NvidiaPowerDisplayText.Translate("driver: nvapi64_impl.dll file is unavailable. | policy: Unknown — CURRENT exceeds live MAX.")
+                    .Should().Contain("文件不可用").And.Contain("Unknown").And.Contain("超过了实时 MAX");
+                NvidiaPowerDisplayText.Translate("unrecognized error 0x1234").Should().Be("unrecognized error 0x1234");
+
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                NvidiaPowerDisplayText.Translate("CURRENT exceeds live MAX.").Should().Be("CURRENT exceeds live MAX.");
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void Apply_ChangesOnlyTheUiCulture()
         {
             // Numbers must keep the invariant formatting App installs on every thread; a UI
