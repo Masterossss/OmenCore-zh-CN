@@ -69,3 +69,11 @@
 - Debug 解决方案构建成功，0 错误和警告；本地化与 NVIDIA 状态纯软件测试 21 项通过；38 个 XAML/资源文件通过 XML 解析。未执行真实 GUI 或硬件测试，也未发布。
 - GUI 安全核查：App 启动会建立硬件服务，MainViewModel 启动风扇、看门狗和自动化；HardwareWatchdogService 在监控冻结时可强制设置风扇转速。禁用启动恢复或设置 OMENCORE_CONFIG_DIR 不能覆盖所有路径，也不隔离共享日志；--nav-cycle 不是只读模式。须使用无硬件直通的隔离 Windows VM 或另行审计的静态宿主，后者不能替代真实应用验收。
 - 后续从内存清理结果、服务错误、辅助功能文本和遗漏的动态项继续；再处理 Lighting、SystemOptimizer、Bloatware、OSD、托盘、更新提示。NVIDIA 参数化匹配目前仅覆盖 6 种完整格式，回滚未确认等混合状态仍保持原文。请重新审计快照中的 E 类并核实资源绑定、布局和运行时状态。
+
+## 第五阶段检查点（未完成）
+
+- 从 1b690f4 起新增 271 个资源，中文资源现共 1225 个；尚未单独完成整个功能模块的动态及 GUI 验收。灯光原静态候选中 152 项已迁移、5 项技术/品牌名称保留；同步摘要仅在显示层映射，原状态字符串仍用于判断。内存清理结果新增显示层，复制原值保留；系统优化和预装软件管理静态候选已迁移，关键确认框已处理，但预检、服务错误和其余动态文字仍待审查。
+- 新增结构化 XAML 清单 LOCALIZATION-ZH-CN-XAML-STRUCTURED.csv（34 文件、2510 条候选：D 1015、B 35、C 558、E 902）及 Roslyn 语法候选 LOCALIZATION-ZH-CN-CSHARP-SYNTAX-CURRENT.csv（112 文件、7059 条：C 1004、E 6055）。两者是不同口径、可能重叠的候选；不能得出真正未翻译数量。Roslyn 仅做语法解析，不证明调用链和可见性；XAML 路径中的兄弟序号可能变化。原清单仍为静态 E 371、动态 E 172。
+- 本机 SDK 的 Roslyn 审计工具位于 tools/LocalizationAudit；可传入根目录和输出文件路径。原 C# 快照一度被 Windows 映射占用，新快照使用 CURRENT 文件名；两个文件不可当作独立未译项累加。
+- 当前 Debug 构建成功，0 错误、0 警告；已确认安全的本地化及 NVIDIA 状态测试 24 项通过。未执行应用 GUI、硬件测试、驱动安装或系统优化；没有无硬件直通 VM 的验证证据。
+- 下一步：LightingView 的辅助功能文本、设备后端结果、DPI/效果确认框；MemoryOptimizer 的服务错误和原始 delta 摘要；SystemOptimizer 的预检内容与分类显示；Bloatware 的还原结果和状态；再继续托盘、OSD、更新以及 XAML/Roslyn 清单的调用链分类。需逐项确认实际运行页面和中英文切换，才可做 GUI 验收。

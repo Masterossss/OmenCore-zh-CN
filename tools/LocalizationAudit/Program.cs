@@ -6,7 +6,7 @@ using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 var root = Path.GetFullPath(args.Length > 0 ? args[0] : Path.Combine(AppContext.BaseDirectory, "../../../../../"));
 var app = Path.Combine(root, "src", "OmenCoreApp");
-var output = Path.Combine(root, "LOCALIZATION-ZH-CN-CSHARP-SYNTAX.csv");
+var output = args.Length > 1 ? Path.GetFullPath(args[1]) : Path.Combine(root, "LOCALIZATION-ZH-CN-CSHARP-SYNTAX.csv");
 var files = Directory.EnumerateFiles(app, "*.cs", SearchOption.AllDirectories)
     .Where(p => !p.Split(Path.DirectorySeparatorChar).Any(x => x is "obj" or "bin" or "runtimes"))
     .OrderBy(p => p, StringComparer.Ordinal).ToArray();
