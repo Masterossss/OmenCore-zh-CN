@@ -106,3 +106,11 @@
 - 新增 20 个资源，中文资源共 1309 键；Debug 和 Release 构建成功，0 错误、0 警告；本地化、NVIDIA 状态及优化预检相关纯软件测试 31 项通过。未执行实际 GUI、硬件、卸载或优化操作。
 - 按现有证据，四个重点模块、托盘和 OSD 均未达到源码汉化完成标准；应用层差异及原始日志的完整审计尚未完成。下一步从 LightingViewModel 的参数化应用结果和 WMI 警告、SystemOptimizerPreflightFormatter 的具体警告来源、BloatwareManagerViewModel 的 StatusChanged 调用链继续，再处理内存 delta 与托盘实时状态。
 - 代码提交：c1f45cd、0bfdf24、acfd667。
+
+## 第七阶段继续检查点（未完成）
+
+- 在 547235c 后新增 96 个资源：灯光 RGB 探测及 WMI 未验证提示、内存标准七项 delta、系统优化 21 项名称和简要说明及风险标签、软件清理扫描与删除状态、托盘风扇/电源子菜单初始化与刷新。保留后端数据、原始日志与复制数据；未知结果回退原文。
+- Debug/Release 构建 0 错误 0 警告；相关本地化、NVIDIA 和预检纯软件测试 32 项通过。未启动应用，未执行 GUI、硬件访问、软件卸载或系统优化。
+- 重点模块仍未完成完整源码审计：Lighting 后端复合状态和区域、SystemOptimizer 详细说明及具体预检警告、Bloatware 服务反馈、Memory 非标准结果、托盘状态与 OSD 调用方均未清零。36 页矩阵中的未审查项仍然存在；不将部分修改标为模块完成。
+- 恢复位置：LightingStatusDisplayText 的复合后端状态及 LightingView 的辅助功能；SystemOptimizerViewModel 详细说明与预检警告；BloatwareManager 服务状态；TrayIconService BuildFanModeHeader / BuildMonitoringHealthHeaderText 及实时状态，随后 OSD 的调用方。
+- 代码提交：ed72a71、d6d044b、70828d5、af158ba、6160836、a0bee42。
