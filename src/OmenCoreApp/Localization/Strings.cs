@@ -1554,5 +1554,12 @@ namespace OmenCore.Localization
         public static string OptimizerUndo18 => Get(nameof(OptimizerUndo18));
         public static string OptimizerUndo19 => Get(nameof(OptimizerUndo19));
         public static string OptimizerUndo20 => Get(nameof(OptimizerUndo20));
+        public static string LightV2Applied => Get(nameof(LightV2Applied));
+        public static string LightV2Accepted => Get(nameof(LightV2Accepted));
+        public static string LightV2Unverified => Get(nameof(LightV2Unverified));
+        public static string LightReadbackYes => Get(nameof(LightReadbackYes));
+        public static string LightReadbackNo => Get(nameof(LightReadbackNo));
+        public static string LightReadbackUnavailable => Get(nameof(LightReadbackUnavailable));
+        public static string LightApplyError => Get(nameof(LightApplyError));
     }
 }

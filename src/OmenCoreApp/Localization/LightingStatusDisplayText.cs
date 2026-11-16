@@ -44,12 +44,12 @@ namespace OmenCore.Localization
                     "Applied via OMEN Gaming Hub proxy ColorTable fallback." => Strings.LightApplyStatus4,
                     "Applied via experimental EC fallback after WMI methods failed." => Strings.LightApplyStatus5,
                     "All keyboard lighting backends failed. Colors may not be applied." => Strings.LightApplyStatus6,
-                    _ => surface.Groups[1].Value
+                    _ => TranslateApplyStatus(surface.Groups[1].Value)
                 };
                 return (restored ? Strings.LightRestoredPrefix : "") + string.Format(Strings.LightSurfaceFormat, apply, surface.Groups[2].Value) + (hasHint ? Strings.LightWmiVerifyHint : "");
             }
             var probe = Regex.Match(value, @"\AProbe sent via (.+?); select what changed and save\. (.*)\z", RegexOptions.CultureInvariant);
-            if (probe.Success) return string.Format(Strings.LightProbeSent, probe.Groups[1].Value, probe.Groups[2].Value);
+            if (probe.Success) return string.Format(Strings.LightProbeSent, probe.Groups[1].Value, TranslateApplyStatus(probe.Groups[2].Value));
             const string restore = "Restored saved keyboard colors. ";
             if (value.StartsWith(restore, StringComparison.Ordinal))
                 return Strings.LightRestoredPrefix + value.Substring(restore.Length);
@@ -57,5 +57,25 @@ namespace OmenCore.Localization
                 return value.Substring(0, value.Length - hint.Length) + Strings.LightWmiVerifyHint;
             return value;
         }
+        private static string TranslateApplyStatus(string value)
+        {
+            var applied = Regex.Match(value, @"\AApplied via V2 (.+?)\. (.+)\z", RegexOptions.CultureInvariant);
+            if (applied.Success) return string.Format(Strings.LightV2Applied, applied.Groups[1].Value, TranslateVerification(applied.Groups[2].Value));
+            var accepted = Regex.Match(value, @"\AV2 (.+?) accepted the write but did not verify: (.+)\z", RegexOptions.CultureInvariant);
+            if (accepted.Success) return string.Format(Strings.LightV2Accepted, accepted.Groups[1].Value, TranslateVerification(accepted.Groups[2].Value));
+            var failed = Regex.Match(value, @"\AV2 (.+?) did not verify: (.+)\z", RegexOptions.CultureInvariant);
+            if (failed.Success) return string.Format(Strings.LightV2Unverified, failed.Groups[1].Value, TranslateVerification(failed.Groups[2].Value));
+            const string error = "Keyboard lighting apply failed: ";
+            return value.StartsWith(error, StringComparison.Ordinal)
+                ? string.Format(Strings.LightApplyError, value.Substring(error.Length)) : value;
+        }
+
+        private static string TranslateVerification(string value) => value switch
+        {
+            "Readback verified." => Strings.LightReadbackYes,
+            "Readback did not verify." => Strings.LightReadbackNo,
+            "No reliable readback available." => Strings.LightReadbackUnavailable,
+            _ => value
+        };
     }
 }

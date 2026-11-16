@@ -390,6 +390,9 @@ namespace OmenCoreApp.Tests.Localization
                 const string surface = "WMI BIOS ColorTable accepted the write. Verify the intended physical surface changed; on some models this may be a light bar rather than the keyboard. Surface: HP WMI ColorTable zones.";
                 LightingStatusDisplayText.Translate(surface).Should().Contain("已接受写入").And.Contain("灯条").And.Contain("键盘").And.Contain("HP WMI ColorTable zones");
                 LightingStatusDisplayText.Translate("All keyboard lighting backends failed. Colors may not be applied. Surface: Unavailable.").Should().Contain("均失败").And.Contain("可能未应用");
+                LightingStatusDisplayText.Translate("V2 WMI accepted the write but did not verify: Readback did not verify. Surface: keyboard.").Should().Contain("已接受写入但未通过验证").And.Contain("回读未通过验证");
+                LightingStatusDisplayText.Translate("V2 WMI did not verify: custom advisory. Surface: keyboard.").Should().Contain("未通过验证").And.Contain("custom advisory");
+                LightingStatusDisplayText.Translate("Applied via V2 WMI. Readback verified. Surface: keyboard.").Should().Contain("回读验证通过");
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
                 LightingStatusDisplayText.Translate(surface).Should().Be(surface);
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");

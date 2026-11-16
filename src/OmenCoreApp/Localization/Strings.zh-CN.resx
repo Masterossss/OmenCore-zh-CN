@@ -1690,4 +1690,11 @@
   <data name="OptimizerUndo18" xml:space="preserve"><value>运行 fsutil behavior set DisableDeleteNotify 1 以关闭该覆盖设置。</value></data>
   <data name="OptimizerUndo19" xml:space="preserve"><value>运行 fsutil behavior set disablelastaccess 0 以恢复时间戳更新。</value></data>
   <data name="OptimizerUndo20" xml:space="preserve"><value>如果旧软件依赖 DOS 风格短文件名，请将 NtfsDisable8dot3NameCreation 设回 0。</value></data>
+  <data name="LightV2Applied" xml:space="preserve"><value>已通过 V2 {0} 应用。{1}</value></data>
+  <data name="LightV2Accepted" xml:space="preserve"><value>V2 {0} 已接受写入但未通过验证：{1}</value></data>
+  <data name="LightV2Unverified" xml:space="preserve"><value>V2 {0} 未通过验证：{1}</value></data>
+  <data name="LightReadbackYes" xml:space="preserve"><value>回读验证通过。</value></data>
+  <data name="LightReadbackNo" xml:space="preserve"><value>回读未通过验证。</value></data>
+  <data name="LightReadbackUnavailable" xml:space="preserve"><value>无法进行可靠回读。</value></data>
+  <data name="LightApplyError" xml:space="preserve"><value>键盘灯光应用失败：{0}</value></data>
 </root>

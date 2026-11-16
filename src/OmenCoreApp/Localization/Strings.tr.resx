@@ -1694,4 +1694,11 @@ Continue?</value></data>
   <data name="OptimizerUndo18" xml:space="preserve"><value>Run fsutil behavior set DisableDeleteNotify 1 to turn the override back off.</value></data>
   <data name="OptimizerUndo19" xml:space="preserve"><value>Run fsutil behavior set disablelastaccess 0 to restore timestamp updates.</value></data>
   <data name="OptimizerUndo20" xml:space="preserve"><value>Set NtfsDisable8dot3NameCreation back to 0 if older software depends on DOS-style short names.</value></data>
+  <data name="LightV2Applied" xml:space="preserve"><value>Applied via V2 {0}. {1}</value></data>
+  <data name="LightV2Accepted" xml:space="preserve"><value>V2 {0} accepted the write but did not verify: {1}</value></data>
+  <data name="LightV2Unverified" xml:space="preserve"><value>V2 {0} did not verify: {1}</value></data>
+  <data name="LightReadbackYes" xml:space="preserve"><value>Readback verified.</value></data>
+  <data name="LightReadbackNo" xml:space="preserve"><value>Readback did not verify.</value></data>
+  <data name="LightReadbackUnavailable" xml:space="preserve"><value>No reliable readback available.</value></data>
+  <data name="LightApplyError" xml:space="preserve"><value>Keyboard lighting apply failed: {0}</value></data>
 </root>
