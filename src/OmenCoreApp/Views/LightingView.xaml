@@ -118,7 +118,7 @@
                             </StackPanel>
                         </Border>
                         <StackPanel Grid.Column="1">
-                            <TextBlock Text="{Binding LastRgbSyncSummary}"
+                            <TextBlock Text="{Binding LastRgbSyncDisplay}"
                                        FontSize="12"
                                        FontWeight="SemiBold"
                                        Foreground="{StaticResource TextPrimaryBrush}"/>

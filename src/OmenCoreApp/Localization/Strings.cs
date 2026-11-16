@@ -995,5 +995,18 @@ namespace OmenCore.Localization
         public static string MemoryStatusDisableCompression => Get(nameof(MemoryStatusDisableCompression));
         public static string MemoryCopyResultName => Get(nameof(MemoryCopyResultName));
         public static string MemoryCopyResultHelp => Get(nameof(MemoryCopyResultHelp));
+        public static string RgbSyncReady => Get(nameof(RgbSyncReady));
+        public static string RgbSyncNoTargets => Get(nameof(RgbSyncNoTargets));
+        public static string RgbSyncFailedProviders => Get(nameof(RgbSyncFailedProviders));
+        public static string RgbSyncFailedTargets => Get(nameof(RgbSyncFailedTargets));
+        public static string RgbSyncProviderComplete => Get(nameof(RgbSyncProviderComplete));
+        public static string RgbSyncTargetComplete => Get(nameof(RgbSyncTargetComplete));
+        public static string RgbSyncProviderPartial => Get(nameof(RgbSyncProviderPartial));
+        public static string RgbSyncTargetPartial => Get(nameof(RgbSyncTargetPartial));
+        public static string RgbVisualBlocked => Get(nameof(RgbVisualBlocked));
+        public static string RgbVisualDegraded => Get(nameof(RgbVisualDegraded));
+        public static string RgbVisualConfirmed => Get(nameof(RgbVisualConfirmed));
+        public static string RgbDeviceCount => Get(nameof(RgbDeviceCount));
+        public static string RgbRazerMissing => Get(nameof(RgbRazerMissing));
     }
 }

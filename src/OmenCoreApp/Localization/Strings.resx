@@ -1115,4 +1115,17 @@ Try it anyway?</value></data>
   <data name="MemoryStatusDisableCompression" xml:space="preserve"><value>Disabling memory compression...</value></data>
   <data name="MemoryCopyResultName" xml:space="preserve"><value>Copy last memory clean result</value></data>
   <data name="MemoryCopyResultHelp" xml:space="preserve"><value>Copies the latest memory clean summary to the clipboard</value></data>
+  <data name="RgbSyncReady" xml:space="preserve"><value>Ready to sync</value></data>
+  <data name="RgbSyncNoTargets" xml:space="preserve"><value>No RGB targets available</value></data>
+  <data name="RgbSyncFailedProviders" xml:space="preserve"><value>Sync failed: no providers updated</value></data>
+  <data name="RgbSyncFailedTargets" xml:space="preserve"><value>Sync failed: no targets updated</value></data>
+  <data name="RgbSyncProviderComplete" xml:space="preserve"><value>Sync complete: {0} provider(s) updated</value></data>
+  <data name="RgbSyncTargetComplete" xml:space="preserve"><value>Sync complete: {0} target(s) updated</value></data>
+  <data name="RgbSyncProviderPartial" xml:space="preserve"><value>Partial sync: {0}/{1} providers updated</value></data>
+  <data name="RgbSyncTargetPartial" xml:space="preserve"><value>Partial sync: {0}/{1} targets updated</value></data>
+  <data name="RgbVisualBlocked" xml:space="preserve"><value>Blocked</value></data>
+  <data name="RgbVisualDegraded" xml:space="preserve"><value>Degraded</value></data>
+  <data name="RgbVisualConfirmed" xml:space="preserve"><value>Confirmed</value></data>
+  <data name="RgbDeviceCount" xml:space="preserve"><value>{0} device(s) detected</value></data>
+  <data name="RgbRazerMissing" xml:space="preserve"><value>Razer Synapse not detected</value></data>
 </root>

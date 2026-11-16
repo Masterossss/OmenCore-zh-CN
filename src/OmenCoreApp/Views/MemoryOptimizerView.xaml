@@ -46,7 +46,7 @@
                             </Style>
                         </Ellipse.Style>
                     </Ellipse>
-                    <TextBlock Text="{Binding StatusMessageDisplay}" 
+                    <TextBlock Text="{Binding StatusMessageDisplay}"
                                Foreground="#9CA3AF" 
                                FontSize="12"
                                VerticalAlignment="Center"/>
@@ -190,7 +190,7 @@
 
                         <!-- Last Clean Result -->
                         <TextBlock Grid.Column="0"
-                                   Text="{Binding LastCleanResultDisplay}" 
+                                   Text="{Binding LastCleanResultDisplay}"
                                    FontSize="12" 
                                    Foreground="#6B7280"
                                    TextWrapping="Wrap"

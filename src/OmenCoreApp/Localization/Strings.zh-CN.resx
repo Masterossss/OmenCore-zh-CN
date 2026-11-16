@@ -1107,4 +1107,17 @@
   <data name="MemoryStatusDisableCompression" xml:space="preserve"><value>正在关闭内存压缩...</value></data>
   <data name="MemoryCopyResultName" xml:space="preserve"><value>复制上次内存清理结果</value></data>
   <data name="MemoryCopyResultHelp" xml:space="preserve"><value>将最近的内存清理摘要复制到剪贴板</value></data>
+  <data name="RgbSyncReady" xml:space="preserve"><value>准备同步</value></data>
+  <data name="RgbSyncNoTargets" xml:space="preserve"><value>没有可用的 RGB 目标</value></data>
+  <data name="RgbSyncFailedProviders" xml:space="preserve"><value>同步失败：没有服务提供程序完成更新</value></data>
+  <data name="RgbSyncFailedTargets" xml:space="preserve"><value>同步失败：没有目标完成更新</value></data>
+  <data name="RgbSyncProviderComplete" xml:space="preserve"><value>同步完成：已更新 {0} 个服务提供程序</value></data>
+  <data name="RgbSyncTargetComplete" xml:space="preserve"><value>同步完成：已更新 {0} 个目标</value></data>
+  <data name="RgbSyncProviderPartial" xml:space="preserve"><value>部分同步：已更新 {0}/{1} 个服务提供程序</value></data>
+  <data name="RgbSyncTargetPartial" xml:space="preserve"><value>部分同步：已更新 {0}/{1} 个目标</value></data>
+  <data name="RgbVisualBlocked" xml:space="preserve"><value>已阻止</value></data>
+  <data name="RgbVisualDegraded" xml:space="preserve"><value>受限</value></data>
+  <data name="RgbVisualConfirmed" xml:space="preserve"><value>已确认</value></data>
+  <data name="RgbDeviceCount" xml:space="preserve"><value>检测到 {0} 个设备</value></data>
+  <data name="RgbRazerMissing" xml:space="preserve"><value>未检测到 Razer Synapse</value></data>
 </root>

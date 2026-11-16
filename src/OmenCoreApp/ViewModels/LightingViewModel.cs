@@ -553,9 +553,12 @@ namespace OmenCore.ViewModels
                 {
                     OnPropertyChanged(nameof(LastRgbSyncVisualState));
                     OnPropertyChanged(nameof(LastRgbSyncVisualLabel));
+                    OnPropertyChanged(nameof(LastRgbSyncDisplay));
                 }
             }
         }
+
+        public string LastRgbSyncDisplay => OmenCore.Localization.RgbSyncDisplayText.Translate(LastRgbSyncSummary);
 
         public string LastRgbSyncDetail
         {
@@ -589,9 +592,9 @@ namespace OmenCore.ViewModels
 
         public string LastRgbSyncVisualLabel => LastRgbSyncVisualState switch
         {
-            "blocked" => "Blocked",
-            "degraded" => "Degraded",
-            _ => "Confirmed"
+            "blocked" => OmenCore.Localization.Strings.RgbVisualBlocked,
+            "degraded" => OmenCore.Localization.Strings.RgbVisualDegraded,
+            _ => OmenCore.Localization.Strings.RgbVisualConfirmed
         };
         
         // Razer properties
@@ -605,8 +608,8 @@ namespace OmenCore.ViewModels
         public bool HasRazerDevices => _razerDevices.Count > 0;
         public bool IsRazerAvailable => _razerService?.IsAvailable ?? false;
         public string RazerDeviceStatusText => IsRazerAvailable 
-            ? $"{_razerDevices.Count} device(s) detected" 
-            : "Razer Synapse not detected";
+            ? string.Format(OmenCore.Localization.Strings.RgbDeviceCount, _razerDevices.Count) 
+            : OmenCore.Localization.Strings.RgbRazerMissing;
         
         public string RazerColorHex
         {
@@ -1364,8 +1367,8 @@ namespace OmenCore.ViewModels
             await _rgbManager.ApplyEffectToAllAsync($"color:{SystemColorHex}");
         }
 
-        public string CorsairDeviceStatusText => $"{CorsairDevices.Count} device(s) detected";
-        public string LogitechDeviceStatusText => $"{LogitechDevices.Count} device(s) detected";
+        public string CorsairDeviceStatusText => string.Format(OmenCore.Localization.Strings.RgbDeviceCount, CorsairDevices.Count);
+        public string LogitechDeviceStatusText => string.Format(OmenCore.Localization.Strings.RgbDeviceCount, LogitechDevices.Count);
         public bool HasCorsairMouse => CorsairDevices.Any(d => d.DeviceType == CorsairDeviceType.Mouse);
         public ObservableCollection<CorsairDpiStage> CorsairDpiStages { get; } = new();
         public ObservableCollection<OmenCore.Corsair.CorsairDpiProfile> CorsairDpiProfiles { get; } = new();

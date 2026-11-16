@@ -346,6 +346,24 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void LightingDisplayDistinguishesCompletePartialFailureAndUnknown()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                RgbSyncDisplayText.Translate("Sync complete: 2 providers updated").Should().Contain("同步完成").And.Contain("2 个");
+                RgbSyncDisplayText.Translate("Partial sync: 1/2 providers updated").Should().Contain("部分同步").And.Contain("1/2");
+                RgbSyncDisplayText.Translate("Sync failed: no providers updated").Should().Contain("同步失败").And.Contain("没有");
+                RgbSyncDisplayText.Translate("Sync complete: 2 providers updated; rollback failed")
+                    .Should().Be("Sync complete: 2 providers updated; rollback failed");
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                RgbSyncDisplayText.Translate("Sync complete: 1 provider updated").Should().Be("Sync complete: 1 provider updated");
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void Apply_ChangesOnlyTheUiCulture()
         {
             // Numbers must keep the invariant formatting App installs on every thread; a UI
