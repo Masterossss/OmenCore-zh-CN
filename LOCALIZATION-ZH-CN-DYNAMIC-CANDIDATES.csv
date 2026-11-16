@@ -21,25 +21,25 @@ src/OmenCoreApp/ViewModels/FanCalibrationViewModel.cs,149,"Status = $""Testing l
 src/OmenCoreApp/ViewModels/FanCalibrationViewModel.cs,157,"Status = ""✓ Calibration complete!"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/ViewModels/FanCalibrationViewModel.cs,169,"Status = $""⚠ Error: {error}"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1069,window.ShowDialog();,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1265,"System.Windows.MessageBox.Show(""Need at least 2 curve points to generate a share code."", ""Cannot Copy Share Code"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1276,"System.Windows.MessageBox.Show($""Failed to copy share code: {ex.Message}"", ""Copy Failed"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1292,"System.Windows.MessageBox.Show(""Clipboard doesn't contain text."", ""Import Failed"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1300,"System.Windows.MessageBox.Show(""Clipboard doesn't contain a valid fan curve share code."", ""Import Failed"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1312,"System.Windows.MessageBox.Show($""Imported curve \""{name}\"" ({points.Count} points). Remember to apply/save it."", ""Import Complete"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1318,"System.Windows.MessageBox.Show($""Failed to import share code: {ex.Message}"", ""Import Error"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1631,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1865,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1878,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1889,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2004,var result = System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2231,"System.Windows.MessageBox.Show(""No saved fan preset found in configuration."", ""Reapply Saved Preset"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1265,"System.Windows.MessageBox.Show(""Need at least 2 curve points to generate a share code."", ""Cannot Copy Share Code"",",A,是,已资源化,对话框文字使用 Strings.FanShare/FanCurve/FanPreset 资源；validationError 的来源仍待单独审查
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1276,"System.Windows.MessageBox.Show($""Failed to copy share code: {ex.Message}"", ""Copy Failed"",",A,是,已资源化,对话框文字使用 Strings.FanShare/FanCurve/FanPreset 资源；validationError 的来源仍待单独审查
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1292,"System.Windows.MessageBox.Show(""Clipboard doesn't contain text."", ""Import Failed"",",A,是,已资源化,对话框文字使用 Strings.FanShare/FanCurve/FanPreset 资源；validationError 的来源仍待单独审查
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1300,"System.Windows.MessageBox.Show(""Clipboard doesn't contain a valid fan curve share code."", ""Import Failed"",",A,是,已资源化,对话框文字使用 Strings.FanShare/FanCurve/FanPreset 资源；validationError 的来源仍待单独审查
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1312,"System.Windows.MessageBox.Show($""Imported curve \""{name}\"" ({points.Count} points). Remember to apply/save it."", ""Import Complete"",",A,是,已资源化,对话框文字使用 Strings.FanShare/FanCurve/FanPreset 资源；validationError 的来源仍待单独审查
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1318,"System.Windows.MessageBox.Show($""Failed to import share code: {ex.Message}"", ""Import Error"",",A,是,已资源化,对话框文字使用 Strings.FanShare/FanCurve/FanPreset 资源；validationError 的来源仍待单独审查
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1631,System.Windows.MessageBox.Show(,A,是,已资源化,对话框文字使用 Strings.FanShare/FanCurve/FanPreset 资源；validationError 的来源仍待单独审查
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1865,System.Windows.MessageBox.Show(,A,是,已资源化,对话框文字使用 Strings.FanShare/FanCurve/FanPreset 资源；validationError 的来源仍待单独审查
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1878,System.Windows.MessageBox.Show(,A,是,已资源化,对话框文字使用 Strings.FanShare/FanCurve/FanPreset 资源；validationError 的来源仍待单独审查
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1889,System.Windows.MessageBox.Show(,A,是,已资源化,对话框文字使用 Strings.FanShare/FanCurve/FanPreset 资源；validationError 的来源仍待单独审查
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2004,var result = System.Windows.MessageBox.Show(,A,是,已资源化,对话框文字使用 Strings.FanShare/FanCurve/FanPreset 资源；validationError 的来源仍待单独审查
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2231,"System.Windows.MessageBox.Show(""No saved fan preset found in configuration."", ""Reapply Saved Preset"",",A,是,已资源化,对话框文字使用 Strings.FanShare/FanCurve/FanPreset 资源；validationError 的来源仍待单独审查
 src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2444,if (dialog.ShowDialog() == true),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2454,"System.Windows.MessageBox.Show(""No valid fan presets found in file."", ""Import Failed"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2481,"System.Windows.MessageBox.Show($""Imported {count} fan preset(s)"", ""Import Complete"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2488,"System.Windows.MessageBox.Show($""Failed to import presets: {ex.Message}"", ""Import Error"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2454,"System.Windows.MessageBox.Show(""No valid fan presets found in file."", ""Import Failed"",",A,是,已资源化,对话框文字使用 Strings.FanShare/FanCurve/FanPreset 资源；validationError 的来源仍待单独审查
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2481,"System.Windows.MessageBox.Show($""Imported {count} fan preset(s)"", ""Import Complete"",",A,是,已资源化,对话框文字使用 Strings.FanShare/FanCurve/FanPreset 资源；validationError 的来源仍待单独审查
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2488,"System.Windows.MessageBox.Show($""Failed to import presets: {ex.Message}"", ""Import Error"",",A,是,已资源化,对话框文字使用 Strings.FanShare/FanCurve/FanPreset 资源；validationError 的来源仍待单独审查
 src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2507,if (dialog.ShowDialog() == true),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2524,"System.Windows.MessageBox.Show($""Exported {export.Presets.Count} fan preset(s)"", ""Export Complete"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2531,"System.Windows.MessageBox.Show($""Failed to export presets: {ex.Message}"", ""Export Error"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2524,"System.Windows.MessageBox.Show($""Exported {export.Presets.Count} fan preset(s)"", ""Export Complete"",",A,是,已资源化,对话框文字使用 Strings.FanShare/FanCurve/FanPreset 资源；validationError 的来源仍待单独审查
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2531,"System.Windows.MessageBox.Show($""Failed to export presets: {ex.Message}"", ""Export Error"",",A,是,已资源化,对话框文字使用 Strings.FanShare/FanCurve/FanPreset 资源；validationError 的来源仍待单独审查
 src/OmenCoreApp/ViewModels/FanDiagnosticsViewModel.cs,324,GuidedTestStatus = Strings.FanDiagTooHot;,D,是,已资源化,绑定至 FanDiagnosticsView.xaml；已使用 Strings.FanDiag 资源，结果摘要仍需审查
 src/OmenCoreApp/ViewModels/FanDiagnosticsViewModel.cs,353,"GuidedTestStatus = string.Format(Strings.FanDiagTesting, fanName, targetPercent);",D,是,已资源化,绑定至 FanDiagnosticsView.xaml；已使用 Strings.FanDiag 资源，结果摘要仍需审查
 src/OmenCoreApp/ViewModels/FanDiagnosticsViewModel.cs,457,GuidedTestStatus = interrupted.Count > 0,D,是,已资源化,绑定至 FanDiagnosticsView.xaml；已使用 Strings.FanDiag 资源，结果摘要仍需审查

@@ -769,5 +769,34 @@ namespace OmenCore.Localization
         public static string GameProfileBrowseTitle => Get(nameof(GameProfileBrowseTitle));
         public static string GameProfileInvalid => Get(nameof(GameProfileInvalid));
         public static string GameProfileSaveFailed => Get(nameof(GameProfileSaveFailed));
+        public static string FanShareNeedPoints => Get(nameof(FanShareNeedPoints));
+        public static string FanShareCannotCopy => Get(nameof(FanShareCannotCopy));
+        public static string FanShareCopyFailed => Get(nameof(FanShareCopyFailed));
+        public static string FanShareCopyFailedTitle => Get(nameof(FanShareCopyFailedTitle));
+        public static string FanImportClipboardEmpty => Get(nameof(FanImportClipboardEmpty));
+        public static string FanImportInvalidCode => Get(nameof(FanImportInvalidCode));
+        public static string FanImportFailedTitle => Get(nameof(FanImportFailedTitle));
+        public static string FanImportCurveComplete => Get(nameof(FanImportCurveComplete));
+        public static string FanImportCompleteTitle => Get(nameof(FanImportCompleteTitle));
+        public static string FanShareImportError => Get(nameof(FanShareImportError));
+        public static string FanImportErrorTitle => Get(nameof(FanImportErrorTitle));
+        public static string FanCurveInvalidTitle => Get(nameof(FanCurveInvalidTitle));
+        public static string FanCurveApplyInvalid => Get(nameof(FanCurveApplyInvalid));
+        public static string FanCurveSaveInvalid => Get(nameof(FanCurveSaveInvalid));
+        public static string FanCurveUnavailable => Get(nameof(FanCurveUnavailable));
+        public static string FanCurveUnavailableTitle => Get(nameof(FanCurveUnavailableTitle));
+        public static string FanPresetNameRequired => Get(nameof(FanPresetNameRequired));
+        public static string FanPresetNameRequiredTitle => Get(nameof(FanPresetNameRequiredTitle));
+        public static string FanPresetDeletePrompt => Get(nameof(FanPresetDeletePrompt));
+        public static string FanPresetDeleteTitle => Get(nameof(FanPresetDeleteTitle));
+        public static string FanPresetMissing => Get(nameof(FanPresetMissing));
+        public static string FanPresetReapplyTitle => Get(nameof(FanPresetReapplyTitle));
+        public static string FanPresetFileEmpty => Get(nameof(FanPresetFileEmpty));
+        public static string FanPresetImported => Get(nameof(FanPresetImported));
+        public static string FanPresetImportError => Get(nameof(FanPresetImportError));
+        public static string FanPresetExported => Get(nameof(FanPresetExported));
+        public static string FanPresetExportTitle => Get(nameof(FanPresetExportTitle));
+        public static string FanPresetExportError => Get(nameof(FanPresetExportError));
+        public static string FanPresetExportErrorTitle => Get(nameof(FanPresetExportErrorTitle));
     }
 }

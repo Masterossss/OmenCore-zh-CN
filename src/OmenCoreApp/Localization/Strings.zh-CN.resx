@@ -861,4 +861,37 @@
   <data name="GameProfileBrowseTitle" xml:space="preserve"><value>选择游戏可执行文件</value></data>
   <data name="GameProfileInvalid" xml:space="preserve"><value>游戏配置文件无效</value></data>
   <data name="GameProfileSaveFailed" xml:space="preserve"><value>保存配置文件失败：{0}</value></data>
+  <data name="FanShareNeedPoints" xml:space="preserve"><value>至少需要 2 个曲线点才能生成分享代码。</value></data>
+  <data name="FanShareCannotCopy" xml:space="preserve"><value>无法复制分享代码</value></data>
+  <data name="FanShareCopyFailed" xml:space="preserve"><value>复制分享代码失败：{0}</value></data>
+  <data name="FanShareCopyFailedTitle" xml:space="preserve"><value>复制失败</value></data>
+  <data name="FanImportClipboardEmpty" xml:space="preserve"><value>剪贴板中没有文本。</value></data>
+  <data name="FanImportInvalidCode" xml:space="preserve"><value>剪贴板中没有有效的风扇曲线分享代码。</value></data>
+  <data name="FanImportFailedTitle" xml:space="preserve"><value>导入失败</value></data>
+  <data name="FanImportCurveComplete" xml:space="preserve"><value>已导入曲线“{0}”（{1} 个点）。请记得应用或保存。</value></data>
+  <data name="FanImportCompleteTitle" xml:space="preserve"><value>导入完成</value></data>
+  <data name="FanShareImportError" xml:space="preserve"><value>导入分享代码失败：{0}</value></data>
+  <data name="FanImportErrorTitle" xml:space="preserve"><value>导入错误</value></data>
+  <data name="FanCurveInvalidTitle" xml:space="preserve"><value>风扇曲线无效</value></data>
+  <data name="FanCurveApplyInvalid" xml:space="preserve"><value>{0}
+
+风扇曲线未应用。请修正问题后重试。</value></data>
+  <data name="FanCurveSaveInvalid" xml:space="preserve"><value>{0}
+
+请先修正问题，再保存。</value></data>
+  <data name="FanCurveUnavailable" xml:space="preserve"><value>此机型不支持自定义风扇曲线，请改用 OEM 风扇配置。</value></data>
+  <data name="FanCurveUnavailableTitle" xml:space="preserve"><value>自定义曲线不可用</value></data>
+  <data name="FanPresetNameRequired" xml:space="preserve"><value>请输入预设名称。</value></data>
+  <data name="FanPresetNameRequiredTitle" xml:space="preserve"><value>需要名称</value></data>
+  <data name="FanPresetDeletePrompt" xml:space="preserve"><value>是否删除自定义预设“{0}”？</value></data>
+  <data name="FanPresetDeleteTitle" xml:space="preserve"><value>删除预设</value></data>
+  <data name="FanPresetMissing" xml:space="preserve"><value>配置中没有已保存的风扇预设。</value></data>
+  <data name="FanPresetReapplyTitle" xml:space="preserve"><value>重新应用已保存的预设</value></data>
+  <data name="FanPresetFileEmpty" xml:space="preserve"><value>文件中没有有效的风扇预设。</value></data>
+  <data name="FanPresetImported" xml:space="preserve"><value>已导入 {0} 个风扇预设</value></data>
+  <data name="FanPresetImportError" xml:space="preserve"><value>导入预设失败：{0}</value></data>
+  <data name="FanPresetExported" xml:space="preserve"><value>已导出 {0} 个风扇预设</value></data>
+  <data name="FanPresetExportTitle" xml:space="preserve"><value>导出完成</value></data>
+  <data name="FanPresetExportError" xml:space="preserve"><value>导出预设失败：{0}</value></data>
+  <data name="FanPresetExportErrorTitle" xml:space="preserve"><value>导出错误</value></data>
 </root>

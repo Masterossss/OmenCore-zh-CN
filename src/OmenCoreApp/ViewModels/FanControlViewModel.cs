@@ -13,6 +13,7 @@ using System.Windows.Input;
 using Microsoft.Win32;
 using OmenCore.Controls;
 using OmenCore.Models;
+using OmenCore.Localization;
 using OmenCore.Services;
 using OmenCore.Utils;
 
@@ -1262,7 +1263,7 @@ namespace OmenCore.ViewModels
                 var code = OmenCore.Utils.FanCurveShareCode.Generate(CustomFanCurve, SelectedPreset?.Name ?? "Custom Curve");
                 if (code == null)
                 {
-                    System.Windows.MessageBox.Show("Need at least 2 curve points to generate a share code.", "Cannot Copy Share Code",
+                    System.Windows.MessageBox.Show(Strings.FanShareNeedPoints, Strings.FanShareCannotCopy,
                         System.Windows.MessageBoxButton.OK, System.Windows.MessageBoxImage.Warning);
                     return;
                 }
@@ -1273,7 +1274,7 @@ namespace OmenCore.ViewModels
             catch (Exception ex)
             {
                 _logging.Error($"Failed to copy curve share code: {ex.Message}", ex);
-                System.Windows.MessageBox.Show($"Failed to copy share code: {ex.Message}", "Copy Failed",
+                System.Windows.MessageBox.Show(string.Format(Strings.FanShareCopyFailed, ex.Message), Strings.FanShareCopyFailedTitle,
                     System.Windows.MessageBoxButton.OK, System.Windows.MessageBoxImage.Error);
             }
         }
@@ -1289,7 +1290,7 @@ namespace OmenCore.ViewModels
             {
                 if (!System.Windows.Clipboard.ContainsText())
                 {
-                    System.Windows.MessageBox.Show("Clipboard doesn't contain text.", "Import Failed",
+                    System.Windows.MessageBox.Show(Strings.FanImportClipboardEmpty, Strings.FanImportFailedTitle,
                         System.Windows.MessageBoxButton.OK, System.Windows.MessageBoxImage.Warning);
                     return;
                 }
@@ -1297,7 +1298,7 @@ namespace OmenCore.ViewModels
                 var clipboardText = System.Windows.Clipboard.GetText();
                 if (!OmenCore.Utils.FanCurveShareCode.TryParse(clipboardText, out var points, out var name))
                 {
-                    System.Windows.MessageBox.Show("Clipboard doesn't contain a valid fan curve share code.", "Import Failed",
+                    System.Windows.MessageBox.Show(Strings.FanImportInvalidCode, Strings.FanImportFailedTitle,
                         System.Windows.MessageBoxButton.OK, System.Windows.MessageBoxImage.Warning);
                     return;
                 }
@@ -1309,13 +1310,13 @@ namespace OmenCore.ViewModels
                 }
 
                 _logging.Info($"📥 Imported fan curve '{name}' from share code ({points.Count} points)");
-                System.Windows.MessageBox.Show($"Imported curve \"{name}\" ({points.Count} points). Remember to apply/save it.", "Import Complete",
+                System.Windows.MessageBox.Show(string.Format(Strings.FanImportCurveComplete, name, points.Count), Strings.FanImportCompleteTitle,
                     System.Windows.MessageBoxButton.OK, System.Windows.MessageBoxImage.Information);
             }
             catch (Exception ex)
             {
                 _logging.Error($"Failed to import curve from clipboard: {ex.Message}", ex);
-                System.Windows.MessageBox.Show($"Failed to import share code: {ex.Message}", "Import Error",
+                System.Windows.MessageBox.Show(string.Format(Strings.FanShareImportError, ex.Message), Strings.FanImportErrorTitle,
                     System.Windows.MessageBoxButton.OK, System.Windows.MessageBoxImage.Error);
             }
         }
@@ -1629,8 +1630,8 @@ namespace OmenCore.ViewModels
             {
                 _logging.Warn($"Invalid fan curve: {validationError}");
                 System.Windows.MessageBox.Show(
-                    $"{validationError}\n\nThe fan curve was not applied. Please fix the issues and try again.",
-                    "Invalid Fan Curve",
+                    string.Format(Strings.FanCurveApplyInvalid, validationError),
+                    Strings.FanCurveInvalidTitle,
                     System.Windows.MessageBoxButton.OK,
                     System.Windows.MessageBoxImage.Warning);
                 return;
@@ -1863,8 +1864,8 @@ namespace OmenCore.ViewModels
             {
                 _logging.Warn("Skipped custom fan preset save because this model is limited to OEM fan profiles");
                 System.Windows.MessageBox.Show(
-                    "Custom fan curves are unavailable for this model. Use the OEM fan profiles instead.",
-                    "Custom Curves Unavailable",
+                    Strings.FanCurveUnavailable,
+                    Strings.FanCurveUnavailableTitle,
                     System.Windows.MessageBoxButton.OK,
                     System.Windows.MessageBoxImage.Information);
                 return;
@@ -1876,8 +1877,8 @@ namespace OmenCore.ViewModels
             {
                 _logging.Warn($"Cannot save invalid fan curve: {validationError}");
                 System.Windows.MessageBox.Show(
-                    $"{validationError}\n\nPlease fix the issues before saving.",
-                    "Invalid Fan Curve",
+                    string.Format(Strings.FanCurveSaveInvalid, validationError),
+                    Strings.FanCurveInvalidTitle,
                     System.Windows.MessageBoxButton.OK,
                     System.Windows.MessageBoxImage.Warning);
                 return;
@@ -1887,8 +1888,8 @@ namespace OmenCore.ViewModels
             {
                 _logging.Warn("Cannot save preset with empty name");
                 System.Windows.MessageBox.Show(
-                    "Please enter a name for the preset.",
-                    "Name Required",
+                    Strings.FanPresetNameRequired,
+                    Strings.FanPresetNameRequiredTitle,
                     System.Windows.MessageBoxButton.OK,
                     System.Windows.MessageBoxImage.Information);
                 return;
@@ -2002,8 +2003,8 @@ namespace OmenCore.ViewModels
             
             var presetName = SelectedPreset.Name;
             var result = System.Windows.MessageBox.Show(
-                $"Delete custom preset '{presetName}'?",
-                "Delete Preset",
+                string.Format(Strings.FanPresetDeletePrompt, presetName),
+                Strings.FanPresetDeleteTitle,
                 System.Windows.MessageBoxButton.YesNo,
                 System.Windows.MessageBoxImage.Question);
             
@@ -2228,7 +2229,7 @@ namespace OmenCore.ViewModels
             var saved = _configService.Config.LastFanPresetName;
             if (string.IsNullOrEmpty(saved))
             {
-                System.Windows.MessageBox.Show("No saved fan preset found in configuration.", "Reapply Saved Preset",
+                System.Windows.MessageBox.Show(Strings.FanPresetMissing, Strings.FanPresetReapplyTitle,
                     System.Windows.MessageBoxButton.OK, System.Windows.MessageBoxImage.Information);
                 return;
             }
@@ -2451,7 +2452,7 @@ namespace OmenCore.ViewModels
 
                     if (imported?.Presets == null || imported.Presets.Count == 0)
                     {
-                        System.Windows.MessageBox.Show("No valid fan presets found in file.", "Import Failed",
+                        System.Windows.MessageBox.Show(Strings.FanPresetFileEmpty, Strings.FanImportFailedTitle,
                             System.Windows.MessageBoxButton.OK, System.Windows.MessageBoxImage.Warning);
                         return;
                     }
@@ -2478,14 +2479,14 @@ namespace OmenCore.ViewModels
                     SavePresetsToConfig();
                     
                     _logging.Info($"📥 Imported {count} fan preset(s) from {dialog.FileName}");
-                    System.Windows.MessageBox.Show($"Imported {count} fan preset(s)", "Import Complete",
+                    System.Windows.MessageBox.Show(string.Format(Strings.FanPresetImported, count), Strings.FanImportCompleteTitle,
                         System.Windows.MessageBoxButton.OK, System.Windows.MessageBoxImage.Information);
                 }
             }
             catch (Exception ex)
             {
                 _logging.Error($"Failed to import fan presets: {ex.Message}", ex);
-                System.Windows.MessageBox.Show($"Failed to import presets: {ex.Message}", "Import Error",
+                System.Windows.MessageBox.Show(string.Format(Strings.FanPresetImportError, ex.Message), Strings.FanImportErrorTitle,
                     System.Windows.MessageBoxButton.OK, System.Windows.MessageBoxImage.Error);
             }
         }
@@ -2521,14 +2522,14 @@ namespace OmenCore.ViewModels
                     File.WriteAllText(dialog.FileName, json);
                     
                     _logging.Info($"📤 Exported {export.Presets.Count} fan preset(s) to {dialog.FileName}");
-                    System.Windows.MessageBox.Show($"Exported {export.Presets.Count} fan preset(s)", "Export Complete",
+                    System.Windows.MessageBox.Show(string.Format(Strings.FanPresetExported, export.Presets.Count), Strings.FanPresetExportTitle,
                         System.Windows.MessageBoxButton.OK, System.Windows.MessageBoxImage.Information);
                 }
             }
             catch (Exception ex)
             {
                 _logging.Error($"Failed to export fan presets: {ex.Message}", ex);
-                System.Windows.MessageBox.Show($"Failed to export presets: {ex.Message}", "Export Error",
+                System.Windows.MessageBox.Show(string.Format(Strings.FanPresetExportError, ex.Message), Strings.FanPresetExportErrorTitle,
                     System.Windows.MessageBoxButton.OK, System.Windows.MessageBoxImage.Error);
             }
         }

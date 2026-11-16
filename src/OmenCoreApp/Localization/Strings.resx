@@ -869,4 +869,37 @@ This changes the GPU's power limit beyond the laptop maker's setting. Higher pow
   <data name="GameProfileBrowseTitle" xml:space="preserve"><value>Select Game Executable</value></data>
   <data name="GameProfileInvalid" xml:space="preserve"><value>Invalid Game Profile</value></data>
   <data name="GameProfileSaveFailed" xml:space="preserve"><value>Failed to save profiles: {0}</value></data>
+  <data name="FanShareNeedPoints" xml:space="preserve"><value>Need at least 2 curve points to generate a share code.</value></data>
+  <data name="FanShareCannotCopy" xml:space="preserve"><value>Cannot Copy Share Code</value></data>
+  <data name="FanShareCopyFailed" xml:space="preserve"><value>Failed to copy share code: {0}</value></data>
+  <data name="FanShareCopyFailedTitle" xml:space="preserve"><value>Copy Failed</value></data>
+  <data name="FanImportClipboardEmpty" xml:space="preserve"><value>Clipboard doesn't contain text.</value></data>
+  <data name="FanImportInvalidCode" xml:space="preserve"><value>Clipboard doesn't contain a valid fan curve share code.</value></data>
+  <data name="FanImportFailedTitle" xml:space="preserve"><value>Import Failed</value></data>
+  <data name="FanImportCurveComplete" xml:space="preserve"><value>Imported curve "{0}" ({1} points). Remember to apply/save it.</value></data>
+  <data name="FanImportCompleteTitle" xml:space="preserve"><value>Import Complete</value></data>
+  <data name="FanShareImportError" xml:space="preserve"><value>Failed to import share code: {0}</value></data>
+  <data name="FanImportErrorTitle" xml:space="preserve"><value>Import Error</value></data>
+  <data name="FanCurveInvalidTitle" xml:space="preserve"><value>Invalid Fan Curve</value></data>
+  <data name="FanCurveApplyInvalid" xml:space="preserve"><value>{0}
+
+The fan curve was not applied. Please fix the issues and try again.</value></data>
+  <data name="FanCurveSaveInvalid" xml:space="preserve"><value>{0}
+
+Please fix the issues before saving.</value></data>
+  <data name="FanCurveUnavailable" xml:space="preserve"><value>Custom fan curves are unavailable for this model. Use the OEM fan profiles instead.</value></data>
+  <data name="FanCurveUnavailableTitle" xml:space="preserve"><value>Custom Curves Unavailable</value></data>
+  <data name="FanPresetNameRequired" xml:space="preserve"><value>Please enter a name for the preset.</value></data>
+  <data name="FanPresetNameRequiredTitle" xml:space="preserve"><value>Name Required</value></data>
+  <data name="FanPresetDeletePrompt" xml:space="preserve"><value>Delete custom preset '{0}'?</value></data>
+  <data name="FanPresetDeleteTitle" xml:space="preserve"><value>Delete Preset</value></data>
+  <data name="FanPresetMissing" xml:space="preserve"><value>No saved fan preset found in configuration.</value></data>
+  <data name="FanPresetReapplyTitle" xml:space="preserve"><value>Reapply Saved Preset</value></data>
+  <data name="FanPresetFileEmpty" xml:space="preserve"><value>No valid fan presets found in file.</value></data>
+  <data name="FanPresetImported" xml:space="preserve"><value>Imported {0} fan preset(s)</value></data>
+  <data name="FanPresetImportError" xml:space="preserve"><value>Failed to import presets: {0}</value></data>
+  <data name="FanPresetExported" xml:space="preserve"><value>Exported {0} fan preset(s)</value></data>
+  <data name="FanPresetExportTitle" xml:space="preserve"><value>Export Complete</value></data>
+  <data name="FanPresetExportError" xml:space="preserve"><value>Failed to export presets: {0}</value></data>
+  <data name="FanPresetExportErrorTitle" xml:space="preserve"><value>Export Error</value></data>
 </root>
