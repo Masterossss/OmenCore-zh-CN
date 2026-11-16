@@ -134,3 +134,9 @@
 - Bloatware：删除和还原的批量取消状态已处理，已完成与跳过数量保持；还原点、回滚详情及其他状态待审查。
 - 新增 41 个资源，四种语言各 1543 键；Debug 构建成功，32 项相关纯软件测试通过，38 个 XAML/资源 XML 文件解析通过。Release 本轮未重建；GUI 未执行。核心硬件项目及驱动本轮无差异，应用层历史完整审计仍未完成。
 - 四模块均不能据此标记源码验收完成。下一步从 Lighting 设备反馈、Memory 剩余绑定、SystemOptimizer 执行状态、Bloatware 还原点和回滚详情继续。代码提交 d60d44b、6d441ad、e172f29、d01135b、4e26eda。
+
+## 内存优化模块核查检查点（未完成）
+
+- 检查 MemoryOptimizerView XAML、code-behind、ViewModel 及清理结果显示链。静态 XML 结构化核查后，用户可见固定英文仅保留 MB 单位；新增清理说明、风险提示、管理员权限说明、内存趋势标题和自动清理配置的显示资源。配置选项原始字符串仍用于选择和保存。
+- 清理结果显示与复制分离；已知服务错误、标准 delta 和自动清理原因有映射，未知服务异常保留原文。经追踪发现 NotificationService.ShowMemoryCleaned 仍以英文生成通知及通知历史（src/OmenCore.Core/Services/NotificationService.cs:178），必须处理其共享历史/日志语义，不能标记整个模块源码完成。
+- 本轮新增 11 资源，Debug 构建成功、32 项相关纯软件测试通过；实际 GUI、清理和硬件操作未执行。模块余项：通知显示边界及历史兼容性、动态状态与绑定完整性最终复核；下一步从 ShowMemoryCleaned 的通知事件链继续，再继续另外三个模块。代码提交 1be1a21。
