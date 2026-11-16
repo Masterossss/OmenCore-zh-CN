@@ -4,6 +4,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Text.RegularExpressions;
 using System.Xml.Linq;
 using FluentAssertions;
 using OmenCore.Localization;
@@ -19,7 +20,7 @@ namespace OmenCoreApp.Tests.Localization
     /// </summary>
     public class StringsResourceTests
     {
-        private static readonly string[] Languages = { "en", "ru", "tr" };
+        private static readonly string[] Languages = { "en", "ru", "tr", "zh-CN" };
 
         private static string LocalizationDirectory()
         {
@@ -80,6 +81,23 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void TranslationsPreserveCompositeFormatArguments()
+        {
+            var english = ReadCatalogue("en");
+            foreach (string language in Languages.Where(l => l != "en"))
+            {
+                var translated = ReadCatalogue(language);
+                foreach (var pair in english)
+                {
+                    var pattern = @"(?<!\{)\{\d+(?:,[^}:]+)?(?::[^}]+)?\}(?!\})";
+                    var expected = Regex.Matches(pair.Value, pattern).Select(m => m.Value).OrderBy(x => x);
+                    var actual = Regex.Matches(translated[pair.Key], pattern).Select(m => m.Value).OrderBy(x => x);
+                    actual.Should().Equal(expected, $"'{pair.Key}' in '{language}' must preserve format arguments");
+                }
+            }
+        }
+
+        [Fact]
         public void EveryCatalogueKeyHasTypedAccessor()
         {
             var properties = typeof(Strings)
@@ -100,6 +118,7 @@ namespace OmenCoreApp.Tests.Localization
             Language.Resolve("en").TwoLetterISOLanguageName.Should().Be("en");
             Language.Resolve("ru").TwoLetterISOLanguageName.Should().Be("ru");
             Language.Resolve("tr").TwoLetterISOLanguageName.Should().Be("tr");
+            Language.Resolve("zh-CN").Name.Should().Be("zh-CN");
         }
 
         [Fact]
@@ -118,6 +137,7 @@ namespace OmenCoreApp.Tests.Localization
             Language.Normalize(null).Should().Be(Language.SystemDefault);
             Language.Normalize("  ").Should().Be(Language.SystemDefault);
             Language.Normalize("RU").Should().Be("ru");
+            Language.Normalize(" ZH-cn ").Should().Be("zh-CN");
             Language.Normalize("de").Should().Be(Language.SystemDefault);
         }
 
@@ -137,6 +157,10 @@ namespace OmenCoreApp.Tests.Localization
 
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("tr");
                 Strings.NavGames.Should().Be("Oyunlar");
+
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                Strings.NavSettings.Should().Be("设置");
+                Strings.WindowMinimize.Should().Be("最小化");
 
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
                 Strings.NavGames.Should().Be("Games");

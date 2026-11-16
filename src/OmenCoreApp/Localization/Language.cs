@@ -27,7 +27,8 @@ namespace OmenCore.Localization
             new LanguageOption(SystemDefault, "System default"),
             new LanguageOption("en", "English"),
             new LanguageOption("ru", "Русский"),
-            new LanguageOption("tr", "Türkçe")
+            new LanguageOption("tr", "Türkçe"),
+            new LanguageOption("zh-CN", "简体中文")
         };
 
         /// <summary>
@@ -42,8 +43,9 @@ namespace OmenCore.Localization
                 return SystemDefault;
             }
 
-            string trimmed = code.Trim().ToLowerInvariant();
-            return Supported.Any(option => option.Code == trimmed) ? trimmed : SystemDefault;
+            string trimmed = code.Trim();
+            return Supported.FirstOrDefault(option =>
+                string.Equals(option.Code, trimmed, StringComparison.OrdinalIgnoreCase))?.Code ?? SystemDefault;
         }
 
         /// <summary>
