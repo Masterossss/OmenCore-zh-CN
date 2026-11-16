@@ -5,6 +5,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Navigation;
 using OmenCore.Services;
+using OmenCore.Localization;
 using OmenCore.Utils;
 
 namespace OmenCore.Views
@@ -18,7 +19,7 @@ namespace OmenCore.Views
         {
             InitializeComponent();
             _updateService = new AutoUpdateService(App.Logging, "https://api.github.com/repos/theantipopau/omencore/releases/latest");
-            VersionText.Text = $"Version {AppVersionProvider.GetVersionString()}";
+            VersionText.Text = string.Format(Strings.AboutVersion, AppVersionProvider.GetVersionString());
         }
 
         private async void CheckUpdatesClicked(object sender, RoutedEventArgs e)
@@ -27,7 +28,7 @@ namespace OmenCore.Views
             
             _isCheckingUpdates = true;
             CheckUpdatesButton.IsEnabled = false;
-            SetStatus("Checking for updates...", "TextSecondaryBrush");
+            SetStatus(Strings.AboutChecking, "TextSecondaryBrush");
             
             try
             {
@@ -36,13 +37,13 @@ namespace OmenCore.Views
                 if (result.UpdateAvailable && result.LatestVersion != null)
                 {
                     var latest = result.LatestVersion;
-                    SetStatus($"Update available: v{latest.VersionString}", "SuccessBrush");
+                    SetStatus(string.Format(Strings.AboutUpdateAvailableStatus, latest.VersionString), "SuccessBrush");
 
                     if (string.IsNullOrWhiteSpace(latest.DownloadUrl))
                     {
                         var openRelease = MessageBox.Show(
-                            "A new version is available on GitHub. Open the release page now?",
-                            "Update Available",
+                            Strings.AboutOpenRelease,
+                            Strings.AboutUpdateAvailable,
                             MessageBoxButton.YesNo,
                             MessageBoxImage.Information);
 
@@ -55,19 +56,19 @@ namespace OmenCore.Views
                     }
 
                     var msgResult = MessageBox.Show(
-                        $"A new version is available!\n\nCurrent: {result.CurrentVersion.VersionString}\nLatest: {latest.VersionString}\n\nWould you like to download and install it now?",
-                        "Update Available",
+                        string.Format(Strings.AboutInstallPrompt, result.CurrentVersion.VersionString, latest.VersionString),
+                        Strings.AboutUpdateAvailable,
                         MessageBoxButton.YesNo,
                         MessageBoxImage.Information);
 
                     if (msgResult == MessageBoxResult.Yes)
                     {
-                        SetStatus("Downloading update...", "TextSecondaryBrush");
+                        SetStatus(Strings.AboutDownloading, "TextSecondaryBrush");
                         var installerPath = await _updateService.DownloadUpdateAsync(latest);
 
                         if (installerPath != null)
                         {
-                            SetStatus("Installing update...", "TextSecondaryBrush");
+                            SetStatus(Strings.AboutInstalling, "TextSecondaryBrush");
                             var installResult = await _updateService.InstallUpdateAsync(installerPath);
                             if (!installResult.Success)
                             {
@@ -76,12 +77,12 @@ namespace OmenCore.Views
                         }
                         else
                         {
-                                SetStatus("Download failed. Open GitHub releases to install manually.", "AccentBrush");
+                                SetStatus(Strings.AboutDownloadFailedStatus, "AccentBrush");
                                 if (!string.IsNullOrWhiteSpace(latest.ChangelogUrl))
                                 {
                                     var openGitHub = MessageBox.Show(
-                                        "The update could not be downloaded or verified.\n\nOpen GitHub releases to download manually?",
-                                        "Update Download Failed",
+                                        Strings.AboutDownloadFailedPrompt,
+                                        Strings.AboutDownloadFailed,
                                         MessageBoxButton.YesNo,
                                         MessageBoxImage.Warning);
                                     if (openGitHub == MessageBoxResult.Yes)
@@ -97,7 +98,7 @@ namespace OmenCore.Views
             }
             catch (Exception ex)
             {
-                SetStatus($"Update check failed: {ex.Message}", "AccentBrush");
+                SetStatus(string.Format(Strings.AboutCheckFailed, ex.Message), "AccentBrush");
             }
             finally
             {

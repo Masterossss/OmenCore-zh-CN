@@ -165,4 +165,40 @@
   <data name="SettingsTelemetryHelp" xml:space="preserve">
     <value>分享匿名汇总的 Corsair PID 成功和失败次数，帮助改进设备支持。不收集可识别设备的数据。</value>
   </data>
+  <data name="AboutTitle" xml:space="preserve"><value>关于 OmenCore</value></data>
+  <data name="AboutTagline" xml:space="preserve"><value>游戏笔记本与台式机控制中心</value></data>
+  <data name="AboutCloseEsc" xml:space="preserve"><value>关闭（Esc）</value></data>
+  <data name="AboutDescription" xml:space="preserve"><value>为 HP OMEN 游戏笔记本和台式机提供高级散热、电源和 RGB 控制。</value></data>
+  <data name="AboutFanFeature" xml:space="preserve"><value>✓ WMI/EC 风扇控制和自定义曲线</value></data>
+  <data name="AboutCpuFeature" xml:space="preserve"><value>✓ CPU 降压（Intel）和曲线优化器（AMD）</value></data>
+  <data name="AboutGpuFeature" xml:space="preserve"><value>✓ GPU 动态增强（TGP/PPAB）</value></data>
+  <data name="AboutMonitoringFeature" xml:space="preserve"><value>✓ 免驱动监控（WMI BIOS + NVAPI + PawnIO）</value></data>
+  <data name="AboutGameFeature" xml:space="preserve"><value>✓ 按游戏自动切换配置文件</value></data>
+  <data name="AboutKeyboardFeature" xml:space="preserve"><value>✓ V2 键盘引擎（逐键 EC 和 WMI 灯光）</value></data>
+  <data name="AboutDiagnosticsFeature" xml:space="preserve"><value>✓ 引导式风扇诊断</value></data>
+  <data name="AboutMemoryFeature" xml:space="preserve"><value>✓ 内存优化</value></data>
+  <data name="AboutHeadlessFeature" xml:space="preserve"><value>✓ 无界面模式（仅托盘，无窗口）</value></data>
+  <data name="AboutRealtimeFeature" xml:space="preserve"><value>✓ 实时硬件监控</value></data>
+  <data name="AboutCheckUpdates" xml:space="preserve"><value>⟳ 检查更新</value></data>
+  <data name="AboutCheckUpdatesHelp" xml:space="preserve"><value>检查 GitHub 上是否有新版本</value></data>
+  <data name="AboutCloseHelp" xml:space="preserve"><value>关闭此窗口（Esc）</value></data>
+  <data name="AboutVersion" xml:space="preserve"><value>版本 {0}</value></data>
+  <data name="AboutChecking" xml:space="preserve"><value>正在检查更新...</value></data>
+  <data name="AboutUpdateAvailableStatus" xml:space="preserve"><value>有可用更新：v{0}</value></data>
+  <data name="AboutOpenRelease" xml:space="preserve"><value>GitHub 上有新版本。现在打开发布页面吗？</value></data>
+  <data name="AboutUpdateAvailable" xml:space="preserve"><value>有可用更新</value></data>
+  <data name="AboutInstallPrompt" xml:space="preserve"><value>有新版本可用！
+
+当前版本：{0}
+最新版本：{1}
+
+现在下载并安装吗？</value></data>
+  <data name="AboutDownloading" xml:space="preserve"><value>正在下载更新...</value></data>
+  <data name="AboutInstalling" xml:space="preserve"><value>正在安装更新...</value></data>
+  <data name="AboutDownloadFailedStatus" xml:space="preserve"><value>下载失败。请打开 GitHub 发布页面并手动安装。</value></data>
+  <data name="AboutDownloadFailedPrompt" xml:space="preserve"><value>无法下载或验证更新。
+
+打开 GitHub 发布页面手动下载吗？</value></data>
+  <data name="AboutDownloadFailed" xml:space="preserve"><value>更新下载失败</value></data>
+  <data name="AboutCheckFailed" xml:space="preserve"><value>检查更新失败：{0}</value></data>
 </root>

@@ -82,5 +82,34 @@ namespace OmenCore.Localization
         public static string SettingsCorsairHidOnlyWarning => Get(nameof(SettingsCorsairHidOnlyWarning));
         public static string SettingsTelemetry => Get(nameof(SettingsTelemetry));
         public static string SettingsTelemetryHelp => Get(nameof(SettingsTelemetryHelp));
+        public static string AboutTitle => Get(nameof(AboutTitle));
+        public static string AboutTagline => Get(nameof(AboutTagline));
+        public static string AboutCloseEsc => Get(nameof(AboutCloseEsc));
+        public static string AboutDescription => Get(nameof(AboutDescription));
+        public static string AboutFanFeature => Get(nameof(AboutFanFeature));
+        public static string AboutCpuFeature => Get(nameof(AboutCpuFeature));
+        public static string AboutGpuFeature => Get(nameof(AboutGpuFeature));
+        public static string AboutMonitoringFeature => Get(nameof(AboutMonitoringFeature));
+        public static string AboutGameFeature => Get(nameof(AboutGameFeature));
+        public static string AboutKeyboardFeature => Get(nameof(AboutKeyboardFeature));
+        public static string AboutDiagnosticsFeature => Get(nameof(AboutDiagnosticsFeature));
+        public static string AboutMemoryFeature => Get(nameof(AboutMemoryFeature));
+        public static string AboutHeadlessFeature => Get(nameof(AboutHeadlessFeature));
+        public static string AboutRealtimeFeature => Get(nameof(AboutRealtimeFeature));
+        public static string AboutCheckUpdates => Get(nameof(AboutCheckUpdates));
+        public static string AboutCheckUpdatesHelp => Get(nameof(AboutCheckUpdatesHelp));
+        public static string AboutCloseHelp => Get(nameof(AboutCloseHelp));
+        public static string AboutVersion => Get(nameof(AboutVersion));
+        public static string AboutChecking => Get(nameof(AboutChecking));
+        public static string AboutUpdateAvailableStatus => Get(nameof(AboutUpdateAvailableStatus));
+        public static string AboutOpenRelease => Get(nameof(AboutOpenRelease));
+        public static string AboutUpdateAvailable => Get(nameof(AboutUpdateAvailable));
+        public static string AboutInstallPrompt => Get(nameof(AboutInstallPrompt));
+        public static string AboutDownloading => Get(nameof(AboutDownloading));
+        public static string AboutInstalling => Get(nameof(AboutInstalling));
+        public static string AboutDownloadFailedStatus => Get(nameof(AboutDownloadFailedStatus));
+        public static string AboutDownloadFailedPrompt => Get(nameof(AboutDownloadFailedPrompt));
+        public static string AboutDownloadFailed => Get(nameof(AboutDownloadFailed));
+        public static string AboutCheckFailed => Get(nameof(AboutCheckFailed));
     }
 }

@@ -169,4 +169,40 @@
   <data name="SettingsTelemetryHelp" xml:space="preserve">
     <value>Aygıt kapsamını iyileştirmemize yardımcı olmak için anonim, toplu Corsair PID başarı/başarısızlık sayılarını paylaş. Aygıtı tanımlayan veri toplanmaz.</value>
   </data>
+  <data name="AboutTitle" xml:space="preserve"><value>About OmenCore</value></data>
+  <data name="AboutTagline" xml:space="preserve"><value>Gaming Laptop and Desktop Control Center</value></data>
+  <data name="AboutCloseEsc" xml:space="preserve"><value>Close (Esc)</value></data>
+  <data name="AboutDescription" xml:space="preserve"><value>Advanced thermal, power, and RGB control for HP OMEN gaming laptops and desktops.</value></data>
+  <data name="AboutFanFeature" xml:space="preserve"><value>✓ WMI/EC Fan Control with Custom Curves</value></data>
+  <data name="AboutCpuFeature" xml:space="preserve"><value>✓ CPU Undervolt (Intel) &amp; Curve Optimizer (AMD)</value></data>
+  <data name="AboutGpuFeature" xml:space="preserve"><value>✓ GPU Dynamic Boost (TGP/PPAB)</value></data>
+  <data name="AboutMonitoringFeature" xml:space="preserve"><value>✓ Driver-Free Monitoring (WMI BIOS + NVAPI + PawnIO)</value></data>
+  <data name="AboutGameFeature" xml:space="preserve"><value>✓ Per-Game Profile Auto-Switching</value></data>
+  <data name="AboutKeyboardFeature" xml:space="preserve"><value>✓ V2 Keyboard Engine (Per-Key EC &amp; WMI Lighting)</value></data>
+  <data name="AboutDiagnosticsFeature" xml:space="preserve"><value>✓ Guided Fan Diagnostics</value></data>
+  <data name="AboutMemoryFeature" xml:space="preserve"><value>✓ Memory Optimizer</value></data>
+  <data name="AboutHeadlessFeature" xml:space="preserve"><value>✓ Headless Mode (Tray-Only, No Window)</value></data>
+  <data name="AboutRealtimeFeature" xml:space="preserve"><value>✓ Real-Time Hardware Monitoring</value></data>
+  <data name="AboutCheckUpdates" xml:space="preserve"><value>⟳ Check for Updates</value></data>
+  <data name="AboutCheckUpdatesHelp" xml:space="preserve"><value>Check GitHub for new releases</value></data>
+  <data name="AboutCloseHelp" xml:space="preserve"><value>Close this window (Esc)</value></data>
+  <data name="AboutVersion" xml:space="preserve"><value>Version {0}</value></data>
+  <data name="AboutChecking" xml:space="preserve"><value>Checking for updates...</value></data>
+  <data name="AboutUpdateAvailableStatus" xml:space="preserve"><value>Update available: v{0}</value></data>
+  <data name="AboutOpenRelease" xml:space="preserve"><value>A new version is available on GitHub. Open the release page now?</value></data>
+  <data name="AboutUpdateAvailable" xml:space="preserve"><value>Update Available</value></data>
+  <data name="AboutInstallPrompt" xml:space="preserve"><value>A new version is available!
+
+Current: {0}
+Latest: {1}
+
+Would you like to download and install it now?</value></data>
+  <data name="AboutDownloading" xml:space="preserve"><value>Downloading update...</value></data>
+  <data name="AboutInstalling" xml:space="preserve"><value>Installing update...</value></data>
+  <data name="AboutDownloadFailedStatus" xml:space="preserve"><value>Download failed. Open GitHub releases to install manually.</value></data>
+  <data name="AboutDownloadFailedPrompt" xml:space="preserve"><value>The update could not be downloaded or verified.
+
+Open GitHub releases to download manually?</value></data>
+  <data name="AboutDownloadFailed" xml:space="preserve"><value>Update Download Failed</value></data>
+  <data name="AboutCheckFailed" xml:space="preserve"><value>Update check failed: {0}</value></data>
 </root>
