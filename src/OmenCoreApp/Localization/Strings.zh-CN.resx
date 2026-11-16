@@ -361,4 +361,166 @@
   <data name="FanDiagnosticsViewText89" xml:space="preserve"><value>历史记录</value></data>
   <data name="FanDiagnosticsViewText97" xml:space="preserve"><value>请求值：</value></data>
   <data name="FanDiagnosticsViewText106" xml:space="preserve"><value>证据：</value></data>
+  <data name="FanControlViewText65" xml:space="preserve"><value>风扇与散热控制</value></data>
+  <data name="FanControlViewText66" xml:space="preserve"><value>管理笔记本的散热性能。所有风扇控制均使用笔记本的标准固件接口（WMI BIOS）。软件命令不会损坏硬件。</value></data>
+  <data name="FanControlViewText113" xml:space="preserve"><value>曲线已启用</value></data>
+  <data name="FanControlViewText128" xml:space="preserve"><value>风扇与性能模式现已默认解除联动</value></data>
+  <data name="FanControlViewText133" xml:space="preserve"><value>关闭</value></data>
+  <data name="FanControlViewText149" xml:space="preserve"><value>检测到可能的风扇硬件问题</value></data>
+  <data name="FanControlViewText152" xml:space="preserve"><value>OmenCore 使用笔记本的标准固件接口（WMI BIOS）。软件命令不会损坏硬件。如果问题持续存在，请联系 HP 支持或检查风扇硬件。</value></data>
+  <data name="FanControlViewText156" xml:space="preserve"><value>关闭</value></data>
+  <data name="FanControlViewText181" xml:space="preserve"><value>风扇配置</value></data>
+  <data name="FanControlViewText189" xml:space="preserve"><value>清除 OmenCore 的风扇控制权，将控制权交还固件自动模式</value></data>
+  <data name="FanControlViewText191" xml:space="preserve"><value>恢复 OEM 自动模式</value></data>
+  <data name="FanControlViewText207" xml:space="preserve"><value>强制所有风扇以最大转速运行。适用于高负载游戏或压力测试。</value></data>
+  <data name="FanControlViewText228" xml:space="preserve"><value>最大</value></data>
+  <data name="FanControlViewText266" xml:space="preserve"><value>直接控制</value></data>
+  <data name="FanControlViewText271" xml:space="preserve"><value>确定</value></data>
+  <data name="FanControlViewText284" xml:space="preserve"><value>最大模式以外散热最强的曲线。将 100% 风扇占空比留给更高温度；如需立即达到全速，请使用最大模式。</value></data>
+  <data name="FanControlViewText305" xml:space="preserve"><value>极限</value></data>
+  <data name="FanControlViewText323" xml:space="preserve"><value>升速较快的积极风扇曲线，适合游戏。</value></data>
+  <data name="FanControlViewText344" xml:space="preserve"><value>游戏</value></data>
+  <data name="FanControlViewText362" xml:space="preserve"><value>由 BIOS 控制的均衡曲线，推荐日常使用。</value></data>
+  <data name="FanControlViewText383" xml:space="preserve"><value>自动</value></data>
+  <data name="FanControlViewText401" xml:space="preserve"><value>优先保持安静。温度明显升高之前风扇保持低速。</value></data>
+  <data name="FanControlViewText422" xml:space="preserve"><value>静音</value></data>
+  <data name="FanControlViewText423" xml:space="preserve"><value>安静</value></data>
+  <data name="FanControlViewText462" xml:space="preserve"><value>自定义</value></data>
+  <data name="FanControlViewText489" xml:space="preserve"><value>直接设置风扇档位</value></data>
+  <data name="FanControlViewText508" xml:space="preserve"><value>拖动以请求固定风扇档位</value></data>
+  <data name="FanControlViewText524" xml:space="preserve"><value>立即应用所选直接风扇档位</value></data>
+  <data name="FanControlViewText526" xml:space="preserve"><value>应用</value></data>
+  <data name="FanControlViewText540" xml:space="preserve"><value>自定义预设名称</value></data>
+  <data name="FanControlViewText545" xml:space="preserve"><value>将当前曲线保存为自定义预设</value></data>
+  <data name="FanControlViewText549" xml:space="preserve"><value>保存</value></data>
+  <data name="FanControlViewText556" xml:space="preserve"><value>已保存：</value></data>
+  <data name="FanControlViewText562" xml:space="preserve"><value>选择要加载的已保存自定义预设</value></data>
+  <data name="FanControlViewText567" xml:space="preserve"><value>删除选中的自定义预设</value></data>
+  <data name="FanControlViewText574" xml:space="preserve"><value>从 JSON 文件导入预设</value></data>
+  <data name="FanControlViewText576" xml:space="preserve"><value>导入</value></data>
+  <data name="FanControlViewText581" xml:space="preserve"><value>将预设导出为 JSON 文件</value></data>
+  <data name="FanControlViewText583" xml:space="preserve"><value>导出</value></data>
+  <data name="FanControlViewText596" xml:space="preserve"><value>目前重启后不会保留</value></data>
+  <data name="FanControlViewText601" xml:space="preserve"><value>关闭</value></data>
+  <data name="FanControlViewText611" xml:space="preserve"><value>立即应用</value></data>
+  <data name="FanControlViewText614" xml:space="preserve"><value>保存或应用时跳过平滑处理</value></data>
+  <data name="FanControlViewText619" xml:space="preserve"><value>平滑时间：</value></data>
+  <data name="FanControlViewText626" xml:space="preserve"><value>步长：</value></data>
+  <data name="FanControlViewText635" xml:space="preserve"><value>独立控制 CPU/GPU</value></data>
+  <data name="FanControlViewText639" xml:space="preserve"><value>GPU 风扇写入支持因型号而异；统一曲线模式仍是安全的默认选项</value></data>
+  <data name="FanControlViewText649" xml:space="preserve"><value>GPU 风扇曲线支持状态</value></data>
+  <data name="FanControlViewText705" xml:space="preserve"><value>可视化曲线编辑器</value></data>
+  <data name="FanControlViewText714" xml:space="preserve"><value>添加曲线点（最多 10 个）</value></data>
+  <data name="FanControlViewText722" xml:space="preserve"><value>移除最后一个曲线点（最少 2 个）</value></data>
+  <data name="FanControlViewText730" xml:space="preserve"><value>将曲线重置为默认值</value></data>
+  <data name="FanControlViewText738" xml:space="preserve"><value>将此曲线复制为分享代码，可粘贴到 Discord、Reddit 或 GitHub 评论中</value></data>
+  <data name="FanControlViewText745" xml:space="preserve"><value>从剪贴板中的分享代码导入风扇曲线</value></data>
+  <data name="FanControlViewText798" xml:space="preserve"><value>实时预览：</value></data>
+  <data name="FanControlViewText862" xml:space="preserve"><value>当前曲线点：</value></data>
+  <data name="FanControlViewText916" xml:space="preserve"><value>风扇曲线（按 CPU 温度）</value></data>
+  <data name="FanControlViewText987" xml:space="preserve"><value>风扇曲线（按 GPU 温度）</value></data>
+  <data name="FanControlViewText998" xml:space="preserve"><value>将 CPU 曲线复制到 GPU</value></data>
+  <data name="FanControlViewText1066" xml:space="preserve"><value>温度历史</value></data>
+  <data name="FanControlViewText1077" xml:space="preserve"><value>实时状态</value></data>
+  <data name="FanControlViewText1099" xml:space="preserve"><value>散热保护已启动</value></data>
+  <data name="FanControlViewText1114" xml:space="preserve"><value>风扇控制方</value></data>
+  <data name="FanControlViewText1144" xml:space="preserve"><value>校准向导</value></data>
+  <data name="TuningViewText44" xml:space="preserve"><value>CPU / GPU 调校</value></data>
+  <data name="TuningViewText45" xml:space="preserve"><value>高级性能调校 · 降压 · 超频 · 功率限制</value></data>
+  <data name="TuningViewText66" xml:space="preserve"><value>高级调校</value></data>
+  <data name="TuningViewText142" xml:space="preserve"><value>调校状态</value></data>
+  <data name="TuningViewText168" xml:space="preserve"><value>在支持的情况下重置当前调校，并将启动时调校状态恢复为安全的均衡/自动默认值。</value></data>
+  <data name="TuningViewText178" xml:space="preserve"><value>安全回滚</value></data>
+  <data name="TuningViewText190" xml:space="preserve"><value>CPU 调校</value></data>
+  <data name="TuningViewText199" xml:space="preserve"><value>此设备不支持 CPU 降压</value></data>
+  <data name="TuningViewText250" xml:space="preserve"><value>状态：</value></data>
+  <data name="TuningViewText298" xml:space="preserve"><value>温度</value></data>
+  <data name="TuningViewText314" xml:space="preserve"><value>功率</value></data>
+  <data name="TuningViewText352" xml:space="preserve"><value>核心偏移</value></data>
+  <data name="TuningViewText354" xml:space="preserve"><value>电压</value></data>
+  <data name="TuningViewText416" xml:space="preserve"><value>应用上方 CPU 电压偏移。偏移过大可能导致不稳定或崩溃，请逐步测试。</value></data>
+  <data name="TuningViewText419" xml:space="preserve"><value>重置为 0 mV</value></data>
+  <data name="TuningViewText423" xml:space="preserve"><value>移除 CPU 电压偏移，恢复默认电压。</value></data>
+  <data name="TuningViewText433" xml:space="preserve"><value>调整 CPU 持续功率限制（PL1）和短时功率限制（PL2）。数值越高性能可能越强，但发热也越高。</value></data>
+  <data name="TuningViewText466" xml:space="preserve"><value>CPU 功率限制（PL1/PL2）</value></data>
+  <data name="TuningViewText477" xml:space="preserve"><value>从硬件重新读取当前 CPU 功率限制。</value></data>
+  <data name="TuningViewText516" xml:space="preserve"><value>PL1 持续功率</value></data>
+  <data name="TuningViewText518" xml:space="preserve"><value>长期 TDP</value></data>
+  <data name="TuningViewText556" xml:space="preserve"><value>PL2 短时功率</value></data>
+  <data name="TuningViewText558" xml:space="preserve"><value>睿频功率</value></data>
+  <data name="TuningViewText601" xml:space="preserve"><value>功率限制已被 BIOS 锁定</value></data>
+  <data name="TuningViewText609" xml:space="preserve"><value>应用功率限制</value></data>
+  <data name="TuningViewText614" xml:space="preserve"><value>应用上方 CPU PL1/PL2 功率限制。更高的限制可提供更持久的性能，但发热也更高。</value></data>
+  <data name="TuningViewText617" xml:space="preserve"><value>恢复默认设置</value></data>
+  <data name="TuningViewText622" xml:space="preserve"><value>将 CPU 功率限制恢复为此型号的出厂值。</value></data>
+  <data name="TuningViewText632" xml:space="preserve"><value>通过 SMU 控制 AMD Ryzen STAPM 功率和 Tctl 温度限制。</value></data>
+  <data name="TuningViewText652" xml:space="preserve"><value>AMD CPU 功率限制</value></data>
+  <data name="TuningViewText685" xml:space="preserve"><value>持续功率</value></data>
+  <data name="TuningViewText709" xml:space="preserve"><value>TCTL 限制</value></data>
+  <data name="TuningViewText710" xml:space="preserve"><value>降频温度</value></data>
+  <data name="TuningViewText730" xml:space="preserve"><value>当前生效值</value></data>
+  <data name="TuningViewText758" xml:space="preserve"><value>刷新</value></data>
+  <data name="TuningViewText762" xml:space="preserve"><value>从 SMU 读回四项功率限制，不执行写入。</value></data>
+  <data name="TuningViewText764" xml:space="preserve"><value>应用 AMD 限制</value></data>
+  <data name="TuningViewText768" xml:space="preserve"><value>应用上方 AMD STAPM/温度限制。</value></data>
+  <data name="TuningViewText770" xml:space="preserve"><value>恢复默认设置</value></data>
+  <data name="TuningViewText774" xml:space="preserve"><value>将 AMD CPU 功率限制恢复为此型号的出厂值。</value></data>
+  <data name="TuningViewText784" xml:space="preserve"><value>AMD CPU 功率限制</value></data>
+  <data name="TuningViewText826" xml:space="preserve"><value>TCC 偏移（温度降频点）</value></data>
+  <data name="TuningViewText828" xml:space="preserve"><value>降低 CPU Tjmax 降频温度</value></data>
+  <data name="TuningViewText847" xml:space="preserve"><value>TCC 偏移</value></data>
+  <data name="TuningViewText880" xml:space="preserve"><value>应用限制</value></data>
+  <data name="TuningViewText884" xml:space="preserve"><value>应用上方 CPU 温度降频限制。CPU 将在此温度开始降频，而非使用原有温度限制。</value></data>
+  <data name="TuningViewText887" xml:space="preserve"><value>移除限制</value></data>
+  <data name="TuningViewText891" xml:space="preserve"><value>移除温度降频限制，恢复 CPU 的原有降频温度。</value></data>
+  <data name="TuningViewText902" xml:space="preserve"><value>GPU 调校</value></data>
+  <data name="TuningViewText910" xml:space="preserve"><value>GPU 功率策略（只读）</value></data>
+  <data name="TuningViewText912" xml:space="preserve"><value>NVIDIA 驱动当前执行的限制。笔记本固件可能将其限制在低于驱动最大值的水平。</value></data>
+  <data name="TuningViewText921" xml:space="preserve"><value>NVIDIA 功率解锁（高级功能，默认关闭）</value></data>
+  <data name="TuningViewText923" xml:space="preserve"><value>顺序：1）获取 VBIOS；2）应用 MAX；3）重启 Windows；4）应用 CURRENT。此操作会将 GPU 功率限制提高到高于笔记本制造商设定的水平。MAX 保存在 NVIDIA 驱动注册表中，需要重启；CURRENT 即时生效并在重启后重置。功率越高，发热越大。基于 timmyy123 的 nvidia-power-control 和 bobshmo 的 OmenCore-Prophecy，并已获得其许可。</value></data>
+  <data name="TuningViewText924" xml:space="preserve"><value>启用 NVIDIA 功率解锁</value></data>
+  <data name="TuningViewText929" xml:space="preserve"><value>目标（W）</value></data>
+  <data name="TuningViewText934" xml:space="preserve"><value>读取 VBIOS 功率表。需要将 nvflash64.exe（RTX 50 系列使用 nvflashb.exe）放在 OmenCore.exe 旁边，或使用“从文件读取”。应用 CURRENT 不需要此工具。</value></data>
+  <data name="TuningViewText935" xml:space="preserve"><value>从文件读取...</value></data>
+  <data name="TuningViewText936" xml:space="preserve"><value>应用 MAX（需重启）</value></data>
+  <data name="TuningViewText937" xml:space="preserve"><value>应用 CURRENT</value></data>
+  <data name="TuningViewText938" xml:space="preserve"><value>移除 MAX 覆盖设置</value></data>
+  <data name="TuningViewText939" xml:space="preserve"><value>刷新</value></data>
+  <data name="TuningViewText943" xml:space="preserve"><value>注意：不要禁用 PPAB（Dynamic Boost）；电源适配器限制同时适用于 CPU 和 GPU。显卡驱动更新可能撤销解锁，请在更新后检查实时值。RTX 5050 尚未测试。如果 CURRENT 无法保持，请切换 HP 性能模式后再切回，然后重新应用。</value></data>
+  <data name="TuningViewText992" xml:space="preserve"><value>驱动 </value></data>
+  <data name="TuningViewText1021" xml:space="preserve"><value>指示经确认的 GPU 超频配置是否获准在 OmenCore 启动时重新应用。仅保存或选择配置并不会授权启动时写入。</value></data>
+  <data name="TuningViewText1049" xml:space="preserve"><value>温度</value></data>
+  <data name="TuningViewText1065" xml:space="preserve"><value>功率</value></data>
+  <data name="TuningViewText1083" xml:space="preserve"><value>频率</value></data>
+  <data name="TuningViewText1111" xml:space="preserve"><value>GPU 降压：</value></data>
+  <data name="TuningViewText1134" xml:space="preserve"><value>检测到的 GPU 安全限制</value></data>
+  <data name="TuningViewText1180" xml:space="preserve"><value>已启用</value></data>
+  <data name="TuningViewText1186" xml:space="preserve"><value>核心</value></data>
+  <data name="TuningViewText1193" xml:space="preserve"><value>显存</value></data>
+  <data name="TuningViewText1200" xml:space="preserve"><value>功率</value></data>
+  <data name="TuningViewText1227" xml:space="preserve"><value>可通过 AMD Display Library 对 AMD Radeon GPU 超频。请在下方调整频率偏移和功率限制。</value></data>
+  <data name="TuningViewText1229" xml:space="preserve"><value>仅手动应用：AMD 偏移不会保存，也不会在 OmenCore 启动时重新应用。每次重启后需重新应用。</value></data>
+  <data name="TuningViewText1244" xml:space="preserve"><value>核心频率偏移（MHz）</value></data>
+  <data name="TuningViewText1263" xml:space="preserve"><value>显存频率偏移（MHz）</value></data>
+  <data name="TuningViewText1282" xml:space="preserve"><value>功率限制（%）</value></data>
+  <data name="TuningViewText1292" xml:space="preserve"><value>恢复默认设置</value></data>
+  <data name="TuningViewText1296" xml:space="preserve"><value>将 AMD GPU 频率和功率恢复为出厂值。</value></data>
+  <data name="TuningViewText1298" xml:space="preserve"><value>应用 AMD GPU 超频</value></data>
+  <data name="TuningViewText1302" xml:space="preserve"><value>应用上方 AMD GPU 频率和功率偏移。不稳定的超频可能导致驱动重置或崩溃。</value></data>
+  <data name="TuningViewText1321" xml:space="preserve"><value>你的 GPU 不支持通过 NVAPI 调整频率偏移。下方的功率限制调整仍然可用。</value></data>
+  <data name="TuningViewText1323" xml:space="preserve"><value>如需调整频率，请使用 MSI Afterburner 或 HP Omen Hub。</value></data>
+  <data name="TuningViewText1336" xml:space="preserve"><value>功率限制已锁定</value></data>
+  <data name="TuningViewText1358" xml:space="preserve"><value>功率限制</value></data>
+  <data name="TuningViewText1395" xml:space="preserve"><value>核心频率</value></data>
+  <data name="TuningViewText1431" xml:space="preserve"><value>显存频率</value></data>
+  <data name="TuningViewText1463" xml:space="preserve"><value>测试应用</value></data>
+  <data name="TuningViewText1467" xml:space="preserve"><value>临时应用这些 GPU 设置以检查稳定性。除非点击“保留”，否则设置会自动回退。</value></data>
+  <data name="TuningViewText1470" xml:space="preserve"><value>保留</value></data>
+  <data name="TuningViewText1474" xml:space="preserve"><value>确认当前测试的设置并阻止其回退。</value></data>
+  <data name="TuningViewText1477" xml:space="preserve"><value>应用 GPU 设置</value></data>
+  <data name="TuningViewText1481" xml:space="preserve"><value>应用上方 GPU 核心频率、显存频率和功率偏移。不稳定的超频可能导致驱动重置或崩溃。</value></data>
+  <data name="TuningViewText1484" xml:space="preserve"><value>恢复默认设置</value></data>
+  <data name="TuningViewText1488" xml:space="preserve"><value>将 GPU 核心频率、显存频率和功率限制恢复为出厂值。</value></data>
+  <data name="TuningViewText1507" xml:space="preserve"><value>无可用调校功能</value></data>
+  <data name="TuningViewText1509" xml:space="preserve"><value>你的系统不支持通过 OmenCore 进行 CPU 降压、功率限制控制或 GPU 超频。</value></data>
 </root>

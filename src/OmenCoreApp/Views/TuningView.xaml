@@ -1,6 +1,7 @@
 <UserControl x:Class="OmenCore.Views.TuningView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:loc="clr-namespace:OmenCore.Localization"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:controls="clr-namespace:OmenCore.Controls"
@@ -41,8 +42,8 @@
                 </Border>
                 
                 <StackPanel Grid.Column="1" VerticalAlignment="Center">
-                    <TextBlock Text="CPU / GPU Tuning" Style="{StaticResource Heading1}" Margin="0"/>
-                    <TextBlock Text="Advanced performance tuning • Undervolt • Overclock • Power Limits" 
+                    <TextBlock Text="{x:Static loc:Strings.TuningViewText44}" Style="{StaticResource Heading1}" Margin="0"/>
+                    <TextBlock Text="{x:Static loc:Strings.TuningViewText45}"
                                Style="{StaticResource Caption}" Opacity="0.9"/>
                 </StackPanel>
             </Grid>
@@ -63,7 +64,7 @@
                           Width="20" Height="20" Stretch="Uniform" Margin="0,0,12,0"
                           VerticalAlignment="Top"/>
                     <TextBlock Grid.Column="1" FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap">
-                        <Run Text="ADVANCED TUNING" FontWeight="Bold" Foreground="{StaticResource ErrorBrush}"/>
+                        <Run Text="{x:Static loc:Strings.TuningViewText66}" FontWeight="Bold" Foreground="{StaticResource ErrorBrush}"/>
                         <Run Text=" — Improper values may cause crashes or freezes. Start small, test stability. Settings reset on reboot unless auto-apply is enabled."/>
                     </TextBlock>
                 </Grid>
@@ -139,7 +140,7 @@
                           Margin="0,1,10,0"
                           VerticalAlignment="Top"/>
                     <StackPanel Grid.Column="1">
-                        <TextBlock Text="Tuning status"
+                        <TextBlock Text="{x:Static loc:Strings.TuningViewText142}"
                                    FontSize="11"
                                    FontWeight="SemiBold"
                                    Foreground="#9ED4FF"/>
@@ -165,7 +166,7 @@
                             Padding="12,7"
                             Margin="14,0,0,0"
                             VerticalAlignment="Center"
-                            ToolTip="Reset live tuning where available and normalize startup tuning state to safe Balanced/Auto defaults."
+                            ToolTip="{x:Static loc:Strings.TuningViewText168}"
                             AutomationProperties.Name="Roll back all tuning to safe defaults">
                         <StackPanel Orientation="Horizontal">
                             <Path Data="{StaticResource IconRestore}"
@@ -175,7 +176,7 @@
                                   Stretch="Uniform"
                                   Margin="0,0,6,0"
                                   VerticalAlignment="Center"/>
-                            <TextBlock Text="Safe Rollback"
+                            <TextBlock Text="{x:Static loc:Strings.TuningViewText178}"
                                        FontSize="11"
                                        FontWeight="SemiBold"/>
                         </StackPanel>
@@ -187,7 +188,7 @@
             <!-- CPU SECTION -->
             <!-- ═══════════════════════════════════════════════════════════════════════ -->
             
-            <TextBlock Text="CPU Tuning" FontSize="18" FontWeight="SemiBold" 
+            <TextBlock Text="{x:Static loc:Strings.TuningViewText190}" FontSize="18" FontWeight="SemiBold"
                        Foreground="{StaticResource AccentBrush}" Margin="0,0,0,16"/>
 
             <!-- When the undervolt card is hidden, say why instead of leaving a gap (WP-44, definition of done 7). -->
@@ -196,7 +197,7 @@
                     Visibility="{Binding SystemControl.IsUndervoltSupported, Converter={StaticResource InverseBoolToVisibility}, FallbackValue=Collapsed}"
                     AutomationProperties.Name="CPU undervolt is not available">
                 <StackPanel>
-                    <TextBlock Text="CPU undervolt is not available on this machine" FontSize="12" FontWeight="SemiBold"
+                    <TextBlock Text="{x:Static loc:Strings.TuningViewText199}" FontSize="12" FontWeight="SemiBold"
                                Foreground="{StaticResource TextPrimaryBrush}"/>
                     <TextBlock Text="{Binding SystemControl.UndervoltReason}" FontSize="11" Margin="0,3,0,0"
                                Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"
@@ -247,7 +248,7 @@
                                            FontSize="11" Foreground="{StaticResource TextMutedBrush}"
                                            Margin="0,2,0,0" TextTrimming="CharacterEllipsis"/>
                                 <StackPanel Orientation="Horizontal" Margin="0,2,0,0">
-                                    <TextBlock Text="Status: " FontSize="10" Foreground="{StaticResource TextMutedBrush}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.TuningViewText250}" FontSize="10" Foreground="{StaticResource TextMutedBrush}"/>
                                     <TextBlock Text="{Binding SystemControl.UndervoltStatusText}" 
                                                FontSize="10" FontWeight="SemiBold"
                                                Foreground="{Binding SystemControl.UndervoltStatusColor}"/>
@@ -295,7 +296,7 @@
                                                        Foreground="{StaticResource TextPrimaryBrush}"
                                                        HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                         </Grid>
-                                        <TextBlock Text="TEMP" FontSize="9" Foreground="{StaticResource TextMutedBrush}" 
+                                        <TextBlock Text="{x:Static loc:Strings.TuningViewText298}" FontSize="9" Foreground="{StaticResource TextMutedBrush}"
                                                    HorizontalAlignment="Center" Margin="0,4,0,0"/>
                                     </StackPanel>
                                     
@@ -311,7 +312,7 @@
                                                        Foreground="{StaticResource TextPrimaryBrush}"
                                                        HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                         </Grid>
-                                        <TextBlock Text="POWER" FontSize="9" Foreground="{StaticResource TextMutedBrush}" 
+                                        <TextBlock Text="{x:Static loc:Strings.TuningViewText314}" FontSize="9" Foreground="{StaticResource TextMutedBrush}"
                                                    HorizontalAlignment="Center" Margin="0,4,0,0"/>
                                     </StackPanel>
                                 </StackPanel>
@@ -349,9 +350,9 @@
                                 </Grid.ColumnDefinitions>
                                 
                                 <StackPanel Grid.Column="0" VerticalAlignment="Center">
-                                    <TextBlock Text="CORE OFFSET" FontSize="10" FontWeight="SemiBold"
+                                    <TextBlock Text="{x:Static loc:Strings.TuningViewText352}" FontSize="10" FontWeight="SemiBold"
                                                Foreground="{StaticResource TextMutedBrush}"/>
-                                    <TextBlock Text="Voltage" FontSize="9" Foreground="{StaticResource TextTertiaryBrush}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.TuningViewText354}" FontSize="9" Foreground="{StaticResource TextTertiaryBrush}"/>
                                 </StackPanel>
                                 
                                 <Slider Grid.Column="1" 
@@ -413,14 +414,14 @@
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding SystemControl.ApplyUndervoltCommand}"
                                     Padding="16,8" Margin="0,0,8,0"
-                                    ToolTip="Apply the CPU voltage offset above. An offset that is too aggressive can cause instability or crashes — test gradually."
+                                    ToolTip="{x:Static loc:Strings.TuningViewText416}"
                                     AutomationProperties.Name="Apply CPU undervolt offset"/>
 
-                            <Button Content="Reset to 0mV"
+                            <Button Content="{x:Static loc:Strings.TuningViewText419}"
                                     Style="{StaticResource SecondaryButton}"
                                     Command="{Binding SystemControl.ResetUndervoltCommand}"
                                     Padding="16,8"
-                                    ToolTip="Remove the CPU voltage offset, returning the CPU to its stock voltage."
+                                    ToolTip="{x:Static loc:Strings.TuningViewText423}"
                                     AutomationProperties.Name="Reset CPU undervolt to 0 millivolts"/>
                         </StackPanel>
                     </StackPanel>
@@ -430,7 +431,7 @@
             <!-- CPU Power Limits (PL1/PL2) Section - Enhanced Design -->
             <Border Style="{StaticResource SurfaceCard}" Padding="0" Margin="0,0,0,16"
                     Visibility="{Binding SystemControl.CpuPowerLimitsAvailable, Converter={StaticResource BooleanToVisibilityConverter}}"
-                    ToolTip="Adjust CPU sustained (PL1) and burst (PL2) power limits. Higher values = more performance but more heat.">
+                    ToolTip="{x:Static loc:Strings.TuningViewText433}">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
@@ -463,7 +464,7 @@
                             </Border>
                             
                             <StackPanel Grid.Column="1" VerticalAlignment="Center">
-                                <TextBlock Text="CPU Power Limits (PL1/PL2)" FontSize="16" FontWeight="SemiBold" 
+                                <TextBlock Text="{x:Static loc:Strings.TuningViewText466}" FontSize="16" FontWeight="SemiBold"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <TextBlock Text="{Binding SystemControl.CpuPowerLimitsStatus}" 
                                            FontSize="11" Foreground="{StaticResource AccentBrush}"
@@ -474,7 +475,7 @@
                                     Style="{StaticResource SecondaryButton}"
                                     Command="{Binding SystemControl.RefreshCpuPowerLimitsCommand}"
                                     Padding="12,6" FontSize="11"
-                                    ToolTip="Re-read the current CPU power limits from the hardware."
+                                    ToolTip="{x:Static loc:Strings.TuningViewText477}"
                                     AutomationProperties.Name="Refresh CPU power limit readings"/>
                         </Grid>
                     </Border>
@@ -513,9 +514,9 @@
                                 </Grid.ColumnDefinitions>
                                 
                                 <StackPanel Grid.Column="0" VerticalAlignment="Center">
-                                    <TextBlock Text="PL1 SUSTAINED" FontSize="10" FontWeight="SemiBold"
+                                    <TextBlock Text="{x:Static loc:Strings.TuningViewText516}" FontSize="10" FontWeight="SemiBold"
                                                Foreground="{StaticResource TextMutedBrush}"/>
-                                    <TextBlock Text="Long-term TDP" FontSize="9" Foreground="{StaticResource TextTertiaryBrush}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.TuningViewText518}" FontSize="9" Foreground="{StaticResource TextTertiaryBrush}"/>
                                 </StackPanel>
                                 
                                 <Slider Grid.Column="1" 
@@ -553,9 +554,9 @@
                                 </Grid.ColumnDefinitions>
                                 
                                 <StackPanel Grid.Column="0" VerticalAlignment="Center">
-                                    <TextBlock Text="PL2 BURST" FontSize="10" FontWeight="SemiBold"
+                                    <TextBlock Text="{x:Static loc:Strings.TuningViewText556}" FontSize="10" FontWeight="SemiBold"
                                                Foreground="{StaticResource TextMutedBrush}"/>
-                                    <TextBlock Text="Turbo Power" FontSize="9" Foreground="{StaticResource TextTertiaryBrush}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.TuningViewText558}" FontSize="9" Foreground="{StaticResource TextTertiaryBrush}"/>
                                 </StackPanel>
                                 
                                 <Slider Grid.Column="1" 
@@ -598,7 +599,7 @@
                                 </Grid.ColumnDefinitions>
                                 <TextBlock Text="🔒" FontSize="16" Margin="0,0,10,0" VerticalAlignment="Center"/>
                                 <TextBlock Grid.Column="1" FontSize="11" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap">
-                                    <Run Text="Power limits locked by BIOS" FontWeight="Bold" Foreground="#F44336"/>
+                                    <Run Text="{x:Static loc:Strings.TuningViewText601}" FontWeight="Bold" Foreground="#F44336"/>
                                     <Run Text=" — MSR registers are write-locked until reboot. May require BIOS settings or HP Unleashed Mode."/>
                                 </TextBlock>
                             </Grid>
@@ -606,20 +607,20 @@
 
                         <!-- Apply Buttons -->
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                            <Button Content="Apply Power Limits"
+                            <Button Content="{x:Static loc:Strings.TuningViewText609}"
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding SystemControl.ApplyCpuPowerLimitsCommand}"
                                     Padding="16,8" Margin="0,0,8,0"
                                     IsEnabled="{Binding SystemControl.CpuPowerLimitsLocked, Converter={StaticResource InverseBooleanConverter}}"
-                                    ToolTip="Apply the CPU PL1/PL2 power limits above. Higher limits allow more sustained performance but more heat."
+                                    ToolTip="{x:Static loc:Strings.TuningViewText614}"
                                     AutomationProperties.Name="Apply CPU power limits"/>
 
-                            <Button Content="Reset to Defaults"
+                            <Button Content="{x:Static loc:Strings.TuningViewText617}"
                                     Style="{StaticResource SecondaryButton}"
                                     Command="{Binding SystemControl.ResetCpuPowerLimitsCommand}"
                                     Padding="16,8"
                                     IsEnabled="{Binding SystemControl.CpuPowerLimitsLocked, Converter={StaticResource InverseBooleanConverter}}"
-                                    ToolTip="Restore the CPU power limits to this model's stock values."
+                                    ToolTip="{x:Static loc:Strings.TuningViewText622}"
                                     AutomationProperties.Name="Reset CPU power limits to defaults"/>
                         </StackPanel>
                     </StackPanel>
@@ -629,7 +630,7 @@
             <!-- AMD CPU Power/Temperature Controls -->
             <Border Style="{StaticResource SurfaceCard}" Padding="0" Margin="0,0,0,16"
                     Visibility="{Binding SystemControl.AmdPowerLimitsAvailable, Converter={StaticResource BoolToVisibility}}"
-                    ToolTip="Control AMD Ryzen STAPM power and Tctl temperature limits via SMU.">
+                    ToolTip="{x:Static loc:Strings.TuningViewText632}">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
@@ -649,7 +650,7 @@
                             </Border>
 
                             <StackPanel Grid.Column="1" VerticalAlignment="Center">
-                                <TextBlock Text="AMD CPU Power Limits" FontSize="16" FontWeight="SemiBold"
+                                <TextBlock Text="{x:Static loc:Strings.TuningViewText652}" FontSize="16" FontWeight="SemiBold"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <TextBlock Text="{Binding SystemControl.AmdPowerLimitsStatus}"
                                            FontSize="11" Foreground="{StaticResource AccentBrush}"
@@ -682,7 +683,7 @@
                                 </Grid.ColumnDefinitions>
                                 <StackPanel Grid.Column="0" VerticalAlignment="Center">
                                     <TextBlock Text="STAPM" FontSize="10" FontWeight="SemiBold" Foreground="{StaticResource TextMutedBrush}"/>
-                                    <TextBlock Text="Sustained power" FontSize="9" Foreground="{StaticResource TextTertiaryBrush}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.TuningViewText685}" FontSize="9" Foreground="{StaticResource TextTertiaryBrush}"/>
                                 </StackPanel>
                                 <Slider Grid.Column="1" TickFrequency="1"
                                         Minimum="{Binding SystemControl.AmdStapmLimitMinWatts}"
@@ -706,8 +707,8 @@
                                     <ColumnDefinition Width="100"/>
                                 </Grid.ColumnDefinitions>
                                 <StackPanel Grid.Column="0" VerticalAlignment="Center">
-                                    <TextBlock Text="TCTL LIMIT" FontSize="10" FontWeight="SemiBold" Foreground="{StaticResource TextMutedBrush}"/>
-                                    <TextBlock Text="Throttle point" FontSize="9" Foreground="{StaticResource TextTertiaryBrush}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.TuningViewText709}" FontSize="10" FontWeight="SemiBold" Foreground="{StaticResource TextMutedBrush}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.TuningViewText710}" FontSize="9" Foreground="{StaticResource TextTertiaryBrush}"/>
                                 </StackPanel>
                                 <Slider Grid.Column="1" Minimum="75" Maximum="105" TickFrequency="5"
                                         Value="{Binding SystemControl.AmdTempLimitC, Mode=TwoWay}"
@@ -727,7 +728,7 @@
                         <Border Background="#0D1520" BorderBrush="#2A3441" BorderThickness="1"
                                 CornerRadius="8" Padding="12" Margin="0,0,0,16">
                             <StackPanel>
-                                <TextBlock Text="Currently enforced" FontSize="11" FontWeight="SemiBold"
+                                <TextBlock Text="{x:Static loc:Strings.TuningViewText730}" FontSize="11" FontWeight="SemiBold"
                                            Foreground="{StaticResource TextSecondaryBrush}"
                                            Margin="0,0,0,6"/>
 
@@ -755,23 +756,23 @@
                         </Border>
 
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                            <Button Content="Refresh"
+                            <Button Content="{x:Static loc:Strings.TuningViewText758}"
                                     Style="{StaticResource SecondaryButton}"
                                     Command="{Binding SystemControl.RefreshAmdPowerLimitReadbackCommand}"
                                     Padding="16,8" Margin="0,0,8,0"
-                                    ToolTip="Read the four power limits back out of the SMU. Does not write anything."
+                                    ToolTip="{x:Static loc:Strings.TuningViewText762}"
                                     AutomationProperties.Name="Refresh enforced AMD CPU power limits"/>
-                            <Button Content="Apply AMD Limits"
+                            <Button Content="{x:Static loc:Strings.TuningViewText764}"
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding SystemControl.ApplyAmdPowerLimitsCommand}"
                                     Padding="16,8" Margin="0,0,8,0"
-                                    ToolTip="Apply the AMD STAPM/temperature limits above."
+                                    ToolTip="{x:Static loc:Strings.TuningViewText768}"
                                     AutomationProperties.Name="Apply AMD CPU power limits"/>
-                            <Button Content="Reset to Defaults"
+                            <Button Content="{x:Static loc:Strings.TuningViewText770}"
                                     Style="{StaticResource SecondaryButton}"
                                     Command="{Binding SystemControl.ResetAmdPowerLimitsCommand}"
                                     Padding="16,8"
-                                    ToolTip="Restore the AMD CPU power limits to this model's stock values."
+                                    ToolTip="{x:Static loc:Strings.TuningViewText774}"
                                     AutomationProperties.Name="Reset AMD CPU power limits to defaults"/>
                         </StackPanel>
                     </StackPanel>
@@ -781,7 +782,7 @@
             <Border Style="{StaticResource SurfaceCard}" Padding="24" Margin="0,0,0,16"
                     Visibility="{Binding SystemControl.ShowAmdPowerUnavailableMessage, Converter={StaticResource BoolToVisibility}}">
                 <StackPanel>
-                    <TextBlock Text="AMD CPU Power Limits" FontSize="18" FontWeight="SemiBold"
+                    <TextBlock Text="{x:Static loc:Strings.TuningViewText784}" FontSize="18" FontWeight="SemiBold"
                                Foreground="{StaticResource TextPrimaryBrush}" Margin="0,0,0,8"/>
                     <TextBlock Text="{Binding SystemControl.AmdPowerLimitsStatus}"
                                FontSize="12" Foreground="{StaticResource TextSecondaryBrush}"
@@ -823,9 +824,9 @@
                             </Border>
                             
                             <StackPanel Grid.Column="1" VerticalAlignment="Center">
-                                <TextBlock Text="TCC Offset (Thermal Throttle Point)" FontSize="16" FontWeight="SemiBold" 
+                                <TextBlock Text="{x:Static loc:Strings.TuningViewText826}" FontSize="16" FontWeight="SemiBold"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Reduce CPU Tjmax throttling temperature" 
+                                <TextBlock Text="{x:Static loc:Strings.TuningViewText828}"
                                            FontSize="11" Foreground="{StaticResource TextMutedBrush}"
                                            Margin="0,4,0,0"/>
                             </StackPanel>
@@ -844,7 +845,7 @@
                                 </Grid.ColumnDefinitions>
                                 
                                 <StackPanel Grid.Column="0" VerticalAlignment="Center">
-                                    <TextBlock Text="TCC OFFSET" FontSize="10" FontWeight="SemiBold"
+                                    <TextBlock Text="{x:Static loc:Strings.TuningViewText847}" FontSize="10" FontWeight="SemiBold"
                                                Foreground="{StaticResource TextMutedBrush}"/>
                                     <TextBlock Text="°C reduction" FontSize="9" Foreground="{StaticResource TextTertiaryBrush}"/>
                                 </StackPanel>
@@ -877,18 +878,18 @@
 
                         <!-- Apply Buttons -->
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                            <Button Content="Apply Limit"
+                            <Button Content="{x:Static loc:Strings.TuningViewText880}"
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding SystemControl.ApplyTccOffsetCommand}"
                                     Padding="16,8" Margin="0,0,8,0"
-                                    ToolTip="Apply the CPU thermal throttle limit above. The CPU will begin throttling at this temperature instead of its stock limit."
+                                    ToolTip="{x:Static loc:Strings.TuningViewText884}"
                                     AutomationProperties.Name="Apply CPU thermal limit offset"/>
 
-                            <Button Content="Remove Limit"
+                            <Button Content="{x:Static loc:Strings.TuningViewText887}"
                                     Style="{StaticResource SecondaryButton}"
                                     Command="{Binding SystemControl.ResetTccOffsetCommand}"
                                     Padding="16,8"
-                                    ToolTip="Remove the thermal throttle limit, returning the CPU to its stock throttle temperature."
+                                    ToolTip="{x:Static loc:Strings.TuningViewText891}"
                                     AutomationProperties.Name="Remove CPU thermal limit offset"/>
                         </StackPanel>
                     </StackPanel>
@@ -899,7 +900,7 @@
             <!-- GPU SECTION -->
             <!-- ═══════════════════════════════════════════════════════════════════════ -->
             
-            <TextBlock Text="GPU Tuning" FontSize="18" FontWeight="SemiBold" 
+            <TextBlock Text="{x:Static loc:Strings.TuningViewText902}" FontSize="18" FontWeight="SemiBold"
                        Foreground="{StaticResource AccentBrush}" Margin="0,24,0,16"
                        Visibility="{Binding SystemControl.GpuOcSectionVisible, Converter={StaticResource BooleanToVisibilityConverter}}"/>
 
@@ -907,9 +908,9 @@
             <Border Style="{StaticResource SurfaceCard}" Padding="20,14" Margin="0,0,0,16"
                     Visibility="{Binding SystemControl.GpuPowerPolicyAvailable, Converter={StaticResource BooleanToVisibilityConverter}}">
                 <StackPanel>
-                    <TextBlock Text="GPU POWER POLICY (read-only)" FontSize="12" FontWeight="Bold" Foreground="{StaticResource TextPrimaryBrush}" Margin="0,0,0,4"/>
+                    <TextBlock Text="{x:Static loc:Strings.TuningViewText910}" FontSize="12" FontWeight="Bold" Foreground="{StaticResource TextPrimaryBrush}" Margin="0,0,0,4"/>
                     <TextBlock Text="{Binding SystemControl.GpuPowerPolicyText}" TextWrapping="Wrap" FontSize="12" Foreground="{StaticResource TextSecondaryBrush}"/>
-                    <TextBlock Text="What the NVIDIA driver is enforcing right now. A laptop's own firmware can hold this below the driver maximum."
+                    <TextBlock Text="{x:Static loc:Strings.TuningViewText912}"
                                TextWrapping="Wrap" FontSize="11" Foreground="{StaticResource TextMutedBrush}" Margin="0,4,0,0"/>
                 </StackPanel>
             </Border>
@@ -918,29 +919,29 @@
             <Border Style="{StaticResource SurfaceCard}" Padding="20,14" Margin="0,0,0,16"
                     Visibility="{Binding SystemControl.GpuPowerPolicyAvailable, Converter={StaticResource BooleanToVisibilityConverter}}">
                 <StackPanel>
-                    <TextBlock Text="NVIDIA POWER UNLOCK (advanced, off by default)" FontSize="12" FontWeight="Bold" Foreground="{StaticResource TextPrimaryBrush}" Margin="0,0,0,4"/>
+                    <TextBlock Text="{x:Static loc:Strings.TuningViewText921}" FontSize="12" FontWeight="Bold" Foreground="{StaticResource TextPrimaryBrush}" Margin="0,0,0,4"/>
                     <TextBlock TextWrapping="Wrap" FontSize="11" Foreground="{StaticResource TextMutedBrush}" Margin="0,0,0,8"
-                               Text="Order: 1) Resolve VBIOS, 2) Apply MAX, 3) restart Windows, 4) Apply CURRENT. Raises the GPU's power limit above the laptop maker's setting. MAX is stored in the NVIDIA driver's registry and needs a restart; CURRENT is applied live and resets on reboot. More power means more heat. Based on timmyy123's nvidia-power-control and bobshmo's OmenCore-Prophecy, used with their permission."/>
-                    <CheckBox Content="Enable NVIDIA power unlock" IsChecked="{Binding SystemControl.NvidiaPower.Enabled}"
+                               Text="{x:Static loc:Strings.TuningViewText923}"/>
+                    <CheckBox Content="{x:Static loc:Strings.TuningViewText924}" IsChecked="{Binding SystemControl.NvidiaPower.Enabled}"
                               Foreground="{StaticResource TextPrimaryBrush}" Margin="0,0,0,8"/>
                     <StackPanel Visibility="{Binding SystemControl.NvidiaPower.Enabled, Converter={StaticResource BooleanToVisibilityConverter}}">
                         <TextBlock Text="{Binding SystemControl.NvidiaPower.StatusText}" TextWrapping="Wrap" FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" Margin="0,0,0,8"/>
                         <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
-                            <TextBlock Text="Target (W)" VerticalAlignment="Center" Foreground="{StaticResource TextSecondaryBrush}" Margin="0,0,8,0"/>
+                            <TextBlock Text="{x:Static loc:Strings.TuningViewText929}" VerticalAlignment="Center" Foreground="{StaticResource TextSecondaryBrush}" Margin="0,0,8,0"/>
                             <ComboBox ItemsSource="{Binding SystemControl.NvidiaPower.Targets}" SelectedItem="{Binding SystemControl.NvidiaPower.SelectedTarget}" MinWidth="80"/>
                         </StackPanel>
                         <WrapPanel>
                             <Button Content="1. Resolve VBIOS" Command="{Binding SystemControl.NvidiaPower.ResolveVbiosCommand}" Style="{StaticResource ModernButton}" Padding="16,8" Margin="0,0,8,4"
-                                    ToolTip="Reads the VBIOS power table. Needs nvflash64.exe (nvflashb.exe on RTX 50 cards) next to OmenCore.exe, or use 'From file'. Apply CURRENT does not need it."/>
-                            <Button Content="From file..." Command="{Binding SystemControl.NvidiaPower.ResolveVbiosFromFileCommand}" Style="{StaticResource ModernButton}" Padding="16,8" Margin="0,0,8,4"/>
-                            <Button Content="Apply MAX (restart)" Command="{Binding SystemControl.NvidiaPower.ApplyMaxCommand}" Style="{StaticResource ModernButton}" Padding="16,8" Margin="0,0,8,4"/>
-                            <Button Content="Apply CURRENT" Command="{Binding SystemControl.NvidiaPower.ApplyCurrentCommand}" Style="{StaticResource ModernButton}" Padding="16,8" Margin="0,0,8,4"/>
-                            <Button Content="Remove MAX override" Command="{Binding SystemControl.NvidiaPower.RemoveMaxCommand}" Style="{StaticResource ModernButton}" Padding="16,8" Margin="0,0,8,4"/>
-                            <Button Content="Refresh" Command="{Binding SystemControl.NvidiaPower.RefreshCommand}" Style="{StaticResource ModernButton}" Padding="16,8" Margin="0,0,8,4"/>
+                                    ToolTip="{x:Static loc:Strings.TuningViewText934}"/>
+                            <Button Content="{x:Static loc:Strings.TuningViewText935}" Command="{Binding SystemControl.NvidiaPower.ResolveVbiosFromFileCommand}" Style="{StaticResource ModernButton}" Padding="16,8" Margin="0,0,8,4"/>
+                            <Button Content="{x:Static loc:Strings.TuningViewText936}" Command="{Binding SystemControl.NvidiaPower.ApplyMaxCommand}" Style="{StaticResource ModernButton}" Padding="16,8" Margin="0,0,8,4"/>
+                            <Button Content="{x:Static loc:Strings.TuningViewText937}" Command="{Binding SystemControl.NvidiaPower.ApplyCurrentCommand}" Style="{StaticResource ModernButton}" Padding="16,8" Margin="0,0,8,4"/>
+                            <Button Content="{x:Static loc:Strings.TuningViewText938}" Command="{Binding SystemControl.NvidiaPower.RemoveMaxCommand}" Style="{StaticResource ModernButton}" Padding="16,8" Margin="0,0,8,4"/>
+                            <Button Content="{x:Static loc:Strings.TuningViewText939}" Command="{Binding SystemControl.NvidiaPower.RefreshCommand}" Style="{StaticResource ModernButton}" Padding="16,8" Margin="0,0,8,4"/>
                         </WrapPanel>
                         <TextBlock Text="{Binding SystemControl.NvidiaPower.ResultText}" TextWrapping="Wrap" FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" Margin="0,4,0,0"/>
                         <TextBlock TextWrapping="Wrap" FontSize="11" Foreground="{StaticResource TextMutedBrush}" Margin="0,8,0,0"
-                                   Text="Notes: do not disable PPAB (Dynamic Boost); the adapter limit applies to CPU and GPU together. A graphics driver update can undo the unlock, so check the live values afterwards. The RTX 5050 is untested. If CURRENT will not stick, switch the HP performance mode away and back, then apply again."/>
+                                   Text="{x:Static loc:Strings.TuningViewText943}"/>
                     </StackPanel>
                 </StackPanel>
             </Border>
@@ -989,7 +990,7 @@
                                            FontSize="16" FontWeight="SemiBold" 
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
                                 <StackPanel Orientation="Horizontal" Margin="0,4,0,0">
-                                    <TextBlock Text="Driver " FontSize="11" Foreground="{StaticResource TextMutedBrush}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.TuningViewText992}" FontSize="11" Foreground="{StaticResource TextMutedBrush}"/>
                                     <TextBlock Text="{Binding SystemControl.GpuDriverVersion}" 
                                                FontSize="11" Foreground="{StaticResource AccentBlueBrush}"/>
                                 </StackPanel>
@@ -1018,7 +1019,7 @@
                                                    Foreground="#8FC7FF"/>
                                     </Border>
                                     <Border Background="#1A1F2A" CornerRadius="10" Padding="8,2"
-                                            ToolTip="Whether the confirmed GPU OC profile is currently authorized to reapply when OmenCore starts. Saving or selecting a profile alone never authorizes a startup write.">
+                                            ToolTip="{x:Static loc:Strings.TuningViewText1021}">
                                         <TextBlock Text="{Binding SystemControl.GpuOcStartupReapplyChipText}"
                                                    FontSize="10"
                                                    FontWeight="SemiBold"
@@ -1046,7 +1047,7 @@
                                                        Foreground="{StaticResource TextPrimaryBrush}"
                                                        HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                         </Grid>
-                                        <TextBlock Text="TEMP" FontSize="9" Foreground="{StaticResource TextMutedBrush}" 
+                                        <TextBlock Text="{x:Static loc:Strings.TuningViewText1049}" FontSize="9" Foreground="{StaticResource TextMutedBrush}"
                                                    HorizontalAlignment="Center" Margin="0,4,0,0"/>
                                     </StackPanel>
                                     
@@ -1062,7 +1063,7 @@
                                                        Foreground="{StaticResource TextPrimaryBrush}"
                                                        HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                         </Grid>
-                                        <TextBlock Text="POWER" FontSize="9" Foreground="{StaticResource TextMutedBrush}" 
+                                        <TextBlock Text="{x:Static loc:Strings.TuningViewText1065}" FontSize="9" Foreground="{StaticResource TextMutedBrush}"
                                                    HorizontalAlignment="Center" Margin="0,4,0,0"/>
                                     </StackPanel>
                                     
@@ -1080,7 +1081,7 @@
                                                            HorizontalAlignment="Center"/>
                                             </StackPanel>
                                         </Grid>
-                                        <TextBlock Text="CLOCK" FontSize="9" Foreground="{StaticResource TextMutedBrush}" 
+                                        <TextBlock Text="{x:Static loc:Strings.TuningViewText1083}" FontSize="9" Foreground="{StaticResource TextMutedBrush}"
                                                    HorizontalAlignment="Center" Margin="0,4,0,0"/>
                                     </StackPanel>
                                 </StackPanel>
@@ -1108,7 +1109,7 @@
                                       Fill="#2196F3" Width="18" Height="18" Stretch="Uniform" 
                                       Margin="0,0,12,0" VerticalAlignment="Top"/>
                                 <TextBlock Grid.Column="1" FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap">
-                                    <Run Text="GPU UNDERVOLTING:" FontWeight="Bold" Foreground="#64B5F6"/>
+                                    <Run Text="{x:Static loc:Strings.TuningViewText1111}" FontWeight="Bold" Foreground="#64B5F6"/>
                                     <Run Text=" Modern NVIDIA GPUs auto-manage voltage. To reduce power/heat: lower the"/>
                                     <Run Text=" Power Limit" FontWeight="SemiBold" Foreground="{StaticResource AccentBrush}"/>
                                     <Run Text=" (forces lower voltage at each frequency) or use"/>
@@ -1131,7 +1132,7 @@
                                         <ColumnDefinition Width="*"/>
                                         <ColumnDefinition Width="Auto"/>
                                     </Grid.ColumnDefinitions>
-                                    <TextBlock Text="Detected GPU Guardrails"
+                                    <TextBlock Text="{x:Static loc:Strings.TuningViewText1134}"
                                                FontSize="13"
                                                FontWeight="Bold"
                                                Foreground="{StaticResource TextPrimaryBrush}"/>
@@ -1177,27 +1178,27 @@
                                 <Border Grid.Column="0" Background="{StaticResource AccentBrush}" 
                                         CornerRadius="4" Padding="10,5" Margin="0,0,16,0"
                                         VerticalAlignment="Center">
-                                    <TextBlock Text="ACTIVE" FontSize="10" FontWeight="Bold" 
+                                    <TextBlock Text="{x:Static loc:Strings.TuningViewText1180}" FontSize="10" FontWeight="Bold"
                                                Foreground="White" FontFamily="{StaticResource MonospaceFontFamily}"/>
                                 </Border>
                                 
                                 <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
                                     <StackPanel Margin="0,0,24,0">
-                                        <TextBlock Text="CORE" FontSize="9" Foreground="{StaticResource TextMutedBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.TuningViewText1186}" FontSize="9" Foreground="{StaticResource TextMutedBrush}"/>
                                         <TextBlock Text="{Binding SystemControl.GpuCoreClockOffset, StringFormat={}{0:+0;-0;0} MHz}" 
                                                    FontFamily="{StaticResource MonospaceFontFamily}"
                                                    FontSize="16" FontWeight="Bold"
                                                    Foreground="{StaticResource AccentBrush}"/>
                                     </StackPanel>
                                     <StackPanel Margin="0,0,24,0">
-                                        <TextBlock Text="MEMORY" FontSize="9" Foreground="{StaticResource TextMutedBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.TuningViewText1193}" FontSize="9" Foreground="{StaticResource TextMutedBrush}"/>
                                         <TextBlock Text="{Binding SystemControl.GpuMemoryClockOffset, StringFormat={}{0:+0;-0;0} MHz}" 
                                                    FontFamily="{StaticResource MonospaceFontFamily}"
                                                    FontSize="16" FontWeight="Bold"
                                                    Foreground="{StaticResource AccentBlueBrush}"/>
                                     </StackPanel>
                                     <StackPanel>
-                                        <TextBlock Text="POWER" FontSize="9" Foreground="{StaticResource TextMutedBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.TuningViewText1200}" FontSize="9" Foreground="{StaticResource TextMutedBrush}"/>
                                         <TextBlock Text="{Binding SystemControl.GpuPowerLimitPercent, StringFormat={}{0}%}" 
                                                    FontFamily="{StaticResource MonospaceFontFamily}"
                                                    FontSize="16" FontWeight="Bold"
@@ -1224,9 +1225,9 @@
                                 <TextBlock FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap">
                                     <Run Text="✓ AMD GPU Overclocking (ADL2)" FontWeight="Bold" Foreground="#4CAF50"/>
                                     <LineBreak/>
-                                    <Run Text="AMD Radeon GPU overclocking is available via AMD Display Library. Adjust clock offsets and power limits below."/>
+                                    <Run Text="{x:Static loc:Strings.TuningViewText1227}"/>
                                     <LineBreak/>
-                                    <Run Text="Manual apply only: AMD offsets are not saved and do not reapply when OmenCore starts. Reapply after every reboot." FontWeight="SemiBold" Foreground="#FFB74D"/>
+                                    <Run Text="{x:Static loc:Strings.TuningViewText1229}" FontWeight="SemiBold" Foreground="#FFB74D"/>
                                 </TextBlock>
                             </Border>
                             
@@ -1241,7 +1242,7 @@
                                         <ColumnDefinition Width="*"/>
                                         <ColumnDefinition Width="60"/>
                                     </Grid.ColumnDefinitions>
-                                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Core Clock Offset (MHz)" FontSize="13" FontWeight="SemiBold" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                    <TextBlock Grid.Row="0" Grid.Column="0" Text="{x:Static loc:Strings.TuningViewText1244}" FontSize="13" FontWeight="SemiBold" Foreground="{StaticResource TextPrimaryBrush}"/>
                                     <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding SystemControl.AmdCoreClockOffset, StringFormat={}{0} MHz}" FontSize="13" Foreground="{StaticResource AccentBrush}" HorizontalAlignment="Right"/>
                                     <Slider Grid.Row="1" Grid.ColumnSpan="2" Minimum="-500" Maximum="500" 
                                             Value="{Binding SystemControl.AmdCoreClockOffset, Mode=TwoWay}" 
@@ -1260,7 +1261,7 @@
                                         <ColumnDefinition Width="*"/>
                                         <ColumnDefinition Width="60"/>
                                     </Grid.ColumnDefinitions>
-                                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Memory Clock Offset (MHz)" FontSize="13" FontWeight="SemiBold" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                    <TextBlock Grid.Row="0" Grid.Column="0" Text="{x:Static loc:Strings.TuningViewText1263}" FontSize="13" FontWeight="SemiBold" Foreground="{StaticResource TextPrimaryBrush}"/>
                                     <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding SystemControl.AmdMemoryClockOffset, StringFormat={}{0} MHz}" FontSize="13" Foreground="{StaticResource AccentBrush}" HorizontalAlignment="Right"/>
                                     <Slider Grid.Row="1" Grid.ColumnSpan="2" Minimum="-500" Maximum="500" 
                                             Value="{Binding SystemControl.AmdMemoryClockOffset, Mode=TwoWay}" 
@@ -1279,7 +1280,7 @@
                                         <ColumnDefinition Width="*"/>
                                         <ColumnDefinition Width="50"/>
                                     </Grid.ColumnDefinitions>
-                                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Power Limit (%)" FontSize="13" FontWeight="SemiBold" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                    <TextBlock Grid.Row="0" Grid.Column="0" Text="{x:Static loc:Strings.TuningViewText1282}" FontSize="13" FontWeight="SemiBold" Foreground="{StaticResource TextPrimaryBrush}"/>
                                     <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding SystemControl.AmdPowerLimitPercent, StringFormat={}{0}%}" FontSize="13" Foreground="{StaticResource AccentBrush}" HorizontalAlignment="Right"/>
                                     <Slider Grid.Row="1" Grid.ColumnSpan="2" Minimum="-50" Maximum="50" 
                                             Value="{Binding SystemControl.AmdPowerLimitPercent, Mode=TwoWay}" 
@@ -1289,17 +1290,17 @@
                             
                             <!-- AMD Apply / Reset Buttons -->
                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,4,0,0">
-                                <Button Content="Reset to Default" 
+                                <Button Content="{x:Static loc:Strings.TuningViewText1292}"
                                         Style="{StaticResource SecondaryButton}"
                                         Command="{Binding SystemControl.ResetAmdGpuCommand}"
                                         Margin="0,0,8,0" Padding="16,8"
-                                        ToolTip="Restore AMD GPU clocks and power to stock values."
+                                        ToolTip="{x:Static loc:Strings.TuningViewText1296}"
                                         AutomationProperties.Name="Reset AMD GPU overclock to defaults"/>
-                                <Button Content="Apply AMD GPU OC"
+                                <Button Content="{x:Static loc:Strings.TuningViewText1298}"
                                         Style="{StaticResource ModernButton}"
                                         Command="{Binding SystemControl.ApplyAmdGpuOcCommand}"
                                         Padding="16,8"
-                                        ToolTip="Apply the AMD GPU clock and power offsets above. An unstable overclock can cause driver resets or crashes."
+                                        ToolTip="{x:Static loc:Strings.TuningViewText1302}"
                                         AutomationProperties.Name="Apply AMD GPU overclock"/>
                             </StackPanel>
                         </StackPanel>
@@ -1318,9 +1319,9 @@
                                 <TextBlock FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap">
                                     <Run Text="ℹ️ Clock Offsets Not Available" FontWeight="Bold" Foreground="#2196F3"/>
                                     <LineBreak/>
-                                    <Run Text="Your GPU doesn't support clock offset adjustments via NVAPI. Power Limit adjustments still work below."/>
+                                    <Run Text="{x:Static loc:Strings.TuningViewText1321}"/>
                                     <LineBreak/>
-                                    <Run Text="For clock OC, use MSI Afterburner or HP Omen Hub."/>
+                                    <Run Text="{x:Static loc:Strings.TuningViewText1323}"/>
                                 </TextBlock>
                             </Border>
 
@@ -1333,7 +1334,7 @@
                                     Margin="0,0,0,16"
                                     Visibility="{Binding SystemControl.GpuPowerLimitUnavailable, Converter={StaticResource BooleanToVisibilityConverter}}">
                                 <StackPanel>
-                                    <TextBlock Text="Power Limit Locked"
+                                    <TextBlock Text="{x:Static loc:Strings.TuningViewText1336}"
                                                FontSize="12"
                                                FontWeight="Bold"
                                                Foreground="#FFB45A"/>
@@ -1355,7 +1356,7 @@
                                     </Grid.ColumnDefinitions>
                                     
                                     <StackPanel Grid.Column="0" VerticalAlignment="Center">
-                                        <TextBlock Text="POWER LIMIT" FontSize="10" FontWeight="SemiBold"
+                                        <TextBlock Text="{x:Static loc:Strings.TuningViewText1358}" FontSize="10" FontWeight="SemiBold"
                                                    Foreground="{StaticResource TextMutedBrush}"/>
                                         <TextBlock Text="{Binding SystemControl.GpuPowerLimitRangeText}" FontSize="9" Foreground="{StaticResource TextTertiaryBrush}"/>
                                     </StackPanel>
@@ -1392,7 +1393,7 @@
                                     </Grid.ColumnDefinitions>
                                     
                                     <StackPanel Grid.Column="0" VerticalAlignment="Center">
-                                        <TextBlock Text="CORE CLOCK" FontSize="10" FontWeight="SemiBold"
+                                        <TextBlock Text="{x:Static loc:Strings.TuningViewText1395}" FontSize="10" FontWeight="SemiBold"
                                                    Foreground="{StaticResource TextMutedBrush}"/>
                                         <TextBlock Text="{Binding SystemControl.GpuCoreOffsetRangeText}" FontSize="9" Foreground="{StaticResource TextTertiaryBrush}"/>
                                     </StackPanel>
@@ -1428,7 +1429,7 @@
                                     </Grid.ColumnDefinitions>
                                     
                                     <StackPanel Grid.Column="0" VerticalAlignment="Center">
-                                        <TextBlock Text="MEM CLOCK" FontSize="10" FontWeight="SemiBold"
+                                        <TextBlock Text="{x:Static loc:Strings.TuningViewText1431}" FontSize="10" FontWeight="SemiBold"
                                                    Foreground="{StaticResource TextMutedBrush}"/>
                                         <TextBlock Text="{Binding SystemControl.GpuMemoryOffsetRangeText}" FontSize="9" Foreground="{StaticResource TextTertiaryBrush}"/>
                                     </StackPanel>
@@ -1460,32 +1461,32 @@
                                        Margin="0,0,0,10"
                                        TextWrapping="Wrap"/>
                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                                <Button Content="Test Apply" 
+                                <Button Content="{x:Static loc:Strings.TuningViewText1463}"
                                     Style="{StaticResource SecondaryButton}"
                                     Command="{Binding SystemControl.TestGpuOcCommand}"
                                     Padding="16,8" Margin="0,0,8,0"
-                                    ToolTip="Apply these GPU settings temporarily so you can check stability. They revert automatically unless you press Keep."
+                                    ToolTip="{x:Static loc:Strings.TuningViewText1467}"
                                     AutomationProperties.Name="Test GPU overclock temporarily"/>
 
-                                <Button Content="Keep"
+                                <Button Content="{x:Static loc:Strings.TuningViewText1470}"
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding SystemControl.ConfirmGpuOcTestCommand}"
                                     Padding="16,8" Margin="0,0,8,0"
-                                    ToolTip="Confirm the settings you are currently testing and stop them from reverting."
+                                    ToolTip="{x:Static loc:Strings.TuningViewText1474}"
                                     AutomationProperties.Name="Keep tested GPU overclock"/>
 
-                                <Button Content="Apply GPU Settings"
+                                <Button Content="{x:Static loc:Strings.TuningViewText1477}"
                                         Style="{StaticResource ModernButton}"
                                         Command="{Binding SystemControl.ApplyGpuOcCommand}"
                                         Padding="16,8" Margin="0,0,8,0"
-                                        ToolTip="Apply the GPU clock, memory, and power offsets above. An unstable overclock can cause driver resets or crashes."
+                                        ToolTip="{x:Static loc:Strings.TuningViewText1481}"
                                         AutomationProperties.Name="Apply NVIDIA GPU overclock"/>
 
-                                <Button Content="Reset to Defaults"
+                                <Button Content="{x:Static loc:Strings.TuningViewText1484}"
                                         Style="{StaticResource SecondaryButton}"
                                         Command="{Binding SystemControl.ResetGpuOcCommand}"
                                         Padding="16,8"
-                                        ToolTip="Restore GPU clocks, memory, and power limit to stock values."
+                                        ToolTip="{x:Static loc:Strings.TuningViewText1488}"
                                         AutomationProperties.Name="Reset NVIDIA GPU overclock to defaults"/>
                             </StackPanel>
 
@@ -1504,9 +1505,9 @@
                     Visibility="{Binding SystemControl.NoTuningAvailable, Converter={StaticResource BoolToVisibility}, FallbackValue=Collapsed}">
                 <StackPanel HorizontalAlignment="Center">
                     <TextBlock Text="🔧" FontSize="48" HorizontalAlignment="Center" Margin="0,0,0,16"/>
-                    <TextBlock Text="No Tuning Features Available" FontSize="18" FontWeight="SemiBold" 
+                    <TextBlock Text="{x:Static loc:Strings.TuningViewText1507}" FontSize="18" FontWeight="SemiBold"
                                Foreground="{StaticResource TextPrimaryBrush}" HorizontalAlignment="Center" Margin="0,0,0,8"/>
-                    <TextBlock Text="Your system doesn't support CPU undervolting, power limit control, or GPU overclocking through OmenCore."
+                    <TextBlock Text="{x:Static loc:Strings.TuningViewText1509}"
                                FontSize="13" Foreground="{StaticResource TextSecondaryBrush}" 
                                TextWrapping="Wrap" TextAlignment="Center" MaxWidth="500"/>
                 </StackPanel>

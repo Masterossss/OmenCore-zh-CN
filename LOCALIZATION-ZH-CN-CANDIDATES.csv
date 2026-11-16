@@ -261,75 +261,75 @@ src/OmenCoreApp/Views/DiagnosticsView.xaml,428,Text,Overboost mode,E,待核实,�
 src/OmenCoreApp/Views/DiagnosticsView.xaml,456,Text,Fan Diagnostics:,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/DiagnosticsView.xaml,460,Text,Keyboard Diagnostics:,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/DiagnosticsView.xaml,464,Text,Diagnostic tools are for troubleshooting only - they temporarily override your normal settings,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,65,Text,FAN &amp; THERMAL CONTROL,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,66,ToolTip,Manage your laptop's cooling performance. All fan control uses your laptop's standard firmware interface (WMI BIOS). Software commands cannot damage hardware.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,113,Text,CURVE ACTIVE,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,128,Text,Fan/performance decoupling is now the default,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,133,Text,Dismiss,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,149,Text,Possible Fan Hardware Issue Detected,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,152,Text,"OmenCore uses your laptop's standard firmware interface (WMI BIOS). Software commands cannot damage hardware. If the issue persists, contact HP support or check your fans physically.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,156,Text,Dismiss,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,181,Text,FAN PROFILES,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,189,ToolTip,Clear OmenCore fan ownership and return control to firmware auto mode,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,191,Text,Restore OEM Auto,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,207,ToolTip,Forces all fans to maximum RPM. Use for heavy gaming or stress tests.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,228,Text,Max,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,266,Text,Direct,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,271,Text,OK,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,284,ToolTip,Highest non-Max cooling curve. Reserves 100% fan duty for hotter operation; use Max for immediate full RPM.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,305,Text,Extreme,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,323,ToolTip,Aggressive fan curve that ramps up quickly. Good for gaming sessions.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,344,Text,Gaming,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,362,ToolTip,BIOS-controlled balanced curve. Recommended for everyday use.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,383,Text,Auto,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,384,Text,BIOS,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,401,ToolTip,Prioritizes quiet operation. Fans stay low until temps rise significantly.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,422,Text,Silent,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,423,Text,Quiet,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,462,Text,Custom,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,489,Text,DIRECT FAN LEVEL,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,508,ToolTip,Drag to request a fixed fan level,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,524,ToolTip,Apply the selected direct fan level now,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,526,Text,Apply,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,540,ToolTip,Name for your custom preset,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,545,ToolTip,Save current curve as a custom preset,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,549,Text,Save,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,556,Text,Saved:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,562,ToolTip,Select a saved custom preset to load,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,567,ToolTip,Delete the selected custom preset,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,574,ToolTip,Import presets from a JSON file,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,576,Text,Import,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,581,ToolTip,Export presets to a JSON file,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,583,Text,Export,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,596,Text,This won't survive a restart yet,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,601,Text,Dismiss,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,611,Content,Instant apply,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,614,ToolTip,Bypass smoothing on Save/Apply,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,619,Text,Smoothing:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,623,Text,ms,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,626,Text,Step:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,630,Text,ms,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,635,Content,Independent CPU/GPU,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,639,ToolTip,GPU fan writes are model-dependent; unified curve mode remains the safe default,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,649,Text,GPU fan curve support status,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,705,Text,VISUAL CURVE EDITOR,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,714,ToolTip,Add a new curve point (max 10 points),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,722,ToolTip,Remove the last curve point (min 2 points),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,730,ToolTip,Reset curve to default,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,738,ToolTip,"Copy this curve as a share code you can paste into Discord, Reddit, or a GitHub comment",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,745,ToolTip,Import a fan curve from a share code on the clipboard,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,798,Text,Live Preview:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,862,Text,Current Points:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,914,Text,CPU,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,916,Text,FAN CURVE (by CPU temp),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,985,Text,GPU,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,987,Text,FAN CURVE (by GPU temp),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,998,ToolTip,Copy CPU curve to GPU,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,1066,Text,TEMPERATURE HISTORY,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,1077,Text,REAL-TIME STATUS,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,1099,Text,Thermal Protection Active,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,1114,Text,FAN CONTROL OWNER,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,1144,Text,CALIBRATION WIZARD,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/FanControlView.xaml,65,Text,FAN &amp; THERMAL CONTROL,A,是,已迁移,FanControlViewText65
+src/OmenCoreApp/Views/FanControlView.xaml,66,ToolTip,Manage your laptop's cooling performance. All fan control uses your laptop's standard firmware interface (WMI BIOS). Software commands cannot damage hardware.,A,是,已迁移,FanControlViewText66
+src/OmenCoreApp/Views/FanControlView.xaml,113,Text,CURVE ACTIVE,A,是,已迁移,FanControlViewText113
+src/OmenCoreApp/Views/FanControlView.xaml,128,Text,Fan/performance decoupling is now the default,A,是,已迁移,FanControlViewText128
+src/OmenCoreApp/Views/FanControlView.xaml,133,Text,Dismiss,A,是,已迁移,FanControlViewText133
+src/OmenCoreApp/Views/FanControlView.xaml,149,Text,Possible Fan Hardware Issue Detected,A,是,已迁移,FanControlViewText149
+src/OmenCoreApp/Views/FanControlView.xaml,152,Text,"OmenCore uses your laptop's standard firmware interface (WMI BIOS). Software commands cannot damage hardware. If the issue persists, contact HP support or check your fans physically.",A,是,已迁移,FanControlViewText152
+src/OmenCoreApp/Views/FanControlView.xaml,156,Text,Dismiss,A,是,已迁移,FanControlViewText156
+src/OmenCoreApp/Views/FanControlView.xaml,181,Text,FAN PROFILES,A,是,已迁移,FanControlViewText181
+src/OmenCoreApp/Views/FanControlView.xaml,189,ToolTip,Clear OmenCore fan ownership and return control to firmware auto mode,A,是,已迁移,FanControlViewText189
+src/OmenCoreApp/Views/FanControlView.xaml,191,Text,Restore OEM Auto,A,是,已迁移,FanControlViewText191
+src/OmenCoreApp/Views/FanControlView.xaml,207,ToolTip,Forces all fans to maximum RPM. Use for heavy gaming or stress tests.,A,是,已迁移,FanControlViewText207
+src/OmenCoreApp/Views/FanControlView.xaml,228,Text,Max,A,是,已迁移,FanControlViewText228
+src/OmenCoreApp/Views/FanControlView.xaml,266,Text,Direct,A,是,已迁移,FanControlViewText266
+src/OmenCoreApp/Views/FanControlView.xaml,271,Text,OK,A,是,已迁移,FanControlViewText271
+src/OmenCoreApp/Views/FanControlView.xaml,284,ToolTip,Highest non-Max cooling curve. Reserves 100% fan duty for hotter operation; use Max for immediate full RPM.,A,是,已迁移,FanControlViewText284
+src/OmenCoreApp/Views/FanControlView.xaml,305,Text,Extreme,A,是,已迁移,FanControlViewText305
+src/OmenCoreApp/Views/FanControlView.xaml,323,ToolTip,Aggressive fan curve that ramps up quickly. Good for gaming sessions.,A,是,已迁移,FanControlViewText323
+src/OmenCoreApp/Views/FanControlView.xaml,344,Text,Gaming,A,是,已迁移,FanControlViewText344
+src/OmenCoreApp/Views/FanControlView.xaml,362,ToolTip,BIOS-controlled balanced curve. Recommended for everyday use.,A,是,已迁移,FanControlViewText362
+src/OmenCoreApp/Views/FanControlView.xaml,383,Text,Auto,A,是,已迁移,FanControlViewText383
+src/OmenCoreApp/Views/FanControlView.xaml,384,Text,BIOS,B,是,保留,通用技术缩写或单位
+src/OmenCoreApp/Views/FanControlView.xaml,401,ToolTip,Prioritizes quiet operation. Fans stay low until temps rise significantly.,A,是,已迁移,FanControlViewText401
+src/OmenCoreApp/Views/FanControlView.xaml,422,Text,Silent,A,是,已迁移,FanControlViewText422
+src/OmenCoreApp/Views/FanControlView.xaml,423,Text,Quiet,A,是,已迁移,FanControlViewText423
+src/OmenCoreApp/Views/FanControlView.xaml,462,Text,Custom,A,是,已迁移,FanControlViewText462
+src/OmenCoreApp/Views/FanControlView.xaml,489,Text,DIRECT FAN LEVEL,A,是,已迁移,FanControlViewText489
+src/OmenCoreApp/Views/FanControlView.xaml,508,ToolTip,Drag to request a fixed fan level,A,是,已迁移,FanControlViewText508
+src/OmenCoreApp/Views/FanControlView.xaml,524,ToolTip,Apply the selected direct fan level now,A,是,已迁移,FanControlViewText524
+src/OmenCoreApp/Views/FanControlView.xaml,526,Text,Apply,A,是,已迁移,FanControlViewText526
+src/OmenCoreApp/Views/FanControlView.xaml,540,ToolTip,Name for your custom preset,A,是,已迁移,FanControlViewText540
+src/OmenCoreApp/Views/FanControlView.xaml,545,ToolTip,Save current curve as a custom preset,A,是,已迁移,FanControlViewText545
+src/OmenCoreApp/Views/FanControlView.xaml,549,Text,Save,A,是,已迁移,FanControlViewText549
+src/OmenCoreApp/Views/FanControlView.xaml,556,Text,Saved:,A,是,已迁移,FanControlViewText556
+src/OmenCoreApp/Views/FanControlView.xaml,562,ToolTip,Select a saved custom preset to load,A,是,已迁移,FanControlViewText562
+src/OmenCoreApp/Views/FanControlView.xaml,567,ToolTip,Delete the selected custom preset,A,是,已迁移,FanControlViewText567
+src/OmenCoreApp/Views/FanControlView.xaml,574,ToolTip,Import presets from a JSON file,A,是,已迁移,FanControlViewText574
+src/OmenCoreApp/Views/FanControlView.xaml,576,Text,Import,A,是,已迁移,FanControlViewText576
+src/OmenCoreApp/Views/FanControlView.xaml,581,ToolTip,Export presets to a JSON file,A,是,已迁移,FanControlViewText581
+src/OmenCoreApp/Views/FanControlView.xaml,583,Text,Export,A,是,已迁移,FanControlViewText583
+src/OmenCoreApp/Views/FanControlView.xaml,596,Text,This won't survive a restart yet,A,是,已迁移,FanControlViewText596
+src/OmenCoreApp/Views/FanControlView.xaml,601,Text,Dismiss,A,是,已迁移,FanControlViewText601
+src/OmenCoreApp/Views/FanControlView.xaml,611,Content,Instant apply,A,是,已迁移,FanControlViewText611
+src/OmenCoreApp/Views/FanControlView.xaml,614,ToolTip,Bypass smoothing on Save/Apply,A,是,已迁移,FanControlViewText614
+src/OmenCoreApp/Views/FanControlView.xaml,619,Text,Smoothing:,A,是,已迁移,FanControlViewText619
+src/OmenCoreApp/Views/FanControlView.xaml,623,Text,ms,B,是,保留,通用技术缩写或单位
+src/OmenCoreApp/Views/FanControlView.xaml,626,Text,Step:,A,是,已迁移,FanControlViewText626
+src/OmenCoreApp/Views/FanControlView.xaml,630,Text,ms,B,是,保留,通用技术缩写或单位
+src/OmenCoreApp/Views/FanControlView.xaml,635,Content,Independent CPU/GPU,A,是,已迁移,FanControlViewText635
+src/OmenCoreApp/Views/FanControlView.xaml,639,ToolTip,GPU fan writes are model-dependent; unified curve mode remains the safe default,A,是,已迁移,FanControlViewText639
+src/OmenCoreApp/Views/FanControlView.xaml,649,Text,GPU fan curve support status,A,是,已迁移,FanControlViewText649
+src/OmenCoreApp/Views/FanControlView.xaml,705,Text,VISUAL CURVE EDITOR,A,是,已迁移,FanControlViewText705
+src/OmenCoreApp/Views/FanControlView.xaml,714,ToolTip,Add a new curve point (max 10 points),A,是,已迁移,FanControlViewText714
+src/OmenCoreApp/Views/FanControlView.xaml,722,ToolTip,Remove the last curve point (min 2 points),A,是,已迁移,FanControlViewText722
+src/OmenCoreApp/Views/FanControlView.xaml,730,ToolTip,Reset curve to default,A,是,已迁移,FanControlViewText730
+src/OmenCoreApp/Views/FanControlView.xaml,738,ToolTip,"Copy this curve as a share code you can paste into Discord, Reddit, or a GitHub comment",A,是,已迁移,FanControlViewText738
+src/OmenCoreApp/Views/FanControlView.xaml,745,ToolTip,Import a fan curve from a share code on the clipboard,A,是,已迁移,FanControlViewText745
+src/OmenCoreApp/Views/FanControlView.xaml,798,Text,Live Preview:,A,是,已迁移,FanControlViewText798
+src/OmenCoreApp/Views/FanControlView.xaml,862,Text,Current Points:,A,是,已迁移,FanControlViewText862
+src/OmenCoreApp/Views/FanControlView.xaml,914,Text,CPU,B,是,保留,通用技术缩写或单位
+src/OmenCoreApp/Views/FanControlView.xaml,916,Text,FAN CURVE (by CPU temp),A,是,已迁移,FanControlViewText916
+src/OmenCoreApp/Views/FanControlView.xaml,985,Text,GPU,B,是,保留,通用技术缩写或单位
+src/OmenCoreApp/Views/FanControlView.xaml,987,Text,FAN CURVE (by GPU temp),A,是,已迁移,FanControlViewText987
+src/OmenCoreApp/Views/FanControlView.xaml,998,ToolTip,Copy CPU curve to GPU,A,是,已迁移,FanControlViewText998
+src/OmenCoreApp/Views/FanControlView.xaml,1066,Text,TEMPERATURE HISTORY,A,是,已迁移,FanControlViewText1066
+src/OmenCoreApp/Views/FanControlView.xaml,1077,Text,REAL-TIME STATUS,A,是,已迁移,FanControlViewText1077
+src/OmenCoreApp/Views/FanControlView.xaml,1099,Text,Thermal Protection Active,A,是,已迁移,FanControlViewText1099
+src/OmenCoreApp/Views/FanControlView.xaml,1114,Text,FAN CONTROL OWNER,A,是,已迁移,FanControlViewText1114
+src/OmenCoreApp/Views/FanControlView.xaml,1144,Text,CALIBRATION WIZARD,A,是,已迁移,FanControlViewText1144
 src/OmenCoreApp/Views/FanControlView.xaml,1186,Text,CPU: ,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/FanControlView.xaml,1192,Text,GPU: ,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/FanDiagnosticsView.xaml,10,Text,Fan Diagnostics,A,是,已迁移,FanDiagnosticsViewText10
@@ -1159,106 +1159,106 @@ src/OmenCoreApp/Views/SystemOptimizerView.xaml,438,Text,Apply All,E,待核实,�
 src/OmenCoreApp/Views/SystemOptimizerView.xaml,452,Text,Storage &amp; Disk,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SystemOptimizerView.xaml,455,Text,Apply All,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SystemOptimizerView.xaml,468,Text,Important Notes,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,44,Text,CPU / GPU Tuning,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,45,Text,Advanced performance tuning • Undervolt • Overclock • Power Limits,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,66,Text,ADVANCED TUNING,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,142,Text,Tuning status,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,168,ToolTip,Reset live tuning where available and normalize startup tuning state to safe Balanced/Auto defaults.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,178,Text,Safe Rollback,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,190,Text,CPU Tuning,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,199,Text,CPU undervolt is not available on this machine,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,250,Text,Status: ,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,298,Text,TEMP,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,314,Text,POWER,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,352,Text,CORE OFFSET,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,354,Text,Voltage,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,416,ToolTip,Apply the CPU voltage offset above. An offset that is too aggressive can cause instability or crashes — test gradually.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,419,Content,Reset to 0mV,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,423,ToolTip,"Remove the CPU voltage offset, returning the CPU to its stock voltage.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,433,ToolTip,Adjust CPU sustained (PL1) and burst (PL2) power limits. Higher values = more performance but more heat.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,466,Text,CPU Power Limits (PL1/PL2),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,477,ToolTip,Re-read the current CPU power limits from the hardware.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,500,Text,PL1,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,501,Text,PL2,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,516,Text,PL1 SUSTAINED,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,518,Text,Long-term TDP,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,556,Text,PL2 BURST,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,558,Text,Turbo Power,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,601,Text,Power limits locked by BIOS,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,609,Content,Apply Power Limits,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,614,ToolTip,Apply the CPU PL1/PL2 power limits above. Higher limits allow more sustained performance but more heat.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,617,Content,Reset to Defaults,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,622,ToolTip,Restore the CPU power limits to this model's stock values.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,632,ToolTip,Control AMD Ryzen STAPM power and Tctl temperature limits via SMU.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,652,Text,AMD CPU Power Limits,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,669,Text,STAPM,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,671,Text,Tctl,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,684,Text,STAPM,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,685,Text,Sustained power,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,709,Text,TCTL LIMIT,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,710,Text,Throttle point,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,730,Text,Currently enforced,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,758,Content,Refresh,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,762,ToolTip,Read the four power limits back out of the SMU. Does not write anything.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,764,Content,Apply AMD Limits,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,768,ToolTip,Apply the AMD STAPM/temperature limits above.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,770,Content,Reset to Defaults,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,774,ToolTip,Restore the AMD CPU power limits to this model's stock values.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,784,Text,AMD CPU Power Limits,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,826,Text,TCC Offset (Thermal Throttle Point),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,828,Text,Reduce CPU Tjmax throttling temperature,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,847,Text,TCC OFFSET,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,880,Content,Apply Limit,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,884,ToolTip,Apply the CPU thermal throttle limit above. The CPU will begin throttling at this temperature instead of its stock limit.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,887,Content,Remove Limit,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,891,ToolTip,"Remove the thermal throttle limit, returning the CPU to its stock throttle temperature.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,902,Text,GPU Tuning,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,910,Text,GPU POWER POLICY (read-only),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,912,Text,What the NVIDIA driver is enforcing right now. A laptop's own firmware can hold this below the driver maximum.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,921,Text,"NVIDIA POWER UNLOCK (advanced, off by default)",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,923,Text,"Order: 1) Resolve VBIOS, 2) Apply MAX, 3) restart Windows, 4) Apply CURRENT. Raises the GPU's power limit above the laptop maker's setting. MAX is stored in the NVIDIA driver's registry and needs a restart; CURRENT is applied live and resets on reboot. More power means more heat. Based on timmyy123's nvidia-power-control and bobshmo's OmenCore-Prophecy, used with their permission.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,924,Content,Enable NVIDIA power unlock,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,929,Text,Target (W),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,934,ToolTip,"Reads the VBIOS power table. Needs nvflash64.exe (nvflashb.exe on RTX 50 cards) next to OmenCore.exe, or use 'From file'. Apply CURRENT does not need it.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,935,Content,From file...,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,936,Content,Apply MAX (restart),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,937,Content,Apply CURRENT,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,938,Content,Remove MAX override,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,939,Content,Refresh,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,943,Text,"Notes: do not disable PPAB (Dynamic Boost); the adapter limit applies to CPU and GPU together. A graphics driver update can undo the unlock, so check the live values afterwards. The RTX 5050 is untested. If CURRENT will not stick, switch the HP performance mode away and back, then apply again.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,992,Text,Driver ,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1021,ToolTip,Whether the confirmed GPU OC profile is currently authorized to reapply when OmenCore starts. Saving or selecting a profile alone never authorizes a startup write.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1049,Text,TEMP,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1065,Text,POWER,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1083,Text,CLOCK,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1111,Text,GPU UNDERVOLTING:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1134,Text,Detected GPU Guardrails,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1180,Text,ACTIVE,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1186,Text,CORE,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1193,Text,MEMORY,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1200,Text,POWER,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1227,Text,AMD Radeon GPU overclocking is available via AMD Display Library. Adjust clock offsets and power limits below.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1229,Text,Manual apply only: AMD offsets are not saved and do not reapply when OmenCore starts. Reapply after every reboot.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1244,Text,Core Clock Offset (MHz),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1263,Text,Memory Clock Offset (MHz),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1282,Text,Power Limit (%),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1292,Content,Reset to Default,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1296,ToolTip,Restore AMD GPU clocks and power to stock values.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1298,Content,Apply AMD GPU OC,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1302,ToolTip,Apply the AMD GPU clock and power offsets above. An unstable overclock can cause driver resets or crashes.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1321,Text,Your GPU doesn't support clock offset adjustments via NVAPI. Power Limit adjustments still work below.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1323,Text,"For clock OC, use MSI Afterburner or HP Omen Hub.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1336,Text,Power Limit Locked,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1358,Text,POWER LIMIT,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1395,Text,CORE CLOCK,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1431,Text,MEM CLOCK,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1463,Content,Test Apply,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1467,ToolTip,Apply these GPU settings temporarily so you can check stability. They revert automatically unless you press Keep.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1470,Content,Keep,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1474,ToolTip,Confirm the settings you are currently testing and stop them from reverting.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1477,Content,Apply GPU Settings,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1481,ToolTip,"Apply the GPU clock, memory, and power offsets above. An unstable overclock can cause driver resets or crashes.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1484,Content,Reset to Defaults,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1488,ToolTip,"Restore GPU clocks, memory, and power limit to stock values.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1507,Text,No Tuning Features Available,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/TuningView.xaml,1509,Text,"Your system doesn't support CPU undervolting, power limit control, or GPU overclocking through OmenCore.",E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/TuningView.xaml,44,Text,CPU / GPU Tuning,A,是,已迁移,TuningViewText44
+src/OmenCoreApp/Views/TuningView.xaml,45,Text,Advanced performance tuning • Undervolt • Overclock • Power Limits,A,是,已迁移,TuningViewText45
+src/OmenCoreApp/Views/TuningView.xaml,66,Text,ADVANCED TUNING,A,是,已迁移,TuningViewText66
+src/OmenCoreApp/Views/TuningView.xaml,142,Text,Tuning status,A,是,已迁移,TuningViewText142
+src/OmenCoreApp/Views/TuningView.xaml,168,ToolTip,Reset live tuning where available and normalize startup tuning state to safe Balanced/Auto defaults.,A,是,已迁移,TuningViewText168
+src/OmenCoreApp/Views/TuningView.xaml,178,Text,Safe Rollback,A,是,已迁移,TuningViewText178
+src/OmenCoreApp/Views/TuningView.xaml,190,Text,CPU Tuning,A,是,已迁移,TuningViewText190
+src/OmenCoreApp/Views/TuningView.xaml,199,Text,CPU undervolt is not available on this machine,A,是,已迁移,TuningViewText199
+src/OmenCoreApp/Views/TuningView.xaml,250,Text,Status: ,A,是,已迁移,TuningViewText250
+src/OmenCoreApp/Views/TuningView.xaml,298,Text,TEMP,A,是,已迁移,TuningViewText298
+src/OmenCoreApp/Views/TuningView.xaml,314,Text,POWER,A,是,已迁移,TuningViewText314
+src/OmenCoreApp/Views/TuningView.xaml,352,Text,CORE OFFSET,A,是,已迁移,TuningViewText352
+src/OmenCoreApp/Views/TuningView.xaml,354,Text,Voltage,A,是,已迁移,TuningViewText354
+src/OmenCoreApp/Views/TuningView.xaml,416,ToolTip,Apply the CPU voltage offset above. An offset that is too aggressive can cause instability or crashes — test gradually.,A,是,已迁移,TuningViewText416
+src/OmenCoreApp/Views/TuningView.xaml,419,Content,Reset to 0mV,A,是,已迁移,TuningViewText419
+src/OmenCoreApp/Views/TuningView.xaml,423,ToolTip,"Remove the CPU voltage offset, returning the CPU to its stock voltage.",A,是,已迁移,TuningViewText423
+src/OmenCoreApp/Views/TuningView.xaml,433,ToolTip,Adjust CPU sustained (PL1) and burst (PL2) power limits. Higher values = more performance but more heat.,A,是,已迁移,TuningViewText433
+src/OmenCoreApp/Views/TuningView.xaml,466,Text,CPU Power Limits (PL1/PL2),A,是,已迁移,TuningViewText466
+src/OmenCoreApp/Views/TuningView.xaml,477,ToolTip,Re-read the current CPU power limits from the hardware.,A,是,已迁移,TuningViewText477
+src/OmenCoreApp/Views/TuningView.xaml,500,Text,PL1,B,是,保留,通用技术缩写或单位
+src/OmenCoreApp/Views/TuningView.xaml,501,Text,PL2,B,是,保留,通用技术缩写或单位
+src/OmenCoreApp/Views/TuningView.xaml,516,Text,PL1 SUSTAINED,A,是,已迁移,TuningViewText516
+src/OmenCoreApp/Views/TuningView.xaml,518,Text,Long-term TDP,A,是,已迁移,TuningViewText518
+src/OmenCoreApp/Views/TuningView.xaml,556,Text,PL2 BURST,A,是,已迁移,TuningViewText556
+src/OmenCoreApp/Views/TuningView.xaml,558,Text,Turbo Power,A,是,已迁移,TuningViewText558
+src/OmenCoreApp/Views/TuningView.xaml,601,Text,Power limits locked by BIOS,A,是,已迁移,TuningViewText601
+src/OmenCoreApp/Views/TuningView.xaml,609,Content,Apply Power Limits,A,是,已迁移,TuningViewText609
+src/OmenCoreApp/Views/TuningView.xaml,614,ToolTip,Apply the CPU PL1/PL2 power limits above. Higher limits allow more sustained performance but more heat.,A,是,已迁移,TuningViewText614
+src/OmenCoreApp/Views/TuningView.xaml,617,Content,Reset to Defaults,A,是,已迁移,TuningViewText617
+src/OmenCoreApp/Views/TuningView.xaml,622,ToolTip,Restore the CPU power limits to this model's stock values.,A,是,已迁移,TuningViewText622
+src/OmenCoreApp/Views/TuningView.xaml,632,ToolTip,Control AMD Ryzen STAPM power and Tctl temperature limits via SMU.,A,是,已迁移,TuningViewText632
+src/OmenCoreApp/Views/TuningView.xaml,652,Text,AMD CPU Power Limits,A,是,已迁移,TuningViewText652
+src/OmenCoreApp/Views/TuningView.xaml,669,Text,STAPM,B,是,保留,通用技术缩写或单位
+src/OmenCoreApp/Views/TuningView.xaml,671,Text,Tctl,B,是,保留,通用技术缩写或单位
+src/OmenCoreApp/Views/TuningView.xaml,684,Text,STAPM,B,是,保留,通用技术缩写或单位
+src/OmenCoreApp/Views/TuningView.xaml,685,Text,Sustained power,A,是,已迁移,TuningViewText685
+src/OmenCoreApp/Views/TuningView.xaml,709,Text,TCTL LIMIT,A,是,已迁移,TuningViewText709
+src/OmenCoreApp/Views/TuningView.xaml,710,Text,Throttle point,A,是,已迁移,TuningViewText710
+src/OmenCoreApp/Views/TuningView.xaml,730,Text,Currently enforced,A,是,已迁移,TuningViewText730
+src/OmenCoreApp/Views/TuningView.xaml,758,Content,Refresh,A,是,已迁移,TuningViewText758
+src/OmenCoreApp/Views/TuningView.xaml,762,ToolTip,Read the four power limits back out of the SMU. Does not write anything.,A,是,已迁移,TuningViewText762
+src/OmenCoreApp/Views/TuningView.xaml,764,Content,Apply AMD Limits,A,是,已迁移,TuningViewText764
+src/OmenCoreApp/Views/TuningView.xaml,768,ToolTip,Apply the AMD STAPM/temperature limits above.,A,是,已迁移,TuningViewText768
+src/OmenCoreApp/Views/TuningView.xaml,770,Content,Reset to Defaults,A,是,已迁移,TuningViewText770
+src/OmenCoreApp/Views/TuningView.xaml,774,ToolTip,Restore the AMD CPU power limits to this model's stock values.,A,是,已迁移,TuningViewText774
+src/OmenCoreApp/Views/TuningView.xaml,784,Text,AMD CPU Power Limits,A,是,已迁移,TuningViewText784
+src/OmenCoreApp/Views/TuningView.xaml,826,Text,TCC Offset (Thermal Throttle Point),A,是,已迁移,TuningViewText826
+src/OmenCoreApp/Views/TuningView.xaml,828,Text,Reduce CPU Tjmax throttling temperature,A,是,已迁移,TuningViewText828
+src/OmenCoreApp/Views/TuningView.xaml,847,Text,TCC OFFSET,A,是,已迁移,TuningViewText847
+src/OmenCoreApp/Views/TuningView.xaml,880,Content,Apply Limit,A,是,已迁移,TuningViewText880
+src/OmenCoreApp/Views/TuningView.xaml,884,ToolTip,Apply the CPU thermal throttle limit above. The CPU will begin throttling at this temperature instead of its stock limit.,A,是,已迁移,TuningViewText884
+src/OmenCoreApp/Views/TuningView.xaml,887,Content,Remove Limit,A,是,已迁移,TuningViewText887
+src/OmenCoreApp/Views/TuningView.xaml,891,ToolTip,"Remove the thermal throttle limit, returning the CPU to its stock throttle temperature.",A,是,已迁移,TuningViewText891
+src/OmenCoreApp/Views/TuningView.xaml,902,Text,GPU Tuning,A,是,已迁移,TuningViewText902
+src/OmenCoreApp/Views/TuningView.xaml,910,Text,GPU POWER POLICY (read-only),A,是,已迁移,TuningViewText910
+src/OmenCoreApp/Views/TuningView.xaml,912,Text,What the NVIDIA driver is enforcing right now. A laptop's own firmware can hold this below the driver maximum.,A,是,已迁移,TuningViewText912
+src/OmenCoreApp/Views/TuningView.xaml,921,Text,"NVIDIA POWER UNLOCK (advanced, off by default)",A,是,已迁移,TuningViewText921
+src/OmenCoreApp/Views/TuningView.xaml,923,Text,"Order: 1) Resolve VBIOS, 2) Apply MAX, 3) restart Windows, 4) Apply CURRENT. Raises the GPU's power limit above the laptop maker's setting. MAX is stored in the NVIDIA driver's registry and needs a restart; CURRENT is applied live and resets on reboot. More power means more heat. Based on timmyy123's nvidia-power-control and bobshmo's OmenCore-Prophecy, used with their permission.",A,是,已迁移,TuningViewText923
+src/OmenCoreApp/Views/TuningView.xaml,924,Content,Enable NVIDIA power unlock,A,是,已迁移,TuningViewText924
+src/OmenCoreApp/Views/TuningView.xaml,929,Text,Target (W),A,是,已迁移,TuningViewText929
+src/OmenCoreApp/Views/TuningView.xaml,934,ToolTip,"Reads the VBIOS power table. Needs nvflash64.exe (nvflashb.exe on RTX 50 cards) next to OmenCore.exe, or use 'From file'. Apply CURRENT does not need it.",A,是,已迁移,TuningViewText934
+src/OmenCoreApp/Views/TuningView.xaml,935,Content,From file...,A,是,已迁移,TuningViewText935
+src/OmenCoreApp/Views/TuningView.xaml,936,Content,Apply MAX (restart),A,是,已迁移,TuningViewText936
+src/OmenCoreApp/Views/TuningView.xaml,937,Content,Apply CURRENT,A,是,已迁移,TuningViewText937
+src/OmenCoreApp/Views/TuningView.xaml,938,Content,Remove MAX override,A,是,已迁移,TuningViewText938
+src/OmenCoreApp/Views/TuningView.xaml,939,Content,Refresh,A,是,已迁移,TuningViewText939
+src/OmenCoreApp/Views/TuningView.xaml,943,Text,"Notes: do not disable PPAB (Dynamic Boost); the adapter limit applies to CPU and GPU together. A graphics driver update can undo the unlock, so check the live values afterwards. The RTX 5050 is untested. If CURRENT will not stick, switch the HP performance mode away and back, then apply again.",A,是,已迁移,TuningViewText943
+src/OmenCoreApp/Views/TuningView.xaml,992,Text,Driver ,A,是,已迁移,TuningViewText992
+src/OmenCoreApp/Views/TuningView.xaml,1021,ToolTip,Whether the confirmed GPU OC profile is currently authorized to reapply when OmenCore starts. Saving or selecting a profile alone never authorizes a startup write.,A,是,已迁移,TuningViewText1021
+src/OmenCoreApp/Views/TuningView.xaml,1049,Text,TEMP,A,是,已迁移,TuningViewText1049
+src/OmenCoreApp/Views/TuningView.xaml,1065,Text,POWER,A,是,已迁移,TuningViewText1065
+src/OmenCoreApp/Views/TuningView.xaml,1083,Text,CLOCK,A,是,已迁移,TuningViewText1083
+src/OmenCoreApp/Views/TuningView.xaml,1111,Text,GPU UNDERVOLTING:,A,是,已迁移,TuningViewText1111
+src/OmenCoreApp/Views/TuningView.xaml,1134,Text,Detected GPU Guardrails,A,是,已迁移,TuningViewText1134
+src/OmenCoreApp/Views/TuningView.xaml,1180,Text,ACTIVE,A,是,已迁移,TuningViewText1180
+src/OmenCoreApp/Views/TuningView.xaml,1186,Text,CORE,A,是,已迁移,TuningViewText1186
+src/OmenCoreApp/Views/TuningView.xaml,1193,Text,MEMORY,A,是,已迁移,TuningViewText1193
+src/OmenCoreApp/Views/TuningView.xaml,1200,Text,POWER,A,是,已迁移,TuningViewText1200
+src/OmenCoreApp/Views/TuningView.xaml,1227,Text,AMD Radeon GPU overclocking is available via AMD Display Library. Adjust clock offsets and power limits below.,A,是,已迁移,TuningViewText1227
+src/OmenCoreApp/Views/TuningView.xaml,1229,Text,Manual apply only: AMD offsets are not saved and do not reapply when OmenCore starts. Reapply after every reboot.,A,是,已迁移,TuningViewText1229
+src/OmenCoreApp/Views/TuningView.xaml,1244,Text,Core Clock Offset (MHz),A,是,已迁移,TuningViewText1244
+src/OmenCoreApp/Views/TuningView.xaml,1263,Text,Memory Clock Offset (MHz),A,是,已迁移,TuningViewText1263
+src/OmenCoreApp/Views/TuningView.xaml,1282,Text,Power Limit (%),A,是,已迁移,TuningViewText1282
+src/OmenCoreApp/Views/TuningView.xaml,1292,Content,Reset to Default,A,是,已迁移,TuningViewText1292
+src/OmenCoreApp/Views/TuningView.xaml,1296,ToolTip,Restore AMD GPU clocks and power to stock values.,A,是,已迁移,TuningViewText1296
+src/OmenCoreApp/Views/TuningView.xaml,1298,Content,Apply AMD GPU OC,A,是,已迁移,TuningViewText1298
+src/OmenCoreApp/Views/TuningView.xaml,1302,ToolTip,Apply the AMD GPU clock and power offsets above. An unstable overclock can cause driver resets or crashes.,A,是,已迁移,TuningViewText1302
+src/OmenCoreApp/Views/TuningView.xaml,1321,Text,Your GPU doesn't support clock offset adjustments via NVAPI. Power Limit adjustments still work below.,A,是,已迁移,TuningViewText1321
+src/OmenCoreApp/Views/TuningView.xaml,1323,Text,"For clock OC, use MSI Afterburner or HP Omen Hub.",A,是,已迁移,TuningViewText1323
+src/OmenCoreApp/Views/TuningView.xaml,1336,Text,Power Limit Locked,A,是,已迁移,TuningViewText1336
+src/OmenCoreApp/Views/TuningView.xaml,1358,Text,POWER LIMIT,A,是,已迁移,TuningViewText1358
+src/OmenCoreApp/Views/TuningView.xaml,1395,Text,CORE CLOCK,A,是,已迁移,TuningViewText1395
+src/OmenCoreApp/Views/TuningView.xaml,1431,Text,MEM CLOCK,A,是,已迁移,TuningViewText1431
+src/OmenCoreApp/Views/TuningView.xaml,1463,Content,Test Apply,A,是,已迁移,TuningViewText1463
+src/OmenCoreApp/Views/TuningView.xaml,1467,ToolTip,Apply these GPU settings temporarily so you can check stability. They revert automatically unless you press Keep.,A,是,已迁移,TuningViewText1467
+src/OmenCoreApp/Views/TuningView.xaml,1470,Content,Keep,A,是,已迁移,TuningViewText1470
+src/OmenCoreApp/Views/TuningView.xaml,1474,ToolTip,Confirm the settings you are currently testing and stop them from reverting.,A,是,已迁移,TuningViewText1474
+src/OmenCoreApp/Views/TuningView.xaml,1477,Content,Apply GPU Settings,A,是,已迁移,TuningViewText1477
+src/OmenCoreApp/Views/TuningView.xaml,1481,ToolTip,"Apply the GPU clock, memory, and power offsets above. An unstable overclock can cause driver resets or crashes.",A,是,已迁移,TuningViewText1481
+src/OmenCoreApp/Views/TuningView.xaml,1484,Content,Reset to Defaults,A,是,已迁移,TuningViewText1484
+src/OmenCoreApp/Views/TuningView.xaml,1488,ToolTip,"Restore GPU clocks, memory, and power limit to stock values.",A,是,已迁移,TuningViewText1488
+src/OmenCoreApp/Views/TuningView.xaml,1507,Text,No Tuning Features Available,A,是,已迁移,TuningViewText1507
+src/OmenCoreApp/Views/TuningView.xaml,1509,Text,"Your system doesn't support CPU undervolting, power limit control, or GPU overclocking through OmenCore.",A,是,已迁移,TuningViewText1509

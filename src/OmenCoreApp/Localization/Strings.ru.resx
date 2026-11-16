@@ -365,4 +365,166 @@ Open GitHub releases to download manually?</value></data>
   <data name="FanDiagnosticsViewText89" xml:space="preserve"><value>History</value></data>
   <data name="FanDiagnosticsViewText97" xml:space="preserve"><value>Requested: </value></data>
   <data name="FanDiagnosticsViewText106" xml:space="preserve"><value>Evidence: </value></data>
+  <data name="FanControlViewText65" xml:space="preserve"><value>FAN &amp; THERMAL CONTROL</value></data>
+  <data name="FanControlViewText66" xml:space="preserve"><value>Manage your laptop's cooling performance. All fan control uses your laptop's standard firmware interface (WMI BIOS). Software commands cannot damage hardware.</value></data>
+  <data name="FanControlViewText113" xml:space="preserve"><value>CURVE ACTIVE</value></data>
+  <data name="FanControlViewText128" xml:space="preserve"><value>Fan/performance decoupling is now the default</value></data>
+  <data name="FanControlViewText133" xml:space="preserve"><value>Dismiss</value></data>
+  <data name="FanControlViewText149" xml:space="preserve"><value>Possible Fan Hardware Issue Detected</value></data>
+  <data name="FanControlViewText152" xml:space="preserve"><value>OmenCore uses your laptop's standard firmware interface (WMI BIOS). Software commands cannot damage hardware. If the issue persists, contact HP support or check your fans physically.</value></data>
+  <data name="FanControlViewText156" xml:space="preserve"><value>Dismiss</value></data>
+  <data name="FanControlViewText181" xml:space="preserve"><value>FAN PROFILES</value></data>
+  <data name="FanControlViewText189" xml:space="preserve"><value>Clear OmenCore fan ownership and return control to firmware auto mode</value></data>
+  <data name="FanControlViewText191" xml:space="preserve"><value>Restore OEM Auto</value></data>
+  <data name="FanControlViewText207" xml:space="preserve"><value>Forces all fans to maximum RPM. Use for heavy gaming or stress tests.</value></data>
+  <data name="FanControlViewText228" xml:space="preserve"><value>Max</value></data>
+  <data name="FanControlViewText266" xml:space="preserve"><value>Direct</value></data>
+  <data name="FanControlViewText271" xml:space="preserve"><value>OK</value></data>
+  <data name="FanControlViewText284" xml:space="preserve"><value>Highest non-Max cooling curve. Reserves 100% fan duty for hotter operation; use Max for immediate full RPM.</value></data>
+  <data name="FanControlViewText305" xml:space="preserve"><value>Extreme</value></data>
+  <data name="FanControlViewText323" xml:space="preserve"><value>Aggressive fan curve that ramps up quickly. Good for gaming sessions.</value></data>
+  <data name="FanControlViewText344" xml:space="preserve"><value>Gaming</value></data>
+  <data name="FanControlViewText362" xml:space="preserve"><value>BIOS-controlled balanced curve. Recommended for everyday use.</value></data>
+  <data name="FanControlViewText383" xml:space="preserve"><value>Auto</value></data>
+  <data name="FanControlViewText401" xml:space="preserve"><value>Prioritizes quiet operation. Fans stay low until temps rise significantly.</value></data>
+  <data name="FanControlViewText422" xml:space="preserve"><value>Silent</value></data>
+  <data name="FanControlViewText423" xml:space="preserve"><value>Quiet</value></data>
+  <data name="FanControlViewText462" xml:space="preserve"><value>Custom</value></data>
+  <data name="FanControlViewText489" xml:space="preserve"><value>DIRECT FAN LEVEL</value></data>
+  <data name="FanControlViewText508" xml:space="preserve"><value>Drag to request a fixed fan level</value></data>
+  <data name="FanControlViewText524" xml:space="preserve"><value>Apply the selected direct fan level now</value></data>
+  <data name="FanControlViewText526" xml:space="preserve"><value>Apply</value></data>
+  <data name="FanControlViewText540" xml:space="preserve"><value>Name for your custom preset</value></data>
+  <data name="FanControlViewText545" xml:space="preserve"><value>Save current curve as a custom preset</value></data>
+  <data name="FanControlViewText549" xml:space="preserve"><value>Save</value></data>
+  <data name="FanControlViewText556" xml:space="preserve"><value>Saved:</value></data>
+  <data name="FanControlViewText562" xml:space="preserve"><value>Select a saved custom preset to load</value></data>
+  <data name="FanControlViewText567" xml:space="preserve"><value>Delete the selected custom preset</value></data>
+  <data name="FanControlViewText574" xml:space="preserve"><value>Import presets from a JSON file</value></data>
+  <data name="FanControlViewText576" xml:space="preserve"><value>Import</value></data>
+  <data name="FanControlViewText581" xml:space="preserve"><value>Export presets to a JSON file</value></data>
+  <data name="FanControlViewText583" xml:space="preserve"><value>Export</value></data>
+  <data name="FanControlViewText596" xml:space="preserve"><value>This won't survive a restart yet</value></data>
+  <data name="FanControlViewText601" xml:space="preserve"><value>Dismiss</value></data>
+  <data name="FanControlViewText611" xml:space="preserve"><value>Instant apply</value></data>
+  <data name="FanControlViewText614" xml:space="preserve"><value>Bypass smoothing on Save/Apply</value></data>
+  <data name="FanControlViewText619" xml:space="preserve"><value>Smoothing:</value></data>
+  <data name="FanControlViewText626" xml:space="preserve"><value>Step:</value></data>
+  <data name="FanControlViewText635" xml:space="preserve"><value>Independent CPU/GPU</value></data>
+  <data name="FanControlViewText639" xml:space="preserve"><value>GPU fan writes are model-dependent; unified curve mode remains the safe default</value></data>
+  <data name="FanControlViewText649" xml:space="preserve"><value>GPU fan curve support status</value></data>
+  <data name="FanControlViewText705" xml:space="preserve"><value>VISUAL CURVE EDITOR</value></data>
+  <data name="FanControlViewText714" xml:space="preserve"><value>Add a new curve point (max 10 points)</value></data>
+  <data name="FanControlViewText722" xml:space="preserve"><value>Remove the last curve point (min 2 points)</value></data>
+  <data name="FanControlViewText730" xml:space="preserve"><value>Reset curve to default</value></data>
+  <data name="FanControlViewText738" xml:space="preserve"><value>Copy this curve as a share code you can paste into Discord, Reddit, or a GitHub comment</value></data>
+  <data name="FanControlViewText745" xml:space="preserve"><value>Import a fan curve from a share code on the clipboard</value></data>
+  <data name="FanControlViewText798" xml:space="preserve"><value>Live Preview:</value></data>
+  <data name="FanControlViewText862" xml:space="preserve"><value>Current Points:</value></data>
+  <data name="FanControlViewText916" xml:space="preserve"><value>FAN CURVE (by CPU temp)</value></data>
+  <data name="FanControlViewText987" xml:space="preserve"><value>FAN CURVE (by GPU temp)</value></data>
+  <data name="FanControlViewText998" xml:space="preserve"><value>Copy CPU curve to GPU</value></data>
+  <data name="FanControlViewText1066" xml:space="preserve"><value>TEMPERATURE HISTORY</value></data>
+  <data name="FanControlViewText1077" xml:space="preserve"><value>REAL-TIME STATUS</value></data>
+  <data name="FanControlViewText1099" xml:space="preserve"><value>Thermal Protection Active</value></data>
+  <data name="FanControlViewText1114" xml:space="preserve"><value>FAN CONTROL OWNER</value></data>
+  <data name="FanControlViewText1144" xml:space="preserve"><value>CALIBRATION WIZARD</value></data>
+  <data name="TuningViewText44" xml:space="preserve"><value>CPU / GPU Tuning</value></data>
+  <data name="TuningViewText45" xml:space="preserve"><value>Advanced performance tuning • Undervolt • Overclock • Power Limits</value></data>
+  <data name="TuningViewText66" xml:space="preserve"><value>ADVANCED TUNING</value></data>
+  <data name="TuningViewText142" xml:space="preserve"><value>Tuning status</value></data>
+  <data name="TuningViewText168" xml:space="preserve"><value>Reset live tuning where available and normalize startup tuning state to safe Balanced/Auto defaults.</value></data>
+  <data name="TuningViewText178" xml:space="preserve"><value>Safe Rollback</value></data>
+  <data name="TuningViewText190" xml:space="preserve"><value>CPU Tuning</value></data>
+  <data name="TuningViewText199" xml:space="preserve"><value>CPU undervolt is not available on this machine</value></data>
+  <data name="TuningViewText250" xml:space="preserve"><value>Status: </value></data>
+  <data name="TuningViewText298" xml:space="preserve"><value>TEMP</value></data>
+  <data name="TuningViewText314" xml:space="preserve"><value>POWER</value></data>
+  <data name="TuningViewText352" xml:space="preserve"><value>CORE OFFSET</value></data>
+  <data name="TuningViewText354" xml:space="preserve"><value>Voltage</value></data>
+  <data name="TuningViewText416" xml:space="preserve"><value>Apply the CPU voltage offset above. An offset that is too aggressive can cause instability or crashes — test gradually.</value></data>
+  <data name="TuningViewText419" xml:space="preserve"><value>Reset to 0mV</value></data>
+  <data name="TuningViewText423" xml:space="preserve"><value>Remove the CPU voltage offset, returning the CPU to its stock voltage.</value></data>
+  <data name="TuningViewText433" xml:space="preserve"><value>Adjust CPU sustained (PL1) and burst (PL2) power limits. Higher values = more performance but more heat.</value></data>
+  <data name="TuningViewText466" xml:space="preserve"><value>CPU Power Limits (PL1/PL2)</value></data>
+  <data name="TuningViewText477" xml:space="preserve"><value>Re-read the current CPU power limits from the hardware.</value></data>
+  <data name="TuningViewText516" xml:space="preserve"><value>PL1 SUSTAINED</value></data>
+  <data name="TuningViewText518" xml:space="preserve"><value>Long-term TDP</value></data>
+  <data name="TuningViewText556" xml:space="preserve"><value>PL2 BURST</value></data>
+  <data name="TuningViewText558" xml:space="preserve"><value>Turbo Power</value></data>
+  <data name="TuningViewText601" xml:space="preserve"><value>Power limits locked by BIOS</value></data>
+  <data name="TuningViewText609" xml:space="preserve"><value>Apply Power Limits</value></data>
+  <data name="TuningViewText614" xml:space="preserve"><value>Apply the CPU PL1/PL2 power limits above. Higher limits allow more sustained performance but more heat.</value></data>
+  <data name="TuningViewText617" xml:space="preserve"><value>Reset to Defaults</value></data>
+  <data name="TuningViewText622" xml:space="preserve"><value>Restore the CPU power limits to this model's stock values.</value></data>
+  <data name="TuningViewText632" xml:space="preserve"><value>Control AMD Ryzen STAPM power and Tctl temperature limits via SMU.</value></data>
+  <data name="TuningViewText652" xml:space="preserve"><value>AMD CPU Power Limits</value></data>
+  <data name="TuningViewText685" xml:space="preserve"><value>Sustained power</value></data>
+  <data name="TuningViewText709" xml:space="preserve"><value>TCTL LIMIT</value></data>
+  <data name="TuningViewText710" xml:space="preserve"><value>Throttle point</value></data>
+  <data name="TuningViewText730" xml:space="preserve"><value>Currently enforced</value></data>
+  <data name="TuningViewText758" xml:space="preserve"><value>Refresh</value></data>
+  <data name="TuningViewText762" xml:space="preserve"><value>Read the four power limits back out of the SMU. Does not write anything.</value></data>
+  <data name="TuningViewText764" xml:space="preserve"><value>Apply AMD Limits</value></data>
+  <data name="TuningViewText768" xml:space="preserve"><value>Apply the AMD STAPM/temperature limits above.</value></data>
+  <data name="TuningViewText770" xml:space="preserve"><value>Reset to Defaults</value></data>
+  <data name="TuningViewText774" xml:space="preserve"><value>Restore the AMD CPU power limits to this model's stock values.</value></data>
+  <data name="TuningViewText784" xml:space="preserve"><value>AMD CPU Power Limits</value></data>
+  <data name="TuningViewText826" xml:space="preserve"><value>TCC Offset (Thermal Throttle Point)</value></data>
+  <data name="TuningViewText828" xml:space="preserve"><value>Reduce CPU Tjmax throttling temperature</value></data>
+  <data name="TuningViewText847" xml:space="preserve"><value>TCC OFFSET</value></data>
+  <data name="TuningViewText880" xml:space="preserve"><value>Apply Limit</value></data>
+  <data name="TuningViewText884" xml:space="preserve"><value>Apply the CPU thermal throttle limit above. The CPU will begin throttling at this temperature instead of its stock limit.</value></data>
+  <data name="TuningViewText887" xml:space="preserve"><value>Remove Limit</value></data>
+  <data name="TuningViewText891" xml:space="preserve"><value>Remove the thermal throttle limit, returning the CPU to its stock throttle temperature.</value></data>
+  <data name="TuningViewText902" xml:space="preserve"><value>GPU Tuning</value></data>
+  <data name="TuningViewText910" xml:space="preserve"><value>GPU POWER POLICY (read-only)</value></data>
+  <data name="TuningViewText912" xml:space="preserve"><value>What the NVIDIA driver is enforcing right now. A laptop's own firmware can hold this below the driver maximum.</value></data>
+  <data name="TuningViewText921" xml:space="preserve"><value>NVIDIA POWER UNLOCK (advanced, off by default)</value></data>
+  <data name="TuningViewText923" xml:space="preserve"><value>Order: 1) Resolve VBIOS, 2) Apply MAX, 3) restart Windows, 4) Apply CURRENT. Raises the GPU's power limit above the laptop maker's setting. MAX is stored in the NVIDIA driver's registry and needs a restart; CURRENT is applied live and resets on reboot. More power means more heat. Based on timmyy123's nvidia-power-control and bobshmo's OmenCore-Prophecy, used with their permission.</value></data>
+  <data name="TuningViewText924" xml:space="preserve"><value>Enable NVIDIA power unlock</value></data>
+  <data name="TuningViewText929" xml:space="preserve"><value>Target (W)</value></data>
+  <data name="TuningViewText934" xml:space="preserve"><value>Reads the VBIOS power table. Needs nvflash64.exe (nvflashb.exe on RTX 50 cards) next to OmenCore.exe, or use 'From file'. Apply CURRENT does not need it.</value></data>
+  <data name="TuningViewText935" xml:space="preserve"><value>From file...</value></data>
+  <data name="TuningViewText936" xml:space="preserve"><value>Apply MAX (restart)</value></data>
+  <data name="TuningViewText937" xml:space="preserve"><value>Apply CURRENT</value></data>
+  <data name="TuningViewText938" xml:space="preserve"><value>Remove MAX override</value></data>
+  <data name="TuningViewText939" xml:space="preserve"><value>Refresh</value></data>
+  <data name="TuningViewText943" xml:space="preserve"><value>Notes: do not disable PPAB (Dynamic Boost); the adapter limit applies to CPU and GPU together. A graphics driver update can undo the unlock, so check the live values afterwards. The RTX 5050 is untested. If CURRENT will not stick, switch the HP performance mode away and back, then apply again.</value></data>
+  <data name="TuningViewText992" xml:space="preserve"><value>Driver </value></data>
+  <data name="TuningViewText1021" xml:space="preserve"><value>Whether the confirmed GPU OC profile is currently authorized to reapply when OmenCore starts. Saving or selecting a profile alone never authorizes a startup write.</value></data>
+  <data name="TuningViewText1049" xml:space="preserve"><value>TEMP</value></data>
+  <data name="TuningViewText1065" xml:space="preserve"><value>POWER</value></data>
+  <data name="TuningViewText1083" xml:space="preserve"><value>CLOCK</value></data>
+  <data name="TuningViewText1111" xml:space="preserve"><value>GPU UNDERVOLTING:</value></data>
+  <data name="TuningViewText1134" xml:space="preserve"><value>Detected GPU Guardrails</value></data>
+  <data name="TuningViewText1180" xml:space="preserve"><value>ACTIVE</value></data>
+  <data name="TuningViewText1186" xml:space="preserve"><value>CORE</value></data>
+  <data name="TuningViewText1193" xml:space="preserve"><value>MEMORY</value></data>
+  <data name="TuningViewText1200" xml:space="preserve"><value>POWER</value></data>
+  <data name="TuningViewText1227" xml:space="preserve"><value>AMD Radeon GPU overclocking is available via AMD Display Library. Adjust clock offsets and power limits below.</value></data>
+  <data name="TuningViewText1229" xml:space="preserve"><value>Manual apply only: AMD offsets are not saved and do not reapply when OmenCore starts. Reapply after every reboot.</value></data>
+  <data name="TuningViewText1244" xml:space="preserve"><value>Core Clock Offset (MHz)</value></data>
+  <data name="TuningViewText1263" xml:space="preserve"><value>Memory Clock Offset (MHz)</value></data>
+  <data name="TuningViewText1282" xml:space="preserve"><value>Power Limit (%)</value></data>
+  <data name="TuningViewText1292" xml:space="preserve"><value>Reset to Default</value></data>
+  <data name="TuningViewText1296" xml:space="preserve"><value>Restore AMD GPU clocks and power to stock values.</value></data>
+  <data name="TuningViewText1298" xml:space="preserve"><value>Apply AMD GPU OC</value></data>
+  <data name="TuningViewText1302" xml:space="preserve"><value>Apply the AMD GPU clock and power offsets above. An unstable overclock can cause driver resets or crashes.</value></data>
+  <data name="TuningViewText1321" xml:space="preserve"><value>Your GPU doesn't support clock offset adjustments via NVAPI. Power Limit adjustments still work below.</value></data>
+  <data name="TuningViewText1323" xml:space="preserve"><value>For clock OC, use MSI Afterburner or HP Omen Hub.</value></data>
+  <data name="TuningViewText1336" xml:space="preserve"><value>Power Limit Locked</value></data>
+  <data name="TuningViewText1358" xml:space="preserve"><value>POWER LIMIT</value></data>
+  <data name="TuningViewText1395" xml:space="preserve"><value>CORE CLOCK</value></data>
+  <data name="TuningViewText1431" xml:space="preserve"><value>MEM CLOCK</value></data>
+  <data name="TuningViewText1463" xml:space="preserve"><value>Test Apply</value></data>
+  <data name="TuningViewText1467" xml:space="preserve"><value>Apply these GPU settings temporarily so you can check stability. They revert automatically unless you press Keep.</value></data>
+  <data name="TuningViewText1470" xml:space="preserve"><value>Keep</value></data>
+  <data name="TuningViewText1474" xml:space="preserve"><value>Confirm the settings you are currently testing and stop them from reverting.</value></data>
+  <data name="TuningViewText1477" xml:space="preserve"><value>Apply GPU Settings</value></data>
+  <data name="TuningViewText1481" xml:space="preserve"><value>Apply the GPU clock, memory, and power offsets above. An unstable overclock can cause driver resets or crashes.</value></data>
+  <data name="TuningViewText1484" xml:space="preserve"><value>Reset to Defaults</value></data>
+  <data name="TuningViewText1488" xml:space="preserve"><value>Restore GPU clocks, memory, and power limit to stock values.</value></data>
+  <data name="TuningViewText1507" xml:space="preserve"><value>No Tuning Features Available</value></data>
+  <data name="TuningViewText1509" xml:space="preserve"><value>Your system doesn't support CPU undervolting, power limit control, or GPU overclocking through OmenCore.</value></data>
 </root>
