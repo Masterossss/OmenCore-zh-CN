@@ -1638,5 +1638,16 @@ namespace OmenCore.Localization
         public static string BloatDependency4 => Get(nameof(BloatDependency4));
         public static string BloatDependency5 => Get(nameof(BloatDependency5));
         public static string BloatDependency6 => Get(nameof(BloatDependency6));
+        public static string BloatDetail0 => Get(nameof(BloatDetail0));
+        public static string BloatDetail1 => Get(nameof(BloatDetail1));
+        public static string BloatDetail2 => Get(nameof(BloatDetail2));
+        public static string BloatDetail3 => Get(nameof(BloatDetail3));
+        public static string BloatDetail4 => Get(nameof(BloatDetail4));
+        public static string BloatDetail5 => Get(nameof(BloatDetail5));
+        public static string BloatDetail6 => Get(nameof(BloatDetail6));
+        public static string BloatDetail7 => Get(nameof(BloatDetail7));
+        public static string BloatDetail8 => Get(nameof(BloatDetail8));
+        public static string BloatDetail9 => Get(nameof(BloatDetail9));
+        public static string BloatDetail10 => Get(nameof(BloatDetail10));
     }
 }

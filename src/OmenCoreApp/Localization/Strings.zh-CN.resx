@@ -1774,4 +1774,15 @@
   <data name="BloatDependency4" xml:space="preserve"><value>可能影响 HP 热键</value></data>
   <data name="BloatDependency5" xml:space="preserve"><value>Game Pass/Xbox 依赖项</value></data>
   <data name="BloatDependency6" xml:space="preserve"><value>安全组件</value></data>
+  <data name="BloatDetail0" xml:space="preserve"><value>本次会话中已删除该项目。</value></data>
+  <data name="BloatDetail1" xml:space="preserve"><value>尝试删除之前该软件包已不存在。</value></data>
+  <data name="BloatDetail2" xml:space="preserve"><value>已验证当前用户、所有用户和预配范围内的 AppX 软件包均已删除。</value></data>
+  <data name="BloatDetail3" xml:space="preserve"><value>无法解析 Win32 卸载命令。</value></data>
+  <data name="BloatDetail4" xml:space="preserve"><value>已验证 Win32 应用卸载；注册表不再显示该应用已安装。</value></data>
+  <data name="BloatDetail5" xml:space="preserve"><value>启动文件已成功移出启动文件夹。</value></data>
+  <data name="BloatDetail6" xml:space="preserve"><value>无法打开用于删除的启动注册表键。</value></data>
+  <data name="BloatDetail7" xml:space="preserve"><value>启动注册表项已成功删除。</value></data>
+  <data name="BloatDetail8" xml:space="preserve"><value>计划任务已成功禁用。</value></data>
+  <data name="BloatDetail9" xml:space="preserve"><value>还原在完成前已取消。</value></data>
+  <data name="BloatDetail10" xml:space="preserve"><value>此项目处理前批量还原已取消，故已跳过。</value></data>
 </root>

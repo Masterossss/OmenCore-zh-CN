@@ -358,6 +358,24 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void BloatwareDetailDisplayDoesNotAlterRawModelOrUnknownErrors()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                var converter = new BloatwareDetailDisplayConverter();
+                var raw = "Restore canceled before completion.";
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                converter.Convert(raw, typeof(string), null!, CultureInfo.CurrentCulture).Should().Be("还原在完成前已取消。");
+                converter.Convert("unknown error", typeof(string), null!, CultureInfo.CurrentCulture).Should().Be("unknown error");
+                raw.Should().Be("Restore canceled before completion.");
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                converter.Convert(raw, typeof(string), null!, CultureInfo.CurrentCulture).Should().Be(raw);
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void BloatwareMetadataDisplayPreservesValuesAndUnknownWarnings()
         {
             var original = CultureInfo.CurrentUICulture;

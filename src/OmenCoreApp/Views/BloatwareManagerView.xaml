@@ -13,6 +13,7 @@
     <UserControl.Resources>
         <loc:BloatwareRiskDisplayConverter x:Key="BloatwareRiskDisplay"/>
         <loc:BloatwareMetadataDisplayConverter x:Key="BloatwareMetadataDisplay"/>
+        <loc:BloatwareDetailDisplayConverter x:Key="BloatwareDetailDisplay"/>
     </UserControl.Resources>
 
     <Grid>
@@ -352,7 +353,7 @@
                             <GridViewColumn Header="{x:Static loc:Strings.BloatwareManagerViewText346}" Width="70">
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
-                                        <Border HorizontalAlignment="Center" ToolTip="{Binding LastRemovalDetail}">
+                                        <Border HorizontalAlignment="Center" ToolTip="{Binding LastRemovalDetail, Converter={StaticResource BloatwareDetailDisplay}}">
                                             <Border.Style>
                                                 <Style TargetType="Border" BasedOn="{StaticResource StatusBadge}">
                                                     <Setter Property="Background" Value="{DynamicResource SurfaceLightBrush}"/>
@@ -405,10 +406,10 @@
                             <GridViewColumn Header="{x:Static loc:Strings.BloatwareManagerViewText399}" Width="320">
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
-                                        <TextBlock Text="{Binding LastRemovalDetail, TargetNullValue=-}"
+                                        <TextBlock Text="{Binding LastRemovalDetail, Converter={StaticResource BloatwareDetailDisplay}, TargetNullValue=-}"
                                                    TextTrimming="CharacterEllipsis"
                                                    Foreground="{StaticResource TextSecondaryBrush}"
-                                                   ToolTip="{Binding LastRemovalDetail}">
+                                                   ToolTip="{Binding LastRemovalDetail, Converter={StaticResource BloatwareDetailDisplay}}">
                                             <TextBlock.Style>
                                                 <Style TargetType="TextBlock">
                                                     <Style.Triggers>

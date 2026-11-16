@@ -1782,4 +1782,15 @@ Continue?</value></data>
   <data name="BloatDependency4" xml:space="preserve"><value>may affect HP hotkeys</value></data>
   <data name="BloatDependency5" xml:space="preserve"><value>Game Pass/Xbox dependency</value></data>
   <data name="BloatDependency6" xml:space="preserve"><value>security component</value></data>
+  <data name="BloatDetail0" xml:space="preserve"><value>Item was already removed in this session.</value></data>
+  <data name="BloatDetail1" xml:space="preserve"><value>Package was already absent before removal attempt.</value></data>
+  <data name="BloatDetail2" xml:space="preserve"><value>AppX package removal verified across current user, all users, and provisioned scopes.</value></data>
+  <data name="BloatDetail3" xml:space="preserve"><value>Could not parse Win32 uninstall command.</value></data>
+  <data name="BloatDetail4" xml:space="preserve"><value>Win32 app uninstall verified; registry no longer reports the app as installed.</value></data>
+  <data name="BloatDetail5" xml:space="preserve"><value>Startup file moved out of the startup folder successfully.</value></data>
+  <data name="BloatDetail6" xml:space="preserve"><value>Startup registry key could not be opened for removal.</value></data>
+  <data name="BloatDetail7" xml:space="preserve"><value>Startup registry entry removed successfully.</value></data>
+  <data name="BloatDetail8" xml:space="preserve"><value>Scheduled task disabled successfully.</value></data>
+  <data name="BloatDetail9" xml:space="preserve"><value>Restore canceled before completion.</value></data>
+  <data name="BloatDetail10" xml:space="preserve"><value>Skipped because bulk restore was canceled before this item was processed.</value></data>
 </root>
