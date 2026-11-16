@@ -1701,4 +1701,6 @@ Continue?</value></data>
   <data name="LightReadbackNo" xml:space="preserve"><value>Readback did not verify.</value></data>
   <data name="LightReadbackUnavailable" xml:space="preserve"><value>No reliable readback available.</value></data>
   <data name="LightApplyError" xml:space="preserve"><value>Keyboard lighting apply failed: {0}</value></data>
+  <data name="MemAutoScheduled" xml:space="preserve"><value>Auto-clean: scheduled every {0} minute(s)...</value></data>
+  <data name="MemAutoPressure" xml:space="preserve"><value>Auto-clean: memory {0}% load, {1}% available, {2}% commit...</value></data>
 </root>

@@ -54,6 +54,10 @@ namespace OmenCore.Localization
             if (value == "Cleaning memory...") return Strings.MemoryStatusCleaning;
             if (value == "Enabling memory compression...") return Strings.MemoryStatusEnableCompression;
             if (value == "Disabling memory compression...") return Strings.MemoryStatusDisableCompression;
+            var scheduled = Regex.Match(value, @"\AAuto-clean: scheduled every ([0-9]+) minute\(s\)\.\.\.\z", RegexOptions.CultureInvariant);
+            if (scheduled.Success) return string.Format(Strings.MemAutoScheduled, scheduled.Groups[1].Value);
+            var pressure = Regex.Match(value, @"\AAuto-clean: memory ([0-9]+)% load, ([0-9.,]+)% available, ([0-9.,]+)% commit\.\.\.\z", RegexOptions.CultureInvariant);
+            if (pressure.Success) return string.Format(Strings.MemAutoPressure, pressure.Groups[1].Value, pressure.Groups[2].Value, pressure.Groups[3].Value);
             var progress = value switch
             {
                 "Trimming process working sets..." => Strings.MemProgressTrim,

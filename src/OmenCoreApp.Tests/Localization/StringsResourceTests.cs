@@ -344,6 +344,8 @@ namespace OmenCoreApp.Tests.Localization
                 MemoryOptimizerDisplayText.Result(delta).Should().Be(delta);
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
                 MemoryOptimizerDisplayText.Status("Trimming process working sets...").Should().Be("正在精简进程工作集…");
+                MemoryOptimizerDisplayText.Status("Auto-clean: scheduled every 15 minute(s)...").Should().Contain("15 分钟");
+                MemoryOptimizerDisplayText.Status("Auto-clean: memory 88% load, 3.4% available, 45.6% commit...").Should().Contain("88%").And.Contain("3.4%").And.Contain("45.6%");
                 MemoryOptimizerDisplayText.Status("Failed: Failed to acquire required privileges. Run as administrator.").Should().Contain("管理员");
                 MemoryOptimizerDisplayText.Status("Freed 42 MB (3 operations, 1 failed)...").Should().Contain("42 MB").And.Contain("1 项失败");
                 raw.Should().StartWith("Freed 128 MB");

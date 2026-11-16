@@ -1697,4 +1697,6 @@
   <data name="LightReadbackNo" xml:space="preserve"><value>回读未通过验证。</value></data>
   <data name="LightReadbackUnavailable" xml:space="preserve"><value>无法进行可靠回读。</value></data>
   <data name="LightApplyError" xml:space="preserve"><value>键盘灯光应用失败：{0}</value></data>
+  <data name="MemAutoScheduled" xml:space="preserve"><value>自动清理：每 {0} 分钟执行一次…</value></data>
+  <data name="MemAutoPressure" xml:space="preserve"><value>自动清理：内存负载 {0}%，可用 {1}%，已提交 {2}%…</value></data>
 </root>

@@ -1561,5 +1561,7 @@ namespace OmenCore.Localization
         public static string LightReadbackNo => Get(nameof(LightReadbackNo));
         public static string LightReadbackUnavailable => Get(nameof(LightReadbackUnavailable));
         public static string LightApplyError => Get(nameof(LightApplyError));
+        public static string MemAutoScheduled => Get(nameof(MemAutoScheduled));
+        public static string MemAutoPressure => Get(nameof(MemAutoPressure));
     }
 }
