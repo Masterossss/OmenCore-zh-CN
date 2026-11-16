@@ -1498,4 +1498,31 @@ Continue?</value></data>
   <data name="MemDeltaReduced" xml:space="preserve"><value>reduced {0} MB</value></data>
   <data name="MemDeltaUnchanged" xml:space="preserve"><value>unchanged</value></data>
   <data name="MemDeltaSegment" xml:space="preserve"><value>{0} {1} -&gt; {2} MB ({3})</value></data>
+  <data name="OptimizerItem0" xml:space="preserve"><value>Ultimate Performance Plan</value></data>
+  <data name="OptimizerItem1" xml:space="preserve"><value>Hardware GPU Scheduling</value></data>
+  <data name="OptimizerItem2" xml:space="preserve"><value>Game Mode</value></data>
+  <data name="OptimizerItem3" xml:space="preserve"><value>Foreground Priority Boost</value></data>
+  <data name="OptimizerItem4" xml:space="preserve"><value>Disable Telemetry</value></data>
+  <data name="OptimizerItem5" xml:space="preserve"><value>Disable SysMain (Superfetch)</value></data>
+  <data name="OptimizerItem6" xml:space="preserve"><value>Disable Search Indexing</value></data>
+  <data name="OptimizerItem7" xml:space="preserve"><value>Disable Connected Experiences</value></data>
+  <data name="OptimizerItem8" xml:space="preserve"><value>TCP No Delay</value></data>
+  <data name="OptimizerItem9" xml:space="preserve"><value>TCP ACK Optimization</value></data>
+  <data name="OptimizerItem10" xml:space="preserve"><value>Disable P2P Updates</value></data>
+  <data name="OptimizerItem11" xml:space="preserve"><value>Disable Nagle Algorithm</value></data>
+  <data name="OptimizerItem12" xml:space="preserve"><value>Disable Mouse Acceleration</value></data>
+  <data name="OptimizerItem13" xml:space="preserve"><value>Disable Game DVR</value></data>
+  <data name="OptimizerItem14" xml:space="preserve"><value>Disable Xbox Game Bar</value></data>
+  <data name="OptimizerItem15" xml:space="preserve"><value>Fullscreen Optimizations</value></data>
+  <data name="OptimizerItem16" xml:space="preserve"><value>Disable Transparency</value></data>
+  <data name="OptimizerItem17" xml:space="preserve"><value>Disable Animations</value></data>
+  <data name="OptimizerItem18" xml:space="preserve"><value>TRIM for SSD</value></data>
+  <data name="OptimizerItem19" xml:space="preserve"><value>Disable Last Access Timestamps</value></data>
+  <data name="OptimizerItem20" xml:space="preserve"><value>Disable 8.3 Names</value></data>
+  <data name="OptimizerRiskLow" xml:space="preserve"><value>Low Risk</value></data>
+  <data name="OptimizerRiskMedium" xml:space="preserve"><value>Medium Risk</value></data>
+  <data name="OptimizerRiskHigh" xml:space="preserve"><value>High Risk</value></data>
+  <data name="OptimizerRiskUnknown" xml:space="preserve"><value>Unknown</value></data>
+  <data name="OptimizerWarningSearch" xml:space="preserve"><value>May slow down file searches</value></data>
+  <data name="OptimizerWarningLegacy" xml:space="preserve"><value>May break very old software</value></data>
 </root>

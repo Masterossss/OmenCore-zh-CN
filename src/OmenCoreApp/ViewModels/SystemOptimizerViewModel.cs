@@ -1206,6 +1206,37 @@ namespace OmenCore.ViewModels
 
         public string Id { get; set; } = "";
         public string Name { get; set; } = "";
+        public string DisplayName => Id switch
+        {
+            "power_ultimate_perf" => Strings.OptimizerItem0,
+            "power_gpu_scheduling" => Strings.OptimizerItem1,
+            "power_game_mode" => Strings.OptimizerItem2,
+            "power_foreground_priority" => Strings.OptimizerItem3,
+            "service_telemetry" => Strings.OptimizerItem4,
+            "service_sysmain" => Strings.OptimizerItem5,
+            "service_search" => Strings.OptimizerItem6,
+            "service_diagtrack" => Strings.OptimizerItem7,
+            "network_tcp_nodelay" => Strings.OptimizerItem8,
+            "network_tcp_ack" => Strings.OptimizerItem9,
+            "network_delivery_opt" => Strings.OptimizerItem10,
+            "network_nagle" => Strings.OptimizerItem11,
+            "input_mouse_accel" => Strings.OptimizerItem12,
+            "input_game_dvr" => Strings.OptimizerItem13,
+            "input_game_bar" => Strings.OptimizerItem14,
+            "input_fullscreen_opt" => Strings.OptimizerItem15,
+            "visual_transparency" => Strings.OptimizerItem16,
+            "visual_animations" => Strings.OptimizerItem17,
+            "storage_trim" => Strings.OptimizerItem18,
+            "storage_last_access" => Strings.OptimizerItem19,
+            "storage_8dot3" => Strings.OptimizerItem20,
+            _ => Name
+        };
+        public string? DisplayWarning => Warning switch
+        {
+            "May slow down file searches" => Strings.OptimizerWarningSearch,
+            "May break very old software" => Strings.OptimizerWarningLegacy,
+            _ => Warning
+        };
         public string Description { get; set; } = "";
         public string Category { get; set; } = "";
         public OptimizationRisk Risk { get; set; }
@@ -1237,10 +1268,10 @@ namespace OmenCore.ViewModels
 
         public string RiskText => Risk switch
         {
-            OptimizationRisk.Low => "Low Risk",
-            OptimizationRisk.Medium => "Medium Risk",
-            OptimizationRisk.High => "High Risk",
-            _ => "Unknown"
+            OptimizationRisk.Low => Strings.OptimizerRiskLow,
+            OptimizationRisk.Medium => Strings.OptimizerRiskMedium,
+            OptimizationRisk.High => Strings.OptimizerRiskHigh,
+            _ => Strings.OptimizerRiskUnknown
         };
 
         public string RiskColor => Risk switch

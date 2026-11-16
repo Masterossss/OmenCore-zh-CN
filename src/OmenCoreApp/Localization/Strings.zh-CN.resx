@@ -1490,4 +1490,31 @@
   <data name="MemDeltaReduced" xml:space="preserve"><value>减少 {0} MB</value></data>
   <data name="MemDeltaUnchanged" xml:space="preserve"><value>未变化</value></data>
   <data name="MemDeltaSegment" xml:space="preserve"><value>{0} {1} → {2} MB（{3}）</value></data>
+  <data name="OptimizerItem0" xml:space="preserve"><value>卓越性能电源计划</value></data>
+  <data name="OptimizerItem1" xml:space="preserve"><value>硬件加速 GPU 调度</value></data>
+  <data name="OptimizerItem2" xml:space="preserve"><value>游戏模式</value></data>
+  <data name="OptimizerItem3" xml:space="preserve"><value>提高前台进程优先级</value></data>
+  <data name="OptimizerItem4" xml:space="preserve"><value>禁用遥测</value></data>
+  <data name="OptimizerItem5" xml:space="preserve"><value>禁用 SysMain（Superfetch）</value></data>
+  <data name="OptimizerItem6" xml:space="preserve"><value>禁用搜索索引</value></data>
+  <data name="OptimizerItem7" xml:space="preserve"><value>禁用互联用户体验</value></data>
+  <data name="OptimizerItem8" xml:space="preserve"><value>TCP 无延迟</value></data>
+  <data name="OptimizerItem9" xml:space="preserve"><value>TCP ACK 优化</value></data>
+  <data name="OptimizerItem10" xml:space="preserve"><value>禁用 P2P 更新</value></data>
+  <data name="OptimizerItem11" xml:space="preserve"><value>禁用 Nagle 算法</value></data>
+  <data name="OptimizerItem12" xml:space="preserve"><value>禁用鼠标加速</value></data>
+  <data name="OptimizerItem13" xml:space="preserve"><value>禁用游戏录制</value></data>
+  <data name="OptimizerItem14" xml:space="preserve"><value>禁用 Xbox 游戏栏</value></data>
+  <data name="OptimizerItem15" xml:space="preserve"><value>全屏优化</value></data>
+  <data name="OptimizerItem16" xml:space="preserve"><value>禁用透明效果</value></data>
+  <data name="OptimizerItem17" xml:space="preserve"><value>禁用动画</value></data>
+  <data name="OptimizerItem18" xml:space="preserve"><value>SSD TRIM</value></data>
+  <data name="OptimizerItem19" xml:space="preserve"><value>禁用上次访问时间戳</value></data>
+  <data name="OptimizerItem20" xml:space="preserve"><value>禁用 8.3 文件名</value></data>
+  <data name="OptimizerRiskLow" xml:space="preserve"><value>低风险</value></data>
+  <data name="OptimizerRiskMedium" xml:space="preserve"><value>中风险</value></data>
+  <data name="OptimizerRiskHigh" xml:space="preserve"><value>高风险</value></data>
+  <data name="OptimizerRiskUnknown" xml:space="preserve"><value>未知</value></data>
+  <data name="OptimizerWarningSearch" xml:space="preserve"><value>可能降低文件搜索速度</value></data>
+  <data name="OptimizerWarningLegacy" xml:space="preserve"><value>可能导致非常旧的软件无法正常工作</value></data>
 </root>

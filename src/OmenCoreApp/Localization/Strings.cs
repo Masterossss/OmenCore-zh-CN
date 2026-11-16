@@ -1354,5 +1354,32 @@ namespace OmenCore.Localization
         public static string MemDeltaReduced => Get(nameof(MemDeltaReduced));
         public static string MemDeltaUnchanged => Get(nameof(MemDeltaUnchanged));
         public static string MemDeltaSegment => Get(nameof(MemDeltaSegment));
+        public static string OptimizerItem0 => Get(nameof(OptimizerItem0));
+        public static string OptimizerItem1 => Get(nameof(OptimizerItem1));
+        public static string OptimizerItem2 => Get(nameof(OptimizerItem2));
+        public static string OptimizerItem3 => Get(nameof(OptimizerItem3));
+        public static string OptimizerItem4 => Get(nameof(OptimizerItem4));
+        public static string OptimizerItem5 => Get(nameof(OptimizerItem5));
+        public static string OptimizerItem6 => Get(nameof(OptimizerItem6));
+        public static string OptimizerItem7 => Get(nameof(OptimizerItem7));
+        public static string OptimizerItem8 => Get(nameof(OptimizerItem8));
+        public static string OptimizerItem9 => Get(nameof(OptimizerItem9));
+        public static string OptimizerItem10 => Get(nameof(OptimizerItem10));
+        public static string OptimizerItem11 => Get(nameof(OptimizerItem11));
+        public static string OptimizerItem12 => Get(nameof(OptimizerItem12));
+        public static string OptimizerItem13 => Get(nameof(OptimizerItem13));
+        public static string OptimizerItem14 => Get(nameof(OptimizerItem14));
+        public static string OptimizerItem15 => Get(nameof(OptimizerItem15));
+        public static string OptimizerItem16 => Get(nameof(OptimizerItem16));
+        public static string OptimizerItem17 => Get(nameof(OptimizerItem17));
+        public static string OptimizerItem18 => Get(nameof(OptimizerItem18));
+        public static string OptimizerItem19 => Get(nameof(OptimizerItem19));
+        public static string OptimizerItem20 => Get(nameof(OptimizerItem20));
+        public static string OptimizerRiskLow => Get(nameof(OptimizerRiskLow));
+        public static string OptimizerRiskMedium => Get(nameof(OptimizerRiskMedium));
+        public static string OptimizerRiskHigh => Get(nameof(OptimizerRiskHigh));
+        public static string OptimizerRiskUnknown => Get(nameof(OptimizerRiskUnknown));
+        public static string OptimizerWarningSearch => Get(nameof(OptimizerWarningSearch));
+        public static string OptimizerWarningLegacy => Get(nameof(OptimizerWarningLegacy));
     }
 }

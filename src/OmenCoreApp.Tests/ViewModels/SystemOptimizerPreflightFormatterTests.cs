@@ -29,6 +29,26 @@ namespace OmenCoreApp.Tests.ViewModels
         }
 
         [Fact]
+        public void OptimizationDisplayPreservesIdOriginalNameAndRiskWarning()
+        {
+            var original = System.Globalization.CultureInfo.CurrentUICulture;
+            try
+            {
+                var item = new OptimizationItem { Id = "service_search", Name = "Disable Search Indexing", Warning = "May slow down file searches", Risk = OptimizationRisk.Medium };
+                System.Globalization.CultureInfo.CurrentUICulture = System.Globalization.CultureInfo.GetCultureInfo("zh-CN");
+                item.DisplayName.Should().Be("禁用搜索索引");
+                item.DisplayWarning.Should().Contain("搜索");
+                item.RiskText.Should().Be("中风险");
+                item.Name.Should().Be("Disable Search Indexing");
+                item.Id.Should().Be("service_search");
+                item.Warning.Should().Be("May slow down file searches");
+                item.Id = "unknown";
+                item.DisplayName.Should().Be(item.Name);
+            }
+            finally { System.Globalization.CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void DisplaySummaryPreservesRiskAndRebootAndUnknownWarnings()
         {
             var original = System.Globalization.CultureInfo.CurrentUICulture;
