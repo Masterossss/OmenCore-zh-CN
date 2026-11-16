@@ -1466,4 +1466,10 @@
   <data name="LightCorsairUnconfigured" xml:space="preserve"><value>尚未配置 Corsair iCUE</value></data>
   <data name="LightLogitechUnconfigured" xml:space="preserve"><value>尚未配置 Logitech G HUB</value></data>
   <data name="LightRazerUnconfigured" xml:space="preserve"><value>尚未配置 Razer Synapse</value></data>
+  <data name="BloatRestoreWorking" xml:space="preserve"><value>正在还原 {0}…</value></data>
+  <data name="BloatRestoreProgress" xml:space="preserve"><value>正在还原 {0}/{1}：{2}…</value></data>
+  <data name="BloatRestoreDone" xml:space="preserve"><value>完成：已还原 {0}</value></data>
+  <data name="BloatRestoreCount" xml:space="preserve"><value>完成：已还原 {0} 个预装软件项目</value></data>
+  <data name="BloatRestorePartial" xml:space="preserve"><value>失败：批量还原结束，{0} 项失败；已还原 {1}/{2} 项。</value></data>
+  <data name="BloatRestoreCanceled" xml:space="preserve"><value>失败：批量还原在 {0} 处取消；已完成 {1} 项，跳过 {2} 项。</value></data>
 </root>

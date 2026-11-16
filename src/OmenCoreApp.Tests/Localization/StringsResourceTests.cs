@@ -351,6 +351,22 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void BloatwareRestoreStatusKeepsFailureAndProgressDistinct()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                BloatwareStatusDisplayText.Translate("Failed: Bulk restore finished with 2 failures. Restored 3/5 items.").Should().Contain("失败").And.Contain("3/5");
+                BloatwareStatusDisplayText.Translate("Restoring 1/5: Example...").Should().Contain("1/5").And.Contain("Example");
+                BloatwareStatusDisplayText.Translate("Failed: unknown backend error").Should().Be("Failed: unknown backend error");
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                BloatwareStatusDisplayText.Translate("Done: Restored 3 bloatware items").Should().Be("Done: Restored 3 bloatware items");
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void LightingStatusDisplaysKnownFailuresAndPreservesUnknownDetails()
         {
             var original = CultureInfo.CurrentUICulture;

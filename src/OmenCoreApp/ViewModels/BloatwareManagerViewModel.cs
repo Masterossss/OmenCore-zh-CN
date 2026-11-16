@@ -99,8 +99,10 @@ namespace OmenCore.ViewModels
         public string StatusMessage
         {
             get => _statusMessage;
-            set { _statusMessage = value; OnPropertyChanged(); }
+            set { _statusMessage = value; OnPropertyChanged(); OnPropertyChanged(nameof(StatusMessageDisplay)); }
         }
+
+        public string StatusMessageDisplay => BloatwareStatusDisplayText.Translate(StatusMessage);
 
         public string FilterText
         {

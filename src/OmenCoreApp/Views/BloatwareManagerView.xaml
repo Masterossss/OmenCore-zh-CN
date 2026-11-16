@@ -243,7 +243,7 @@
             </Grid>
 
             <Border Style="{StaticResource Omen.Toast}" Margin="0,8,0,0" HorizontalAlignment="Left">
-                <TextBlock Text="{Binding StatusMessage}" FontSize="11" Foreground="{StaticResource TextSecondaryBrush}"/>
+                <TextBlock Text="{Binding StatusMessageDisplay}" FontSize="11" Foreground="{StaticResource TextSecondaryBrush}"/>
             </Border>
 
             <Border Style="{StaticResource CardBorder}"
@@ -304,7 +304,7 @@
                     <Border Style="{StaticResource Omen.Busy.Panel}" VerticalAlignment="Center" HorizontalAlignment="Center">
                         <StackPanel>
                             <ProgressBar Style="{StaticResource Omen.Busy.Progress}" IsIndeterminate="True" Margin="0,0,0,10"/>
-                            <TextBlock Text="{Binding StatusMessage}" 
+                            <TextBlock Text="{Binding StatusMessageDisplay}" 
                                        Foreground="{StaticResource TextSecondaryBrush}" 
                                        FontSize="13"
                                        HorizontalAlignment="Center"
@@ -487,7 +487,7 @@
                 </Grid.ColumnDefinitions>
 
                 <TextBlock Grid.Column="0" 
-                           Text="{Binding StatusMessage}" 
+                           Text="{Binding StatusMessageDisplay}" 
                            Foreground="{StaticResource TextSecondaryBrush}" 
                            FontSize="11"
                            VerticalAlignment="Center"/>

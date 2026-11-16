@@ -1330,5 +1330,11 @@ namespace OmenCore.Localization
         public static string LightCorsairUnconfigured => Get(nameof(LightCorsairUnconfigured));
         public static string LightLogitechUnconfigured => Get(nameof(LightLogitechUnconfigured));
         public static string LightRazerUnconfigured => Get(nameof(LightRazerUnconfigured));
+        public static string BloatRestoreWorking => Get(nameof(BloatRestoreWorking));
+        public static string BloatRestoreProgress => Get(nameof(BloatRestoreProgress));
+        public static string BloatRestoreDone => Get(nameof(BloatRestoreDone));
+        public static string BloatRestoreCount => Get(nameof(BloatRestoreCount));
+        public static string BloatRestorePartial => Get(nameof(BloatRestorePartial));
+        public static string BloatRestoreCanceled => Get(nameof(BloatRestoreCanceled));
     }
 }
