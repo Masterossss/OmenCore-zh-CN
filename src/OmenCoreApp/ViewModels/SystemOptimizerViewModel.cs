@@ -651,7 +651,7 @@ namespace OmenCore.ViewModels
             {
                 _logger.Error($"Failed to apply gaming max: {ex.Message}");
                 SetStatusFailed(ex.Message);
-                MessageBox.Show(string.Format(Strings.OptimizerApplyError, ex.Message), 
+                MessageBox.Show(string.Format(Strings.OptimizerApplyError, ex.Message),
                     Strings.OptimizerErrorTitle, MessageBoxButton.OK, MessageBoxImage.Error);
             }
             finally
