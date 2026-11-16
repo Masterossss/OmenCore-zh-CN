@@ -296,13 +296,13 @@ namespace OmenCore.Utils
             var advancedMenuItem = new MenuItem { Header = OmenCore.Localization.Strings.TrayAdvanced };
 
             // Fan submenu
-            _fanModeMenuItem = new MenuItem { Header = "Fan Control" };
+            _fanModeMenuItem = new MenuItem { Header = OmenCore.Localization.Strings.TrayFanControl };
             
-            _fanAutoMenuItem = new MenuItem { Header = "✓ Auto — System controlled" };
+            _fanAutoMenuItem = new MenuItem { Header = "✓" + OmenCore.Localization.Strings.TrayFanAutoDetail };
             _fanAutoMenuItem.Click += (s, e) => SetFanMode("Auto");
-            _fanMaxMenuItem = new MenuItem { Header = "   Max — Maximum cooling" };
+            _fanMaxMenuItem = new MenuItem { Header = "  " + OmenCore.Localization.Strings.TrayFanMaxDetail };
             _fanMaxMenuItem.Click += (s, e) => SetFanMode("Max");
-            _fanQuietMenuItem = new MenuItem { Header = "   Quiet — Reduced noise" };
+            _fanQuietMenuItem = new MenuItem { Header = "  " + OmenCore.Localization.Strings.TrayFanQuietDetail };
             _fanQuietMenuItem.Click += (s, e) => SetFanMode("Quiet");
             
             _fanModeMenuItem.Items.Add(_fanAutoMenuItem);
@@ -335,13 +335,13 @@ namespace OmenCore.Utils
             advancedMenuItem.Items.Add(_fanModeMenuItem);
 
             // Performance submenu
-            _performanceModeMenuItem = new MenuItem { Header = "Power Profile" };
+            _performanceModeMenuItem = new MenuItem { Header = OmenCore.Localization.Strings.TrayPowerProfile };
             
-            _perfQuietMenuItem = new MenuItem { Header = "   Power Saver — Battery life" };
+            _perfQuietMenuItem = new MenuItem { Header = "  " + OmenCore.Localization.Strings.TrayPerfQuietDetail };
             _perfQuietMenuItem.Click += (s, e) => SetPerformanceMode("Quiet");
-            _perfBalancedMenuItem = new MenuItem { Header = "✓ Balanced — Default" };
+            _perfBalancedMenuItem = new MenuItem { Header = "✓" + OmenCore.Localization.Strings.TrayPerfBalancedDetail };
             _perfBalancedMenuItem.Click += (s, e) => SetPerformanceMode("Balanced");
-            _perfPerformanceMenuItem = new MenuItem { Header = "   Performance — Max power" };
+            _perfPerformanceMenuItem = new MenuItem { Header = "  " + OmenCore.Localization.Strings.TrayPerfPerformanceDetail };
             _perfPerformanceMenuItem.Click += (s, e) => SetPerformanceMode("Performance");
             
             _performanceModeMenuItem.Items.Add(_perfQuietMenuItem);
@@ -374,7 +374,7 @@ namespace OmenCore.Utils
             advancedMenuItem.Items.Add(_performanceModeMenuItem);
 
             // Display submenu
-            _displayMenuItem = new MenuItem { Header = "Display" };
+            _displayMenuItem = new MenuItem { Header = OmenCore.Localization.Strings.TrayDisplay };
 
             var refreshHigh = new MenuItem { Header = "High Refresh — Gaming mode" };
             refreshHigh.Click += (s, e) => SetHighRefreshRate();
@@ -420,7 +420,7 @@ namespace OmenCore.Utils
             advancedMenuItem.Items.Add(_displayMenuItem);
             
             // GPU Power submenu (v2.7.0)
-            _gpuPowerMenuItem = new MenuItem { Header = "GPU Power" };
+            _gpuPowerMenuItem = new MenuItem { Header = OmenCore.Localization.Strings.TrayGpuPower };
             
             _gpuPowerMinMenuItem = new MenuItem { Header = "   Minimum — Base TGP, best battery" };
             _gpuPowerMinMenuItem.Click += (s, e) => RequestGpuPowerChange("Minimum");
@@ -463,7 +463,7 @@ namespace OmenCore.Utils
             advancedMenuItem.Items.Add(_gpuPowerMenuItem);
             
             // Keyboard backlight toggle (v2.7.0)
-            _keyboardBacklightMenuItem = new MenuItem { Header = "Keyboard Backlight" };
+            _keyboardBacklightMenuItem = new MenuItem { Header = OmenCore.Localization.Strings.TrayKeyboard };
             
             var kbOff = new MenuItem { Header = "   Off" };
             kbOff.Click += (s, e) => RequestKeyboardBacklight(0);
@@ -538,7 +538,7 @@ namespace OmenCore.Utils
             contextMenu.Items.Add(new Separator());
 
             // ═══ ACTIONS ═══
-            var showItem = new MenuItem { Header = "Open Dashboard" };
+            var showItem = new MenuItem { Header = OmenCore.Localization.Strings.TrayOpen };
             showItem.Click += (s, e) => _showMainWindow();
             contextMenu.Items.Add(showItem);
             
@@ -555,7 +555,7 @@ namespace OmenCore.Utils
 
             contextMenu.Items.Add(new Separator());
 
-            var checkUpdateItem = new MenuItem { Header = "Check for Updates" };
+            var checkUpdateItem = new MenuItem { Header = OmenCore.Localization.Strings.TrayCheckUpdates };
             checkUpdateItem.Click += (s, e) => CheckForUpdatesRequested?.Invoke();
             contextMenu.Items.Add(checkUpdateItem);
 
@@ -564,7 +564,7 @@ namespace OmenCore.Utils
             // from "Check for Updates" right above it, same convention most tray apps use.
             contextMenu.Items.Add(new Separator());
 
-            var exitItem = new MenuItem { Header = "Exit OmenCore" };
+            var exitItem = new MenuItem { Header = OmenCore.Localization.Strings.TrayExit };
             exitItem.Click += (s, e) => _shutdownApp();
             contextMenu.Items.Add(exitItem);
 
@@ -757,11 +757,11 @@ namespace OmenCore.Utils
             var isQuiet = FanModeNameResolver.IsQuietAlias(activeMode);
 
             if (_fanAutoMenuItem != null)
-                _fanAutoMenuItem.Header = (isAuto ? "✓" : "  ") + " Auto — System controlled";
+                _fanAutoMenuItem.Header = (isAuto ? "✓" : "  ") + OmenCore.Localization.Strings.TrayFanAutoDetail;
             if (_fanMaxMenuItem != null)
-                _fanMaxMenuItem.Header = (isMax ? "✓" : "  ") + " Max — Maximum cooling";
+                _fanMaxMenuItem.Header = (isMax ? "✓" : "  ") + OmenCore.Localization.Strings.TrayFanMaxDetail;
             if (_fanQuietMenuItem != null)
-                _fanQuietMenuItem.Header = (isQuiet ? "✓" : "  ") + " Quiet — Reduced noise";
+                _fanQuietMenuItem.Header = (isQuiet ? "✓" : "  ") + OmenCore.Localization.Strings.TrayFanQuietDetail;
         }
 
         private void SetPerformanceMode(string mode)
@@ -786,11 +786,11 @@ namespace OmenCore.Utils
         {
             var canonicalMode = PerformanceModeNameResolver.Normalize(activeMode);
             if (_perfBalancedMenuItem != null)
-                _perfBalancedMenuItem.Header = (canonicalMode == "Balanced" ? "✓" : "  ") + " Balanced — Default";
+                _perfBalancedMenuItem.Header = (canonicalMode == "Balanced" ? "✓" : "  ") + OmenCore.Localization.Strings.TrayPerfBalancedDetail;
             if (_perfPerformanceMenuItem != null)
-                _perfPerformanceMenuItem.Header = (canonicalMode == "Performance" ? "✓" : "  ") + " Performance — Max power";
+                _perfPerformanceMenuItem.Header = (canonicalMode == "Performance" ? "✓" : "  ") + OmenCore.Localization.Strings.TrayPerfPerformanceDetail;
             if (_perfQuietMenuItem != null)
-                _perfQuietMenuItem.Header = (canonicalMode == "Quiet" ? "✓" : "  ") + " Power Saver — Battery life";
+                _perfQuietMenuItem.Header = (canonicalMode == "Quiet" ? "✓" : "  ") + OmenCore.Localization.Strings.TrayPerfQuietDetail;
         }
         
         /// <summary>

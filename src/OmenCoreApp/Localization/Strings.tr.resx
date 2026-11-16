@@ -1562,4 +1562,18 @@ Continue?</value></data>
   <data name="BloatScanCount" xml:space="preserve"><value>Done: Scan completed: {0} items detected</value></data>
   <data name="BloatRemoveProgress" xml:space="preserve"><value>Removing {0}/{1}: {2}...</value></data>
   <data name="BloatRemoveOne" xml:space="preserve"><value>Removing {0}...</value></data>
+  <data name="TrayFanControl" xml:space="preserve"><value>Fan Control</value></data>
+  <data name="TrayPowerProfile" xml:space="preserve"><value>Power Profile</value></data>
+  <data name="TrayDisplay" xml:space="preserve"><value>Display</value></data>
+  <data name="TrayGpuPower" xml:space="preserve"><value>GPU Power</value></data>
+  <data name="TrayKeyboard" xml:space="preserve"><value>Keyboard Backlight</value></data>
+  <data name="TrayOpen" xml:space="preserve"><value>Open Dashboard</value></data>
+  <data name="TrayCheckUpdates" xml:space="preserve"><value>Check for Updates</value></data>
+  <data name="TrayExit" xml:space="preserve"><value>Exit OmenCore</value></data>
+  <data name="TrayFanAutoDetail" xml:space="preserve"><value> Auto — System controlled</value></data>
+  <data name="TrayFanMaxDetail" xml:space="preserve"><value> Max — Maximum cooling</value></data>
+  <data name="TrayFanQuietDetail" xml:space="preserve"><value> Quiet — Reduced noise</value></data>
+  <data name="TrayPerfQuietDetail" xml:space="preserve"><value> Power Saver — Battery life</value></data>
+  <data name="TrayPerfBalancedDetail" xml:space="preserve"><value> Balanced — Default</value></data>
+  <data name="TrayPerfPerformanceDetail" xml:space="preserve"><value> Performance — Max power</value></data>
 </root>

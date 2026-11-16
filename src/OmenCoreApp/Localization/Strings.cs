@@ -1422,5 +1422,19 @@ namespace OmenCore.Localization
         public static string BloatScanCount => Get(nameof(BloatScanCount));
         public static string BloatRemoveProgress => Get(nameof(BloatRemoveProgress));
         public static string BloatRemoveOne => Get(nameof(BloatRemoveOne));
+        public static string TrayFanControl => Get(nameof(TrayFanControl));
+        public static string TrayPowerProfile => Get(nameof(TrayPowerProfile));
+        public static string TrayDisplay => Get(nameof(TrayDisplay));
+        public static string TrayGpuPower => Get(nameof(TrayGpuPower));
+        public static string TrayKeyboard => Get(nameof(TrayKeyboard));
+        public static string TrayOpen => Get(nameof(TrayOpen));
+        public static string TrayCheckUpdates => Get(nameof(TrayCheckUpdates));
+        public static string TrayExit => Get(nameof(TrayExit));
+        public static string TrayFanAutoDetail => Get(nameof(TrayFanAutoDetail));
+        public static string TrayFanMaxDetail => Get(nameof(TrayFanMaxDetail));
+        public static string TrayFanQuietDetail => Get(nameof(TrayFanQuietDetail));
+        public static string TrayPerfQuietDetail => Get(nameof(TrayPerfQuietDetail));
+        public static string TrayPerfBalancedDetail => Get(nameof(TrayPerfBalancedDetail));
+        public static string TrayPerfPerformanceDetail => Get(nameof(TrayPerfPerformanceDetail));
     }
 }

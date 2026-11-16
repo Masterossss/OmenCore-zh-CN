@@ -1558,4 +1558,18 @@
   <data name="BloatScanCount" xml:space="preserve"><value>完成：扫描结束，检测到 {0} 个项目</value></data>
   <data name="BloatRemoveProgress" xml:space="preserve"><value>正在删除 {0}/{1}：{2}…</value></data>
   <data name="BloatRemoveOne" xml:space="preserve"><value>正在删除 {0}…</value></data>
+  <data name="TrayFanControl" xml:space="preserve"><value>风扇控制</value></data>
+  <data name="TrayPowerProfile" xml:space="preserve"><value>电源配置</value></data>
+  <data name="TrayDisplay" xml:space="preserve"><value>显示</value></data>
+  <data name="TrayGpuPower" xml:space="preserve"><value>GPU 功率</value></data>
+  <data name="TrayKeyboard" xml:space="preserve"><value>键盘背光</value></data>
+  <data name="TrayOpen" xml:space="preserve"><value>打开仪表盘</value></data>
+  <data name="TrayCheckUpdates" xml:space="preserve"><value>检查更新</value></data>
+  <data name="TrayExit" xml:space="preserve"><value>退出 OmenCore</value></data>
+  <data name="TrayFanAutoDetail" xml:space="preserve"><value> 自动 — 由系统控制</value></data>
+  <data name="TrayFanMaxDetail" xml:space="preserve"><value> 最大 — 最大散热</value></data>
+  <data name="TrayFanQuietDetail" xml:space="preserve"><value> 安静 — 降低噪音</value></data>
+  <data name="TrayPerfQuietDetail" xml:space="preserve"><value> 节能 — 延长电池续航</value></data>
+  <data name="TrayPerfBalancedDetail" xml:space="preserve"><value> 均衡 — 默认</value></data>
+  <data name="TrayPerfPerformanceDetail" xml:space="preserve"><value> 性能 — 最大功率</value></data>
 </root>
