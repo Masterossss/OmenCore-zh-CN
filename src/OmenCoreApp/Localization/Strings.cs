@@ -1563,5 +1563,9 @@ namespace OmenCore.Localization
         public static string LightApplyError => Get(nameof(LightApplyError));
         public static string MemAutoScheduled => Get(nameof(MemAutoScheduled));
         public static string MemAutoPressure => Get(nameof(MemAutoPressure));
+        public static string BloatBulkRemoveCancel => Get(nameof(BloatBulkRemoveCancel));
+        public static string BloatBulkRemoveCancelAt => Get(nameof(BloatBulkRemoveCancelAt));
+        public static string BloatBulkRestoreCancel => Get(nameof(BloatBulkRestoreCancel));
+        public static string BloatBulkRestoreCancelAt => Get(nameof(BloatBulkRestoreCancelAt));
     }
 }

@@ -371,6 +371,8 @@ namespace OmenCoreApp.Tests.Localization
                 BloatwareStatusDisplayText.Translate("Failed to remove App: access denied").Should().Contain("失败").And.Contain("access denied");
                 BloatwareStatusDisplayText.Translate("Bulk removal failed at App. Rolling back previous removals...").Should().Contain("失败").And.Contain("正在回滚");
                 BloatwareStatusDisplayText.Translate("Bulk remove stopped at App. rollback not confirmed").Should().Contain("停止").And.Contain("rollback not confirmed");
+                BloatwareStatusDisplayText.Translate("Bulk restore canceled at App. 2 completed, 1 skipped.").Should().Contain("还原").And.Contain("取消").And.Contain("2 项").And.Contain("1 项");
+                BloatwareStatusDisplayText.Translate("Bulk removal canceled. 2 completed, 1 skipped.").Should().Contain("删除").And.Contain("取消");
                 BloatwareStatusDisplayText.Translate("Failed: Removal canceled because restore point was not created").Should().Contain("取消").And.Contain("还原点");
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
                 BloatwareStatusDisplayText.Translate("Done: Restored 3 bloatware items").Should().Be("Done: Restored 3 bloatware items");

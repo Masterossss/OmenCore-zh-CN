@@ -1699,4 +1699,8 @@
   <data name="LightApplyError" xml:space="preserve"><value>键盘灯光应用失败：{0}</value></data>
   <data name="MemAutoScheduled" xml:space="preserve"><value>自动清理：每 {0} 分钟执行一次…</value></data>
   <data name="MemAutoPressure" xml:space="preserve"><value>自动清理：内存负载 {0}%，可用 {1}%，已提交 {2}%…</value></data>
+  <data name="BloatBulkRemoveCancel" xml:space="preserve"><value>批量删除已取消，已完成 {0} 项，跳过 {1} 项。</value></data>
+  <data name="BloatBulkRemoveCancelAt" xml:space="preserve"><value>批量删除在 {0} 处取消，已完成 {1} 项，跳过 {2} 项。</value></data>
+  <data name="BloatBulkRestoreCancel" xml:space="preserve"><value>批量还原已取消，已完成 {0} 项，跳过 {1} 项。</value></data>
+  <data name="BloatBulkRestoreCancelAt" xml:space="preserve"><value>批量还原在 {0} 处取消，已完成 {1} 项，跳过 {2} 项。</value></data>
 </root>

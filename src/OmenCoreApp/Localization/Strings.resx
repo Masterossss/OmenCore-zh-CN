@@ -1707,4 +1707,8 @@ Continue?</value></data>
   <data name="LightApplyError" xml:space="preserve"><value>Keyboard lighting apply failed: {0}</value></data>
   <data name="MemAutoScheduled" xml:space="preserve"><value>Auto-clean: scheduled every {0} minute(s)...</value></data>
   <data name="MemAutoPressure" xml:space="preserve"><value>Auto-clean: memory {0}% load, {1}% available, {2}% commit...</value></data>
+  <data name="BloatBulkRemoveCancel" xml:space="preserve"><value>Bulk removal canceled. {0} completed, {1} skipped.</value></data>
+  <data name="BloatBulkRemoveCancelAt" xml:space="preserve"><value>Bulk removal canceled at {0}. {1} completed, {2} skipped.</value></data>
+  <data name="BloatBulkRestoreCancel" xml:space="preserve"><value>Bulk restore canceled. {0} completed, {1} skipped.</value></data>
+  <data name="BloatBulkRestoreCancelAt" xml:space="preserve"><value>Bulk restore canceled at {0}. {1} completed, {2} skipped.</value></data>
 </root>
