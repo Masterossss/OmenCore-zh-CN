@@ -1912,4 +1912,18 @@ Continue with calibration?</value></data>
   <data name="FanCalAutoTitle" xml:space="preserve"><value>Restore Auto Unavailable</value></data>
   <data name="FanCalAutoRestored" xml:space="preserve"><value>BIOS auto fan control restored</value></data>
   <data name="FanCalAutoFailed" xml:space="preserve"><value>Could not restore BIOS auto fan control from this backend</value></data>
+  <data name="HotkeyOsdValue0" xml:space="preserve"><value>Profile</value></data>
+  <data name="HotkeyOsdValue1" xml:space="preserve"><value>Fan Mode</value></data>
+  <data name="HotkeyOsdValue2" xml:space="preserve"><value>Performance</value></data>
+  <data name="HotkeyOsdValue3" xml:space="preserve"><value>Boost</value></data>
+  <data name="HotkeyOsdValue4" xml:space="preserve"><value>Quiet Mode</value></data>
+  <data name="HotkeyOsdValue5" xml:space="preserve"><value>Auto (BIOS Control)</value></data>
+  <data name="HotkeyOsdValue6" xml:space="preserve"><value>Maximum Cooling</value></data>
+  <data name="HotkeyOsdValue7" xml:space="preserve"><value>Quiet</value></data>
+  <data name="HotkeyOsdValue8" xml:space="preserve"><value>Balanced</value></data>
+  <data name="HotkeyOsdValue9" xml:space="preserve"><value>Auto</value></data>
+  <data name="HotkeyOsdValue10" xml:space="preserve"><value>Max</value></data>
+  <data name="HotkeyOsdValue11" xml:space="preserve"><value>Off</value></data>
+  <data name="HotkeyOsdValue12" xml:space="preserve"><value>On</value></data>
+  <data name="HotkeyOsdTriggered" xml:space="preserve"><value>via Hotkey ({0})</value></data>
 </root>

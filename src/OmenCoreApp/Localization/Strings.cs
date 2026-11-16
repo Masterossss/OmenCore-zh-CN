@@ -1760,5 +1760,19 @@ namespace OmenCore.Localization
         public static string FanCalAutoTitle => Get(nameof(FanCalAutoTitle));
         public static string FanCalAutoRestored => Get(nameof(FanCalAutoRestored));
         public static string FanCalAutoFailed => Get(nameof(FanCalAutoFailed));
+        public static string HotkeyOsdValue0 => Get(nameof(HotkeyOsdValue0));
+        public static string HotkeyOsdValue1 => Get(nameof(HotkeyOsdValue1));
+        public static string HotkeyOsdValue2 => Get(nameof(HotkeyOsdValue2));
+        public static string HotkeyOsdValue3 => Get(nameof(HotkeyOsdValue3));
+        public static string HotkeyOsdValue4 => Get(nameof(HotkeyOsdValue4));
+        public static string HotkeyOsdValue5 => Get(nameof(HotkeyOsdValue5));
+        public static string HotkeyOsdValue6 => Get(nameof(HotkeyOsdValue6));
+        public static string HotkeyOsdValue7 => Get(nameof(HotkeyOsdValue7));
+        public static string HotkeyOsdValue8 => Get(nameof(HotkeyOsdValue8));
+        public static string HotkeyOsdValue9 => Get(nameof(HotkeyOsdValue9));
+        public static string HotkeyOsdValue10 => Get(nameof(HotkeyOsdValue10));
+        public static string HotkeyOsdValue11 => Get(nameof(HotkeyOsdValue11));
+        public static string HotkeyOsdValue12 => Get(nameof(HotkeyOsdValue12));
+        public static string HotkeyOsdTriggered => Get(nameof(HotkeyOsdTriggered));
     }
 }

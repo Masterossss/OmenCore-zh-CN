@@ -45,10 +45,10 @@ namespace OmenCore.Views
             var now = DateTime.UtcNow;
             if (IsVisible && (now - _lastShowUtc).TotalMilliseconds < MinReshowMs)
             {
-                ModeCategory.Text = category;
-                ModeName.Text = modeName;
+                ModeCategory.Text = OmenCore.Localization.HotkeyOsdDisplayText.Value(category);
+                ModeName.Text = OmenCore.Localization.HotkeyOsdDisplayText.Mode(category, modeName);
                 ModeIcon.Text = GetModeIcon(category, modeName);
-                TriggerText.Text = hotkeyDescription ?? OmenCore.Localization.Strings.OsdViaHotkey;
+                TriggerText.Text = OmenCore.Localization.HotkeyOsdDisplayText.Trigger(hotkeyDescription);
                 UpdateAccentColor(modeName);
                 _dismissTimer.Stop();
                 _dismissTimer.Interval = TimeSpan.FromMilliseconds(_dismissDurationMs);
@@ -63,10 +63,10 @@ namespace OmenCore.Views
             _dismissTimer.Stop();
             
             // Update content
-            ModeCategory.Text = category;
-            ModeName.Text = modeName;
+            ModeCategory.Text = OmenCore.Localization.HotkeyOsdDisplayText.Value(category);
+            ModeName.Text = OmenCore.Localization.HotkeyOsdDisplayText.Mode(category, modeName);
             ModeIcon.Text = GetModeIcon(category, modeName);
-            TriggerText.Text = hotkeyDescription ?? OmenCore.Localization.Strings.OsdViaHotkey;
+            TriggerText.Text = OmenCore.Localization.HotkeyOsdDisplayText.Trigger(hotkeyDescription);
             
             // Update accent color based on mode
             UpdateAccentColor(modeName);

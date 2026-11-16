@@ -346,6 +346,24 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void HotkeyOsdDisplaysKnownValuesAndPreservesCustomNames()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                HotkeyOsdDisplayText.Value("Auto (BIOS Control)").Should().Contain("BIOS").And.Contain("自动");
+                HotkeyOsdDisplayText.Value("Maximum Cooling").Should().Be("最大散热");
+                HotkeyOsdDisplayText.Value("Custom profile").Should().Be("Custom profile");
+                HotkeyOsdDisplayText.Mode("Profile", "Quiet").Should().Be("Quiet");
+                HotkeyOsdDisplayText.Trigger("via Hotkey (Fn+F1)").Should().Contain("Fn+F1").And.Contain("热键");
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                HotkeyOsdDisplayText.Trigger("via Hotkey (Fn+F1)").Should().Be("via Hotkey (Fn+F1)");
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void MemoryNotificationToastAndHistoryLocalizeWithoutChangingRawValues()
         {
             var original = CultureInfo.CurrentUICulture;

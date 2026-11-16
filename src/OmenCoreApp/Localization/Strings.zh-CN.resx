@@ -1904,4 +1904,18 @@
   <data name="FanCalAutoTitle" xml:space="preserve"><value>无法恢复自动模式</value></data>
   <data name="FanCalAutoRestored" xml:space="preserve"><value>已恢复 BIOS 自动风扇控制</value></data>
   <data name="FanCalAutoFailed" xml:space="preserve"><value>无法通过此后端恢复 BIOS 自动风扇控制</value></data>
+  <data name="HotkeyOsdValue0" xml:space="preserve"><value>配置文件</value></data>
+  <data name="HotkeyOsdValue1" xml:space="preserve"><value>风扇模式</value></data>
+  <data name="HotkeyOsdValue2" xml:space="preserve"><value>性能</value></data>
+  <data name="HotkeyOsdValue3" xml:space="preserve"><value>增强</value></data>
+  <data name="HotkeyOsdValue4" xml:space="preserve"><value>安静模式</value></data>
+  <data name="HotkeyOsdValue5" xml:space="preserve"><value>自动（BIOS 控制）</value></data>
+  <data name="HotkeyOsdValue6" xml:space="preserve"><value>最大散热</value></data>
+  <data name="HotkeyOsdValue7" xml:space="preserve"><value>安静</value></data>
+  <data name="HotkeyOsdValue8" xml:space="preserve"><value>均衡</value></data>
+  <data name="HotkeyOsdValue9" xml:space="preserve"><value>自动</value></data>
+  <data name="HotkeyOsdValue10" xml:space="preserve"><value>最大</value></data>
+  <data name="HotkeyOsdValue11" xml:space="preserve"><value>关闭</value></data>
+  <data name="HotkeyOsdValue12" xml:space="preserve"><value>开启</value></data>
+  <data name="HotkeyOsdTriggered" xml:space="preserve"><value>通过热键（{0}）</value></data>
 </root>
