@@ -1628,4 +1628,11 @@ Continue?</value></data>
   <data name="LightApplyStatus5" xml:space="preserve"><value>Applied via experimental EC fallback after WMI methods failed.</value></data>
   <data name="LightApplyStatus6" xml:space="preserve"><value>All keyboard lighting backends failed. Colors may not be applied.</value></data>
   <data name="LightSurfaceFormat" xml:space="preserve"><value>{0} Surface: {1}.</value></data>
+  <data name="MemNoHistory" xml:space="preserve"><value>No history collected yet.</value></data>
+  <data name="MemHistorySummary" xml:space="preserve"><value>{0:F0} min history • avg {1:F0}% • low {2}% • high {3}%</value></data>
+  <data name="MemCooldownDefault" xml:space="preserve"><value>Profile default ({0} min)</value></data>
+  <data name="MemCooldownMinutes" xml:space="preserve"><value>{0} min</value></data>
+  <data name="MemCompressionStatusUnavailable" xml:space="preserve"><value>Memory compression status unavailable</value></data>
+  <data name="MemCompressionStatusEnabled" xml:space="preserve"><value>Enabled</value></data>
+  <data name="MemCompressionStatusDisabled" xml:space="preserve"><value>Disabled</value></data>
 </root>

@@ -414,7 +414,7 @@ namespace OmenCore.ViewModels
             {
                 if (_memoryHistory.Count == 0)
                 {
-                    return "No history collected yet.";
+                    return Strings.MemNoHistory;
                 }
 
                 var loads = _memoryHistory.Select(sample => sample.LoadPercent).ToArray();
@@ -422,7 +422,7 @@ namespace OmenCore.ViewModels
                 var max = loads.Max();
                 var avg = loads.Average();
                 var span = _memoryHistory.Last().Timestamp - _memoryHistory.First().Timestamp;
-                return $"{span.TotalMinutes:F0} min history • avg {avg:F0}% • low {min}% • high {max}%";
+                return string.Format(Strings.MemHistorySummary, span.TotalMinutes, avg, min, max);
             }
         }
 
@@ -546,10 +546,10 @@ namespace OmenCore.ViewModels
                 if (AutoCleanCooldownMinutes <= 0)
                 {
                     var profile = ParseAutoCleanProfile(_selectedAutoCleanProfile);
-                    return $"Profile default ({GetAutoCleanCooldownMinutes(profile)} min)";
+                    return string.Format(Strings.MemCooldownDefault, GetAutoCleanCooldownMinutes(profile));
                 }
 
-                return $"{AutoCleanCooldownMinutes} min";
+                return string.Format(Strings.MemCooldownMinutes, AutoCleanCooldownMinutes);
             }
         }
 
@@ -618,8 +618,8 @@ namespace OmenCore.ViewModels
         }
 
         public string MemoryCompressionStatusText => !MemoryCompressionSupported
-            ? "Memory compression status unavailable"
-            : (MemoryCompressionEnabled ? "Enabled" : "Disabled");
+            ? Strings.MemCompressionStatusUnavailable
+            : (MemoryCompressionEnabled ? Strings.MemCompressionStatusEnabled : Strings.MemCompressionStatusDisabled);
 
         public string NewExcludedProcessName
         {

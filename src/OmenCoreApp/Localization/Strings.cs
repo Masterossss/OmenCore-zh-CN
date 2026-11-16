@@ -1488,5 +1488,12 @@ namespace OmenCore.Localization
         public static string LightApplyStatus5 => Get(nameof(LightApplyStatus5));
         public static string LightApplyStatus6 => Get(nameof(LightApplyStatus6));
         public static string LightSurfaceFormat => Get(nameof(LightSurfaceFormat));
+        public static string MemNoHistory => Get(nameof(MemNoHistory));
+        public static string MemHistorySummary => Get(nameof(MemHistorySummary));
+        public static string MemCooldownDefault => Get(nameof(MemCooldownDefault));
+        public static string MemCooldownMinutes => Get(nameof(MemCooldownMinutes));
+        public static string MemCompressionStatusUnavailable => Get(nameof(MemCompressionStatusUnavailable));
+        public static string MemCompressionStatusEnabled => Get(nameof(MemCompressionStatusEnabled));
+        public static string MemCompressionStatusDisabled => Get(nameof(MemCompressionStatusDisabled));
     }
 }

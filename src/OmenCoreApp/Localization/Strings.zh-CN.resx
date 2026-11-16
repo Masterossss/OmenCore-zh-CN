@@ -1624,4 +1624,11 @@
   <data name="LightApplyStatus5" xml:space="preserve"><value>WMI 方法失败后，已通过实验性 EC 回退方式应用。</value></data>
   <data name="LightApplyStatus6" xml:space="preserve"><value>所有键盘灯光后端均失败，颜色可能未应用。</value></data>
   <data name="LightSurfaceFormat" xml:space="preserve"><value>{0} 灯光区域：{1}。</value></data>
+  <data name="MemNoHistory" xml:space="preserve"><value>尚未收集历史数据。</value></data>
+  <data name="MemHistorySummary" xml:space="preserve"><value>{0:F0} 分钟历史 • 平均 {1:F0}% • 最低 {2}% • 最高 {3}%</value></data>
+  <data name="MemCooldownDefault" xml:space="preserve"><value>配置默认值（{0} 分钟）</value></data>
+  <data name="MemCooldownMinutes" xml:space="preserve"><value>{0} 分钟</value></data>
+  <data name="MemCompressionStatusUnavailable" xml:space="preserve"><value>内存压缩状态不可用</value></data>
+  <data name="MemCompressionStatusEnabled" xml:space="preserve"><value>已启用</value></data>
+  <data name="MemCompressionStatusDisabled" xml:space="preserve"><value>已禁用</value></data>
 </root>
