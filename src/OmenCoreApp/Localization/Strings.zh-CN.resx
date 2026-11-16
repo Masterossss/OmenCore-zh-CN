@@ -903,4 +903,25 @@
   <data name="FanWarningDangerous" xml:space="preserve"><value>危险曲线：温度为 {0}°C 时，风扇转速降至 {1}%（在 {3}°C 时为 {2}%）。这可能导致过热！</value></data>
   <data name="FanWarningHighTemp" xml:space="preserve"><value>安全警告：{0}°C 时风扇转速仅为 {1}%。建议高温时至少达到 70%，以防止降频。</value></data>
   <data name="FanWarningIncomplete" xml:space="preserve"><value>覆盖范围不完整：曲线仅延伸至 {0}°C。请添加温度点直至 95°C，以应对温度骤升。</value></data>
+  <data name="AdapterClampCpuWarning" xml:space="preserve"><value>随后会将四项 CPU 功率限制提高到 {0}，并在系统恢复或电源变化后重新设置，因为这些事件会移除限制。OmenCore 无法读回这些设置，因此此处报告的是 SMU 接受的值，而不是实际运行值。
+
+</value></data>
+  <data name="AdapterClampConfirm" xml:space="preserve"><value>此操作会禁用并重新启用独立显卡。
+
+屏幕会黑屏数秒，任何正在使用 GPU 的游戏、渲染或计算任务都会失去 GPU，并可能崩溃。
+
+{0}这两个数值都不是超频。GPU 将使用其驱动报告的默认限制，CPU 限制将设为本机固件为 CPU 和 GPU 同时承载负载时指定的数值。该限制是固件对其认为额定功率不足的电源采取的策略，并不是对电源实际供电能力的测量。
+
+这些设置都不会在重启后保留：GPU 限制会持续到固件再次向驱动报告适配器信息为止，更换电源会触发此报告；CPU 限制则持续到你停止维持它们为止。
+
+现在解除限制吗？</value></data>
+  <data name="AdapterClampConfirmTitle" xml:space="preserve"><value>解除适配器功率限制？</value></data>
+  <data name="GpuUnlockExperimentalConfirm" xml:space="preserve"><value>这是未经确认的实验性功能。它会短暂固定两个由固件管理的 EC 位并发送一条 WMI 命令，然后测量 GPU 功率是否实际发生变化。
+
+编写此功能的人员均未在真实硬件上运行过它。在本功能所依据的调查中，曾在额定功率不足的电源适配器上强制执行同一机制，导致 GPU 陷入性能下降状态：驱动调用耗时超过 20 秒，且无法渲染；直到重启机器才恢复。该硬件此前有 GPU 驱动崩溃记录。
+
+只有连接的适配器功率远高于本机额定需求时才会提供此选项，这是唯一的保护措施。无法预览结果；如果出现问题，除了重启外没有撤销方法。
+
+仍要尝试吗？</value></data>
+  <data name="GpuUnlockExperimentalTitle" xml:space="preserve"><value>尝试实验性 GPU 功率解锁？</value></data>
 </root>

@@ -807,5 +807,10 @@ namespace OmenCore.Localization
         public static string FanWarningDangerous => Get(nameof(FanWarningDangerous));
         public static string FanWarningHighTemp => Get(nameof(FanWarningHighTemp));
         public static string FanWarningIncomplete => Get(nameof(FanWarningIncomplete));
+        public static string AdapterClampCpuWarning => Get(nameof(AdapterClampCpuWarning));
+        public static string AdapterClampConfirm => Get(nameof(AdapterClampConfirm));
+        public static string AdapterClampConfirmTitle => Get(nameof(AdapterClampConfirmTitle));
+        public static string GpuUnlockExperimentalConfirm => Get(nameof(GpuUnlockExperimentalConfirm));
+        public static string GpuUnlockExperimentalTitle => Get(nameof(GpuUnlockExperimentalTitle));
     }
 }

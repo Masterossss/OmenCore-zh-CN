@@ -186,6 +186,12 @@ namespace OmenCoreApp.Tests.Localization
                 warning.Should().Contain("MAX 175 W").And.Contain("散热").And.Contain("重启 Windows").And.Contain("风险");
                 string.Format(Strings.FanDiagTooHotDetail, 93.0, 70.0)
                     .Should().Contain("93 C").And.Contain("70 C").And.Contain("未开始");
+                string.Format(Strings.FanWarningDangerous, 90, 20, 70, 70)
+                    .Should().Contain("危险").And.Contain("90°C").And.Contain("过热");
+                Strings.GpuUnlockExperimentalConfirm.Should().Contain("实验性").And.Contain("真实硬件")
+                    .And.Contain("20 秒").And.Contain("重启").And.Contain("适配器");
+                string.Format(Strings.AdapterClampConfirm, "CPU 限制警告")
+                    .Should().Contain("黑屏").And.Contain("崩溃").And.Contain("CPU 限制警告");
 
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
                 string.Format(Strings.NvidiaPowerApplyConfirm, "CURRENT", 175, Strings.NvidiaPowerCurrentRestart)

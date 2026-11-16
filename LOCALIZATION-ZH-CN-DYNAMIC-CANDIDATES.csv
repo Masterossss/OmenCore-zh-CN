@@ -185,8 +185,8 @@ src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,830,StatusMessage = statu
 src/OmenCoreApp/Views/AboutWindow.xaml.cs,44,var openRelease = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/Views/AboutWindow.xaml.cs,58,var msgResult = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/Views/AboutWindow.xaml.cs,83,var openGitHub = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/Views/DiagnosticsView.xaml.cs,54,var answer = System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/Views/DiagnosticsView.xaml.cs,91,var answer = System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Views/DiagnosticsView.xaml.cs,54,var answer = System.Windows.MessageBox.Show(,A,是,已资源化,风险确认框；Strings.AdapterClampConfirm、AdapterClampCpuWarning、AdapterClampConfirmTitle
+src/OmenCoreApp/Views/DiagnosticsView.xaml.cs,91,var answer = System.Windows.MessageBox.Show(,A,是,已资源化,风险确认框；Strings.GpuUnlockExperimentalConfirm、GpuUnlockExperimentalTitle
 src/OmenCoreApp/Views/OsdOverlayWindow.xaml.cs,662,if (reply.Status == IPStatus.Success),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,150,FanCustomBtn.ToolTip = tooltip;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,230,LinkModeText.ToolTip = linked,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
@@ -239,3 +239,6 @@ src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml.cs,984,"MessageBox.Sho
 src/OmenCoreApp/Services/CurveRecoveryService.cs,148,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/Services/ToastNotificationService.cs,104,public void ShowError(string message),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/ViewModels/FanDiagnosticsViewModel.cs,322,GuidedTestResult = temperature-start-block explanation,A,是,已资源化,界面结果文本框及复制内容；Strings.FanDiagTooHotDetail
+src/OmenCoreApp/Controls/FanCurveEditor.xaml.cs,271,Dangerous curve: At {0}°C the fan speed drops to {1}% (was {2}% at {3}°C). This could cause overheating!,A,是,已资源化,曲线编辑器警告；Strings.FanWarningDangerous
+src/OmenCoreApp/Controls/FanCurveEditor.xaml.cs,281,Safety warning: {0}°C has only {1}% fan speed. Recommend at least 70% at high temperatures to prevent throttling.,A,是,已资源化,曲线编辑器警告；Strings.FanWarningHighTemp
+src/OmenCoreApp/Controls/FanCurveEditor.xaml.cs,288,Incomplete coverage: Curve only extends to {0}°C. Add points up to 95°C to protect against thermal spikes.,A,是,已资源化,曲线编辑器警告；Strings.FanWarningIncomplete
