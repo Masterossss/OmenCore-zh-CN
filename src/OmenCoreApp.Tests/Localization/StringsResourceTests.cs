@@ -154,13 +154,17 @@ namespace OmenCoreApp.Tests.Localization
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("ru");
                 Strings.NavSettings.Should().Be("Настройки");
                 Strings.WindowMinimize.Should().Be("Свернуть");
+                Strings.AboutTitle.Should().Be("About OmenCore");
 
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("tr");
                 Strings.NavGames.Should().Be("Oyunlar");
+                Strings.AboutTitle.Should().Be("About OmenCore");
 
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
                 Strings.NavSettings.Should().Be("设置");
                 Strings.WindowMinimize.Should().Be("最小化");
+                Strings.AboutTitle.Should().Be("关于 OmenCore");
+                Strings.DashboardText01.Should().Be("系统概览");
 
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
                 Strings.NavGames.Should().Be("Games");
