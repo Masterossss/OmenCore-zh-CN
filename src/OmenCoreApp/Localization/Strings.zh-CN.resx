@@ -1788,4 +1788,33 @@
   <data name="MemoryToastFreed" xml:space="preserve"><value>已释放 {0}</value></data>
   <data name="MemoryToastOperationOne" xml:space="preserve"><value>已完成 {0} 项清理操作</value></data>
   <data name="MemoryToastOperationMany" xml:space="preserve"><value>已完成 {0} 项清理操作</value></data>
+  <data name="BloatDescription0" xml:space="preserve"><value>HP 安全软件，可能与第三方杀毒软件冲突</value></data>
+  <data name="BloatDescription1" xml:space="preserve"><value>HP 诊断和遥测工具，可安全删除</value></data>
+  <data name="BloatDescription2" xml:space="preserve"><value>HP OMEN 软件；在验证 OmenCore 的风扇、RGB 和热键控制之前，存在冲突风险</value></data>
+  <data name="BloatDescription3" xml:space="preserve"><value>OMEN 灯光或控制组件；仅在验证 OmenCore 键盘灯光和 OMEN 键行为后删除</value></data>
+  <data name="BloatDescription4" xml:space="preserve"><value>HP 音频增强软件</value></data>
+  <data name="BloatDescription5" xml:space="preserve"><value>HP 系统控制软件，OmenCore 可替代此软件</value></data>
+  <data name="BloatDescription6" xml:space="preserve"><value>试用版杀毒软件，可能影响游戏性能</value></data>
+  <data name="BloatDescription7" xml:space="preserve"><value>Xbox 应用；如果使用 Xbox Game Pass，请保留</value></data>
+  <data name="BloatDescription8" xml:space="preserve"><value>微软视频编辑器</value></data>
+  <data name="BloatDescription9" xml:space="preserve"><value>微软必应新闻或天气应用</value></data>
+  <data name="BloatDescription10" xml:space="preserve"><value>Windows 提示和帮助应用</value></data>
+  <data name="BloatDescription11" xml:space="preserve"><value>含广告的微软纸牌游戏</value></data>
+  <data name="BloatDescription12" xml:space="preserve"><value>Groove 音乐或电影和电视应用</value></data>
+  <data name="BloatDescription13" xml:space="preserve"><value>Windows 人脉应用</value></data>
+  <data name="BloatDescription14" xml:space="preserve"><value>Skype 消息应用</value></data>
+  <data name="BloatDescription15" xml:space="preserve"><value>手机连接应用</value></data>
+  <data name="BloatDescription16" xml:space="preserve"><value>较少使用的 3D 或混合现实应用</value></data>
+  <data name="BloatDescription17" xml:space="preserve"><value>推广应用快捷方式</value></data>
+  <data name="BloatDescription18" xml:space="preserve"><value>预装休闲游戏</value></data>
+  <data name="BloatDescription19" xml:space="preserve"><value>社交媒体应用</value></data>
+  <data name="BloatDescription20" xml:space="preserve"><value>Dolby 音频增强功能，可能影响音质</value></data>
+  <data name="BloatDescription21" xml:space="preserve"><value>OneDrive 启动项；不使用云同步时可禁用</value></data>
+  <data name="BloatDescription22" xml:space="preserve"><value>Cortana 助手启动项</value></data>
+  <data name="BloatDescription23" xml:space="preserve"><value>Microsoft Teams 启动项；不使用时可禁用</value></data>
+  <data name="BloatDescription24" xml:space="preserve"><value>HP 软件启动项</value></data>
+  <data name="BloatDescription25" xml:space="preserve"><value>应用启动项；无需立即启动时可禁用</value></data>
+  <data name="BloatDescription26" xml:space="preserve"><value>HP 计划任务</value></data>
+  <data name="BloatDescription27" xml:space="preserve"><value>遥测数据收集任务</value></data>
+  <data name="BloatDescription28" xml:space="preserve"><value>OneDrive 定时同步任务</value></data>
 </root>

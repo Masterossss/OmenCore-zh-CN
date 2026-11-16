@@ -467,7 +467,7 @@
                             <GridViewColumn Header="{x:Static loc:Strings.BloatwareManagerViewText460}" Width="260">
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
-                                        <TextBlock Text="{Binding Description}" TextTrimming="CharacterEllipsis" Foreground="{StaticResource TextSecondaryBrush}" ToolTip="{Binding Description}"/>
+                                        <TextBlock Text="{Binding Description, Converter={StaticResource BloatwareDetailDisplay}}" TextTrimming="CharacterEllipsis" Foreground="{StaticResource TextSecondaryBrush}" ToolTip="{Binding Description, Converter={StaticResource BloatwareDetailDisplay}}"/>
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
                             </GridViewColumn>

@@ -1796,4 +1796,33 @@ Continue?</value></data>
   <data name="MemoryToastFreed" xml:space="preserve"><value>Freed {0}</value></data>
   <data name="MemoryToastOperationOne" xml:space="preserve"><value>{0} cleanup operation completed</value></data>
   <data name="MemoryToastOperationMany" xml:space="preserve"><value>{0} cleanup operations completed</value></data>
+  <data name="BloatDescription0" xml:space="preserve"><value>HP security software - can conflict with third-party AV</value></data>
+  <data name="BloatDescription1" xml:space="preserve"><value>HP diagnostics/telemetry tool - safe to remove</value></data>
+  <data name="BloatDescription2" xml:space="preserve"><value>HP OMEN software - conflict-sensitive until OmenCore fan, RGB, and hotkey control are verified</value></data>
+  <data name="BloatDescription3" xml:space="preserve"><value>OMEN lighting/control component - remove only after OmenCore keyboard lighting and OMEN key behavior are verified</value></data>
+  <data name="BloatDescription4" xml:space="preserve"><value>HP audio enhancement software</value></data>
+  <data name="BloatDescription5" xml:space="preserve"><value>HP system control software - OmenCore replaces this</value></data>
+  <data name="BloatDescription6" xml:space="preserve"><value>Trial antivirus - can impact gaming performance</value></data>
+  <data name="BloatDescription7" xml:space="preserve"><value>Xbox app - keep if you use Xbox Game Pass</value></data>
+  <data name="BloatDescription8" xml:space="preserve"><value>Microsoft video editor</value></data>
+  <data name="BloatDescription9" xml:space="preserve"><value>Microsoft Bing news/weather app</value></data>
+  <data name="BloatDescription10" xml:space="preserve"><value>Windows tips and help app</value></data>
+  <data name="BloatDescription11" xml:space="preserve"><value>Microsoft Solitaire with ads</value></data>
+  <data name="BloatDescription12" xml:space="preserve"><value>Groove Music / Movies &amp; TV app</value></data>
+  <data name="BloatDescription13" xml:space="preserve"><value>Windows People app</value></data>
+  <data name="BloatDescription14" xml:space="preserve"><value>Skype messaging app</value></data>
+  <data name="BloatDescription15" xml:space="preserve"><value>Phone Link app</value></data>
+  <data name="BloatDescription16" xml:space="preserve"><value>3D/Mixed Reality app - rarely used</value></data>
+  <data name="BloatDescription17" xml:space="preserve"><value>Promotional app shortcut</value></data>
+  <data name="BloatDescription18" xml:space="preserve"><value>Pre-installed casual game</value></data>
+  <data name="BloatDescription19" xml:space="preserve"><value>Social media app</value></data>
+  <data name="BloatDescription20" xml:space="preserve"><value>Dolby audio enhancement - may affect audio quality</value></data>
+  <data name="BloatDescription21" xml:space="preserve"><value>OneDrive startup - disable if not using cloud sync</value></data>
+  <data name="BloatDescription22" xml:space="preserve"><value>Cortana assistant startup</value></data>
+  <data name="BloatDescription23" xml:space="preserve"><value>Microsoft Teams startup - disable if not using</value></data>
+  <data name="BloatDescription24" xml:space="preserve"><value>HP software startup item</value></data>
+  <data name="BloatDescription25" xml:space="preserve"><value>App startup - disable if not needed immediately</value></data>
+  <data name="BloatDescription26" xml:space="preserve"><value>HP scheduled task</value></data>
+  <data name="BloatDescription27" xml:space="preserve"><value>Telemetry data collection task</value></data>
+  <data name="BloatDescription28" xml:space="preserve"><value>OneDrive scheduled sync task</value></data>
 </root>

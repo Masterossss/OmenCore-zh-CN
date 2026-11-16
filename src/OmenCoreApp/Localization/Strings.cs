@@ -1652,5 +1652,34 @@ namespace OmenCore.Localization
         public static string MemoryToastFreed => Get(nameof(MemoryToastFreed));
         public static string MemoryToastOperationOne => Get(nameof(MemoryToastOperationOne));
         public static string MemoryToastOperationMany => Get(nameof(MemoryToastOperationMany));
+        public static string BloatDescription0 => Get(nameof(BloatDescription0));
+        public static string BloatDescription1 => Get(nameof(BloatDescription1));
+        public static string BloatDescription2 => Get(nameof(BloatDescription2));
+        public static string BloatDescription3 => Get(nameof(BloatDescription3));
+        public static string BloatDescription4 => Get(nameof(BloatDescription4));
+        public static string BloatDescription5 => Get(nameof(BloatDescription5));
+        public static string BloatDescription6 => Get(nameof(BloatDescription6));
+        public static string BloatDescription7 => Get(nameof(BloatDescription7));
+        public static string BloatDescription8 => Get(nameof(BloatDescription8));
+        public static string BloatDescription9 => Get(nameof(BloatDescription9));
+        public static string BloatDescription10 => Get(nameof(BloatDescription10));
+        public static string BloatDescription11 => Get(nameof(BloatDescription11));
+        public static string BloatDescription12 => Get(nameof(BloatDescription12));
+        public static string BloatDescription13 => Get(nameof(BloatDescription13));
+        public static string BloatDescription14 => Get(nameof(BloatDescription14));
+        public static string BloatDescription15 => Get(nameof(BloatDescription15));
+        public static string BloatDescription16 => Get(nameof(BloatDescription16));
+        public static string BloatDescription17 => Get(nameof(BloatDescription17));
+        public static string BloatDescription18 => Get(nameof(BloatDescription18));
+        public static string BloatDescription19 => Get(nameof(BloatDescription19));
+        public static string BloatDescription20 => Get(nameof(BloatDescription20));
+        public static string BloatDescription21 => Get(nameof(BloatDescription21));
+        public static string BloatDescription22 => Get(nameof(BloatDescription22));
+        public static string BloatDescription23 => Get(nameof(BloatDescription23));
+        public static string BloatDescription24 => Get(nameof(BloatDescription24));
+        public static string BloatDescription25 => Get(nameof(BloatDescription25));
+        public static string BloatDescription26 => Get(nameof(BloatDescription26));
+        public static string BloatDescription27 => Get(nameof(BloatDescription27));
+        public static string BloatDescription28 => Get(nameof(BloatDescription28));
     }
 }

@@ -392,6 +392,8 @@ namespace OmenCoreApp.Tests.Localization
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
                 converter.Convert(raw, typeof(string), null!, CultureInfo.CurrentCulture).Should().Be("还原在完成前已取消。");
                 converter.Convert("unknown error", typeof(string), null!, CultureInfo.CurrentCulture).Should().Be("unknown error");
+                converter.Convert("OMEN lighting/control component - remove only after OmenCore keyboard lighting and OMEN key behavior are verified", typeof(string), null!, CultureInfo.CurrentCulture).Should().BeOfType<string>().Which.Should().Contain("仅在验证").And.Contain("OMEN 键");
+                converter.Convert("custom configured description", typeof(string), null!, CultureInfo.CurrentCulture).Should().Be("custom configured description");
                 raw.Should().Be("Restore canceled before completion.");
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
                 converter.Convert(raw, typeof(string), null!, CultureInfo.CurrentCulture).Should().Be(raw);
