@@ -1,0 +1,240 @@
+﻿path,line_at_scan,source_line,category,user_visible,status,note
+src/OmenCoreApp/ViewModels/BloatwareManagerViewModel.cs,274,_service.StatusChanged += status => DispatcherHelper.RunOnUiThread(() => StatusMessage = status);,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/BloatwareManagerViewModel.cs,561,var confirmation = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/BloatwareManagerViewModel.cs,597,var createRestorePoint = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/BloatwareManagerViewModel.cs,619,var continueWithoutRestorePoint = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/BloatwareManagerViewModel.cs,727,var result = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/BloatwareManagerViewModel.cs,893,"StatusMessage = $""{action.Trim().TrimEnd('.')}..."";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/BloatwareManagerViewModel.cs,898,"StatusMessage = $""Done: {details}"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/BloatwareManagerViewModel.cs,903,"StatusMessage = $""Failed: {reason}"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/DeviceLightingViewModel.cs,209,if (dialog.ShowDialog() == true && dialog.DialogResultOk),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/DeviceLightingViewModel.cs,246,Status = ok,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/DeviceLightingViewModel.cs,275,"Status = ""The keyboard did not answer a state read."";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/DeviceLightingViewModel.cs,284,"Status = $""On the keyboard now: {r.Effect}, {palette}, {r.Speed.ToString().ToLowerInvariant()}."";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanCalibrationViewModel.cs,100,"Status = ""Preparing calibration..."";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanCalibrationViewModel.cs,108,"Status = ""Running calibration wizard..."";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanCalibrationViewModel.cs,113,"Status = ""Calibration cancelled"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanCalibrationViewModel.cs,117,"Status = $""Error: {ex.Message}"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanCalibrationViewModel.cs,132,"Status = ""Cancelling..."";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanCalibrationViewModel.cs,145,"Status = ""✓ Complete""",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanCalibrationViewModel.cs,149,"Status = $""Testing level {step.Level}... ({Progress}% complete)"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanCalibrationViewModel.cs,157,"Status = ""✓ Calibration complete!"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanCalibrationViewModel.cs,169,"Status = $""⚠ Error: {error}"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1069,window.ShowDialog();,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1265,"System.Windows.MessageBox.Show(""Need at least 2 curve points to generate a share code."", ""Cannot Copy Share Code"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1276,"System.Windows.MessageBox.Show($""Failed to copy share code: {ex.Message}"", ""Copy Failed"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1292,"System.Windows.MessageBox.Show(""Clipboard doesn't contain text."", ""Import Failed"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1300,"System.Windows.MessageBox.Show(""Clipboard doesn't contain a valid fan curve share code."", ""Import Failed"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1312,"System.Windows.MessageBox.Show($""Imported curve \""{name}\"" ({points.Count} points). Remember to apply/save it."", ""Import Complete"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1318,"System.Windows.MessageBox.Show($""Failed to import share code: {ex.Message}"", ""Import Error"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1631,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1865,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1878,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,1889,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2004,var result = System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2231,"System.Windows.MessageBox.Show(""No saved fan preset found in configuration."", ""Reapply Saved Preset"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2444,if (dialog.ShowDialog() == true),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2454,"System.Windows.MessageBox.Show(""No valid fan presets found in file."", ""Import Failed"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2481,"System.Windows.MessageBox.Show($""Imported {count} fan preset(s)"", ""Import Complete"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2488,"System.Windows.MessageBox.Show($""Failed to import presets: {ex.Message}"", ""Import Error"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2507,if (dialog.ShowDialog() == true),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2524,"System.Windows.MessageBox.Show($""Exported {export.Presets.Count} fan preset(s)"", ""Export Complete"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanControlViewModel.cs,2531,"System.Windows.MessageBox.Show($""Failed to export presets: {ex.Message}"", ""Export Error"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanDiagnosticsViewModel.cs,324,GuidedTestStatus = Strings.FanDiagTooHot;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanDiagnosticsViewModel.cs,353,"GuidedTestStatus = string.Format(Strings.FanDiagTesting, fanName, targetPercent);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanDiagnosticsViewModel.cs,457,GuidedTestStatus = interrupted.Count > 0,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanDiagnosticsViewModel.cs,511,"GuidedTestStatus = string.Format(Strings.FanDiagWaitCool, GuidedRunRules.StartBelowC, HottestTemperatureC());",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanDiagnosticsViewModel.cs,522,RgbCheckStatus = Strings.FanDiagRgbSkip;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanDiagnosticsViewModel.cs,533,RgbCheckStatus = Strings.FanDiagRgbLook;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanDiagnosticsViewModel.cs,554,"RgbCheckStatus = string.Format(Strings.FanDiagRgbRejected, backend);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanDiagnosticsViewModel.cs,563,"RgbCheckStatus = string.Format(Strings.FanDiagRgbRestoreFailed, backend);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanDiagnosticsViewModel.cs,568,RgbCheckStatus = Strings.FanDiagRgbConfirmed;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/FanDiagnosticsViewModel.cs,583,"RgbCheckStatus = string.Format(Strings.FanDiagRgbFailed, ex.Message);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/GameLibraryViewModel.cs,235,if (dialog.ShowDialog() != true),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,226,var result = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,244,"MessageBox.Show($""Failed to delete profile: {ex.Message}"", ""Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,258,if (dialog.ShowDialog() == true),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,261,"MessageBox.Show($""Imported {count} profile(s)"", ""Import Complete"", MessageBoxButton.OK, MessageBoxImage.Information);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,269,"MessageBox.Show($""Failed to import profiles: {ex.Message}"", ""Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,284,if (dialog.ShowDialog() == true),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,287,"MessageBox.Show($""Exported {_profileService.Profiles.Count} profile(s)"", ""Export Complete"", MessageBoxButton.OK, MessageBoxImage.Information);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,294,"MessageBox.Show($""Failed to export profiles: {ex.Message}"", ""Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,308,if (dialog.ShowDialog() == true),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,323,"MessageBox.Show(ValidationError, ""Invalid Game Profile"", MessageBoxButton.OK, MessageBoxImage.Warning);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,341,"MessageBox.Show($""Failed to save profiles: {ex.Message}"", ""Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,92,if (info.Status == HpWmiBios.SmartAdapterStatus.BatteryPower),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,141,if (info.Status == HpWmiBios.SmartAdapterStatus.BatteryPower),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,161,if (info.Status == HpWmiBios.SmartAdapterStatus.ConnectedTypeC),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/KeyboardDiagnosticsViewModel.cs,106,"Status = ""Connected"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/KeyboardDiagnosticsViewModel.cs,123,"Status = ""Connected"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/KeyboardDiagnosticsViewModel.cs,140,"Status = ""Connected"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/KeyboardDiagnosticsViewModel.cs,154,"Status = ""Connected"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/KeyboardDiagnosticsViewModel.cs,176,var confirm = System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/KeyboardMapViewModel.cs,361,if (dialog.ShowDialog() == true && dialog.DialogResultOk),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/KeyboardMapViewModel.cs,382,"Status = ""Nothing selected. Click keys, or drag a box across them."";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/KeyboardMapViewModel.cs,396,"Status = $""Painted {targets.Count} key(s) {BrushColorHex}. "" +",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/KeyboardMapViewModel.cs,403,"Status = ""All keys set to black. Apply to send it."";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/KeyboardMapViewModel.cs,471,"Status = string.Join("", "", parts) + "". Only looking confirms it."";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/KeyboardMapViewModel.cs,573,"Status = $""Restored the last picture ({restored} cells). "" +",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/KeyboardMapViewModel.cs,616,"Status = ""Could not open Settings. It is under "" +",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/KeyboardMapViewModel.cs,636,Status = flashed,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/KeyboardMapViewModel.cs,656,"Status = ""No measured key map on this machine."";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/KeyboardMapViewModel.cs,744,Status = HasLightBar,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/KeyboardMapViewModel.cs,828,"Status = $""{ledCells} LEDs across {layout.Keys.Count} keys ({layout.Id})"" +",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/LightingViewModel.cs,1742,if (dialog.ShowDialog() == true && dialog.DialogResultOk),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/LightingViewModel.cs,2049,var res = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/LightingViewModel.cs,2079,MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/LightingViewModel.cs,2152,var res = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/LightingViewModel.cs,2254,if (namePrompt.ShowDialog() != true || string.IsNullOrWhiteSpace(namePrompt.Input)),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/LightingViewModel.cs,2264,"var res = MessageBox.Show(string.Format(OmenCore.Localization.Strings.DpiOverwritePrompt, name), OmenCore.Localization.Strings.DpiOverwriteTitle, MessageBoxButton.YesNo, MessageBoxImage.Warning, MessageBoxResult.No);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/LightingViewModel.cs,2302,var res = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/MainViewModel.cs,2333,window.ShowDialog();,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/MainViewModel.cs,2342,"MessageBox.Show($""Failed to open profile manager: {ex.Message}"", ""Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/MainViewModel.cs,2608,var continueAnyway = System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/MainViewModel.cs,2768,about.ShowDialog();,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/MainViewModel.cs,2993,if (dialog.ShowDialog() == true),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/MainViewModel.cs,3022,if (dialog.ShowDialog() == true),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/MainViewModel.cs,3042,MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/MainViewModel.cs,3097,MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/MainViewModel.cs,3109,"MessageBox.Show(""Failed to create diagnostics bundle."", ""Report Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/MainViewModel.cs,3121,"MessageBox.Show($""Failed to create diagnostics bundle: {ex.Message}"", ""Report Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/MainViewModel.cs,3271,"_notificationService.ShowWarning(""Fan Mode"", warningMessage);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/MainViewModel.cs,3304,"_notificationService.ShowWarning(""Fan Mode"", $""Could not resolve preset for {mode}."");",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/MainViewModel.cs,3765,_notificationService.ShowWarning(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/MainViewModel.cs,3771,"_notificationService.ShowWarning(""Fan Mode"", ""Fan control backend is unavailable. Max fan hotkey was not applied."");",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/MainViewModel.cs,3985,_notificationService.ShowWarning(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1216,"StatusMessage = $""{action.Trim().TrimEnd('.')}..."";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1221,"StatusMessage = string.IsNullOrWhiteSpace(details) ? ""Done"" : $""Done: {details}"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1226,"StatusMessage = $""Failed: {reason}"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,45,return dlg.ShowDialog() == true ? ResolveAsync(dlg.FileName) : Task.CompletedTask;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,86,"if (value) _ = RefreshAsync(); else StatusText = """";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,106,"Post(() => StatusText = ""Could not read the NVIDIA driver: "" + ex.Message);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,117,"StatusText = $""{(string.IsNullOrEmpty(s.Gpu) ? ""NVIDIA GPU"" : s.Gpu)}: {live}"" +",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,133,"if (MessageBox.Show(prompt, ""NVIDIA power"", MessageBoxButton.OKCancel, MessageBoxImage.Warning) != MessageBoxResult.OK) return;",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,1570,var result = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,1620,var result = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,1673,var result = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,1702,MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,2334,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,2365,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,2380,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,3571,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,3794,var result = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,3833,"MessageBox.Show(""Fan cleaning cycle completed successfully!"", ""Done"", MessageBoxButton.OK, MessageBoxImage.Information);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,3846,"MessageBox.Show($""Fan cleaning failed: {ex.Message}"", ""Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,3886,var result = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,3926,"MessageBox.Show(""All settings have been reset to their default values."",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,3936,"MessageBox.Show($""Failed to reset settings: {ex.Message}"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,3962,if (sc.Status == System.ServiceProcess.ServiceControllerStatus.Running),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4092,var result = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4118,MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4130,MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4143,MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4161,MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4172,var result = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4200,"MessageBox.Show($""Failed to open browser: {ex.Message}"", ""Error"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4251,if (sc.Status == System.ServiceProcess.ServiceControllerStatus.Running),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4595,"MessageBox.Show(""No bloatware detected. Run a scan first."", ""OmenCore"", MessageBoxButton.OK, MessageBoxImage.Information);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4599,var result = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4762,"MessageBox.Show(msgText,",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4775,"MessageBox.Show($""Failed to remove bloatware: {ex.Message}"", ""Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4798,if (dialog.ShowDialog() != true),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4808,MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4817,var result = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4837,MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4851,"MessageBox.Show($""Failed to import profile: {ex.Message}"", ""Import Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4867,if (dialog.ShowDialog() != true),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4874,MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4889,"MessageBox.Show($""Failed to export profile: {ex.Message}"", ""Export Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4905,if (dialog.ShowDialog() != true),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4926,MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SettingsViewModel.cs,4942,"MessageBox.Show($""Failed to export diagnostics: {ex.Message}"", ""Export Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,1975,"StatusText = ""GPU overclocking not available"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,2063,"StatusText = statusText,",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,2092,"StatusText = $""⚠ Partial ({string.Join("", "", failures)} failed): {partialStatus}"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,2105,"StatusText = $""Error: {ex.Message}"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,2128,var proceed = System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,2137,var confirmation = System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,2293,var proceed = System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,2302,var confirmation = System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,3349,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,3391,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,3416,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,3552,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,3564,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,3601,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,3612,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,4615,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,5074,"System.Windows.MessageBox.Show(""Please enter a name for the profile."", ""Profile Name Required"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,5083,"System.Windows.MessageBox.Show(""Cannot overwrite built-in profiles. Please choose a different name."",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,5132,"System.Windows.MessageBox.Show(""Cannot delete built-in profiles."", ""Delete Profile"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,5528,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,5578,var result = System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemMaintenanceViewModel.cs,347,var result = System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemMaintenanceViewModel.cs,364,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,606,var msgResult = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,636,var reboot = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,654,"MessageBox.Show($""Failed to apply optimizations:\n{ex.Message}"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,672,var confirmation = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,736,var msgResult = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,771,var msgResult = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,815,"StatusMessage = $""{action.Trim().TrimEnd('.')}..."";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,820,"StatusMessage = string.IsNullOrWhiteSpace(details) ? ""Done"" : $""Done: {details}"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,825,"StatusMessage = $""Failed: {reason}"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,830,StatusMessage = status;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Views/AboutWindow.xaml.cs,44,var openRelease = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Views/AboutWindow.xaml.cs,58,var msgResult = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Views/AboutWindow.xaml.cs,83,var openGitHub = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Views/DiagnosticsView.xaml.cs,54,var answer = System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Views/DiagnosticsView.xaml.cs,91,var answer = System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Views/OsdOverlayWindow.xaml.cs,662,if (reply.Status == IPStatus.Success),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,150,FanCustomBtn.ToolTip = tooltip;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,230,LinkModeText.ToolTip = linked,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,296,QuickQuietBtn.ToolTip = tooltip;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,297,QuickBalancedBtn.ToolTip = tooltip;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,298,QuickPerformanceBtn.ToolTip = tooltip;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,358,"RefreshRateBtn.ToolTip = ""Toggle refresh rate"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,364,"RefreshRateBtn.ToolTip = $""Toggle refresh rate for {target.FriendlyName}. Click again to move to the next display."";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,458,"DisplayOffBtn.ToolTip = ""Lock Windows"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,465,"DisplayOffBtn.ToolTip = ""Turn off display"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,70,if (saveDialog.ShowDialog() != true),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,115,"MessageBox.Show($""Export failed: {ex.Message}"", ""Export Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,257,result.ErrorMessage = ex.Message;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,321,systemInfo.ErrorMessage = ex.Message;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,357,"hardwareData.ErrorMessage = ""Hardware monitoring service not available"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,363,hardwareData.ErrorMessage = ex.Message;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,382,"logData.ErrorMessage = $""Log directory not found: {logDir}"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,445,logData.ErrorMessage = ex.Message;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,477,settingsData.ErrorMessage = ex.Message;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,501,"performanceData.ErrorMessage = ""Performance mode service not available"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,507,performanceData.ErrorMessage = ex.Message;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,532,data.ErrorMessage = ex.Message;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,544,"data.Status = ""Fan service unavailable"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,551,"data.Status = _fanService.FanWritesAvailable ? ""Fan writes available"" : ""Fan writes unavailable"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,594,"Status = ""Keyboard lighting service unavailable"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,605,"Status = _keyboardLightingService.IsAvailable ? ""Keyboard lighting backend available"" : ""Keyboard lighting unavailable"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,627,"data.Status = ""Performance/tuning service unavailable"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,634,"data.Status = ""Performance mode service available"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,648,"data.Status = ""Performance/tuning readiness failed"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,649,data.ErrorMessage = ex.Message;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,661,"Status = ""Hardware monitoring service unavailable""",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,667,"Status = _hardwareService.HealthStatus.ToString(),",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,754,"calibrationData.ErrorMessage = ""Fan calibration service not available"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,760,calibrationData.ErrorMessage = ex.Message;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,926,"MessageBox.Show(""File path copied to clipboard"", ""Copied"", MessageBoxButton.OK, MessageBoxImage.Information);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/FanCalibrationControl.xaml.cs,165,"MessageBox.Show(""Fan verification service is not available. Please check that hardware monitoring is working."",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/FanCalibrationControl.xaml.cs,170,var result = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/FanCalibrationControl.xaml.cs,235,"MessageBox.Show($""Calibration failed: {ex.Message}"", ""Calibration Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/FanCalibrationControl.xaml.cs,269,"Status = p.VerificationPassed ? ""✓ Pass"" : ""✗ Fail"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/FanCalibrationControl.xaml.cs,287,"MessageBox.Show(""Fan verification service is unavailable."", ""Restore Auto Unavailable"", MessageBoxButton.OK, MessageBoxImage.Warning);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/FanCalibrationControl.xaml.cs,305,MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/FanCalibrationControl.xaml.cs,318,MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/FanCalibrationControl.xaml.cs,334,MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/FanCalibrationControl.xaml.cs,343,"MessageBox.Show($""Failed to save calibration: {ex.Message}"", ""Save Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/FanCalibrationControl.xaml.cs,349,var result = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/FanCalibrationControl.xaml.cs,359,"MessageBox.Show(""Calibration data cleared."", ""Data Cleared"", MessageBoxButton.OK, MessageBoxImage.Information);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml.cs,976,if (saveDialog.ShowDialog() == true),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml.cs,979,"MessageBox.Show(""Data exported successfully!"", ""Export Complete"", MessageBoxButton.OK, MessageBoxImage.Information);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml.cs,984,"MessageBox.Show($""Export failed: {ex.Message}"", ""Export Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Services/CurveRecoveryService.cs,148,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Services/ToastNotificationService.cs,104,public void ShowError(string message),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务

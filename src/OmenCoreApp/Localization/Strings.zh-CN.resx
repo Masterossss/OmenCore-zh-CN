@@ -689,7 +689,7 @@
   <data name="SettingsReferenceText421Text" xml:space="preserve"><value>键盘配置文件</value></data>
   <data name="SettingsReferenceText428Text" xml:space="preserve"><value>键盘来源</value></data>
   <data name="SettingsReferenceText488Content" xml:space="preserve"><value>复制摘要</value></data>
-  <data name="SettingsReferenceText506Text" xml:space="preserve"><value>PawnIO 独占模式</value></data>
+  <data name="SettingsReferenceText506Text" xml:space="preserve"><value>仅使用 PawnIO 模式</value></data>
   <data name="SettingsReferenceText528Text" xml:space="preserve"><value>BIOS WMI 可靠性</value></data>
   <data name="SettingsReferenceText918Text" xml:space="preserve"><value>自动监控频率</value></data>
   <data name="SettingsReferenceText930Text" xml:space="preserve"><value>频率等级</value></data>
