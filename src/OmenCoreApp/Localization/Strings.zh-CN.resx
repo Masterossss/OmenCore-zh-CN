@@ -1710,4 +1710,15 @@
   <data name="OptimizerPreflightWarning4" xml:space="preserve"><value>此更改后，部分旧版 16 位或非常老的程序可能无法启动。</value></data>
   <data name="OptimizerPreflightWarning5" xml:space="preserve"><value>依赖上次访问时间戳的备份工具可能无法正确检测未更改的文件。</value></data>
   <data name="OptimizerPreflightMore" xml:space="preserve"><value>（另有 {0} 项）</value></data>
+  <data name="MemoryAutoProfileAggressive" xml:space="preserve"><value>积极</value></data>
+  <data name="MemoryAutoProfileBalanced" xml:space="preserve"><value>均衡</value></data>
+  <data name="MemoryAutoProfileConservative" xml:space="preserve"><value>保守</value></data>
+  <data name="MemoryAutoProfileOffPeakOnly" xml:space="preserve"><value>仅非高峰时段</value></data>
+  <data name="MemoryAutoProfileManual" xml:space="preserve"><value>手动</value></data>
+  <data name="MemoryTrendTitle" xml:space="preserve"><value>30 分钟内存趋势</value></data>
+  <data name="MemorySmartCleanLabel" xml:space="preserve"><value>智能清理</value></data>
+  <data name="MemorySmartCleanDescription" xml:space="preserve"><value> 会精简进程工作集、清除低优先级备用页并合并相同内存页。这些操作是安全的，不会导致应用程序问题。</value></data>
+  <data name="MemoryDeepCleanLabel" xml:space="preserve"><value>深度清理</value></data>
+  <data name="MemoryDeepCleanDescription" xml:space="preserve"><value> 还会清除所有备用页、清理系统文件缓存并将已修改的页面写入磁盘。重新缓存数据时可能出现短暂卡顿。</value></data>
+  <data name="MemoryNativeExplanation" xml:space="preserve"><value>内存清理使用 Windows 原生 API（NtSetSystemInformation），需要管理员权限。统计数据每 2 秒刷新一次。</value></data>
 </root>

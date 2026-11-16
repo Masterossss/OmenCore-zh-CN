@@ -1714,4 +1714,15 @@ Continue?</value></data>
   <data name="OptimizerPreflightWarning4" xml:space="preserve"><value>Some legacy 16-bit or very old programs may fail to launch after this change.</value></data>
   <data name="OptimizerPreflightWarning5" xml:space="preserve"><value>Backup tools that rely on last-access timestamps may not detect unchanged files correctly.</value></data>
   <data name="OptimizerPreflightMore" xml:space="preserve"><value> (+{0} more)</value></data>
+  <data name="MemoryAutoProfileAggressive" xml:space="preserve"><value>Aggressive</value></data>
+  <data name="MemoryAutoProfileBalanced" xml:space="preserve"><value>Balanced</value></data>
+  <data name="MemoryAutoProfileConservative" xml:space="preserve"><value>Conservative</value></data>
+  <data name="MemoryAutoProfileOffPeakOnly" xml:space="preserve"><value>OffPeakOnly</value></data>
+  <data name="MemoryAutoProfileManual" xml:space="preserve"><value>Manual</value></data>
+  <data name="MemoryTrendTitle" xml:space="preserve"><value>30-Min Memory Trend</value></data>
+  <data name="MemorySmartCleanLabel" xml:space="preserve"><value>Smart Clean</value></data>
+  <data name="MemorySmartCleanDescription" xml:space="preserve"><value> trims process working sets, purges low-priority standby pages, and combines identical memory pages. These operations are safe and won't cause application issues.</value></data>
+  <data name="MemoryDeepCleanLabel" xml:space="preserve"><value>Deep Clean</value></data>
+  <data name="MemoryDeepCleanDescription" xml:space="preserve"><value> additionally purges all standby pages, flushes the system file cache, and writes modified pages to disk. This may cause a brief stutter as data is re-cached.</value></data>
+  <data name="MemoryNativeExplanation" xml:space="preserve"><value>Memory is cleaned using Windows Native API (NtSetSystemInformation). Requires administrator privileges. Stats refresh every 2 seconds.</value></data>
 </root>

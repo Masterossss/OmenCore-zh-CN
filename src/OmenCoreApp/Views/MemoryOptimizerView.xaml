@@ -241,7 +241,7 @@
 
                 <Border Grid.Column="0" Style="{StaticResource Omen.Card.Utility}" Padding="18">
                     <StackPanel>
-                        <TextBlock Text="30-Min Memory Trend" Style="{StaticResource Omen.Text.Section.Utility}" Margin="0,0,0,10"/>
+                        <TextBlock Text="{x:Static loc:Strings.MemoryTrendTitle}" Style="{StaticResource Omen.Text.Section.Utility}" Margin="0,0,0,10"/>
                         <controls:Sparkline Height="42"
                                             Values="{Binding RecentMemoryLoadHistory}"
                                             Stroke="#00C8C8"
@@ -533,7 +533,26 @@
                                     <ComboBox Grid.Column="1"
                                               ItemsSource="{Binding AutoCleanProfileOptions}"
                                               SelectedItem="{Binding SelectedAutoCleanProfile, Mode=TwoWay}"
-                                              MinWidth="140"/>
+                                              MinWidth="140">
+                                        <ComboBox.ItemTemplate>
+                                            <DataTemplate>
+                                                <TextBlock>
+                                                    <TextBlock.Style>
+                                                        <Style TargetType="TextBlock">
+                                                            <Setter Property="Text" Value="{Binding}"/>
+                                                            <Style.Triggers>
+                                                                <DataTrigger Binding="{Binding}" Value="Aggressive"><Setter Property="Text" Value="{x:Static loc:Strings.MemoryAutoProfileAggressive}"/></DataTrigger>
+                                                                <DataTrigger Binding="{Binding}" Value="Balanced"><Setter Property="Text" Value="{x:Static loc:Strings.MemoryAutoProfileBalanced}"/></DataTrigger>
+                                                                <DataTrigger Binding="{Binding}" Value="Conservative"><Setter Property="Text" Value="{x:Static loc:Strings.MemoryAutoProfileConservative}"/></DataTrigger>
+                                                                <DataTrigger Binding="{Binding}" Value="OffPeakOnly"><Setter Property="Text" Value="{x:Static loc:Strings.MemoryAutoProfileOffPeakOnly}"/></DataTrigger>
+                                                                <DataTrigger Binding="{Binding}" Value="Manual"><Setter Property="Text" Value="{x:Static loc:Strings.MemoryAutoProfileManual}"/></DataTrigger>
+                                                            </Style.Triggers>
+                                                        </Style>
+                                                    </TextBlock.Style>
+                                                </TextBlock>
+                                            </DataTemplate>
+                                        </ComboBox.ItemTemplate>
+                                    </ComboBox>
                                 </Grid>
 
                                 <Grid Margin="0,0,0,4">
@@ -720,19 +739,17 @@
                     <Border Style="{StaticResource Omen.Card.Utility}">
                         <StackPanel>
                             <TextBlock Foreground="#9CA3AF" FontSize="12" TextWrapping="Wrap" LineHeight="20">
-                                <Run FontWeight="SemiBold" Foreground="#00C8C8">Smart Clean</Run>
-                                <Run Text=" trims process working sets, purges low-priority standby pages, and combines identical memory pages. These operations are safe and won't cause application issues."/>
+                                <Run FontWeight="SemiBold" Foreground="#00C8C8" Text="{x:Static loc:Strings.MemorySmartCleanLabel}"/>
+                                <Run Text="{x:Static loc:Strings.MemorySmartCleanDescription}"/>
                             </TextBlock>
 
                             <TextBlock Foreground="#9CA3AF" FontSize="12" TextWrapping="Wrap" LineHeight="20" Margin="0,8,0,0">
-                                <Run FontWeight="SemiBold" Foreground="#A78BFA">Deep Clean</Run>
-                                <Run Text=" additionally purges all standby pages, flushes the system file cache, and writes modified pages to disk. This may cause a brief stutter as data is re-cached."/>
+                                <Run FontWeight="SemiBold" Foreground="#A78BFA" Text="{x:Static loc:Strings.MemoryDeepCleanLabel}"/>
+                                <Run Text="{x:Static loc:Strings.MemoryDeepCleanDescription}"/>
                             </TextBlock>
 
-                            <TextBlock Foreground="#6B7280" FontSize="11" TextWrapping="Wrap" Margin="0,12,0,0">
-                                Memory is cleaned using Windows Native API (NtSetSystemInformation). 
-                                Requires administrator privileges. Stats refresh every 2 seconds.
-                            </TextBlock>
+                            <TextBlock Foreground="#6B7280" FontSize="11" TextWrapping="Wrap" Margin="0,12,0,0"
+                                       Text="{x:Static loc:Strings.MemoryNativeExplanation}"/>
                         </StackPanel>
                     </Border>
                 </StackPanel>

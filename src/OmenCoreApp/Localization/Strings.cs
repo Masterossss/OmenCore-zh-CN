@@ -1574,5 +1574,16 @@ namespace OmenCore.Localization
         public static string OptimizerPreflightWarning4 => Get(nameof(OptimizerPreflightWarning4));
         public static string OptimizerPreflightWarning5 => Get(nameof(OptimizerPreflightWarning5));
         public static string OptimizerPreflightMore => Get(nameof(OptimizerPreflightMore));
+        public static string MemoryAutoProfileAggressive => Get(nameof(MemoryAutoProfileAggressive));
+        public static string MemoryAutoProfileBalanced => Get(nameof(MemoryAutoProfileBalanced));
+        public static string MemoryAutoProfileConservative => Get(nameof(MemoryAutoProfileConservative));
+        public static string MemoryAutoProfileOffPeakOnly => Get(nameof(MemoryAutoProfileOffPeakOnly));
+        public static string MemoryAutoProfileManual => Get(nameof(MemoryAutoProfileManual));
+        public static string MemoryTrendTitle => Get(nameof(MemoryTrendTitle));
+        public static string MemorySmartCleanLabel => Get(nameof(MemorySmartCleanLabel));
+        public static string MemorySmartCleanDescription => Get(nameof(MemorySmartCleanDescription));
+        public static string MemoryDeepCleanLabel => Get(nameof(MemoryDeepCleanLabel));
+        public static string MemoryDeepCleanDescription => Get(nameof(MemoryDeepCleanDescription));
+        public static string MemoryNativeExplanation => Get(nameof(MemoryNativeExplanation));
     }
 }
