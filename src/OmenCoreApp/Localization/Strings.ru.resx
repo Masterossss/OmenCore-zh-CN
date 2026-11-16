@@ -262,4 +262,107 @@ Open GitHub releases to download manually?</value></data>
   <data name="DashboardText40" xml:space="preserve"><value>Reduced CPU Usage Mode</value></data>
   <data name="DashboardText41" xml:space="preserve"><value>Live charts are disabled to minimize monitoring overhead.</value></data>
   <data name="DashboardText42" xml:space="preserve"><value>Hardware summary information is still available above.</value></data>
+  <data name="GeneralViewText126" xml:space="preserve"><value>PERFORMANCE &amp; COOLING</value></data>
+  <data name="GeneralViewText127" xml:space="preserve"><value>Quick profile selection for optimal system tuning</value></data>
+  <data name="GeneralViewText160" xml:space="preserve"><value>THERMAL SAFETY ACTIVE</value></data>
+  <data name="GeneralViewText161" xml:space="preserve"><value>Temperature critical — fans running at Max. Quiet curve will resume when temp drops.</value></data>
+  <data name="GeneralViewText177" xml:space="preserve"><value>QUICK PROFILES</value></data>
+  <data name="GeneralViewText179" xml:space="preserve"><value>Click to activate</value></data>
+  <data name="GeneralViewText193" xml:space="preserve"><value>Maximum CPU/GPU power limits and aggressive fan curves for gaming and heavy workloads</value></data>
+  <data name="GeneralViewText214" xml:space="preserve"><value>Performance</value></data>
+  <data name="GeneralViewText216" xml:space="preserve"><value>MAXIMUM OUTPUT</value></data>
+  <data name="GeneralViewText222" xml:space="preserve"><value>Max Power</value></data>
+  <data name="GeneralViewText225" xml:space="preserve"><value>High Fans</value></data>
+  <data name="GeneralViewText246" xml:space="preserve"><value>Default HP profile — balanced power and thermals for everyday use</value></data>
+  <data name="GeneralViewText266" xml:space="preserve"><value>Balanced</value></data>
+  <data name="GeneralViewText268" xml:space="preserve"><value>RECOMMENDED</value></data>
+  <data name="GeneralViewText273" xml:space="preserve"><value>Default</value></data>
+  <data name="GeneralViewText276" xml:space="preserve"><value>Auto Fans</value></data>
+  <data name="GeneralViewText296" xml:space="preserve"><value>Reduced power limits and minimal fan speed for silent operation</value></data>
+  <data name="GeneralViewText316" xml:space="preserve"><value>Quiet</value></data>
+  <data name="GeneralViewText318" xml:space="preserve"><value>SILENT OPERATION</value></data>
+  <data name="GeneralViewText323" xml:space="preserve"><value>Power Save</value></data>
+  <data name="GeneralViewText326" xml:space="preserve"><value>Low Fans</value></data>
+  <data name="GeneralViewText346" xml:space="preserve"><value>User-defined fan curves and power settings via the Custom tab</value></data>
+  <data name="GeneralViewText366" xml:space="preserve"><value>Custom</value></data>
+  <data name="GeneralViewText368" xml:space="preserve"><value>ADVANCED CONTROL</value></data>
+  <data name="GeneralViewText373" xml:space="preserve"><value>Manual</value></data>
+  <data name="GeneralViewText376" xml:space="preserve"><value>Custom Tab</value></data>
+  <data name="GeneralViewText401" xml:space="preserve"><value>FAN MODE</value></data>
+  <data name="GeneralViewText413" xml:space="preserve"><value>Fans run at maximum speed regardless of the active performance profile</value></data>
+  <data name="GeneralViewText414" xml:space="preserve"><value>Max</value></data>
+  <data name="GeneralViewText426" xml:space="preserve"><value>Fans follow the active performance profile / BIOS auto curve</value></data>
+  <data name="GeneralViewText427" xml:space="preserve"><value>Profile Controlled (Auto)</value></data>
+  <data name="GeneralViewText439" xml:space="preserve"><value>Open the Custom tab to set a manual fan curve</value></data>
+  <data name="GeneralViewText440" xml:space="preserve"><value>Custom</value></data>
+  <data name="GeneralViewText503" xml:space="preserve"><value>TEMP</value></data>
+  <data name="GeneralViewText521" xml:space="preserve"><value>LOAD</value></data>
+  <data name="GeneralViewText544" xml:space="preserve"><value>POWER</value></data>
+  <data name="GeneralViewText614" xml:space="preserve"><value>TEMP</value></data>
+  <data name="GeneralViewText632" xml:space="preserve"><value>LOAD</value></data>
+  <data name="GeneralViewText655" xml:space="preserve"><value>POWER</value></data>
+  <data name="GeneralViewText696" xml:space="preserve"><value>SYSTEM</value></data>
+  <data name="GeneralViewText731" xml:space="preserve"><value>USED</value></data>
+  <data name="AdvancedViewText55" xml:space="preserve"><value>OMEN CONTROLS</value></data>
+  <data name="AdvancedViewText56" xml:space="preserve"><value>HP OMEN-specific features: Performance modes, fan curves, GPU switching</value></data>
+  <data name="AdvancedViewText88" xml:space="preserve"><value>PERFORMANCE MODE</value></data>
+  <data name="AdvancedViewText90" xml:space="preserve"><value>System power and cooling profile</value></data>
+  <data name="AdvancedViewText125" xml:space="preserve"><value>Quiet</value></data>
+  <data name="AdvancedViewText127" xml:space="preserve"><value>SILENT OPERATION</value></data>
+  <data name="AdvancedViewText133" xml:space="preserve"><value>Low Power</value></data>
+  <data name="AdvancedViewText136" xml:space="preserve"><value>Silent Fans</value></data>
+  <data name="AdvancedViewText146" xml:space="preserve"><value>ACTIVE</value></data>
+  <data name="AdvancedViewText180" xml:space="preserve"><value>Balanced</value></data>
+  <data name="AdvancedViewText182" xml:space="preserve"><value>RECOMMENDED</value></data>
+  <data name="AdvancedViewText187" xml:space="preserve"><value>Auto Power</value></data>
+  <data name="AdvancedViewText190" xml:space="preserve"><value>Smart Fans</value></data>
+  <data name="AdvancedViewText199" xml:space="preserve"><value>ACTIVE</value></data>
+  <data name="AdvancedViewText233" xml:space="preserve"><value>Performance</value></data>
+  <data name="AdvancedViewText235" xml:space="preserve"><value>MAXIMUM POWER</value></data>
+  <data name="AdvancedViewText240" xml:space="preserve"><value>Max Power</value></data>
+  <data name="AdvancedViewText243" xml:space="preserve"><value>High Fans</value></data>
+  <data name="AdvancedViewText252" xml:space="preserve"><value>ACTIVE</value></data>
+  <data name="AdvancedViewText267" xml:space="preserve"><value>THIS MODE REMEMBERS</value></data>
+  <data name="AdvancedViewText276" xml:space="preserve"><value>Remember current state</value></data>
+  <data name="AdvancedViewText288" xml:space="preserve"><value>Custom Fan Curve</value></data>
+  <data name="AdvancedViewText313" xml:space="preserve"><value>BOOST ACTIVE</value></data>
+  <data name="AdvancedViewText318" xml:space="preserve"><value>GPU Power Boost (TGP/Dynamic Boost)</value></data>
+  <data name="AdvancedViewText321" xml:space="preserve"><value>Control GPU Total Graphics Power (TGP) and Dynamic Boost (PPAB). Higher settings enable more GPU wattage. Extended option is for RTX 5080 and newer GPUs that may support +25W boost.</value></data>
+  <data name="AdvancedViewText343" xml:space="preserve"><value>these levels are relative boost requests sent to the same GPU firmware handler OMEN Gaming Hub uses, not an absolute wattage guarantee. The actual ceiling can be affected by GPU firmware/EC state left over from other power-control software - if the wattage you see doesn't match a level's description, try fully closing OMEN Gaming Hub first.</value></data>
+  <data name="AdvancedViewText382" xml:space="preserve"><value>CURRENT POWER MODE</value></data>
+  <data name="AdvancedViewText396" xml:space="preserve"><value>EXTRA POWER</value></data>
+  <data name="AdvancedViewText415" xml:space="preserve"><value>Power Level:</value></data>
+  <data name="AdvancedViewText428" xml:space="preserve"><value>Apply</value></data>
+  <data name="AdvancedViewText441" xml:space="preserve"><value>GPU Switching (Advanced Optimus)</value></data>
+  <data name="AdvancedViewText444" xml:space="preserve"><value>Switch between integrated and discrete GPU for optimal performance or battery life.</value></data>
+  <data name="AdvancedViewText458" xml:space="preserve"><value>GPU mode switching requires a system reboot. Some OMEN models only support this via BIOS settings.</value></data>
+  <data name="AdvancedViewText469" xml:space="preserve"><value>Current Mode:</value></data>
+  <data name="AdvancedViewText488" xml:space="preserve"><value>Switch To:</value></data>
+  <data name="AdvancedViewText502" xml:space="preserve"><value>Apply (Requires Restart)</value></data>
+  <data name="AdvancedViewText526" xml:space="preserve"><value>HP TELEMETRY &amp; BACKGROUND SERVICES</value></data>
+  <data name="AdvancedViewText527" xml:space="preserve"><value>Stops and disables HP's analytics and diagnostics services. Reversible: the original start type of each service is saved and Restore puts it back. Needs administrator rights. Nothing OmenCore depends on is touched.</value></data>
+  <data name="AdvancedViewText530" xml:space="preserve"><value>Disable HP telemetry</value></data>
+  <data name="AdvancedViewText533" xml:space="preserve"><value>Restore</value></data>
+  <data name="AdvancedViewText552" xml:space="preserve"><value>DISPLAY OVERDRIVE</value></data>
+  <data name="AdvancedViewText553" xml:space="preserve"><value>Reduces panel response time for less motion blur during fast-paced gaming. May cause slight overshoot artifacts on some displays.</value></data>
+  <data name="AdvancedViewText561" xml:space="preserve"><value>Panel Overdrive</value></data>
+  <data name="AdvancedViewText562" xml:space="preserve"><value>Improves pixel response time on 165Hz+ displays</value></data>
+  <data name="FanDiagnosticsViewText10" xml:space="preserve"><value>Fan Diagnostics</value></data>
+  <data name="FanDiagnosticsViewText13" xml:space="preserve"><value>Selected Fan</value></data>
+  <data name="FanDiagnosticsViewText15" xml:space="preserve"><value>CPU Fan</value></data>
+  <data name="FanDiagnosticsViewText16" xml:space="preserve"><value>GPU Fan</value></data>
+  <data name="FanDiagnosticsViewText19" xml:space="preserve"><value>Target Percent</value></data>
+  <data name="FanDiagnosticsViewText26" xml:space="preserve"><value>Apply &amp; Verify</value></data>
+  <data name="FanDiagnosticsViewText27" xml:space="preserve"><value>Refresh</value></data>
+  <data name="FanDiagnosticsViewText33" xml:space="preserve"><value>Current State</value></data>
+  <data name="FanDiagnosticsViewText38" xml:space="preserve"><value>Source of RPM data: EC=Direct EC read, HWMon=LibreHardwareMonitor, MAB=MSI Afterburner, Est=Estimated</value></data>
+  <data name="FanDiagnosticsViewText42" xml:space="preserve"><value>Level:</value></data>
+  <data name="FanDiagnosticsViewText50" xml:space="preserve"><value>Guided Fan Verification</value></data>
+  <data name="FanDiagnosticsViewText51" xml:space="preserve"><value>Tests: 30% → 60% → 100%</value></data>
+  <data name="FanDiagnosticsViewText52" xml:space="preserve"><value>Run Guided Fan Verification</value></data>
+  <data name="FanDiagnosticsViewText73" xml:space="preserve"><value>Verification Results</value></data>
+  <data name="FanDiagnosticsViewText83" xml:space="preserve"><value>Copy Results</value></data>
+  <data name="FanDiagnosticsViewText89" xml:space="preserve"><value>History</value></data>
+  <data name="FanDiagnosticsViewText97" xml:space="preserve"><value>Requested: </value></data>
+  <data name="FanDiagnosticsViewText106" xml:space="preserve"><value>Evidence: </value></data>
 </root>
