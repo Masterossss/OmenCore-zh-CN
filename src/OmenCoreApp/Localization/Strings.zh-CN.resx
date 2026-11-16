@@ -1517,4 +1517,25 @@
   <data name="OptimizerRiskUnknown" xml:space="preserve"><value>未知</value></data>
   <data name="OptimizerWarningSearch" xml:space="preserve"><value>可能降低文件搜索速度</value></data>
   <data name="OptimizerWarningLegacy" xml:space="preserve"><value>可能导致非常旧的软件无法正常工作</value></data>
+  <data name="OptimizerDescription0" xml:space="preserve"><value>将 Windows 电源计划设为卓越性能，以发挥 CPU/GPU 的最大性能</value></data>
+  <data name="OptimizerDescription1" xml:space="preserve"><value>启用硬件加速 GPU 调度（Windows 10 2004 及以上版本）</value></data>
+  <data name="OptimizerDescription2" xml:space="preserve"><value>启用 Windows 游戏模式以改善游戏性能</value></data>
+  <data name="OptimizerDescription3" xml:space="preserve"><value>提高前台应用程序的 CPU 优先级</value></data>
+  <data name="OptimizerDescription4" xml:space="preserve"><value>禁用 Windows 遥测数据收集（DiagTrack 服务）</value></data>
+  <data name="OptimizerDescription5" xml:space="preserve"><value>禁用 Superfetch 服务；建议使用 SSD 的系统禁用此服务</value></data>
+  <data name="OptimizerDescription6" xml:space="preserve"><value>禁用 Windows 搜索索引以降低磁盘和 CPU 使用率</value></data>
+  <data name="OptimizerDescription7" xml:space="preserve"><value>禁用互联用户体验和遥测服务</value></data>
+  <data name="OptimizerDescription8" xml:space="preserve"><value>禁用 TCP 延迟确认以降低延迟</value></data>
+  <data name="OptimizerDescription9" xml:space="preserve"><value>优化 TCP ACK 频率以加快响应</value></data>
+  <data name="OptimizerDescription10" xml:space="preserve"><value>禁用传递优化的 P2P 共享</value></data>
+  <data name="OptimizerDescription11" xml:space="preserve"><value>减少 TCP 缓冲延迟，有助于改善网络游戏体验</value></data>
+  <data name="OptimizerDescription12" xml:space="preserve"><value>禁用“提高指针精确度”，实现 1:1 鼠标移动</value></data>
+  <data name="OptimizerDescription13" xml:space="preserve"><value>禁用后台游戏录制以改善性能</value></data>
+  <data name="OptimizerDescription14" xml:space="preserve"><value>禁用 Xbox 游戏栏覆盖层</value></data>
+  <data name="OptimizerDescription15" xml:space="preserve"><value>配置全屏优化以改善兼容性</value></data>
+  <data name="OptimizerDescription16" xml:space="preserve"><value>禁用 Windows 透明效果</value></data>
+  <data name="OptimizerDescription17" xml:space="preserve"><value>禁用窗口动画以加快界面响应</value></data>
+  <data name="OptimizerDescription18" xml:space="preserve"><value>启用 TRIM 命令以维护 SSD 健康和性能</value></data>
+  <data name="OptimizerDescription19" xml:space="preserve"><value>禁用 NTFS 上次访问时间更新以减少磁盘活动</value></data>
+  <data name="OptimizerDescription20" xml:space="preserve"><value>禁用旧版短文件名创建</value></data>
 </root>

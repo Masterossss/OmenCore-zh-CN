@@ -1525,4 +1525,25 @@ Continue?</value></data>
   <data name="OptimizerRiskUnknown" xml:space="preserve"><value>Unknown</value></data>
   <data name="OptimizerWarningSearch" xml:space="preserve"><value>May slow down file searches</value></data>
   <data name="OptimizerWarningLegacy" xml:space="preserve"><value>May break very old software</value></data>
+  <data name="OptimizerDescription0" xml:space="preserve"><value>Sets Windows power plan to Ultimate Performance for maximum CPU/GPU performance</value></data>
+  <data name="OptimizerDescription1" xml:space="preserve"><value>Enables hardware-accelerated GPU scheduling (Windows 10 2004+)</value></data>
+  <data name="OptimizerDescription2" xml:space="preserve"><value>Enables Windows Game Mode for better gaming performance</value></data>
+  <data name="OptimizerDescription3" xml:space="preserve"><value>Increases CPU priority for foreground applications</value></data>
+  <data name="OptimizerDescription4" xml:space="preserve"><value>Disables Windows telemetry data collection (DiagTrack service)</value></data>
+  <data name="OptimizerDescription5" xml:space="preserve"><value>Disables Superfetch service - recommended for SSD systems</value></data>
+  <data name="OptimizerDescription6" xml:space="preserve"><value>Disables Windows Search indexing for lower disk/CPU usage</value></data>
+  <data name="OptimizerDescription7" xml:space="preserve"><value>Disables Connected User Experiences and Telemetry service</value></data>
+  <data name="OptimizerDescription8" xml:space="preserve"><value>Disables TCP delayed acknowledgments for lower latency</value></data>
+  <data name="OptimizerDescription9" xml:space="preserve"><value>Optimizes TCP ACK frequency for faster responses</value></data>
+  <data name="OptimizerDescription10" xml:space="preserve"><value>Disables Delivery Optimization P2P sharing</value></data>
+  <data name="OptimizerDescription11" xml:space="preserve"><value>Reduces TCP buffering delay - helpful for online games</value></data>
+  <data name="OptimizerDescription12" xml:space="preserve"><value>Disables 'Enhance pointer precision' for 1:1 mouse movement</value></data>
+  <data name="OptimizerDescription13" xml:space="preserve"><value>Disables background game recording for better performance</value></data>
+  <data name="OptimizerDescription14" xml:space="preserve"><value>Disables the Xbox Game Bar overlay</value></data>
+  <data name="OptimizerDescription15" xml:space="preserve"><value>Configures fullscreen optimizations for better compatibility</value></data>
+  <data name="OptimizerDescription16" xml:space="preserve"><value>Disables Windows transparency effects</value></data>
+  <data name="OptimizerDescription17" xml:space="preserve"><value>Disables window animations for snappier UI</value></data>
+  <data name="OptimizerDescription18" xml:space="preserve"><value>Enables TRIM command for SSD health and performance</value></data>
+  <data name="OptimizerDescription19" xml:space="preserve"><value>Disables NTFS last access time updates for lower disk activity</value></data>
+  <data name="OptimizerDescription20" xml:space="preserve"><value>Disables legacy short filename creation</value></data>
 </root>

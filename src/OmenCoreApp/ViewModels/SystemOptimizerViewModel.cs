@@ -1237,6 +1237,31 @@ namespace OmenCore.ViewModels
             "May break very old software" => Strings.OptimizerWarningLegacy,
             _ => Warning
         };
+        public string DisplayDescription => Id switch
+        {
+            "power_ultimate_perf" => Strings.OptimizerDescription0,
+            "power_gpu_scheduling" => Strings.OptimizerDescription1,
+            "power_game_mode" => Strings.OptimizerDescription2,
+            "power_foreground_priority" => Strings.OptimizerDescription3,
+            "service_telemetry" => Strings.OptimizerDescription4,
+            "service_sysmain" => Strings.OptimizerDescription5,
+            "service_search" => Strings.OptimizerDescription6,
+            "service_diagtrack" => Strings.OptimizerDescription7,
+            "network_tcp_nodelay" => Strings.OptimizerDescription8,
+            "network_tcp_ack" => Strings.OptimizerDescription9,
+            "network_delivery_opt" => Strings.OptimizerDescription10,
+            "network_nagle" => Strings.OptimizerDescription11,
+            "input_mouse_accel" => Strings.OptimizerDescription12,
+            "input_game_dvr" => Strings.OptimizerDescription13,
+            "input_game_bar" => Strings.OptimizerDescription14,
+            "input_fullscreen_opt" => Strings.OptimizerDescription15,
+            "visual_transparency" => Strings.OptimizerDescription16,
+            "visual_animations" => Strings.OptimizerDescription17,
+            "storage_trim" => Strings.OptimizerDescription18,
+            "storage_last_access" => Strings.OptimizerDescription19,
+            "storage_8dot3" => Strings.OptimizerDescription20,
+            _ => Description
+        };
         public string Description { get; set; } = "";
         public string Category { get; set; } = "";
         public OptimizationRisk Risk { get; set; }

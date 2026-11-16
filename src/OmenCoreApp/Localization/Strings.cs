@@ -1381,5 +1381,26 @@ namespace OmenCore.Localization
         public static string OptimizerRiskUnknown => Get(nameof(OptimizerRiskUnknown));
         public static string OptimizerWarningSearch => Get(nameof(OptimizerWarningSearch));
         public static string OptimizerWarningLegacy => Get(nameof(OptimizerWarningLegacy));
+        public static string OptimizerDescription0 => Get(nameof(OptimizerDescription0));
+        public static string OptimizerDescription1 => Get(nameof(OptimizerDescription1));
+        public static string OptimizerDescription2 => Get(nameof(OptimizerDescription2));
+        public static string OptimizerDescription3 => Get(nameof(OptimizerDescription3));
+        public static string OptimizerDescription4 => Get(nameof(OptimizerDescription4));
+        public static string OptimizerDescription5 => Get(nameof(OptimizerDescription5));
+        public static string OptimizerDescription6 => Get(nameof(OptimizerDescription6));
+        public static string OptimizerDescription7 => Get(nameof(OptimizerDescription7));
+        public static string OptimizerDescription8 => Get(nameof(OptimizerDescription8));
+        public static string OptimizerDescription9 => Get(nameof(OptimizerDescription9));
+        public static string OptimizerDescription10 => Get(nameof(OptimizerDescription10));
+        public static string OptimizerDescription11 => Get(nameof(OptimizerDescription11));
+        public static string OptimizerDescription12 => Get(nameof(OptimizerDescription12));
+        public static string OptimizerDescription13 => Get(nameof(OptimizerDescription13));
+        public static string OptimizerDescription14 => Get(nameof(OptimizerDescription14));
+        public static string OptimizerDescription15 => Get(nameof(OptimizerDescription15));
+        public static string OptimizerDescription16 => Get(nameof(OptimizerDescription16));
+        public static string OptimizerDescription17 => Get(nameof(OptimizerDescription17));
+        public static string OptimizerDescription18 => Get(nameof(OptimizerDescription18));
+        public static string OptimizerDescription19 => Get(nameof(OptimizerDescription19));
+        public static string OptimizerDescription20 => Get(nameof(OptimizerDescription20));
     }
 }

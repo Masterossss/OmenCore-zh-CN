@@ -59,7 +59,7 @@
                             </Border>
                         </StackPanel>
                         
-                        <TextBlock Text="{Binding Description}" 
+                        <TextBlock Text="{Binding DisplayDescription}"
                                    FontSize="12" 
                                    Foreground="{StaticResource TextSecondaryBrush}"
                                    TextWrapping="Wrap"
