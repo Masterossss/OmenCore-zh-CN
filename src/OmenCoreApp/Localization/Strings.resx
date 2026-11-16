@@ -1372,4 +1372,32 @@ Any dependencies or settings will be re-installed from their original sources.
 
 Continue?</value></data>
   <data name="BloatRestoreAllTitle" xml:space="preserve"><value>Restore All Removed Bloatware</value></data>
+  <data name="OptimizerMaxIntro" xml:space="preserve"><value>This will apply ALL gaming optimizations for maximum performance.
+
+</value></data>
+  <data name="OptimizerRestoreContinue" xml:space="preserve"><value>A system restore point will be created before making changes.
+
+Continue?</value></data>
+  <data name="OptimizerMaxTitle" xml:space="preserve"><value>Apply Gaming Maximum</value></data>
+  <data name="OptimizerRebootPrompt" xml:space="preserve"><value>Some changes require a reboot to take effect.
+
+Reboot now?</value></data>
+  <data name="OptimizerRebootTitle" xml:space="preserve"><value>Reboot Required</value></data>
+  <data name="OptimizerApplyError" xml:space="preserve"><value>Failed to apply optimizations:
+{0}</value></data>
+  <data name="OptimizerErrorTitle" xml:space="preserve"><value>Error</value></data>
+  <data name="OptimizerCategoryPrompt" xml:space="preserve"><value>This will apply {0} optimization(s) in {1}.
+
+Continue?</value></data>
+  <data name="OptimizerCategoryTitle" xml:space="preserve"><value>Apply {0}</value></data>
+  <data name="OptimizerBalancedIntro" xml:space="preserve"><value>This will apply recommended optimizations with minimal risk.
+
+</value></data>
+  <data name="OptimizerBalancedTitle" xml:space="preserve"><value>Apply Balanced Optimizations</value></data>
+  <data name="OptimizerRevertPrompt" xml:space="preserve"><value>This will revert ALL optimizations to Windows defaults.
+
+Your backed-up settings will be restored.
+
+Continue?</value></data>
+  <data name="OptimizerRevertTitle" xml:space="preserve"><value>Revert All Optimizations</value></data>
 </root>

@@ -172,12 +172,12 @@ src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,5528,System.Windows.Message
 src/OmenCoreApp/ViewModels/SystemControlViewModel.cs,5578,var result = System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/ViewModels/SystemMaintenanceViewModel.cs,347,var result = System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/ViewModels/SystemMaintenanceViewModel.cs,364,System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,606,var msgResult = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,636,var reboot = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,654,"MessageBox.Show($""Failed to apply optimizations:\n{ex.Message}"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,672,var confirmation = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,736,var msgResult = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,771,var msgResult = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,606,var msgResult = MessageBox.Show(,A,是,部分资源化,Strings.Optimizer* 对话框；预检摘要、分类名仍来自原始数据并需审查
+src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,636,var reboot = MessageBox.Show(,A,是,已资源化,Strings.Optimizer* 对话框；操作分支未改变
+src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,654,"MessageBox.Show($""Failed to apply optimizations:\n{ex.Message}"",",A,是,已资源化,Strings.Optimizer* 对话框；操作分支未改变
+src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,672,var confirmation = MessageBox.Show(,A,是,部分资源化,Strings.Optimizer* 对话框；预检摘要、分类名仍来自原始数据并需审查
+src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,736,var msgResult = MessageBox.Show(,A,是,部分资源化,Strings.Optimizer* 对话框；预检摘要、分类名仍来自原始数据并需审查
+src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,771,var msgResult = MessageBox.Show(,A,是,已资源化,Strings.Optimizer* 对话框；操作分支未改变
 src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,815,"StatusMessage = $""{action.Trim().TrimEnd('.')}..."";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,820,"StatusMessage = string.IsNullOrWhiteSpace(details) ? ""Done"" : $""Done: {details}"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/ViewModels/SystemOptimizerViewModel.cs,825,"StatusMessage = $""Failed: {reason}"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务

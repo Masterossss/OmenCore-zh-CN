@@ -1243,5 +1243,18 @@ namespace OmenCore.Localization
         public static string BloatRestorePointFailedTitle => Get(nameof(BloatRestorePointFailedTitle));
         public static string BloatRestoreAllPrompt => Get(nameof(BloatRestoreAllPrompt));
         public static string BloatRestoreAllTitle => Get(nameof(BloatRestoreAllTitle));
+        public static string OptimizerMaxIntro => Get(nameof(OptimizerMaxIntro));
+        public static string OptimizerRestoreContinue => Get(nameof(OptimizerRestoreContinue));
+        public static string OptimizerMaxTitle => Get(nameof(OptimizerMaxTitle));
+        public static string OptimizerRebootPrompt => Get(nameof(OptimizerRebootPrompt));
+        public static string OptimizerRebootTitle => Get(nameof(OptimizerRebootTitle));
+        public static string OptimizerApplyError => Get(nameof(OptimizerApplyError));
+        public static string OptimizerErrorTitle => Get(nameof(OptimizerErrorTitle));
+        public static string OptimizerCategoryPrompt => Get(nameof(OptimizerCategoryPrompt));
+        public static string OptimizerCategoryTitle => Get(nameof(OptimizerCategoryTitle));
+        public static string OptimizerBalancedIntro => Get(nameof(OptimizerBalancedIntro));
+        public static string OptimizerBalancedTitle => Get(nameof(OptimizerBalancedTitle));
+        public static string OptimizerRevertPrompt => Get(nameof(OptimizerRevertPrompt));
+        public static string OptimizerRevertTitle => Get(nameof(OptimizerRevertTitle));
     }
 }

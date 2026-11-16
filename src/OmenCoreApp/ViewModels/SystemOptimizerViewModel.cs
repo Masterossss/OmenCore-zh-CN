@@ -10,6 +10,7 @@ using System.Windows;
 using System.Windows.Input;
 using System.Windows.Threading;
 using OmenCore.Services;
+using OmenCore.Localization;
 using OmenCore.Services.SystemOptimizer;
 using OmenCore.Services.SystemOptimizer.Optimizations;
 using OmenCore.Utils;
@@ -604,12 +605,11 @@ namespace OmenCore.ViewModels
             var preflight = await _optimizerService.GeneratePreflightReportAsync(includeHighRisk: true);
 
             var msgResult = MessageBox.Show(
-                "This will apply ALL gaming optimizations for maximum performance.\n\n" +
+                Strings.OptimizerMaxIntro +
                 $"{SystemOptimizerPreflightFormatter.BuildSummary(preflight)}\n" +
                 $"{SystemOptimizerPreflightFormatter.BuildWarningRollup(preflight)}\n\n" +
-                "A system restore point will be created before making changes.\n\n" +
-                "Continue?",
-                "Apply Gaming Maximum",
+                Strings.OptimizerRestoreContinue,
+                Strings.OptimizerMaxTitle,
                 MessageBoxButton.YesNo,
                 MessageBoxImage.Warning);
             
@@ -634,8 +634,8 @@ namespace OmenCore.ViewModels
                 if (rebootNeeded)
                 {
                     var reboot = MessageBox.Show(
-                        "Some changes require a reboot to take effect.\n\nReboot now?",
-                        "Reboot Required",
+                        Strings.OptimizerRebootPrompt,
+                        Strings.OptimizerRebootTitle,
                         MessageBoxButton.YesNo,
                         MessageBoxImage.Question);
                     
@@ -651,8 +651,8 @@ namespace OmenCore.ViewModels
             {
                 _logger.Error($"Failed to apply gaming max: {ex.Message}");
                 SetStatusFailed(ex.Message);
-                MessageBox.Show($"Failed to apply optimizations:\n{ex.Message}", 
-                    "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show(string.Format(Strings.OptimizerApplyError, ex.Message), 
+                    Strings.OptimizerErrorTitle, MessageBoxButton.OK, MessageBoxImage.Error);
             }
             finally
             {
@@ -670,8 +670,8 @@ namespace OmenCore.ViewModels
             }
 
             var confirmation = MessageBox.Show(
-                $"This will apply {pendingItems.Count} optimization(s) in {categoryName}.\n\nContinue?",
-                $"Apply {categoryName}",
+                string.Format(Strings.OptimizerCategoryPrompt, pendingItems.Count, categoryName),
+                string.Format(Strings.OptimizerCategoryTitle, categoryName),
                 MessageBoxButton.YesNo,
                 MessageBoxImage.Question);
 
@@ -734,12 +734,11 @@ namespace OmenCore.ViewModels
             var preflight = await _optimizerService.GeneratePreflightReportAsync(includeHighRisk: false);
 
             var msgResult = MessageBox.Show(
-                "This will apply recommended optimizations with minimal risk.\n\n" +
+                Strings.OptimizerBalancedIntro +
                 $"{SystemOptimizerPreflightFormatter.BuildSummary(preflight)}\n" +
                 $"{SystemOptimizerPreflightFormatter.BuildWarningRollup(preflight)}\n\n" +
-                "A system restore point will be created before making changes.\n\n" +
-                "Continue?",
-                "Apply Balanced Optimizations",
+                Strings.OptimizerRestoreContinue,
+                Strings.OptimizerBalancedTitle,
                 MessageBoxButton.YesNo,
                 MessageBoxImage.Information);
             
@@ -769,10 +768,8 @@ namespace OmenCore.ViewModels
         private async Task RevertAllAsync()
         {
             var msgResult = MessageBox.Show(
-                "This will revert ALL optimizations to Windows defaults.\n\n" +
-                "Your backed-up settings will be restored.\n\n" +
-                "Continue?",
-                "Revert All Optimizations",
+                Strings.OptimizerRevertPrompt,
+                Strings.OptimizerRevertTitle,
                 MessageBoxButton.YesNo,
                 MessageBoxImage.Question);
             
