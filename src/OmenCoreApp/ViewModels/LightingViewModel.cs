@@ -608,7 +608,7 @@ namespace OmenCore.ViewModels
         public bool HasRazerDevices => _razerDevices.Count > 0;
         public bool IsRazerAvailable => _razerService?.IsAvailable ?? false;
         public string RazerDeviceStatusText => IsRazerAvailable 
-            ? string.Format(OmenCore.Localization.Strings.RgbDeviceCount, _razerDevices.Count) 
+            ? string.Format(OmenCore.Localization.Strings.RgbDeviceCount, _razerDevices.Count)
             : OmenCore.Localization.Strings.RgbRazerMissing;
         
         public string RazerColorHex
