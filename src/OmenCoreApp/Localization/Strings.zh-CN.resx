@@ -840,4 +840,25 @@
   <data name="NvidiaPowerCurrentRestart" xml:space="preserve"><value>CURRENT 会在重启后重置。</value></data>
   <data name="NvidiaPowerNotApplied" xml:space="preserve"><value>未应用：</value></data>
   <data name="NvidiaPowerRestartToFinish" xml:space="preserve"><value> 请重启 Windows 以完成操作。</value></data>
+  <data name="GameProfileNameRequired" xml:space="preserve"><value>请输入配置文件名称</value></data>
+  <data name="GameProfileNameTooLong" xml:space="preserve"><value>配置文件名称不能超过 100 个字符</value></data>
+  <data name="GameProfileExecutableRequired" xml:space="preserve"><value>请输入可执行文件名</value></data>
+  <data name="GameProfileExecutableExtension" xml:space="preserve"><value>可执行文件名必须以 .exe 结尾</value></data>
+  <data name="GameProfileUndervoltRange" xml:space="preserve"><value>CPU 降压必须在 -200 到 0 mV 之间</value></data>
+  <data name="GameProfilePriorityRange" xml:space="preserve"><value>优先级必须在 0 到 100 之间</value></data>
+  <data name="GameProfileDeletePrompt" xml:space="preserve"><value>是否删除配置文件“{0}”？</value></data>
+  <data name="GameProfileDeleteTitle" xml:space="preserve"><value>确认删除</value></data>
+  <data name="GameProfileErrorTitle" xml:space="preserve"><value>错误</value></data>
+  <data name="GameProfileDeleteFailed" xml:space="preserve"><value>删除配置文件失败：{0}</value></data>
+  <data name="GameProfileImportTitle" xml:space="preserve"><value>导入游戏配置文件</value></data>
+  <data name="GameProfileImportComplete" xml:space="preserve"><value>导入完成</value></data>
+  <data name="GameProfileImported" xml:space="preserve"><value>已导入 {0} 个配置文件</value></data>
+  <data name="GameProfileImportFailed" xml:space="preserve"><value>导入配置文件失败：{0}</value></data>
+  <data name="GameProfileExportTitle" xml:space="preserve"><value>导出游戏配置文件</value></data>
+  <data name="GameProfileExportComplete" xml:space="preserve"><value>导出完成</value></data>
+  <data name="GameProfileExported" xml:space="preserve"><value>已导出 {0} 个配置文件</value></data>
+  <data name="GameProfileExportFailed" xml:space="preserve"><value>导出配置文件失败：{0}</value></data>
+  <data name="GameProfileBrowseTitle" xml:space="preserve"><value>选择游戏可执行文件</value></data>
+  <data name="GameProfileInvalid" xml:space="preserve"><value>游戏配置文件无效</value></data>
+  <data name="GameProfileSaveFailed" xml:space="preserve"><value>保存配置文件失败：{0}</value></data>
 </root>

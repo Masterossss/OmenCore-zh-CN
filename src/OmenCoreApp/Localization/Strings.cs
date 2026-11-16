@@ -748,5 +748,26 @@ namespace OmenCore.Localization
         public static string NvidiaPowerCurrentRestart => Get(nameof(NvidiaPowerCurrentRestart));
         public static string NvidiaPowerNotApplied => Get(nameof(NvidiaPowerNotApplied));
         public static string NvidiaPowerRestartToFinish => Get(nameof(NvidiaPowerRestartToFinish));
+        public static string GameProfileNameRequired => Get(nameof(GameProfileNameRequired));
+        public static string GameProfileNameTooLong => Get(nameof(GameProfileNameTooLong));
+        public static string GameProfileExecutableRequired => Get(nameof(GameProfileExecutableRequired));
+        public static string GameProfileExecutableExtension => Get(nameof(GameProfileExecutableExtension));
+        public static string GameProfileUndervoltRange => Get(nameof(GameProfileUndervoltRange));
+        public static string GameProfilePriorityRange => Get(nameof(GameProfilePriorityRange));
+        public static string GameProfileDeletePrompt => Get(nameof(GameProfileDeletePrompt));
+        public static string GameProfileDeleteTitle => Get(nameof(GameProfileDeleteTitle));
+        public static string GameProfileErrorTitle => Get(nameof(GameProfileErrorTitle));
+        public static string GameProfileDeleteFailed => Get(nameof(GameProfileDeleteFailed));
+        public static string GameProfileImportTitle => Get(nameof(GameProfileImportTitle));
+        public static string GameProfileImportComplete => Get(nameof(GameProfileImportComplete));
+        public static string GameProfileImported => Get(nameof(GameProfileImported));
+        public static string GameProfileImportFailed => Get(nameof(GameProfileImportFailed));
+        public static string GameProfileExportTitle => Get(nameof(GameProfileExportTitle));
+        public static string GameProfileExportComplete => Get(nameof(GameProfileExportComplete));
+        public static string GameProfileExported => Get(nameof(GameProfileExported));
+        public static string GameProfileExportFailed => Get(nameof(GameProfileExportFailed));
+        public static string GameProfileBrowseTitle => Get(nameof(GameProfileBrowseTitle));
+        public static string GameProfileInvalid => Get(nameof(GameProfileInvalid));
+        public static string GameProfileSaveFailed => Get(nameof(GameProfileSaveFailed));
     }
 }

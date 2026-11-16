@@ -51,17 +51,17 @@ src/OmenCoreApp/ViewModels/FanDiagnosticsViewModel.cs,563,"RgbCheckStatus = stri
 src/OmenCoreApp/ViewModels/FanDiagnosticsViewModel.cs,568,RgbCheckStatus = Strings.FanDiagRgbConfirmed;,D,是,已资源化,绑定至 FanDiagnosticsView.xaml；已使用 Strings.FanDiag 资源，结果摘要仍需审查
 src/OmenCoreApp/ViewModels/FanDiagnosticsViewModel.cs,583,"RgbCheckStatus = string.Format(Strings.FanDiagRgbFailed, ex.Message);",D,是,已资源化,绑定至 FanDiagnosticsView.xaml；已使用 Strings.FanDiag 资源，结果摘要仍需审查
 src/OmenCoreApp/ViewModels/GameLibraryViewModel.cs,235,if (dialog.ShowDialog() != true),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,226,var result = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,244,"MessageBox.Show($""Failed to delete profile: {ex.Message}"", ""Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,258,if (dialog.ShowDialog() == true),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,261,"MessageBox.Show($""Imported {count} profile(s)"", ""Import Complete"", MessageBoxButton.OK, MessageBoxImage.Information);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,269,"MessageBox.Show($""Failed to import profiles: {ex.Message}"", ""Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,284,if (dialog.ShowDialog() == true),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,287,"MessageBox.Show($""Exported {_profileService.Profiles.Count} profile(s)"", ""Export Complete"", MessageBoxButton.OK, MessageBoxImage.Information);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,294,"MessageBox.Show($""Failed to export profiles: {ex.Message}"", ""Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,308,if (dialog.ShowDialog() == true),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,323,"MessageBox.Show(ValidationError, ""Invalid Game Profile"", MessageBoxButton.OK, MessageBoxImage.Warning);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,341,"MessageBox.Show($""Failed to save profiles: {ex.Message}"", ""Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,226,var result = MessageBox.Show(,A,是,已资源化,游戏配置确认或结果对话框；参见 Strings.GameProfile*；原始行号可能变化
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,244,"MessageBox.Show($""Failed to delete profile: {ex.Message}"", ""Error"", MessageBoxButton.OK, MessageBoxImage.Error);",A,是,已资源化,游戏配置确认或结果对话框；参见 Strings.GameProfile*；原始行号可能变化
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,258,if (dialog.ShowDialog() == true),C,否,已核实,文件选择对话框调用；标题已资源化，过滤器格式保留
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,261,"MessageBox.Show($""Imported {count} profile(s)"", ""Import Complete"", MessageBoxButton.OK, MessageBoxImage.Information);",A,是,已资源化,游戏配置确认或结果对话框；参见 Strings.GameProfile*；原始行号可能变化
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,269,"MessageBox.Show($""Failed to import profiles: {ex.Message}"", ""Error"", MessageBoxButton.OK, MessageBoxImage.Error);",A,是,已资源化,游戏配置确认或结果对话框；参见 Strings.GameProfile*；原始行号可能变化
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,284,if (dialog.ShowDialog() == true),C,否,已核实,文件选择对话框调用；标题已资源化，过滤器格式保留
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,287,"MessageBox.Show($""Exported {_profileService.Profiles.Count} profile(s)"", ""Export Complete"", MessageBoxButton.OK, MessageBoxImage.Information);",A,是,已资源化,游戏配置确认或结果对话框；参见 Strings.GameProfile*；原始行号可能变化
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,294,"MessageBox.Show($""Failed to export profiles: {ex.Message}"", ""Error"", MessageBoxButton.OK, MessageBoxImage.Error);",A,是,已资源化,游戏配置确认或结果对话框；参见 Strings.GameProfile*；原始行号可能变化
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,308,if (dialog.ShowDialog() == true),C,否,已核实,文件选择对话框调用；标题已资源化，过滤器格式保留
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,323,"MessageBox.Show(ValidationError, ""Invalid Game Profile"", MessageBoxButton.OK, MessageBoxImage.Warning);",A,是,已资源化,游戏配置确认或结果对话框；参见 Strings.GameProfile*；原始行号可能变化
+src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,341,"MessageBox.Show($""Failed to save profiles: {ex.Message}"", ""Error"", MessageBoxButton.OK, MessageBoxImage.Error);",A,是,已资源化,游戏配置确认或结果对话框；参见 Strings.GameProfile*；原始行号可能变化
 src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,92,if (info.Status == HpWmiBios.SmartAdapterStatus.BatteryPower),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,141,if (info.Status == HpWmiBios.SmartAdapterStatus.BatteryPower),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,161,if (info.Status == HpWmiBios.SmartAdapterStatus.ConnectedTypeC),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务

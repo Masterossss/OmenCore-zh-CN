@@ -844,4 +844,25 @@ This changes the GPU's power limit beyond the laptop maker's setting. Higher pow
   <data name="NvidiaPowerCurrentRestart" xml:space="preserve"><value>CURRENT resets on reboot. </value></data>
   <data name="NvidiaPowerNotApplied" xml:space="preserve"><value>Not applied: </value></data>
   <data name="NvidiaPowerRestartToFinish" xml:space="preserve"><value> Restart Windows to finish.</value></data>
+  <data name="GameProfileNameRequired" xml:space="preserve"><value>Profile name is required</value></data>
+  <data name="GameProfileNameTooLong" xml:space="preserve"><value>Profile name must be 100 characters or less</value></data>
+  <data name="GameProfileExecutableRequired" xml:space="preserve"><value>Executable name is required</value></data>
+  <data name="GameProfileExecutableExtension" xml:space="preserve"><value>Executable must end with .exe</value></data>
+  <data name="GameProfileUndervoltRange" xml:space="preserve"><value>CPU undervolt must be between -200 and 0 mV</value></data>
+  <data name="GameProfilePriorityRange" xml:space="preserve"><value>Priority must be between 0 and 100</value></data>
+  <data name="GameProfileDeletePrompt" xml:space="preserve"><value>Delete profile '{0}'?</value></data>
+  <data name="GameProfileDeleteTitle" xml:space="preserve"><value>Confirm Delete</value></data>
+  <data name="GameProfileErrorTitle" xml:space="preserve"><value>Error</value></data>
+  <data name="GameProfileDeleteFailed" xml:space="preserve"><value>Failed to delete profile: {0}</value></data>
+  <data name="GameProfileImportTitle" xml:space="preserve"><value>Import Game Profiles</value></data>
+  <data name="GameProfileImportComplete" xml:space="preserve"><value>Import Complete</value></data>
+  <data name="GameProfileImported" xml:space="preserve"><value>Imported {0} profile(s)</value></data>
+  <data name="GameProfileImportFailed" xml:space="preserve"><value>Failed to import profiles: {0}</value></data>
+  <data name="GameProfileExportTitle" xml:space="preserve"><value>Export Game Profiles</value></data>
+  <data name="GameProfileExportComplete" xml:space="preserve"><value>Export Complete</value></data>
+  <data name="GameProfileExported" xml:space="preserve"><value>Exported {0} profile(s)</value></data>
+  <data name="GameProfileExportFailed" xml:space="preserve"><value>Failed to export profiles: {0}</value></data>
+  <data name="GameProfileBrowseTitle" xml:space="preserve"><value>Select Game Executable</value></data>
+  <data name="GameProfileInvalid" xml:space="preserve"><value>Invalid Game Profile</value></data>
+  <data name="GameProfileSaveFailed" xml:space="preserve"><value>Failed to save profiles: {0}</value></data>
 </root>
