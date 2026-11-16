@@ -1069,4 +1069,40 @@ Try it anyway?</value></data>
   <data name="MemoryPreviewFree" xml:space="preserve"><value>This profile will free approximately {0} MB</value></data>
   <data name="MemoryGameAwareOn" xml:space="preserve"><value>On: fullscreen and borderless games get light working-set trims unless memory pressure is critical.</value></data>
   <data name="MemoryGameAwareOff" xml:space="preserve"><value>Off: Smart Clean can run the full safe cleanup profile while a game is in the foreground.</value></data>
+  <data name="QuickPopupText139" xml:space="preserve"><value>Quick Access</value></data>
+  <data name="QuickPopupText142" xml:space="preserve"><value>Monitoring: Unknown</value></data>
+  <data name="QuickPopupText147" xml:space="preserve"><value>Fan/Perf: Decoupled</value></data>
+  <data name="QuickPopupText188" xml:space="preserve"><value>Quick Profile</value></data>
+  <data name="QuickPopupText193" xml:space="preserve"><value>Quiet</value></data>
+  <data name="QuickPopupText199" xml:space="preserve"><value>Balanced</value></data>
+  <data name="QuickPopupText205" xml:space="preserve"><value>Perform</value></data>
+  <data name="QuickPopupText211" xml:space="preserve"><value>Fan Mode</value></data>
+  <data name="QuickPopupText216" xml:space="preserve"><value>Auto</value></data>
+  <data name="QuickPopupText223" xml:space="preserve"><value>Curve</value></data>
+  <data name="QuickPopupText229" xml:space="preserve"><value>Max</value></data>
+  <data name="QuickPopupText237" xml:space="preserve"><value>Open full dashboard</value></data>
+  <data name="QuickPopupText239" xml:space="preserve"><value>Dashboard</value></data>
+  <data name="QuickPopupText242" xml:space="preserve"><value>Turn off display</value></data>
+  <data name="QuickPopupText245" xml:space="preserve"><value>Display Off</value></data>
+  <data name="QuickPopupText248" xml:space="preserve"><value>Toggle refresh rate</value></data>
+  <data name="QuickPopupText254" xml:space="preserve"><value>Run a safe RAM clean</value></data>
+  <data name="QuickPopupText257" xml:space="preserve"><value>Clean RAM</value></data>
+  <data name="QuickPopupCurveApply" xml:space="preserve"><value>Apply saved fan curve</value></data>
+  <data name="QuickPopupCurveFormat" xml:space="preserve"><value>Curve: {0}</value></data>
+  <data name="QuickPopupMonitoring" xml:space="preserve"><value>Monitoring: {0}</value></data>
+  <data name="QuickPopupHealthUnknown" xml:space="preserve"><value>Unknown</value></data>
+  <data name="QuickPopupHealthHealthy" xml:space="preserve"><value>Healthy</value></data>
+  <data name="QuickPopupHealthDegraded" xml:space="preserve"><value>Degraded</value></data>
+  <data name="QuickPopupHealthStale" xml:space="preserve"><value>Stale</value></data>
+  <data name="QuickPopupLinkedHelp" xml:space="preserve"><value>Linked mode is enabled. Performance changes may also rewrite fan policy.</value></data>
+  <data name="QuickPopupUnlinkedHelp" xml:space="preserve"><value>Decoupled mode is enabled. Performance changes leave your current fan preset or curve untouched.</value></data>
+  <data name="QuickPopupLinked" xml:space="preserve"><value>Fan/Perf: Linked</value></data>
+  <data name="QuickPopupUnlinked" xml:space="preserve"><value>Fan/Perf: Decoupled - fan stays</value></data>
+  <data name="QuickPopupCurrentFan" xml:space="preserve"><value>your current fan preset</value></data>
+  <data name="QuickPopupActiveCurve" xml:space="preserve"><value>the active curve preset '{0}'</value></data>
+  <data name="QuickPopupProfileLinked" xml:space="preserve"><value>Apply this performance mode. Linked mode can also update fan policy.</value></data>
+  <data name="QuickPopupProfileUnlinked" xml:space="preserve"><value>Apply this performance mode. Decoupled mode keeps {0} active.</value></data>
+  <data name="QuickPopupRefreshTarget" xml:space="preserve"><value>Toggle refresh rate for {0}. Click again to move to the next display.</value></data>
+  <data name="QuickPopupLockWindows" xml:space="preserve"><value>Lock Windows</value></data>
+  <data name="QuickPopupLock" xml:space="preserve"><value>Lock</value></data>
 </root>

@@ -1061,4 +1061,40 @@
   <data name="MemoryPreviewFree" xml:space="preserve"><value>此配置预计释放约 {0} MB</value></data>
   <data name="MemoryGameAwareOn" xml:space="preserve"><value>已开启：全屏和无边框游戏仅执行轻度工作集精简，内存压力达到严重程度时除外。</value></data>
   <data name="MemoryGameAwareOff" xml:space="preserve"><value>已关闭：游戏在前台运行时，智能清理可执行完整的安全清理配置。</value></data>
+  <data name="QuickPopupText139" xml:space="preserve"><value>快捷访问</value></data>
+  <data name="QuickPopupText142" xml:space="preserve"><value>监控：未知</value></data>
+  <data name="QuickPopupText147" xml:space="preserve"><value>风扇/性能：未联动</value></data>
+  <data name="QuickPopupText188" xml:space="preserve"><value>快捷配置</value></data>
+  <data name="QuickPopupText193" xml:space="preserve"><value>安静</value></data>
+  <data name="QuickPopupText199" xml:space="preserve"><value>均衡</value></data>
+  <data name="QuickPopupText205" xml:space="preserve"><value>性能</value></data>
+  <data name="QuickPopupText211" xml:space="preserve"><value>风扇模式</value></data>
+  <data name="QuickPopupText216" xml:space="preserve"><value>自动</value></data>
+  <data name="QuickPopupText223" xml:space="preserve"><value>曲线</value></data>
+  <data name="QuickPopupText229" xml:space="preserve"><value>最大</value></data>
+  <data name="QuickPopupText237" xml:space="preserve"><value>打开完整仪表盘</value></data>
+  <data name="QuickPopupText239" xml:space="preserve"><value>仪表盘</value></data>
+  <data name="QuickPopupText242" xml:space="preserve"><value>关闭显示器</value></data>
+  <data name="QuickPopupText245" xml:space="preserve"><value>关闭显示器</value></data>
+  <data name="QuickPopupText248" xml:space="preserve"><value>切换刷新率</value></data>
+  <data name="QuickPopupText254" xml:space="preserve"><value>执行安全内存清理</value></data>
+  <data name="QuickPopupText257" xml:space="preserve"><value>清理内存</value></data>
+  <data name="QuickPopupCurveApply" xml:space="preserve"><value>应用已保存的风扇曲线</value></data>
+  <data name="QuickPopupCurveFormat" xml:space="preserve"><value>曲线：{0}</value></data>
+  <data name="QuickPopupMonitoring" xml:space="preserve"><value>监控：{0}</value></data>
+  <data name="QuickPopupHealthUnknown" xml:space="preserve"><value>未知</value></data>
+  <data name="QuickPopupHealthHealthy" xml:space="preserve"><value>正常</value></data>
+  <data name="QuickPopupHealthDegraded" xml:space="preserve"><value>监控降级</value></data>
+  <data name="QuickPopupHealthStale" xml:space="preserve"><value>数据过期</value></data>
+  <data name="QuickPopupLinkedHelp" xml:space="preserve"><value>已启用联动模式。更改性能模式时也可能重新设置风扇策略。</value></data>
+  <data name="QuickPopupUnlinkedHelp" xml:space="preserve"><value>已启用非联动模式。更改性能模式不会改变当前风扇预设或曲线。</value></data>
+  <data name="QuickPopupLinked" xml:space="preserve"><value>风扇/性能：联动</value></data>
+  <data name="QuickPopupUnlinked" xml:space="preserve"><value>风扇/性能：未联动，保留风扇设置</value></data>
+  <data name="QuickPopupCurrentFan" xml:space="preserve"><value>当前风扇预设</value></data>
+  <data name="QuickPopupActiveCurve" xml:space="preserve"><value>当前曲线预设“{0}”</value></data>
+  <data name="QuickPopupProfileLinked" xml:space="preserve"><value>应用此性能模式。联动模式还可能更新风扇策略。</value></data>
+  <data name="QuickPopupProfileUnlinked" xml:space="preserve"><value>应用此性能模式。非联动模式会保持{0}。</value></data>
+  <data name="QuickPopupRefreshTarget" xml:space="preserve"><value>切换 {0} 的刷新率。再次点击可切换到下一台显示器。</value></data>
+  <data name="QuickPopupLockWindows" xml:space="preserve"><value>锁定 Windows</value></data>
+  <data name="QuickPopupLock" xml:space="preserve"><value>锁定</value></data>
 </root>

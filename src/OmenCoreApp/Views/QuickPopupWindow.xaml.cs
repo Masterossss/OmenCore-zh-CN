@@ -6,6 +6,7 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Threading;
 using OmenCore.Models;
+using OmenCore.Localization;
 using OmenCore.Services;
 using OmenCore.Services.Diagnostics;
 using OmenCore.Utils;
@@ -143,8 +144,8 @@ namespace OmenCore.Views
 
             _curvePresetName = presetName;
             var tooltip = string.IsNullOrWhiteSpace(presetName)
-                ? "Apply saved fan curve"
-                : $"Curve: {presetName}";
+                ? Strings.QuickPopupCurveApply
+                : string.Format(Strings.QuickPopupCurveFormat, presetName);
             if (!string.Equals(FanCustomBtn.ToolTip as string, tooltip, StringComparison.Ordinal))
             {
                 FanCustomBtn.ToolTip = tooltip;
@@ -201,7 +202,7 @@ namespace OmenCore.Views
             }
 
             _monitoringHealth = normalizedHealth;
-            var healthText = $"Monitoring: {_monitoringHealth}";
+            var healthText = string.Format(Strings.QuickPopupMonitoring, LocalizedHealth(_monitoringHealth));
             if (!string.Equals(HealthStatusText.Text, healthText, StringComparison.Ordinal))
             {
                 HealthStatusText.Text = healthText;
@@ -228,8 +229,8 @@ namespace OmenCore.Views
                 ? new System.Windows.Media.SolidColorBrush(System.Windows.Media.Color.FromRgb(0x00, 0xC8, 0xC8))
                 : new System.Windows.Media.SolidColorBrush(System.Windows.Media.Color.FromRgb(0x9C, 0xA3, 0xAF));
             LinkModeText.ToolTip = linked
-                ? "Linked mode is enabled. Performance changes may also rewrite fan policy."
-                : "Decoupled mode is enabled. Performance changes leave your current fan preset or curve untouched.";
+                ? Strings.QuickPopupLinkedHelp
+                : Strings.QuickPopupUnlinkedHelp;
             UpdatePerformanceModeTooltips();
         }
 
@@ -263,9 +264,18 @@ namespace OmenCore.Views
                 sample.GpuTemperatureC > 0 ? sample.GpuTemperatureC.ToString("0") : "—",
                 $"{sample.CpuLoadPercent:0}%",
                 $"{sample.GpuLoadPercent:0}%",
-                $"Monitoring: {_monitoringHealth}",
+                string.Format(Strings.QuickPopupMonitoring, LocalizedHealth(_monitoringHealth)),
                 BuildLinkModeText());
         }
+
+        private static string LocalizedHealth(string health) => health switch
+        {
+            "Unknown" => Strings.QuickPopupHealthUnknown,
+            "Healthy" => Strings.QuickPopupHealthHealthy,
+            "Degraded" => Strings.QuickPopupHealthDegraded,
+            "Stale" => Strings.QuickPopupHealthStale,
+            _ => health
+        };
 
         private void UpdateLinkModeText()
         {
@@ -279,19 +289,19 @@ namespace OmenCore.Views
         private string BuildLinkModeText()
         {
             return _isFanPerformanceLinked
-                ? "Fan/Perf: Linked"
-                : "Fan/Perf: Decoupled - fan stays";
+                ? Strings.QuickPopupLinked
+                : Strings.QuickPopupUnlinked;
         }
 
         private void UpdatePerformanceModeTooltips()
         {
             var preservedFanText = string.IsNullOrWhiteSpace(_curvePresetName)
-                ? "your current fan preset"
-                : $"the active curve preset '{_curvePresetName}'";
+                ? Strings.QuickPopupCurrentFan
+                : string.Format(Strings.QuickPopupActiveCurve, _curvePresetName);
 
             var tooltip = _isFanPerformanceLinked
-                ? "Apply this performance mode. Linked mode can also update fan policy."
-                : $"Apply this performance mode. Decoupled mode keeps {preservedFanText} active.";
+                ? Strings.QuickPopupProfileLinked
+                : string.Format(Strings.QuickPopupProfileUnlinked, preservedFanText);
 
             QuickQuietBtn.ToolTip = tooltip;
             QuickBalancedBtn.ToolTip = tooltip;
@@ -355,13 +365,13 @@ namespace OmenCore.Views
             if (target == null)
             {
                 RefreshRateText.Text = currentRate > 0 ? $"{currentRate}Hz" : "N/A";
-                RefreshRateBtn.ToolTip = "Toggle refresh rate";
+                RefreshRateBtn.ToolTip = Strings.QuickPopupText248;
                 return;
             }
 
             var targetLabel = $"D{_activeDisplayTargetIndex + 1}";
             RefreshRateText.Text = currentRate > 0 ? $"{targetLabel} {currentRate}Hz" : $"{targetLabel} N/A";
-            RefreshRateBtn.ToolTip = $"Toggle refresh rate for {target.FriendlyName}. Click again to move to the next display.";
+            RefreshRateBtn.ToolTip = string.Format(Strings.QuickPopupRefreshTarget, target.FriendlyName);
         }
 
         private void RefreshDisplayTargets()
@@ -455,16 +465,16 @@ namespace OmenCore.Views
                 case "LockWindows":
                     DisplayOffBtn.Visibility = Visibility.Visible;
                     DisplayOffBtn.Tag = "LockWindows";
-                    DisplayOffBtn.ToolTip = "Lock Windows";
+                    DisplayOffBtn.ToolTip = Strings.QuickPopupLockWindows;
                     QuickActionIcon.Text = "🔒";
-                    QuickActionText.Text = "Lock";
+                    QuickActionText.Text = Strings.QuickPopupLock;
                     break;
                 default:
                     DisplayOffBtn.Visibility = Visibility.Visible;
                     DisplayOffBtn.Tag = "DisplayOff";
-                    DisplayOffBtn.ToolTip = "Turn off display";
+                    DisplayOffBtn.ToolTip = Strings.QuickPopupText242;
                     QuickActionIcon.Text = "🌙";
-                    QuickActionText.Text = "Display Off";
+                    QuickActionText.Text = Strings.QuickPopupText245;
                     break;
             }
         }

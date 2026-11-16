@@ -777,26 +777,26 @@ src/OmenCoreApp/Views/OsdOverlayWindow.xaml,220,Text,BAT,E,待核实,待审查,�
 src/OmenCoreApp/Views/OsdOverlayWindow.xaml,235,ToolTip,FPS via RTSS,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/OsdOverlayWindow.xaml,250,Text,FT,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/OsdOverlayWindow.xaml,261,Text,PING,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/QuickPopupWindow.xaml,139,Text,Quick Access,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/QuickPopupWindow.xaml,142,Text,Monitoring: Unknown,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/QuickPopupWindow.xaml,147,Text,Fan/Perf: Decoupled,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/QuickPopupWindow.xaml,167,Text,CPU,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/QuickPopupWindow.xaml,177,Text,GPU,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/QuickPopupWindow.xaml,188,Text,Quick Profile,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/QuickPopupWindow.xaml,193,Text,Quiet,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/QuickPopupWindow.xaml,199,Text,Balanced,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/QuickPopupWindow.xaml,205,Text,Perform,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/QuickPopupWindow.xaml,211,Text,Fan Mode,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/QuickPopupWindow.xaml,216,Text,Auto,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/QuickPopupWindow.xaml,223,Text,Curve,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/QuickPopupWindow.xaml,229,Text,Max,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/QuickPopupWindow.xaml,237,ToolTip,Open full dashboard,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/QuickPopupWindow.xaml,239,Text,Dashboard,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/QuickPopupWindow.xaml,242,ToolTip,Turn off display,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/QuickPopupWindow.xaml,245,Text,Display Off,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/QuickPopupWindow.xaml,248,ToolTip,Toggle refresh rate,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/QuickPopupWindow.xaml,254,ToolTip,Run a safe RAM clean,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/QuickPopupWindow.xaml,257,Text,Clean RAM,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/QuickPopupWindow.xaml,139,Text,Quick Access,A,是,已迁移,QuickPopupText139
+src/OmenCoreApp/Views/QuickPopupWindow.xaml,142,Text,Monitoring: Unknown,A,是,已迁移,QuickPopupText142
+src/OmenCoreApp/Views/QuickPopupWindow.xaml,147,Text,Fan/Perf: Decoupled,A,是,已迁移,QuickPopupText147
+src/OmenCoreApp/Views/QuickPopupWindow.xaml,167,Text,CPU,B,是,保留,通用技术缩写
+src/OmenCoreApp/Views/QuickPopupWindow.xaml,177,Text,GPU,B,是,保留,通用技术缩写
+src/OmenCoreApp/Views/QuickPopupWindow.xaml,188,Text,Quick Profile,A,是,已迁移,QuickPopupText188
+src/OmenCoreApp/Views/QuickPopupWindow.xaml,193,Text,Quiet,A,是,已迁移,QuickPopupText193
+src/OmenCoreApp/Views/QuickPopupWindow.xaml,199,Text,Balanced,A,是,已迁移,QuickPopupText199
+src/OmenCoreApp/Views/QuickPopupWindow.xaml,205,Text,Perform,A,是,已迁移,QuickPopupText205
+src/OmenCoreApp/Views/QuickPopupWindow.xaml,211,Text,Fan Mode,A,是,已迁移,QuickPopupText211
+src/OmenCoreApp/Views/QuickPopupWindow.xaml,216,Text,Auto,A,是,已迁移,QuickPopupText216
+src/OmenCoreApp/Views/QuickPopupWindow.xaml,223,Text,Curve,A,是,已迁移,QuickPopupText223
+src/OmenCoreApp/Views/QuickPopupWindow.xaml,229,Text,Max,A,是,已迁移,QuickPopupText229
+src/OmenCoreApp/Views/QuickPopupWindow.xaml,237,ToolTip,Open full dashboard,A,是,已迁移,QuickPopupText237
+src/OmenCoreApp/Views/QuickPopupWindow.xaml,239,Text,Dashboard,A,是,已迁移,QuickPopupText239
+src/OmenCoreApp/Views/QuickPopupWindow.xaml,242,ToolTip,Turn off display,A,是,已迁移,QuickPopupText242
+src/OmenCoreApp/Views/QuickPopupWindow.xaml,245,Text,Display Off,A,是,已迁移,QuickPopupText245
+src/OmenCoreApp/Views/QuickPopupWindow.xaml,248,ToolTip,Toggle refresh rate,A,是,已迁移,QuickPopupText248
+src/OmenCoreApp/Views/QuickPopupWindow.xaml,254,ToolTip,Run a safe RAM clean,A,是,已迁移,QuickPopupText254
+src/OmenCoreApp/Views/QuickPopupWindow.xaml,257,Text,Clean RAM,A,是,已迁移,QuickPopupText257
 src/OmenCoreApp/Views/SettingsView.xaml,25,Text,Settings,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SettingsView.xaml,28,Text,"Configure application behavior, startup options, and driver settings",A,是,已迁移,SettingsReferenceText28Text
 src/OmenCoreApp/Views/SettingsView.xaml,62,Text,Search Results,A,是,已迁移,SettingsReferenceText62Text

@@ -188,15 +188,15 @@ src/OmenCoreApp/Views/AboutWindow.xaml.cs,83,var openGitHub = MessageBox.Show(,E
 src/OmenCoreApp/Views/DiagnosticsView.xaml.cs,54,var answer = System.Windows.MessageBox.Show(,A,是,已资源化,风险确认框；Strings.AdapterClampConfirm、AdapterClampCpuWarning、AdapterClampConfirmTitle
 src/OmenCoreApp/Views/DiagnosticsView.xaml.cs,91,var answer = System.Windows.MessageBox.Show(,A,是,已资源化,风险确认框；Strings.GpuUnlockExperimentalConfirm、GpuUnlockExperimentalTitle
 src/OmenCoreApp/Views/OsdOverlayWindow.xaml.cs,662,if (reply.Status == IPStatus.Success),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,150,FanCustomBtn.ToolTip = tooltip;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,230,LinkModeText.ToolTip = linked,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,296,QuickQuietBtn.ToolTip = tooltip;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,297,QuickBalancedBtn.ToolTip = tooltip;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,298,QuickPerformanceBtn.ToolTip = tooltip;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,358,"RefreshRateBtn.ToolTip = ""Toggle refresh rate"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,364,"RefreshRateBtn.ToolTip = $""Toggle refresh rate for {target.FriendlyName}. Click again to move to the next display."";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,458,"DisplayOffBtn.ToolTip = ""Lock Windows"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,465,"DisplayOffBtn.ToolTip = ""Turn off display"";",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,150,FanCustomBtn.ToolTip = tooltip;,A,是,已资源化,快捷弹窗 ToolTip；Strings.QuickPopup*，内部按钮 Tag 与状态标识保留
+src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,230,LinkModeText.ToolTip = linked,A,是,已资源化,快捷弹窗 ToolTip；Strings.QuickPopup*，内部按钮 Tag 与状态标识保留
+src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,296,QuickQuietBtn.ToolTip = tooltip;,A,是,已资源化,快捷弹窗 ToolTip；Strings.QuickPopup*，内部按钮 Tag 与状态标识保留
+src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,297,QuickBalancedBtn.ToolTip = tooltip;,A,是,已资源化,快捷弹窗 ToolTip；Strings.QuickPopup*，内部按钮 Tag 与状态标识保留
+src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,298,QuickPerformanceBtn.ToolTip = tooltip;,A,是,已资源化,快捷弹窗 ToolTip；Strings.QuickPopup*，内部按钮 Tag 与状态标识保留
+src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,358,"RefreshRateBtn.ToolTip = ""Toggle refresh rate"";",A,是,已资源化,快捷弹窗 ToolTip；Strings.QuickPopup*，内部按钮 Tag 与状态标识保留
+src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,364,"RefreshRateBtn.ToolTip = $""Toggle refresh rate for {target.FriendlyName}. Click again to move to the next display."";",A,是,已资源化,快捷弹窗 ToolTip；Strings.QuickPopup*，内部按钮 Tag 与状态标识保留
+src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,458,"DisplayOffBtn.ToolTip = ""Lock Windows"";",A,是,已资源化,快捷弹窗 ToolTip；Strings.QuickPopup*，内部按钮 Tag 与状态标识保留
+src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,465,"DisplayOffBtn.ToolTip = ""Turn off display"";",A,是,已资源化,快捷弹窗 ToolTip；Strings.QuickPopup*，内部按钮 Tag 与状态标识保留
 src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,70,if (saveDialog.ShowDialog() != true),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,115,"MessageBox.Show($""Export failed: {ex.Message}"", ""Export Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/Controls/DiagnosticExportControl.xaml.cs,257,result.ErrorMessage = ex.Message;,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
