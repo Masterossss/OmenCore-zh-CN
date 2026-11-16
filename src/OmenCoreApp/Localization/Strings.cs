@@ -850,5 +850,13 @@ namespace OmenCore.Localization
         public static string NvidiaReasonFanMaxFailed => Get(nameof(NvidiaReasonFanMaxFailed));
         public static string NvidiaReasonNoopChanged => Get(nameof(NvidiaReasonNoopChanged));
         public static string NvidiaReasonPolicyOrdered => Get(nameof(NvidiaReasonPolicyOrdered));
+        public static string FanReportPass => Get(nameof(FanReportPass));
+        public static string FanReportFail => Get(nameof(FanReportFail));
+        public static string FanReportBackend => Get(nameof(FanReportBackend));
+        public static string FanReportSource => Get(nameof(FanReportSource));
+        public static string FanReportTests => Get(nameof(FanReportTests));
+        public static string FanReportPassedScore => Get(nameof(FanReportPassedScore));
+        public static string FanReportScore => Get(nameof(FanReportScore));
+        public static string FanReportEvidence => Get(nameof(FanReportEvidence));
     }
 }

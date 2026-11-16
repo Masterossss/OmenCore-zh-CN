@@ -962,4 +962,12 @@
   <data name="NvidiaReasonFanMaxFailed" xml:space="preserve"><value>无法保持风扇最大模式。CURRENT 未发送。</value></data>
   <data name="NvidiaReasonNoopChanged" xml:space="preserve"><value>E633 无操作验证意外更改了 CURRENT；写入仍处于锁定状态。</value></data>
   <data name="NvidiaReasonPolicyOrdered" xml:space="preserve"><value>CURRENT/MAX 构成有效的有序策略状态。</value></data>
+  <data name="FanReportPass" xml:space="preserve"><value>=== 诊断完成：✅ 通过 ===</value></data>
+  <data name="FanReportFail" xml:space="preserve"><value>=== 诊断完成：❌ 失败 ===</value></data>
+  <data name="FanReportBackend" xml:space="preserve"><value>后端：</value></data>
+  <data name="FanReportSource" xml:space="preserve"><value> | 转速来源：</value></data>
+  <data name="FanReportTests" xml:space="preserve"><value>测试：</value></data>
+  <data name="FanReportPassedScore" xml:space="preserve"><value> 通过 | 总分：</value></data>
+  <data name="FanReportScore" xml:space="preserve"><value> - 得分：</value></data>
+  <data name="FanReportEvidence" xml:space="preserve"><value>[依据：</value></data>
 </root>

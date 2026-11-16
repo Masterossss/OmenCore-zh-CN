@@ -970,4 +970,12 @@ Try it anyway?</value></data>
   <data name="NvidiaReasonFanMaxFailed" xml:space="preserve"><value>Fan Max could not be preserved. CURRENT was not sent.</value></data>
   <data name="NvidiaReasonNoopChanged" xml:space="preserve"><value>E633 no-op changed CURRENT unexpectedly; writes remain locked.</value></data>
   <data name="NvidiaReasonPolicyOrdered" xml:space="preserve"><value>CURRENT/MAX form a valid ordered policy state.</value></data>
+  <data name="FanReportPass" xml:space="preserve"><value>=== DIAGNOSTIC COMPLETE: ✅ PASS ===</value></data>
+  <data name="FanReportFail" xml:space="preserve"><value>=== DIAGNOSTIC COMPLETE: ❌ FAIL ===</value></data>
+  <data name="FanReportBackend" xml:space="preserve"><value>Backend: </value></data>
+  <data name="FanReportSource" xml:space="preserve"><value> | RPM source: </value></data>
+  <data name="FanReportTests" xml:space="preserve"><value>Tests: </value></data>
+  <data name="FanReportPassedScore" xml:space="preserve"><value> passed | Overall Score: </value></data>
+  <data name="FanReportScore" xml:space="preserve"><value> - Score: </value></data>
+  <data name="FanReportEvidence" xml:space="preserve"><value>[evidence: </value></data>
 </root>

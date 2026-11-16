@@ -233,6 +233,26 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void FanReportDisplayLocalizesLabelsWithoutChangingTheOriginalReport()
+        {
+            const string report = "=== DIAGNOSTIC COMPLETE: ❌ FAIL ===\r\nBackend: WMI | RPM source: EcDirect\r\nTests: 1/2 passed | Overall Score: 50/100 (Fair)\r\n✗ CPU @ 60%: 0 RPM - Score: 0 [evidence: unknown]\r\nUnrecognized detail: 0x1234\r\n";
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                var display = FanDiagnosticDisplayText.Translate(report);
+                display.Should().Contain("诊断完成：❌ 失败").And.Contain("后端：WMI")
+                    .And.Contain("转速来源：EcDirect").And.Contain("CPU @ 60%: 0 RPM")
+                    .And.Contain("Unrecognized detail: 0x1234");
+                report.Should().Contain("Backend: WMI | RPM source: EcDirect");
+
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                FanDiagnosticDisplayText.Translate(report).Should().Be(report);
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void Apply_ChangesOnlyTheUiCulture()
         {
             // Numbers must keep the invariant formatting App installs on every thread; a UI

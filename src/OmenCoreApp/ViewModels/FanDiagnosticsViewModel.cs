@@ -256,9 +256,12 @@ namespace OmenCore.ViewModels
         public string GuidedTestResult
         {
             get => _guidedTestResult;
-            private set { _guidedTestResult = value; OnPropertyChanged(); RaiseTestCommandStates(); }
+            private set { _guidedTestResult = value; OnPropertyChanged(); OnPropertyChanged(nameof(GuidedTestDisplay)); RaiseTestCommandStates(); }
         }
         
+        /// <summary>Localized display only; GuidedTestResult remains the copied diagnostic record.</summary>
+        public string GuidedTestDisplay => FanDiagnosticDisplayText.Translate(GuidedTestResult);
+
         /// <summary>
         /// Progress 0-100 for guided test (0=not started, 33=30% done, 66=60% done, 100=complete)
         /// </summary>
