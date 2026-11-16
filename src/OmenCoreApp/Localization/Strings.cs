@@ -1597,5 +1597,9 @@ namespace OmenCore.Localization
         public static string BloatRestorePointReused => Get(nameof(BloatRestorePointReused));
         public static string BloatRollbackComplete => Get(nameof(BloatRollbackComplete));
         public static string BloatRollbackPartial => Get(nameof(BloatRollbackPartial));
+        public static string BloatBulkDone => Get(nameof(BloatBulkDone));
+        public static string BloatBulkDoneSkipped => Get(nameof(BloatBulkDoneSkipped));
+        public static string BloatBulkCancelDetail => Get(nameof(BloatBulkCancelDetail));
+        public static string BloatBulkFailureDetail => Get(nameof(BloatBulkFailureDetail));
     }
 }

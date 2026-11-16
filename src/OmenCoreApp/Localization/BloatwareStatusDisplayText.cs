@@ -63,6 +63,15 @@ namespace OmenCore.Localization
             if (canceledSimple.Success) return string.Format(canceledSimple.Groups[1].Value == "removal" ? Strings.BloatBulkRemoveCancel : Strings.BloatBulkRestoreCancel, canceledSimple.Groups[2].Value, canceledSimple.Groups[3].Value);
             var restorePoint = Regex.Match(value, @"\ADone: (Restore point created|Reusing recent restore point) \((.+)\)\z", RegexOptions.CultureInvariant);
             if (restorePoint.Success) return string.Format(restorePoint.Groups[1].Value == "Restore point created" ? Strings.BloatRestorePointCreated : Strings.BloatRestorePointReused, restorePoint.Groups[2].Value);
+            var bulkDone = Regex.Match(value, @"\ADone: Bulk remove complete: ([0-9]+) removed(?:, ([0-9]+) skipped)? out of ([0-9]+)\.(.*)\z", RegexOptions.CultureInvariant);
+            if (bulkDone.Success)
+                return bulkDone.Groups[2].Success
+                    ? string.Format(Strings.BloatBulkDoneSkipped, bulkDone.Groups[1].Value, bulkDone.Groups[2].Value, bulkDone.Groups[3].Value, bulkDone.Groups[4].Value)
+                    : string.Format(Strings.BloatBulkDone, bulkDone.Groups[1].Value, bulkDone.Groups[3].Value, bulkDone.Groups[4].Value);
+            var bulkCancel = Regex.Match(value, @"\AFailed: Bulk remove canceled at (.+)\. ([0-9]+) removed, ([0-9]+) skipped\. Export log for details\.\z", RegexOptions.CultureInvariant);
+            if (bulkCancel.Success) return string.Format(Strings.BloatBulkCancelDetail, bulkCancel.Groups[1].Value, bulkCancel.Groups[2].Value, bulkCancel.Groups[3].Value);
+            var bulkFailure = Regex.Match(value, @"\AFailed: Bulk remove stopped at (.+?): (.+)\. Rollback restored ([0-9]+), failed ([0-9]+), skipped ([0-9]+)\. Export log for details\.\z", RegexOptions.CultureInvariant);
+            if (bulkFailure.Success) return string.Format(Strings.BloatBulkFailureDetail, bulkFailure.Groups[1].Value, bulkFailure.Groups[2].Value, bulkFailure.Groups[3].Value, bulkFailure.Groups[4].Value, bulkFailure.Groups[5].Value);
             var partial = Regex.Match(value, @"\AFailed: Bulk restore finished with ([0-9]+) failures\. Restored ([0-9]+)/([0-9]+) items\.\z", RegexOptions.CultureInvariant);
             if (partial.Success) return string.Format(Strings.BloatRestorePartial, partial.Groups[1].Value, partial.Groups[2].Value, partial.Groups[3].Value);
             var canceled = Regex.Match(value, @"\AFailed: Bulk restore canceled at (.+)\. ([0-9]+) completed, ([0-9]+) skipped\.\z", RegexOptions.CultureInvariant);

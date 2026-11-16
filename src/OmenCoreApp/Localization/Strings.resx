@@ -1741,4 +1741,8 @@ Continue?</value></data>
   <data name="BloatRestorePointReused" xml:space="preserve"><value>Done: Reusing recent restore point ({0})</value></data>
   <data name="BloatRollbackComplete" xml:space="preserve"><value>Rollback complete ({0} restored, {1} skipped).</value></data>
   <data name="BloatRollbackPartial" xml:space="preserve"><value>Rollback partial ({0} restored, {1} failed, {2} skipped).</value></data>
+  <data name="BloatBulkDone" xml:space="preserve"><value>Done: Bulk remove complete: {0} removed out of {1}.{2}</value></data>
+  <data name="BloatBulkDoneSkipped" xml:space="preserve"><value>Done: Bulk remove complete: {0} removed, {1} skipped out of {2}.{3}</value></data>
+  <data name="BloatBulkCancelDetail" xml:space="preserve"><value>Failed: Bulk remove canceled at {0}. {1} removed, {2} skipped. Export log for details.</value></data>
+  <data name="BloatBulkFailureDetail" xml:space="preserve"><value>Failed: Bulk remove stopped at {0}: {1}. Rollback restored {2}, failed {3}, skipped {4}. Export log for details.</value></data>
 </root>

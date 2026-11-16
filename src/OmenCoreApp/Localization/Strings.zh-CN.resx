@@ -1733,4 +1733,8 @@
   <data name="BloatRestorePointReused" xml:space="preserve"><value>完成：使用最近的还原点（{0}）</value></data>
   <data name="BloatRollbackComplete" xml:space="preserve"><value>回滚完成（已还原 {0} 项，跳过 {1} 项）。</value></data>
   <data name="BloatRollbackPartial" xml:space="preserve"><value>回滚部分完成（已还原 {0} 项，失败 {1} 项，跳过 {2} 项）。</value></data>
+  <data name="BloatBulkDone" xml:space="preserve"><value>完成：批量删除结束，共 {1} 项，已删除 {0} 项。{2}</value></data>
+  <data name="BloatBulkDoneSkipped" xml:space="preserve"><value>完成：批量删除结束，共 {2} 项，已删除 {0} 项，跳过 {1} 项。{3}</value></data>
+  <data name="BloatBulkCancelDetail" xml:space="preserve"><value>失败：批量删除在 {0} 处取消，已删除 {1} 项，跳过 {2} 项。请导出日志查看详情。</value></data>
+  <data name="BloatBulkFailureDetail" xml:space="preserve"><value>失败：批量删除在 {0} 处停止：{1}。回滚已还原 {2} 项，失败 {3} 项，跳过 {4} 项。请导出日志查看详情。</value></data>
 </root>
