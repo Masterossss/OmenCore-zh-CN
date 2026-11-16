@@ -1192,4 +1192,88 @@ Try it anyway?</value></data>
   <data name="LightingViewText1129" xml:space="preserve"><value>Razer support is limited to detected-device status and validated lighting actions for supported hardware.</value></data>
   <data name="LightingViewText1148" xml:space="preserve"><value>OpenRGB Devices</value></data>
   <data name="LightingViewText1155" xml:space="preserve"><value>Optional generic RGB control via OpenRGB server for motherboards, RAM, GPUs, fans, LED strips, and other peripherals.</value></data>
+  <data name="LightingViewText1214" xml:space="preserve"><value>Red</value></data>
+  <data name="LightingViewText1218" xml:space="preserve"><value>Blue</value></data>
+  <data name="LightingViewText1222" xml:space="preserve"><value>Green</value></data>
+  <data name="LightingViewText1226" xml:space="preserve"><value>Purple</value></data>
+  <data name="LightingViewText1230" xml:space="preserve"><value>Yellow</value></data>
+  <data name="LightingViewText1234" xml:space="preserve"><value>White</value></data>
+  <data name="LightingViewText1238" xml:space="preserve"><value>Orange</value></data>
+  <data name="LightingViewText1242" xml:space="preserve"><value>Off</value></data>
+  <data name="LightingViewText1251" xml:space="preserve"><value>OpenRGB Integration:</value></data>
+  <data name="LightingViewText1253" xml:space="preserve"><value>Download OpenRGB from openrgb.org and enable the SDK Server (Settings → SDK Server → Start Server).</value></data>
+  <data name="LightingViewText1269" xml:space="preserve"><value>HP OMEN Keyboard</value></data>
+  <data name="LightingViewText1280" xml:space="preserve"><value>Enable or disable HP OMEN keyboard controls in this card</value></data>
+  <data name="LightingViewText1284" xml:space="preserve"><value>Your laptop's built-in 4-zone RGB keyboard</value></data>
+  <data name="LightingViewText1305" xml:space="preserve"><value>OMEN Red</value></data>
+  <data name="LightingViewText1309" xml:space="preserve"><value>Blue</value></data>
+  <data name="LightingViewText1313" xml:space="preserve"><value>Green</value></data>
+  <data name="LightingViewText1317" xml:space="preserve"><value>Purple</value></data>
+  <data name="LightingViewText1321" xml:space="preserve"><value>Yellow</value></data>
+  <data name="LightingViewText1325" xml:space="preserve"><value>White</value></data>
+  <data name="LightingViewText1329" xml:space="preserve"><value>Cyan</value></data>
+  <data name="LightingViewText1333" xml:space="preserve"><value>Pink</value></data>
+  <data name="LightingViewText1337" xml:space="preserve"><value>Off</value></data>
+  <data name="LightingViewText1463" xml:space="preserve"><value>Preset:</value></data>
+  <data name="LightingViewText1477" xml:space="preserve"><value>Apply to Keyboard</value></data>
+  <data name="LightingViewText1485" xml:space="preserve"><value>All Same Color</value></data>
+  <data name="LightingViewText1489" xml:space="preserve"><value>Apply Zone 1 color to all zones</value></data>
+  <data name="LightingViewText1502" xml:space="preserve"><value>Apply Colors on Startup</value></data>
+  <data name="LightingViewText1505" xml:space="preserve"><value>Automatically restore saved keyboard colors when OmenCore starts</value></data>
+  <data name="LightingViewText1524" xml:space="preserve"><value>Per-Key RGB</value></data>
+  <data name="LightingViewText1543" xml:space="preserve"><value>Measured layout — every key at the position the keyboard reported</value></data>
+  <data name="LightingViewText1561" xml:space="preserve"><value>Brush:</value></data>
+  <data name="LightingViewText1570" xml:space="preserve"><value>Fill All</value></data>
+  <data name="LightingViewText1572" xml:space="preserve"><value>Apply to Keyboard</value></data>
+  <data name="LightingViewText1632" xml:space="preserve"><value>Keyboard effects</value></data>
+  <data name="LightingViewText1634" xml:space="preserve"><value>Run by the keyboard's own controller. These keep running when OmenCore is closed, and replace any per-key colours.</value></data>
+  <data name="LightingViewText1640" xml:space="preserve"><value>Effect</value></data>
+  <data name="LightingViewText1646" xml:space="preserve"><value>Theme</value></data>
+  <data name="LightingViewText1653" xml:space="preserve"><value>Speed</value></data>
+  <data name="LightingViewText1658" xml:space="preserve"><value>Direction</value></data>
+  <data name="LightingViewText1665" xml:space="preserve"><value>Custom colours</value></data>
+  <data name="LightingViewText1674" xml:space="preserve"><value>Choose the first colour</value></data>
+  <data name="LightingViewText1687" xml:space="preserve"><value>Choose the second colour</value></data>
+  <data name="LightingViewText1696" xml:space="preserve"><value>Apply effect</value></data>
+  <data name="LightingViewText1698" xml:space="preserve"><value>What's on it now?</value></data>
+  <data name="LightingViewText1717" xml:space="preserve"><value>Fn+1 / Fn+2 cycle</value></data>
+  <data name="LightingViewText1719" xml:space="preserve"><value>The keyboard remembers a list of effects and steps through it when you press Fn+1 (next) or Fn+2 (previous). Curate that list here and it keeps working with OmenCore closed, or uninstalled.</value></data>
+  <data name="LightingViewText1724" xml:space="preserve"><value>Add to cycle</value></data>
+  <data name="LightingViewText1726" xml:space="preserve"><value>Stage the effect, colours, speed and direction set above</value></data>
+  <data name="LightingViewText1764" xml:space="preserve"><value>Showing</value></data>
+  <data name="LightingViewText1772" xml:space="preserve"><value>Remove</value></data>
+  <data name="LightingViewText1776" xml:space="preserve"><value>Take this off the list. It stays on the keyboard.</value></data>
+  <data name="LightingViewText1799" xml:space="preserve"><value>Light bar</value></data>
+  <data name="LightingViewText1801" xml:space="preserve"><value>The strip on the front of the chassis — four zones, left to right. Separate from the keyboard.</value></data>
+  <data name="LightingViewText1806" xml:space="preserve"><value>Colour</value></data>
+  <data name="LightingViewText1810" xml:space="preserve"><value>Choose a colour</value></data>
+  <data name="LightingViewText1818" xml:space="preserve"><value>Apply colour</value></data>
+  <data name="LightingViewText1820" xml:space="preserve"><value>Off</value></data>
+  <data name="LightingViewText1828" xml:space="preserve"><value>Brightness</value></data>
+  <data name="LightingViewText1837" xml:space="preserve"><value>Run animation</value></data>
+  <data name="LightingViewText1868" xml:space="preserve"><value>Keyboard, light bar and RGB devices change color based on CPU/GPU temperature</value></data>
+  <data name="LightingViewText1887" xml:space="preserve"><value>Temperature Thresholds (°C)</value></data>
+  <data name="LightingViewText1898" xml:space="preserve"><value>Low</value></data>
+  <data name="LightingViewText1904" xml:space="preserve"><value>Medium</value></data>
+  <data name="LightingViewText1910" xml:space="preserve"><value>High</value></data>
+  <data name="LightingViewText1927" xml:space="preserve"><value>Low Temp</value></data>
+  <data name="LightingViewText1936" xml:space="preserve"><value>Medium Temp</value></data>
+  <data name="LightingViewText1945" xml:space="preserve"><value>High Temp</value></data>
+  <data name="LightingViewText1967" xml:space="preserve"><value>Keyboard, light bar and RGB devices change color based on current performance mode</value></data>
+  <data name="LightingViewText1986" xml:space="preserve"><value>Performance Mode Colors</value></data>
+  <data name="LightingViewText2000" xml:space="preserve"><value>Balanced</value></data>
+  <data name="LightingViewText2009" xml:space="preserve"><value>Performance</value></data>
+  <data name="LightingViewText2018" xml:space="preserve"><value>Quiet</value></data>
+  <data name="LightingViewText2027" xml:space="preserve"><value>Custom</value></data>
+  <data name="LightingViewText2049" xml:space="preserve"><value>Flash red/orange when CPU/GPU thermal or power throttling occurs</value></data>
+  <data name="LightingViewText2068" xml:space="preserve"><value>Throttling Warning Color</value></data>
+  <data name="LightingViewText2088" xml:space="preserve"><value>HP OMEN Keyboard</value></data>
+  <data name="LightingViewText2095" xml:space="preserve"><value>This feature requires a supported HP OMEN laptop with 4-zone RGB keyboard and the WMI BIOS interface.</value></data>
+  <data name="LightingViewText2105" xml:space="preserve"><value>Macro Profiles</value></data>
+  <data name="LightingViewText2115" xml:space="preserve"><value>Active Profile:</value></data>
+  <data name="LightingViewText2129" xml:space="preserve"><value>Load Profile</value></data>
+  <data name="LightingViewText2135" xml:space="preserve"><value>Use Corsair iCUE or Logitech G HUB software for advanced macro configuration.</value></data>
+  <data name="LightingViewText1727" xml:space="preserve"><value>Write to keyboard</value></data>
+  <data name="LightingViewText1729" xml:space="preserve"><value>Send every staged profile to the keyboard</value></data>
+  <data name="LightingViewText1770" xml:space="preserve"><value>Leave the keyboard showing this one after writing</value></data>
 </root>

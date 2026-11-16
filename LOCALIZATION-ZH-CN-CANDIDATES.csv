@@ -482,9 +482,9 @@ src/OmenCoreApp/Views/KeyboardMapEditor.xaml,115,Text,Whole keyboard:,E,待核�
 src/OmenCoreApp/Views/KeyboardMapEditor.xaml,125,Text,Selected:,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/KeyboardMapEditor.xaml,217,Text,Click a key to select or deselect it. Drag a box to select a region — it can span the keyboard and the light bar. Hold Ctrl or Shift while dragging to add to the selection.,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/LightingView.xaml,55,Text,RGB Lighting &amp; Peripherals,A,是,已迁移,LightingViewText55
-src/OmenCoreApp/Views/LightingView.xaml,66,Text,Corsair,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,75,Text,Logitech,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,84,Text,Razer,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/LightingView.xaml,66,Text,Corsair,B,是,保留,品牌、型号或技术缩写
+src/OmenCoreApp/Views/LightingView.xaml,75,Text,Logitech,B,是,保留,品牌、型号或技术缩写
+src/OmenCoreApp/Views/LightingView.xaml,84,Text,Razer,B,是,保留,品牌、型号或技术缩写
 src/OmenCoreApp/Views/LightingView.xaml,92,Text,OMEN Keyboard,A,是,已迁移,LightingViewText92
 src/OmenCoreApp/Views/LightingView.xaml,158,Text,Control ownership,A,是,已迁移,LightingViewText158
 src/OmenCoreApp/Views/LightingView.xaml,199,Content,Open Dynamic Lighting settings,A,是,已迁移,LightingViewText199
@@ -510,7 +510,7 @@ src/OmenCoreApp/Views/LightingView.xaml,544,Text,Corsair Devices,A,是,已迁移
 src/OmenCoreApp/Views/LightingView.xaml,558,ToolTip,Enable or disable Corsair controls in this card,A,是,已迁移,LightingViewText558
 src/OmenCoreApp/Views/LightingView.xaml,578,Content,Discover Devices,A,是,已迁移,LightingViewText578
 src/OmenCoreApp/Views/LightingView.xaml,628,ToolTip,Flash device LEDs to identify this device,A,是,已迁移,LightingViewText628
-src/OmenCoreApp/Views/LightingView.xaml,636,Text,DPI,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/LightingView.xaml,636,Text,DPI,B,是,保留,品牌、型号或技术缩写
 src/OmenCoreApp/Views/LightingView.xaml,656,Text,Lighting Preset:,A,是,已迁移,LightingViewText656
 src/OmenCoreApp/Views/LightingView.xaml,669,Content,Apply,A,是,已迁移,LightingViewText669
 src/OmenCoreApp/Views/LightingView.xaml,670,Content,Apply to System,A,是,已迁移,LightingViewText670
@@ -553,91 +553,91 @@ src/OmenCoreApp/Views/LightingView.xaml,1120,Content,Spectrum Cycle,A,是,已迁
 src/OmenCoreApp/Views/LightingView.xaml,1129,Text,Razer support is limited to detected-device status and validated lighting actions for supported hardware.,A,是,已迁移,LightingViewText1129
 src/OmenCoreApp/Views/LightingView.xaml,1148,Text,OpenRGB Devices,A,是,已迁移,LightingViewText1148
 src/OmenCoreApp/Views/LightingView.xaml,1155,Text,"Optional generic RGB control via OpenRGB server for motherboards, RAM, GPUs, fans, LED strips, and other peripherals.",A,是,已迁移,LightingViewText1155
-src/OmenCoreApp/Views/LightingView.xaml,1214,ToolTip,Red,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1218,ToolTip,Blue,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1222,ToolTip,Green,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1226,ToolTip,Purple,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1230,ToolTip,Yellow,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1234,ToolTip,White,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1238,ToolTip,Orange,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1242,ToolTip,Off,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1251,Text,OpenRGB Integration:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1253,Text,Download OpenRGB from openrgb.org and enable the SDK Server (Settings → SDK Server → Start Server).,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1269,Text,HP OMEN Keyboard,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1280,ToolTip,Enable or disable HP OMEN keyboard controls in this card,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1284,Text,Your laptop's built-in 4-zone RGB keyboard,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1305,ToolTip,OMEN Red,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1309,ToolTip,Blue,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1313,ToolTip,Green,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1317,ToolTip,Purple,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1321,ToolTip,Yellow,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1325,ToolTip,White,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1329,ToolTip,Cyan,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1333,ToolTip,Pink,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1337,ToolTip,Off,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1463,Text,Preset:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1477,Content,Apply to Keyboard,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1485,Content,All Same Color,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1489,ToolTip,Apply Zone 1 color to all zones,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1502,Text,Apply Colors on Startup,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1505,Text,Automatically restore saved keyboard colors when OmenCore starts,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1524,Text,Per-Key RGB,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1527,Text,OMEN Max,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1543,Text,Measured layout — every key at the position the keyboard reported,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1561,Text,Brush:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1570,Content,Fill All,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1572,Content,Apply to Keyboard,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1632,Text,Keyboard effects,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1634,Text,"Run by the keyboard's own controller. These keep running when OmenCore is closed, and replace any per-key colours.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1640,Text,Effect,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1646,Text,Theme,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1653,Text,Speed,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1658,Text,Direction,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1665,Content,Custom colours,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1674,ToolTip,Choose the first colour,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1687,ToolTip,Choose the second colour,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1696,Content,Apply effect,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1698,Content,What's on it now?,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1717,Text,Fn+1 / Fn+2 cycle,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1719,Text,"The keyboard remembers a list of effects and steps through it when you press Fn+1 (next) or Fn+2 (previous). Curate that list here and it keeps working with OmenCore closed, or uninstalled.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1724,Content,Add to cycle,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1726,ToolTip,"Stage the effect, colours, speed and direction set above",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1727,Content,Write to keyboard,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1729,ToolTip,Send every staged profile to the keyboard,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1764,Content,Showing,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1770,ToolTip,Leave the keyboard showing this one after writing,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1772,Content,Remove,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1776,ToolTip,Take this off the list. It stays on the keyboard.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1799,Text,Light bar,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1801,Text,"The strip on the front of the chassis — four zones, left to right. Separate from the keyboard.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1806,Text,Colour,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1810,ToolTip,Choose a colour,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1818,Content,Apply colour,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1820,Content,Off,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1828,Text,Brightness,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1837,Content,Run animation,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1868,Text,"Keyboard, light bar and RGB devices change color based on CPU/GPU temperature",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1887,Text,Temperature Thresholds (°C),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1898,Text,Low,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1904,Text,Medium,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1910,Text,High,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1927,Text,Low Temp,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1936,Text,Medium Temp,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1945,Text,High Temp,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1967,Text,"Keyboard, light bar and RGB devices change color based on current performance mode",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1986,Text,Performance Mode Colors,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,2000,Text,Balanced,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,2009,Text,Performance,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,2018,Text,Quiet,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,2027,Text,Custom,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,2049,Text,Flash red/orange when CPU/GPU thermal or power throttling occurs,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,2068,Text,Throttling Warning Color,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,2088,Text,HP OMEN Keyboard,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,2095,Text,This feature requires a supported HP OMEN laptop with 4-zone RGB keyboard and the WMI BIOS interface.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,2105,Text,Macro Profiles,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,2115,Text,Active Profile:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,2129,Content,Load Profile,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,2135,Text,Use Corsair iCUE or Logitech G HUB software for advanced macro configuration.,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/LightingView.xaml,1214,ToolTip,Red,A,是,已迁移,LightingViewText1214
+src/OmenCoreApp/Views/LightingView.xaml,1218,ToolTip,Blue,A,是,已迁移,LightingViewText1218
+src/OmenCoreApp/Views/LightingView.xaml,1222,ToolTip,Green,A,是,已迁移,LightingViewText1222
+src/OmenCoreApp/Views/LightingView.xaml,1226,ToolTip,Purple,A,是,已迁移,LightingViewText1226
+src/OmenCoreApp/Views/LightingView.xaml,1230,ToolTip,Yellow,A,是,已迁移,LightingViewText1230
+src/OmenCoreApp/Views/LightingView.xaml,1234,ToolTip,White,A,是,已迁移,LightingViewText1234
+src/OmenCoreApp/Views/LightingView.xaml,1238,ToolTip,Orange,A,是,已迁移,LightingViewText1238
+src/OmenCoreApp/Views/LightingView.xaml,1242,ToolTip,Off,A,是,已迁移,LightingViewText1242
+src/OmenCoreApp/Views/LightingView.xaml,1251,Text,OpenRGB Integration:,A,是,已迁移,LightingViewText1251
+src/OmenCoreApp/Views/LightingView.xaml,1253,Text,Download OpenRGB from openrgb.org and enable the SDK Server (Settings → SDK Server → Start Server).,A,是,已迁移,LightingViewText1253
+src/OmenCoreApp/Views/LightingView.xaml,1269,Text,HP OMEN Keyboard,A,是,已迁移,LightingViewText1269
+src/OmenCoreApp/Views/LightingView.xaml,1280,ToolTip,Enable or disable HP OMEN keyboard controls in this card,A,是,已迁移,LightingViewText1280
+src/OmenCoreApp/Views/LightingView.xaml,1284,Text,Your laptop's built-in 4-zone RGB keyboard,A,是,已迁移,LightingViewText1284
+src/OmenCoreApp/Views/LightingView.xaml,1305,ToolTip,OMEN Red,A,是,已迁移,LightingViewText1305
+src/OmenCoreApp/Views/LightingView.xaml,1309,ToolTip,Blue,A,是,已迁移,LightingViewText1309
+src/OmenCoreApp/Views/LightingView.xaml,1313,ToolTip,Green,A,是,已迁移,LightingViewText1313
+src/OmenCoreApp/Views/LightingView.xaml,1317,ToolTip,Purple,A,是,已迁移,LightingViewText1317
+src/OmenCoreApp/Views/LightingView.xaml,1321,ToolTip,Yellow,A,是,已迁移,LightingViewText1321
+src/OmenCoreApp/Views/LightingView.xaml,1325,ToolTip,White,A,是,已迁移,LightingViewText1325
+src/OmenCoreApp/Views/LightingView.xaml,1329,ToolTip,Cyan,A,是,已迁移,LightingViewText1329
+src/OmenCoreApp/Views/LightingView.xaml,1333,ToolTip,Pink,A,是,已迁移,LightingViewText1333
+src/OmenCoreApp/Views/LightingView.xaml,1337,ToolTip,Off,A,是,已迁移,LightingViewText1337
+src/OmenCoreApp/Views/LightingView.xaml,1463,Text,Preset:,A,是,已迁移,LightingViewText1463
+src/OmenCoreApp/Views/LightingView.xaml,1477,Content,Apply to Keyboard,A,是,已迁移,LightingViewText1477
+src/OmenCoreApp/Views/LightingView.xaml,1485,Content,All Same Color,A,是,已迁移,LightingViewText1485
+src/OmenCoreApp/Views/LightingView.xaml,1489,ToolTip,Apply Zone 1 color to all zones,A,是,已迁移,LightingViewText1489
+src/OmenCoreApp/Views/LightingView.xaml,1502,Text,Apply Colors on Startup,A,是,已迁移,LightingViewText1502
+src/OmenCoreApp/Views/LightingView.xaml,1505,Text,Automatically restore saved keyboard colors when OmenCore starts,A,是,已迁移,LightingViewText1505
+src/OmenCoreApp/Views/LightingView.xaml,1524,Text,Per-Key RGB,A,是,已迁移,LightingViewText1524
+src/OmenCoreApp/Views/LightingView.xaml,1527,Text,OMEN Max,B,是,保留,品牌、型号或技术缩写
+src/OmenCoreApp/Views/LightingView.xaml,1543,Text,Measured layout — every key at the position the keyboard reported,A,是,已迁移,LightingViewText1543
+src/OmenCoreApp/Views/LightingView.xaml,1561,Text,Brush:,A,是,已迁移,LightingViewText1561
+src/OmenCoreApp/Views/LightingView.xaml,1570,Content,Fill All,A,是,已迁移,LightingViewText1570
+src/OmenCoreApp/Views/LightingView.xaml,1572,Content,Apply to Keyboard,A,是,已迁移,LightingViewText1572
+src/OmenCoreApp/Views/LightingView.xaml,1632,Text,Keyboard effects,A,是,已迁移,LightingViewText1632
+src/OmenCoreApp/Views/LightingView.xaml,1634,Text,"Run by the keyboard's own controller. These keep running when OmenCore is closed, and replace any per-key colours.",A,是,已迁移,LightingViewText1634
+src/OmenCoreApp/Views/LightingView.xaml,1640,Text,Effect,A,是,已迁移,LightingViewText1640
+src/OmenCoreApp/Views/LightingView.xaml,1646,Text,Theme,A,是,已迁移,LightingViewText1646
+src/OmenCoreApp/Views/LightingView.xaml,1653,Text,Speed,A,是,已迁移,LightingViewText1653
+src/OmenCoreApp/Views/LightingView.xaml,1658,Text,Direction,A,是,已迁移,LightingViewText1658
+src/OmenCoreApp/Views/LightingView.xaml,1665,Content,Custom colours,A,是,已迁移,LightingViewText1665
+src/OmenCoreApp/Views/LightingView.xaml,1674,ToolTip,Choose the first colour,A,是,已迁移,LightingViewText1674
+src/OmenCoreApp/Views/LightingView.xaml,1687,ToolTip,Choose the second colour,A,是,已迁移,LightingViewText1687
+src/OmenCoreApp/Views/LightingView.xaml,1696,Content,Apply effect,A,是,已迁移,LightingViewText1696
+src/OmenCoreApp/Views/LightingView.xaml,1698,Content,What's on it now?,A,是,已迁移,LightingViewText1698
+src/OmenCoreApp/Views/LightingView.xaml,1717,Text,Fn+1 / Fn+2 cycle,A,是,已迁移,LightingViewText1717
+src/OmenCoreApp/Views/LightingView.xaml,1719,Text,"The keyboard remembers a list of effects and steps through it when you press Fn+1 (next) or Fn+2 (previous). Curate that list here and it keeps working with OmenCore closed, or uninstalled.",A,是,已迁移,LightingViewText1719
+src/OmenCoreApp/Views/LightingView.xaml,1724,Content,Add to cycle,A,是,已迁移,LightingViewText1724
+src/OmenCoreApp/Views/LightingView.xaml,1726,ToolTip,"Stage the effect, colours, speed and direction set above",A,是,已迁移,LightingViewText1726
+src/OmenCoreApp/Views/LightingView.xaml,1727,Content,Write to keyboard,A,是,已迁移,LightingViewText1727
+src/OmenCoreApp/Views/LightingView.xaml,1729,ToolTip,Send every staged profile to the keyboard,A,是,已迁移,LightingViewText1729
+src/OmenCoreApp/Views/LightingView.xaml,1764,Content,Showing,A,是,已迁移,LightingViewText1764
+src/OmenCoreApp/Views/LightingView.xaml,1770,ToolTip,Leave the keyboard showing this one after writing,A,是,已迁移,LightingViewText1770
+src/OmenCoreApp/Views/LightingView.xaml,1772,Content,Remove,A,是,已迁移,LightingViewText1772
+src/OmenCoreApp/Views/LightingView.xaml,1776,ToolTip,Take this off the list. It stays on the keyboard.,A,是,已迁移,LightingViewText1776
+src/OmenCoreApp/Views/LightingView.xaml,1799,Text,Light bar,A,是,已迁移,LightingViewText1799
+src/OmenCoreApp/Views/LightingView.xaml,1801,Text,"The strip on the front of the chassis — four zones, left to right. Separate from the keyboard.",A,是,已迁移,LightingViewText1801
+src/OmenCoreApp/Views/LightingView.xaml,1806,Text,Colour,A,是,已迁移,LightingViewText1806
+src/OmenCoreApp/Views/LightingView.xaml,1810,ToolTip,Choose a colour,A,是,已迁移,LightingViewText1810
+src/OmenCoreApp/Views/LightingView.xaml,1818,Content,Apply colour,A,是,已迁移,LightingViewText1818
+src/OmenCoreApp/Views/LightingView.xaml,1820,Content,Off,A,是,已迁移,LightingViewText1820
+src/OmenCoreApp/Views/LightingView.xaml,1828,Text,Brightness,A,是,已迁移,LightingViewText1828
+src/OmenCoreApp/Views/LightingView.xaml,1837,Content,Run animation,A,是,已迁移,LightingViewText1837
+src/OmenCoreApp/Views/LightingView.xaml,1868,Text,"Keyboard, light bar and RGB devices change color based on CPU/GPU temperature",A,是,已迁移,LightingViewText1868
+src/OmenCoreApp/Views/LightingView.xaml,1887,Text,Temperature Thresholds (°C),A,是,已迁移,LightingViewText1887
+src/OmenCoreApp/Views/LightingView.xaml,1898,Text,Low,A,是,已迁移,LightingViewText1898
+src/OmenCoreApp/Views/LightingView.xaml,1904,Text,Medium,A,是,已迁移,LightingViewText1904
+src/OmenCoreApp/Views/LightingView.xaml,1910,Text,High,A,是,已迁移,LightingViewText1910
+src/OmenCoreApp/Views/LightingView.xaml,1927,Text,Low Temp,A,是,已迁移,LightingViewText1927
+src/OmenCoreApp/Views/LightingView.xaml,1936,Text,Medium Temp,A,是,已迁移,LightingViewText1936
+src/OmenCoreApp/Views/LightingView.xaml,1945,Text,High Temp,A,是,已迁移,LightingViewText1945
+src/OmenCoreApp/Views/LightingView.xaml,1967,Text,"Keyboard, light bar and RGB devices change color based on current performance mode",A,是,已迁移,LightingViewText1967
+src/OmenCoreApp/Views/LightingView.xaml,1986,Text,Performance Mode Colors,A,是,已迁移,LightingViewText1986
+src/OmenCoreApp/Views/LightingView.xaml,2000,Text,Balanced,A,是,已迁移,LightingViewText2000
+src/OmenCoreApp/Views/LightingView.xaml,2009,Text,Performance,A,是,已迁移,LightingViewText2009
+src/OmenCoreApp/Views/LightingView.xaml,2018,Text,Quiet,A,是,已迁移,LightingViewText2018
+src/OmenCoreApp/Views/LightingView.xaml,2027,Text,Custom,A,是,已迁移,LightingViewText2027
+src/OmenCoreApp/Views/LightingView.xaml,2049,Text,Flash red/orange when CPU/GPU thermal or power throttling occurs,A,是,已迁移,LightingViewText2049
+src/OmenCoreApp/Views/LightingView.xaml,2068,Text,Throttling Warning Color,A,是,已迁移,LightingViewText2068
+src/OmenCoreApp/Views/LightingView.xaml,2088,Text,HP OMEN Keyboard,A,是,已迁移,LightingViewText2088
+src/OmenCoreApp/Views/LightingView.xaml,2095,Text,This feature requires a supported HP OMEN laptop with 4-zone RGB keyboard and the WMI BIOS interface.,A,是,已迁移,LightingViewText2095
+src/OmenCoreApp/Views/LightingView.xaml,2105,Text,Macro Profiles,A,是,已迁移,LightingViewText2105
+src/OmenCoreApp/Views/LightingView.xaml,2115,Text,Active Profile:,A,是,已迁移,LightingViewText2115
+src/OmenCoreApp/Views/LightingView.xaml,2129,Content,Load Profile,A,是,已迁移,LightingViewText2129
+src/OmenCoreApp/Views/LightingView.xaml,2135,Text,Use Corsair iCUE or Logitech G HUB software for advanced macro configuration.,A,是,已迁移,LightingViewText2135
 src/OmenCoreApp/Views/MainWindow.xaml,61,Text,OmenCore,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/MainWindow.xaml,146,Text,C/,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/MainWindow.xaml,146,Text,T),E,待核实,待审查,尚未判断是否可见或需要翻译

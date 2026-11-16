@@ -357,6 +357,9 @@ namespace OmenCoreApp.Tests.Localization
                 RgbSyncDisplayText.Translate("Sync failed: no providers updated").Should().Contain("同步失败").And.Contain("没有");
                 RgbSyncDisplayText.Translate("Sync complete: 2 providers updated; rollback failed")
                     .Should().Be("Sync complete: 2 providers updated; rollback failed");
+                Strings.LightingViewText1727.Should().Contain("写入键盘");
+                Strings.LightingViewText1776.Should().Contain("列表移除").And.Contain("仍保留在键盘");
+                Strings.LightingViewText1634.Should().Contain("关闭 OmenCore 后").And.Contain("替换逐键颜色");
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
                 RgbSyncDisplayText.Translate("Sync complete: 1 provider updated").Should().Be("Sync complete: 1 provider updated");
             }
