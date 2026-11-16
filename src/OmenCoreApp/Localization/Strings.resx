@@ -833,4 +833,19 @@ Open GitHub releases to download manually?</value></data>
   <data name="FanDiagInterrupted" xml:space="preserve"><value>Interrupted by thermal protection ({0} step(s)) - cool down and re-run</value></data>
   <data name="FanDiagPassed" xml:space="preserve"><value>All tests passed! Score: {0}/100 ({1})</value></data>
   <data name="FanDiagSomeFailed" xml:space="preserve"><value>Some tests failed - Score: {0}/100 ({1})</value></data>
+  <data name="FanDiagTooHotDetail" xml:space="preserve"><value>Run not started: the CPU or GPU is at {0:0} C. Let the laptop cool below {1:0} C and run the diagnostic again.</value></data>
+  <data name="NvidiaPowerDialogTitle" xml:space="preserve"><value>NVIDIA power</value></data>
+  <data name="NvidiaPowerSelectVbios" xml:space="preserve"><value>Select a VBIOS dump</value></data>
+  <data name="NvidiaPowerVbiosFilter" xml:space="preserve"><value>VBIOS dump (*.rom;*.bin)|*.rom;*.bin|All files|*.*</value></data>
+  <data name="NvidiaPowerResolved" xml:space="preserve"><value>Done: </value></data>
+  <data name="NvidiaPowerNotResolved" xml:space="preserve"><value>Not resolved: </value></data>
+  <data name="NvidiaPowerDriverReadFailed" xml:space="preserve"><value>Could not read the NVIDIA driver: </value></data>
+  <data name="NvidiaPowerRemoveConfirm" xml:space="preserve"><value>Remove the MAX override? Windows must be restarted afterwards to restore the factory limit.</value></data>
+  <data name="NvidiaPowerApplyConfirm" xml:space="preserve"><value>Apply {0} {1} W?
+
+This changes the GPU's power limit beyond the laptop maker's setting. Higher power means more heat, and the cooling was not designed for it. {2}Only continue if you understand the risk.</value></data>
+  <data name="NvidiaPowerMaxRestart" xml:space="preserve"><value>MAX needs a Windows restart to take effect. </value></data>
+  <data name="NvidiaPowerCurrentRestart" xml:space="preserve"><value>CURRENT resets on reboot. </value></data>
+  <data name="NvidiaPowerNotApplied" xml:space="preserve"><value>Not applied: </value></data>
+  <data name="NvidiaPowerRestartToFinish" xml:space="preserve"><value> Restart Windows to finish.</value></data>
 </root>

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
 using OmenCore.Services;
+using OmenCore.Localization;
 using OmenCore.Utils;
 
 namespace OmenCore.ViewModels
@@ -41,7 +42,7 @@ namespace OmenCore.ViewModels
             ResolveVbiosCommand = new AsyncRelayCommand(_ => ResolveAsync(null), _ => Enabled && !_busy);
             ResolveVbiosFromFileCommand = new AsyncRelayCommand(_ =>
             {
-                var dlg = new Microsoft.Win32.OpenFileDialog { Title = "Select a VBIOS dump", Filter = "VBIOS dump (*.rom;*.bin)|*.rom;*.bin|All files|*.*" };
+                var dlg = new Microsoft.Win32.OpenFileDialog { Title = Strings.NvidiaPowerSelectVbios, Filter = Strings.NvidiaPowerVbiosFilter };
                 return dlg.ShowDialog() == true ? ResolveAsync(dlg.FileName) : Task.CompletedTask;
             }, _ => Enabled && !_busy);
             if (Enabled) _ = RefreshAsync();
@@ -56,7 +57,7 @@ namespace OmenCore.ViewModels
             try
             {
                 var r = await Task.Run(() => romPath == null ? _service.ResolveVbiosAuto() : _service.ResolveVbiosFromRom(romPath));
-                ResultText = (r.Success ? "Done: " : "Not resolved: ") + r.Message;
+                ResultText = (r.Success ? Strings.NvidiaPowerResolved : Strings.NvidiaPowerNotResolved) + r.Message;
             }
             finally
             {
@@ -103,7 +104,7 @@ namespace OmenCore.ViewModels
             try { s = _service.Assess(); }
             catch (Exception ex) when (ex is InvalidOperationException or System.ComponentModel.Win32Exception or DllNotFoundException)
             {
-                Post(() => StatusText = "Could not read the NVIDIA driver: " + ex.Message);
+                Post(() => StatusText = Strings.NvidiaPowerDriverReadFailed + ex.Message);
                 return;
             }
             Post(() =>
@@ -125,18 +126,16 @@ namespace OmenCore.ViewModels
         {
             var watts = SelectedTarget;
             var prompt = what.StartsWith("remove", StringComparison.Ordinal)
-                ? "Remove the MAX override? Windows must be restarted afterwards to restore the factory limit."
-                : $"Apply {what} {watts} W?\n\nThis changes the GPU's power limit beyond the laptop maker's setting. " +
-                  "Higher power means more heat, and the cooling was not designed for it. " +
-                  (mayNeedReboot ? "MAX needs a Windows restart to take effect. " : "CURRENT resets on reboot. ") +
-                  "Only continue if you understand the risk.";
-            if (MessageBox.Show(prompt, "NVIDIA power", MessageBoxButton.OKCancel, MessageBoxImage.Warning) != MessageBoxResult.OK) return;
+                ? Strings.NvidiaPowerRemoveConfirm
+                : string.Format(Strings.NvidiaPowerApplyConfirm, what, watts,
+                    mayNeedReboot ? Strings.NvidiaPowerMaxRestart : Strings.NvidiaPowerCurrentRestart);
+            if (MessageBox.Show(prompt, Strings.NvidiaPowerDialogTitle, MessageBoxButton.OKCancel, MessageBoxImage.Warning) != MessageBoxResult.OK) return;
 
             _busy = true; RaiseCommands();
             try
             {
                 var r = await Task.Run(() => op(watts));
-                ResultText = (r.Success ? "Done: " : "Not applied: ") + r.Message + (r.RebootRequired ? " Restart Windows to finish." : "");
+                ResultText = (r.Success ? Strings.NvidiaPowerResolved : Strings.NvidiaPowerNotApplied) + r.Message + (r.RebootRequired ? Strings.NvidiaPowerRestartToFinish : "");
                 _logging.Info("NVIDIA power panel: " + ResultText);
             }
             finally

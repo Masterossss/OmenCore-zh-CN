@@ -735,5 +735,18 @@ namespace OmenCore.Localization
         public static string FanDiagInterrupted => Get(nameof(FanDiagInterrupted));
         public static string FanDiagPassed => Get(nameof(FanDiagPassed));
         public static string FanDiagSomeFailed => Get(nameof(FanDiagSomeFailed));
+        public static string FanDiagTooHotDetail => Get(nameof(FanDiagTooHotDetail));
+        public static string NvidiaPowerDialogTitle => Get(nameof(NvidiaPowerDialogTitle));
+        public static string NvidiaPowerSelectVbios => Get(nameof(NvidiaPowerSelectVbios));
+        public static string NvidiaPowerVbiosFilter => Get(nameof(NvidiaPowerVbiosFilter));
+        public static string NvidiaPowerResolved => Get(nameof(NvidiaPowerResolved));
+        public static string NvidiaPowerNotResolved => Get(nameof(NvidiaPowerNotResolved));
+        public static string NvidiaPowerDriverReadFailed => Get(nameof(NvidiaPowerDriverReadFailed));
+        public static string NvidiaPowerRemoveConfirm => Get(nameof(NvidiaPowerRemoveConfirm));
+        public static string NvidiaPowerApplyConfirm => Get(nameof(NvidiaPowerApplyConfirm));
+        public static string NvidiaPowerMaxRestart => Get(nameof(NvidiaPowerMaxRestart));
+        public static string NvidiaPowerCurrentRestart => Get(nameof(NvidiaPowerCurrentRestart));
+        public static string NvidiaPowerNotApplied => Get(nameof(NvidiaPowerNotApplied));
+        public static string NvidiaPowerRestartToFinish => Get(nameof(NvidiaPowerRestartToFinish));
     }
 }

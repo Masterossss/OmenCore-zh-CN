@@ -176,6 +176,38 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void DynamicSafetyPromptsResolveAndFormatInChineseAndEnglish()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                var warning = string.Format(Strings.NvidiaPowerApplyConfirm, "MAX", 175, Strings.NvidiaPowerMaxRestart);
+                warning.Should().Contain("MAX 175 W").And.Contain("散热").And.Contain("重启 Windows").And.Contain("风险");
+                string.Format(Strings.FanDiagTooHotDetail, 93.0, 70.0)
+                    .Should().Contain("93 C").And.Contain("70 C").And.Contain("未开始");
+
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                string.Format(Strings.NvidiaPowerApplyConfirm, "CURRENT", 175, Strings.NvidiaPowerCurrentRestart)
+                    .Should().Contain("CURRENT 175 W").And.Contain("resets on reboot").And.Contain("risk");
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
+        public void UnsupportedResourceCultureFallsBackToEnglish()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("fr-FR");
+                Strings.NvidiaPowerRemoveConfirm.Should().Contain("Windows must be restarted");
+                Strings.NavGames.Should().Be("Games");
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void Apply_ChangesOnlyTheUiCulture()
         {
             // Numbers must keep the invariant formatting App installs on every thread; a UI

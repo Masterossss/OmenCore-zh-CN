@@ -825,4 +825,19 @@
   <data name="FanDiagInterrupted" xml:space="preserve"><value>被散热保护中断（{0} 个步骤）；请冷却后重新运行</value></data>
   <data name="FanDiagPassed" xml:space="preserve"><value>所有测试均已通过！得分：{0}/100（{1}）</value></data>
   <data name="FanDiagSomeFailed" xml:space="preserve"><value>部分测试失败，得分：{0}/100（{1}）</value></data>
+  <data name="FanDiagTooHotDetail" xml:space="preserve"><value>未开始运行：CPU 或 GPU 温度为 {0:0} C。请等待笔记本冷却至 {1:0} C 以下，然后重新运行诊断。</value></data>
+  <data name="NvidiaPowerDialogTitle" xml:space="preserve"><value>NVIDIA 功率</value></data>
+  <data name="NvidiaPowerSelectVbios" xml:space="preserve"><value>选择 VBIOS 转储文件</value></data>
+  <data name="NvidiaPowerVbiosFilter" xml:space="preserve"><value>VBIOS 转储文件 (*.rom;*.bin)|*.rom;*.bin|所有文件|*.*</value></data>
+  <data name="NvidiaPowerResolved" xml:space="preserve"><value>已完成：</value></data>
+  <data name="NvidiaPowerNotResolved" xml:space="preserve"><value>未解析：</value></data>
+  <data name="NvidiaPowerDriverReadFailed" xml:space="preserve"><value>无法读取 NVIDIA 驱动：</value></data>
+  <data name="NvidiaPowerRemoveConfirm" xml:space="preserve"><value>是否移除 MAX 覆盖设置？之后必须重启 Windows 才能恢复出厂限制。</value></data>
+  <data name="NvidiaPowerApplyConfirm" xml:space="preserve"><value>是否应用 {0} {1} W？
+
+此操作会将 GPU 功率限制调整到超出笔记本制造商设定的范围。功率越高，发热越大，而散热系统并非为此设计。{2}只有了解风险后才可继续。</value></data>
+  <data name="NvidiaPowerMaxRestart" xml:space="preserve"><value>MAX 需要重启 Windows 才能生效。</value></data>
+  <data name="NvidiaPowerCurrentRestart" xml:space="preserve"><value>CURRENT 会在重启后重置。</value></data>
+  <data name="NvidiaPowerNotApplied" xml:space="preserve"><value>未应用：</value></data>
+  <data name="NvidiaPowerRestartToFinish" xml:space="preserve"><value> 请重启 Windows 以完成操作。</value></data>
 </root>
