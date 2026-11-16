@@ -1445,4 +1445,15 @@
   <data name="OsdViaHotkey" xml:space="preserve"><value>通过热键</value></data>
   <data name="OsdRtssDisabled" xml:space="preserve"><value>RTSS 已禁用</value></data>
   <data name="OsdRtssRequired" xml:space="preserve"><value>显示 FPS 需要运行 RTSS（RivaTuner Statistics Server）</value></data>
+  <data name="TrayQuickProfile" xml:space="preserve"><value>快捷配置</value></data>
+  <data name="TrayProfilePerformance" xml:space="preserve"><value>性能 — 游戏散热 + 性能模式</value></data>
+  <data name="TrayProfileBalanced" xml:space="preserve"><value>均衡 — 自动散热 + 均衡模式</value></data>
+  <data name="TrayProfileQuiet" xml:space="preserve"><value>安静 — 静音风扇 + 节能</value></data>
+  <data name="TrayProfileCustom" xml:space="preserve"><value>自定义 — 自定义风扇和电源设置</value></data>
+  <data name="TrayMaxFan" xml:space="preserve"><value>最大风扇转速</value></data>
+  <data name="TrayNotifications" xml:space="preserve"><value>最近通知</value></data>
+  <data name="TrayNoNotifications" xml:space="preserve"><value>暂无通知</value></data>
+  <data name="TrayClearNotifications" xml:space="preserve"><value>全部清除</value></data>
+  <data name="TrayReportProblem" xml:space="preserve"><value>报告问题</value></data>
+  <data name="TrayAdvanced" xml:space="preserve"><value>高级</value></data>
 </root>

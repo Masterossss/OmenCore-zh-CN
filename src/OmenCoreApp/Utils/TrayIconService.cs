@@ -173,15 +173,15 @@ namespace OmenCore.Utils
             contextMenu.Items.Add(new Separator());
 
             // ═══ QUICK PROFILES (Combined Fan + Performance) ═══
-            var quickProfileMenuItem = new MenuItem { Header = "Quick Profile" };
+            var quickProfileMenuItem = new MenuItem { Header = OmenCore.Localization.Strings.TrayQuickProfile };
 
-            var profilePerformance = new MenuItem { Header = "Performance — Gaming cooling + Performance mode" };
+            var profilePerformance = new MenuItem { Header = OmenCore.Localization.Strings.TrayProfilePerformance };
             profilePerformance.Click += (s, e) => QuickProfileChangeRequested?.Invoke("Performance");
-            var profileBalanced = new MenuItem { Header = "Balanced — Auto cooling + Balanced mode" };
+            var profileBalanced = new MenuItem { Header = OmenCore.Localization.Strings.TrayProfileBalanced };
             profileBalanced.Click += (s, e) => QuickProfileChangeRequested?.Invoke("Balanced");
-            var profileQuiet = new MenuItem { Header = "Quiet — Quiet fans + Power saving" };
+            var profileQuiet = new MenuItem { Header = OmenCore.Localization.Strings.TrayProfileQuiet };
             profileQuiet.Click += (s, e) => QuickProfileChangeRequested?.Invoke("Quiet");
-            var profileCustom = new MenuItem { Header = "Custom — User-defined fans + power settings" };
+            var profileCustom = new MenuItem { Header = OmenCore.Localization.Strings.TrayProfileCustom };
             profileCustom.Click += (s, e) => QuickProfileChangeRequested?.Invoke("Custom");
 
             quickProfileMenuItem.Items.Add(profilePerformance);
@@ -220,7 +220,7 @@ namespace OmenCore.Utils
             // Single-click Max Fan shortcut — previously only reachable via Advanced > Fan
             // Control > Max (three menu levels deep). Kept alongside that entry rather than
             // replacing it; this mirrors how OGH exposes a single-click Max option.
-            var maxFanQuickItem = new MenuItem { Header = "Max Fan" };
+            var maxFanQuickItem = new MenuItem { Header = OmenCore.Localization.Strings.TrayMaxFan };
             maxFanQuickItem.Click += (s, e) => SetFanMode("Max");
             contextMenu.Items.Add(maxFanQuickItem);
 
@@ -229,7 +229,7 @@ namespace OmenCore.Utils
             // matching the lazy-refresh pattern used by the other dynamic submenus below.
             if (_notificationService != null)
             {
-                var notificationsMenuItem = new MenuItem { Header = "Recent Notifications" };
+                var notificationsMenuItem = new MenuItem { Header = OmenCore.Localization.Strings.TrayNotifications };
                 notificationsMenuItem.ItemContainerStyle = menuItemStyle;
                 notificationsMenuItem.SubmenuOpened += (s, e) =>
                 {
@@ -238,7 +238,7 @@ namespace OmenCore.Utils
                     var recent = _notificationService.GetRecentNotifications(10).ToList();
                     if (recent.Count == 0)
                     {
-                        notificationsMenuItem.Items.Add(new MenuItem { Header = "No notifications yet", IsEnabled = false });
+                        notificationsMenuItem.Items.Add(new MenuItem { Header = OmenCore.Localization.Strings.TrayNoNotifications, IsEnabled = false });
                     }
                     else
                     {
@@ -256,7 +256,7 @@ namespace OmenCore.Utils
                         }
 
                         notificationsMenuItem.Items.Add(new Separator());
-                        var clearItem = new MenuItem { Header = "Clear All" };
+                        var clearItem = new MenuItem { Header = OmenCore.Localization.Strings.TrayClearNotifications };
                         clearItem.Click += (s2, e2) => _notificationService.ClearAllNotifications();
                         notificationsMenuItem.Items.Add(clearItem);
                     }
@@ -288,12 +288,12 @@ namespace OmenCore.Utils
             // Report a Problem — always-visible entry point for diagnostics export, independent
             // of Lite/Advanced mode. Previously only reachable via Settings (gated behind
             // ShowAdvancedControls/non-Lite mode) or a command buried in SettingsView.xaml.
-            var reportProblemItem = new MenuItem { Header = "Report a Problem" };
+            var reportProblemItem = new MenuItem { Header = OmenCore.Localization.Strings.TrayReportProblem };
             reportProblemItem.Click += (s, e) => ReportProblemRequested?.Invoke();
             contextMenu.Items.Add(reportProblemItem);
 
             // ═══ ADVANCED CONTROLS ═══
-            var advancedMenuItem = new MenuItem { Header = "Advanced" };
+            var advancedMenuItem = new MenuItem { Header = OmenCore.Localization.Strings.TrayAdvanced };
 
             // Fan submenu
             _fanModeMenuItem = new MenuItem { Header = "Fan Control" };

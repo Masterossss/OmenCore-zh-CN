@@ -1453,4 +1453,15 @@ Continue?</value></data>
   <data name="OsdViaHotkey" xml:space="preserve"><value>via Hotkey</value></data>
   <data name="OsdRtssDisabled" xml:space="preserve"><value>RTSS disabled</value></data>
   <data name="OsdRtssRequired" xml:space="preserve"><value>FPS needs RTSS running (RivaTuner Statistics Server)</value></data>
+  <data name="TrayQuickProfile" xml:space="preserve"><value>Quick Profile</value></data>
+  <data name="TrayProfilePerformance" xml:space="preserve"><value>Performance — Gaming cooling + Performance mode</value></data>
+  <data name="TrayProfileBalanced" xml:space="preserve"><value>Balanced — Auto cooling + Balanced mode</value></data>
+  <data name="TrayProfileQuiet" xml:space="preserve"><value>Quiet — Quiet fans + Power saving</value></data>
+  <data name="TrayProfileCustom" xml:space="preserve"><value>Custom — User-defined fans + power settings</value></data>
+  <data name="TrayMaxFan" xml:space="preserve"><value>Max Fan</value></data>
+  <data name="TrayNotifications" xml:space="preserve"><value>Recent Notifications</value></data>
+  <data name="TrayNoNotifications" xml:space="preserve"><value>No notifications yet</value></data>
+  <data name="TrayClearNotifications" xml:space="preserve"><value>Clear All</value></data>
+  <data name="TrayReportProblem" xml:space="preserve"><value>Report a Problem</value></data>
+  <data name="TrayAdvanced" xml:space="preserve"><value>Advanced</value></data>
 </root>

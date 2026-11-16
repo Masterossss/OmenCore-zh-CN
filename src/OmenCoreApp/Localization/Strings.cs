@@ -1309,5 +1309,16 @@ namespace OmenCore.Localization
         public static string OsdViaHotkey => Get(nameof(OsdViaHotkey));
         public static string OsdRtssDisabled => Get(nameof(OsdRtssDisabled));
         public static string OsdRtssRequired => Get(nameof(OsdRtssRequired));
+        public static string TrayQuickProfile => Get(nameof(TrayQuickProfile));
+        public static string TrayProfilePerformance => Get(nameof(TrayProfilePerformance));
+        public static string TrayProfileBalanced => Get(nameof(TrayProfileBalanced));
+        public static string TrayProfileQuiet => Get(nameof(TrayProfileQuiet));
+        public static string TrayProfileCustom => Get(nameof(TrayProfileCustom));
+        public static string TrayMaxFan => Get(nameof(TrayMaxFan));
+        public static string TrayNotifications => Get(nameof(TrayNotifications));
+        public static string TrayNoNotifications => Get(nameof(TrayNoNotifications));
+        public static string TrayClearNotifications => Get(nameof(TrayClearNotifications));
+        public static string TrayReportProblem => Get(nameof(TrayReportProblem));
+        public static string TrayAdvanced => Get(nameof(TrayAdvanced));
     }
 }
