@@ -382,6 +382,22 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void FanValidationDisplayKeepsOriginalMessageAndSafetyNumbers()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            const string raw = "Fan curve should extend to at least 80°C to protect against thermal throttling. Highest point is 75°C.";
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                FanCurveValidationDisplay.Translate(raw).Should().Contain("80°C").And.Contain("75°C").And.Contain("降频");
+                FanCurveValidationDisplay.Translate(raw + " Extra detail.").Should().Be(raw + " Extra detail.");
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                FanCurveValidationDisplay.Translate(raw).Should().Be(raw);
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void Apply_ChangesOnlyTheUiCulture()
         {
             // Numbers must keep the invariant formatting App installs on every thread; a UI
