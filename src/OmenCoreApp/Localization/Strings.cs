@@ -1495,5 +1495,26 @@ namespace OmenCore.Localization
         public static string MemCompressionStatusUnavailable => Get(nameof(MemCompressionStatusUnavailable));
         public static string MemCompressionStatusEnabled => Get(nameof(MemCompressionStatusEnabled));
         public static string MemCompressionStatusDisabled => Get(nameof(MemCompressionStatusDisabled));
+        public static string OptimizerDetails0 => Get(nameof(OptimizerDetails0));
+        public static string OptimizerDetails1 => Get(nameof(OptimizerDetails1));
+        public static string OptimizerDetails2 => Get(nameof(OptimizerDetails2));
+        public static string OptimizerDetails3 => Get(nameof(OptimizerDetails3));
+        public static string OptimizerDetails4 => Get(nameof(OptimizerDetails4));
+        public static string OptimizerDetails5 => Get(nameof(OptimizerDetails5));
+        public static string OptimizerDetails6 => Get(nameof(OptimizerDetails6));
+        public static string OptimizerDetails7 => Get(nameof(OptimizerDetails7));
+        public static string OptimizerDetails8 => Get(nameof(OptimizerDetails8));
+        public static string OptimizerDetails9 => Get(nameof(OptimizerDetails9));
+        public static string OptimizerDetails10 => Get(nameof(OptimizerDetails10));
+        public static string OptimizerDetails11 => Get(nameof(OptimizerDetails11));
+        public static string OptimizerDetails12 => Get(nameof(OptimizerDetails12));
+        public static string OptimizerDetails13 => Get(nameof(OptimizerDetails13));
+        public static string OptimizerDetails14 => Get(nameof(OptimizerDetails14));
+        public static string OptimizerDetails15 => Get(nameof(OptimizerDetails15));
+        public static string OptimizerDetails16 => Get(nameof(OptimizerDetails16));
+        public static string OptimizerDetails17 => Get(nameof(OptimizerDetails17));
+        public static string OptimizerDetails18 => Get(nameof(OptimizerDetails18));
+        public static string OptimizerDetails19 => Get(nameof(OptimizerDetails19));
+        public static string OptimizerDetails20 => Get(nameof(OptimizerDetails20));
     }
 }

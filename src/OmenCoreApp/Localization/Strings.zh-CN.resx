@@ -1631,4 +1631,25 @@
   <data name="MemCompressionStatusUnavailable" xml:space="preserve"><value>内存压缩状态不可用</value></data>
   <data name="MemCompressionStatusEnabled" xml:space="preserve"><value>已启用</value></data>
   <data name="MemCompressionStatusDisabled" xml:space="preserve"><value>已禁用</value></data>
+  <data name="OptimizerDetails0" xml:space="preserve"><value>将当前 Windows 电源计划切换到可用的最高性能配置，使游戏期间 CPU 和 GPU 保持积极的加速行为。</value></data>
+  <data name="OptimizerDetails1" xml:space="preserve"><value>启用硬件加速 GPU 调度，让支持该功能的系统以更低的 CPU 开销提交 GPU 任务。</value></data>
+  <data name="OptimizerDetails2" xml:space="preserve"><value>启用 Windows 游戏模式，使系统优先处理当前游戏并减少后台干扰。</value></data>
+  <data name="OptimizerDetails3" xml:space="preserve"><value>提高前台调度优先级，让当前游戏相对于后台任务获得更多 CPU 时间。</value></data>
+  <data name="OptimizerDetails4" xml:space="preserve"><value>禁用控制 Windows 允许收集多少诊断数据的遥测策略值。</value></data>
+  <data name="OptimizerDetails5" xml:space="preserve"><value>停止并禁用 SysMain，使 Windows 不再在后台预加载应用程序；这通常更适合 SSD 系统。</value></data>
+  <data name="OptimizerDetails6" xml:space="preserve"><value>停止并禁用 Windows 搜索索引，以减少后台磁盘和 CPU 使用。</value></data>
+  <data name="OptimizerDetails7" xml:space="preserve"><value>禁用互联用户体验和遥测服务，以减少后台遥测处理。</value></data>
+  <data name="OptimizerDetails8" xml:space="preserve"><value>强制 TCP 发送数据包时不使用延迟确认，以增加网络流量频率为代价降低延迟。</value></data>
+  <data name="OptimizerDetails9" xml:space="preserve"><value>更改 TCP 确认行为，使数据包立即确认而不是批量确认。</value></data>
+  <data name="OptimizerDetails10" xml:space="preserve"><value>禁用传递优化的对等更新共享，使 Windows 更新不再向其他计算机上传更新数据。</value></data>
+  <data name="OptimizerDetails11" xml:space="preserve"><value>调整 TCP 缓冲行为，以尽量减少延迟敏感任务的确认延迟。</value></data>
+  <data name="OptimizerDetails12" xml:space="preserve"><value>禁用提高指针精确度，使鼠标移动保持原始的 1:1 对应；这通常更适合游戏。</value></data>
+  <data name="OptimizerDetails13" xml:space="preserve"><value>禁用后台游戏录制，使 Game DVR 在游戏运行时不再占用资源。</value></data>
+  <data name="OptimizerDetails14" xml:space="preserve"><value>禁用 Xbox 游戏栏覆盖层和启动提示，避免打断游戏。</value></data>
+  <data name="OptimizerDetails15" xml:space="preserve"><value>通过调整 Windows GameConfigStore 标志来配置游戏的全屏优化行为。</value></data>
+  <data name="OptimizerDetails16" xml:space="preserve"><value>禁用亚克力和透明效果，以降低合成开销和视觉干扰。</value></data>
+  <data name="OptimizerDetails17" xml:space="preserve"><value>关闭常见的系统动画和菜单延迟，使桌面响应更快并减少视觉效果。</value></data>
+  <data name="OptimizerDetails18" xml:space="preserve"><value>启用 NTFS TRIM 路径，使 SSD 能够高效回收已删除的数据块并长期保持性能。</value></data>
+  <data name="OptimizerDetails19" xml:space="preserve"><value>禁用 NTFS 上次访问时间戳更新，以减少存储设备的元数据写入。</value></data>
+  <data name="OptimizerDetails20" xml:space="preserve"><value>禁用旧版 8.3 短文件名生成，可略微减少现代系统的文件系统管理开销。</value></data>
 </root>

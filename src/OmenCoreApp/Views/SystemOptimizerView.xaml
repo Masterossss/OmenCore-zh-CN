@@ -78,7 +78,7 @@
                                 <TextBlock Text="{x:Static loc:Strings.SystemOptimizerViewText77}" FontSize="11" Foreground="{StaticResource AccentBlueBrush}"/>
                             </Expander.Header>
                             <StackPanel Margin="0,10,0,0">
-                                <TextBlock Text="{Binding DetailedDescription}"
+                                <TextBlock Text="{Binding DisplayDetailedDescription}"
                                            FontSize="11"
                                            Foreground="{StaticResource TextSecondaryBrush}"
                                            TextWrapping="Wrap"

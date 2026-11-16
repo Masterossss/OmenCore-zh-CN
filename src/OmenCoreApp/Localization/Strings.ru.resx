@@ -1635,4 +1635,25 @@ Continue?</value></data>
   <data name="MemCompressionStatusUnavailable" xml:space="preserve"><value>Memory compression status unavailable</value></data>
   <data name="MemCompressionStatusEnabled" xml:space="preserve"><value>Enabled</value></data>
   <data name="MemCompressionStatusDisabled" xml:space="preserve"><value>Disabled</value></data>
+  <data name="OptimizerDetails0" xml:space="preserve"><value>Switches the active Windows power plan to the highest-performance profile available so CPU and GPU boost behavior stays aggressive during gameplay.</value></data>
+  <data name="OptimizerDetails1" xml:space="preserve"><value>Enables Hardware-Accelerated GPU Scheduling so Windows can submit GPU work with lower CPU overhead on supported systems.</value></data>
+  <data name="OptimizerDetails2" xml:space="preserve"><value>Turns on Windows Game Mode so the OS prioritizes the active game and reduces background interference.</value></data>
+  <data name="OptimizerDetails3" xml:space="preserve"><value>Raises foreground scheduling priority so the active game receives more CPU time relative to background tasks.</value></data>
+  <data name="OptimizerDetails4" xml:space="preserve"><value>Disables Windows telemetry policy values that control how much diagnostic data the OS is allowed to collect.</value></data>
+  <data name="OptimizerDetails5" xml:space="preserve"><value>Stops and disables SysMain so Windows stops preloading applications in the background, which is often preferable on SSD systems.</value></data>
+  <data name="OptimizerDetails6" xml:space="preserve"><value>Stops and disables Windows Search indexing to reduce background disk and CPU usage.</value></data>
+  <data name="OptimizerDetails7" xml:space="preserve"><value>Disables the Connected User Experiences and Telemetry service so background telemetry processing is reduced.</value></data>
+  <data name="OptimizerDetails8" xml:space="preserve"><value>Forces TCP to send packets without delayed acknowledgments, reducing latency at the cost of more frequent network traffic.</value></data>
+  <data name="OptimizerDetails9" xml:space="preserve"><value>Changes TCP acknowledgment behavior so packets are acknowledged immediately instead of being batched.</value></data>
+  <data name="OptimizerDetails10" xml:space="preserve"><value>Disables Delivery Optimization peer-to-peer update sharing so Windows Update no longer uploads update data to other machines.</value></data>
+  <data name="OptimizerDetails11" xml:space="preserve"><value>Adjusts TCP buffering behavior to minimize acknowledgment delay for latency-sensitive workloads.</value></data>
+  <data name="OptimizerDetails12" xml:space="preserve"><value>Disables Enhanced Pointer Precision so mouse movement stays raw and 1:1, which is generally preferred for games.</value></data>
+  <data name="OptimizerDetails13" xml:space="preserve"><value>Disables background game recording so Game DVR stops reserving resources while games are running.</value></data>
+  <data name="OptimizerDetails14" xml:space="preserve"><value>Disables Xbox Game Bar overlays and startup prompts so they do not interrupt gameplay.</value></data>
+  <data name="OptimizerDetails15" xml:space="preserve"><value>Tunes fullscreen optimization behavior for games by adjusting Windows GameConfigStore flags.</value></data>
+  <data name="OptimizerDetails16" xml:space="preserve"><value>Disables acrylic and transparency effects to reduce compositing overhead and visual distractions.</value></data>
+  <data name="OptimizerDetails17" xml:space="preserve"><value>Turns off common shell animations and menu delays so the desktop feels snappier and uses fewer visual effects.</value></data>
+  <data name="OptimizerDetails18" xml:space="preserve"><value>Enables the NTFS TRIM path so SSDs can reclaim deleted blocks efficiently and maintain performance over time.</value></data>
+  <data name="OptimizerDetails19" xml:space="preserve"><value>Disables NTFS last-access timestamp updates to reduce metadata writes on storage devices.</value></data>
+  <data name="OptimizerDetails20" xml:space="preserve"><value>Disables legacy 8.3 short filename generation, which can slightly reduce file-system bookkeeping on modern systems.</value></data>
 </root>

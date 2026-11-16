@@ -1266,6 +1266,31 @@ namespace OmenCore.ViewModels
         public string Category { get; set; } = "";
         public OptimizationRisk Risk { get; set; }
         public string? Warning { get; set; }
+        public string? DisplayDetailedDescription => Id switch
+        {
+            "power_ultimate_perf" => Strings.OptimizerDetails0,
+            "power_gpu_scheduling" => Strings.OptimizerDetails1,
+            "power_game_mode" => Strings.OptimizerDetails2,
+            "power_foreground_priority" => Strings.OptimizerDetails3,
+            "service_telemetry" => Strings.OptimizerDetails4,
+            "service_sysmain" => Strings.OptimizerDetails5,
+            "service_search" => Strings.OptimizerDetails6,
+            "service_diagtrack" => Strings.OptimizerDetails7,
+            "network_tcp_nodelay" => Strings.OptimizerDetails8,
+            "network_tcp_ack" => Strings.OptimizerDetails9,
+            "network_delivery_opt" => Strings.OptimizerDetails10,
+            "network_nagle" => Strings.OptimizerDetails11,
+            "input_mouse_accel" => Strings.OptimizerDetails12,
+            "input_game_dvr" => Strings.OptimizerDetails13,
+            "input_game_bar" => Strings.OptimizerDetails14,
+            "input_fullscreen_opt" => Strings.OptimizerDetails15,
+            "visual_transparency" => Strings.OptimizerDetails16,
+            "visual_animations" => Strings.OptimizerDetails17,
+            "storage_trim" => Strings.OptimizerDetails18,
+            "storage_last_access" => Strings.OptimizerDetails19,
+            "storage_8dot3" => Strings.OptimizerDetails20,
+            _ => DetailedDescription
+        };
         public string? DetailedDescription { get; set; }
         public IReadOnlyList<string> AffectedRegistryKeys { get; set; } = Array.Empty<string>();
         public IReadOnlyList<string> ServiceNamesAffected { get; set; } = Array.Empty<string>();
