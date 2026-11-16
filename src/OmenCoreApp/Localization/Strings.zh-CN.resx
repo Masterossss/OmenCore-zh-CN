@@ -1272,4 +1272,77 @@
   <data name="LightingViewText1727" xml:space="preserve"><value>写入键盘</value></data>
   <data name="LightingViewText1729" xml:space="preserve"><value>将所有暂存的配置文件发送到键盘</value></data>
   <data name="LightingViewText1770" xml:space="preserve"><value>写入后让键盘显示此项</value></data>
+  <data name="SystemOptimizerViewText77" xml:space="preserve"><value>更改内容</value></data>
+  <data name="SystemOptimizerViewText88" xml:space="preserve"><value>注册表项</value></data>
+  <data name="SystemOptimizerViewText100" xml:space="preserve"><value>服务或命令</value></data>
+  <data name="SystemOptimizerViewText112" xml:space="preserve"><value>手动撤销</value></data>
+  <data name="SystemOptimizerViewText126" xml:space="preserve"><value>正在应用...</value></data>
+  <data name="SystemOptimizerViewText182" xml:space="preserve"><value>系统优化</value></data>
+  <data name="SystemOptimizerViewText183" xml:space="preserve"><value>调整 Windows 以优化游戏性能</value></data>
+  <data name="SystemOptimizerViewText190" xml:space="preserve"><value>刷新</value></data>
+  <data name="SystemOptimizerViewText241" xml:space="preserve"><value>打开</value></data>
+  <data name="SystemOptimizerViewText246" xml:space="preserve"><value>复制路径</value></data>
+  <data name="SystemOptimizerViewText301" xml:space="preserve"><value>应用所有优化以获得最高游戏性能</value></data>
+  <data name="SystemOptimizerViewText304" xml:space="preserve"><value>游戏最大化</value></data>
+  <data name="SystemOptimizerViewText310" xml:space="preserve"><value>仅应用推荐的优化</value></data>
+  <data name="SystemOptimizerViewText313" xml:space="preserve"><value>均衡</value></data>
+  <data name="SystemOptimizerViewText319" xml:space="preserve"><value>刷新风险等级预检摘要</value></data>
+  <data name="SystemOptimizerViewText322" xml:space="preserve"><value>预检</value></data>
+  <data name="SystemOptimizerViewText328" xml:space="preserve"><value>导出优化器状态和配置偏差诊断报告</value></data>
+  <data name="SystemOptimizerViewText331" xml:space="preserve"><value>导出报告</value></data>
+  <data name="SystemOptimizerViewText336" xml:space="preserve"><value>将所有设置恢复为 Windows 默认值</value></data>
+  <data name="SystemOptimizerViewText339" xml:space="preserve"><value>全部还原</value></data>
+  <data name="SystemOptimizerViewText364" xml:space="preserve"><value>电源与性能</value></data>
+  <data name="SystemOptimizerViewText367" xml:space="preserve"><value>全部应用</value></data>
+  <data name="SystemOptimizerViewText381" xml:space="preserve"><value>Windows 服务</value></data>
+  <data name="SystemOptimizerViewText384" xml:space="preserve"><value>全部应用</value></data>
+  <data name="SystemOptimizerViewText398" xml:space="preserve"><value>网络与延迟</value></data>
+  <data name="SystemOptimizerViewText401" xml:space="preserve"><value>全部应用</value></data>
+  <data name="SystemOptimizerViewText418" xml:space="preserve"><value>输入与游戏</value></data>
+  <data name="SystemOptimizerViewText421" xml:space="preserve"><value>全部应用</value></data>
+  <data name="SystemOptimizerViewText435" xml:space="preserve"><value>视觉效果</value></data>
+  <data name="SystemOptimizerViewText438" xml:space="preserve"><value>全部应用</value></data>
+  <data name="SystemOptimizerViewText452" xml:space="preserve"><value>存储与磁盘</value></data>
+  <data name="SystemOptimizerViewText455" xml:space="preserve"><value>全部应用</value></data>
+  <data name="SystemOptimizerViewText468" xml:space="preserve"><value>重要说明</value></data>
+  <data name="BloatwareManagerViewText31" xml:space="preserve"><value>预装软件管理</value></data>
+  <data name="BloatwareManagerViewText33" xml:space="preserve"><value>移除预装软件，以改善系统性能并减少冗余。低风险项目可安全移除。</value></data>
+  <data name="BloatwareManagerViewText45" xml:space="preserve"><value>已检测</value></data>
+  <data name="BloatwareManagerViewText51" xml:space="preserve"><value>已移除</value></data>
+  <data name="BloatwareManagerViewText57" xml:space="preserve"><value>低风险</value></data>
+  <data name="BloatwareManagerViewText83" xml:space="preserve"><value>扫描</value></data>
+  <data name="BloatwareManagerViewText94" xml:space="preserve"><value>移除低风险项目</value></data>
+  <data name="BloatwareManagerViewText104" xml:space="preserve"><value>模拟运行</value></data>
+  <data name="BloatwareManagerViewText114" xml:space="preserve"><value>取消</value></data>
+  <data name="BloatwareManagerViewText127" xml:space="preserve"><value>搜索应用、发布者...</value></data>
+  <data name="BloatwareManagerViewText158" xml:space="preserve"><value>风险：</value></data>
+  <data name="BloatwareManagerViewText159" xml:space="preserve"><value>全部</value></data>
+  <data name="BloatwareManagerViewText163" xml:space="preserve"><value>低</value></data>
+  <data name="BloatwareManagerViewText169" xml:space="preserve"><value>中</value></data>
+  <data name="BloatwareManagerViewText175" xml:space="preserve"><value>高</value></data>
+  <data name="BloatwareManagerViewText191" xml:space="preserve"><value>移除</value></data>
+  <data name="BloatwareManagerViewText200" xml:space="preserve"><value>恢复</value></data>
+  <data name="BloatwareManagerViewText264" xml:space="preserve"><value>移除</value></data>
+  <data name="BloatwareManagerViewText271" xml:space="preserve"><value>应用</value></data>
+  <data name="BloatwareManagerViewText272" xml:space="preserve"><value>风险</value></data>
+  <data name="BloatwareManagerViewText273" xml:space="preserve"><value>估计</value></data>
+  <data name="BloatwareManagerViewText274" xml:space="preserve"><value>依赖提示</value></data>
+  <data name="BloatwareManagerViewText281" xml:space="preserve"><value>全选或取消全选</value></data>
+  <data name="BloatwareManagerViewText284" xml:space="preserve"><value>取消</value></data>
+  <data name="BloatwareManagerViewText287" xml:space="preserve"><value>移除所选项目</value></data>
+  <data name="BloatwareManagerViewText333" xml:space="preserve"><value>未检测到预装软件</value></data>
+  <data name="BloatwareManagerViewText334" xml:space="preserve"><value>点击“扫描”以查找预装软件</value></data>
+  <data name="BloatwareManagerViewText346" xml:space="preserve"><value>状态</value></data>
+  <data name="BloatwareManagerViewText392" xml:space="preserve"><value>名称</value></data>
+  <data name="BloatwareManagerViewText399" xml:space="preserve"><value>结果详情</value></data>
+  <data name="BloatwareManagerViewText419" xml:space="preserve"><value>类别</value></data>
+  <data name="BloatwareManagerViewText428" xml:space="preserve"><value>类型</value></data>
+  <data name="BloatwareManagerViewText435" xml:space="preserve"><value>风险</value></data>
+  <data name="BloatwareManagerViewText460" xml:space="preserve"><value>说明</value></data>
+  <data name="BloatwareManagerViewText467" xml:space="preserve"><value>发布者</value></data>
+  <data name="BloatwareManagerViewText499" xml:space="preserve"><value>将移除结果导出到日志文件</value></data>
+  <data name="BloatwareManagerViewText503" xml:space="preserve"><value>导出日志</value></data>
+  <data name="BloatwareManagerViewText511" xml:space="preserve"><value>打开最近的移除报告</value></data>
+  <data name="BloatwareManagerViewText515" xml:space="preserve"><value>查看报告</value></data>
+  <data name="BloatwareManagerViewText519" xml:space="preserve"><value>部分移除操作可能需要重启</value></data>
 </root>

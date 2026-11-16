@@ -1280,4 +1280,77 @@ Try it anyway?</value></data>
   <data name="LightingViewText1727" xml:space="preserve"><value>Write to keyboard</value></data>
   <data name="LightingViewText1729" xml:space="preserve"><value>Send every staged profile to the keyboard</value></data>
   <data name="LightingViewText1770" xml:space="preserve"><value>Leave the keyboard showing this one after writing</value></data>
+  <data name="SystemOptimizerViewText77" xml:space="preserve"><value>What changes</value></data>
+  <data name="SystemOptimizerViewText88" xml:space="preserve"><value>Registry keys</value></data>
+  <data name="SystemOptimizerViewText100" xml:space="preserve"><value>Services or commands</value></data>
+  <data name="SystemOptimizerViewText112" xml:space="preserve"><value>Manual undo</value></data>
+  <data name="SystemOptimizerViewText126" xml:space="preserve"><value>Applying...</value></data>
+  <data name="SystemOptimizerViewText182" xml:space="preserve"><value>System Optimizer</value></data>
+  <data name="SystemOptimizerViewText183" xml:space="preserve"><value>Fine-tune Windows for gaming performance</value></data>
+  <data name="SystemOptimizerViewText190" xml:space="preserve"><value>Refresh</value></data>
+  <data name="SystemOptimizerViewText241" xml:space="preserve"><value>Open</value></data>
+  <data name="SystemOptimizerViewText246" xml:space="preserve"><value>Copy Path</value></data>
+  <data name="SystemOptimizerViewText301" xml:space="preserve"><value>Apply all optimizations for maximum gaming performance</value></data>
+  <data name="SystemOptimizerViewText304" xml:space="preserve"><value>Gaming Max</value></data>
+  <data name="SystemOptimizerViewText310" xml:space="preserve"><value>Apply recommended optimizations only</value></data>
+  <data name="SystemOptimizerViewText313" xml:space="preserve"><value>Balanced</value></data>
+  <data name="SystemOptimizerViewText319" xml:space="preserve"><value>Refresh risk-tier preflight summary</value></data>
+  <data name="SystemOptimizerViewText322" xml:space="preserve"><value>Preflight</value></data>
+  <data name="SystemOptimizerViewText328" xml:space="preserve"><value>Export optimizer state and drift diagnostics report</value></data>
+  <data name="SystemOptimizerViewText331" xml:space="preserve"><value>Export Report</value></data>
+  <data name="SystemOptimizerViewText336" xml:space="preserve"><value>Restore all settings to Windows defaults</value></data>
+  <data name="SystemOptimizerViewText339" xml:space="preserve"><value>Revert All</value></data>
+  <data name="SystemOptimizerViewText364" xml:space="preserve"><value>Power &amp; Performance</value></data>
+  <data name="SystemOptimizerViewText367" xml:space="preserve"><value>Apply All</value></data>
+  <data name="SystemOptimizerViewText381" xml:space="preserve"><value>Windows Services</value></data>
+  <data name="SystemOptimizerViewText384" xml:space="preserve"><value>Apply All</value></data>
+  <data name="SystemOptimizerViewText398" xml:space="preserve"><value>Network &amp; Latency</value></data>
+  <data name="SystemOptimizerViewText401" xml:space="preserve"><value>Apply All</value></data>
+  <data name="SystemOptimizerViewText418" xml:space="preserve"><value>Input &amp; Gaming</value></data>
+  <data name="SystemOptimizerViewText421" xml:space="preserve"><value>Apply All</value></data>
+  <data name="SystemOptimizerViewText435" xml:space="preserve"><value>Visual Effects</value></data>
+  <data name="SystemOptimizerViewText438" xml:space="preserve"><value>Apply All</value></data>
+  <data name="SystemOptimizerViewText452" xml:space="preserve"><value>Storage &amp; Disk</value></data>
+  <data name="SystemOptimizerViewText455" xml:space="preserve"><value>Apply All</value></data>
+  <data name="SystemOptimizerViewText468" xml:space="preserve"><value>Important Notes</value></data>
+  <data name="BloatwareManagerViewText31" xml:space="preserve"><value>Bloatware Manager</value></data>
+  <data name="BloatwareManagerViewText33" xml:space="preserve"><value>Remove pre-installed bloatware to improve system performance and reduce clutter. Low-risk items are safe to remove.</value></data>
+  <data name="BloatwareManagerViewText45" xml:space="preserve"><value>Detected</value></data>
+  <data name="BloatwareManagerViewText51" xml:space="preserve"><value>Removed</value></data>
+  <data name="BloatwareManagerViewText57" xml:space="preserve"><value>Low Risk</value></data>
+  <data name="BloatwareManagerViewText83" xml:space="preserve"><value>Scan</value></data>
+  <data name="BloatwareManagerViewText94" xml:space="preserve"><value>Remove Low-Risk</value></data>
+  <data name="BloatwareManagerViewText104" xml:space="preserve"><value>Dry Run</value></data>
+  <data name="BloatwareManagerViewText114" xml:space="preserve"><value>Cancel</value></data>
+  <data name="BloatwareManagerViewText127" xml:space="preserve"><value>Search apps, publishers...</value></data>
+  <data name="BloatwareManagerViewText158" xml:space="preserve"><value>Risk:</value></data>
+  <data name="BloatwareManagerViewText159" xml:space="preserve"><value>All</value></data>
+  <data name="BloatwareManagerViewText163" xml:space="preserve"><value>Low</value></data>
+  <data name="BloatwareManagerViewText169" xml:space="preserve"><value>Med</value></data>
+  <data name="BloatwareManagerViewText175" xml:space="preserve"><value>High</value></data>
+  <data name="BloatwareManagerViewText191" xml:space="preserve"><value>Remove</value></data>
+  <data name="BloatwareManagerViewText200" xml:space="preserve"><value>Restore</value></data>
+  <data name="BloatwareManagerViewText264" xml:space="preserve"><value>Remove</value></data>
+  <data name="BloatwareManagerViewText271" xml:space="preserve"><value>App</value></data>
+  <data name="BloatwareManagerViewText272" xml:space="preserve"><value>Risk</value></data>
+  <data name="BloatwareManagerViewText273" xml:space="preserve"><value>Est.</value></data>
+  <data name="BloatwareManagerViewText274" xml:space="preserve"><value>Dependency Hint</value></data>
+  <data name="BloatwareManagerViewText281" xml:space="preserve"><value>Toggle All</value></data>
+  <data name="BloatwareManagerViewText284" xml:space="preserve"><value>Cancel</value></data>
+  <data name="BloatwareManagerViewText287" xml:space="preserve"><value>Remove Selected</value></data>
+  <data name="BloatwareManagerViewText333" xml:space="preserve"><value>No bloatware detected</value></data>
+  <data name="BloatwareManagerViewText334" xml:space="preserve"><value>Click 'Scan' to search for bloatware</value></data>
+  <data name="BloatwareManagerViewText346" xml:space="preserve"><value>Status</value></data>
+  <data name="BloatwareManagerViewText392" xml:space="preserve"><value>Name</value></data>
+  <data name="BloatwareManagerViewText399" xml:space="preserve"><value>Result Detail</value></data>
+  <data name="BloatwareManagerViewText419" xml:space="preserve"><value>Category</value></data>
+  <data name="BloatwareManagerViewText428" xml:space="preserve"><value>Type</value></data>
+  <data name="BloatwareManagerViewText435" xml:space="preserve"><value>Risk</value></data>
+  <data name="BloatwareManagerViewText460" xml:space="preserve"><value>Description</value></data>
+  <data name="BloatwareManagerViewText467" xml:space="preserve"><value>Publisher</value></data>
+  <data name="BloatwareManagerViewText499" xml:space="preserve"><value>Export removal results to a log file</value></data>
+  <data name="BloatwareManagerViewText503" xml:space="preserve"><value>Export Log</value></data>
+  <data name="BloatwareManagerViewText511" xml:space="preserve"><value>Open the most recent removal report</value></data>
+  <data name="BloatwareManagerViewText515" xml:space="preserve"><value>View Report</value></data>
+  <data name="BloatwareManagerViewText519" xml:space="preserve"><value>Some removals may require a restart</value></data>
 </root>

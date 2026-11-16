@@ -149,46 +149,46 @@ src/OmenCoreApp/Views/AdvancedView.xaml,552,Text,DISPLAY OVERDRIVE,A,是,已迁�
 src/OmenCoreApp/Views/AdvancedView.xaml,553,Text,Reduces panel response time for less motion blur during fast-paced gaming. May cause slight overshoot artifacts on some displays.,A,是,已迁移,AdvancedViewText553
 src/OmenCoreApp/Views/AdvancedView.xaml,561,Text,Panel Overdrive,A,是,已迁移,AdvancedViewText561
 src/OmenCoreApp/Views/AdvancedView.xaml,562,Text,Improves pixel response time on 165Hz+ displays,A,是,已迁移,AdvancedViewText562
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,31,Text,Bloatware Manager,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,33,Text,Remove pre-installed bloatware to improve system performance and reduce clutter. Low-risk items are safe to remove.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,45,Text,Detected,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,51,Text,Removed,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,57,Text,Low Risk,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,83,Text,Scan,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,94,Text,Remove Low-Risk,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,104,Text,Dry Run,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,114,Text,Cancel,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,127,Text,"Search apps, publishers...",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,158,Text,Risk:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,159,Content,All,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,163,Text,Low,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,169,Text,Med,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,175,Text,High,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,191,Text,Remove,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,200,Text,Restore,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,264,Header,Remove,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,271,Header,App,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,272,Header,Risk,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,273,Header,Est.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,274,Header,Dependency Hint,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,281,Text,Toggle All,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,284,Text,Cancel,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,287,Text,Remove Selected,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,333,Text,No bloatware detected,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,334,Text,Click 'Scan' to search for bloatware,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,346,Header,Status,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,392,Header,Name,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,399,Header,Result Detail,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,419,Header,Category,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,428,Header,Type,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,435,Header,Risk,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,460,Header,Description,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,467,Header,Publisher,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,499,ToolTip,Export removal results to a log file,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,503,Text,Export Log,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,511,ToolTip,Open the most recent removal report,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,515,Text,View Report,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/BloatwareManagerView.xaml,519,Text,Some removals may require a restart,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,31,Text,Bloatware Manager,A,是,已迁移,BloatwareManagerViewText31
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,33,Text,Remove pre-installed bloatware to improve system performance and reduce clutter. Low-risk items are safe to remove.,A,是,已迁移,BloatwareManagerViewText33
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,45,Text,Detected,A,是,已迁移,BloatwareManagerViewText45
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,51,Text,Removed,A,是,已迁移,BloatwareManagerViewText51
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,57,Text,Low Risk,A,是,已迁移,BloatwareManagerViewText57
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,83,Text,Scan,A,是,已迁移,BloatwareManagerViewText83
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,94,Text,Remove Low-Risk,A,是,已迁移,BloatwareManagerViewText94
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,104,Text,Dry Run,A,是,已迁移,BloatwareManagerViewText104
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,114,Text,Cancel,A,是,已迁移,BloatwareManagerViewText114
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,127,Text,"Search apps, publishers...",A,是,已迁移,BloatwareManagerViewText127
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,158,Text,Risk:,A,是,已迁移,BloatwareManagerViewText158
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,159,Content,All,A,是,已迁移,BloatwareManagerViewText159
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,163,Text,Low,A,是,已迁移,BloatwareManagerViewText163
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,169,Text,Med,A,是,已迁移,BloatwareManagerViewText169
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,175,Text,High,A,是,已迁移,BloatwareManagerViewText175
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,191,Text,Remove,A,是,已迁移,BloatwareManagerViewText191
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,200,Text,Restore,A,是,已迁移,BloatwareManagerViewText200
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,264,Header,Remove,A,是,已迁移,BloatwareManagerViewText264
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,271,Header,App,A,是,已迁移,BloatwareManagerViewText271
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,272,Header,Risk,A,是,已迁移,BloatwareManagerViewText272
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,273,Header,Est.,A,是,已迁移,BloatwareManagerViewText273
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,274,Header,Dependency Hint,A,是,已迁移,BloatwareManagerViewText274
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,281,Text,Toggle All,A,是,已迁移,BloatwareManagerViewText281
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,284,Text,Cancel,A,是,已迁移,BloatwareManagerViewText284
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,287,Text,Remove Selected,A,是,已迁移,BloatwareManagerViewText287
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,333,Text,No bloatware detected,A,是,已迁移,BloatwareManagerViewText333
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,334,Text,Click 'Scan' to search for bloatware,A,是,已迁移,BloatwareManagerViewText334
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,346,Header,Status,A,是,已迁移,BloatwareManagerViewText346
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,392,Header,Name,A,是,已迁移,BloatwareManagerViewText392
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,399,Header,Result Detail,A,是,已迁移,BloatwareManagerViewText399
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,419,Header,Category,A,是,已迁移,BloatwareManagerViewText419
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,428,Header,Type,A,是,已迁移,BloatwareManagerViewText428
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,435,Header,Risk,A,是,已迁移,BloatwareManagerViewText435
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,460,Header,Description,A,是,已迁移,BloatwareManagerViewText460
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,467,Header,Publisher,A,是,已迁移,BloatwareManagerViewText467
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,499,ToolTip,Export removal results to a log file,A,是,已迁移,BloatwareManagerViewText499
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,503,Text,Export Log,A,是,已迁移,BloatwareManagerViewText503
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,511,ToolTip,Open the most recent removal report,A,是,已迁移,BloatwareManagerViewText511
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,515,Text,View Report,A,是,已迁移,BloatwareManagerViewText515
+src/OmenCoreApp/Views/BloatwareManagerView.xaml,519,Text,Some removals may require a restart,A,是,已迁移,BloatwareManagerViewText519
 src/OmenCoreApp/Views/ColorPickerDialog.xaml,63,Text,Hex:,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/DashboardView.xaml,335,ToolTip,SSD temperature and disk activity. Optimal SSD temp is below 45°C.,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/DashboardView.xaml,527,Text,CPU,E,待核实,待审查,尚未判断是否可见或需要翻译
@@ -1126,39 +1126,39 @@ src/OmenCoreApp/Views/SplashWindow.xaml,80,Text,v2.0.0-alpha1,E,待核实,待审
 src/OmenCoreApp/Views/SplashWindow.xaml,84,Text,Hardware Control Suite,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SplashWindow.xaml,121,Text,Initializing...,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/SplashWindow.xaml,130,Text,v2.0.0-alpha1,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,77,Text,What changes,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,88,Text,Registry keys,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,100,Text,Services or commands,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,112,Text,Manual undo,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,126,Text,Applying...,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,182,Text,System Optimizer,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,183,Text,Fine-tune Windows for gaming performance,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,190,Text,Refresh,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,241,Text,Open,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,246,Text,Copy Path,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,301,ToolTip,Apply all optimizations for maximum gaming performance,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,304,Text,Gaming Max,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,310,ToolTip,Apply recommended optimizations only,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,313,Text,Balanced,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,319,ToolTip,Refresh risk-tier preflight summary,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,322,Text,Preflight,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,328,ToolTip,Export optimizer state and drift diagnostics report,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,331,Text,Export Report,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,336,ToolTip,Restore all settings to Windows defaults,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,339,Text,Revert All,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,364,Text,Power &amp; Performance,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,367,Text,Apply All,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,381,Text,Windows Services,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,384,Text,Apply All,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,398,Text,Network &amp; Latency,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,401,Text,Apply All,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,418,Text,Input &amp; Gaming,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,421,Text,Apply All,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,435,Text,Visual Effects,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,438,Text,Apply All,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,452,Text,Storage &amp; Disk,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,455,Text,Apply All,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/SystemOptimizerView.xaml,468,Text,Important Notes,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,77,Text,What changes,A,是,已迁移,SystemOptimizerViewText77
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,88,Text,Registry keys,A,是,已迁移,SystemOptimizerViewText88
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,100,Text,Services or commands,A,是,已迁移,SystemOptimizerViewText100
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,112,Text,Manual undo,A,是,已迁移,SystemOptimizerViewText112
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,126,Text,Applying...,A,是,已迁移,SystemOptimizerViewText126
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,182,Text,System Optimizer,A,是,已迁移,SystemOptimizerViewText182
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,183,Text,Fine-tune Windows for gaming performance,A,是,已迁移,SystemOptimizerViewText183
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,190,Text,Refresh,A,是,已迁移,SystemOptimizerViewText190
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,241,Text,Open,A,是,已迁移,SystemOptimizerViewText241
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,246,Text,Copy Path,A,是,已迁移,SystemOptimizerViewText246
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,301,ToolTip,Apply all optimizations for maximum gaming performance,A,是,已迁移,SystemOptimizerViewText301
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,304,Text,Gaming Max,A,是,已迁移,SystemOptimizerViewText304
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,310,ToolTip,Apply recommended optimizations only,A,是,已迁移,SystemOptimizerViewText310
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,313,Text,Balanced,A,是,已迁移,SystemOptimizerViewText313
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,319,ToolTip,Refresh risk-tier preflight summary,A,是,已迁移,SystemOptimizerViewText319
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,322,Text,Preflight,A,是,已迁移,SystemOptimizerViewText322
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,328,ToolTip,Export optimizer state and drift diagnostics report,A,是,已迁移,SystemOptimizerViewText328
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,331,Text,Export Report,A,是,已迁移,SystemOptimizerViewText331
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,336,ToolTip,Restore all settings to Windows defaults,A,是,已迁移,SystemOptimizerViewText336
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,339,Text,Revert All,A,是,已迁移,SystemOptimizerViewText339
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,364,Text,Power &amp; Performance,A,是,已迁移,SystemOptimizerViewText364
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,367,Text,Apply All,A,是,已迁移,SystemOptimizerViewText367
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,381,Text,Windows Services,A,是,已迁移,SystemOptimizerViewText381
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,384,Text,Apply All,A,是,已迁移,SystemOptimizerViewText384
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,398,Text,Network &amp; Latency,A,是,已迁移,SystemOptimizerViewText398
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,401,Text,Apply All,A,是,已迁移,SystemOptimizerViewText401
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,418,Text,Input &amp; Gaming,A,是,已迁移,SystemOptimizerViewText418
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,421,Text,Apply All,A,是,已迁移,SystemOptimizerViewText421
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,435,Text,Visual Effects,A,是,已迁移,SystemOptimizerViewText435
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,438,Text,Apply All,A,是,已迁移,SystemOptimizerViewText438
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,452,Text,Storage &amp; Disk,A,是,已迁移,SystemOptimizerViewText452
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,455,Text,Apply All,A,是,已迁移,SystemOptimizerViewText455
+src/OmenCoreApp/Views/SystemOptimizerView.xaml,468,Text,Important Notes,A,是,已迁移,SystemOptimizerViewText468
 src/OmenCoreApp/Views/TuningView.xaml,44,Text,CPU / GPU Tuning,A,是,已迁移,TuningViewText44
 src/OmenCoreApp/Views/TuningView.xaml,45,Text,Advanced performance tuning • Undervolt • Overclock • Power Limits,A,是,已迁移,TuningViewText45
 src/OmenCoreApp/Views/TuningView.xaml,66,Text,ADVANCED TUNING,A,是,已迁移,TuningViewText66
