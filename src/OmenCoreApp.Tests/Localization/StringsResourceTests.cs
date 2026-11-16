@@ -467,6 +467,9 @@ namespace OmenCoreApp.Tests.Localization
             {
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
                 BloatwareStatusDisplayText.Translate("Failed: Bulk restore finished with 2 failures. Restored 3/5 items.").Should().Contain("失败").And.Contain("3/5");
+                BloatwareStatusDisplayText.Translate("Failed: Restore failed: Example").Should().Contain("失败").And.Contain("Example");
+                BloatwareStatusDisplayText.RestoreOutcome("Example", false).Should().Be("Failed: Restore failed: Example");
+                BloatwareStatusDisplayText.RestoreOutcome("Example", true).Should().Be("Done: Restored Example");
                 BloatwareStatusDisplayText.Translate("Restoring 1/5: Example...").Should().Contain("1/5").And.Contain("Example");
                 BloatwareStatusDisplayText.Translate("Failed: unknown backend error").Should().Be("Failed: unknown backend error");
                 BloatwareStatusDisplayText.Translate("Removing 1/3: Example...").Should().Contain("删除 1/3");

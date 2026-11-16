@@ -4,6 +4,10 @@ namespace OmenCore.Localization
 {
     internal static class BloatwareStatusDisplayText
     {
+        internal static string RestoreOutcome(string name, bool restored) => restored
+            ? $"Done: Restored {name}"
+            : $"Failed: Restore failed: {name}";
+
         internal static string Translate(string value)
         {
             if (string.IsNullOrEmpty(value)) return value;
@@ -72,6 +76,8 @@ namespace OmenCore.Localization
             if (bulkCancel.Success) return string.Format(Strings.BloatBulkCancelDetail, bulkCancel.Groups[1].Value, bulkCancel.Groups[2].Value, bulkCancel.Groups[3].Value);
             var bulkFailure = Regex.Match(value, @"\AFailed: Bulk remove stopped at (.+?): (.+)\. Rollback restored ([0-9]+), failed ([0-9]+), skipped ([0-9]+)\. Export log for details\.\z", RegexOptions.CultureInvariant);
             if (bulkFailure.Success) return string.Format(Strings.BloatBulkFailureDetail, bulkFailure.Groups[1].Value, bulkFailure.Groups[2].Value, bulkFailure.Groups[3].Value, bulkFailure.Groups[4].Value, bulkFailure.Groups[5].Value);
+            var restoreFailed = Regex.Match(value, @"\AFailed: Restore failed: (.+)\z", RegexOptions.CultureInvariant);
+            if (restoreFailed.Success) return string.Format(Strings.BloatRestoreFailed, restoreFailed.Groups[1].Value);
             var partial = Regex.Match(value, @"\AFailed: Bulk restore finished with ([0-9]+) failures\. Restored ([0-9]+)/([0-9]+) items\.\z", RegexOptions.CultureInvariant);
             if (partial.Success) return string.Format(Strings.BloatRestorePartial, partial.Groups[1].Value, partial.Groups[2].Value, partial.Groups[3].Value);
             var canceled = Regex.Match(value, @"\AFailed: Bulk restore canceled at (.+)\. ([0-9]+) completed, ([0-9]+) skipped\.\z", RegexOptions.CultureInvariant);

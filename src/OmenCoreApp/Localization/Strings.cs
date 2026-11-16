@@ -1728,5 +1728,6 @@ namespace OmenCore.Localization
         public static string SafetyCriticalBatch19 => Get(nameof(SafetyCriticalBatch19));
         public static string SafetyCriticalBatch20 => Get(nameof(SafetyCriticalBatch20));
         public static string SafetyCriticalBatch21 => Get(nameof(SafetyCriticalBatch21));
+        public static string BloatRestoreFailed => Get(nameof(BloatRestoreFailed));
     }
 }

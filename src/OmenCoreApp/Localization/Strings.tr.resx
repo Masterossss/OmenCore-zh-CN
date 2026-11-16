@@ -1868,4 +1868,5 @@ Continue?</value></data>
   <data name="SafetyCriticalBatch19" xml:space="preserve"><value>Tip: You can also manually create a restore point using the button below if you want extra safety.</value></data>
   <data name="SafetyCriticalBatch20" xml:space="preserve"><value>Create Manual Restore Point</value></data>
   <data name="SafetyCriticalBatch21" xml:space="preserve"><value> — Improper values may cause crashes or freezes. Start small, test stability. Settings reset on reboot unless auto-apply is enabled.</value></data>
+  <data name="BloatRestoreFailed" xml:space="preserve"><value>Failed: Restore failed: {0}</value></data>
 </root>

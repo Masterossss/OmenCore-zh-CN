@@ -1864,4 +1864,5 @@
   <data name="SafetyCriticalBatch19" xml:space="preserve"><value>提示：如需额外保障，也可以使用下方按钮手动创建还原点。</value></data>
   <data name="SafetyCriticalBatch20" xml:space="preserve"><value>手动创建还原点</value></data>
   <data name="SafetyCriticalBatch21" xml:space="preserve"><value>——不正确的数值可能导致崩溃或死机。请从小幅调整开始，并测试稳定性。除非启用自动应用，否则设置会在重启后重置。</value></data>
+  <data name="BloatRestoreFailed" xml:space="preserve"><value>失败：无法还原 {0}</value></data>
 </root>

@@ -719,9 +719,9 @@ namespace OmenCore.ViewModels
             {
                 IsProcessing = true;
                 SetStatusAction($"Restoring {SelectedApp.Name}");
-                await _service.RestoreAppAsync(SelectedApp);
+                var restored = await _service.RestoreAppAsync(SelectedApp);
                 UpdateCounts();
-                SetStatusDone($"Restored {SelectedApp.Name}");
+                StatusMessage = BloatwareStatusDisplayText.RestoreOutcome(SelectedApp.Name, restored);
             }
             finally
             {
