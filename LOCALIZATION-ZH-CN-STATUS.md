@@ -77,3 +77,14 @@
 - 本机 SDK 的 Roslyn 审计工具位于 tools/LocalizationAudit；可传入根目录和输出文件路径。原 C# 快照一度被 Windows 映射占用，新快照使用 CURRENT 文件名；两个文件不可当作独立未译项累加。
 - 当前 Debug 构建成功，0 错误、0 警告；已确认安全的本地化及 NVIDIA 状态测试 24 项通过。未执行应用 GUI、硬件测试、驱动安装或系统优化；没有无硬件直通 VM 的验证证据。
 - 下一步：LightingView 的辅助功能文本、设备后端结果、DPI/效果确认框；MemoryOptimizer 的服务错误和原始 delta 摘要；SystemOptimizer 的预检内容与分类显示；Bloatware 的还原结果和状态；再继续托盘、OSD、更新以及 XAML/Roslyn 清单的调用链分类。需逐项确认实际运行页面和中英文切换，才可做 GUI 验收。
+
+## 发布前收尾检查点（未完成）
+
+- 在 82cfa1d 后新增 34 个资源，四个语言资源文件各 1259 个键。灯光 DPI 确认和失败提示已接入资源；设备状态及其他灯效交互仍需审查。
+- 修复风扇曲线校验曾被提前翻译导致日志改变的问题：校验及原日志恢复英文，只在弹窗显示边界转换，未识别消息保留原文。更新检查与安装结果也在显示边界进行严格映射；原服务返回值、日志和用于自动隐藏的英文状态保持不变。未知更新消息保留原文。
+- Debug 和 Release 解决方案构建均通过，0 错误、0 警告；经审查的本地化及 NVIDIA 纯软件测试 26 项通过；38 个 Views/Controls XAML 与资源 XML 文件解析通过。未执行全部测试或硬件行为测试。
+- 与 v5.0.1 比较，src/OmenCore.Core、src/OmenCore.NvidiaPower、src/OmenCore.HardwareWorker 和 drivers 路径下无差异；这不代表应用层所有业务逻辑、日志或导出格式已完成安全审计。
+- 尚无无硬件直通的隔离 Windows VM，未运行 GUI；启动可能触发硬件服务、看门狗和自动化，禁止在真实笔记本上启动预览版进行验收。未验证 DPI、布局、实际语言切换或启动。
+- 36 个覆盖矩阵条目均仍为进行中，尚不能证明任何模块满足完整静态和动态验收标准；旧候选清单存在未追踪入口，不能据此计算真实剩余英文总数。灯光设备反馈、内存优化服务错误、系统优化预检、软件清理还原、托盘/OSD 及硬件相关动态消息仍需逐条审查。
+- 未达到发布候选的静态翻译和安全审计条件，未生成 RC ZIP 或 SHA256。下一步从 LightingViewModel 设备状态及确认框、MemoryOptimizerViewModel 服务返回消息继续，随后审计 SystemOptimizerViewModel 预检及 BloatwareManagerViewModel 还原；对显示层映射核对所有消费者与未知消息回退。
+- 代码检查点：5b25c45、7b1b2f8、ca46604。
