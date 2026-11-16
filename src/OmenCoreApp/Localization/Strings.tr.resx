@@ -1821,4 +1821,51 @@ Continue?</value></data>
   <data name="BloatDescription26" xml:space="preserve"><value>HP scheduled task</value></data>
   <data name="BloatDescription27" xml:space="preserve"><value>Telemetry data collection task</value></data>
   <data name="BloatDescription28" xml:space="preserve"><value>OneDrive scheduled sync task</value></data>
+  <data name="SettingsSafetyBatch0" xml:space="preserve"><value>Do not pin a fan level when returning to Auto (experimental)</value></data>
+  <data name="SettingsSafetyBatch1" xml:space="preserve"><value>For laptops whose fans stay near 2000 RPM at high temperature until you restore the OEM profile. Skips a fan-level hint OmenCore sends when it hands control back to the BIOS. Off by default; takes effect after a restart. Not yet confirmed on hardware.</value></data>
+  <data name="SettingsSafetyBatch2" xml:space="preserve"><value>Do not pin a fan level when returning to Auto</value></data>
+  <data name="SettingsSafetyBatch3" xml:space="preserve"><value>Return Max fan mode to Auto</value></data>
+  <data name="SettingsSafetyBatch4" xml:space="preserve"><value>Off keeps Max until you change it. Cooldown hands the fans back to BIOS Auto when CPU and GPU stay under 60 C for 2 minutes. Timer hands them back after the chosen time. Not yet confirmed on hardware.</value></data>
+  <data name="SettingsSafetyBatch5" xml:space="preserve"><value>Max fan auto-return timer minutes</value></data>
+  <data name="SettingsSafetyBatch6" xml:space="preserve"><value>Minutes</value></data>
+  <data name="SettingsSafetyBatch7" xml:space="preserve"><value>Reapply the saved fan preset, performance mode, GPU boost, and tuning settings after OmenCore starts.</value></data>
+  <data name="SettingsSafetyBatch8" xml:space="preserve"><value>Restore last hardware settings on startup</value></data>
+  <data name="SettingsSafetyBatch9" xml:space="preserve"><value>Overrides the extra guardrail for models that have reported firmware sensitivity during boot. Leave off unless you want automatic reapply on those systems.</value></data>
+  <data name="SettingsSafetyBatch10" xml:space="preserve"><value>Allow startup restore on OMEN 16/Victus</value></data>
+  <data name="SettingsSafetyBatch11" xml:space="preserve"><value>Startup Restore Categories</value></data>
+  <data name="SettingsSafetyBatch12" xml:space="preserve"><value>Fans</value></data>
+  <data name="SettingsSafetyBatch13" xml:space="preserve"><value>Reapply saved fan preset or curve at startup.</value></data>
+  <data name="SettingsSafetyBatch14" xml:space="preserve"><value>Restore saved Fan Max</value></data>
+  <data name="SettingsSafetyBatch15" xml:space="preserve"><value>Allow a saved Max preset to start fans at full speed on launch. Off by default; BIOS Auto is used instead.</value></data>
+  <data name="SettingsSafetyBatch16" xml:space="preserve"><value>Factory fan curve in Performance mode (experimental)</value></data>
+  <data name="SettingsSafetyBatch17" xml:space="preserve"><value>On this board the firmware's own Auto parks the fans too low under heavy load. This runs HP's own Performance-mode curve instead, only while Performance mode is active and fans are on Auto. Not yet confirmed on hardware; fans return to BIOS Auto when turned off. Off by default.</value></data>
+  <data name="SettingsSafetyBatch18" xml:space="preserve"><value>Factory fan curve in Performance mode</value></data>
+  <data name="SettingsSafetyBatch19" xml:space="preserve"><value>Performance</value></data>
+  <data name="SettingsSafetyBatch20" xml:space="preserve"><value>Reapply performance mode and GPU power boost.</value></data>
+  <data name="SettingsSafetyBatch21" xml:space="preserve"><value>Restore saved keyboard lighting colors when RGB startup restore is enabled.</value></data>
+  <data name="SettingsSafetyBatch22" xml:space="preserve"><value>Tuning</value></data>
+  <data name="SettingsSafetyBatch23" xml:space="preserve"><value>Reapply confirmed undervolt, TCC, CPU power, and GPU OC restore paths. On OMEN 16/Victus models this is skipped unless 'Allow startup restore on OMEN 16/Victus' is on.</value></data>
+  <data name="SettingsSafetyBatch24" xml:space="preserve"><value>Startup restore: </value></data>
+  <data name="SafetyCriticalBatch0" xml:space="preserve"><value>EXPERIMENTAL: Direct EC Keyboard Control</value></data>
+  <data name="SafetyCriticalBatch1" xml:space="preserve"><value>Enable only if WMI keyboard control doesn't work on your model.</value></data>
+  <data name="SafetyCriticalBatch2" xml:space="preserve"><value>Force EC Keyboard Writes</value></data>
+  <data name="SafetyCriticalBatch3" xml:space="preserve"><value>⚠️ WARNING: EC writes caused crashes on OMEN 17-ck2xxx.</value></data>
+  <data name="SafetyCriticalBatch4" xml:space="preserve"><value>This may hard-crash your system requiring forced restart.</value></data>
+  <data name="SafetyCriticalBatch5" xml:space="preserve"><value>Exclusive EC Diagnostics</value></data>
+  <data name="SafetyCriticalBatch6" xml:space="preserve"><value>⚠️ Diagnostic mode: Acquires exclusive EC access to detect conflicts.</value></data>
+  <data name="SafetyCriticalBatch7" xml:space="preserve"><value>May interfere with OMEN Gaming Hub or other fan control apps.</value></data>
+  <data name="SafetyCriticalBatch8" xml:space="preserve"><value>Auto-boost fans when temps exceed threshold, including the emergency 100% override on custom curves. Disable if your laptop naturally runs hot and you manage fans manually — you take full responsibility for thermal management.</value></data>
+  <data name="SafetyCriticalBatch9" xml:space="preserve"><value>Thermal protection</value></data>
+  <data name="SafetyCriticalBatch10" xml:space="preserve"><value>Fans ramp up when temps exceed this (70-95°C)</value></data>
+  <data name="SafetyCriticalBatch11" xml:space="preserve"><value>Thermal protection ramp threshold in Celsius</value></data>
+  <data name="SafetyCriticalBatch12" xml:space="preserve"><value>Emergency Max-Fan Threshold</value></data>
+  <data name="SafetyCriticalBatch13" xml:space="preserve"><value>Fans forced to 100% immediately above this (90-99°C, always at least 2°C above the ramp threshold above)</value></data>
+  <data name="SafetyCriticalBatch14" xml:space="preserve"><value>Emergency max fan threshold in Celsius</value></data>
+  <data name="SafetyCriticalBatch15" xml:space="preserve"><value>Override auto-detected max fan level. Set to 0 for auto-detect. If fans don't reach full speed, try 63 or 100. Requires restart.</value></data>
+  <data name="SafetyCriticalBatch16" xml:space="preserve"><value>Max Fan Level Override</value></data>
+  <data name="SafetyCriticalBatch17" xml:space="preserve"><value>✓ Automatic System Restore Point</value></data>
+  <data name="SafetyCriticalBatch18" xml:space="preserve"><value>A System Restore point will be created automatically before cleanup starts. If restore point creation fails (e.g., System Restore is disabled), you'll be prompted to continue or cancel.</value></data>
+  <data name="SafetyCriticalBatch19" xml:space="preserve"><value>Tip: You can also manually create a restore point using the button below if you want extra safety.</value></data>
+  <data name="SafetyCriticalBatch20" xml:space="preserve"><value>Create Manual Restore Point</value></data>
+  <data name="SafetyCriticalBatch21" xml:space="preserve"><value> — Improper values may cause crashes or freezes. Start small, test stability. Settings reset on reboot unless auto-apply is enabled.</value></data>
 </root>

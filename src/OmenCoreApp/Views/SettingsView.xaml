@@ -1248,15 +1248,15 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Do not pin a fan level when returning to Auto (experimental)" FontSize="14"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch0}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="For laptops whose fans stay near 2000 RPM at high temperature until you restore the OEM profile. Skips a fan-level hint OmenCore sends when it hands control back to the BIOS. Off by default; takes effect after a restart. Not yet confirmed on hardware."
+                                <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch1}"
                                            FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1"
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding SkipV1FanLevelHint, Mode=TwoWay}"
-                                          AutomationProperties.Name="Do not pin a fan level when returning to Auto"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SettingsSafetyBatch2}"/>
                         </Grid>
 
                         <!-- Max fan auto-return (off by default) -->
@@ -1267,21 +1267,21 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0">
-                                <TextBlock Text="Return Max fan mode to Auto" FontSize="14"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch3}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Off keeps Max until you change it. Cooldown hands the fans back to BIOS Auto when CPU and GPU stay under 60 C for 2 minutes. Timer hands them back after the chosen time. Not yet confirmed on hardware."
+                                <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch4}"
                                            FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                             </StackPanel>
                             <ComboBox Grid.Column="1" Margin="12,0,0,0" VerticalAlignment="Center"
                                       SelectedItem="{Binding MaxAutoReturnMode, Mode=TwoWay}"
                                       ItemsSource="{Binding MaxAutoReturnModeOptions}"
-                                      AutomationProperties.Name="Return Max fan mode to Auto"/>
+                                      AutomationProperties.Name="{x:Static loc:Strings.SettingsSafetyBatch3}"/>
                             <ComboBox Grid.Column="2" Margin="8,0,0,0" VerticalAlignment="Center" MinWidth="64"
                                       SelectedItem="{Binding MaxAutoReturnTimerMinutes, Mode=TwoWay}"
                                       ItemsSource="{Binding MaxAutoReturnTimerOptions}"
                                       Visibility="{Binding MaxAutoReturnUsesTimer, Converter={StaticResource BooleanToVisibilityConverter}}"
-                                      ToolTip="Minutes"
-                                      AutomationProperties.Name="Max fan auto-return timer minutes"/>
+                                      ToolTip="{x:Static loc:Strings.SettingsSafetyBatch6}"
+                                      AutomationProperties.Name="{x:Static loc:Strings.SettingsSafetyBatch5}"/>
                         </Grid>
 
                         <Separator Margin="0,16,0,16" Background="{StaticResource BorderBrush}"/>
@@ -1294,13 +1294,13 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1295Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Reapply the saved fan preset, performance mode, GPU boost, and tuning settings after OmenCore starts." FontSize="12"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch7}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1"
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding EnableStartupHardwareRestore, Mode=TwoWay}"
-                                          AutomationProperties.Name="Restore last hardware settings on startup"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SettingsSafetyBatch8}"/>
                         </Grid>
 
                         <Grid Margin="0,0,0,8">
@@ -1311,21 +1311,21 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1312Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Overrides the extra guardrail for models that have reported firmware sensitivity during boot. Leave off unless you want automatic reapply on those systems." FontSize="12"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch9}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1"
                                           Style="{StaticResource ModernToggleButton}"
                                           IsEnabled="{Binding EnableStartupHardwareRestore}"
                                           IsChecked="{Binding AllowStartupRestoreOnOmen16OrVictus, Mode=TwoWay}"
-                                          AutomationProperties.Name="Allow startup restore on OMEN 16/Victus"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SettingsSafetyBatch10}"/>
                         </Grid>
 
                         <Border Background="#141414" BorderBrush="{StaticResource BorderBrush}" BorderThickness="1"
                                 CornerRadius="6" Padding="12" Margin="0,8,0,8"
                                 IsEnabled="{Binding StartupRestoreCategoryTogglesEnabled}">
                             <StackPanel>
-                                <TextBlock Text="Startup Restore Categories" FontSize="12" FontWeight="SemiBold"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch11}" FontSize="12" FontWeight="SemiBold"
                                            Foreground="{StaticResource TextPrimaryBrush}" Margin="0,0,0,8"/>
 
                                 <Grid Margin="0,0,0,8">
@@ -1334,13 +1334,13 @@
                                         <ColumnDefinition Width="Auto"/>
                                     </Grid.ColumnDefinitions>
                                     <StackPanel Grid.Column="0">
-                                        <TextBlock Text="Fans" FontSize="13" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <TextBlock Text="Reapply saved fan preset or curve at startup." FontSize="11"
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch12}" FontSize="13" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch13}" FontSize="11"
                                                    Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                                     </StackPanel>
                                     <ToggleButton Grid.Column="1" Style="{StaticResource ModernToggleButton}"
                                                   IsChecked="{Binding StartupRestoreFansEnabled, Mode=TwoWay}"
-                                                  AutomationProperties.Name="Fans"/>
+                                                  AutomationProperties.Name="{x:Static loc:Strings.SettingsSafetyBatch12}"/>
                                 </Grid>
 
                                 <Grid Margin="0,0,0,8" IsEnabled="{Binding StartupRestoreFansEnabled}">
@@ -1349,13 +1349,13 @@
                                         <ColumnDefinition Width="Auto"/>
                                     </Grid.ColumnDefinitions>
                                     <StackPanel Grid.Column="0">
-                                        <TextBlock Text="Restore saved Fan Max" FontSize="13" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <TextBlock Text="Allow a saved Max preset to start fans at full speed on launch. Off by default; BIOS Auto is used instead." FontSize="11"
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch14}" FontSize="13" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch15}" FontSize="11"
                                                    Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                                     </StackPanel>
                                     <ToggleButton Grid.Column="1" Style="{StaticResource ModernToggleButton}"
                                                   IsChecked="{Binding RestoreMaxFanOnStartup, Mode=TwoWay}"
-                                                  AutomationProperties.Name="Restore saved Fan Max"/>
+                                                  AutomationProperties.Name="{x:Static loc:Strings.SettingsSafetyBatch14}"/>
                                 </Grid>
 
                                 <Grid Margin="0,0,0,8" Visibility="{Binding AutomaticFanCurveAvailable, Converter={StaticResource BooleanToVisibilityConverter}}">
@@ -1364,13 +1364,13 @@
                                         <ColumnDefinition Width="Auto"/>
                                     </Grid.ColumnDefinitions>
                                     <StackPanel Grid.Column="0">
-                                        <TextBlock Text="Factory fan curve in Performance mode (experimental)" FontSize="13" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <TextBlock Text="On this board the firmware's own Auto parks the fans too low under heavy load. This runs HP's own Performance-mode curve instead, only while Performance mode is active and fans are on Auto. Not yet confirmed on hardware; fans return to BIOS Auto when turned off. Off by default."
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch16}" FontSize="13" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch17}"
                                                    FontSize="11" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                                     </StackPanel>
                                     <ToggleButton Grid.Column="1" Style="{StaticResource ModernToggleButton}"
                                                   IsChecked="{Binding AutomaticFanCurveEnabled, Mode=TwoWay}"
-                                                  AutomationProperties.Name="Factory fan curve in Performance mode"/>
+                                                  AutomationProperties.Name="{x:Static loc:Strings.SettingsSafetyBatch18}"/>
                                 </Grid>
 
                                 <Grid Margin="0,0,0,8">
@@ -1379,13 +1379,13 @@
                                         <ColumnDefinition Width="Auto"/>
                                     </Grid.ColumnDefinitions>
                                     <StackPanel Grid.Column="0">
-                                        <TextBlock Text="Performance" FontSize="13" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <TextBlock Text="Reapply performance mode and GPU power boost." FontSize="11"
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch19}" FontSize="13" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch20}" FontSize="11"
                                                    Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                                     </StackPanel>
                                     <ToggleButton Grid.Column="1" Style="{StaticResource ModernToggleButton}"
                                                   IsChecked="{Binding StartupRestorePerformanceEnabled, Mode=TwoWay}"
-                                                  AutomationProperties.Name="Performance"/>
+                                                  AutomationProperties.Name="{x:Static loc:Strings.SettingsSafetyBatch19}"/>
                                 </Grid>
 
                                 <Grid Margin="0,0,0,8">
@@ -1395,7 +1395,7 @@
                                     </Grid.ColumnDefinitions>
                                     <StackPanel Grid.Column="0">
                                         <TextBlock Text="RGB" FontSize="13" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <TextBlock Text="Restore saved keyboard lighting colors when RGB startup restore is enabled." FontSize="11"
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch21}" FontSize="11"
                                                    Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                                     </StackPanel>
                                     <ToggleButton Grid.Column="1" Style="{StaticResource ModernToggleButton}"
@@ -1409,20 +1409,20 @@
                                         <ColumnDefinition Width="Auto"/>
                                     </Grid.ColumnDefinitions>
                                     <StackPanel Grid.Column="0">
-                                        <TextBlock Text="Tuning" FontSize="13" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <TextBlock Text="Reapply confirmed undervolt, TCC, CPU power, and GPU OC restore paths. On OMEN 16/Victus models this is skipped unless 'Allow startup restore on OMEN 16/Victus' is on." FontSize="11"
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch22}" FontSize="13" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch23}" FontSize="11"
                                                    Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                                     </StackPanel>
                                     <ToggleButton Grid.Column="1" Style="{StaticResource ModernToggleButton}"
                                                   IsChecked="{Binding StartupRestoreTuningEnabled, Mode=TwoWay}"
-                                                  AutomationProperties.Name="Tuning"/>
+                                                  AutomationProperties.Name="{x:Static loc:Strings.SettingsSafetyBatch22}"/>
                                 </Grid>
                             </StackPanel>
                         </Border>
 
                         <Border Background="#1F1F1F" CornerRadius="4" Padding="12" Margin="0,8,0,0">
                             <StackPanel Orientation="Horizontal">
-                                <TextBlock Text="Startup restore: " FontSize="12"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch24}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                                 <TextBlock Text="{Binding StartupHardwareRestoreStatus}" FontSize="12" FontWeight="SemiBold"
                                            Foreground="{StaticResource TextPrimaryBrush}" TextWrapping="Wrap"/>
@@ -2265,12 +2265,12 @@
                             <StackPanel>
                                 <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
                                     <TextBlock Text="⚠️" FontSize="18" VerticalAlignment="Center" Margin="0,0,8,0"/>
-                                    <TextBlock Text="EXPERIMENTAL: Direct EC Keyboard Control" 
+                                    <TextBlock Text="{x:Static loc:Strings.SafetyCriticalBatch0}" 
                                                FontSize="13" FontWeight="SemiBold"
                                                Foreground="#FF9800" VerticalAlignment="Center"/>
                                 </StackPanel>
                                 
-                                <TextBlock Text="Enable only if WMI keyboard control doesn't work on your model." 
+                                <TextBlock Text="{x:Static loc:Strings.SafetyCriticalBatch1}" 
                                            FontSize="12" Foreground="{StaticResource TextSecondaryBrush}"
                                            Margin="0,0,0,8"/>
                                            
@@ -2280,18 +2280,18 @@
                                         <ColumnDefinition Width="Auto"/>
                                     </Grid.ColumnDefinitions>
                                     <StackPanel Grid.Column="0">
-                                        <TextBlock Text="Force EC Keyboard Writes" FontSize="13" FontWeight="SemiBold"
+                                        <TextBlock Text="{x:Static loc:Strings.SafetyCriticalBatch2}" FontSize="13" FontWeight="SemiBold"
                                                    Foreground="{StaticResource TextPrimaryBrush}"/>
                                         <TextBlock FontSize="11" Foreground="#FFB74D" TextWrapping="Wrap">
-                                            <Run Text="⚠️ WARNING: EC writes caused crashes on OMEN 17-ck2xxx."/><LineBreak/>
-                                            <Run Text="This may hard-crash your system requiring forced restart."/>
+                                            <Run Text="{x:Static loc:Strings.SafetyCriticalBatch3}"/><LineBreak/>
+                                            <Run Text="{x:Static loc:Strings.SafetyCriticalBatch4}"/>
                                         </TextBlock>
                                     </StackPanel>
                                     <ToggleButton Grid.Column="1" 
                                                   Style="{StaticResource ModernToggleButton}"
                                                   IsChecked="{Binding ExperimentalEcKeyboardEnabled}"
                                                   VerticalAlignment="Center"
-                                                  AutomationProperties.Name="Force EC Keyboard Writes"/>
+                                                  AutomationProperties.Name="{x:Static loc:Strings.SafetyCriticalBatch2}"/>
                                 </Grid>
                                 
                                 <!-- Exclusive EC Diagnostics -->
@@ -2301,18 +2301,18 @@
                                         <ColumnDefinition Width="Auto"/>
                                     </Grid.ColumnDefinitions>
                                     <StackPanel Grid.Column="0">
-                                        <TextBlock Text="Exclusive EC Diagnostics" FontSize="13" FontWeight="SemiBold"
+                                        <TextBlock Text="{x:Static loc:Strings.SafetyCriticalBatch5}" FontSize="13" FontWeight="SemiBold"
                                                    Foreground="{StaticResource TextPrimaryBrush}"/>
                                         <TextBlock FontSize="11" Foreground="#FFB74D" TextWrapping="Wrap">
-                                            <Run Text="⚠️ Diagnostic mode: Acquires exclusive EC access to detect conflicts."/><LineBreak/>
-                                            <Run Text="May interfere with OMEN Gaming Hub or other fan control apps."/>
+                                            <Run Text="{x:Static loc:Strings.SafetyCriticalBatch6}"/><LineBreak/>
+                                            <Run Text="{x:Static loc:Strings.SafetyCriticalBatch7}"/>
                                         </TextBlock>
                                     </StackPanel>
                                     <ToggleButton Grid.Column="1" 
                                                   Style="{StaticResource ModernToggleButton}"
                                                   IsChecked="{Binding ExclusiveEcAccessDiagnosticsEnabled}"
                                                   VerticalAlignment="Center"
-                                                  AutomationProperties.Name="Exclusive EC Diagnostics"/>
+                                                  AutomationProperties.Name="{x:Static loc:Strings.SafetyCriticalBatch5}"/>
                                 </Grid>
                                 
                                 <!-- Keyboard Backend Selector -->
@@ -2668,8 +2668,8 @@
                                         <ToggleButton AutomationProperties.Name="Thermals" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowThermalsGroup}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
-                                        <TextBlock Text="Performance" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <ToggleButton AutomationProperties.Name="Performance" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowPerformanceGroup}"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch19}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
+                                        <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsSafetyBatch19}" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowPerformanceGroup}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
                                         <TextBlock Text="Network" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
@@ -2724,7 +2724,7 @@
                                 </WrapPanel>
                                 
                                 <!-- Performance -->
-                                <TextBlock Text="Performance" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,4,0,4"/>
+                                <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch19}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,4,0,4"/>
                                 <WrapPanel Margin="0,0,0,8">
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
                                         <TextBlock Text="FPS (RTSS)" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
@@ -2973,13 +2973,13 @@
                                     <StackPanel Grid.Column="0">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2974Text}" FontSize="13"
                                                    Foreground="{StaticResource TextSecondaryBrush}"/>
-                                        <TextBlock Text="Auto-boost fans when temps exceed threshold, including the emergency 100% override on custom curves. Disable if your laptop naturally runs hot and you manage fans manually — you take full responsibility for thermal management." FontSize="11"
+                                        <TextBlock Text="{x:Static loc:Strings.SafetyCriticalBatch8}" FontSize="11"
                                                    Foreground="{StaticResource TextTertiaryBrush}" TextWrapping="Wrap"/>
                                     </StackPanel>
                                     <ToggleButton Grid.Column="1"
                                                   Style="{StaticResource ModernToggleButton}"
                                                   IsChecked="{Binding ThermalProtectionEnabled}"
-                                                  AutomationProperties.Name="Thermal protection"/>
+                                                  AutomationProperties.Name="{x:Static loc:Strings.SafetyCriticalBatch9}"/>
                                 </Grid>
 
                                 <!-- Thermal Protection Threshold -->
@@ -2992,13 +2992,13 @@
                                     <StackPanel Grid.Column="0">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2993Text}" FontSize="13"
                                                    Foreground="{StaticResource TextSecondaryBrush}"/>
-                                        <TextBlock Text="Fans ramp up when temps exceed this (70-95°C)" FontSize="11"
+                                        <TextBlock Text="{x:Static loc:Strings.SafetyCriticalBatch10}" FontSize="11"
                                                    Foreground="{StaticResource TextTertiaryBrush}"/>
                                     </StackPanel>
                                     <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
                                         <TextBox Text="{Binding ThermalProtectionThreshold, StringFormat=F0}"
                                                  Width="50" Padding="6,4" TextAlignment="Right"
-                                                 AutomationProperties.Name="Thermal protection ramp threshold in Celsius"/>
+                                                 AutomationProperties.Name="{x:Static loc:Strings.SafetyCriticalBatch11}"/>
                                         <TextBlock Text="°C" VerticalAlignment="Center" Margin="4,0,0,0"
                                                    Foreground="{StaticResource TextSecondaryBrush}"/>
                                     </StackPanel>
@@ -3012,15 +3012,15 @@
                                         <ColumnDefinition Width="80"/>
                                     </Grid.ColumnDefinitions>
                                     <StackPanel Grid.Column="0">
-                                        <TextBlock Text="Emergency Max-Fan Threshold" FontSize="13"
+                                        <TextBlock Text="{x:Static loc:Strings.SafetyCriticalBatch12}" FontSize="13"
                                                    Foreground="{StaticResource TextSecondaryBrush}"/>
-                                        <TextBlock Text="Fans forced to 100% immediately above this (90-99°C, always at least 2°C above the ramp threshold above)" FontSize="11"
+                                        <TextBlock Text="{x:Static loc:Strings.SafetyCriticalBatch13}" FontSize="11"
                                                    Foreground="{StaticResource TextTertiaryBrush}" TextWrapping="Wrap"/>
                                     </StackPanel>
                                     <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
                                         <TextBox Text="{Binding ThermalEmergencyThreshold, StringFormat=F0}"
                                                  Width="50" Padding="6,4" TextAlignment="Right"
-                                                 AutomationProperties.Name="Emergency max fan threshold in Celsius"/>
+                                                 AutomationProperties.Name="{x:Static loc:Strings.SafetyCriticalBatch14}"/>
                                         <TextBlock Text="°C" VerticalAlignment="Center" Margin="4,0,0,0"
                                                    Foreground="{StaticResource TextSecondaryBrush}"/>
                                     </StackPanel>
@@ -3035,11 +3035,11 @@
                                     <StackPanel Grid.Column="0">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3036Text}" FontSize="13"
                                                    Foreground="{StaticResource TextSecondaryBrush}"/>
-                                        <TextBlock Text="Override auto-detected max fan level. Set to 0 for auto-detect. If fans don't reach full speed, try 63 or 100. Requires restart." FontSize="11" 
+                                        <TextBlock Text="{x:Static loc:Strings.SafetyCriticalBatch15}" FontSize="11" 
                                                    Foreground="{StaticResource TextTertiaryBrush}" TextWrapping="Wrap"/>
                                     </StackPanel>
                                     <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
-                                        <TextBox AutomationProperties.Name="Max Fan Level Override" Text="{Binding MaxFanLevelOverride, StringFormat=F0}" 
+                                        <TextBox AutomationProperties.Name="{x:Static loc:Strings.SafetyCriticalBatch16}" Text="{Binding MaxFanLevelOverride, StringFormat=F0}" 
                                                  Width="50" Padding="6,4" TextAlignment="Right"/>
                                     </StackPanel>
                                 </Grid>
@@ -3144,23 +3144,23 @@
                                 CornerRadius="8" Padding="16" Margin="0,0,0,16"
                                 BorderBrush="#4CAF50" BorderThickness="1">
                             <StackPanel>
-                                <TextBlock Text="✓ Automatic System Restore Point" 
+                                <TextBlock Text="{x:Static loc:Strings.SafetyCriticalBatch17}" 
                                            FontSize="14" FontWeight="SemiBold"
                                            Foreground="#4CAF50" Margin="0,0,0,8"/>
                                 
                                 <TextBlock FontSize="12" 
                                            Foreground="{StaticResource TextSecondaryBrush}"
                                            TextWrapping="Wrap" Margin="0,0,0,8">
-                                    <Run Text="A System Restore point will be created automatically before cleanup starts. If restore point creation fails (e.g., System Restore is disabled), you'll be prompted to continue or cancel."/>
+                                    <Run Text="{x:Static loc:Strings.SafetyCriticalBatch18}"/>
                                 </TextBlock>
                                 
                                 <TextBlock FontSize="11" 
                                            Foreground="{StaticResource TextSecondaryBrush}"
                                            TextWrapping="Wrap">
-                                    <Run Text="Tip: You can also manually create a restore point using the button below if you want extra safety."/>
+                                    <Run Text="{x:Static loc:Strings.SafetyCriticalBatch19}"/>
                                 </TextBlock>
                                 
-                                <Button AutomationProperties.Name="Create Manual Restore Point" Content="{x:Static loc:Strings.SettingsReferenceText3163Content}"
+                                <Button AutomationProperties.Name="{x:Static loc:Strings.SafetyCriticalBatch20}" Content="{x:Static loc:Strings.SettingsReferenceText3163Content}"
                                         Style="{StaticResource SecondaryButton}"
                                         Command="{Binding CreateRestorePointCommand}"
                                         HorizontalAlignment="Left" Padding="16,8" Margin="0,12,0,0"

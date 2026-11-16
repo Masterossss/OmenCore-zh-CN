@@ -65,7 +65,7 @@
                           VerticalAlignment="Top"/>
                     <TextBlock Grid.Column="1" FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap">
                         <Run Text="{x:Static loc:Strings.TuningViewText66}" FontWeight="Bold" Foreground="{StaticResource ErrorBrush}"/>
-                        <Run Text=" — Improper values may cause crashes or freezes. Start small, test stability. Settings reset on reboot unless auto-apply is enabled."/>
+                        <Run Text="{x:Static loc:Strings.SafetyCriticalBatch21}"/>
                     </TextBlock>
                 </Grid>
             </Border>

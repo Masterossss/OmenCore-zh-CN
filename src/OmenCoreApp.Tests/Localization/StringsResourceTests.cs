@@ -327,6 +327,22 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void CriticalSettingsWarningsPreserveConditionsAndRisk()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                Strings.SettingsSafetyBatch4.Should().Contain("60°C").And.Contain("2 分钟").And.Contain("未经硬件验证");
+                Strings.SafetyCriticalBatch4.Should().Contain("崩溃").And.Contain("强制重启");
+                Strings.SafetyCriticalBatch8.Should().Contain("全部责任").And.Contain("100%");
+                Strings.SafetyCriticalBatch13.Should().Contain("90–99°C").And.Contain("2°C").And.Contain("100%");
+                Strings.SafetyCriticalBatch21.Should().Contain("崩溃").And.Contain("死机").And.Contain("重启");
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void MemoryNotificationToastAndHistoryLocalizeWithoutChangingRawValues()
         {
             var original = CultureInfo.CurrentUICulture;

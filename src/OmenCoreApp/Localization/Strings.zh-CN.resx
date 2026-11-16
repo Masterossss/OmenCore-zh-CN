@@ -1817,4 +1817,51 @@
   <data name="BloatDescription26" xml:space="preserve"><value>HP 计划任务</value></data>
   <data name="BloatDescription27" xml:space="preserve"><value>遥测数据收集任务</value></data>
   <data name="BloatDescription28" xml:space="preserve"><value>OneDrive 定时同步任务</value></data>
+  <data name="SettingsSafetyBatch0" xml:space="preserve"><value>恢复自动模式时不固定风扇档位（实验性）</value></data>
+  <data name="SettingsSafetyBatch1" xml:space="preserve"><value>适用于高温下风扇仍保持约 2000 RPM、直至恢复厂商配置的笔记本电脑。将控制权交回 BIOS 时，跳过 OmenCore 发送的风扇档位提示。默认关闭；重启后生效。尚未经硬件验证。</value></data>
+  <data name="SettingsSafetyBatch2" xml:space="preserve"><value>恢复自动模式时不固定风扇档位</value></data>
+  <data name="SettingsSafetyBatch3" xml:space="preserve"><value>将最大风扇模式恢复为自动</value></data>
+  <data name="SettingsSafetyBatch4" xml:space="preserve"><value>关闭时，最大风扇模式将持续至手动更改。冷却模式在 CPU 和 GPU 温度连续 2 分钟低于 60°C 后，将风扇控制权交还 BIOS 自动模式。定时模式在所选时间后交还控制权。尚未经硬件验证。</value></data>
+  <data name="SettingsSafetyBatch5" xml:space="preserve"><value>最大风扇自动恢复计时器（分钟）</value></data>
+  <data name="SettingsSafetyBatch6" xml:space="preserve"><value>分钟</value></data>
+  <data name="SettingsSafetyBatch7" xml:space="preserve"><value>OmenCore 启动后重新应用保存的风扇预设、性能模式、GPU 增强和性能调校设置。</value></data>
+  <data name="SettingsSafetyBatch8" xml:space="preserve"><value>启动时恢复上次的硬件设置</value></data>
+  <data name="SettingsSafetyBatch9" xml:space="preserve"><value>覆盖针对报告过启动时固件敏感问题的机型所设的额外保护。除非希望在这些系统上自动重新应用设置，否则请保持关闭。</value></data>
+  <data name="SettingsSafetyBatch10" xml:space="preserve"><value>允许在 OMEN 16/Victus 上启动恢复</value></data>
+  <data name="SettingsSafetyBatch11" xml:space="preserve"><value>启动恢复类别</value></data>
+  <data name="SettingsSafetyBatch12" xml:space="preserve"><value>风扇</value></data>
+  <data name="SettingsSafetyBatch13" xml:space="preserve"><value>启动时重新应用保存的风扇预设或曲线。</value></data>
+  <data name="SettingsSafetyBatch14" xml:space="preserve"><value>恢复保存的最大风扇模式</value></data>
+  <data name="SettingsSafetyBatch15" xml:space="preserve"><value>允许启动时使用保存的最大预设，以全速运行风扇。默认关闭，关闭时改用 BIOS 自动模式。</value></data>
+  <data name="SettingsSafetyBatch16" xml:space="preserve"><value>性能模式下使用出厂风扇曲线（实验性）</value></data>
+  <data name="SettingsSafetyBatch17" xml:space="preserve"><value>此主板的固件自动模式在高负载下可能使风扇转速过低。此选项仅在性能模式启用且风扇处于自动模式时，改用 HP 自带的性能模式风扇曲线。尚未经硬件验证；关闭后风扇恢复 BIOS 自动模式。默认关闭。</value></data>
+  <data name="SettingsSafetyBatch18" xml:space="preserve"><value>性能模式下使用出厂风扇曲线</value></data>
+  <data name="SettingsSafetyBatch19" xml:space="preserve"><value>性能</value></data>
+  <data name="SettingsSafetyBatch20" xml:space="preserve"><value>重新应用性能模式和 GPU 功率增强。</value></data>
+  <data name="SettingsSafetyBatch21" xml:space="preserve"><value>启用 RGB 启动恢复时，恢复保存的键盘灯光颜色。</value></data>
+  <data name="SettingsSafetyBatch22" xml:space="preserve"><value>性能调校</value></data>
+  <data name="SettingsSafetyBatch23" xml:space="preserve"><value>重新应用已确认的降压、TCC、CPU 功率和 GPU 超频恢复路径。在 OMEN 16/Victus 机型上，除非启用“允许在 OMEN 16/Victus 上启动恢复”，否则跳过此项。</value></data>
+  <data name="SettingsSafetyBatch24" xml:space="preserve"><value>启动恢复：</value></data>
+  <data name="SafetyCriticalBatch0" xml:space="preserve"><value>实验性：直接 EC 键盘控制</value></data>
+  <data name="SafetyCriticalBatch1" xml:space="preserve"><value>仅当 WMI 键盘控制在您的机型上不起作用时启用。</value></data>
+  <data name="SafetyCriticalBatch2" xml:space="preserve"><value>强制 EC 键盘写入</value></data>
+  <data name="SafetyCriticalBatch3" xml:space="preserve"><value>⚠️ 警告：EC 写入曾导致 OMEN 17-ck2xxx 崩溃。</value></data>
+  <data name="SafetyCriticalBatch4" xml:space="preserve"><value>这可能导致系统严重崩溃，需要强制重启。</value></data>
+  <data name="SafetyCriticalBatch5" xml:space="preserve"><value>独占 EC 诊断</value></data>
+  <data name="SafetyCriticalBatch6" xml:space="preserve"><value>⚠️ 诊断模式：获取独占 EC 访问权以检测冲突。</value></data>
+  <data name="SafetyCriticalBatch7" xml:space="preserve"><value>可能干扰 OMEN Gaming Hub 或其他风扇控制程序。</value></data>
+  <data name="SafetyCriticalBatch8" xml:space="preserve"><value>温度超过阈值时自动提高风扇转速，包括在自定义曲线上紧急强制 100% 转速。如果您的笔记本电脑正常运行温度较高且由您手动管理风扇，可将其关闭；关闭后您须对散热管理承担全部责任。</value></data>
+  <data name="SafetyCriticalBatch9" xml:space="preserve"><value>散热保护</value></data>
+  <data name="SafetyCriticalBatch10" xml:space="preserve"><value>温度超过此值时风扇逐步加速（70–95°C）</value></data>
+  <data name="SafetyCriticalBatch11" xml:space="preserve"><value>散热保护渐升阈值（摄氏度）</value></data>
+  <data name="SafetyCriticalBatch12" xml:space="preserve"><value>紧急最大风扇阈值</value></data>
+  <data name="SafetyCriticalBatch13" xml:space="preserve"><value>温度超过此值立即强制风扇达到 100%（90–99°C，始终至少比上方渐升阈值高 2°C）</value></data>
+  <data name="SafetyCriticalBatch14" xml:space="preserve"><value>紧急最大风扇阈值（摄氏度）</value></data>
+  <data name="SafetyCriticalBatch15" xml:space="preserve"><value>覆盖自动检测的最大风扇档位。设为 0 表示自动检测。如果风扇未达到全速，可尝试 63 或 100。需要重启。</value></data>
+  <data name="SafetyCriticalBatch16" xml:space="preserve"><value>覆盖最大风扇档位</value></data>
+  <data name="SafetyCriticalBatch17" xml:space="preserve"><value>✓ 自动创建系统还原点</value></data>
+  <data name="SafetyCriticalBatch18" xml:space="preserve"><value>清理开始前将自动创建系统还原点。如果创建失败（例如系统还原已禁用），系统会提示您继续或取消。</value></data>
+  <data name="SafetyCriticalBatch19" xml:space="preserve"><value>提示：如需额外保障，也可以使用下方按钮手动创建还原点。</value></data>
+  <data name="SafetyCriticalBatch20" xml:space="preserve"><value>手动创建还原点</value></data>
+  <data name="SafetyCriticalBatch21" xml:space="preserve"><value>——不正确的数值可能导致崩溃或死机。请从小幅调整开始，并测试稳定性。除非启用自动应用，否则设置会在重启后重置。</value></data>
 </root>
