@@ -330,8 +330,8 @@ src/OmenCoreApp/Views/FanControlView.xaml,1077,Text,REAL-TIME STATUS,A,是,已�
 src/OmenCoreApp/Views/FanControlView.xaml,1099,Text,Thermal Protection Active,A,是,已迁移,FanControlViewText1099
 src/OmenCoreApp/Views/FanControlView.xaml,1114,Text,FAN CONTROL OWNER,A,是,已迁移,FanControlViewText1114
 src/OmenCoreApp/Views/FanControlView.xaml,1144,Text,CALIBRATION WIZARD,A,是,已迁移,FanControlViewText1144
-src/OmenCoreApp/Views/FanControlView.xaml,1186,Text,CPU: ,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/FanControlView.xaml,1192,Text,GPU: ,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/FanControlView.xaml,1186,Text,CPU: ,B,是,保留,通用技术缩写或单位
+src/OmenCoreApp/Views/FanControlView.xaml,1192,Text,GPU: ,B,是,保留,通用技术缩写或单位
 src/OmenCoreApp/Views/FanDiagnosticsView.xaml,10,Text,Fan Diagnostics,A,是,已迁移,FanDiagnosticsViewText10
 src/OmenCoreApp/Views/FanDiagnosticsView.xaml,13,Text,Selected Fan,A,是,已迁移,FanDiagnosticsViewText13
 src/OmenCoreApp/Views/FanDiagnosticsView.xaml,15,Content,CPU Fan,A,是,已迁移,FanDiagnosticsViewText15
@@ -340,7 +340,7 @@ src/OmenCoreApp/Views/FanDiagnosticsView.xaml,19,Text,Target Percent,A,是,已�
 src/OmenCoreApp/Views/FanDiagnosticsView.xaml,26,Content,Apply &amp; Verify,A,是,已迁移,FanDiagnosticsViewText26
 src/OmenCoreApp/Views/FanDiagnosticsView.xaml,27,Content,Refresh,A,是,已迁移,FanDiagnosticsViewText27
 src/OmenCoreApp/Views/FanDiagnosticsView.xaml,33,Text,Current State,A,是,已迁移,FanDiagnosticsViewText33
-src/OmenCoreApp/Views/FanDiagnosticsView.xaml,34,Text,RPM:,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/FanDiagnosticsView.xaml,34,Text,RPM:,B,是,保留,通用技术缩写或单位
 src/OmenCoreApp/Views/FanDiagnosticsView.xaml,38,ToolTip,"Source of RPM data: EC=Direct EC read, HWMon=LibreHardwareMonitor, MAB=MSI Afterburner, Est=Estimated",A,是,已迁移,FanDiagnosticsViewText38
 src/OmenCoreApp/Views/FanDiagnosticsView.xaml,42,Text,Level:,A,是,已迁移,FanDiagnosticsViewText42
 src/OmenCoreApp/Views/FanDiagnosticsView.xaml,50,Text,Guided Fan Verification,A,是,已迁移,FanDiagnosticsViewText50

@@ -28,3 +28,10 @@
 - 34 个 Views/Controls XAML 文件 XML 解析成功；同口径扫描剩余 1263 个英文开头的 Text、Content、ToolTip、Header 属性候选。它们包含技术缩写、设计时占位符和需要翻译的文本，尚未逐条分类，不能当作未翻译总数。其他用户可见属性及动态文本不在该数字内。
 - 解决方案 Debug 构建 0 错误、0 警告；本地化测试 9 项通过。没有运行完整硬件相关测试，未执行实际 GUI 验证。
 - 项目仍不满足最终汉化和安全验收条件，未生成最终发布 ZIP。之前的预览程序不包含本次增量，不应作为最终交付物。
+
+## 第三阶段检查点（未完成）
+
+- 从 c771071 起新增 414 个资源键，迁移常规、高级、调校、风扇控制与诊断、系统诊断、硬件监控、游戏库和游戏配置页的部分静态属性；中文资源共 551 键。俄语、土耳其语新增资源为英文回退。
+- 候选清单 LOCALIZATION-ZH-CN-CANDIDATES.csv 固定记录本阶段开始时 1263 条 Text/Content/ToolTip/Header 候选及当时行号，不覆盖全部 XAML 形式、动态文字、提示、绑定和日志。414 条已迁移，19 条作为技术标识保留，830 条待核实，不能据此计算完整汉化率。
+- 恢复位置：先审查第一批 ViewModel 和 Code-behind 的动态文字、验证错误与禁用原因（FanDiagnosticsViewModel、TuningViewModel、FanControlViewModel、GeneralViewModel 等）；随后处理 LightingView、MemoryOptimizerView、SystemOptimizerView、BloatwareManagerView、SettingsView、托盘及 OSD。还需检查已修改页面中的文本节点、StringFormat 和绑定显示。
+- 本阶段每批 Debug 解决方案构建成功（0 错误、0 警告），本地化测试各 9 项通过。尚未运行完整测试套件或实际 GUI，未验证启动全程只读；未生成最终 ZIP。
