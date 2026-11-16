@@ -523,4 +523,104 @@
   <data name="TuningViewText1488" xml:space="preserve"><value>将 GPU 核心频率、显存频率和功率限制恢复为出厂值。</value></data>
   <data name="TuningViewText1507" xml:space="preserve"><value>无可用调校功能</value></data>
   <data name="TuningViewText1509" xml:space="preserve"><value>你的系统不支持通过 OmenCore 进行 CPU 降压、功率限制控制或 GPU 超频。</value></data>
+  <data name="DiagnosticsViewText15" xml:space="preserve"><value>系统诊断</value></data>
+  <data name="DiagnosticsViewText16" xml:space="preserve"><value>硬件测试与验证工具</value></data>
+  <data name="DiagnosticsViewText30" xml:space="preserve"><value>风扇诊断</value></data>
+  <data name="DiagnosticsViewText35" xml:space="preserve"><value>键盘灯光诊断</value></data>
+  <data name="DiagnosticsViewText41" xml:space="preserve"><value>监控诊断</value></data>
+  <data name="DiagnosticsViewText49" xml:space="preserve"><value>状态：</value></data>
+  <data name="DiagnosticsViewText52" xml:space="preserve"><value>来源：</value></data>
+  <data name="DiagnosticsViewText55" xml:space="preserve"><value>距上次采样：</value></data>
+  <data name="DiagnosticsViewText58" xml:space="preserve"><value>连续超时次数：</value></data>
+  <data name="DiagnosticsViewText61" xml:space="preserve"><value>CPU 温度覆盖：</value></data>
+  <data name="DiagnosticsViewText65" xml:space="preserve"><value>导出诊断信息</value></data>
+  <data name="DiagnosticsViewText66" xml:space="preserve"><value>将完整的核心控制就绪报告保存到文件，以便排查问题或报告错误</value></data>
+  <data name="DiagnosticsViewText68Content" xml:space="preserve"><value>导出遥测数据</value></data>
+  <data name="DiagnosticsViewText68ToolTip" xml:space="preserve"><value>创建遥测 JSON 的副本以上传</value></data>
+  <data name="DiagnosticsViewText70Content" xml:space="preserve"><value>报告机型</value></data>
+  <data name="DiagnosticsViewText70ToolTip" xml:space="preserve"><value>创建诊断包并将机型信息复制到剪贴板</value></data>
+  <data name="DiagnosticsViewText76" xml:space="preserve"><value>活动警报</value></data>
+  <data name="DiagnosticsViewText77" xml:space="preserve"><value>后端：</value></data>
+  <data name="DiagnosticsViewText80" xml:space="preserve"><value>工作进程超时次数：</value></data>
+  <data name="DiagnosticsViewText83" xml:space="preserve"><value>快捷操作</value></data>
+  <data name="DiagnosticsViewText84" xml:space="preserve"><value>打开应用日志文件夹</value></data>
+  <data name="DiagnosticsViewText85" xml:space="preserve"><value>在文件资源管理器中打开 OmenCore 日志文件夹</value></data>
+  <data name="DiagnosticsViewText87" xml:space="preserve"><value>打开 OmenCore 数据文件夹</value></data>
+  <data name="DiagnosticsViewText88" xml:space="preserve"><value>在文件资源管理器中打开 OmenCore 配置和已保存数据文件夹</value></data>
+  <data name="DiagnosticsViewText97" xml:space="preserve"><value>温度来源比较</value></data>
+  <data name="DiagnosticsViewText100" xml:space="preserve"><value>同时读取 OmenCore 已知的所有 CPU 温度来源并报告它们是否一致。不会改变所信任的来源，此操作为只读。</value></data>
+  <data name="DiagnosticsViewText106" xml:space="preserve"><value>并排读取 WMI BIOS、ACPI 和 LibreHardwareMonitor 的 CPU 温度数据。只读，不会更改任何设置。</value></data>
+  <data name="DiagnosticsViewText123" xml:space="preserve"><value>电源适配器</value></data>
+  <data name="DiagnosticsViewText132" xml:space="preserve"><value>已连接的适配器</value></data>
+  <data name="DiagnosticsViewText137" xml:space="preserve"><value>原配适配器</value></data>
+  <data name="DiagnosticsViewText161" xml:space="preserve"><value>当前 GPU 功率限制</value></data>
+  <data name="DiagnosticsViewText176" xml:space="preserve"><value>直接从驱动读取 GPU 当前功率限制。只读，不会更改任何设置。</value></data>
+  <data name="DiagnosticsViewText181" xml:space="preserve"><value>解除适配器功率限制</value></data>
+  <data name="DiagnosticsViewText185" xml:space="preserve"><value>固件在评估适配器时只通知 GPU 驱动一次，驱动无法主动查询。刚启动的驱动尚未收到通知，因此重启设备会清除限制，直到再次收到通知。更换电源或重启系统都会触发通知。</value></data>
+  <data name="DiagnosticsViewText188" xml:space="preserve"><value>同一电源通过另一条路径限制 CPU：四项 AMD SMU 功率限制中有三项被固定在较低水平，重启设备无法改变它们。这些限制会被直接写入，并在系统恢复或电源变化后重新设置，因为这些事件会移除限制。</value></data>
+  <data name="DiagnosticsViewText194" xml:space="preserve"><value>屏幕会黑屏数秒，所有正在使用 GPU 的程序都会暂时失去 GPU。运行游戏或渲染任务时不要执行此操作。</value></data>
+  <data name="DiagnosticsViewText196" xml:space="preserve"><value>解除限制</value></data>
+  <data name="DiagnosticsViewText201" xml:space="preserve"><value>重启 GPU 设备，强制驱动重新读取适配器的供电能力。屏幕会黑屏数秒；运行游戏或渲染任务时不要使用。</value></data>
+  <data name="DiagnosticsViewText208" xml:space="preserve"><value>停止维持 CPU 限制</value></data>
+  <data name="DiagnosticsViewText213" xml:space="preserve"><value>释放 OmenCore 为绕过适配器限制而当前固定在低值的 AMD SMU 功率限制</value></data>
+  <data name="DiagnosticsViewText221" xml:space="preserve"><value>自动执行此操作</value></data>
+  <data name="DiagnosticsViewText225" xml:space="preserve"><value>保持提高后的 CPU 功率限制</value></data>
+  <data name="DiagnosticsViewText229" xml:space="preserve"><value>在启动、系统恢复以及电源变化后应用；这些事件会移除限制。其余时间不会执行写入，也不会从正在运行的程序中夺取资源。</value></data>
+  <data name="DiagnosticsViewText232" xml:space="preserve"><value>重启 GPU 以解除限制——仅在 GPU 休眠时</value></data>
+  <data name="DiagnosticsViewText236" xml:space="preserve"><value>仅在驱动已停放 GPU 且显示器由集成显卡驱动时执行，因此不会中断任务或导致黑屏。如果执行时 GPU 处于活动状态，则不会操作并会通知你；此时可使用上方按钮。</value></data>
+  <data name="DiagnosticsViewText251" xml:space="preserve"><value>每次打开此选项卡时从 BIOS 读取。这是设备自身报告的连接电源信息，并非实测值。</value></data>
+  <data name="DiagnosticsViewText261" xml:space="preserve"><value>GPU 功率解锁（实验性，仅限 8D87 主板）</value></data>
+  <data name="DiagnosticsViewText265" xml:space="preserve"><value>此主板上的 GPU 受到两个固件门控限制，无法达到完整的 175 W 额定功率；OMEN Gaming Hub 通常会保持它们开启。此操作会短暂固定这两个门控并要求驱动重新读取，既非超频也不持久：下次系统恢复、电源适配器变化或重启时，固件会重新接管两个门控。</value></data>
+  <data name="DiagnosticsViewText268" xml:space="preserve"><value>尚未在真实硬件上确认。在本功能所依据的调查中，曾观察到在额定功率不足的适配器上强制执行会使 GPU 陷入性能下降状态，只有重启才能恢复；该设备此前有 GPU 驱动崩溃记录。因此，此功能仅在适配器功率远高于设备额定需求时提供。</value></data>
+  <data name="DiagnosticsViewText272" xml:space="preserve"><value>尝试 GPU 功率解锁</value></data>
+  <data name="DiagnosticsViewText277" xml:space="preserve"><value>实验性功能。固定两个 EC 位并发送一条 WMI 命令，然后通过测量 GPU 功率验证。尚未在真实硬件上确认，请参阅上文。</value></data>
+  <data name="DiagnosticsViewText284" xml:space="preserve"><value>机型能力</value></data>
+  <data name="DiagnosticsViewText295" xml:space="preserve"><value>产品 ID：</value></data>
+  <data name="DiagnosticsViewText317" xml:space="preserve"><value>此处反映 OmenCore 机型数据库对本机所检测主板的了解。显示“不支持”可能是真实的硬件或固件限制，而非 OmenCore 错误。这些条目描述高级功能（自定义曲线、独立区域、GPU 功率增强）；“常规”选项卡中的基本自动/性能/最大风扇模式单独控制，不受此列表影响。如果你的机型显示未验证且下方内容有误，请报告。</value></data>
+  <data name="DiagnosticsViewText324" xml:space="preserve"><value>自定义风扇曲线</value></data>
+  <data name="DiagnosticsViewText334" xml:space="preserve"><value>独立 CPU/GPU 风扇曲线</value></data>
+  <data name="DiagnosticsViewText344" xml:space="preserve"><value>实际风扇转速读取</value></data>
+  <data name="DiagnosticsViewText351" xml:space="preserve"><value>GPU MUX 切换</value></data>
+  <data name="DiagnosticsViewText361" xml:space="preserve"><value>GPU 功率增强（TGP）</value></data>
+  <data name="DiagnosticsViewText371" xml:space="preserve"><value>Advanced Optimus 显卡切换</value></data>
+  <data name="DiagnosticsViewText391" xml:space="preserve"><value>逐键 RGB</value></data>
+  <data name="DiagnosticsViewText401" xml:space="preserve"><value>灯条</value></data>
+  <data name="DiagnosticsViewText411" xml:space="preserve"><value>CPU 降压</value></data>
+  <data name="DiagnosticsViewText421" xml:space="preserve"><value>功率限制（PL1/PL2）调整</value></data>
+  <data name="DiagnosticsViewText428" xml:space="preserve"><value>Overboost 模式</value></data>
+  <data name="DiagnosticsViewText456" xml:space="preserve"><value>风扇诊断：</value></data>
+  <data name="DiagnosticsViewText460" xml:space="preserve"><value>键盘诊断：</value></data>
+  <data name="DiagnosticsViewText464" xml:space="preserve"><value>诊断工具仅用于故障排查，会临时覆盖正常设置</value></data>
+  <data name="HardwareMonitoringDashboardText102" xml:space="preserve"><value>硬件监控仪表盘</value></data>
+  <data name="HardwareMonitoringDashboardText103" xml:space="preserve"><value>实时监控功耗、电池容量和系统性能，并显示历史趋势与警报。</value></data>
+  <data name="HardwareMonitoringDashboardText112" xml:space="preserve"><value>当前指标</value></data>
+  <data name="HardwareMonitoringDashboardText118" xml:space="preserve"><value>功耗</value></data>
+  <data name="HardwareMonitoringDashboardText120" xml:space="preserve"><value>瓦特</value></data>
+  <data name="HardwareMonitoringDashboardText128" xml:space="preserve"><value>电池容量</value></data>
+  <data name="HardwareMonitoringDashboardText131" xml:space="preserve"><value>不可用</value></data>
+  <data name="HardwareMonitoringDashboardText138" xml:space="preserve"><value>CPU 温度</value></data>
+  <data name="HardwareMonitoringDashboardText141" xml:space="preserve"><value>正常</value></data>
+  <data name="HardwareMonitoringDashboardText148" xml:space="preserve"><value>GPU 温度</value></data>
+  <data name="HardwareMonitoringDashboardText151" xml:space="preserve"><value>正常</value></data>
+  <data name="HardwareMonitoringDashboardText157" xml:space="preserve"><value>系统活动</value></data>
+  <data name="HardwareMonitoringDashboardText163" xml:space="preserve"><value>CPU 负载</value></data>
+  <data name="HardwareMonitoringDashboardText187" xml:space="preserve"><value>GPU 负载</value></data>
+  <data name="HardwareMonitoringDashboardText211" xml:space="preserve"><value>CPU 频率</value></data>
+  <data name="HardwareMonitoringDashboardText214" xml:space="preserve"><value>平均核心频率</value></data>
+  <data name="HardwareMonitoringDashboardText221" xml:space="preserve"><value>内存使用率</value></data>
+  <data name="HardwareMonitoringDashboardText235" xml:space="preserve"><value>历史趋势</value></data>
+  <data name="HardwareMonitoringDashboardText279" xml:space="preserve"><value>刷新所有硬件监控图表</value></data>
+  <data name="HardwareMonitoringDashboardText280" xml:space="preserve"><value>将传感器历史记录导出为 CSV 文件</value></data>
+  <data name="HardwareMonitoringDashboardText285" xml:space="preserve"><value>系统警报</value></data>
+  <data name="HardwareMonitoringDashboardText289" xml:space="preserve"><value>活动警报</value></data>
+  <data name="HardwareMonitoringDashboardText306" xml:space="preserve"><value>无活动警报</value></data>
+  <data name="HardwareMonitoringDashboardText311" xml:space="preserve"><value>效率指标</value></data>
+  <data name="HardwareMonitoringDashboardText317" xml:space="preserve"><value>功率效率</value></data>
+  <data name="HardwareMonitoringDashboardText320" xml:space="preserve"><value>良好</value></data>
+  <data name="HardwareMonitoringDashboardText327" xml:space="preserve"><value>散热状态</value></data>
+  <data name="HardwareMonitoringDashboardText328" xml:space="preserve"><value>最佳</value></data>
+  <data name="HardwareMonitoringDashboardText329" xml:space="preserve"><value>状态</value></data>
+  <data name="HardwareMonitoringDashboardText330" xml:space="preserve"><value>风扇：68% 效率</value></data>
+  <data name="HardwareMonitoringDashboardText337" xml:space="preserve"><value>电池状态</value></data>
+  <data name="HardwareMonitoringDashboardText339" xml:space="preserve"><value>循环次数</value></data>
 </root>

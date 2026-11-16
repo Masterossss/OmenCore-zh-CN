@@ -531,4 +531,104 @@ Open GitHub releases to download manually?</value></data>
   <data name="TuningViewText1488" xml:space="preserve"><value>Restore GPU clocks, memory, and power limit to stock values.</value></data>
   <data name="TuningViewText1507" xml:space="preserve"><value>No Tuning Features Available</value></data>
   <data name="TuningViewText1509" xml:space="preserve"><value>Your system doesn't support CPU undervolting, power limit control, or GPU overclocking through OmenCore.</value></data>
+  <data name="DiagnosticsViewText15" xml:space="preserve"><value>System Diagnostics</value></data>
+  <data name="DiagnosticsViewText16" xml:space="preserve"><value>Hardware testing and validation tools</value></data>
+  <data name="DiagnosticsViewText30" xml:space="preserve"><value>Fan Diagnostics</value></data>
+  <data name="DiagnosticsViewText35" xml:space="preserve"><value>Keyboard Lighting Diagnostics</value></data>
+  <data name="DiagnosticsViewText41" xml:space="preserve"><value>Monitoring Diagnostics</value></data>
+  <data name="DiagnosticsViewText49" xml:space="preserve"><value>Health:</value></data>
+  <data name="DiagnosticsViewText52" xml:space="preserve"><value>Source:</value></data>
+  <data name="DiagnosticsViewText55" xml:space="preserve"><value>Last sample age:</value></data>
+  <data name="DiagnosticsViewText58" xml:space="preserve"><value>Consecutive timeouts:</value></data>
+  <data name="DiagnosticsViewText61" xml:space="preserve"><value>CPU temp override:</value></data>
+  <data name="DiagnosticsViewText65" xml:space="preserve"><value>Export diagnostics</value></data>
+  <data name="DiagnosticsViewText66" xml:space="preserve"><value>Save the full core-control-readiness report to a file for troubleshooting or a bug report</value></data>
+  <data name="DiagnosticsViewText68Content" xml:space="preserve"><value>Export telemetry</value></data>
+  <data name="DiagnosticsViewText68ToolTip" xml:space="preserve"><value>Create a copy of the telemetry JSON for upload</value></data>
+  <data name="DiagnosticsViewText70Content" xml:space="preserve"><value>Report model</value></data>
+  <data name="DiagnosticsViewText70ToolTip" xml:space="preserve"><value>Create diagnostics bundle and copy model info to clipboard</value></data>
+  <data name="DiagnosticsViewText76" xml:space="preserve"><value>Active alerts</value></data>
+  <data name="DiagnosticsViewText77" xml:space="preserve"><value>Backend:</value></data>
+  <data name="DiagnosticsViewText80" xml:space="preserve"><value>Worker timeouts:</value></data>
+  <data name="DiagnosticsViewText83" xml:space="preserve"><value>Quick actions</value></data>
+  <data name="DiagnosticsViewText84" xml:space="preserve"><value>Open app logs folder</value></data>
+  <data name="DiagnosticsViewText85" xml:space="preserve"><value>Open the folder containing OmenCore's log files in File Explorer</value></data>
+  <data name="DiagnosticsViewText87" xml:space="preserve"><value>Open OmenCore data folder</value></data>
+  <data name="DiagnosticsViewText88" xml:space="preserve"><value>Open the folder containing OmenCore's config and saved data in File Explorer</value></data>
+  <data name="DiagnosticsViewText97" xml:space="preserve"><value>Temperature Source Comparison</value></data>
+  <data name="DiagnosticsViewText100" xml:space="preserve"><value>Reads every CPU temperature source OmenCore knows about at once and reports whether they agree. Doesn't change which source is trusted — read-only.</value></data>
+  <data name="DiagnosticsViewText106" xml:space="preserve"><value>Read WMI BIOS, ACPI, and LibreHardwareMonitor CPU temperature sources side by side. Read-only, does not change anything.</value></data>
+  <data name="DiagnosticsViewText123" xml:space="preserve"><value>Power Adapter</value></data>
+  <data name="DiagnosticsViewText132" xml:space="preserve"><value>Connected adapter</value></data>
+  <data name="DiagnosticsViewText137" xml:space="preserve"><value>Shipped with</value></data>
+  <data name="DiagnosticsViewText161" xml:space="preserve"><value>Current GPU power limit</value></data>
+  <data name="DiagnosticsViewText176" xml:space="preserve"><value>Read the GPU's current power limit directly from the driver. Read-only, does not change anything.</value></data>
+  <data name="DiagnosticsViewText181" xml:space="preserve"><value>Drop the adapter power clamp</value></data>
+  <data name="DiagnosticsViewText185" xml:space="preserve"><value>The firmware tells the GPU driver about the adapter once, when it evaluates it, and the driver has no way to ask. A driver that has just started has not been told, so restarting the device clears the clamp - and only another notification puts it back. Changing supply does that, and so does a reboot.</value></data>
+  <data name="DiagnosticsViewText188" xml:space="preserve"><value>The same supply clamps the CPU by a different route: three of the four AMD SMU power limits pinned low, which no device restart touches. Those are written directly, and put back after a resume or a change of supply - the events that take them away.</value></data>
+  <data name="DiagnosticsViewText194" xml:space="preserve"><value>Your screens will go black for a few seconds and anything using the GPU will lose it. Do not do this with a game or a render running.</value></data>
+  <data name="DiagnosticsViewText196" xml:space="preserve"><value>Drop the clamp</value></data>
+  <data name="DiagnosticsViewText201" xml:space="preserve"><value>Restarts the GPU device to force the driver to re-read your adapter's power capability. Screens go black for a few seconds - do not use this with a game or render running.</value></data>
+  <data name="DiagnosticsViewText208" xml:space="preserve"><value>Stop holding the CPU limits</value></data>
+  <data name="DiagnosticsViewText213" xml:space="preserve"><value>Release the AMD SMU power limits OmenCore is currently holding pinned low to work around the adapter clamp</value></data>
+  <data name="DiagnosticsViewText221" xml:space="preserve"><value>Do this on its own</value></data>
+  <data name="DiagnosticsViewText225" xml:space="preserve"><value>Keep the CPU power limits raised</value></data>
+  <data name="DiagnosticsViewText229" xml:space="preserve"><value>Applied at startup, after a resume, and when the supply changes - the events that take these limits away. Nothing is written in between, and nothing is taken away from anything that is running.</value></data>
+  <data name="DiagnosticsViewText232" xml:space="preserve"><value>Restart the GPU to drop its clamp - but only while it is asleep</value></data>
+  <data name="DiagnosticsViewText236" xml:space="preserve"><value>Only when the driver has parked the GPU and the display is running on the integrated one, so there is nothing to interrupt and no screen to black out. If it is awake when the moment comes, it is left alone and you are told - use the button above instead.</value></data>
+  <data name="DiagnosticsViewText251" xml:space="preserve"><value>Read from the BIOS each time this tab is opened. This is the machine's own view of the supply attached to it, not a measurement.</value></data>
+  <data name="DiagnosticsViewText261" xml:space="preserve"><value>GPU power unlock (experimental, board 8D87 only)</value></data>
+  <data name="DiagnosticsViewText265" xml:space="preserve"><value>This board's GPU is held under its full 175 W rating by two firmware gates that OMEN Gaming Hub normally holds open. This pins them open for one moment and asks the driver to re-read them - not an overclock, and not persistent: the firmware takes both gates back on the next resume, adapter change, or reboot.</value></data>
+  <data name="DiagnosticsViewText268" xml:space="preserve"><value>Not confirmed on real hardware. Forcing this on an undersized power adapter has been observed, during the investigation this is built from, to leave the GPU in a degraded state that only cleared after a reboot - on a machine with a history of GPU-driver crashes. This is why it only offers itself on an adapter well above this machine's rated requirement.</value></data>
+  <data name="DiagnosticsViewText272" xml:space="preserve"><value>Try the GPU power unlock</value></data>
+  <data name="DiagnosticsViewText277" xml:space="preserve"><value>Experimental. Pins two EC bits and fires one WMI command, then verifies by measured GPU power. Not confirmed on real hardware - see the text above.</value></data>
+  <data name="DiagnosticsViewText284" xml:space="preserve"><value>Model Capabilities</value></data>
+  <data name="DiagnosticsViewText295" xml:space="preserve"><value>Product ID: </value></data>
+  <data name="DiagnosticsViewText317" xml:space="preserve"><value>This reflects what OmenCore's model database knows about the specific board detected on this machine — a feature showing "Not supported" may be a real hardware/firmware limitation rather than an OmenCore bug. These entries describe advanced features (custom curves, independent zones, GPU power boost); basic Auto/Performance/Max fan modes on the General tab are controlled separately and aren't affected by this list. If your model shows unverified and something below looks wrong, please report it.</value></data>
+  <data name="DiagnosticsViewText324" xml:space="preserve"><value>Custom fan curves</value></data>
+  <data name="DiagnosticsViewText334" xml:space="preserve"><value>Independent CPU/GPU fan curves</value></data>
+  <data name="DiagnosticsViewText344" xml:space="preserve"><value>Real fan RPM readback</value></data>
+  <data name="DiagnosticsViewText351" xml:space="preserve"><value>GPU MUX switch</value></data>
+  <data name="DiagnosticsViewText361" xml:space="preserve"><value>GPU power boost (TGP)</value></data>
+  <data name="DiagnosticsViewText371" xml:space="preserve"><value>Advanced Optimus GPU switching</value></data>
+  <data name="DiagnosticsViewText391" xml:space="preserve"><value>Per-key RGB</value></data>
+  <data name="DiagnosticsViewText401" xml:space="preserve"><value>Light bar</value></data>
+  <data name="DiagnosticsViewText411" xml:space="preserve"><value>CPU undervolting</value></data>
+  <data name="DiagnosticsViewText421" xml:space="preserve"><value>Power limit (PL1/PL2) adjustment</value></data>
+  <data name="DiagnosticsViewText428" xml:space="preserve"><value>Overboost mode</value></data>
+  <data name="DiagnosticsViewText456" xml:space="preserve"><value>Fan Diagnostics:</value></data>
+  <data name="DiagnosticsViewText460" xml:space="preserve"><value>Keyboard Diagnostics:</value></data>
+  <data name="DiagnosticsViewText464" xml:space="preserve"><value>Diagnostic tools are for troubleshooting only - they temporarily override your normal settings</value></data>
+  <data name="HardwareMonitoringDashboardText102" xml:space="preserve"><value>Hardware Monitoring Dashboard</value></data>
+  <data name="HardwareMonitoringDashboardText103" xml:space="preserve"><value>Real-time monitoring of power consumption, battery capacity, and system performance with historical trends and alerts.</value></data>
+  <data name="HardwareMonitoringDashboardText112" xml:space="preserve"><value>Current Metrics</value></data>
+  <data name="HardwareMonitoringDashboardText118" xml:space="preserve"><value>POWER CONSUMPTION</value></data>
+  <data name="HardwareMonitoringDashboardText120" xml:space="preserve"><value>Watts</value></data>
+  <data name="HardwareMonitoringDashboardText128" xml:space="preserve"><value>BATTERY CAPACITY</value></data>
+  <data name="HardwareMonitoringDashboardText131" xml:space="preserve"><value>Unavailable</value></data>
+  <data name="HardwareMonitoringDashboardText138" xml:space="preserve"><value>CPU TEMPERATURE</value></data>
+  <data name="HardwareMonitoringDashboardText141" xml:space="preserve"><value>Normal</value></data>
+  <data name="HardwareMonitoringDashboardText148" xml:space="preserve"><value>GPU TEMPERATURE</value></data>
+  <data name="HardwareMonitoringDashboardText151" xml:space="preserve"><value>Normal</value></data>
+  <data name="HardwareMonitoringDashboardText157" xml:space="preserve"><value>System Activity</value></data>
+  <data name="HardwareMonitoringDashboardText163" xml:space="preserve"><value>CPU LOAD</value></data>
+  <data name="HardwareMonitoringDashboardText187" xml:space="preserve"><value>GPU LOAD</value></data>
+  <data name="HardwareMonitoringDashboardText211" xml:space="preserve"><value>CPU CLOCK</value></data>
+  <data name="HardwareMonitoringDashboardText214" xml:space="preserve"><value>Average core clock</value></data>
+  <data name="HardwareMonitoringDashboardText221" xml:space="preserve"><value>RAM USAGE</value></data>
+  <data name="HardwareMonitoringDashboardText235" xml:space="preserve"><value>Historical Trends</value></data>
+  <data name="HardwareMonitoringDashboardText279" xml:space="preserve"><value>Refresh all hardware monitoring charts</value></data>
+  <data name="HardwareMonitoringDashboardText280" xml:space="preserve"><value>Export sensor history to a CSV file</value></data>
+  <data name="HardwareMonitoringDashboardText285" xml:space="preserve"><value>System Alerts</value></data>
+  <data name="HardwareMonitoringDashboardText289" xml:space="preserve"><value>Active Alerts</value></data>
+  <data name="HardwareMonitoringDashboardText306" xml:space="preserve"><value>No active alerts</value></data>
+  <data name="HardwareMonitoringDashboardText311" xml:space="preserve"><value>Efficiency Metrics</value></data>
+  <data name="HardwareMonitoringDashboardText317" xml:space="preserve"><value>Power Efficiency</value></data>
+  <data name="HardwareMonitoringDashboardText320" xml:space="preserve"><value>Good</value></data>
+  <data name="HardwareMonitoringDashboardText327" xml:space="preserve"><value>Thermal Status</value></data>
+  <data name="HardwareMonitoringDashboardText328" xml:space="preserve"><value>Optimal</value></data>
+  <data name="HardwareMonitoringDashboardText329" xml:space="preserve"><value>condition</value></data>
+  <data name="HardwareMonitoringDashboardText330" xml:space="preserve"><value>Fan: 68% efficient</value></data>
+  <data name="HardwareMonitoringDashboardText337" xml:space="preserve"><value>Battery Status</value></data>
+  <data name="HardwareMonitoringDashboardText339" xml:space="preserve"><value>cycles</value></data>
 </root>

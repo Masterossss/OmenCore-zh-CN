@@ -64,39 +64,39 @@ src/OmenCoreApp/Controls/FanCurveChart.xaml,39,Text,Loading fan curve data...,E,
 src/OmenCoreApp/Controls/FanCurveEditor.xaml,86,Text,"Click to add curve points, drag to adjust",E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Controls/GpuVcChart.xaml,24,Text,GPU Voltage,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Controls/GpuVcChart.xaml,34,Text,GPU Current,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,102,Text,Hardware Monitoring Dashboard,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,103,Text,"Real-time monitoring of power consumption, battery capacity, and system performance with historical trends and alerts.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,112,Text,Current Metrics,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,118,Text,POWER CONSUMPTION,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,120,Text,Watts,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,128,Text,BATTERY CAPACITY,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,131,Text,Unavailable,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,138,Text,CPU TEMPERATURE,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,141,Text,Normal,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,148,Text,GPU TEMPERATURE,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,151,Text,Normal,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,157,Text,System Activity,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,163,Text,CPU LOAD,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,187,Text,GPU LOAD,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,211,Text,CPU CLOCK,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,213,Text,MHz,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,214,Text,Average core clock,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,221,Text,RAM USAGE,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,235,Text,Historical Trends,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,279,ToolTip,Refresh all hardware monitoring charts,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,280,ToolTip,Export sensor history to a CSV file,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,285,Text,System Alerts,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,289,Text,Active Alerts,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,306,Text,No active alerts,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,311,Text,Efficiency Metrics,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,317,Text,Power Efficiency,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,320,Text,Good,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,327,Text,Thermal Status,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,328,Text,Optimal,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,329,Text,condition,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,330,Text,Fan: 68% efficient,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,337,Text,Battery Status,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,339,Text,cycles,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,102,Text,Hardware Monitoring Dashboard,A,是,已迁移,HardwareMonitoringDashboardText102
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,103,Text,"Real-time monitoring of power consumption, battery capacity, and system performance with historical trends and alerts.",A,是,已迁移,HardwareMonitoringDashboardText103
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,112,Text,Current Metrics,A,是,已迁移,HardwareMonitoringDashboardText112
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,118,Text,POWER CONSUMPTION,A,是,已迁移,HardwareMonitoringDashboardText118
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,120,Text,Watts,A,是,已迁移,HardwareMonitoringDashboardText120
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,128,Text,BATTERY CAPACITY,A,是,已迁移,HardwareMonitoringDashboardText128
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,131,Text,Unavailable,A,是,已迁移,HardwareMonitoringDashboardText131
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,138,Text,CPU TEMPERATURE,A,是,已迁移,HardwareMonitoringDashboardText138
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,141,Text,Normal,A,是,已迁移,HardwareMonitoringDashboardText141
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,148,Text,GPU TEMPERATURE,A,是,已迁移,HardwareMonitoringDashboardText148
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,151,Text,Normal,A,是,已迁移,HardwareMonitoringDashboardText151
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,157,Text,System Activity,A,是,已迁移,HardwareMonitoringDashboardText157
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,163,Text,CPU LOAD,A,是,已迁移,HardwareMonitoringDashboardText163
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,187,Text,GPU LOAD,A,是,已迁移,HardwareMonitoringDashboardText187
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,211,Text,CPU CLOCK,A,是,已迁移,HardwareMonitoringDashboardText211
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,213,Text,MHz,B,是,保留,通用技术单位
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,214,Text,Average core clock,A,是,已迁移,HardwareMonitoringDashboardText214
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,221,Text,RAM USAGE,A,是,已迁移,HardwareMonitoringDashboardText221
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,235,Text,Historical Trends,A,是,已迁移,HardwareMonitoringDashboardText235
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,279,ToolTip,Refresh all hardware monitoring charts,A,是,已迁移,HardwareMonitoringDashboardText279
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,280,ToolTip,Export sensor history to a CSV file,A,是,已迁移,HardwareMonitoringDashboardText280
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,285,Text,System Alerts,A,是,已迁移,HardwareMonitoringDashboardText285
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,289,Text,Active Alerts,A,是,已迁移,HardwareMonitoringDashboardText289
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,306,Text,No active alerts,A,是,已迁移,HardwareMonitoringDashboardText306
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,311,Text,Efficiency Metrics,A,是,已迁移,HardwareMonitoringDashboardText311
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,317,Text,Power Efficiency,A,是,已迁移,HardwareMonitoringDashboardText317
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,320,Text,Good,A,是,已迁移,HardwareMonitoringDashboardText320
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,327,Text,Thermal Status,A,是,已迁移,HardwareMonitoringDashboardText327
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,328,Text,Optimal,A,是,已迁移,HardwareMonitoringDashboardText328
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,329,Text,condition,A,是,已迁移,HardwareMonitoringDashboardText329
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,330,Text,Fan: 68% efficient,A,是,已迁移,HardwareMonitoringDashboardText330
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,337,Text,Battery Status,A,是,已迁移,HardwareMonitoringDashboardText337
+src/OmenCoreApp/Controls/HardwareMonitoringDashboard.xaml,339,Text,cycles,A,是,已迁移,HardwareMonitoringDashboardText339
 src/OmenCoreApp/Controls/LoadChart.xaml,24,Text,CPU Usage,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Controls/LoadChart.xaml,34,Text,GPU Usage,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Controls/LoadingOverlay.xaml,77,Text,This may take a few moments,E,待核实,待审查,尚未判断是否可见或需要翻译
@@ -193,74 +193,74 @@ src/OmenCoreApp/Views/ColorPickerDialog.xaml,63,Text,Hex:,E,待核实,待审查,
 src/OmenCoreApp/Views/DashboardView.xaml,335,ToolTip,SSD temperature and disk activity. Optimal SSD temp is below 45°C.,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/DashboardView.xaml,527,Text,CPU,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/DashboardView.xaml,538,Text,GPU,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,15,Text,System Diagnostics,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,16,Text,Hardware testing and validation tools,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,30,Header,Fan Diagnostics,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,35,Header,Keyboard Lighting Diagnostics,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,41,Header,Monitoring Diagnostics,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,49,Text,Health:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,52,Text,Source:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,55,Text,Last sample age:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,58,Text,Consecutive timeouts:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,61,Text,CPU temp override:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,65,Content,Export diagnostics,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,66,ToolTip,Save the full core-control-readiness report to a file for troubleshooting or a bug report,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,68,Content,Export telemetry,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,68,ToolTip,Create a copy of the telemetry JSON for upload,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,70,Content,Report model,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,70,ToolTip,Create diagnostics bundle and copy model info to clipboard,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,76,Text,Active alerts,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,77,Text,Backend:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,80,Text,Worker timeouts:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,83,Text,Quick actions,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,84,Content,Open app logs folder,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,85,ToolTip,Open the folder containing OmenCore's log files in File Explorer,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,87,Content,Open OmenCore data folder,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,88,ToolTip,Open the folder containing OmenCore's config and saved data in File Explorer,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,97,Header,Temperature Source Comparison,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,100,Text,Reads every CPU temperature source OmenCore knows about at once and reports whether they agree. Doesn't change which source is trusted — read-only.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,106,ToolTip,"Read WMI BIOS, ACPI, and LibreHardwareMonitor CPU temperature sources side by side. Read-only, does not change anything.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,123,Header,Power Adapter,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,132,Text,Connected adapter,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,137,Text,Shipped with,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,161,Text,Current GPU power limit,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,176,ToolTip,"Read the GPU's current power limit directly from the driver. Read-only, does not change anything.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,181,Text,Drop the adapter power clamp,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,185,Text,"The firmware tells the GPU driver about the adapter once, when it evaluates it, and the driver has no way to ask. A driver that has just started has not been told, so restarting the device clears the clamp - and only another notification puts it back. Changing supply does that, and so does a reboot.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,188,Text,"The same supply clamps the CPU by a different route: three of the four AMD SMU power limits pinned low, which no device restart touches. Those are written directly, and put back after a resume or a change of supply - the events that take them away.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,194,Text,Your screens will go black for a few seconds and anything using the GPU will lose it. Do not do this with a game or a render running.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,196,Content,Drop the clamp,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,201,ToolTip,Restarts the GPU device to force the driver to re-read your adapter's power capability. Screens go black for a few seconds - do not use this with a game or render running.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,208,Content,Stop holding the CPU limits,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,213,ToolTip,Release the AMD SMU power limits OmenCore is currently holding pinned low to work around the adapter clamp,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,221,Text,Do this on its own,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,225,Content,Keep the CPU power limits raised,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,229,Text,"Applied at startup, after a resume, and when the supply changes - the events that take these limits away. Nothing is written in between, and nothing is taken away from anything that is running.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,232,Content,Restart the GPU to drop its clamp - but only while it is asleep,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,236,Text,"Only when the driver has parked the GPU and the display is running on the integrated one, so there is nothing to interrupt and no screen to black out. If it is awake when the moment comes, it is left alone and you are told - use the button above instead.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,251,Text,"Read from the BIOS each time this tab is opened. This is the machine's own view of the supply attached to it, not a measurement.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,261,Text,"GPU power unlock (experimental, board 8D87 only)",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,265,Text,"This board's GPU is held under its full 175 W rating by two firmware gates that OMEN Gaming Hub normally holds open. This pins them open for one moment and asks the driver to re-read them - not an overclock, and not persistent: the firmware takes both gates back on the next resume, adapter change, or reboot.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,268,Text,"Not confirmed on real hardware. Forcing this on an undersized power adapter has been observed, during the investigation this is built from, to leave the GPU in a degraded state that only cleared after a reboot - on a machine with a history of GPU-driver crashes. This is why it only offers itself on an adapter well above this machine's rated requirement.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,272,Content,Try the GPU power unlock,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,277,ToolTip,"Experimental. Pins two EC bits and fires one WMI command, then verifies by measured GPU power. Not confirmed on real hardware - see the text above.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,284,Header,Model Capabilities,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,295,Text,Product ID: ,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,317,Text,"This reflects what OmenCore's model database knows about the specific board detected on this machine — a feature showing &quot;Not supported&quot; may be a real hardware/firmware limitation rather than an OmenCore bug. These entries describe advanced features (custom curves, independent zones, GPU power boost); basic Auto/Performance/Max fan modes on the General tab are controlled separately and aren't affected by this list. If your model shows unverified and something below looks wrong, please report it.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,324,Text,Custom fan curves,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,334,Text,Independent CPU/GPU fan curves,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,344,Text,Real fan RPM readback,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,351,Text,GPU MUX switch,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,361,Text,GPU power boost (TGP),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,371,Text,Advanced Optimus GPU switching,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,391,Text,Per-key RGB,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,401,Text,Light bar,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,411,Text,CPU undervolting,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,421,Text,Power limit (PL1/PL2) adjustment,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,428,Text,Overboost mode,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,456,Text,Fan Diagnostics:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,460,Text,Keyboard Diagnostics:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/DiagnosticsView.xaml,464,Text,Diagnostic tools are for troubleshooting only - they temporarily override your normal settings,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/DiagnosticsView.xaml,15,Text,System Diagnostics,A,是,已迁移,DiagnosticsViewText15
+src/OmenCoreApp/Views/DiagnosticsView.xaml,16,Text,Hardware testing and validation tools,A,是,已迁移,DiagnosticsViewText16
+src/OmenCoreApp/Views/DiagnosticsView.xaml,30,Header,Fan Diagnostics,A,是,已迁移,DiagnosticsViewText30
+src/OmenCoreApp/Views/DiagnosticsView.xaml,35,Header,Keyboard Lighting Diagnostics,A,是,已迁移,DiagnosticsViewText35
+src/OmenCoreApp/Views/DiagnosticsView.xaml,41,Header,Monitoring Diagnostics,A,是,已迁移,DiagnosticsViewText41
+src/OmenCoreApp/Views/DiagnosticsView.xaml,49,Text,Health:,A,是,已迁移,DiagnosticsViewText49
+src/OmenCoreApp/Views/DiagnosticsView.xaml,52,Text,Source:,A,是,已迁移,DiagnosticsViewText52
+src/OmenCoreApp/Views/DiagnosticsView.xaml,55,Text,Last sample age:,A,是,已迁移,DiagnosticsViewText55
+src/OmenCoreApp/Views/DiagnosticsView.xaml,58,Text,Consecutive timeouts:,A,是,已迁移,DiagnosticsViewText58
+src/OmenCoreApp/Views/DiagnosticsView.xaml,61,Text,CPU temp override:,A,是,已迁移,DiagnosticsViewText61
+src/OmenCoreApp/Views/DiagnosticsView.xaml,65,Content,Export diagnostics,A,是,已迁移,DiagnosticsViewText65
+src/OmenCoreApp/Views/DiagnosticsView.xaml,66,ToolTip,Save the full core-control-readiness report to a file for troubleshooting or a bug report,A,是,已迁移,DiagnosticsViewText66
+src/OmenCoreApp/Views/DiagnosticsView.xaml,68,Content,Export telemetry,A,是,已迁移,DiagnosticsViewText68Content
+src/OmenCoreApp/Views/DiagnosticsView.xaml,68,ToolTip,Create a copy of the telemetry JSON for upload,A,是,已迁移,DiagnosticsViewText68ToolTip
+src/OmenCoreApp/Views/DiagnosticsView.xaml,70,Content,Report model,A,是,已迁移,DiagnosticsViewText70Content
+src/OmenCoreApp/Views/DiagnosticsView.xaml,70,ToolTip,Create diagnostics bundle and copy model info to clipboard,A,是,已迁移,DiagnosticsViewText70ToolTip
+src/OmenCoreApp/Views/DiagnosticsView.xaml,76,Text,Active alerts,A,是,已迁移,DiagnosticsViewText76
+src/OmenCoreApp/Views/DiagnosticsView.xaml,77,Text,Backend:,A,是,已迁移,DiagnosticsViewText77
+src/OmenCoreApp/Views/DiagnosticsView.xaml,80,Text,Worker timeouts:,A,是,已迁移,DiagnosticsViewText80
+src/OmenCoreApp/Views/DiagnosticsView.xaml,83,Text,Quick actions,A,是,已迁移,DiagnosticsViewText83
+src/OmenCoreApp/Views/DiagnosticsView.xaml,84,Content,Open app logs folder,A,是,已迁移,DiagnosticsViewText84
+src/OmenCoreApp/Views/DiagnosticsView.xaml,85,ToolTip,Open the folder containing OmenCore's log files in File Explorer,A,是,已迁移,DiagnosticsViewText85
+src/OmenCoreApp/Views/DiagnosticsView.xaml,87,Content,Open OmenCore data folder,A,是,已迁移,DiagnosticsViewText87
+src/OmenCoreApp/Views/DiagnosticsView.xaml,88,ToolTip,Open the folder containing OmenCore's config and saved data in File Explorer,A,是,已迁移,DiagnosticsViewText88
+src/OmenCoreApp/Views/DiagnosticsView.xaml,97,Header,Temperature Source Comparison,A,是,已迁移,DiagnosticsViewText97
+src/OmenCoreApp/Views/DiagnosticsView.xaml,100,Text,Reads every CPU temperature source OmenCore knows about at once and reports whether they agree. Doesn't change which source is trusted — read-only.,A,是,已迁移,DiagnosticsViewText100
+src/OmenCoreApp/Views/DiagnosticsView.xaml,106,ToolTip,"Read WMI BIOS, ACPI, and LibreHardwareMonitor CPU temperature sources side by side. Read-only, does not change anything.",A,是,已迁移,DiagnosticsViewText106
+src/OmenCoreApp/Views/DiagnosticsView.xaml,123,Header,Power Adapter,A,是,已迁移,DiagnosticsViewText123
+src/OmenCoreApp/Views/DiagnosticsView.xaml,132,Text,Connected adapter,A,是,已迁移,DiagnosticsViewText132
+src/OmenCoreApp/Views/DiagnosticsView.xaml,137,Text,Shipped with,A,是,已迁移,DiagnosticsViewText137
+src/OmenCoreApp/Views/DiagnosticsView.xaml,161,Text,Current GPU power limit,A,是,已迁移,DiagnosticsViewText161
+src/OmenCoreApp/Views/DiagnosticsView.xaml,176,ToolTip,"Read the GPU's current power limit directly from the driver. Read-only, does not change anything.",A,是,已迁移,DiagnosticsViewText176
+src/OmenCoreApp/Views/DiagnosticsView.xaml,181,Text,Drop the adapter power clamp,A,是,已迁移,DiagnosticsViewText181
+src/OmenCoreApp/Views/DiagnosticsView.xaml,185,Text,"The firmware tells the GPU driver about the adapter once, when it evaluates it, and the driver has no way to ask. A driver that has just started has not been told, so restarting the device clears the clamp - and only another notification puts it back. Changing supply does that, and so does a reboot.",A,是,已迁移,DiagnosticsViewText185
+src/OmenCoreApp/Views/DiagnosticsView.xaml,188,Text,"The same supply clamps the CPU by a different route: three of the four AMD SMU power limits pinned low, which no device restart touches. Those are written directly, and put back after a resume or a change of supply - the events that take them away.",A,是,已迁移,DiagnosticsViewText188
+src/OmenCoreApp/Views/DiagnosticsView.xaml,194,Text,Your screens will go black for a few seconds and anything using the GPU will lose it. Do not do this with a game or a render running.,A,是,已迁移,DiagnosticsViewText194
+src/OmenCoreApp/Views/DiagnosticsView.xaml,196,Content,Drop the clamp,A,是,已迁移,DiagnosticsViewText196
+src/OmenCoreApp/Views/DiagnosticsView.xaml,201,ToolTip,Restarts the GPU device to force the driver to re-read your adapter's power capability. Screens go black for a few seconds - do not use this with a game or render running.,A,是,已迁移,DiagnosticsViewText201
+src/OmenCoreApp/Views/DiagnosticsView.xaml,208,Content,Stop holding the CPU limits,A,是,已迁移,DiagnosticsViewText208
+src/OmenCoreApp/Views/DiagnosticsView.xaml,213,ToolTip,Release the AMD SMU power limits OmenCore is currently holding pinned low to work around the adapter clamp,A,是,已迁移,DiagnosticsViewText213
+src/OmenCoreApp/Views/DiagnosticsView.xaml,221,Text,Do this on its own,A,是,已迁移,DiagnosticsViewText221
+src/OmenCoreApp/Views/DiagnosticsView.xaml,225,Content,Keep the CPU power limits raised,A,是,已迁移,DiagnosticsViewText225
+src/OmenCoreApp/Views/DiagnosticsView.xaml,229,Text,"Applied at startup, after a resume, and when the supply changes - the events that take these limits away. Nothing is written in between, and nothing is taken away from anything that is running.",A,是,已迁移,DiagnosticsViewText229
+src/OmenCoreApp/Views/DiagnosticsView.xaml,232,Content,Restart the GPU to drop its clamp - but only while it is asleep,A,是,已迁移,DiagnosticsViewText232
+src/OmenCoreApp/Views/DiagnosticsView.xaml,236,Text,"Only when the driver has parked the GPU and the display is running on the integrated one, so there is nothing to interrupt and no screen to black out. If it is awake when the moment comes, it is left alone and you are told - use the button above instead.",A,是,已迁移,DiagnosticsViewText236
+src/OmenCoreApp/Views/DiagnosticsView.xaml,251,Text,"Read from the BIOS each time this tab is opened. This is the machine's own view of the supply attached to it, not a measurement.",A,是,已迁移,DiagnosticsViewText251
+src/OmenCoreApp/Views/DiagnosticsView.xaml,261,Text,"GPU power unlock (experimental, board 8D87 only)",A,是,已迁移,DiagnosticsViewText261
+src/OmenCoreApp/Views/DiagnosticsView.xaml,265,Text,"This board's GPU is held under its full 175 W rating by two firmware gates that OMEN Gaming Hub normally holds open. This pins them open for one moment and asks the driver to re-read them - not an overclock, and not persistent: the firmware takes both gates back on the next resume, adapter change, or reboot.",A,是,已迁移,DiagnosticsViewText265
+src/OmenCoreApp/Views/DiagnosticsView.xaml,268,Text,"Not confirmed on real hardware. Forcing this on an undersized power adapter has been observed, during the investigation this is built from, to leave the GPU in a degraded state that only cleared after a reboot - on a machine with a history of GPU-driver crashes. This is why it only offers itself on an adapter well above this machine's rated requirement.",A,是,已迁移,DiagnosticsViewText268
+src/OmenCoreApp/Views/DiagnosticsView.xaml,272,Content,Try the GPU power unlock,A,是,已迁移,DiagnosticsViewText272
+src/OmenCoreApp/Views/DiagnosticsView.xaml,277,ToolTip,"Experimental. Pins two EC bits and fires one WMI command, then verifies by measured GPU power. Not confirmed on real hardware - see the text above.",A,是,已迁移,DiagnosticsViewText277
+src/OmenCoreApp/Views/DiagnosticsView.xaml,284,Header,Model Capabilities,A,是,已迁移,DiagnosticsViewText284
+src/OmenCoreApp/Views/DiagnosticsView.xaml,295,Text,Product ID: ,A,是,已迁移,DiagnosticsViewText295
+src/OmenCoreApp/Views/DiagnosticsView.xaml,317,Text,"This reflects what OmenCore's model database knows about the specific board detected on this machine — a feature showing &quot;Not supported&quot; may be a real hardware/firmware limitation rather than an OmenCore bug. These entries describe advanced features (custom curves, independent zones, GPU power boost); basic Auto/Performance/Max fan modes on the General tab are controlled separately and aren't affected by this list. If your model shows unverified and something below looks wrong, please report it.",A,是,已迁移,DiagnosticsViewText317
+src/OmenCoreApp/Views/DiagnosticsView.xaml,324,Text,Custom fan curves,A,是,已迁移,DiagnosticsViewText324
+src/OmenCoreApp/Views/DiagnosticsView.xaml,334,Text,Independent CPU/GPU fan curves,A,是,已迁移,DiagnosticsViewText334
+src/OmenCoreApp/Views/DiagnosticsView.xaml,344,Text,Real fan RPM readback,A,是,已迁移,DiagnosticsViewText344
+src/OmenCoreApp/Views/DiagnosticsView.xaml,351,Text,GPU MUX switch,A,是,已迁移,DiagnosticsViewText351
+src/OmenCoreApp/Views/DiagnosticsView.xaml,361,Text,GPU power boost (TGP),A,是,已迁移,DiagnosticsViewText361
+src/OmenCoreApp/Views/DiagnosticsView.xaml,371,Text,Advanced Optimus GPU switching,A,是,已迁移,DiagnosticsViewText371
+src/OmenCoreApp/Views/DiagnosticsView.xaml,391,Text,Per-key RGB,A,是,已迁移,DiagnosticsViewText391
+src/OmenCoreApp/Views/DiagnosticsView.xaml,401,Text,Light bar,A,是,已迁移,DiagnosticsViewText401
+src/OmenCoreApp/Views/DiagnosticsView.xaml,411,Text,CPU undervolting,A,是,已迁移,DiagnosticsViewText411
+src/OmenCoreApp/Views/DiagnosticsView.xaml,421,Text,Power limit (PL1/PL2) adjustment,A,是,已迁移,DiagnosticsViewText421
+src/OmenCoreApp/Views/DiagnosticsView.xaml,428,Text,Overboost mode,A,是,已迁移,DiagnosticsViewText428
+src/OmenCoreApp/Views/DiagnosticsView.xaml,456,Text,Fan Diagnostics:,A,是,已迁移,DiagnosticsViewText456
+src/OmenCoreApp/Views/DiagnosticsView.xaml,460,Text,Keyboard Diagnostics:,A,是,已迁移,DiagnosticsViewText460
+src/OmenCoreApp/Views/DiagnosticsView.xaml,464,Text,Diagnostic tools are for troubleshooting only - they temporarily override your normal settings,A,是,已迁移,DiagnosticsViewText464
 src/OmenCoreApp/Views/FanControlView.xaml,65,Text,FAN &amp; THERMAL CONTROL,A,是,已迁移,FanControlViewText65
 src/OmenCoreApp/Views/FanControlView.xaml,66,ToolTip,Manage your laptop's cooling performance. All fan control uses your laptop's standard firmware interface (WMI BIOS). Software commands cannot damage hardware.,A,是,已迁移,FanControlViewText66
 src/OmenCoreApp/Views/FanControlView.xaml,113,Text,CURVE ACTIVE,A,是,已迁移,FanControlViewText113
