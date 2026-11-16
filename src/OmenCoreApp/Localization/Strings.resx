@@ -1749,4 +1749,16 @@ Continue?</value></data>
   <data name="BloatRiskLowDisplay" xml:space="preserve"><value>Low</value></data>
   <data name="BloatRiskMediumDisplay" xml:space="preserve"><value>Medium</value></data>
   <data name="BloatRiskHighDisplay" xml:space="preserve"><value>High</value></data>
+  <data name="BloatPreviewTitle0" xml:space="preserve"><value>Remove Selected Item</value></data>
+  <data name="BloatPreviewTitle1" xml:space="preserve"><value>Remove Low-Risk Bloatware</value></data>
+  <data name="BloatPreviewTitle2" xml:space="preserve"><value>Telemetry Only Preset</value></data>
+  <data name="BloatPreviewTitle3" xml:space="preserve"><value>OMEN Conflict Reducer Preset</value></data>
+  <data name="BloatPreviewTitle4" xml:space="preserve"><value>Windows Consumer Apps Preset</value></data>
+  <data name="BloatPreviewTitle5" xml:space="preserve"><value>Full Standalone Prep Preset</value></data>
+  <data name="BloatEstimateLess" xml:space="preserve"><value>Estimated time: less than 1 minute</value></data>
+  <data name="BloatEstimateMinutes" xml:space="preserve"><value>Estimated time: about {0} minute(s)</value></data>
+  <data name="BloatProgressCount" xml:space="preserve"><value>{0}/{1} done</value></data>
+  <data name="BloatProgressWaiting" xml:space="preserve"><value>Waiting...</value></data>
+  <data name="BloatNoLinked" xml:space="preserve"><value>No obvious linked packages detected</value></data>
+  <data name="BloatRelatedPublisher" xml:space="preserve"><value>Potentially related packages from same publisher: {0}</value></data>
 </root>

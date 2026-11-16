@@ -1605,5 +1605,17 @@ namespace OmenCore.Localization
         public static string BloatRiskLowDisplay => Get(nameof(BloatRiskLowDisplay));
         public static string BloatRiskMediumDisplay => Get(nameof(BloatRiskMediumDisplay));
         public static string BloatRiskHighDisplay => Get(nameof(BloatRiskHighDisplay));
+        public static string BloatPreviewTitle0 => Get(nameof(BloatPreviewTitle0));
+        public static string BloatPreviewTitle1 => Get(nameof(BloatPreviewTitle1));
+        public static string BloatPreviewTitle2 => Get(nameof(BloatPreviewTitle2));
+        public static string BloatPreviewTitle3 => Get(nameof(BloatPreviewTitle3));
+        public static string BloatPreviewTitle4 => Get(nameof(BloatPreviewTitle4));
+        public static string BloatPreviewTitle5 => Get(nameof(BloatPreviewTitle5));
+        public static string BloatEstimateLess => Get(nameof(BloatEstimateLess));
+        public static string BloatEstimateMinutes => Get(nameof(BloatEstimateMinutes));
+        public static string BloatProgressCount => Get(nameof(BloatProgressCount));
+        public static string BloatProgressWaiting => Get(nameof(BloatProgressWaiting));
+        public static string BloatNoLinked => Get(nameof(BloatNoLinked));
+        public static string BloatRelatedPublisher => Get(nameof(BloatRelatedPublisher));
     }
 }

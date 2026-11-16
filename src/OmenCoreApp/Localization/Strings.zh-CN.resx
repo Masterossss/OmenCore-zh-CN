@@ -1741,4 +1741,16 @@
   <data name="BloatRiskLowDisplay" xml:space="preserve"><value>低</value></data>
   <data name="BloatRiskMediumDisplay" xml:space="preserve"><value>中</value></data>
   <data name="BloatRiskHighDisplay" xml:space="preserve"><value>高</value></data>
+  <data name="BloatPreviewTitle0" xml:space="preserve"><value>删除所选项目</value></data>
+  <data name="BloatPreviewTitle1" xml:space="preserve"><value>删除低风险预装软件</value></data>
+  <data name="BloatPreviewTitle2" xml:space="preserve"><value>仅遥测预设</value></data>
+  <data name="BloatPreviewTitle3" xml:space="preserve"><value>减少 OMEN 冲突预设</value></data>
+  <data name="BloatPreviewTitle4" xml:space="preserve"><value>Windows 消费者应用预设</value></data>
+  <data name="BloatPreviewTitle5" xml:space="preserve"><value>完全独立准备预设</value></data>
+  <data name="BloatEstimateLess" xml:space="preserve"><value>预计耗时：不到 1 分钟</value></data>
+  <data name="BloatEstimateMinutes" xml:space="preserve"><value>预计耗时：约 {0} 分钟</value></data>
+  <data name="BloatProgressCount" xml:space="preserve"><value>已完成 {0}/{1}</value></data>
+  <data name="BloatProgressWaiting" xml:space="preserve"><value>正在等待…</value></data>
+  <data name="BloatNoLinked" xml:space="preserve"><value>未检测到明显关联的软件包</value></data>
+  <data name="BloatRelatedPublisher" xml:space="preserve"><value>同一发布者可能相关的软件包：{0}</value></data>
 </root>

@@ -217,8 +217,19 @@ namespace OmenCore.ViewModels
         public string RemovalPreviewTitle
         {
             get => _removalPreviewTitle;
-            private set { _removalPreviewTitle = value; OnPropertyChanged(); }
+            private set { _removalPreviewTitle = value; OnPropertyChanged(); OnPropertyChanged(nameof(RemovalPreviewTitleDisplay)); }
         }
+
+        public string RemovalPreviewTitleDisplay => RemovalPreviewTitle switch
+        {
+            "Remove Selected Item" => Strings.BloatPreviewTitle0,
+            "Remove Low-Risk Bloatware" => Strings.BloatPreviewTitle1,
+            "Telemetry Only Preset" => Strings.BloatPreviewTitle2,
+            "OMEN Conflict Reducer Preset" => Strings.BloatPreviewTitle3,
+            "Windows Consumer Apps Preset" => Strings.BloatPreviewTitle4,
+            "Full Standalone Prep Preset" => Strings.BloatPreviewTitle5,
+            _ => RemovalPreviewTitle
+        };
 
         public string RemovalPreviewSummary
         {
@@ -227,20 +238,20 @@ namespace OmenCore.ViewModels
         }
 
         public string RemovalPreviewEstimatedText => _removalPreviewEstimatedSeconds <= 0
-            ? "Estimated time: less than 1 minute"
-            : $"Estimated time: about {_removalPreviewEstimatedSeconds / 60 + 1} minute(s)";
+            ? Strings.BloatEstimateLess
+            : string.Format(Strings.BloatEstimateMinutes, _removalPreviewEstimatedSeconds / 60 + 1);
 
         public bool HasRemovalPreviewSelection => RemovalPreviewItems.Any(item => item.IsSelected);
 
         public bool CanCancelBulkOperation => IsBulkRemoving || IsBulkRestoring;
 
         public string BulkRemoveProgressText => BulkRemoveTotal > 0
-            ? $"{BulkRemoveProgress}/{BulkRemoveTotal} done"
-            : "Waiting...";
+            ? string.Format(Strings.BloatProgressCount, BulkRemoveProgress, BulkRemoveTotal)
+            : Strings.BloatProgressWaiting;
 
         public string BulkRestoreProgressText => BulkRestoreTotal > 0
-            ? $"{BulkRestoreProgress}/{BulkRestoreTotal} done"
-            : "Waiting...";
+            ? string.Format(Strings.BloatProgressCount, BulkRestoreProgress, BulkRestoreTotal)
+            : Strings.BloatProgressWaiting;
 
         public BloatwareManagerViewModel(LoggingService logger)
         {
@@ -694,10 +705,10 @@ namespace OmenCore.ViewModels
 
             if (relatedCount <= 0)
             {
-                return "No obvious linked packages detected";
+                return Strings.BloatNoLinked;
             }
 
-            return $"Potentially related packages from same publisher: {relatedCount}";
+            return string.Format(Strings.BloatRelatedPublisher, relatedCount);
         }
 
         private async Task RestoreSelectedAsync()
