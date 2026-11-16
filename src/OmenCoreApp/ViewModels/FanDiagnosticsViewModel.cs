@@ -322,7 +322,8 @@ namespace OmenCore.ViewModels
             // A run that starts hot measures thermal protection, not the fans (8BC2, K.6): wait for it to cool first.
             if (!await WaitForCoolDownAsync())
             {
-                GuidedTestResult = string.Format(Strings.FanDiagTooHotDetail, HottestTemperatureC(), GuidedRunRules.StartBelowC);
+                GuidedTestResult = $"Run not started: the CPU or GPU is at {HottestTemperatureC():0} C. Let the laptop cool below " +
+                                   $"{GuidedRunRules.StartBelowC:0} C and run the diagnostic again.";
                 GuidedTestStatus = Strings.FanDiagTooHot;
                 IsGuidedTestRunning = false;
                 IsDiagnosticActive = false;
@@ -522,7 +523,7 @@ namespace OmenCore.ViewModels
             if (_keyboardLightingService?.IsAvailable != true)
             {
                 RgbCheckStatus = Strings.FanDiagRgbSkip;
-                return RgbCheckStatus;
+                return "Skipped: integrated RGB backend unavailable";
             }
 
             // Saved zone colours, not RestoreDefaults(). That call forces white at 80%
@@ -557,19 +558,19 @@ namespace OmenCore.ViewModels
                     _logging.Warn($"[GuidedDiagnostic] RGB pattern write not accepted by {backend}: {patternStatus}");
                     if (!restoreAccepted)
                         _logging.Warn($"[GuidedDiagnostic] Saved keyboard colors were not restored: {restoreStatus}");
-                    return RgbCheckStatus;
+                    return $"Pattern write not accepted by {backend}";
                 }
 
                 if (!restoreAccepted)
                 {
                     RgbCheckStatus = string.Format(Strings.FanDiagRgbRestoreFailed, backend);
                     _logging.Warn($"[GuidedDiagnostic] Saved keyboard colors were not restored: {restoreStatus}");
-                    return RgbCheckStatus;
+                    return $"Pattern applied; saved colors were not restored by {backend}";
                 }
 
                 RgbCheckStatus = Strings.FanDiagRgbConfirmed;
                 _logging.Info("[GuidedDiagnostic] RGB test pattern applied through the safe keyboard backend; physical confirmation is required");
-                return RgbCheckStatus;
+                return "Pattern applied and saved colors restored; physical confirmation required";
             }
             catch (Exception ex)
             {
@@ -584,7 +585,7 @@ namespace OmenCore.ViewModels
 
                 RgbCheckStatus = string.Format(Strings.FanDiagRgbFailed, ex.Message);
                 _logging.Warn($"[GuidedDiagnostic] RGB check failed: {ex.Message}");
-                return RgbCheckStatus;
+                return $"Failed: {ex.Message}";
             }
         }
 

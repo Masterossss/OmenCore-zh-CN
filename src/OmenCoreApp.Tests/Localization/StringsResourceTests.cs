@@ -247,6 +247,10 @@ namespace OmenCoreApp.Tests.Localization
                 FanDiagnosticDisplayText.Translate("⚠ 2 step(s) interrupted by thermal protection and not counted as failures: CPU @ 30%, GPU @ 60%.\r\nLet the laptop cool below 70 C and run the diagnostic again to complete them.")
                     .Should().Contain("2 个步骤被散热保护中断，未计为失败")
                     .And.Contain("CPU @ 30%, GPU @ 60%").And.Contain("70 C 以下");
+                FanDiagnosticDisplayText.Translate("RGB: Skipped: integrated RGB backend unavailable")
+                    .Should().Contain("已跳过").And.Contain("不可用");
+                FanDiagnosticDisplayText.Translate("Run not started: the CPU or GPU is at 93 C. Let the laptop cool below 70 C and run the diagnostic again.")
+                    .Should().Contain("未开始").And.Contain("93 C").And.Contain("70 C 以下");
                 report.Should().Contain("Backend: WMI | RPM source: EcDirect");
 
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");

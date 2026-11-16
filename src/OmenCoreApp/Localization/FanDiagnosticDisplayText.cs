@@ -23,6 +23,14 @@ namespace OmenCore.Localization
                 return Strings.FanReportBackend + content.Substring("Backend: ".Length).Replace(" | RPM source: ", Strings.FanReportSource) + carriage;
             if (content.StartsWith("Tests: ", StringComparison.Ordinal))
                 return Strings.FanReportTests + content.Substring("Tests: ".Length).Replace(" passed | Overall Score: ", Strings.FanReportPassedScore) + carriage;
+            if (content == "RGB: Skipped: integrated RGB backend unavailable") return "RGB: " + Strings.FanDiagRgbSkip + carriage;
+            if (content == "RGB: Pattern applied and saved colors restored; physical confirmation required") return "RGB: " + Strings.FanDiagRgbConfirmed + carriage;
+            const string rejected = "RGB: Pattern write not accepted by ";
+            if (content.StartsWith(rejected, StringComparison.Ordinal))
+                return "RGB: " + string.Format(Strings.FanDiagRgbRejected, content.Substring(rejected.Length)) + carriage;
+            const string restoreFailed = "RGB: Pattern applied; saved colors were not restored by ";
+            if (content.StartsWith(restoreFailed, StringComparison.Ordinal))
+                return "RGB: " + string.Format(Strings.FanDiagRgbRestoreFailed, content.Substring(restoreFailed.Length)) + carriage;
             if (content.StartsWith("✓ ", StringComparison.Ordinal) || content.StartsWith("✗ ", StringComparison.Ordinal))
                 return content.Replace(" - Score: ", Strings.FanReportScore).Replace("[evidence: ", Strings.FanReportEvidence) + carriage;
             var interrupted = Regex.Match(content, @"^⚠ (\d+) step\(s\) interrupted by thermal protection and not counted as failures: (.+)\.$");
@@ -31,6 +39,9 @@ namespace OmenCore.Localization
             var cool = Regex.Match(content, @"^Let the laptop cool below ([^ ]+) C and run the diagnostic again to complete them\.$");
             if (cool.Success)
                 return string.Format(Strings.FanReportCoolRetry, cool.Groups[1].Value) + carriage;
+            var tooHot = Regex.Match(content, @"^Run not started: the CPU or GPU is at ([0-9]+) C\. Let the laptop cool below ([0-9]+) C and run the diagnostic again\.$");
+            if (tooHot.Success && int.TryParse(tooHot.Groups[1].Value, out var current) && int.TryParse(tooHot.Groups[2].Value, out var threshold))
+                return string.Format(Strings.FanDiagTooHotDetail, current, threshold) + carriage;
             return line;
         }
     }
