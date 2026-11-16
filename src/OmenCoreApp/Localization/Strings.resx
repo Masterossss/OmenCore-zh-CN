@@ -902,4 +902,13 @@ Please fix the issues before saving.</value></data>
   <data name="FanPresetExportTitle" xml:space="preserve"><value>Export Complete</value></data>
   <data name="FanPresetExportError" xml:space="preserve"><value>Failed to export presets: {0}</value></data>
   <data name="FanPresetExportErrorTitle" xml:space="preserve"><value>Export Error</value></data>
+  <data name="FanValidationMinimum" xml:space="preserve"><value>Fan curve must have at least 2 points to define a proper cooling response.</value></data>
+  <data name="FanValidationTemperature" xml:space="preserve"><value>Temperature {0}°C is out of range. Valid range: 0-100°C.</value></data>
+  <data name="FanValidationSpeed" xml:space="preserve"><value>Fan speed {0}% is out of range. Valid range: 0-100%.</value></data>
+  <data name="FanValidationDuplicate" xml:space="preserve"><value>Duplicate temperature point at {0}°C. Each temperature can only appear once.</value></data>
+  <data name="FanValidationCoverage" xml:space="preserve"><value>Fan curve should extend to at least 80°C to protect against thermal throttling. Highest point is {0}°C.</value></data>
+  <data name="FanValidationNoise" xml:space="preserve"><value>Low temperature ({0}°C) has high fan speed ({1}%). This may cause unnecessary noise.</value></data>
+  <data name="FanWarningDangerous" xml:space="preserve"><value>Dangerous curve: At {0}°C the fan speed drops to {1}% (was {2}% at {3}°C). This could cause overheating!</value></data>
+  <data name="FanWarningHighTemp" xml:space="preserve"><value>Safety warning: {0}°C has only {1}% fan speed. Recommend at least 70% at high temperatures to prevent throttling.</value></data>
+  <data name="FanWarningIncomplete" xml:space="preserve"><value>Incomplete coverage: Curve only extends to {0}°C. Add points up to 95°C to protect against thermal spikes.</value></data>
 </root>

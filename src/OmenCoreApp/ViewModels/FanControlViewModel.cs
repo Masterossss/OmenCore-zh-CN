@@ -1817,16 +1817,16 @@ namespace OmenCore.ViewModels
             
             // Minimum 2 points required
             if (points.Count < 2)
-                return "Fan curve must have at least 2 points to define a proper cooling response.";
+                return Strings.FanValidationMinimum;
             
             // Check temperature ranges
             foreach (var point in points)
             {
                 if (point.TemperatureC < 0 || point.TemperatureC > 100)
-                    return $"Temperature {point.TemperatureC}°C is out of range. Valid range: 0-100°C.";
+                    return string.Format(Strings.FanValidationTemperature, point.TemperatureC);
                 
                 if (point.FanPercent < 0 || point.FanPercent > 100)
-                    return $"Fan speed {point.FanPercent}% is out of range. Valid range: 0-100%.";
+                    return string.Format(Strings.FanValidationSpeed, point.FanPercent);
             }
             
             // Check for duplicate temperatures
@@ -1834,16 +1834,16 @@ namespace OmenCore.ViewModels
             for (int i = 0; i < sorted.Count - 1; i++)
             {
                 if (sorted[i].TemperatureC == sorted[i + 1].TemperatureC)
-                    return $"Duplicate temperature point at {sorted[i].TemperatureC}°C. Each temperature can only appear once.";
+                    return string.Format(Strings.FanValidationDuplicate, sorted[i].TemperatureC);
             }
             
             // Warn if curve doesn't cover high temperatures
             if (sorted[^1].TemperatureC < 80)
-                return $"Fan curve should extend to at least 80°C to protect against thermal throttling. Highest point is {sorted[^1].TemperatureC}°C.";
+                return string.Format(Strings.FanValidationCoverage, sorted[^1].TemperatureC);
             
             // Warn if low temperature has too high fan speed (noisy)
             if (sorted[0].TemperatureC < 50 && sorted[0].FanPercent > 60)
-                return $"Low temperature ({sorted[0].TemperatureC}°C) has high fan speed ({sorted[0].FanPercent}%). This may cause unnecessary noise.";
+                return string.Format(Strings.FanValidationNoise, sorted[0].TemperatureC, sorted[0].FanPercent);
             
             // Warn about potentially inverted/non-monotonic curves (fan% decreases as temp increases)
             for (int i = 0; i < sorted.Count - 1; i++)

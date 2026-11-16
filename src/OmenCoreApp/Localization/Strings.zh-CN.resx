@@ -894,4 +894,13 @@
   <data name="FanPresetExportTitle" xml:space="preserve"><value>导出完成</value></data>
   <data name="FanPresetExportError" xml:space="preserve"><value>导出预设失败：{0}</value></data>
   <data name="FanPresetExportErrorTitle" xml:space="preserve"><value>导出错误</value></data>
+  <data name="FanValidationMinimum" xml:space="preserve"><value>风扇曲线至少需要 2 个点，才能设定适当的散热响应。</value></data>
+  <data name="FanValidationTemperature" xml:space="preserve"><value>温度 {0}°C 超出范围。有效范围：0-100°C。</value></data>
+  <data name="FanValidationSpeed" xml:space="preserve"><value>风扇转速 {0}% 超出范围。有效范围：0-100%。</value></data>
+  <data name="FanValidationDuplicate" xml:space="preserve"><value>存在重复的 {0}°C 温度点。每个温度只能出现一次。</value></data>
+  <data name="FanValidationCoverage" xml:space="preserve"><value>风扇曲线应至少延伸至 80°C，以防止因高温降频。当前最高点为 {0}°C。</value></data>
+  <data name="FanValidationNoise" xml:space="preserve"><value>低温（{0}°C）时风扇转速较高（{1}%），可能产生不必要的噪音。</value></data>
+  <data name="FanWarningDangerous" xml:space="preserve"><value>危险曲线：温度为 {0}°C 时，风扇转速降至 {1}%（在 {3}°C 时为 {2}%）。这可能导致过热！</value></data>
+  <data name="FanWarningHighTemp" xml:space="preserve"><value>安全警告：{0}°C 时风扇转速仅为 {1}%。建议高温时至少达到 70%，以防止降频。</value></data>
+  <data name="FanWarningIncomplete" xml:space="preserve"><value>覆盖范围不完整：曲线仅延伸至 {0}°C。请添加温度点直至 95°C，以应对温度骤升。</value></data>
 </root>

@@ -798,5 +798,14 @@ namespace OmenCore.Localization
         public static string FanPresetExportTitle => Get(nameof(FanPresetExportTitle));
         public static string FanPresetExportError => Get(nameof(FanPresetExportError));
         public static string FanPresetExportErrorTitle => Get(nameof(FanPresetExportErrorTitle));
+        public static string FanValidationMinimum => Get(nameof(FanValidationMinimum));
+        public static string FanValidationTemperature => Get(nameof(FanValidationTemperature));
+        public static string FanValidationSpeed => Get(nameof(FanValidationSpeed));
+        public static string FanValidationDuplicate => Get(nameof(FanValidationDuplicate));
+        public static string FanValidationCoverage => Get(nameof(FanValidationCoverage));
+        public static string FanValidationNoise => Get(nameof(FanValidationNoise));
+        public static string FanWarningDangerous => Get(nameof(FanWarningDangerous));
+        public static string FanWarningHighTemp => Get(nameof(FanWarningHighTemp));
+        public static string FanWarningIncomplete => Get(nameof(FanWarningIncomplete));
     }
 }
