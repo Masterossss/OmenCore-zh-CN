@@ -1,3 +1,4 @@
+using System.Globalization;
 using FluentAssertions;
 using OmenCore.ViewModels;
 using Xunit;
@@ -6,13 +7,19 @@ namespace OmenCoreApp.Tests.ViewModels
 {
     public class NvidiaPowerStockNoteTests
     {
-        [Fact]
-        public void Mismatch_SaysBothNumbers_AndThatItIsNotAnErrorByItself()
+        [Theory]
+        [InlineData("en", "Stock max read: 115 W", "expected: 140 W", "not an error by itself")]
+        [InlineData("zh-CN", "115 W", "140 W", "不代表错误")]
+        public void Mismatch_SaysBothNumbers_AndThatItIsNotAnErrorByItself(string culture, string first, string second, string explanation)
         {
-            // K.7: a laptop that reads 115 W while the profile expects 140 W.
-            var note = NvidiaPowerViewModel.StockMismatchNote(115, 140);
-
-            note.Should().Contain("Stock max read: 115 W").And.Contain("expected: 140 W").And.Contain("not an error by itself");
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo(culture);
+                var note = NvidiaPowerViewModel.StockMismatchNote(115, 140);
+                note.Should().Contain(first).And.Contain(second).And.Contain(explanation);
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
         }
 
         [Theory]
