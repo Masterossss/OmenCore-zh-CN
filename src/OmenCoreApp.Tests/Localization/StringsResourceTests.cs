@@ -384,6 +384,12 @@ namespace OmenCoreApp.Tests.Localization
                 LightingStatusDisplayText.Translate("RGB observation save failed: access denied").Should().Be("RGB 观察结果保存失败：access denied");
                 LightingStatusDisplayText.Translate("Backend accepted write but verification failed").Should().Be("Backend accepted write but verification failed");
                 LightingStatusDisplayText.Translate("Probe sent via WMI; select what changed and save. unknown status").Should().Contain("WMI").And.Contain("unknown status");
+                const string surface = "WMI BIOS ColorTable accepted the write. Verify the intended physical surface changed; on some models this may be a light bar rather than the keyboard. Surface: HP WMI ColorTable zones.";
+                LightingStatusDisplayText.Translate(surface).Should().Contain("已接受写入").And.Contain("灯条").And.Contain("键盘").And.Contain("HP WMI ColorTable zones");
+                LightingStatusDisplayText.Translate("All keyboard lighting backends failed. Colors may not be applied. Surface: Unavailable.").Should().Contain("均失败").And.Contain("可能未应用");
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                LightingStatusDisplayText.Translate(surface).Should().Be(surface);
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
                 LightingStatusDisplayText.Translate("unverified. WMI keyboard commands aren't verifying on your model - try enabling 'Experimental EC Keyboard' in Settings if colors don't visibly change.").Should().Contain("未通过验证");
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
                 LightingStatusDisplayText.Translate("RGB observation save failed: access denied").Should().Be("RGB observation save failed: access denied");

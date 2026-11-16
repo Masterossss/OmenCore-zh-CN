@@ -1580,4 +1580,56 @@ Continue?</value></data>
   <data name="TrayPerfQuietDetail" xml:space="preserve"><value> Power Saver — Battery life</value></data>
   <data name="TrayPerfBalancedDetail" xml:space="preserve"><value> Balanced — Default</value></data>
   <data name="TrayPerfPerformanceDetail" xml:space="preserve"><value> Performance — Max power</value></data>
+  <data name="LightAccessibility0" xml:space="preserve"><value>Open the Windows Dynamic Lighting settings page</value></data>
+  <data name="LightAccessibility1" xml:space="preserve"><value>Restore keyboard lighting</value></data>
+  <data name="LightAccessibility2" xml:space="preserve"><value>Observed RGB surface</value></data>
+  <data name="LightAccessibility3" xml:space="preserve"><value>Run RGB surface probe</value></data>
+  <data name="LightAccessibility4" xml:space="preserve"><value>Save observed RGB surface</value></data>
+  <data name="LightAccessibility5" xml:space="preserve"><value>Sync all RGB devices</value></data>
+  <data name="LightAccessibility6" xml:space="preserve"><value>Enable Scene Quick Select card</value></data>
+  <data name="LightAccessibility7" xml:space="preserve"><value>Ambient screen lighting</value></data>
+  <data name="LightAccessibility8" xml:space="preserve"><value>Audio reactive lighting</value></data>
+  <data name="LightAccessibility9" xml:space="preserve"><value>Audio reactive visualization mode</value></data>
+  <data name="LightAccessibility10" xml:space="preserve"><value>Audio reactive sensitivity</value></data>
+  <data name="LightAccessibility11" xml:space="preserve"><value>Enable Corsair Devices card</value></data>
+  <data name="LightAccessibility12" xml:space="preserve"><value>Saved DPI profile selection</value></data>
+  <data name="LightAccessibility13" xml:space="preserve"><value>Enable Logitech Devices card</value></data>
+  <data name="LightAccessibility14" xml:space="preserve"><value>Logitech color red value</value></data>
+  <data name="LightAccessibility15" xml:space="preserve"><value>Logitech color green value</value></data>
+  <data name="LightAccessibility16" xml:space="preserve"><value>Logitech color blue value</value></data>
+  <data name="LightAccessibility17" xml:space="preserve"><value>Enable Razer Devices card</value></data>
+  <data name="LightAccessibility18" xml:space="preserve"><value>Razer color red value</value></data>
+  <data name="LightAccessibility19" xml:space="preserve"><value>Razer color green value</value></data>
+  <data name="LightAccessibility20" xml:space="preserve"><value>Razer color blue value</value></data>
+  <data name="LightAccessibility21" xml:space="preserve"><value>Enable HP OMEN Keyboard card</value></data>
+  <data name="LightAccessibility22" xml:space="preserve"><value>Keyboard lighting preset selection</value></data>
+  <data name="LightAccessibility23" xml:space="preserve"><value>Apply zone colors to keyboard</value></data>
+  <data name="LightAccessibility24" xml:space="preserve"><value>Apply keyboard colors on startup</value></data>
+  <data name="LightAccessibility25" xml:space="preserve"><value>Apply per-key colors to keyboard</value></data>
+  <data name="LightAccessibility26" xml:space="preserve"><value>Choose the first custom effect colour</value></data>
+  <data name="LightAccessibility27" xml:space="preserve"><value>OpenRGB quick color: Red</value></data>
+  <data name="LightAccessibility28" xml:space="preserve"><value>OpenRGB quick color: Blue</value></data>
+  <data name="LightAccessibility29" xml:space="preserve"><value>OpenRGB quick color: Green</value></data>
+  <data name="LightAccessibility30" xml:space="preserve"><value>OpenRGB quick color: Purple</value></data>
+  <data name="LightAccessibility31" xml:space="preserve"><value>OpenRGB quick color: Yellow</value></data>
+  <data name="LightAccessibility32" xml:space="preserve"><value>OpenRGB quick color: White</value></data>
+  <data name="LightAccessibility33" xml:space="preserve"><value>OpenRGB quick color: Orange</value></data>
+  <data name="LightAccessibility34" xml:space="preserve"><value>OpenRGB quick color: Off</value></data>
+  <data name="LightAccessibility35" xml:space="preserve"><value>Keyboard quick color: Blue</value></data>
+  <data name="LightAccessibility36" xml:space="preserve"><value>Keyboard quick color: Green</value></data>
+  <data name="LightAccessibility37" xml:space="preserve"><value>Keyboard quick color: Purple</value></data>
+  <data name="LightAccessibility38" xml:space="preserve"><value>Keyboard quick color: Yellow</value></data>
+  <data name="LightAccessibility39" xml:space="preserve"><value>Keyboard quick color: White</value></data>
+  <data name="LightAccessibility40" xml:space="preserve"><value>Keyboard quick color: Off</value></data>
+  <data name="LightAccessibility41" xml:space="preserve"><value>Keyboard quick color: OMEN Red</value></data>
+  <data name="LightAccessibility42" xml:space="preserve"><value>Keyboard quick color: Cyan</value></data>
+  <data name="LightAccessibility43" xml:space="preserve"><value>Keyboard quick color: Pink</value></data>
+  <data name="LightApplyStatus0" xml:space="preserve"><value>Experimental EC keyboard write was throttled to protect the EC.</value></data>
+  <data name="LightApplyStatus1" xml:space="preserve"><value>Applied via experimental EC keyboard register writes.</value></data>
+  <data name="LightApplyStatus2" xml:space="preserve"><value>WMI BIOS ColorTable accepted the write. Verify the intended physical surface changed; on some models this may be a light bar rather than the keyboard.</value></data>
+  <data name="LightApplyStatus3" xml:space="preserve"><value>Applied through individual WMI zone writes.</value></data>
+  <data name="LightApplyStatus4" xml:space="preserve"><value>Applied via OMEN Gaming Hub proxy ColorTable fallback.</value></data>
+  <data name="LightApplyStatus5" xml:space="preserve"><value>Applied via experimental EC fallback after WMI methods failed.</value></data>
+  <data name="LightApplyStatus6" xml:space="preserve"><value>All keyboard lighting backends failed. Colors may not be applied.</value></data>
+  <data name="LightSurfaceFormat" xml:space="preserve"><value>{0} Surface: {1}.</value></data>
 </root>

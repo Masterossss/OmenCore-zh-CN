@@ -1572,4 +1572,56 @@
   <data name="TrayPerfQuietDetail" xml:space="preserve"><value> 节能 — 延长电池续航</value></data>
   <data name="TrayPerfBalancedDetail" xml:space="preserve"><value> 均衡 — 默认</value></data>
   <data name="TrayPerfPerformanceDetail" xml:space="preserve"><value> 性能 — 最大功率</value></data>
+  <data name="LightAccessibility0" xml:space="preserve"><value>打开 Windows 动态照明设置</value></data>
+  <data name="LightAccessibility1" xml:space="preserve"><value>恢复键盘灯光</value></data>
+  <data name="LightAccessibility2" xml:space="preserve"><value>观察到的 RGB 灯光区域</value></data>
+  <data name="LightAccessibility3" xml:space="preserve"><value>运行 RGB 灯光区域探测</value></data>
+  <data name="LightAccessibility4" xml:space="preserve"><value>保存观察到的 RGB 灯光区域</value></data>
+  <data name="LightAccessibility5" xml:space="preserve"><value>同步所有 RGB 设备</value></data>
+  <data name="LightAccessibility6" xml:space="preserve"><value>启用场景快速选择卡片</value></data>
+  <data name="LightAccessibility7" xml:space="preserve"><value>屏幕环境灯光</value></data>
+  <data name="LightAccessibility8" xml:space="preserve"><value>音频响应灯光</value></data>
+  <data name="LightAccessibility9" xml:space="preserve"><value>音频响应可视化模式</value></data>
+  <data name="LightAccessibility10" xml:space="preserve"><value>音频响应灵敏度</value></data>
+  <data name="LightAccessibility11" xml:space="preserve"><value>启用 Corsair 设备卡片</value></data>
+  <data name="LightAccessibility12" xml:space="preserve"><value>选择已保存的 DPI 配置</value></data>
+  <data name="LightAccessibility13" xml:space="preserve"><value>启用 Logitech 设备卡片</value></data>
+  <data name="LightAccessibility14" xml:space="preserve"><value>Logitech 颜色红色值</value></data>
+  <data name="LightAccessibility15" xml:space="preserve"><value>Logitech 颜色绿色值</value></data>
+  <data name="LightAccessibility16" xml:space="preserve"><value>Logitech 颜色蓝色值</value></data>
+  <data name="LightAccessibility17" xml:space="preserve"><value>启用 Razer 设备卡片</value></data>
+  <data name="LightAccessibility18" xml:space="preserve"><value>Razer 颜色红色值</value></data>
+  <data name="LightAccessibility19" xml:space="preserve"><value>Razer 颜色绿色值</value></data>
+  <data name="LightAccessibility20" xml:space="preserve"><value>Razer 颜色蓝色值</value></data>
+  <data name="LightAccessibility21" xml:space="preserve"><value>启用 HP OMEN 键盘卡片</value></data>
+  <data name="LightAccessibility22" xml:space="preserve"><value>选择键盘灯光预设</value></data>
+  <data name="LightAccessibility23" xml:space="preserve"><value>将分区颜色应用到键盘</value></data>
+  <data name="LightAccessibility24" xml:space="preserve"><value>启动时应用键盘颜色</value></data>
+  <data name="LightAccessibility25" xml:space="preserve"><value>将逐键颜色应用到键盘</value></data>
+  <data name="LightAccessibility26" xml:space="preserve"><value>选择第一个自定义效果颜色</value></data>
+  <data name="LightAccessibility27" xml:space="preserve"><value>OpenRGB 快捷颜色：红色</value></data>
+  <data name="LightAccessibility28" xml:space="preserve"><value>OpenRGB 快捷颜色：蓝色</value></data>
+  <data name="LightAccessibility29" xml:space="preserve"><value>OpenRGB 快捷颜色：绿色</value></data>
+  <data name="LightAccessibility30" xml:space="preserve"><value>OpenRGB 快捷颜色：紫色</value></data>
+  <data name="LightAccessibility31" xml:space="preserve"><value>OpenRGB 快捷颜色：黄色</value></data>
+  <data name="LightAccessibility32" xml:space="preserve"><value>OpenRGB 快捷颜色：白色</value></data>
+  <data name="LightAccessibility33" xml:space="preserve"><value>OpenRGB 快捷颜色：橙色</value></data>
+  <data name="LightAccessibility34" xml:space="preserve"><value>OpenRGB 快捷颜色：关闭</value></data>
+  <data name="LightAccessibility35" xml:space="preserve"><value>键盘快捷颜色：蓝色</value></data>
+  <data name="LightAccessibility36" xml:space="preserve"><value>键盘快捷颜色：绿色</value></data>
+  <data name="LightAccessibility37" xml:space="preserve"><value>键盘快捷颜色：紫色</value></data>
+  <data name="LightAccessibility38" xml:space="preserve"><value>键盘快捷颜色：黄色</value></data>
+  <data name="LightAccessibility39" xml:space="preserve"><value>键盘快捷颜色：白色</value></data>
+  <data name="LightAccessibility40" xml:space="preserve"><value>键盘快捷颜色：关闭</value></data>
+  <data name="LightAccessibility41" xml:space="preserve"><value>键盘快捷颜色：OMEN 红色</value></data>
+  <data name="LightAccessibility42" xml:space="preserve"><value>键盘快捷颜色：青色</value></data>
+  <data name="LightAccessibility43" xml:space="preserve"><value>键盘快捷颜色：粉色</value></data>
+  <data name="LightApplyStatus0" xml:space="preserve"><value>为保护 EC，实验性 EC 键盘写入已被限速。</value></data>
+  <data name="LightApplyStatus1" xml:space="preserve"><value>已通过实验性 EC 键盘寄存器写入应用。</value></data>
+  <data name="LightApplyStatus2" xml:space="preserve"><value>WMI BIOS ColorTable 已接受写入。请确认目标实体灯光区域发生变化；部分机型可能改变灯条而非键盘。</value></data>
+  <data name="LightApplyStatus3" xml:space="preserve"><value>已通过逐区 WMI 写入应用。</value></data>
+  <data name="LightApplyStatus4" xml:space="preserve"><value>已通过 OMEN Gaming Hub 代理的 ColorTable 回退方式应用。</value></data>
+  <data name="LightApplyStatus5" xml:space="preserve"><value>WMI 方法失败后，已通过实验性 EC 回退方式应用。</value></data>
+  <data name="LightApplyStatus6" xml:space="preserve"><value>所有键盘灯光后端均失败，颜色可能未应用。</value></data>
+  <data name="LightSurfaceFormat" xml:space="preserve"><value>{0} 灯光区域：{1}。</value></data>
 </root>

@@ -201,7 +201,7 @@
                                         Command="{Binding OpenDynamicLightingSettingsCommand}"
                                         Style="{StaticResource ModernButton}" Padding="12,4" Margin="0,8,0,0"
                                         HorizontalAlignment="Left" FontSize="11"
-                                        AutomationProperties.Name="Open the Windows Dynamic Lighting settings page"/>
+                                        AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility0}"/>
                             </StackPanel>
                         </Border>
 
@@ -224,7 +224,7 @@
                                     Style="{StaticResource SecondaryButton}"
                                     Padding="10,5"
                                     ToolTip="{x:Static loc:Strings.LightingViewText225}"
-                                    AutomationProperties.Name="Restore keyboard lighting">
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility1}">
                                 <TextBlock Text="{x:Static loc:Strings.LightingViewText227}"
                                            FontSize="10"/>
                             </Button>
@@ -263,7 +263,7 @@
                                           MinHeight="30"
                                           VerticalAlignment="Center"
                                           ToolTip="{x:Static loc:Strings.LightingViewText264}"
-                                          AutomationProperties.Name="Observed RGB surface"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility2}"/>
 
                                 <StackPanel Grid.Column="2"
                                             Orientation="Horizontal"
@@ -275,7 +275,7 @@
                                             Padding="8,5"
                                             Margin="0,0,6,0"
                                             ToolTip="{x:Static loc:Strings.LightingViewText276}"
-                                            AutomationProperties.Name="Run RGB surface probe">
+                                            AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility3}">
                                         <StackPanel Orientation="Horizontal">
                                             <Path Data="{StaticResource IconRefresh}"
                                                   Width="12"
@@ -290,7 +290,7 @@
                                             Style="{StaticResource SecondaryButton}"
                                             Padding="8,5"
                                             ToolTip="{x:Static loc:Strings.LightingViewText291}"
-                                            AutomationProperties.Name="Save observed RGB surface">
+                                            AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility4}">
                                         <StackPanel Orientation="Horizontal">
                                             <Path Data="{StaticResource IconCheck}"
                                                   Width="12"
@@ -358,7 +358,7 @@
             <Button Grid.Column="1" Command="{Binding SyncAllRgbCommand}"
                     VerticalAlignment="Top" Margin="0,0,0,0"
                     ToolTip="{x:Static loc:Strings.LightingViewText359}"
-                    AutomationProperties.Name="Sync all RGB devices">
+                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility5}">
                 <Button.Style>
                     <Style TargetType="Button">
                         <Setter Property="Background" Value="{DynamicResource AccentBrush}"/>
@@ -412,7 +412,7 @@
                                           Margin="12,0,0,0"
                                           VerticalAlignment="Center"
                                           ToolTip="{x:Static loc:Strings.LightingViewText413}"
-                                          AutomationProperties.Name="Enable Scene Quick Select card"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility6}"/>
                         </StackPanel>
 
                         <StackPanel Visibility="{Binding IsSceneQuickSelectCardContentVisible, Converter={StaticResource BooleanToVisibilityConverter}}">
@@ -486,7 +486,7 @@
                             </StackPanel>
                             <ToggleButton Grid.Column="1" IsChecked="{Binding IsAmbientModeActive, Mode=TwoWay}"
                                           Style="{StaticResource ToggleButtonStyle}"
-                                          AutomationProperties.Name="Ambient screen lighting"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility7}"/>
                         </Grid>
 
                         <!-- Audio Reactive Toggle -->
@@ -506,7 +506,7 @@
                             </StackPanel>
                             <ToggleButton Grid.Column="1" IsChecked="{Binding IsAudioReactiveModeActive, Mode=TwoWay}"
                                           Style="{StaticResource ToggleButtonStyle}"
-                                          AutomationProperties.Name="Audio reactive lighting"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility8}"/>
                         </Grid>
 
                         <Grid Margin="0,8,0,0"
@@ -524,13 +524,13 @@
                             <ComboBox Grid.Column="1" ItemsSource="{Binding AudioVisualizationModes}"
                                       SelectedItem="{Binding SelectedAudioVisualizationMode, Mode=TwoWay}"
                                       Style="{StaticResource ModernComboBox}"
-                                      AutomationProperties.Name="Audio reactive visualization mode"/>
+                                      AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility9}"/>
 
                             <TextBlock Grid.Column="3" Text="{x:Static loc:Strings.LightingViewText528}" VerticalAlignment="Center"
                                        Foreground="{StaticResource TextSecondaryBrush}" Margin="0,0,8,0"/>
                             <Slider Grid.Column="4" Minimum="0.1" Maximum="1" TickFrequency="0.05" IsSnapToTickEnabled="True"
                                     Value="{Binding AudioReactiveSensitivity, Mode=TwoWay}"
-                                    AutomationProperties.Name="Audio reactive sensitivity"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility10}"/>
                         </Grid>
                         </StackPanel>
                     </StackPanel>
@@ -557,7 +557,7 @@
                                           Margin="12,0,0,0"
                                           VerticalAlignment="Center"
                                           ToolTip="{x:Static loc:Strings.LightingViewText558}"
-                                          AutomationProperties.Name="Enable Corsair Devices card"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility11}"/>
                         </StackPanel>
 
                         <StackPanel Visibility="{Binding IsCorsairCardContentVisible, Converter={StaticResource BooleanToVisibilityConverter}}">
@@ -765,7 +765,7 @@
                                                   DisplayMemberPath="Name"
                                                   Width="220" Margin="0,0,8,0"
                                                   ToolTip="{x:Static loc:Strings.LightingViewText766}"
-                                                  AutomationProperties.Name="Saved DPI profile selection"/>
+                                                  AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility12}"/>
 
                                         <Button Content="{x:Static loc:Strings.LightingViewText769Content}" Style="{StaticResource ModernButton}" Command="{Binding SaveCorsairDpiProfileCommand}" Padding="12,6" Margin="0,0,8,0" ToolTip="{x:Static loc:Strings.LightingViewText769ToolTip}"/>
                                         <Button Content="{x:Static loc:Strings.LightingViewText770Content}" Style="{StaticResource ModernButton}" Command="{Binding ApplyCorsairDpiProfileCommand}" Padding="12,6" Margin="0,0,8,0" ToolTip="{x:Static loc:Strings.LightingViewText770ToolTip}"/>
@@ -810,7 +810,7 @@
                                           Margin="12,0,0,0"
                                           VerticalAlignment="Center"
                                           ToolTip="{x:Static loc:Strings.LightingViewText811}"
-                                          AutomationProperties.Name="Enable Logitech Devices card"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility13}"/>
                         </StackPanel>
 
                         <StackPanel Visibility="{Binding IsLogitechCardContentVisible, Converter={StaticResource BooleanToVisibilityConverter}}">
@@ -922,7 +922,7 @@
                                            Margin="0,0,0,4"/>
                                 <TextBox Text="{Binding LogitechRedValue, UpdateSourceTrigger=PropertyChanged}"
                                          FontSize="14"
-                                         AutomationProperties.Name="Logitech color red value"/>
+                                         AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility14}"/>
                             </StackPanel>
                             
                             <StackPanel Grid.Column="2" Margin="0,0,8,0">
@@ -931,7 +931,7 @@
                                            Margin="0,0,0,4"/>
                                 <TextBox Text="{Binding LogitechGreenValue, UpdateSourceTrigger=PropertyChanged}"
                                          FontSize="14"
-                                         AutomationProperties.Name="Logitech color green value"/>
+                                         AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility15}"/>
                             </StackPanel>
                             
                             <StackPanel Grid.Column="3" Margin="0,0,8,0">
@@ -940,7 +940,7 @@
                                            Margin="0,0,0,4"/>
                                 <TextBox Text="{Binding LogitechBlueValue, UpdateSourceTrigger=PropertyChanged}"
                                          FontSize="14"
-                                         AutomationProperties.Name="Logitech color blue value"/>
+                                         AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility16}"/>
                             </StackPanel>
                             
                             <Button Grid.Column="5" 
@@ -978,7 +978,7 @@
                                           Margin="12,0,0,0"
                                           VerticalAlignment="Center"
                                           ToolTip="{x:Static loc:Strings.LightingViewText979}"
-                                          AutomationProperties.Name="Enable Razer Devices card"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility17}"/>
                         </StackPanel>
 
                         <StackPanel Visibility="{Binding IsRazerCardContentVisible, Converter={StaticResource BooleanToVisibilityConverter}}">
@@ -1073,7 +1073,7 @@
                                            Margin="0,0,0,4"/>
                                 <TextBox Text="{Binding RazerRedValue, UpdateSourceTrigger=PropertyChanged}"
                                          FontSize="14"
-                                         AutomationProperties.Name="Razer color red value"/>
+                                         AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility18}"/>
                             </StackPanel>
                             
                             <StackPanel Grid.Column="2" Margin="0,0,8,0">
@@ -1082,7 +1082,7 @@
                                            Margin="0,0,0,4"/>
                                 <TextBox Text="{Binding RazerGreenValue, UpdateSourceTrigger=PropertyChanged}"
                                          FontSize="14"
-                                         AutomationProperties.Name="Razer color green value"/>
+                                         AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility19}"/>
                             </StackPanel>
                             
                             <StackPanel Grid.Column="3" Margin="0,0,8,0">
@@ -1091,7 +1091,7 @@
                                            Margin="0,0,0,4"/>
                                 <TextBox Text="{Binding RazerBlueValue, UpdateSourceTrigger=PropertyChanged}"
                                          FontSize="14"
-                                         AutomationProperties.Name="Razer color blue value"/>
+                                         AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility20}"/>
                             </StackPanel>
                             
                             <Button Grid.Column="5" 
@@ -1214,35 +1214,35 @@
                             <Button Content="🔴" FontSize="14" Padding="8,4" Margin="0,0,6,4"
                                     Style="{StaticResource ModernButton}" ToolTip="{x:Static loc:Strings.LightingViewText1214}"
                                     Command="{Binding ApplyOpenRgbColorCommand}" CommandParameter="#FF0000"
-                                    AutomationProperties.Name="OpenRGB quick color: Red"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility27}"/>
                             <Button Content="🔵" FontSize="14" Padding="8,4" Margin="0,0,6,4"
                                     Style="{StaticResource ModernButton}" ToolTip="{x:Static loc:Strings.LightingViewText1218}"
                                     Command="{Binding ApplyOpenRgbColorCommand}" CommandParameter="#0066FF"
-                                    AutomationProperties.Name="OpenRGB quick color: Blue"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility28}"/>
                             <Button Content="🟢" FontSize="14" Padding="8,4" Margin="0,0,6,4"
                                     Style="{StaticResource ModernButton}" ToolTip="{x:Static loc:Strings.LightingViewText1222}"
                                     Command="{Binding ApplyOpenRgbColorCommand}" CommandParameter="#00FF00"
-                                    AutomationProperties.Name="OpenRGB quick color: Green"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility29}"/>
                             <Button Content="🟣" FontSize="14" Padding="8,4" Margin="0,0,6,4"
                                     Style="{StaticResource ModernButton}" ToolTip="{x:Static loc:Strings.LightingViewText1226}"
                                     Command="{Binding ApplyOpenRgbColorCommand}" CommandParameter="#9400D3"
-                                    AutomationProperties.Name="OpenRGB quick color: Purple"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility30}"/>
                             <Button Content="🟡" FontSize="14" Padding="8,4" Margin="0,0,6,4"
                                     Style="{StaticResource ModernButton}" ToolTip="{x:Static loc:Strings.LightingViewText1230}"
                                     Command="{Binding ApplyOpenRgbColorCommand}" CommandParameter="#FFFF00"
-                                    AutomationProperties.Name="OpenRGB quick color: Yellow"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility31}"/>
                             <Button Content="⚪" FontSize="14" Padding="8,4" Margin="0,0,6,4"
                                     Style="{StaticResource ModernButton}" ToolTip="{x:Static loc:Strings.LightingViewText1234}"
                                     Command="{Binding ApplyOpenRgbColorCommand}" CommandParameter="#FFFFFF"
-                                    AutomationProperties.Name="OpenRGB quick color: White"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility32}"/>
                             <Button Content="🟠" FontSize="14" Padding="8,4" Margin="0,0,6,4"
                                     Style="{StaticResource ModernButton}" ToolTip="{x:Static loc:Strings.LightingViewText1238}"
                                     Command="{Binding ApplyOpenRgbColorCommand}" CommandParameter="#FF6B35"
-                                    AutomationProperties.Name="OpenRGB quick color: Orange"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility33}"/>
                             <Button Content="⬛" FontSize="14" Padding="8,4" Margin="0,0,6,4"
                                     Style="{StaticResource ModernButton}" ToolTip="{x:Static loc:Strings.LightingViewText1242}"
                                     Command="{Binding ApplyOpenRgbColorCommand}" CommandParameter="#000000"
-                                    AutomationProperties.Name="OpenRGB quick color: Off"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility34}"/>
                         </WrapPanel>
                         
                         <!-- Info Box -->
@@ -1279,7 +1279,7 @@
                                           Margin="12,0,0,0"
                                           VerticalAlignment="Center"
                                           ToolTip="{x:Static loc:Strings.LightingViewText1280}"
-                                          AutomationProperties.Name="Enable HP OMEN Keyboard card"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility21}"/>
                         </StackPanel>
                         
                         <TextBlock Text="{x:Static loc:Strings.LightingViewText1284}"
@@ -1305,39 +1305,39 @@
                             <Button Content="🔴" FontSize="14" Padding="8,4" Margin="0,0,6,4"
                                     Style="{StaticResource ModernButton}" ToolTip="{x:Static loc:Strings.LightingViewText1305}"
                                     Command="{Binding ApplyQuickColorCommand}" CommandParameter="#E6002E"
-                                    AutomationProperties.Name="Keyboard quick color: OMEN Red"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility41}"/>
                             <Button Content="🔵" FontSize="14" Padding="8,4" Margin="0,0,6,4"
                                     Style="{StaticResource ModernButton}" ToolTip="{x:Static loc:Strings.LightingViewText1309}"
                                     Command="{Binding ApplyQuickColorCommand}" CommandParameter="#0066FF"
-                                    AutomationProperties.Name="Keyboard quick color: Blue"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility35}"/>
                             <Button Content="🟢" FontSize="14" Padding="8,4" Margin="0,0,6,4"
                                     Style="{StaticResource ModernButton}" ToolTip="{x:Static loc:Strings.LightingViewText1313}"
                                     Command="{Binding ApplyQuickColorCommand}" CommandParameter="#00FF00"
-                                    AutomationProperties.Name="Keyboard quick color: Green"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility36}"/>
                             <Button Content="🟣" FontSize="14" Padding="8,4" Margin="0,0,6,4"
                                     Style="{StaticResource ModernButton}" ToolTip="{x:Static loc:Strings.LightingViewText1317}"
                                     Command="{Binding ApplyQuickColorCommand}" CommandParameter="#9400D3"
-                                    AutomationProperties.Name="Keyboard quick color: Purple"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility37}"/>
                             <Button Content="🟡" FontSize="14" Padding="8,4" Margin="0,0,6,4"
                                     Style="{StaticResource ModernButton}" ToolTip="{x:Static loc:Strings.LightingViewText1321}"
                                     Command="{Binding ApplyQuickColorCommand}" CommandParameter="#FFFF00"
-                                    AutomationProperties.Name="Keyboard quick color: Yellow"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility38}"/>
                             <Button Content="⚪" FontSize="14" Padding="8,4" Margin="0,0,6,4"
                                     Style="{StaticResource ModernButton}" ToolTip="{x:Static loc:Strings.LightingViewText1325}"
                                     Command="{Binding ApplyQuickColorCommand}" CommandParameter="#FFFFFF"
-                                    AutomationProperties.Name="Keyboard quick color: White"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility39}"/>
                             <Button Content="🩵" FontSize="14" Padding="8,4" Margin="0,0,6,4"
                                     Style="{StaticResource ModernButton}" ToolTip="{x:Static loc:Strings.LightingViewText1329}"
                                     Command="{Binding ApplyQuickColorCommand}" CommandParameter="#00FFFF"
-                                    AutomationProperties.Name="Keyboard quick color: Cyan"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility42}"/>
                             <Button Content="🩷" FontSize="14" Padding="8,4" Margin="0,0,6,4"
                                     Style="{StaticResource ModernButton}" ToolTip="{x:Static loc:Strings.LightingViewText1333}"
                                     Command="{Binding ApplyQuickColorCommand}" CommandParameter="#FF69B4"
-                                    AutomationProperties.Name="Keyboard quick color: Pink"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility43}"/>
                             <Button Content="⬛" FontSize="14" Padding="8,4" Margin="0,0,6,4"
                                     Style="{StaticResource ModernButton}" ToolTip="{x:Static loc:Strings.LightingViewText1337}"
                                     Command="{Binding ApplyQuickColorCommand}" CommandParameter="#000000"
-                                    AutomationProperties.Name="Keyboard quick color: Off"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility40}"/>
                         </WrapPanel>
                         
                         <!-- Keyboard Status Hint (shows tips for models where WMI may not work) -->
@@ -1472,7 +1472,7 @@
                                       SelectedItem="{Binding SelectedKeyboardPreset}"
                                       DisplayMemberPath="Name"
                                       Margin="0,0,12,0"
-                                      AutomationProperties.Name="Keyboard lighting preset selection"/>
+                                      AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility22}"/>
 
                             <Button Grid.Column="2"
                                     Content="{x:Static loc:Strings.LightingViewText1477}"
@@ -1480,7 +1480,7 @@
                                     Command="{Binding ApplyKeyboardColorsCommand}"
                                     Padding="16,8"
                                     Margin="0,0,8,0"
-                                    AutomationProperties.Name="Apply zone colors to keyboard"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility23}"/>
                             
                             <Button Grid.Column="3" 
                                     Content="{x:Static loc:Strings.LightingViewText1485}"
@@ -1513,7 +1513,7 @@
                                               IsChecked="{Binding ApplyKeyboardColorsOnStartup, Mode=TwoWay}"
                                               Style="{StaticResource ModernToggleButton}"
                                               VerticalAlignment="Center"
-                                              AutomationProperties.Name="Apply keyboard colors on startup"/>
+                                              AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility24}"/>
                             </Grid>
                         </Border>
 
@@ -1573,7 +1573,7 @@
                                         <Button Grid.Column="5" Content="{x:Static loc:Strings.LightingViewText1572}"
                                                 Style="{StaticResource ModernButton}"
                                                 Command="{Binding ApplyPerKeyLightingCommand}" Padding="16,6"
-                                                AutomationProperties.Name="Apply per-key colors to keyboard"/>
+                                                AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility25}"/>
                                     </Grid>
                                     <!-- Key grid -->
                                     <Border Background="#0D0D0D" CornerRadius="8" Padding="8"
@@ -1673,7 +1673,7 @@
                                     Padding="0" BorderThickness="0" Background="Transparent"
                                     Margin="0,0,6,0" IsEnabled="{Binding UseCustomColors}"
                                     ToolTip="{x:Static loc:Strings.LightingViewText1674}"
-                                    AutomationProperties.Name="Choose the first custom effect colour">
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibility26}">
                                 <Border Width="26" Height="26" CornerRadius="4"
                                         Background="{Binding PrimaryColorBrush}"
                                         BorderBrush="#666" BorderThickness="1"/>
