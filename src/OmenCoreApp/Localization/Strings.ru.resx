@@ -1396,4 +1396,12 @@ Your backed-up settings will be restored.
 
 Continue?</value></data>
   <data name="OptimizerRevertTitle" xml:space="preserve"><value>Revert All Optimizations</value></data>
+  <data name="LightingDpiConfirm" xml:space="preserve"><value>This will change the hardware DPI settings on the selected device. Do you want to continue?</value></data>
+  <data name="LightingDpiConfirmTitle" xml:space="preserve"><value>Confirm DPI Change</value></data>
+  <data name="LightingDpiNotApplied" xml:space="preserve"><value>OmenCore couldn't actually write these DPI settings to the device - the active Corsair connection (RGB.NET/iCUE) doesn't support DPI configuration. Nothing on the mouse changed.</value></data>
+  <data name="LightingDpiNotAppliedTitle" xml:space="preserve"><value>DPI Settings Not Applied</value></data>
+  <data name="LightingDpiRestore" xml:space="preserve"><value>This will restore DPI stages to their saved defaults (or built-in defaults if none). Continue?</value></data>
+  <data name="LightingDpiRestoreTitle" xml:space="preserve"><value>Restore DPI Defaults</value></data>
+  <data name="LightingDpiDelete" xml:space="preserve"><value>Are you sure you want to delete the DPI profile '{0}'? This cannot be undone.</value></data>
+  <data name="LightingDpiDeleteTitle" xml:space="preserve"><value>Delete DPI Profile</value></data>
 </root>

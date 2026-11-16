@@ -2050,8 +2050,8 @@ namespace OmenCore.ViewModels
             if (!skipConfirmation)
             {
                 var res = MessageBox.Show(
-                    "This will change the hardware DPI settings on the selected device. Do you want to continue?",
-                    "Confirm DPI Change",
+                    OmenCore.Localization.Strings.LightingDpiConfirm,
+                    OmenCore.Localization.Strings.LightingDpiConfirmTitle,
                     MessageBoxButton.YesNo,
                     MessageBoxImage.Warning,
                     MessageBoxResult.No);
@@ -2080,8 +2080,8 @@ namespace OmenCore.ViewModels
                     {
                         _logging.Warn("DPI settings were not applied - active Corsair backend does not support writing DPI to this device");
                         MessageBox.Show(
-                            "OmenCore couldn't actually write these DPI settings to the device - the active Corsair connection (RGB.NET/iCUE) doesn't support DPI configuration. Nothing on the mouse changed.",
-                            "DPI Settings Not Applied",
+                            OmenCore.Localization.Strings.LightingDpiNotApplied,
+                            OmenCore.Localization.Strings.LightingDpiNotAppliedTitle,
                             MessageBoxButton.OK,
                             MessageBoxImage.Warning);
                         return;
@@ -2153,8 +2153,8 @@ namespace OmenCore.ViewModels
             if (!skipConfirmation)
             {
                 var res = MessageBox.Show(
-                    "This will restore DPI stages to their saved defaults (or built-in defaults if none). Continue?",
-                    "Restore DPI Defaults",
+                    OmenCore.Localization.Strings.LightingDpiRestore,
+                    OmenCore.Localization.Strings.LightingDpiRestoreTitle,
                     MessageBoxButton.YesNo,
                     MessageBoxImage.Question,
                     MessageBoxResult.No);
@@ -2303,8 +2303,8 @@ namespace OmenCore.ViewModels
             }
 
             var res = MessageBox.Show(
-                $"Are you sure you want to delete the DPI profile '{SelectedCorsairDpiProfile.Name}'? This cannot be undone.",
-                "Delete DPI Profile",
+                string.Format(OmenCore.Localization.Strings.LightingDpiDelete, SelectedCorsairDpiProfile.Name),
+                OmenCore.Localization.Strings.LightingDpiDeleteTitle,
                 MessageBoxButton.YesNo,
                 MessageBoxImage.Warning,
                 MessageBoxResult.No);

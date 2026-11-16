@@ -1256,5 +1256,13 @@ namespace OmenCore.Localization
         public static string OptimizerBalancedTitle => Get(nameof(OptimizerBalancedTitle));
         public static string OptimizerRevertPrompt => Get(nameof(OptimizerRevertPrompt));
         public static string OptimizerRevertTitle => Get(nameof(OptimizerRevertTitle));
+        public static string LightingDpiConfirm => Get(nameof(LightingDpiConfirm));
+        public static string LightingDpiConfirmTitle => Get(nameof(LightingDpiConfirmTitle));
+        public static string LightingDpiNotApplied => Get(nameof(LightingDpiNotApplied));
+        public static string LightingDpiNotAppliedTitle => Get(nameof(LightingDpiNotAppliedTitle));
+        public static string LightingDpiRestore => Get(nameof(LightingDpiRestore));
+        public static string LightingDpiRestoreTitle => Get(nameof(LightingDpiRestoreTitle));
+        public static string LightingDpiDelete => Get(nameof(LightingDpiDelete));
+        public static string LightingDpiDeleteTitle => Get(nameof(LightingDpiDeleteTitle));
     }
 }

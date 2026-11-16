@@ -82,12 +82,12 @@ src/OmenCoreApp/ViewModels/KeyboardMapViewModel.cs,656,"Status = ""No measured k
 src/OmenCoreApp/ViewModels/KeyboardMapViewModel.cs,744,Status = HasLightBar,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/ViewModels/KeyboardMapViewModel.cs,828,"Status = $""{ledCells} LEDs across {layout.Keys.Count} keys ({layout.Id})"" +",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/ViewModels/LightingViewModel.cs,1742,if (dialog.ShowDialog() == true && dialog.DialogResultOk),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/LightingViewModel.cs,2049,var res = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/LightingViewModel.cs,2079,MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/LightingViewModel.cs,2152,var res = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/LightingViewModel.cs,2049,var res = MessageBox.Show(,A,是,已资源化,DPI 确认/失败提示；Strings.LightingDpi* 或 Strings.DpiOverwrite*；选择分支保持原样
+src/OmenCoreApp/ViewModels/LightingViewModel.cs,2079,MessageBox.Show(,A,是,已资源化,DPI 确认/失败提示；Strings.LightingDpi* 或 Strings.DpiOverwrite*；选择分支保持原样
+src/OmenCoreApp/ViewModels/LightingViewModel.cs,2152,var res = MessageBox.Show(,A,是,已资源化,DPI 确认/失败提示；Strings.LightingDpi* 或 Strings.DpiOverwrite*；选择分支保持原样
 src/OmenCoreApp/ViewModels/LightingViewModel.cs,2254,if (namePrompt.ShowDialog() != true || string.IsNullOrWhiteSpace(namePrompt.Input)),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/LightingViewModel.cs,2264,"var res = MessageBox.Show(string.Format(OmenCore.Localization.Strings.DpiOverwritePrompt, name), OmenCore.Localization.Strings.DpiOverwriteTitle, MessageBoxButton.YesNo, MessageBoxImage.Warning, MessageBoxResult.No);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/LightingViewModel.cs,2302,var res = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/LightingViewModel.cs,2264,"var res = MessageBox.Show(string.Format(OmenCore.Localization.Strings.DpiOverwritePrompt, name), OmenCore.Localization.Strings.DpiOverwriteTitle, MessageBoxButton.YesNo, MessageBoxImage.Warning, MessageBoxResult.No);",A,是,已资源化,DPI 确认/失败提示；Strings.LightingDpi* 或 Strings.DpiOverwrite*；选择分支保持原样
+src/OmenCoreApp/ViewModels/LightingViewModel.cs,2302,var res = MessageBox.Show(,A,是,已资源化,DPI 确认/失败提示；Strings.LightingDpi* 或 Strings.DpiOverwrite*；选择分支保持原样
 src/OmenCoreApp/ViewModels/MainViewModel.cs,2333,window.ShowDialog();,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/ViewModels/MainViewModel.cs,2342,"MessageBox.Show($""Failed to open profile manager: {ex.Message}"", ""Error"", MessageBoxButton.OK, MessageBoxImage.Error);",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/ViewModels/MainViewModel.cs,2608,var continueAnyway = System.Windows.MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务

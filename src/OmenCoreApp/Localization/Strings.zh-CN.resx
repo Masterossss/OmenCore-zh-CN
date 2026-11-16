@@ -1392,4 +1392,12 @@
 
 是否继续？</value></data>
   <data name="OptimizerRevertTitle" xml:space="preserve"><value>还原全部优化</value></data>
+  <data name="LightingDpiConfirm" xml:space="preserve"><value>此操作将更改所选设备的硬件 DPI 设置。是否继续？</value></data>
+  <data name="LightingDpiConfirmTitle" xml:space="preserve"><value>确认更改 DPI</value></data>
+  <data name="LightingDpiNotApplied" xml:space="preserve"><value>OmenCore 未能将这些 DPI 设置写入设备——当前 Corsair 连接（RGB.NET/iCUE）不支持 DPI 配置。鼠标上的设置没有改变。</value></data>
+  <data name="LightingDpiNotAppliedTitle" xml:space="preserve"><value>DPI 设置未应用</value></data>
+  <data name="LightingDpiRestore" xml:space="preserve"><value>此操作将把 DPI 档位恢复为已保存的默认值（如果没有，则使用内置默认值）。是否继续？</value></data>
+  <data name="LightingDpiRestoreTitle" xml:space="preserve"><value>恢复 DPI 默认设置</value></data>
+  <data name="LightingDpiDelete" xml:space="preserve"><value>确定要删除 DPI 配置文件“{0}”吗？此操作无法撤销。</value></data>
+  <data name="LightingDpiDeleteTitle" xml:space="preserve"><value>删除 DPI 配置文件</value></data>
 </root>
