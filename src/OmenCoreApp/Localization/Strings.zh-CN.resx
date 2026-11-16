@@ -1120,4 +1120,72 @@
   <data name="RgbVisualConfirmed" xml:space="preserve"><value>已确认</value></data>
   <data name="RgbDeviceCount" xml:space="preserve"><value>检测到 {0} 个设备</value></data>
   <data name="RgbRazerMissing" xml:space="preserve"><value>未检测到 Razer Synapse</value></data>
+  <data name="LightingViewText55" xml:space="preserve"><value>RGB 灯光与外设</value></data>
+  <data name="LightingViewText92" xml:space="preserve"><value>OMEN 键盘</value></data>
+  <data name="LightingViewText158" xml:space="preserve"><value>控制权</value></data>
+  <data name="LightingViewText199" xml:space="preserve"><value>打开动态照明设置</value></data>
+  <data name="LightingViewText225" xml:space="preserve"><value>通过当前 HP 键盘后端重新应用保存的键盘颜色</value></data>
+  <data name="LightingViewText227" xml:space="preserve"><value>恢复键盘灯光</value></data>
+  <data name="LightingViewText248" xml:space="preserve"><value>RGB 表面观察</value></data>
+  <data name="LightingViewText264" xml:space="preserve"><value>记录探测后实际发生变化的 RGB 或背光区域</value></data>
+  <data name="LightingViewText276" xml:space="preserve"><value>通过当前 HP 键盘后端应用安全的明亮探测颜色</value></data>
+  <data name="LightingViewText285" xml:space="preserve"><value>探测</value></data>
+  <data name="LightingViewText291" xml:space="preserve"><value>保存选定的 RGB 表面观察结果，用于诊断导出</value></data>
+  <data name="LightingViewText300" xml:space="preserve"><value>保存</value></data>
+  <data name="LightingViewText359" xml:space="preserve"><value>将当前颜色同步到所有已连接的 RGB 设备</value></data>
+  <data name="LightingViewText375" xml:space="preserve"><value>同步所有 RGB 设备</value></data>
+  <data name="LightingViewText401" xml:space="preserve"><value>场景快速选择</value></data>
+  <data name="LightingViewText413" xml:space="preserve"><value>启用或禁用此卡片中的场景快速选择控件</value></data>
+  <data name="LightingViewText481" xml:space="preserve"><value>屏幕环境灯光</value></data>
+  <data name="LightingViewText483" xml:space="preserve"><value>RGB 与屏幕边缘颜色同步</value></data>
+  <data name="LightingViewText499" xml:space="preserve"><value>音频响应灯光</value></data>
+  <data name="LightingViewText501" xml:space="preserve"><value>通过 WASAPI 环回随系统音频输出闪动</value></data>
+  <data name="LightingViewText521" xml:space="preserve"><value>模式</value></data>
+  <data name="LightingViewText528" xml:space="preserve"><value>灵敏度</value></data>
+  <data name="LightingViewText544" xml:space="preserve"><value>Corsair 设备</value></data>
+  <data name="LightingViewText558" xml:space="preserve"><value>启用或禁用此卡片中的 Corsair 控件</value></data>
+  <data name="LightingViewText578" xml:space="preserve"><value>发现设备</value></data>
+  <data name="LightingViewText628" xml:space="preserve"><value>闪烁设备 LED 以识别此设备</value></data>
+  <data name="LightingViewText656" xml:space="preserve"><value>灯光预设：</value></data>
+  <data name="LightingViewText669" xml:space="preserve"><value>应用</value></data>
+  <data name="LightingViewText670" xml:space="preserve"><value>应用到系统</value></data>
+  <data name="LightingViewText675" xml:space="preserve"><value>自定义 RGB 颜色</value></data>
+  <data name="LightingViewText689" xml:space="preserve"><value>颜色（十六进制）：</value></data>
+  <data name="LightingViewText701" xml:space="preserve"><value>应用颜色</value></data>
+  <data name="LightingViewText710" xml:space="preserve"><value>DPI 配置</value></data>
+  <data name="LightingViewText715" xml:space="preserve"><value>DPI 档位：</value></data>
+  <data name="LightingViewText766" xml:space="preserve"><value>选择已保存的 DPI 配置文件（以相同名称保存时将提示是否覆盖）</value></data>
+  <data name="LightingViewText769Content" xml:space="preserve"><value>保存配置文件</value></data>
+  <data name="LightingViewText769ToolTip" xml:space="preserve"><value>将当前 DPI 档位保存为配置文件</value></data>
+  <data name="LightingViewText770Content" xml:space="preserve"><value>应用配置文件</value></data>
+  <data name="LightingViewText770ToolTip" xml:space="preserve"><value>将所选 DPI 配置文件应用到当前档位</value></data>
+  <data name="LightingViewText771Content" xml:space="preserve"><value>删除</value></data>
+  <data name="LightingViewText771ToolTip" xml:space="preserve"><value>删除选中的 DPI 配置文件</value></data>
+  <data name="LightingViewText775" xml:space="preserve"><value>恢复默认设置</value></data>
+  <data name="LightingViewText779" xml:space="preserve"><value>应用 DPI 设置</value></data>
+  <data name="LightingViewText797" xml:space="preserve"><value>Logitech 设备</value></data>
+  <data name="LightingViewText811" xml:space="preserve"><value>启用或禁用此卡片中的 Logitech 控件</value></data>
+  <data name="LightingViewText822" xml:space="preserve"><value>在所有检测到的 Logitech 设备间同步颜色</value></data>
+  <data name="LightingViewText826" xml:space="preserve"><value>应用到系统</value></data>
+  <data name="LightingViewText845" xml:space="preserve"><value>发现设备</value></data>
+  <data name="LightingViewText913" xml:space="preserve"><value>静态颜色：</value></data>
+  <data name="LightingViewText919" xml:space="preserve"><value>红色</value></data>
+  <data name="LightingViewText928" xml:space="preserve"><value>绿色</value></data>
+  <data name="LightingViewText937" xml:space="preserve"><value>蓝色</value></data>
+  <data name="LightingViewText946" xml:space="preserve"><value>应用颜色</value></data>
+  <data name="LightingViewText965" xml:space="preserve"><value>Razer 设备</value></data>
+  <data name="LightingViewText979" xml:space="preserve"><value>启用或禁用此卡片中的 Razer 控件</value></data>
+  <data name="LightingViewText985" xml:space="preserve"><value>需要安装并运行 Razer Synapse</value></data>
+  <data name="LightingViewText1004" xml:space="preserve"><value>发现设备</value></data>
+  <data name="LightingViewText1051" xml:space="preserve"><value>灯光控制</value></data>
+  <data name="LightingViewText1064" xml:space="preserve"><value>颜色：</value></data>
+  <data name="LightingViewText1070" xml:space="preserve"><value>红色</value></data>
+  <data name="LightingViewText1079" xml:space="preserve"><value>绿色</value></data>
+  <data name="LightingViewText1088" xml:space="preserve"><value>蓝色</value></data>
+  <data name="LightingViewText1097" xml:space="preserve"><value>应用静态颜色</value></data>
+  <data name="LightingViewText1113" xml:space="preserve"><value>呼吸</value></data>
+  <data name="LightingViewText1120" xml:space="preserve"><value>光谱循环</value></data>
+  <data name="LightingViewText1129" xml:space="preserve"><value>Razer 支持仅限于已检测设备的状态以及对受支持硬件验证过的灯光操作。</value></data>
+  <data name="LightingViewText1148" xml:space="preserve"><value>OpenRGB 设备</value></data>
+  <data name="LightingViewText1155" xml:space="preserve"><value>可通过 OpenRGB 服务器对主板、内存、GPU、风扇、LED 灯带和其他外设进行可选的通用 RGB 控制。</value></data>
 </root>

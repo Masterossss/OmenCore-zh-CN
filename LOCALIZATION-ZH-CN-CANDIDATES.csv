@@ -481,78 +481,78 @@ src/OmenCoreApp/Views/KeyboardMapEditor.xaml,90,ToolTip,"Applies the picture, th
 src/OmenCoreApp/Views/KeyboardMapEditor.xaml,115,Text,Whole keyboard:,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/KeyboardMapEditor.xaml,125,Text,Selected:,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/KeyboardMapEditor.xaml,217,Text,Click a key to select or deselect it. Drag a box to select a region — it can span the keyboard and the light bar. Hold Ctrl or Shift while dragging to add to the selection.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,55,Text,RGB Lighting &amp; Peripherals,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/LightingView.xaml,55,Text,RGB Lighting &amp; Peripherals,A,是,已迁移,LightingViewText55
 src/OmenCoreApp/Views/LightingView.xaml,66,Text,Corsair,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/LightingView.xaml,75,Text,Logitech,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/LightingView.xaml,84,Text,Razer,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,92,Text,OMEN Keyboard,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,158,Text,Control ownership,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,199,Content,Open Dynamic Lighting settings,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,225,ToolTip,Reapply saved keyboard colors through the active HP keyboard backend,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,227,Text,Restore Keyboard,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,248,Text,RGB surface observation,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,264,ToolTip,Record the physical RGB or backlight surface that changed after probing,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,276,ToolTip,Apply a safe bright probe color through the active HP keyboard backend,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,285,Text,Probe,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,291,ToolTip,Save the selected observed RGB surface for diagnostic exports,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,300,Text,Save,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,359,ToolTip,Sync current color across all connected RGB devices,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,375,Text,Sync All RGB,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,401,Text,Scene Quick Select,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,413,ToolTip,Enable or disable Scene Quick Select controls in this card,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,481,Text,Ambient Screen Lighting,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,483,Text,RGB syncs with screen edge colors,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,499,Text,Audio Reactive Lighting,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,501,Text,Pulses with system audio output via WASAPI loopback,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,521,Text,Mode,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,528,Text,Sensitivity,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,544,Text,Corsair Devices,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,558,ToolTip,Enable or disable Corsair controls in this card,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,578,Content,Discover Devices,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,628,ToolTip,Flash device LEDs to identify this device,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/LightingView.xaml,92,Text,OMEN Keyboard,A,是,已迁移,LightingViewText92
+src/OmenCoreApp/Views/LightingView.xaml,158,Text,Control ownership,A,是,已迁移,LightingViewText158
+src/OmenCoreApp/Views/LightingView.xaml,199,Content,Open Dynamic Lighting settings,A,是,已迁移,LightingViewText199
+src/OmenCoreApp/Views/LightingView.xaml,225,ToolTip,Reapply saved keyboard colors through the active HP keyboard backend,A,是,已迁移,LightingViewText225
+src/OmenCoreApp/Views/LightingView.xaml,227,Text,Restore Keyboard,A,是,已迁移,LightingViewText227
+src/OmenCoreApp/Views/LightingView.xaml,248,Text,RGB surface observation,A,是,已迁移,LightingViewText248
+src/OmenCoreApp/Views/LightingView.xaml,264,ToolTip,Record the physical RGB or backlight surface that changed after probing,A,是,已迁移,LightingViewText264
+src/OmenCoreApp/Views/LightingView.xaml,276,ToolTip,Apply a safe bright probe color through the active HP keyboard backend,A,是,已迁移,LightingViewText276
+src/OmenCoreApp/Views/LightingView.xaml,285,Text,Probe,A,是,已迁移,LightingViewText285
+src/OmenCoreApp/Views/LightingView.xaml,291,ToolTip,Save the selected observed RGB surface for diagnostic exports,A,是,已迁移,LightingViewText291
+src/OmenCoreApp/Views/LightingView.xaml,300,Text,Save,A,是,已迁移,LightingViewText300
+src/OmenCoreApp/Views/LightingView.xaml,359,ToolTip,Sync current color across all connected RGB devices,A,是,已迁移,LightingViewText359
+src/OmenCoreApp/Views/LightingView.xaml,375,Text,Sync All RGB,A,是,已迁移,LightingViewText375
+src/OmenCoreApp/Views/LightingView.xaml,401,Text,Scene Quick Select,A,是,已迁移,LightingViewText401
+src/OmenCoreApp/Views/LightingView.xaml,413,ToolTip,Enable or disable Scene Quick Select controls in this card,A,是,已迁移,LightingViewText413
+src/OmenCoreApp/Views/LightingView.xaml,481,Text,Ambient Screen Lighting,A,是,已迁移,LightingViewText481
+src/OmenCoreApp/Views/LightingView.xaml,483,Text,RGB syncs with screen edge colors,A,是,已迁移,LightingViewText483
+src/OmenCoreApp/Views/LightingView.xaml,499,Text,Audio Reactive Lighting,A,是,已迁移,LightingViewText499
+src/OmenCoreApp/Views/LightingView.xaml,501,Text,Pulses with system audio output via WASAPI loopback,A,是,已迁移,LightingViewText501
+src/OmenCoreApp/Views/LightingView.xaml,521,Text,Mode,A,是,已迁移,LightingViewText521
+src/OmenCoreApp/Views/LightingView.xaml,528,Text,Sensitivity,A,是,已迁移,LightingViewText528
+src/OmenCoreApp/Views/LightingView.xaml,544,Text,Corsair Devices,A,是,已迁移,LightingViewText544
+src/OmenCoreApp/Views/LightingView.xaml,558,ToolTip,Enable or disable Corsair controls in this card,A,是,已迁移,LightingViewText558
+src/OmenCoreApp/Views/LightingView.xaml,578,Content,Discover Devices,A,是,已迁移,LightingViewText578
+src/OmenCoreApp/Views/LightingView.xaml,628,ToolTip,Flash device LEDs to identify this device,A,是,已迁移,LightingViewText628
 src/OmenCoreApp/Views/LightingView.xaml,636,Text,DPI,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,656,Text,Lighting Preset:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,669,Content,Apply,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,670,Content,Apply to System,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,675,Header,Custom RGB Color,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,689,Text,Color (Hex):,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,701,Content,Apply Color,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,710,Header,DPI Configuration,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,715,Text,DPI Stages:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,766,ToolTip,Select a saved DPI profile (Save with same name will prompt to overwrite),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,769,Content,Save Profile,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,769,ToolTip,Save current DPI stages as a profile,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,770,Content,Apply Profile,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,770,ToolTip,Apply selected DPI profile to current stages,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,771,Content,Delete,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,771,ToolTip,Delete the selected DPI profile,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,775,Content,Restore Defaults,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,779,Content,Apply DPI Settings,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,797,Text,Logitech Devices,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,811,ToolTip,Enable or disable Logitech controls in this card,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,822,Text,Sync color across all detected Logitech devices,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,826,Content,Apply to System,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,845,Content,Discover Devices,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,913,Text,Static Color:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,919,Text,Red,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,928,Text,Green,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,937,Text,Blue,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,946,Content,Apply Color,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,965,Text,Razer Devices,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,979,ToolTip,Enable or disable Razer controls in this card,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,985,Text,Requires Razer Synapse to be installed and running,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1004,Content,Discover Devices,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1051,Text,Lighting Control,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1064,Text,Color:,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1070,Text,Red,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1079,Text,Green,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1088,Text,Blue,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1097,Content,Apply Static,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1113,Content,Breathing,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1120,Content,Spectrum Cycle,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1129,Text,Razer support is limited to detected-device status and validated lighting actions for supported hardware.,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1148,Text,OpenRGB Devices,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/LightingView.xaml,1155,Text,"Optional generic RGB control via OpenRGB server for motherboards, RAM, GPUs, fans, LED strips, and other peripherals.",E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/LightingView.xaml,656,Text,Lighting Preset:,A,是,已迁移,LightingViewText656
+src/OmenCoreApp/Views/LightingView.xaml,669,Content,Apply,A,是,已迁移,LightingViewText669
+src/OmenCoreApp/Views/LightingView.xaml,670,Content,Apply to System,A,是,已迁移,LightingViewText670
+src/OmenCoreApp/Views/LightingView.xaml,675,Header,Custom RGB Color,A,是,已迁移,LightingViewText675
+src/OmenCoreApp/Views/LightingView.xaml,689,Text,Color (Hex):,A,是,已迁移,LightingViewText689
+src/OmenCoreApp/Views/LightingView.xaml,701,Content,Apply Color,A,是,已迁移,LightingViewText701
+src/OmenCoreApp/Views/LightingView.xaml,710,Header,DPI Configuration,A,是,已迁移,LightingViewText710
+src/OmenCoreApp/Views/LightingView.xaml,715,Text,DPI Stages:,A,是,已迁移,LightingViewText715
+src/OmenCoreApp/Views/LightingView.xaml,766,ToolTip,Select a saved DPI profile (Save with same name will prompt to overwrite),A,是,已迁移,LightingViewText766
+src/OmenCoreApp/Views/LightingView.xaml,769,Content,Save Profile,A,是,已迁移,LightingViewText769Content
+src/OmenCoreApp/Views/LightingView.xaml,769,ToolTip,Save current DPI stages as a profile,A,是,已迁移,LightingViewText769ToolTip
+src/OmenCoreApp/Views/LightingView.xaml,770,Content,Apply Profile,A,是,已迁移,LightingViewText770Content
+src/OmenCoreApp/Views/LightingView.xaml,770,ToolTip,Apply selected DPI profile to current stages,A,是,已迁移,LightingViewText770ToolTip
+src/OmenCoreApp/Views/LightingView.xaml,771,Content,Delete,A,是,已迁移,LightingViewText771Content
+src/OmenCoreApp/Views/LightingView.xaml,771,ToolTip,Delete the selected DPI profile,A,是,已迁移,LightingViewText771ToolTip
+src/OmenCoreApp/Views/LightingView.xaml,775,Content,Restore Defaults,A,是,已迁移,LightingViewText775
+src/OmenCoreApp/Views/LightingView.xaml,779,Content,Apply DPI Settings,A,是,已迁移,LightingViewText779
+src/OmenCoreApp/Views/LightingView.xaml,797,Text,Logitech Devices,A,是,已迁移,LightingViewText797
+src/OmenCoreApp/Views/LightingView.xaml,811,ToolTip,Enable or disable Logitech controls in this card,A,是,已迁移,LightingViewText811
+src/OmenCoreApp/Views/LightingView.xaml,822,Text,Sync color across all detected Logitech devices,A,是,已迁移,LightingViewText822
+src/OmenCoreApp/Views/LightingView.xaml,826,Content,Apply to System,A,是,已迁移,LightingViewText826
+src/OmenCoreApp/Views/LightingView.xaml,845,Content,Discover Devices,A,是,已迁移,LightingViewText845
+src/OmenCoreApp/Views/LightingView.xaml,913,Text,Static Color:,A,是,已迁移,LightingViewText913
+src/OmenCoreApp/Views/LightingView.xaml,919,Text,Red,A,是,已迁移,LightingViewText919
+src/OmenCoreApp/Views/LightingView.xaml,928,Text,Green,A,是,已迁移,LightingViewText928
+src/OmenCoreApp/Views/LightingView.xaml,937,Text,Blue,A,是,已迁移,LightingViewText937
+src/OmenCoreApp/Views/LightingView.xaml,946,Content,Apply Color,A,是,已迁移,LightingViewText946
+src/OmenCoreApp/Views/LightingView.xaml,965,Text,Razer Devices,A,是,已迁移,LightingViewText965
+src/OmenCoreApp/Views/LightingView.xaml,979,ToolTip,Enable or disable Razer controls in this card,A,是,已迁移,LightingViewText979
+src/OmenCoreApp/Views/LightingView.xaml,985,Text,Requires Razer Synapse to be installed and running,A,是,已迁移,LightingViewText985
+src/OmenCoreApp/Views/LightingView.xaml,1004,Content,Discover Devices,A,是,已迁移,LightingViewText1004
+src/OmenCoreApp/Views/LightingView.xaml,1051,Text,Lighting Control,A,是,已迁移,LightingViewText1051
+src/OmenCoreApp/Views/LightingView.xaml,1064,Text,Color:,A,是,已迁移,LightingViewText1064
+src/OmenCoreApp/Views/LightingView.xaml,1070,Text,Red,A,是,已迁移,LightingViewText1070
+src/OmenCoreApp/Views/LightingView.xaml,1079,Text,Green,A,是,已迁移,LightingViewText1079
+src/OmenCoreApp/Views/LightingView.xaml,1088,Text,Blue,A,是,已迁移,LightingViewText1088
+src/OmenCoreApp/Views/LightingView.xaml,1097,Content,Apply Static,A,是,已迁移,LightingViewText1097
+src/OmenCoreApp/Views/LightingView.xaml,1113,Content,Breathing,A,是,已迁移,LightingViewText1113
+src/OmenCoreApp/Views/LightingView.xaml,1120,Content,Spectrum Cycle,A,是,已迁移,LightingViewText1120
+src/OmenCoreApp/Views/LightingView.xaml,1129,Text,Razer support is limited to detected-device status and validated lighting actions for supported hardware.,A,是,已迁移,LightingViewText1129
+src/OmenCoreApp/Views/LightingView.xaml,1148,Text,OpenRGB Devices,A,是,已迁移,LightingViewText1148
+src/OmenCoreApp/Views/LightingView.xaml,1155,Text,"Optional generic RGB control via OpenRGB server for motherboards, RAM, GPUs, fans, LED strips, and other peripherals.",A,是,已迁移,LightingViewText1155
 src/OmenCoreApp/Views/LightingView.xaml,1214,ToolTip,Red,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/LightingView.xaml,1218,ToolTip,Blue,E,待核实,待审查,尚未判断是否可见或需要翻译
 src/OmenCoreApp/Views/LightingView.xaml,1222,ToolTip,Green,E,待核实,待审查,尚未判断是否可见或需要翻译

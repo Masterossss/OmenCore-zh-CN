@@ -1124,4 +1124,72 @@ Try it anyway?</value></data>
   <data name="RgbVisualConfirmed" xml:space="preserve"><value>Confirmed</value></data>
   <data name="RgbDeviceCount" xml:space="preserve"><value>{0} device(s) detected</value></data>
   <data name="RgbRazerMissing" xml:space="preserve"><value>Razer Synapse not detected</value></data>
+  <data name="LightingViewText55" xml:space="preserve"><value>RGB Lighting &amp; Peripherals</value></data>
+  <data name="LightingViewText92" xml:space="preserve"><value>OMEN Keyboard</value></data>
+  <data name="LightingViewText158" xml:space="preserve"><value>Control ownership</value></data>
+  <data name="LightingViewText199" xml:space="preserve"><value>Open Dynamic Lighting settings</value></data>
+  <data name="LightingViewText225" xml:space="preserve"><value>Reapply saved keyboard colors through the active HP keyboard backend</value></data>
+  <data name="LightingViewText227" xml:space="preserve"><value>Restore Keyboard</value></data>
+  <data name="LightingViewText248" xml:space="preserve"><value>RGB surface observation</value></data>
+  <data name="LightingViewText264" xml:space="preserve"><value>Record the physical RGB or backlight surface that changed after probing</value></data>
+  <data name="LightingViewText276" xml:space="preserve"><value>Apply a safe bright probe color through the active HP keyboard backend</value></data>
+  <data name="LightingViewText285" xml:space="preserve"><value>Probe</value></data>
+  <data name="LightingViewText291" xml:space="preserve"><value>Save the selected observed RGB surface for diagnostic exports</value></data>
+  <data name="LightingViewText300" xml:space="preserve"><value>Save</value></data>
+  <data name="LightingViewText359" xml:space="preserve"><value>Sync current color across all connected RGB devices</value></data>
+  <data name="LightingViewText375" xml:space="preserve"><value>Sync All RGB</value></data>
+  <data name="LightingViewText401" xml:space="preserve"><value>Scene Quick Select</value></data>
+  <data name="LightingViewText413" xml:space="preserve"><value>Enable or disable Scene Quick Select controls in this card</value></data>
+  <data name="LightingViewText481" xml:space="preserve"><value>Ambient Screen Lighting</value></data>
+  <data name="LightingViewText483" xml:space="preserve"><value>RGB syncs with screen edge colors</value></data>
+  <data name="LightingViewText499" xml:space="preserve"><value>Audio Reactive Lighting</value></data>
+  <data name="LightingViewText501" xml:space="preserve"><value>Pulses with system audio output via WASAPI loopback</value></data>
+  <data name="LightingViewText521" xml:space="preserve"><value>Mode</value></data>
+  <data name="LightingViewText528" xml:space="preserve"><value>Sensitivity</value></data>
+  <data name="LightingViewText544" xml:space="preserve"><value>Corsair Devices</value></data>
+  <data name="LightingViewText558" xml:space="preserve"><value>Enable or disable Corsair controls in this card</value></data>
+  <data name="LightingViewText578" xml:space="preserve"><value>Discover Devices</value></data>
+  <data name="LightingViewText628" xml:space="preserve"><value>Flash device LEDs to identify this device</value></data>
+  <data name="LightingViewText656" xml:space="preserve"><value>Lighting Preset:</value></data>
+  <data name="LightingViewText669" xml:space="preserve"><value>Apply</value></data>
+  <data name="LightingViewText670" xml:space="preserve"><value>Apply to System</value></data>
+  <data name="LightingViewText675" xml:space="preserve"><value>Custom RGB Color</value></data>
+  <data name="LightingViewText689" xml:space="preserve"><value>Color (Hex):</value></data>
+  <data name="LightingViewText701" xml:space="preserve"><value>Apply Color</value></data>
+  <data name="LightingViewText710" xml:space="preserve"><value>DPI Configuration</value></data>
+  <data name="LightingViewText715" xml:space="preserve"><value>DPI Stages:</value></data>
+  <data name="LightingViewText766" xml:space="preserve"><value>Select a saved DPI profile (Save with same name will prompt to overwrite)</value></data>
+  <data name="LightingViewText769Content" xml:space="preserve"><value>Save Profile</value></data>
+  <data name="LightingViewText769ToolTip" xml:space="preserve"><value>Save current DPI stages as a profile</value></data>
+  <data name="LightingViewText770Content" xml:space="preserve"><value>Apply Profile</value></data>
+  <data name="LightingViewText770ToolTip" xml:space="preserve"><value>Apply selected DPI profile to current stages</value></data>
+  <data name="LightingViewText771Content" xml:space="preserve"><value>Delete</value></data>
+  <data name="LightingViewText771ToolTip" xml:space="preserve"><value>Delete the selected DPI profile</value></data>
+  <data name="LightingViewText775" xml:space="preserve"><value>Restore Defaults</value></data>
+  <data name="LightingViewText779" xml:space="preserve"><value>Apply DPI Settings</value></data>
+  <data name="LightingViewText797" xml:space="preserve"><value>Logitech Devices</value></data>
+  <data name="LightingViewText811" xml:space="preserve"><value>Enable or disable Logitech controls in this card</value></data>
+  <data name="LightingViewText822" xml:space="preserve"><value>Sync color across all detected Logitech devices</value></data>
+  <data name="LightingViewText826" xml:space="preserve"><value>Apply to System</value></data>
+  <data name="LightingViewText845" xml:space="preserve"><value>Discover Devices</value></data>
+  <data name="LightingViewText913" xml:space="preserve"><value>Static Color:</value></data>
+  <data name="LightingViewText919" xml:space="preserve"><value>Red</value></data>
+  <data name="LightingViewText928" xml:space="preserve"><value>Green</value></data>
+  <data name="LightingViewText937" xml:space="preserve"><value>Blue</value></data>
+  <data name="LightingViewText946" xml:space="preserve"><value>Apply Color</value></data>
+  <data name="LightingViewText965" xml:space="preserve"><value>Razer Devices</value></data>
+  <data name="LightingViewText979" xml:space="preserve"><value>Enable or disable Razer controls in this card</value></data>
+  <data name="LightingViewText985" xml:space="preserve"><value>Requires Razer Synapse to be installed and running</value></data>
+  <data name="LightingViewText1004" xml:space="preserve"><value>Discover Devices</value></data>
+  <data name="LightingViewText1051" xml:space="preserve"><value>Lighting Control</value></data>
+  <data name="LightingViewText1064" xml:space="preserve"><value>Color:</value></data>
+  <data name="LightingViewText1070" xml:space="preserve"><value>Red</value></data>
+  <data name="LightingViewText1079" xml:space="preserve"><value>Green</value></data>
+  <data name="LightingViewText1088" xml:space="preserve"><value>Blue</value></data>
+  <data name="LightingViewText1097" xml:space="preserve"><value>Apply Static</value></data>
+  <data name="LightingViewText1113" xml:space="preserve"><value>Breathing</value></data>
+  <data name="LightingViewText1120" xml:space="preserve"><value>Spectrum Cycle</value></data>
+  <data name="LightingViewText1129" xml:space="preserve"><value>Razer support is limited to detected-device status and validated lighting actions for supported hardware.</value></data>
+  <data name="LightingViewText1148" xml:space="preserve"><value>OpenRGB Devices</value></data>
+  <data name="LightingViewText1155" xml:space="preserve"><value>Optional generic RGB control via OpenRGB server for motherboards, RAM, GPUs, fans, LED strips, and other peripherals.</value></data>
 </root>
