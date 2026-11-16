@@ -1,6 +1,7 @@
 <Window x:Class="OmenCore.Views.OsdOverlayWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:loc="clr-namespace:OmenCore.Localization"
         Title="OmenCore OSD"
         SizeToContent="WidthAndHeight"
         WindowStyle="None"
@@ -74,7 +75,7 @@
                     <ColumnDefinition Width="12"/>
                     <ColumnDefinition Width="*" SharedSizeGroup="MetricValue"/>
                 </Grid.ColumnDefinitions>
-                <TextBlock Grid.Column="0" Text="MODE" FontSize="11" Foreground="#888888" FontFamily="{StaticResource AppFontFamily}" FontWeight="Medium"/>
+                <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.OsdModeLabel}" FontSize="11" Foreground="#888888" FontFamily="{StaticResource AppFontFamily}" FontWeight="Medium"/>
                 <TextBlock Grid.Column="2" Text="{Binding PerformanceMode}" FontSize="12" Foreground="#FFD700" FontFamily="{StaticResource AppFontFamily}" FontWeight="SemiBold" HorizontalAlignment="Right"/>
             </Grid>
             
@@ -85,7 +86,7 @@
                     <ColumnDefinition Width="12"/>
                     <ColumnDefinition Width="*" SharedSizeGroup="MetricValue"/>
                 </Grid.ColumnDefinitions>
-                <TextBlock Grid.Column="0" Text="FANS" FontSize="11" Foreground="#888888" FontFamily="{StaticResource AppFontFamily}" FontWeight="Medium"/>
+                <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.OsdFansLabel}" FontSize="11" Foreground="#888888" FontFamily="{StaticResource AppFontFamily}" FontWeight="Medium"/>
                 <TextBlock Grid.Column="2" Text="{Binding FanMode}" FontSize="12" Foreground="#00BFFF" FontFamily="{StaticResource AppFontFamily}" FontWeight="SemiBold" HorizontalAlignment="Right"/>
             </Grid>
             
@@ -195,7 +196,7 @@
                     <ColumnDefinition Width="12"/>
                     <ColumnDefinition Width="*" SharedSizeGroup="MetricValue"/>
                 </Grid.ColumnDefinitions>
-                <TextBlock Grid.Column="0" Text="FAN" FontSize="11" Foreground="#888888" FontFamily="{StaticResource AppFontFamily}" FontWeight="Medium"/>
+                <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.OsdFanLabel}" FontSize="11" Foreground="#888888" FontFamily="{StaticResource AppFontFamily}" FontWeight="Medium"/>
                 <TextBlock Grid.Column="2" Text="{Binding FanSpeed}" FontSize="12" Foreground="#AAAAAA" FontFamily="{StaticResource AppFontFamily}" FontWeight="Medium" HorizontalAlignment="Right"/>
             </Grid>
             
@@ -217,7 +218,7 @@
                     <ColumnDefinition Width="12"/>
                     <ColumnDefinition Width="*" SharedSizeGroup="MetricValue"/>
                 </Grid.ColumnDefinitions>
-                <TextBlock Grid.Column="0" Text="BAT" FontSize="11" Foreground="#888888" FontFamily="{StaticResource AppFontFamily}" FontWeight="Medium"/>
+                <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.OsdBatteryLabel}" FontSize="11" Foreground="#888888" FontFamily="{StaticResource AppFontFamily}" FontWeight="Medium"/>
                 <TextBlock Grid.Column="2" Text="{Binding BatteryPercent}" FontSize="12" Foreground="{Binding BatteryColor}" FontFamily="{StaticResource AppFontFamily}" FontWeight="Medium" HorizontalAlignment="Right"/>
             </Grid>
             

@@ -1922,4 +1922,25 @@ Continue with calibration?</value></data>
   <data name="HotkeyOsdValue11" xml:space="preserve"><value>Off</value></data>
   <data name="HotkeyOsdValue12" xml:space="preserve"><value>On</value></data>
   <data name="HotkeyOsdTriggered" xml:space="preserve"><value>via Hotkey ({0})</value></data>
+  <data name="OsdModeLabel" xml:space="preserve"><value>MODE</value></data>
+  <data name="OsdFansLabel" xml:space="preserve"><value>FANS</value></data>
+  <data name="OsdFanLabel" xml:space="preserve"><value>FAN</value></data>
+  <data name="OsdBatteryLabel" xml:space="preserve"><value>BAT</value></data>
+  <data name="TrayRefreshHigh" xml:space="preserve"><value>High Refresh — Gaming mode</value></data>
+  <data name="TrayRefreshLow" xml:space="preserve"><value>Low Refresh — Save power</value></data>
+  <data name="TrayRefreshToggle" xml:space="preserve"><value>Toggle Refresh Rate</value></data>
+  <data name="TrayDisplayOff" xml:space="preserve"><value>Turn Off Display</value></data>
+  <data name="TrayGpuMinimum" xml:space="preserve"><value> Minimum — Base TGP, best battery</value></data>
+  <data name="TrayGpuMedium" xml:space="preserve"><value> Medium — Custom TGP</value></data>
+  <data name="TrayGpuMaximum" xml:space="preserve"><value> Maximum — TGP + Dynamic Boost</value></data>
+  <data name="TrayGpuExtended" xml:space="preserve"><value> Extended — PPAB+, try if Maximum falls short</value></data>
+  <data name="TrayKeyboardOff" xml:space="preserve"><value>   Off</value></data>
+  <data name="TrayKeyboardLow" xml:space="preserve"><value>   Low</value></data>
+  <data name="TrayKeyboardMedium" xml:space="preserve"><value>   Medium</value></data>
+  <data name="TrayKeyboardHigh" xml:space="preserve"><value>✓ High</value></data>
+  <data name="TrayKeyboardToggle" xml:space="preserve"><value>Toggle</value></data>
+  <data name="TrayStayOnTop" xml:space="preserve"><value>Stay on Top</value></data>
+  <data name="TrayStayOnTopChecked" xml:space="preserve"><value>Stay on Top ✓</value></data>
+  <data name="TrayStayOnTopOn" xml:space="preserve"><value>Keep OmenCore above other windows (On)</value></data>
+  <data name="TrayStayOnTopOff" xml:space="preserve"><value>Keep OmenCore above other windows (Off)</value></data>
 </root>

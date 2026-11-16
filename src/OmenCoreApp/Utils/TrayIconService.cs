@@ -377,11 +377,11 @@ namespace OmenCore.Utils
             // Display submenu
             _displayMenuItem = new MenuItem { Header = OmenCore.Localization.Strings.TrayDisplay };
 
-            var refreshHigh = new MenuItem { Header = "High Refresh — Gaming mode" };
+            var refreshHigh = new MenuItem { Header = OmenCore.Localization.Strings.TrayRefreshHigh };
             refreshHigh.Click += (s, e) => SetHighRefreshRate();
-            var refreshLow = new MenuItem { Header = "Low Refresh — Save power" };
+            var refreshLow = new MenuItem { Header = OmenCore.Localization.Strings.TrayRefreshLow };
             refreshLow.Click += (s, e) => SetLowRefreshRate();
-            var refreshToggle = new MenuItem { Header = "Toggle Refresh Rate" };
+            var refreshToggle = new MenuItem { Header = OmenCore.Localization.Strings.TrayRefreshToggle };
             refreshToggle.Click += (s, e) => ToggleRefreshRate();
             
             _displayMenuItem.Items.Add(refreshHigh);
@@ -389,7 +389,7 @@ namespace OmenCore.Utils
             _displayMenuItem.Items.Add(refreshToggle);
             _displayMenuItem.Items.Add(new Separator());
 
-            var displayOff = new MenuItem { Header = "Turn Off Display" };
+            var displayOff = new MenuItem { Header = OmenCore.Localization.Strings.TrayDisplayOff };
             displayOff.Click += (s, e) => TurnOffDisplay();
             _displayMenuItem.Items.Add(displayOff);
 
@@ -423,14 +423,14 @@ namespace OmenCore.Utils
             // GPU Power submenu (v2.7.0)
             _gpuPowerMenuItem = new MenuItem { Header = OmenCore.Localization.Strings.TrayGpuPower };
             
-            _gpuPowerMinMenuItem = new MenuItem { Header = "   Minimum — Base TGP, best battery" };
+            _gpuPowerMinMenuItem = new MenuItem { Header = "  " + OmenCore.Localization.Strings.TrayGpuMinimum };
             _gpuPowerMinMenuItem.Click += (s, e) => RequestGpuPowerChange("Minimum");
-            _gpuPowerMedMenuItem = new MenuItem { Header = "✓ Medium — Custom TGP" };
+            _gpuPowerMedMenuItem = new MenuItem { Header = "✓" + OmenCore.Localization.Strings.TrayGpuMedium };
             _gpuPowerMedMenuItem.Click += (s, e) => RequestGpuPowerChange("Medium");
-            _gpuPowerMaxMenuItem = new MenuItem { Header = "   Maximum — TGP + Dynamic Boost" };
+            _gpuPowerMaxMenuItem = new MenuItem { Header = "  " + OmenCore.Localization.Strings.TrayGpuMaximum };
             _gpuPowerMaxMenuItem.Click += (s, e) => RequestGpuPowerChange("Maximum");
             // Same list as the Tuning page offers; without it a profile set to Extended showed Medium here (#142).
-            _gpuPowerExtMenuItem = new MenuItem { Header = GpuPowerExtendedHeader(_currentGpuPowerLevel) };
+            _gpuPowerExtMenuItem = new MenuItem { Header = (_currentGpuPowerLevel == "Extended" ? "✓" : "  ") + OmenCore.Localization.Strings.TrayGpuExtended };
             _gpuPowerExtMenuItem.Click += (s, e) => RequestGpuPowerChange("Extended");
             
             _gpuPowerMenuItem.Items.Add(_gpuPowerMinMenuItem);
@@ -466,15 +466,15 @@ namespace OmenCore.Utils
             // Keyboard backlight toggle (v2.7.0)
             _keyboardBacklightMenuItem = new MenuItem { Header = OmenCore.Localization.Strings.TrayKeyboard };
             
-            var kbOff = new MenuItem { Header = "   Off" };
+            var kbOff = new MenuItem { Header = OmenCore.Localization.Strings.TrayKeyboardOff };
             kbOff.Click += (s, e) => RequestKeyboardBacklight(0);
-            var kbLow = new MenuItem { Header = "   Low" };
+            var kbLow = new MenuItem { Header = OmenCore.Localization.Strings.TrayKeyboardLow };
             kbLow.Click += (s, e) => RequestKeyboardBacklight(1);
-            var kbMed = new MenuItem { Header = "   Medium" };
+            var kbMed = new MenuItem { Header = OmenCore.Localization.Strings.TrayKeyboardMedium };
             kbMed.Click += (s, e) => RequestKeyboardBacklight(2);
-            var kbHigh = new MenuItem { Header = "✓ High" };
+            var kbHigh = new MenuItem { Header = OmenCore.Localization.Strings.TrayKeyboardHigh };
             kbHigh.Click += (s, e) => RequestKeyboardBacklight(3);
-            var kbToggle = new MenuItem { Header = "Toggle" };
+            var kbToggle = new MenuItem { Header = OmenCore.Localization.Strings.TrayKeyboardToggle };
             kbToggle.Click += (s, e) => RequestKeyboardBacklightToggle();
             
             _keyboardBacklightMenuItem.Items.Add(kbOff);
@@ -546,10 +546,10 @@ namespace OmenCore.Utils
             var stayOnTopEnabled = App.Configuration.Config.StayOnTop;
             _stayOnTopMenuItem = new MenuItem
             {
-                Header = stayOnTopEnabled ? "Stay on Top ✓" : "Stay on Top",
+                Header = stayOnTopEnabled ? OmenCore.Localization.Strings.TrayStayOnTopChecked : OmenCore.Localization.Strings.TrayStayOnTop,
                 ToolTip = stayOnTopEnabled
-                    ? "Keep OmenCore above other windows (On)"
-                    : "Keep OmenCore above other windows (Off)"
+                    ? OmenCore.Localization.Strings.TrayStayOnTopOn
+                    : OmenCore.Localization.Strings.TrayStayOnTopOff
             };
             _stayOnTopMenuItem.Click += (s, e) => ToggleStayOnTop();
             contextMenu.Items.Add(_stayOnTopMenuItem);
@@ -811,13 +811,13 @@ namespace OmenCore.Utils
         private void UpdateGpuPowerCheckmarks(string activeLevel)
         {
             if (_gpuPowerMinMenuItem != null)
-                _gpuPowerMinMenuItem.Header = (activeLevel == "Minimum" ? "✓" : "  ") + " Minimum — Base TGP, best battery";
+                _gpuPowerMinMenuItem.Header = (activeLevel == "Minimum" ? "✓" : "  ") + OmenCore.Localization.Strings.TrayGpuMinimum;
             if (_gpuPowerMedMenuItem != null)
-                _gpuPowerMedMenuItem.Header = (activeLevel == "Medium" ? "✓" : "  ") + " Medium — Custom TGP";
+                _gpuPowerMedMenuItem.Header = (activeLevel == "Medium" ? "✓" : "  ") + OmenCore.Localization.Strings.TrayGpuMedium;
             if (_gpuPowerMaxMenuItem != null)
-                _gpuPowerMaxMenuItem.Header = (activeLevel == "Maximum" ? "✓" : "  ") + " Maximum — TGP + Dynamic Boost";
+                _gpuPowerMaxMenuItem.Header = (activeLevel == "Maximum" ? "✓" : "  ") + OmenCore.Localization.Strings.TrayGpuMaximum;
             if (_gpuPowerExtMenuItem != null)
-                _gpuPowerExtMenuItem.Header = GpuPowerExtendedHeader(activeLevel);
+                _gpuPowerExtMenuItem.Header = (activeLevel == "Extended" ? "✓" : "  ") + OmenCore.Localization.Strings.TrayGpuExtended;
         }
 
         /// <summary>Header text for the Extended tray item: ticked only when Extended is the active level.</summary>
@@ -961,10 +961,10 @@ namespace OmenCore.Utils
             // Update the menu item
             if (_stayOnTopMenuItem != null)
             {
-                _stayOnTopMenuItem.Header = newValue ? "Stay on Top ✓" : "Stay on Top";
+                _stayOnTopMenuItem.Header = newValue ? OmenCore.Localization.Strings.TrayStayOnTopChecked : OmenCore.Localization.Strings.TrayStayOnTop;
                 _stayOnTopMenuItem.ToolTip = newValue
-                    ? "Keep OmenCore above other windows (On)"
-                    : "Keep OmenCore above other windows (Off)";
+                    ? OmenCore.Localization.Strings.TrayStayOnTopOn
+                    : OmenCore.Localization.Strings.TrayStayOnTopOff;
             }
             
             // Notify the main window to update

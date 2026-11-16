@@ -1918,4 +1918,25 @@
   <data name="HotkeyOsdValue11" xml:space="preserve"><value>关闭</value></data>
   <data name="HotkeyOsdValue12" xml:space="preserve"><value>开启</value></data>
   <data name="HotkeyOsdTriggered" xml:space="preserve"><value>通过热键（{0}）</value></data>
+  <data name="OsdModeLabel" xml:space="preserve"><value>模式</value></data>
+  <data name="OsdFansLabel" xml:space="preserve"><value>风扇</value></data>
+  <data name="OsdFanLabel" xml:space="preserve"><value>风扇</value></data>
+  <data name="OsdBatteryLabel" xml:space="preserve"><value>电池</value></data>
+  <data name="TrayRefreshHigh" xml:space="preserve"><value>高刷新率 — 游戏模式</value></data>
+  <data name="TrayRefreshLow" xml:space="preserve"><value>低刷新率 — 节能</value></data>
+  <data name="TrayRefreshToggle" xml:space="preserve"><value>切换刷新率</value></data>
+  <data name="TrayDisplayOff" xml:space="preserve"><value>关闭显示器</value></data>
+  <data name="TrayGpuMinimum" xml:space="preserve"><value> 最低 — 基础 TGP，最省电</value></data>
+  <data name="TrayGpuMedium" xml:space="preserve"><value> 中等 — 自定义 TGP</value></data>
+  <data name="TrayGpuMaximum" xml:space="preserve"><value> 最大 — TGP + Dynamic Boost</value></data>
+  <data name="TrayGpuExtended" xml:space="preserve"><value> 扩展 — PPAB+，最大档不足时可尝试</value></data>
+  <data name="TrayKeyboardOff" xml:space="preserve"><value>   关闭</value></data>
+  <data name="TrayKeyboardLow" xml:space="preserve"><value>   低</value></data>
+  <data name="TrayKeyboardMedium" xml:space="preserve"><value>   中</value></data>
+  <data name="TrayKeyboardHigh" xml:space="preserve"><value>✓ 高</value></data>
+  <data name="TrayKeyboardToggle" xml:space="preserve"><value>切换</value></data>
+  <data name="TrayStayOnTop" xml:space="preserve"><value>窗口置顶</value></data>
+  <data name="TrayStayOnTopChecked" xml:space="preserve"><value>窗口置顶 ✓</value></data>
+  <data name="TrayStayOnTopOn" xml:space="preserve"><value>将 OmenCore 保持在其他窗口上方（开）</value></data>
+  <data name="TrayStayOnTopOff" xml:space="preserve"><value>将 OmenCore 保持在其他窗口上方（关）</value></data>
 </root>

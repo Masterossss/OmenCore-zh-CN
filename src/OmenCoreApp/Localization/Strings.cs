@@ -1774,5 +1774,26 @@ namespace OmenCore.Localization
         public static string HotkeyOsdValue11 => Get(nameof(HotkeyOsdValue11));
         public static string HotkeyOsdValue12 => Get(nameof(HotkeyOsdValue12));
         public static string HotkeyOsdTriggered => Get(nameof(HotkeyOsdTriggered));
+        public static string OsdModeLabel => Get(nameof(OsdModeLabel));
+        public static string OsdFansLabel => Get(nameof(OsdFansLabel));
+        public static string OsdFanLabel => Get(nameof(OsdFanLabel));
+        public static string OsdBatteryLabel => Get(nameof(OsdBatteryLabel));
+        public static string TrayRefreshHigh => Get(nameof(TrayRefreshHigh));
+        public static string TrayRefreshLow => Get(nameof(TrayRefreshLow));
+        public static string TrayRefreshToggle => Get(nameof(TrayRefreshToggle));
+        public static string TrayDisplayOff => Get(nameof(TrayDisplayOff));
+        public static string TrayGpuMinimum => Get(nameof(TrayGpuMinimum));
+        public static string TrayGpuMedium => Get(nameof(TrayGpuMedium));
+        public static string TrayGpuMaximum => Get(nameof(TrayGpuMaximum));
+        public static string TrayGpuExtended => Get(nameof(TrayGpuExtended));
+        public static string TrayKeyboardOff => Get(nameof(TrayKeyboardOff));
+        public static string TrayKeyboardLow => Get(nameof(TrayKeyboardLow));
+        public static string TrayKeyboardMedium => Get(nameof(TrayKeyboardMedium));
+        public static string TrayKeyboardHigh => Get(nameof(TrayKeyboardHigh));
+        public static string TrayKeyboardToggle => Get(nameof(TrayKeyboardToggle));
+        public static string TrayStayOnTop => Get(nameof(TrayStayOnTop));
+        public static string TrayStayOnTopChecked => Get(nameof(TrayStayOnTopChecked));
+        public static string TrayStayOnTopOn => Get(nameof(TrayStayOnTopOn));
+        public static string TrayStayOnTopOff => Get(nameof(TrayStayOnTopOff));
     }
 }
