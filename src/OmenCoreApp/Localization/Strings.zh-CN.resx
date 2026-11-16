@@ -1753,4 +1753,25 @@
   <data name="BloatProgressWaiting" xml:space="preserve"><value>正在等待…</value></data>
   <data name="BloatNoLinked" xml:space="preserve"><value>未检测到明显关联的软件包</value></data>
   <data name="BloatRelatedPublisher" xml:space="preserve"><value>同一发布者可能相关的软件包：{0}</value></data>
+  <data name="BloatCategoryUnknown" xml:space="preserve"><value>未知</value></data>
+  <data name="BloatCategoryOemSoftware" xml:space="preserve"><value>厂商软件</value></data>
+  <data name="BloatCategoryWindowsApps" xml:space="preserve"><value>Windows 应用</value></data>
+  <data name="BloatCategoryAntivirus" xml:space="preserve"><value>安全软件</value></data>
+  <data name="BloatCategoryGames" xml:space="preserve"><value>游戏</value></data>
+  <data name="BloatCategorySocial" xml:space="preserve"><value>社交</value></data>
+  <data name="BloatCategoryCommunication" xml:space="preserve"><value>通信</value></data>
+  <data name="BloatCategoryPromotional" xml:space="preserve"><value>推广</value></data>
+  <data name="BloatCategoryTelemetry" xml:space="preserve"><value>遥测</value></data>
+  <data name="BloatCategoryStartup" xml:space="preserve"><value>启动项</value></data>
+  <data name="BloatTypeAppxPackage" xml:space="preserve"><value>Appx 软件包</value></data>
+  <data name="BloatTypeWin32App" xml:space="preserve"><value>Win32 应用</value></data>
+  <data name="BloatTypeStartupItem" xml:space="preserve"><value>启动项</value></data>
+  <data name="BloatTypeScheduledTask" xml:space="preserve"><value>计划任务</value></data>
+  <data name="BloatDependency0" xml:space="preserve"><value>OMEN 键所需</value></data>
+  <data name="BloatDependency1" xml:space="preserve"><value>可能影响灯光控制权切换</value></data>
+  <data name="BloatDependency2" xml:space="preserve"><value>可能影响风扇或性能控制权</value></data>
+  <data name="BloatDependency3" xml:space="preserve"><value>仅在完成 OmenCore 硬件验证后才可安全操作</value></data>
+  <data name="BloatDependency4" xml:space="preserve"><value>可能影响 HP 热键</value></data>
+  <data name="BloatDependency5" xml:space="preserve"><value>Game Pass/Xbox 依赖项</value></data>
+  <data name="BloatDependency6" xml:space="preserve"><value>安全组件</value></data>
 </root>

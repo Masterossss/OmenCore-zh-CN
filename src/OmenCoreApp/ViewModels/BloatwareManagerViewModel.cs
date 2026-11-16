@@ -689,7 +689,7 @@ namespace OmenCore.ViewModels
         {
             if (app.DependencyTags.Any())
             {
-                return string.Join("; ", app.DependencyTags);
+                return string.Join("; ", app.DependencyTags.Select(BloatwareDependencyDisplay.Translate));
             }
 
             if (!string.IsNullOrWhiteSpace(app.DependencyNotes))

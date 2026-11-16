@@ -358,6 +358,25 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void BloatwareMetadataDisplayPreservesValuesAndUnknownWarnings()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                var converter = new BloatwareMetadataDisplayConverter();
+                var category = OmenCore.Services.BloatwareManager.BloatwareCategory.OemSoftware;
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                converter.Convert(category, typeof(string), null!, CultureInfo.CurrentCulture).Should().Be("厂商软件");
+                BloatwareDependencyDisplay.Translate("may affect fan/performance ownership").Should().Contain("可能影响").And.Contain("控制权");
+                BloatwareDependencyDisplay.Translate("unknown warning").Should().Be("unknown warning");
+                category.Should().Be(OmenCore.Services.BloatwareManager.BloatwareCategory.OemSoftware);
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                converter.Convert(category, typeof(string), null!, CultureInfo.CurrentCulture).Should().Be("OemSoftware");
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void BloatwareRiskDisplayPreservesRiskIdentityAndEnglishFallback()
         {
             var original = CultureInfo.CurrentUICulture;

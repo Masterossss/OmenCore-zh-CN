@@ -12,6 +12,7 @@
 
     <UserControl.Resources>
         <loc:BloatwareRiskDisplayConverter x:Key="BloatwareRiskDisplay"/>
+        <loc:BloatwareMetadataDisplayConverter x:Key="BloatwareMetadataDisplay"/>
     </UserControl.Resources>
 
     <Grid>
@@ -153,7 +154,7 @@
                                   Width="120">
                             <ComboBox.ItemTemplate>
                                 <DataTemplate>
-                                    <TextBlock Text="{Binding}"/>
+                                    <TextBlock Text="{Binding Converter={StaticResource BloatwareMetadataDisplay}}"/>
                                 </DataTemplate>
                             </ComboBox.ItemTemplate>
                         </ComboBox>
@@ -425,7 +426,7 @@
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
                                         <Border Style="{StaticResource StatusBadge}" Background="{StaticResource SurfaceMediumBrush}">
-                                            <TextBlock Text="{Binding Category}" FontSize="10" Foreground="{StaticResource TextSecondaryBrush}"/>
+                                            <TextBlock Text="{Binding Category, Converter={StaticResource BloatwareMetadataDisplay}}" FontSize="10" Foreground="{StaticResource TextSecondaryBrush}"/>
                                         </Border>
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
@@ -433,7 +434,7 @@
                             <GridViewColumn Header="{x:Static loc:Strings.BloatwareManagerViewText428}" Width="100">
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
-                                        <TextBlock Text="{Binding Type}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}"/>
+                                        <TextBlock Text="{Binding Type, Converter={StaticResource BloatwareMetadataDisplay}}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}"/>
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
                             </GridViewColumn>

@@ -1761,4 +1761,25 @@ Continue?</value></data>
   <data name="BloatProgressWaiting" xml:space="preserve"><value>Waiting...</value></data>
   <data name="BloatNoLinked" xml:space="preserve"><value>No obvious linked packages detected</value></data>
   <data name="BloatRelatedPublisher" xml:space="preserve"><value>Potentially related packages from same publisher: {0}</value></data>
+  <data name="BloatCategoryUnknown" xml:space="preserve"><value>Unknown</value></data>
+  <data name="BloatCategoryOemSoftware" xml:space="preserve"><value>OemSoftware</value></data>
+  <data name="BloatCategoryWindowsApps" xml:space="preserve"><value>WindowsApps</value></data>
+  <data name="BloatCategoryAntivirus" xml:space="preserve"><value>Antivirus</value></data>
+  <data name="BloatCategoryGames" xml:space="preserve"><value>Games</value></data>
+  <data name="BloatCategorySocial" xml:space="preserve"><value>Social</value></data>
+  <data name="BloatCategoryCommunication" xml:space="preserve"><value>Communication</value></data>
+  <data name="BloatCategoryPromotional" xml:space="preserve"><value>Promotional</value></data>
+  <data name="BloatCategoryTelemetry" xml:space="preserve"><value>Telemetry</value></data>
+  <data name="BloatCategoryStartup" xml:space="preserve"><value>Startup</value></data>
+  <data name="BloatTypeAppxPackage" xml:space="preserve"><value>AppxPackage</value></data>
+  <data name="BloatTypeWin32App" xml:space="preserve"><value>Win32App</value></data>
+  <data name="BloatTypeStartupItem" xml:space="preserve"><value>StartupItem</value></data>
+  <data name="BloatTypeScheduledTask" xml:space="preserve"><value>ScheduledTask</value></data>
+  <data name="BloatDependency0" xml:space="preserve"><value>needed for OMEN key</value></data>
+  <data name="BloatDependency1" xml:space="preserve"><value>may affect lighting handoff</value></data>
+  <data name="BloatDependency2" xml:space="preserve"><value>may affect fan/performance ownership</value></data>
+  <data name="BloatDependency3" xml:space="preserve"><value>safe only after OmenCore hardware validation</value></data>
+  <data name="BloatDependency4" xml:space="preserve"><value>may affect HP hotkeys</value></data>
+  <data name="BloatDependency5" xml:space="preserve"><value>Game Pass/Xbox dependency</value></data>
+  <data name="BloatDependency6" xml:space="preserve"><value>security component</value></data>
 </root>

@@ -1617,5 +1617,26 @@ namespace OmenCore.Localization
         public static string BloatProgressWaiting => Get(nameof(BloatProgressWaiting));
         public static string BloatNoLinked => Get(nameof(BloatNoLinked));
         public static string BloatRelatedPublisher => Get(nameof(BloatRelatedPublisher));
+        public static string BloatCategoryUnknown => Get(nameof(BloatCategoryUnknown));
+        public static string BloatCategoryOemSoftware => Get(nameof(BloatCategoryOemSoftware));
+        public static string BloatCategoryWindowsApps => Get(nameof(BloatCategoryWindowsApps));
+        public static string BloatCategoryAntivirus => Get(nameof(BloatCategoryAntivirus));
+        public static string BloatCategoryGames => Get(nameof(BloatCategoryGames));
+        public static string BloatCategorySocial => Get(nameof(BloatCategorySocial));
+        public static string BloatCategoryCommunication => Get(nameof(BloatCategoryCommunication));
+        public static string BloatCategoryPromotional => Get(nameof(BloatCategoryPromotional));
+        public static string BloatCategoryTelemetry => Get(nameof(BloatCategoryTelemetry));
+        public static string BloatCategoryStartup => Get(nameof(BloatCategoryStartup));
+        public static string BloatTypeAppxPackage => Get(nameof(BloatTypeAppxPackage));
+        public static string BloatTypeWin32App => Get(nameof(BloatTypeWin32App));
+        public static string BloatTypeStartupItem => Get(nameof(BloatTypeStartupItem));
+        public static string BloatTypeScheduledTask => Get(nameof(BloatTypeScheduledTask));
+        public static string BloatDependency0 => Get(nameof(BloatDependency0));
+        public static string BloatDependency1 => Get(nameof(BloatDependency1));
+        public static string BloatDependency2 => Get(nameof(BloatDependency2));
+        public static string BloatDependency3 => Get(nameof(BloatDependency3));
+        public static string BloatDependency4 => Get(nameof(BloatDependency4));
+        public static string BloatDependency5 => Get(nameof(BloatDependency5));
+        public static string BloatDependency6 => Get(nameof(BloatDependency6));
     }
 }
