@@ -205,4 +205,19 @@ Would you like to download and install it now?</value></data>
 Open GitHub releases to download manually?</value></data>
   <data name="AboutDownloadFailed" xml:space="preserve"><value>Update Download Failed</value></data>
   <data name="AboutCheckFailed" xml:space="preserve"><value>Update check failed: {0}</value></data>
+  <data name="CommonCancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="CommonApply" xml:space="preserve"><value>Apply</value></data>
+  <data name="CommonOk" xml:space="preserve"><value>OK</value></data>
+  <data name="ColorSelect" xml:space="preserve"><value>Select Color</value></data>
+  <data name="ColorSelectZone" xml:space="preserve"><value>Select Zone Color</value></data>
+  <data name="ColorZoneDefault" xml:space="preserve"><value>Zone 1 - Left</value></data>
+  <data name="ColorCancelEsc" xml:space="preserve"><value>Cancel (Esc)</value></data>
+  <data name="ColorZoneFormat" xml:space="preserve"><value>Zone {0} - {1}</value></data>
+  <data name="ColorZoneLeft" xml:space="preserve"><value>Left</value></data>
+  <data name="ColorZoneRight" xml:space="preserve"><value>Right</value></data>
+  <data name="ColorZoneFarRight" xml:space="preserve"><value>Far Right</value></data>
+  <data name="DpiSaveTitle" xml:space="preserve"><value>Save DPI Profile</value></data>
+  <data name="DpiSavePrompt" xml:space="preserve"><value>Enter a name for the DPI profile:</value></data>
+  <data name="DpiOverwriteTitle" xml:space="preserve"><value>Overwrite DPI Profile</value></data>
+  <data name="DpiOverwritePrompt" xml:space="preserve"><value>A DPI profile named '{0}' already exists. Overwrite it?</value></data>
 </root>

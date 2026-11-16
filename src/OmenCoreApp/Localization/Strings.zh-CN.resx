@@ -201,4 +201,19 @@
 打开 GitHub 发布页面手动下载吗？</value></data>
   <data name="AboutDownloadFailed" xml:space="preserve"><value>更新下载失败</value></data>
   <data name="AboutCheckFailed" xml:space="preserve"><value>检查更新失败：{0}</value></data>
+  <data name="CommonCancel" xml:space="preserve"><value>取消</value></data>
+  <data name="CommonApply" xml:space="preserve"><value>应用</value></data>
+  <data name="CommonOk" xml:space="preserve"><value>确定</value></data>
+  <data name="ColorSelect" xml:space="preserve"><value>选择颜色</value></data>
+  <data name="ColorSelectZone" xml:space="preserve"><value>选择区域颜色</value></data>
+  <data name="ColorZoneDefault" xml:space="preserve"><value>区域 1 - 左侧</value></data>
+  <data name="ColorCancelEsc" xml:space="preserve"><value>取消（Esc）</value></data>
+  <data name="ColorZoneFormat" xml:space="preserve"><value>区域 {0} - {1}</value></data>
+  <data name="ColorZoneLeft" xml:space="preserve"><value>左侧</value></data>
+  <data name="ColorZoneRight" xml:space="preserve"><value>右侧</value></data>
+  <data name="ColorZoneFarRight" xml:space="preserve"><value>最右侧</value></data>
+  <data name="DpiSaveTitle" xml:space="preserve"><value>保存 DPI 配置文件</value></data>
+  <data name="DpiSavePrompt" xml:space="preserve"><value>输入 DPI 配置文件的名称：</value></data>
+  <data name="DpiOverwriteTitle" xml:space="preserve"><value>覆盖 DPI 配置文件</value></data>
+  <data name="DpiOverwritePrompt" xml:space="preserve"><value>名为“{0}”的 DPI 配置文件已存在。是否覆盖？</value></data>
 </root>

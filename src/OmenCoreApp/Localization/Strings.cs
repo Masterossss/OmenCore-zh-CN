@@ -111,5 +111,20 @@ namespace OmenCore.Localization
         public static string AboutDownloadFailedPrompt => Get(nameof(AboutDownloadFailedPrompt));
         public static string AboutDownloadFailed => Get(nameof(AboutDownloadFailed));
         public static string AboutCheckFailed => Get(nameof(AboutCheckFailed));
+        public static string CommonCancel => Get(nameof(CommonCancel));
+        public static string CommonApply => Get(nameof(CommonApply));
+        public static string CommonOk => Get(nameof(CommonOk));
+        public static string ColorSelect => Get(nameof(ColorSelect));
+        public static string ColorSelectZone => Get(nameof(ColorSelectZone));
+        public static string ColorZoneDefault => Get(nameof(ColorZoneDefault));
+        public static string ColorCancelEsc => Get(nameof(ColorCancelEsc));
+        public static string ColorZoneFormat => Get(nameof(ColorZoneFormat));
+        public static string ColorZoneLeft => Get(nameof(ColorZoneLeft));
+        public static string ColorZoneRight => Get(nameof(ColorZoneRight));
+        public static string ColorZoneFarRight => Get(nameof(ColorZoneFarRight));
+        public static string DpiSaveTitle => Get(nameof(DpiSaveTitle));
+        public static string DpiSavePrompt => Get(nameof(DpiSavePrompt));
+        public static string DpiOverwriteTitle => Get(nameof(DpiOverwriteTitle));
+        public static string DpiOverwritePrompt => Get(nameof(DpiOverwritePrompt));
     }
 }

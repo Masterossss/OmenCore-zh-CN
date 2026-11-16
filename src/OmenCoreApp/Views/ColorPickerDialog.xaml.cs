@@ -1,4 +1,5 @@
 using System.Windows;
+using OmenCore.Localization;
 using System.Windows.Input;
 using System.Windows.Media;
 
@@ -21,7 +22,13 @@ namespace OmenCore.Views
         /// <param name="zoneName">Zone name (e.g., "Left", "Middle-L")</param>
         public void SetZoneInfo(int zoneNumber, string zoneName)
         {
-            SubtitleText.Text = $"Zone {zoneNumber} - {zoneName}";
+            SubtitleText.Text = string.Format(Strings.ColorZoneFormat, zoneNumber, zoneName switch
+            {
+                "Left" => Strings.ColorZoneLeft,
+                "Right" => Strings.ColorZoneRight,
+                "Far Right" => Strings.ColorZoneFarRight,
+                _ => zoneName
+            });
         }
 
         /// <summary>

@@ -2247,7 +2247,7 @@ namespace OmenCore.ViewModels
         private async Task SaveCorsairDpiProfileAsync()
         {
             // Prompt for a profile name
-            var namePrompt = new InputPromptWindow("Save DPI Profile", "Enter a name for the DPI profile:")
+            var namePrompt = new InputPromptWindow(OmenCore.Localization.Strings.DpiSaveTitle, OmenCore.Localization.Strings.DpiSavePrompt)
             {
                 Owner = Application.Current.MainWindow
             };
@@ -2261,7 +2261,7 @@ namespace OmenCore.ViewModels
             var exists = CorsairDpiProfiles.Any(p => p.Name == name);
             if (exists)
             {
-                var res = MessageBox.Show($"A DPI profile named '{name}' already exists. Overwrite it?", "Overwrite DPI Profile", MessageBoxButton.YesNo, MessageBoxImage.Warning, MessageBoxResult.No);
+                var res = MessageBox.Show(string.Format(OmenCore.Localization.Strings.DpiOverwritePrompt, name), OmenCore.Localization.Strings.DpiOverwriteTitle, MessageBoxButton.YesNo, MessageBoxImage.Warning, MessageBoxResult.No);
                 if (res != MessageBoxResult.Yes)
                 {
                     _logging.Info("User declined to overwrite existing DPI profile");
