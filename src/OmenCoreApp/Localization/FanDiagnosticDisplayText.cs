@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace OmenCore.Localization
 {
@@ -24,6 +25,12 @@ namespace OmenCore.Localization
                 return Strings.FanReportTests + content.Substring("Tests: ".Length).Replace(" passed | Overall Score: ", Strings.FanReportPassedScore) + carriage;
             if (content.StartsWith("✓ ", StringComparison.Ordinal) || content.StartsWith("✗ ", StringComparison.Ordinal))
                 return content.Replace(" - Score: ", Strings.FanReportScore).Replace("[evidence: ", Strings.FanReportEvidence) + carriage;
+            var interrupted = Regex.Match(content, @"^⚠ (\d+) step\(s\) interrupted by thermal protection and not counted as failures: (.+)\.$");
+            if (interrupted.Success)
+                return string.Format(Strings.FanReportInterrupted, interrupted.Groups[1].Value, interrupted.Groups[2].Value) + carriage;
+            var cool = Regex.Match(content, @"^Let the laptop cool below ([^ ]+) C and run the diagnostic again to complete them\.$");
+            if (cool.Success)
+                return string.Format(Strings.FanReportCoolRetry, cool.Groups[1].Value) + carriage;
             return line;
         }
     }

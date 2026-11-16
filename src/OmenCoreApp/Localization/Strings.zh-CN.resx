@@ -975,4 +975,6 @@
   <data name="GpuUnlockAdapterUnknownReason" xml:space="preserve"><value>无法读取所连接适配器的功率判定结果。</value></data>
   <data name="GpuUnlockUsbCReason" xml:space="preserve"><value>当前使用 USB-C Power Delivery 电源。此电源不提供 GPU 功率解锁，因为该功能仅在圆口适配器上测量过。</value></data>
   <data name="GpuUnlockAdapterRatingUnknown" xml:space="preserve"><value>未报告所连接适配器的额定功率，因此无法判断它是否能安全支持解锁。</value></data>
+  <data name="FanReportInterrupted" xml:space="preserve"><value>⚠ {0} 个步骤被散热保护中断，未计为失败：{1}。</value></data>
+  <data name="FanReportCoolRetry" xml:space="preserve"><value>请等待笔记本冷却至 {0} C 以下，然后重新运行诊断以完成这些步骤。</value></data>
 </root>

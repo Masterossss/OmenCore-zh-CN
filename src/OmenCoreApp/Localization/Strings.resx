@@ -983,4 +983,6 @@ Try it anyway?</value></data>
   <data name="GpuUnlockAdapterUnknownReason" xml:space="preserve"><value>The connected adapter's power verdict could not be read.</value></data>
   <data name="GpuUnlockUsbCReason" xml:space="preserve"><value>This is a USB-C Power Delivery supply. The GPU power unlock is not offered there - it was only ever measured on barrel adapters.</value></data>
   <data name="GpuUnlockAdapterRatingUnknown" xml:space="preserve"><value>The connected adapter's rating was not reported, so there is no way to judge whether it can carry the unlock safely.</value></data>
+  <data name="FanReportInterrupted" xml:space="preserve"><value>⚠ {0} step(s) interrupted by thermal protection and not counted as failures: {1}.</value></data>
+  <data name="FanReportCoolRetry" xml:space="preserve"><value>Let the laptop cool below {0} C and run the diagnostic again to complete them.</value></data>
 </root>

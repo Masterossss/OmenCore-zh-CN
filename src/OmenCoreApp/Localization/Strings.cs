@@ -863,5 +863,7 @@ namespace OmenCore.Localization
         public static string GpuUnlockAdapterUnknownReason => Get(nameof(GpuUnlockAdapterUnknownReason));
         public static string GpuUnlockUsbCReason => Get(nameof(GpuUnlockUsbCReason));
         public static string GpuUnlockAdapterRatingUnknown => Get(nameof(GpuUnlockAdapterRatingUnknown));
+        public static string FanReportInterrupted => Get(nameof(FanReportInterrupted));
+        public static string FanReportCoolRetry => Get(nameof(FanReportCoolRetry));
     }
 }

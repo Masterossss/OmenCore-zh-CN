@@ -244,6 +244,9 @@ namespace OmenCoreApp.Tests.Localization
                 display.Should().Contain("诊断完成：❌ 失败").And.Contain("后端：WMI")
                     .And.Contain("转速来源：EcDirect").And.Contain("CPU @ 60%: 0 RPM")
                     .And.Contain("Unrecognized detail: 0x1234");
+                FanDiagnosticDisplayText.Translate("⚠ 2 step(s) interrupted by thermal protection and not counted as failures: CPU @ 30%, GPU @ 60%.\r\nLet the laptop cool below 70 C and run the diagnostic again to complete them.")
+                    .Should().Contain("2 个步骤被散热保护中断，未计为失败")
+                    .And.Contain("CPU @ 30%, GPU @ 60%").And.Contain("70 C 以下");
                 report.Should().Contain("Backend: WMI | RPM source: EcDirect");
 
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
