@@ -351,55 +351,55 @@ src/OmenCoreApp/Views/FanDiagnosticsView.xaml,83,Content,Copy Results,A,是,已�
 src/OmenCoreApp/Views/FanDiagnosticsView.xaml,89,Text,History,A,是,已迁移,FanDiagnosticsViewText89
 src/OmenCoreApp/Views/FanDiagnosticsView.xaml,97,Text,Requested: ,A,是,已迁移,FanDiagnosticsViewText97
 src/OmenCoreApp/Views/FanDiagnosticsView.xaml,106,Text,Evidence: ,A,是,已迁移,FanDiagnosticsViewText106
-src/OmenCoreApp/Views/GameLibraryView.xaml,95,Text,"Automatically detected games from Steam, Epic, GOG, and more",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameLibraryView.xaml,145,Text,Search games...,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameLibraryView.xaml,172,ToolTip,Rescan all game platforms,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameLibraryView.xaml,176,Text,Scan,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameLibraryView.xaml,184,ToolTip,Manually add a game executable,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameLibraryView.xaml,187,Text,Add Game,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameLibraryView.xaml,204,Text,Scanning game libraries...,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameLibraryView.xaml,369,ToolTip,Launch selected game,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameLibraryView.xaml,372,Text,Launch,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameLibraryView.xaml,379,ToolTip,Create performance profile for selected game,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameLibraryView.xaml,382,Text,Create Profile,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameLibraryView.xaml,388,ToolTip,Edit existing profile,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameLibraryView.xaml,391,Text,Edit Profile,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,124,Text,Game Profile Manager,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,132,Text,Game Profile Manager,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,137,Text,Automatically switch settings when games launch,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,169,ToolTip,Search profiles...,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,205,Text,New Profile,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,211,Text,Duplicate,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,217,Text,Delete,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,224,Text,Import Profiles,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,230,Text,Export Profiles,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,246,Text,Profile Settings,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,271,Content,Profile Name,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,276,Content,"Executable Name (e.g., RocketLeague.exe)",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,281,Content,Executable Path (Optional - for specific installs),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,290,Content,Browse...,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,296,Content,Also Apply To (Optional - comma-separated .exe names),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,298,ToolTip,"Other games that should share this profile's settings, e.g. game2.exe, game3.exe. Lets one profile act as a default for a list of games.",E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,302,Content,Enable Auto-Switch,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,309,Text,Performance Settings,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,316,Content,Fan Preset,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,322,Content,Performance Mode,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,328,Content,CPU Core Undervolt (mV),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,333,Content,GPU Mode,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,341,Text,Lighting Settings,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,348,Content,Keyboard Lighting Profile,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,354,Content,Peripheral Lighting Profile,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,362,Text,Advanced Settings,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,369,Content,Priority (exact executable paths win first; higher priority breaks ties),E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,373,Content,Restore default fan/performance settings when game exits,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,377,Content,Clean memory (RAM) when this game launches,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,384,Text,Statistics,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,391,Text,Launch Count: ,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,396,Text,Total Playtime: ,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,401,Text,Created: ,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,406,Text,Modified: ,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,417,Content,Save &amp; Close,E,待核实,待审查,尚未判断是否可见或需要翻译
-src/OmenCoreApp/Views/GameProfileManagerView.xaml,422,Content,Cancel,E,待核实,待审查,尚未判断是否可见或需要翻译
+src/OmenCoreApp/Views/GameLibraryView.xaml,95,Text,"Automatically detected games from Steam, Epic, GOG, and more",A,是,已迁移,GameLibraryViewText95
+src/OmenCoreApp/Views/GameLibraryView.xaml,145,Text,Search games...,A,是,已迁移,GameLibraryViewText145
+src/OmenCoreApp/Views/GameLibraryView.xaml,172,ToolTip,Rescan all game platforms,A,是,已迁移,GameLibraryViewText172
+src/OmenCoreApp/Views/GameLibraryView.xaml,176,Text,Scan,A,是,已迁移,GameLibraryViewText176
+src/OmenCoreApp/Views/GameLibraryView.xaml,184,ToolTip,Manually add a game executable,A,是,已迁移,GameLibraryViewText184
+src/OmenCoreApp/Views/GameLibraryView.xaml,187,Text,Add Game,A,是,已迁移,GameLibraryViewText187
+src/OmenCoreApp/Views/GameLibraryView.xaml,204,Text,Scanning game libraries...,A,是,已迁移,GameLibraryViewText204
+src/OmenCoreApp/Views/GameLibraryView.xaml,369,ToolTip,Launch selected game,A,是,已迁移,GameLibraryViewText369
+src/OmenCoreApp/Views/GameLibraryView.xaml,372,Text,Launch,A,是,已迁移,GameLibraryViewText372
+src/OmenCoreApp/Views/GameLibraryView.xaml,379,ToolTip,Create performance profile for selected game,A,是,已迁移,GameLibraryViewText379
+src/OmenCoreApp/Views/GameLibraryView.xaml,382,Text,Create Profile,A,是,已迁移,GameLibraryViewText382
+src/OmenCoreApp/Views/GameLibraryView.xaml,388,ToolTip,Edit existing profile,A,是,已迁移,GameLibraryViewText388
+src/OmenCoreApp/Views/GameLibraryView.xaml,391,Text,Edit Profile,A,是,已迁移,GameLibraryViewText391
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,124,Text,Game Profile Manager,A,是,已迁移,GameProfileManagerViewText124
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,132,Text,Game Profile Manager,A,是,已迁移,GameProfileManagerViewText132
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,137,Text,Automatically switch settings when games launch,A,是,已迁移,GameProfileManagerViewText137
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,169,ToolTip,Search profiles...,A,是,已迁移,GameProfileManagerViewText169
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,205,Text,New Profile,A,是,已迁移,GameProfileManagerViewText205
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,211,Text,Duplicate,A,是,已迁移,GameProfileManagerViewText211
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,217,Text,Delete,A,是,已迁移,GameProfileManagerViewText217
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,224,Text,Import Profiles,A,是,已迁移,GameProfileManagerViewText224
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,230,Text,Export Profiles,A,是,已迁移,GameProfileManagerViewText230
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,246,Text,Profile Settings,A,是,已迁移,GameProfileManagerViewText246
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,271,Content,Profile Name,A,是,已迁移,GameProfileManagerViewText271
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,276,Content,"Executable Name (e.g., RocketLeague.exe)",A,是,已迁移,GameProfileManagerViewText276
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,281,Content,Executable Path (Optional - for specific installs),A,是,已迁移,GameProfileManagerViewText281
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,290,Content,Browse...,A,是,已迁移,GameProfileManagerViewText290
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,296,Content,Also Apply To (Optional - comma-separated .exe names),A,是,已迁移,GameProfileManagerViewText296
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,298,ToolTip,"Other games that should share this profile's settings, e.g. game2.exe, game3.exe. Lets one profile act as a default for a list of games.",A,是,已迁移,GameProfileManagerViewText298
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,302,Content,Enable Auto-Switch,A,是,已迁移,GameProfileManagerViewText302
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,309,Text,Performance Settings,A,是,已迁移,GameProfileManagerViewText309
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,316,Content,Fan Preset,A,是,已迁移,GameProfileManagerViewText316
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,322,Content,Performance Mode,A,是,已迁移,GameProfileManagerViewText322
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,328,Content,CPU Core Undervolt (mV),A,是,已迁移,GameProfileManagerViewText328
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,333,Content,GPU Mode,A,是,已迁移,GameProfileManagerViewText333
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,341,Text,Lighting Settings,A,是,已迁移,GameProfileManagerViewText341
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,348,Content,Keyboard Lighting Profile,A,是,已迁移,GameProfileManagerViewText348
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,354,Content,Peripheral Lighting Profile,A,是,已迁移,GameProfileManagerViewText354
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,362,Text,Advanced Settings,A,是,已迁移,GameProfileManagerViewText362
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,369,Content,Priority (exact executable paths win first; higher priority breaks ties),A,是,已迁移,GameProfileManagerViewText369
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,373,Content,Restore default fan/performance settings when game exits,A,是,已迁移,GameProfileManagerViewText373
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,377,Content,Clean memory (RAM) when this game launches,A,是,已迁移,GameProfileManagerViewText377
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,384,Text,Statistics,A,是,已迁移,GameProfileManagerViewText384
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,391,Text,Launch Count: ,A,是,已迁移,GameProfileManagerViewText391
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,396,Text,Total Playtime: ,A,是,已迁移,GameProfileManagerViewText396
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,401,Text,Created: ,A,是,已迁移,GameProfileManagerViewText401
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,406,Text,Modified: ,A,是,已迁移,GameProfileManagerViewText406
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,417,Content,Save &amp; Close,A,是,已迁移,GameProfileManagerViewText417
+src/OmenCoreApp/Views/GameProfileManagerView.xaml,422,Content,Cancel,A,是,已迁移,GameProfileManagerViewText422
 src/OmenCoreApp/Views/GeneralView.xaml,126,Text,PERFORMANCE &amp; COOLING,A,是,已迁移,GeneralViewText126
 src/OmenCoreApp/Views/GeneralView.xaml,127,Text,Quick profile selection for optimal system tuning,A,是,已迁移,GeneralViewText127
 src/OmenCoreApp/Views/GeneralView.xaml,160,Text,THERMAL SAFETY ACTIVE,A,是,已迁移,GeneralViewText160

@@ -627,4 +627,53 @@ Open GitHub releases to download manually?</value></data>
   <data name="HardwareMonitoringDashboardText330" xml:space="preserve"><value>Fan: 68% efficient</value></data>
   <data name="HardwareMonitoringDashboardText337" xml:space="preserve"><value>Battery Status</value></data>
   <data name="HardwareMonitoringDashboardText339" xml:space="preserve"><value>cycles</value></data>
+  <data name="GameLibraryViewText95" xml:space="preserve"><value>Automatically detected games from Steam, Epic, GOG, and more</value></data>
+  <data name="GameLibraryViewText145" xml:space="preserve"><value>Search games...</value></data>
+  <data name="GameLibraryViewText172" xml:space="preserve"><value>Rescan all game platforms</value></data>
+  <data name="GameLibraryViewText176" xml:space="preserve"><value>Scan</value></data>
+  <data name="GameLibraryViewText184" xml:space="preserve"><value>Manually add a game executable</value></data>
+  <data name="GameLibraryViewText187" xml:space="preserve"><value>Add Game</value></data>
+  <data name="GameLibraryViewText204" xml:space="preserve"><value>Scanning game libraries...</value></data>
+  <data name="GameLibraryViewText369" xml:space="preserve"><value>Launch selected game</value></data>
+  <data name="GameLibraryViewText372" xml:space="preserve"><value>Launch</value></data>
+  <data name="GameLibraryViewText379" xml:space="preserve"><value>Create performance profile for selected game</value></data>
+  <data name="GameLibraryViewText382" xml:space="preserve"><value>Create Profile</value></data>
+  <data name="GameLibraryViewText388" xml:space="preserve"><value>Edit existing profile</value></data>
+  <data name="GameLibraryViewText391" xml:space="preserve"><value>Edit Profile</value></data>
+  <data name="GameProfileManagerViewText124" xml:space="preserve"><value>Game Profile Manager</value></data>
+  <data name="GameProfileManagerViewText132" xml:space="preserve"><value>Game Profile Manager</value></data>
+  <data name="GameProfileManagerViewText137" xml:space="preserve"><value>Automatically switch settings when games launch</value></data>
+  <data name="GameProfileManagerViewText169" xml:space="preserve"><value>Search profiles...</value></data>
+  <data name="GameProfileManagerViewText205" xml:space="preserve"><value>New Profile</value></data>
+  <data name="GameProfileManagerViewText211" xml:space="preserve"><value>Duplicate</value></data>
+  <data name="GameProfileManagerViewText217" xml:space="preserve"><value>Delete</value></data>
+  <data name="GameProfileManagerViewText224" xml:space="preserve"><value>Import Profiles</value></data>
+  <data name="GameProfileManagerViewText230" xml:space="preserve"><value>Export Profiles</value></data>
+  <data name="GameProfileManagerViewText246" xml:space="preserve"><value>Profile Settings</value></data>
+  <data name="GameProfileManagerViewText271" xml:space="preserve"><value>Profile Name</value></data>
+  <data name="GameProfileManagerViewText276" xml:space="preserve"><value>Executable Name (e.g., RocketLeague.exe)</value></data>
+  <data name="GameProfileManagerViewText281" xml:space="preserve"><value>Executable Path (Optional - for specific installs)</value></data>
+  <data name="GameProfileManagerViewText290" xml:space="preserve"><value>Browse...</value></data>
+  <data name="GameProfileManagerViewText296" xml:space="preserve"><value>Also Apply To (Optional - comma-separated .exe names)</value></data>
+  <data name="GameProfileManagerViewText298" xml:space="preserve"><value>Other games that should share this profile's settings, e.g. game2.exe, game3.exe. Lets one profile act as a default for a list of games.</value></data>
+  <data name="GameProfileManagerViewText302" xml:space="preserve"><value>Enable Auto-Switch</value></data>
+  <data name="GameProfileManagerViewText309" xml:space="preserve"><value>Performance Settings</value></data>
+  <data name="GameProfileManagerViewText316" xml:space="preserve"><value>Fan Preset</value></data>
+  <data name="GameProfileManagerViewText322" xml:space="preserve"><value>Performance Mode</value></data>
+  <data name="GameProfileManagerViewText328" xml:space="preserve"><value>CPU Core Undervolt (mV)</value></data>
+  <data name="GameProfileManagerViewText333" xml:space="preserve"><value>GPU Mode</value></data>
+  <data name="GameProfileManagerViewText341" xml:space="preserve"><value>Lighting Settings</value></data>
+  <data name="GameProfileManagerViewText348" xml:space="preserve"><value>Keyboard Lighting Profile</value></data>
+  <data name="GameProfileManagerViewText354" xml:space="preserve"><value>Peripheral Lighting Profile</value></data>
+  <data name="GameProfileManagerViewText362" xml:space="preserve"><value>Advanced Settings</value></data>
+  <data name="GameProfileManagerViewText369" xml:space="preserve"><value>Priority (exact executable paths win first; higher priority breaks ties)</value></data>
+  <data name="GameProfileManagerViewText373" xml:space="preserve"><value>Restore default fan/performance settings when game exits</value></data>
+  <data name="GameProfileManagerViewText377" xml:space="preserve"><value>Clean memory (RAM) when this game launches</value></data>
+  <data name="GameProfileManagerViewText384" xml:space="preserve"><value>Statistics</value></data>
+  <data name="GameProfileManagerViewText391" xml:space="preserve"><value>Launch Count: </value></data>
+  <data name="GameProfileManagerViewText396" xml:space="preserve"><value>Total Playtime: </value></data>
+  <data name="GameProfileManagerViewText401" xml:space="preserve"><value>Created: </value></data>
+  <data name="GameProfileManagerViewText406" xml:space="preserve"><value>Modified: </value></data>
+  <data name="GameProfileManagerViewText417" xml:space="preserve"><value>Save &amp; Close</value></data>
+  <data name="GameProfileManagerViewText422" xml:space="preserve"><value>Cancel</value></data>
 </root>

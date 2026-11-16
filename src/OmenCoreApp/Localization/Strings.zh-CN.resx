@@ -623,4 +623,53 @@
   <data name="HardwareMonitoringDashboardText330" xml:space="preserve"><value>风扇：68% 效率</value></data>
   <data name="HardwareMonitoringDashboardText337" xml:space="preserve"><value>电池状态</value></data>
   <data name="HardwareMonitoringDashboardText339" xml:space="preserve"><value>循环次数</value></data>
+  <data name="GameLibraryViewText95" xml:space="preserve"><value>自动检测 Steam、Epic、GOG 等平台的游戏</value></data>
+  <data name="GameLibraryViewText145" xml:space="preserve"><value>搜索游戏...</value></data>
+  <data name="GameLibraryViewText172" xml:space="preserve"><value>重新扫描所有游戏平台</value></data>
+  <data name="GameLibraryViewText176" xml:space="preserve"><value>扫描</value></data>
+  <data name="GameLibraryViewText184" xml:space="preserve"><value>手动添加游戏可执行文件</value></data>
+  <data name="GameLibraryViewText187" xml:space="preserve"><value>添加游戏</value></data>
+  <data name="GameLibraryViewText204" xml:space="preserve"><value>正在扫描游戏库...</value></data>
+  <data name="GameLibraryViewText369" xml:space="preserve"><value>启动选中的游戏</value></data>
+  <data name="GameLibraryViewText372" xml:space="preserve"><value>启动</value></data>
+  <data name="GameLibraryViewText379" xml:space="preserve"><value>为选中的游戏创建性能配置文件</value></data>
+  <data name="GameLibraryViewText382" xml:space="preserve"><value>创建配置文件</value></data>
+  <data name="GameLibraryViewText388" xml:space="preserve"><value>编辑现有配置文件</value></data>
+  <data name="GameLibraryViewText391" xml:space="preserve"><value>编辑配置文件</value></data>
+  <data name="GameProfileManagerViewText124" xml:space="preserve"><value>游戏配置文件管理</value></data>
+  <data name="GameProfileManagerViewText132" xml:space="preserve"><value>游戏配置文件管理</value></data>
+  <data name="GameProfileManagerViewText137" xml:space="preserve"><value>游戏启动时自动切换设置</value></data>
+  <data name="GameProfileManagerViewText169" xml:space="preserve"><value>搜索配置文件...</value></data>
+  <data name="GameProfileManagerViewText205" xml:space="preserve"><value>新建配置文件</value></data>
+  <data name="GameProfileManagerViewText211" xml:space="preserve"><value>复制</value></data>
+  <data name="GameProfileManagerViewText217" xml:space="preserve"><value>删除</value></data>
+  <data name="GameProfileManagerViewText224" xml:space="preserve"><value>导入配置文件</value></data>
+  <data name="GameProfileManagerViewText230" xml:space="preserve"><value>导出配置文件</value></data>
+  <data name="GameProfileManagerViewText246" xml:space="preserve"><value>配置文件设置</value></data>
+  <data name="GameProfileManagerViewText271" xml:space="preserve"><value>配置文件名称</value></data>
+  <data name="GameProfileManagerViewText276" xml:space="preserve"><value>可执行文件名（例如 RocketLeague.exe）</value></data>
+  <data name="GameProfileManagerViewText281" xml:space="preserve"><value>可执行文件路径（可选，用于指定安装位置）</value></data>
+  <data name="GameProfileManagerViewText290" xml:space="preserve"><value>浏览...</value></data>
+  <data name="GameProfileManagerViewText296" xml:space="preserve"><value>同时应用到（可选，以逗号分隔的 .exe 名称）</value></data>
+  <data name="GameProfileManagerViewText298" xml:space="preserve"><value>共享此配置文件设置的其他游戏，例如 game2.exe、game3.exe。一个配置文件可作为多个游戏的默认配置。</value></data>
+  <data name="GameProfileManagerViewText302" xml:space="preserve"><value>启用自动切换</value></data>
+  <data name="GameProfileManagerViewText309" xml:space="preserve"><value>性能设置</value></data>
+  <data name="GameProfileManagerViewText316" xml:space="preserve"><value>风扇预设</value></data>
+  <data name="GameProfileManagerViewText322" xml:space="preserve"><value>性能模式</value></data>
+  <data name="GameProfileManagerViewText328" xml:space="preserve"><value>CPU 核心降压（mV）</value></data>
+  <data name="GameProfileManagerViewText333" xml:space="preserve"><value>显卡模式</value></data>
+  <data name="GameProfileManagerViewText341" xml:space="preserve"><value>灯光设置</value></data>
+  <data name="GameProfileManagerViewText348" xml:space="preserve"><value>键盘灯光配置文件</value></data>
+  <data name="GameProfileManagerViewText354" xml:space="preserve"><value>外设灯光配置文件</value></data>
+  <data name="GameProfileManagerViewText362" xml:space="preserve"><value>高级设置</value></data>
+  <data name="GameProfileManagerViewText369" xml:space="preserve"><value>优先级（精确匹配的可执行文件路径优先；相同时按优先级高低选择）</value></data>
+  <data name="GameProfileManagerViewText373" xml:space="preserve"><value>游戏退出时恢复默认风扇和性能设置</value></data>
+  <data name="GameProfileManagerViewText377" xml:space="preserve"><value>此游戏启动时清理内存（RAM）</value></data>
+  <data name="GameProfileManagerViewText384" xml:space="preserve"><value>统计</value></data>
+  <data name="GameProfileManagerViewText391" xml:space="preserve"><value>启动次数：</value></data>
+  <data name="GameProfileManagerViewText396" xml:space="preserve"><value>游戏总时长：</value></data>
+  <data name="GameProfileManagerViewText401" xml:space="preserve"><value>创建时间：</value></data>
+  <data name="GameProfileManagerViewText406" xml:space="preserve"><value>修改时间：</value></data>
+  <data name="GameProfileManagerViewText417" xml:space="preserve"><value>保存并关闭</value></data>
+  <data name="GameProfileManagerViewText422" xml:space="preserve"><value>取消</value></data>
 </root>
