@@ -816,4 +816,17 @@ Open GitHub releases to download manually?</value></data>
   <data name="SettingsReferenceText3553Text" xml:space="preserve"><value>AC power state</value></data>
   <data name="SettingsReferenceText3611Text" xml:space="preserve"><value>Fan preset action</value></data>
   <data name="SettingsReferenceText3617Text" xml:space="preserve"><value>Performance mode action</value></data>
+  <data name="FanDiagRgbNotRun" xml:space="preserve"><value>RGB check not run</value></data>
+  <data name="FanDiagTooHot" xml:space="preserve"><value>Too hot to start - cool down and run again</value></data>
+  <data name="FanDiagTesting" xml:space="preserve"><value>Testing {0} fan at {1}%...</value></data>
+  <data name="FanDiagWaitCool" xml:space="preserve"><value>Waiting for the laptop to cool below {0:0} C ({1:0} C now)...</value></data>
+  <data name="FanDiagRgbSkip" xml:space="preserve"><value>Skipped: integrated RGB backend unavailable</value></data>
+  <data name="FanDiagRgbLook" xml:space="preserve"><value>Look at your keyboard now</value></data>
+  <data name="FanDiagRgbRejected" xml:space="preserve"><value>Pattern write not accepted by {0}</value></data>
+  <data name="FanDiagRgbRestoreFailed" xml:space="preserve"><value>Pattern applied; saved colors were not restored by {0}</value></data>
+  <data name="FanDiagRgbConfirmed" xml:space="preserve"><value>Pattern applied and saved colors restored; physical confirmation required</value></data>
+  <data name="FanDiagRgbFailed" xml:space="preserve"><value>Failed: {0}</value></data>
+  <data name="FanDiagInterrupted" xml:space="preserve"><value>Interrupted by thermal protection ({0} step(s)) - cool down and re-run</value></data>
+  <data name="FanDiagPassed" xml:space="preserve"><value>All tests passed! Score: {0}/100 ({1})</value></data>
+  <data name="FanDiagSomeFailed" xml:space="preserve"><value>Some tests failed - Score: {0}/100 ({1})</value></data>
 </root>

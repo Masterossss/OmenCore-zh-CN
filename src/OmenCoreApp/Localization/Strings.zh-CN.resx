@@ -812,4 +812,17 @@
   <data name="SettingsReferenceText3553Text" xml:space="preserve"><value>交流电源状态</value></data>
   <data name="SettingsReferenceText3611Text" xml:space="preserve"><value>风扇预设动作</value></data>
   <data name="SettingsReferenceText3617Text" xml:space="preserve"><value>性能模式动作</value></data>
+  <data name="FanDiagRgbNotRun" xml:space="preserve"><value>尚未执行 RGB 检查</value></data>
+  <data name="FanDiagTooHot" xml:space="preserve"><value>温度过高，无法开始；请冷却后重试</value></data>
+  <data name="FanDiagTesting" xml:space="preserve"><value>正在以 {1}% 测试 {0} 风扇...</value></data>
+  <data name="FanDiagWaitCool" xml:space="preserve"><value>正在等待笔记本降温至 {0:0} °C 以下（当前 {1:0} °C）...</value></data>
+  <data name="FanDiagRgbSkip" xml:space="preserve"><value>已跳过：集成 RGB 后端不可用</value></data>
+  <data name="FanDiagRgbLook" xml:space="preserve"><value>请查看键盘灯光</value></data>
+  <data name="FanDiagRgbRejected" xml:space="preserve"><value>{0} 未接受灯光图案写入</value></data>
+  <data name="FanDiagRgbRestoreFailed" xml:space="preserve"><value>图案已应用，但 {0} 未恢复保存的颜色</value></data>
+  <data name="FanDiagRgbConfirmed" xml:space="preserve"><value>图案已应用且保存的颜色已恢复；需要实际确认灯光</value></data>
+  <data name="FanDiagRgbFailed" xml:space="preserve"><value>失败：{0}</value></data>
+  <data name="FanDiagInterrupted" xml:space="preserve"><value>被散热保护中断（{0} 个步骤）；请冷却后重新运行</value></data>
+  <data name="FanDiagPassed" xml:space="preserve"><value>所有测试均已通过！得分：{0}/100（{1}）</value></data>
+  <data name="FanDiagSomeFailed" xml:space="preserve"><value>部分测试失败，得分：{0}/100（{1}）</value></data>
 </root>

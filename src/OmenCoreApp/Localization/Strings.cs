@@ -722,5 +722,18 @@ namespace OmenCore.Localization
         public static string SettingsReferenceText3553Text => Get(nameof(SettingsReferenceText3553Text));
         public static string SettingsReferenceText3611Text => Get(nameof(SettingsReferenceText3611Text));
         public static string SettingsReferenceText3617Text => Get(nameof(SettingsReferenceText3617Text));
+        public static string FanDiagRgbNotRun => Get(nameof(FanDiagRgbNotRun));
+        public static string FanDiagTooHot => Get(nameof(FanDiagTooHot));
+        public static string FanDiagTesting => Get(nameof(FanDiagTesting));
+        public static string FanDiagWaitCool => Get(nameof(FanDiagWaitCool));
+        public static string FanDiagRgbSkip => Get(nameof(FanDiagRgbSkip));
+        public static string FanDiagRgbLook => Get(nameof(FanDiagRgbLook));
+        public static string FanDiagRgbRejected => Get(nameof(FanDiagRgbRejected));
+        public static string FanDiagRgbRestoreFailed => Get(nameof(FanDiagRgbRestoreFailed));
+        public static string FanDiagRgbConfirmed => Get(nameof(FanDiagRgbConfirmed));
+        public static string FanDiagRgbFailed => Get(nameof(FanDiagRgbFailed));
+        public static string FanDiagInterrupted => Get(nameof(FanDiagInterrupted));
+        public static string FanDiagPassed => Get(nameof(FanDiagPassed));
+        public static string FanDiagSomeFailed => Get(nameof(FanDiagSomeFailed));
     }
 }
