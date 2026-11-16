@@ -1343,5 +1343,16 @@ namespace OmenCore.Localization
         public static string LightWmiVerifyHint => Get(nameof(LightWmiVerifyHint));
         public static string LightProbeSent => Get(nameof(LightProbeSent));
         public static string LightRestoredPrefix => Get(nameof(LightRestoredPrefix));
+        public static string MemDeltaPhysical => Get(nameof(MemDeltaPhysical));
+        public static string MemDeltaAvailable => Get(nameof(MemDeltaAvailable));
+        public static string MemDeltaStandby => Get(nameof(MemDeltaStandby));
+        public static string MemDeltaCache => Get(nameof(MemDeltaCache));
+        public static string MemDeltaCommit => Get(nameof(MemDeltaCommit));
+        public static string MemDeltaPagefile => Get(nameof(MemDeltaPagefile));
+        public static string MemDeltaModified => Get(nameof(MemDeltaModified));
+        public static string MemDeltaIncreased => Get(nameof(MemDeltaIncreased));
+        public static string MemDeltaReduced => Get(nameof(MemDeltaReduced));
+        public static string MemDeltaUnchanged => Get(nameof(MemDeltaUnchanged));
+        public static string MemDeltaSegment => Get(nameof(MemDeltaSegment));
     }
 }

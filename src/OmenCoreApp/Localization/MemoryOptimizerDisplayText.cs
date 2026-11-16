@@ -16,12 +16,35 @@ namespace OmenCore.Localization
             if (match.Success)
             {
                 var failed = match.Groups[3].Success ? string.Format(Strings.MemoryResultFailedCount, match.Groups[3].Value) : "";
-                return string.Format(Strings.MemoryResultSuccess, match.Groups[1].Value, match.Groups[2].Value, failed, match.Groups[4].Value) + suffix;
+                return string.Format(Strings.MemoryResultSuccess, match.Groups[1].Value, match.Groups[2].Value, failed, match.Groups[4].Value) + DeltaSuffix(suffix);
             }
             const string failedPrefix = "Failed: ";
             return line.StartsWith(failedPrefix, StringComparison.Ordinal)
                 ? string.Format(Strings.MemoryResultFailure, Error(line.Substring(failedPrefix.Length))) + suffix
                 : value;
+        }
+
+        private static string DeltaSuffix(string suffix)
+        {
+            if (string.IsNullOrEmpty(suffix)) return suffix;
+            var newlineLength = suffix.StartsWith("\r\n", StringComparison.Ordinal) ? 2 : suffix.StartsWith("\n", StringComparison.Ordinal) ? 1 : 0;
+            if (newlineLength == 0) return suffix;
+            var parts = suffix.Substring(newlineLength).Split(new[] { " | " }, StringSplitOptions.None);
+            if (parts.Length != 7) return suffix;
+            var labels = new[] { "Physical used", "Available", "Standby", "Cache", "Commit", "Page file", "Modified" };
+            var translated = new[] { Strings.MemDeltaPhysical, Strings.MemDeltaAvailable, Strings.MemDeltaStandby, Strings.MemDeltaCache, Strings.MemDeltaCommit, Strings.MemDeltaPagefile, Strings.MemDeltaModified };
+            for (var i = 0; i < parts.Length; i++)
+            {
+                var match = Regex.Match(parts[i], @"\A" + Regex.Escape(labels[i]) + @" ([0-9]+) -> ([0-9]+) MB \((unchanged|increased [0-9]+ MB|reduced [0-9]+ MB)\)\z", RegexOptions.CultureInvariant);
+                if (!match.Success) return suffix;
+                var change = match.Groups[3].Value;
+                var text = change == "unchanged" ? Strings.MemDeltaUnchanged
+                    : change.StartsWith("increased ", StringComparison.Ordinal)
+                        ? string.Format(Strings.MemDeltaIncreased, change.Substring(10, change.Length - 13))
+                        : string.Format(Strings.MemDeltaReduced, change.Substring(8, change.Length - 11));
+                parts[i] = string.Format(Strings.MemDeltaSegment, translated[i], match.Groups[1].Value, match.Groups[2].Value, text);
+            }
+            return suffix.Substring(0, newlineLength) + string.Join(" | ", parts);
         }
 
         internal static string Status(string value)

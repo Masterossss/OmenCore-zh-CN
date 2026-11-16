@@ -1487,4 +1487,15 @@ Continue?</value></data>
   <data name="LightWmiVerifyHint" xml:space="preserve"><value> WMI keyboard commands aren't verifying on your model - try enabling 'Experimental EC Keyboard' in Settings if colors don't visibly change.</value></data>
   <data name="LightProbeSent" xml:space="preserve"><value>Probe sent via {0}; select what changed and save. {1}</value></data>
   <data name="LightRestoredPrefix" xml:space="preserve"><value>Restored saved keyboard colors. </value></data>
+  <data name="MemDeltaPhysical" xml:space="preserve"><value>Physical used</value></data>
+  <data name="MemDeltaAvailable" xml:space="preserve"><value>Available</value></data>
+  <data name="MemDeltaStandby" xml:space="preserve"><value>Standby</value></data>
+  <data name="MemDeltaCache" xml:space="preserve"><value>Cache</value></data>
+  <data name="MemDeltaCommit" xml:space="preserve"><value>Commit</value></data>
+  <data name="MemDeltaPagefile" xml:space="preserve"><value>Page file</value></data>
+  <data name="MemDeltaModified" xml:space="preserve"><value>Modified</value></data>
+  <data name="MemDeltaIncreased" xml:space="preserve"><value>increased {0} MB</value></data>
+  <data name="MemDeltaReduced" xml:space="preserve"><value>reduced {0} MB</value></data>
+  <data name="MemDeltaUnchanged" xml:space="preserve"><value>unchanged</value></data>
+  <data name="MemDeltaSegment" xml:space="preserve"><value>{0} {1} -&gt; {2} MB ({3})</value></data>
 </root>

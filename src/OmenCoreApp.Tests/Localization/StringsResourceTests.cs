@@ -338,6 +338,11 @@ namespace OmenCoreApp.Tests.Localization
                     .And.Contain("3 项操作成功").And.Contain("1 项失败").And.Contain("Delta: 128 MB");
                 MemoryOptimizerDisplayText.Status("Failed: service unavailable").Should().Contain("失败：service unavailable");
                 MemoryOptimizerDisplayText.Result("\nunknown").Should().Be("\nunknown");
+                const string delta = "Freed 2 MB  •  1 ops succeeded  •  12:34:56\r\nPhysical used 10 -> 8 MB (reduced 2 MB) | Available 5 -> 7 MB (increased 2 MB) | Standby 1 -> 1 MB (unchanged) | Cache 1 -> 1 MB (unchanged) | Commit 1 -> 1 MB (unchanged) | Page file 1 -> 1 MB (unchanged) | Modified 1 -> 1 MB (unchanged)";
+                MemoryOptimizerDisplayText.Result(delta).Should().Contain("减少 2 MB").And.Contain("增加 2 MB").And.Contain("未变化");
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                MemoryOptimizerDisplayText.Result(delta).Should().Be(delta);
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
                 MemoryOptimizerDisplayText.Status("Trimming process working sets...").Should().Be("正在精简进程工作集…");
                 MemoryOptimizerDisplayText.Status("Failed: Failed to acquire required privileges. Run as administrator.").Should().Contain("管理员");
                 MemoryOptimizerDisplayText.Status("Freed 42 MB (3 operations, 1 failed)...").Should().Contain("42 MB").And.Contain("1 项失败");

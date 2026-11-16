@@ -1479,4 +1479,15 @@
   <data name="LightWmiVerifyHint" xml:space="preserve"><value> 此型号的 WMI 键盘命令未通过验证；如果颜色没有明显变化，请尝试在设置中启用“实验性 EC 键盘”。</value></data>
   <data name="LightProbeSent" xml:space="preserve"><value>已通过 {0} 发送探测；请选择发生变化的区域并保存。{1}</value></data>
   <data name="LightRestoredPrefix" xml:space="preserve"><value>已恢复保存的键盘颜色。</value></data>
+  <data name="MemDeltaPhysical" xml:space="preserve"><value>物理内存已用</value></data>
+  <data name="MemDeltaAvailable" xml:space="preserve"><value>可用内存</value></data>
+  <data name="MemDeltaStandby" xml:space="preserve"><value>备用内存</value></data>
+  <data name="MemDeltaCache" xml:space="preserve"><value>缓存</value></data>
+  <data name="MemDeltaCommit" xml:space="preserve"><value>已提交内存</value></data>
+  <data name="MemDeltaPagefile" xml:space="preserve"><value>页面文件</value></data>
+  <data name="MemDeltaModified" xml:space="preserve"><value>已修改页面</value></data>
+  <data name="MemDeltaIncreased" xml:space="preserve"><value>增加 {0} MB</value></data>
+  <data name="MemDeltaReduced" xml:space="preserve"><value>减少 {0} MB</value></data>
+  <data name="MemDeltaUnchanged" xml:space="preserve"><value>未变化</value></data>
+  <data name="MemDeltaSegment" xml:space="preserve"><value>{0} {1} → {2} MB（{3}）</value></data>
 </root>
