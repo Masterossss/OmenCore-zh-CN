@@ -33,7 +33,7 @@
 | `src/OmenCoreApp/Views/MemoryOptimizerView.xaml` | 部分处理 | 部分处理 | 待核查 | 全局通过，引用待核查 | 未执行 | ViewModel 清理结果、错误、辅助文本、绑定值 | 进行中 |
 | `src/OmenCoreApp/Views/OnboardingWindow.xaml` | 待审查 | 待审查 | 待确认 | 全局通过，引用待核查 | 未执行 | 静态候选及 code-behind/绑定需核查 | 进行中 |
 | `src/OmenCoreApp/Views/OsdOverlayWindow.xaml` | 待审查 | 待审查 | 待确认 | 全局通过，引用待核查 | 未执行 | 静态候选及 code-behind/绑定需核查 | 进行中 |
-| `src/OmenCoreApp/Views/QuickPopupWindow.xaml` | 待审查 | 待审查 | 待确认 | 全局通过，引用待核查 | 未执行 | 静态候选及 code-behind/绑定需核查 | 进行中 |
+| `src/OmenCoreApp/Views/QuickPopupWindow.xaml` | 部分处理 | 部分处理 | 待确认 | 全局通过，引用待核查 | 未执行 | 托盘调用、绑定与布局仍需核查 | 进行中 |
 | `src/OmenCoreApp/Views/SettingsView.xaml` | 部分处理 | 部分处理 | 待核查 | 全局通过，引用待核查 | 未执行 | 文本节点、绑定状态及相关服务需核查 | 进行中 |
 | `src/OmenCoreApp/Views/SplashWindow.xaml` | 待审查 | 待审查 | 待确认 | 全局通过，引用待核查 | 未执行 | 静态候选及 code-behind/绑定需核查 | 进行中 |
 | `src/OmenCoreApp/Views/SystemOptimizerView.xaml` | 待审查 | 待审查 | 待核查 | 全局通过，引用待核查 | 未执行 | 静态候选及 code-behind/绑定需核查 | 进行中 |

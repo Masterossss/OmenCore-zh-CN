@@ -8996,108 +8996,94 @@ e989b633e6d6fee547a8,src/OmenCoreApp/Views/OsdOverlayWindow.xaml.cs,938,cs_liter
 72e1ad2d7af1cd209232,src/OmenCoreApp/Views/OsdOverlayWindow.xaml.cs,1008,cs_literal,"""Primary""",E,待结合上下文和调用链核实
 d729bbafd54986bcfb64,src/OmenCoreApp/Views/OsdOverlayWindow.xaml.cs,1013,cs_literal,"""MouseCursor""",E,待结合上下文和调用链核实
 1e33f2233420d73c4c8d,src/OmenCoreApp/Views/OsdOverlayWindow.xaml.cs,1021,cs_literal,"""ActiveWindow""",E,待结合上下文和调用链核实
-13297de97e6255b34708,src/OmenCoreApp/Views/QuickPopupWindow.xaml,7,Title,OmenCore Quick Access,E,待结合上下文和调用链核实
-54991e8472665784a79c,src/OmenCoreApp/Views/QuickPopupWindow.xaml,22,text_node,#0F111C,E,待结合上下文和调用链核实
-0f3f9f34ff2de738d66a,src/OmenCoreApp/Views/QuickPopupWindow.xaml,23,text_node,#15192B,E,待结合上下文和调用链核实
-958ca64c801d68f82538,src/OmenCoreApp/Views/QuickPopupWindow.xaml,24,text_node,#FF005C,E,待结合上下文和调用链核实
-de5c307d3680f6d31337,src/OmenCoreApp/Views/QuickPopupWindow.xaml,25,text_node,#00C8C8,E,待结合上下文和调用链核实
-2d6b3cf1bd82259f0417,src/OmenCoreApp/Views/QuickPopupWindow.xaml,26,text_node,#F0F0F5,E,待结合上下文和调用链核实
-f3570651309a773c20b5,src/OmenCoreApp/Views/QuickPopupWindow.xaml,27,text_node,#A0A5B4,E,待结合上下文和调用链核实
-7f9cdc8c15688b720834,src/OmenCoreApp/Views/QuickPopupWindow.xaml,28,text_node,#3C415A,E,待结合上下文和调用链核实
-9cc1b27772594e861c9b,src/OmenCoreApp/Views/QuickPopupWindow.xaml,139,Text,Quick Access,E,待结合上下文和调用链核实
-0d6c3204f94373a1abac,src/OmenCoreApp/Views/QuickPopupWindow.xaml,142,Text,Monitoring: Unknown,E,待结合上下文和调用链核实
-6094ffb6999cd1309cd6,src/OmenCoreApp/Views/QuickPopupWindow.xaml,147,Text,Fan/Perf: Decoupled,E,待结合上下文和调用链核实
-29c2c5134bf9c44c3752,src/OmenCoreApp/Views/QuickPopupWindow.xaml,167,Text,CPU,B,通用技术名称或单位
-318452b84c153073adbf,src/OmenCoreApp/Views/QuickPopupWindow.xaml,170,Text,°C,E,待结合上下文和调用链核实
-0d834894f062db1508cd,src/OmenCoreApp/Views/QuickPopupWindow.xaml,177,Text,GPU,B,通用技术名称或单位
-92f6dc327cb4cf756f5d,src/OmenCoreApp/Views/QuickPopupWindow.xaml,180,Text,°C,E,待结合上下文和调用链核实
-5b47a7f93756b4e83705,src/OmenCoreApp/Views/QuickPopupWindow.xaml,188,Text,Quick Profile,E,待结合上下文和调用链核实
-4d772060b088c622e719,src/OmenCoreApp/Views/QuickPopupWindow.xaml,193,Text,Quiet,E,待结合上下文和调用链核实
-ae8b6adaa0f0c5f3ac71,src/OmenCoreApp/Views/QuickPopupWindow.xaml,199,Text,Balanced,E,待结合上下文和调用链核实
-e7d771ce4065b4d3b948,src/OmenCoreApp/Views/QuickPopupWindow.xaml,205,Text,Perform,E,待结合上下文和调用链核实
-40bfc3dcecad7652271a,src/OmenCoreApp/Views/QuickPopupWindow.xaml,211,Text,Fan Mode,E,待结合上下文和调用链核实
-30223e4e694663b79401,src/OmenCoreApp/Views/QuickPopupWindow.xaml,216,Text,Auto,E,待结合上下文和调用链核实
-0d1754c5be282ede26c1,src/OmenCoreApp/Views/QuickPopupWindow.xaml,223,Text,Curve,E,待结合上下文和调用链核实
-eb8842e1bac8d9be824e,src/OmenCoreApp/Views/QuickPopupWindow.xaml,229,Text,Max,E,待结合上下文和调用链核实
-0aebd2de34427149f09d,src/OmenCoreApp/Views/QuickPopupWindow.xaml,237,ToolTip,Open full dashboard,E,待结合上下文和调用链核实
-e4f2b93df3de72b25af8,src/OmenCoreApp/Views/QuickPopupWindow.xaml,239,Text,Dashboard,E,待结合上下文和调用链核实
-80aa2ee6d2afaf7f1fa4,src/OmenCoreApp/Views/QuickPopupWindow.xaml,242,ToolTip,Turn off display,E,待结合上下文和调用链核实
-ee9c589f17e974c18009,src/OmenCoreApp/Views/QuickPopupWindow.xaml,245,Text,Display Off,E,待结合上下文和调用链核实
-ac4b83a1f670c26ddaa1,src/OmenCoreApp/Views/QuickPopupWindow.xaml,248,ToolTip,Toggle refresh rate,E,待结合上下文和调用链核实
-40c19f0d86abce1c82bb,src/OmenCoreApp/Views/QuickPopupWindow.xaml,251,Text,165Hz,E,待结合上下文和调用链核实
-ed1b28dce7abad4485df,src/OmenCoreApp/Views/QuickPopupWindow.xaml,254,ToolTip,Run a safe RAM clean,E,待结合上下文和调用链核实
-5ed93719265bdc00c226,src/OmenCoreApp/Views/QuickPopupWindow.xaml,257,Text,Clean RAM,E,待结合上下文和调用链核实
-283b159dcd925ee44632,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,21,cs_literal,"""TrayQuickPopupRefresh""",E,待结合上下文和调用链核实
-1a335671a1bd30b7d50c,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,28,cs_literal,"""Auto""",E,待结合上下文和调用链核实
-ccbdab7be13a2dce3ac7,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,29,cs_literal,"""Balanced""",E,待结合上下文和调用链核实
-4e31b6ef5fd4de7d7d38,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,31,cs_literal,"""Unknown""",E,待结合上下文和调用链核实
-4aa499aac1d4a5997bfe,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,37,cs_literal,"""user32.dll""",E,待结合上下文和调用链核实
-56a348f518782acb2007,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,146,cs_literal,"""Apply saved fan curve""",E,待结合上下文和调用链核实
-fe39820af79020ea6461,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,147,cs_literal,"$""Curve: {presetName}""",E,待结合上下文和调用链核实
-1384a9848a393a2c7ceb,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,150,dynamic_entry,FanCustomBtn.ToolTip = tooltip;,E,待结合上下文和调用链核实
-85705363cd1be90f0349,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,174,cs_literal,"""Max""",E,待结合上下文和调用链核实
-dcf0957155bb9c4a6f56,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,179,cs_literal,"""Quiet""",E,待结合上下文和调用链核实
-8e1d3837c9b6b7c5395f,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,184,cs_literal,"""Auto""",E,待结合上下文和调用链核实
-8aef10f1e1c60fc4d604,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,189,cs_literal,"""Custom""",E,待结合上下文和调用链核实
-a1efb20c38be02d0b835,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,192,cs_literal,"""Auto""",E,待结合上下文和调用链核实
-54e5c35a9dc51e4d3c94,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,197,cs_literal,"""Unknown""",E,待结合上下文和调用链核实
-d26f1bca96d2b2aebc01,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,204,cs_literal,"$""Monitoring: {_monitoringHealth}""",E,待结合上下文和调用链核实
-d6b018abe14b71cec964,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,211,cs_literal,"""Healthy""",E,待结合上下文和调用链核实
-3b8ba2dbd81e05c19ba9,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,212,cs_literal,"""Degraded""",E,待结合上下文和调用链核实
-1ac1b19ae5c9a13a1a1b,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,213,cs_literal,"""Stale""",E,待结合上下文和调用链核实
-c5b439297d2bd6930363,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,230,dynamic_entry,LinkModeText.ToolTip = linked,E,待结合上下文和调用链核实
-c47b6a732d2198553092,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,231,cs_literal,"""Linked mode is enabled. Performance changes may also rewrite fan policy.""",E,待结合上下文和调用链核实
-94476a425a76475d499e,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,232,cs_literal,"""Decoupled mode is enabled. Performance changes leave your current fan preset or curve untouched.""",E,待结合上下文和调用链核实
-b8fee42fefc3edb7d709,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,264,cs_literal,"$""{sample.CpuLoadPercent:0}%""",E,待结合上下文和调用链核实
-ed2d9163c59f2e0d7abb,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,265,cs_literal,"$""{sample.GpuLoadPercent:0}%""",E,待结合上下文和调用链核实
-3f5ff87780cde3721241,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,266,cs_literal,"$""Monitoring: {_monitoringHealth}""",E,待结合上下文和调用链核实
-e050cf7a6cb022c98571,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,282,cs_literal,"""Fan/Perf: Linked""",E,待结合上下文和调用链核实
-5c19845cab94d4c510de,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,283,cs_literal,"""Fan/Perf: Decoupled - fan stays""",E,待结合上下文和调用链核实
-77af741c190f410c5a39,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,289,cs_literal,"""your current fan preset""",E,待结合上下文和调用链核实
-d0a8567fdd1504108fd8,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,290,cs_literal,"$""the active curve preset '{_curvePresetName}'""",E,待结合上下文和调用链核实
-065272e2224afe1717f6,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,293,cs_literal,"""Apply this performance mode. Linked mode can also update fan policy.""",E,待结合上下文和调用链核实
-57792f5c05e869d86da1,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,294,cs_literal,"$""Apply this performance mode. Decoupled mode keeps {preservedFanText} active.""",E,待结合上下文和调用链核实
-e679886badcb6e6eb2bd,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,296,dynamic_entry,QuickQuietBtn.ToolTip = tooltip;,E,待结合上下文和调用链核实
-fcd83bd4b41f587837f1,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,297,dynamic_entry,QuickBalancedBtn.ToolTip = tooltip;,E,待结合上下文和调用链核实
-3f408197100dae118c8a,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,298,dynamic_entry,QuickPerformanceBtn.ToolTip = tooltip;,E,待结合上下文和调用链核实
-900db119f6c638452ec0,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,304,cs_literal,"""ModeButtonStyle""",E,待结合上下文和调用链核实
-bdc7e60f4bbfc84a7341,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,305,cs_literal,"""ModeButtonStyle""",E,待结合上下文和调用链核实
-0221fa313cafe9a666f0,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,306,cs_literal,"""ModeButtonStyle""",E,待结合上下文和调用链核实
-6a8f8b008e3b32b7da2a,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,309,cs_literal,"""ActiveModeButtonStyle""",E,待结合上下文和调用链核实
-96a7d7f4ad8c4e25e831,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,327,cs_literal,"""ModeButtonStyle""",E,待结合上下文和调用链核实
-eadfd0439aa2ab1e2e36,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,328,cs_literal,"""ModeButtonStyle""",E,待结合上下文和调用链核实
-3b0d52770d9d4abed238,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,329,cs_literal,"""ModeButtonStyle""",E,待结合上下文和调用链核实
-2011c5ecb6f59b840152,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,332,cs_literal,"""ActiveModeButtonStyle""",E,待结合上下文和调用链核实
-4918421d3759b51d4f1d,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,335,cs_literal,"""balanced""",E,待结合上下文和调用链核实
-0b3c3d4322dad844b55d,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,336,cs_literal,"""default""",E,待结合上下文和调用链核实
-6a2df0119975e43b2c26,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,339,cs_literal,"""performance""",E,待结合上下文和调用链核实
-d9e9a04adcf7da2ee33d,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,340,cs_literal,"""high""",E,待结合上下文和调用链核实
-8a3ff30e5b5dcdbc7dbd,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,343,cs_literal,"""quiet""",E,待结合上下文和调用链核实
-9eddd9e2243a4a3a1f58,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,344,cs_literal,"""powersaver""",E,待结合上下文和调用链核实
-9dbba941565266bb70de,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,357,cs_literal,"$""{currentRate}Hz""",E,待结合上下文和调用链核实
-aa408fc99c96bfc12bcb,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,357,cs_literal,"""N/A""",E,待结合上下文和调用链核实
-8a5189608430f21ad712,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,358,dynamic_entry,"RefreshRateBtn.ToolTip = ""Toggle refresh rate"";",E,待结合上下文和调用链核实
-38004684f417172f6ebd,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,358,cs_literal,"""Toggle refresh rate""",E,待结合上下文和调用链核实
-0951d019e8b6b83bc9d4,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,362,cs_literal,"$""D{_activeDisplayTargetIndex + 1}""",E,待结合上下文和调用链核实
-a9b75535f16ca11bbc3c,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,363,cs_literal,"$""{targetLabel} {currentRate}Hz""",E,待结合上下文和调用链核实
-a5114c55b7cc85e6fb4e,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,363,cs_literal,"$""{targetLabel} N/A""",E,待结合上下文和调用链核实
-57df7bdd95a2668796d9,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,364,dynamic_entry,"RefreshRateBtn.ToolTip = $""Toggle refresh rate for {target.FriendlyName}. Click again to move to the next display."";",E,待结合上下文和调用链核实
-b901c646f4a02d6eac37,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,364,cs_literal,"$""Toggle refresh rate for {target.FriendlyName}. Click again to move to the next display.""",E,待结合上下文和调用链核实
-816bcfaa9d36a49a424d,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,410,cs_literal,"""Balanced""",E,待结合上下文和调用链核实
-d40cb10dcf9eecfcaf77,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,411,cs_literal,"""Auto""",E,待结合上下文和调用链核实
-2e14148d0c75972ef724,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,426,cs_literal,"""LockWindows""",E,待结合上下文和调用链核实
-dc7f985c2eba5e1a2075,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,430,cs_literal,"""Quick Access could not lock Windows""",E,待结合上下文和调用链核实
-c36f0c7776f008527dcb,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,452,cs_literal,"""Disabled""",E,待结合上下文和调用链核实
-96cef14592877079999c,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,455,cs_literal,"""LockWindows""",E,待结合上下文和调用链核实
-a42ae4450f8f32f74edf,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,457,cs_literal,"""LockWindows""",E,待结合上下文和调用链核实
-0f7688aa1c130ad1690c,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,458,dynamic_entry,"DisplayOffBtn.ToolTip = ""Lock Windows"";",E,待结合上下文和调用链核实
-7c420dcbe2c093e3ad5d,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,458,cs_literal,"""Lock Windows""",E,待结合上下文和调用链核实
-03e0e0ae958d000094f0,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,460,cs_literal,"""Lock""",E,待结合上下文和调用链核实
-8ef81ad7df89824dfdd4,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,464,cs_literal,"""DisplayOff""",E,待结合上下文和调用链核实
-eae267b09da4c7556e3b,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,465,dynamic_entry,"DisplayOffBtn.ToolTip = ""Turn off display"";",E,待结合上下文和调用链核实
-084f15353d2a50e3a876,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,465,cs_literal,"""Turn off display""",E,待结合上下文和调用链核实
-e27578ca840648bb2d7a,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,467,cs_literal,"""Display Off""",E,待结合上下文和调用链核实
-59919898bc45bb24d1f0,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,526,cs_literal,"""Visible tray quick-popup telemetry refresh""",E,待结合上下文和调用链核实
+13297de97e6255b34708,src/OmenCoreApp/Views/QuickPopupWindow.xaml,8,Title,OmenCore Quick Access,E,待结合上下文和调用链核实
+54991e8472665784a79c,src/OmenCoreApp/Views/QuickPopupWindow.xaml,23,text_node,#0F111C,E,待结合上下文和调用链核实
+0f3f9f34ff2de738d66a,src/OmenCoreApp/Views/QuickPopupWindow.xaml,24,text_node,#15192B,E,待结合上下文和调用链核实
+958ca64c801d68f82538,src/OmenCoreApp/Views/QuickPopupWindow.xaml,25,text_node,#FF005C,E,待结合上下文和调用链核实
+de5c307d3680f6d31337,src/OmenCoreApp/Views/QuickPopupWindow.xaml,26,text_node,#00C8C8,E,待结合上下文和调用链核实
+2d6b3cf1bd82259f0417,src/OmenCoreApp/Views/QuickPopupWindow.xaml,27,text_node,#F0F0F5,E,待结合上下文和调用链核实
+f3570651309a773c20b5,src/OmenCoreApp/Views/QuickPopupWindow.xaml,28,text_node,#A0A5B4,E,待结合上下文和调用链核实
+7f9cdc8c15688b720834,src/OmenCoreApp/Views/QuickPopupWindow.xaml,29,text_node,#3C415A,E,待结合上下文和调用链核实
+2a7f03d0d98a2f82ebb3,src/OmenCoreApp/Views/QuickPopupWindow.xaml,140,Text,{x:Static loc:Strings.QuickPopupText139},D,已有 Strings 资源引用；译文和显示仍需验证
+4b6fae0ffddbf0fefe19,src/OmenCoreApp/Views/QuickPopupWindow.xaml,143,Text,{x:Static loc:Strings.QuickPopupText142},D,已有 Strings 资源引用；译文和显示仍需验证
+32210e9a20f6487c45a0,src/OmenCoreApp/Views/QuickPopupWindow.xaml,148,Text,{x:Static loc:Strings.QuickPopupText147},D,已有 Strings 资源引用；译文和显示仍需验证
+29c2c5134bf9c44c3752,src/OmenCoreApp/Views/QuickPopupWindow.xaml,168,Text,CPU,B,通用技术名称或单位
+318452b84c153073adbf,src/OmenCoreApp/Views/QuickPopupWindow.xaml,171,Text,°C,E,待结合上下文和调用链核实
+0d834894f062db1508cd,src/OmenCoreApp/Views/QuickPopupWindow.xaml,178,Text,GPU,B,通用技术名称或单位
+92f6dc327cb4cf756f5d,src/OmenCoreApp/Views/QuickPopupWindow.xaml,181,Text,°C,E,待结合上下文和调用链核实
+6e943f4c7e2a8a342968,src/OmenCoreApp/Views/QuickPopupWindow.xaml,189,Text,{x:Static loc:Strings.QuickPopupText188},D,已有 Strings 资源引用；译文和显示仍需验证
+bbcebdcfa35f49005189,src/OmenCoreApp/Views/QuickPopupWindow.xaml,194,Text,{x:Static loc:Strings.QuickPopupText193},D,已有 Strings 资源引用；译文和显示仍需验证
+7a63427aeef667c5b000,src/OmenCoreApp/Views/QuickPopupWindow.xaml,200,Text,{x:Static loc:Strings.QuickPopupText199},D,已有 Strings 资源引用；译文和显示仍需验证
+d4d2da3dc99df3003b56,src/OmenCoreApp/Views/QuickPopupWindow.xaml,206,Text,{x:Static loc:Strings.QuickPopupText205},D,已有 Strings 资源引用；译文和显示仍需验证
+b8364b247bd2aaecd5bc,src/OmenCoreApp/Views/QuickPopupWindow.xaml,212,Text,{x:Static loc:Strings.QuickPopupText211},D,已有 Strings 资源引用；译文和显示仍需验证
+b8122618300555e82675,src/OmenCoreApp/Views/QuickPopupWindow.xaml,217,Text,{x:Static loc:Strings.QuickPopupText216},D,已有 Strings 资源引用；译文和显示仍需验证
+cd11ed64177726cda840,src/OmenCoreApp/Views/QuickPopupWindow.xaml,224,Text,{x:Static loc:Strings.QuickPopupText223},D,已有 Strings 资源引用；译文和显示仍需验证
+396e2223633d39ddb02c,src/OmenCoreApp/Views/QuickPopupWindow.xaml,230,Text,{x:Static loc:Strings.QuickPopupText229},D,已有 Strings 资源引用；译文和显示仍需验证
+7253c53ba97d0781368b,src/OmenCoreApp/Views/QuickPopupWindow.xaml,238,ToolTip,{x:Static loc:Strings.QuickPopupText237},D,已有 Strings 资源引用；译文和显示仍需验证
+18acb90b8c74ddbd5d3b,src/OmenCoreApp/Views/QuickPopupWindow.xaml,240,Text,{x:Static loc:Strings.QuickPopupText239},D,已有 Strings 资源引用；译文和显示仍需验证
+5e2d3d94c405266f60bd,src/OmenCoreApp/Views/QuickPopupWindow.xaml,243,ToolTip,{x:Static loc:Strings.QuickPopupText242},D,已有 Strings 资源引用；译文和显示仍需验证
+106aaf84f884564e48c5,src/OmenCoreApp/Views/QuickPopupWindow.xaml,246,Text,{x:Static loc:Strings.QuickPopupText245},D,已有 Strings 资源引用；译文和显示仍需验证
+c9db628b2877312c9c50,src/OmenCoreApp/Views/QuickPopupWindow.xaml,249,ToolTip,{x:Static loc:Strings.QuickPopupText248},D,已有 Strings 资源引用；译文和显示仍需验证
+40c19f0d86abce1c82bb,src/OmenCoreApp/Views/QuickPopupWindow.xaml,252,Text,165Hz,E,待结合上下文和调用链核实
+d53f053f3583724f528d,src/OmenCoreApp/Views/QuickPopupWindow.xaml,255,ToolTip,{x:Static loc:Strings.QuickPopupText254},D,已有 Strings 资源引用；译文和显示仍需验证
+eb5a1e6136f595c2a171,src/OmenCoreApp/Views/QuickPopupWindow.xaml,258,Text,{x:Static loc:Strings.QuickPopupText257},D,已有 Strings 资源引用；译文和显示仍需验证
+283b159dcd925ee44632,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,22,cs_literal,"""TrayQuickPopupRefresh""",E,待结合上下文和调用链核实
+1a335671a1bd30b7d50c,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,29,cs_literal,"""Auto""",E,待结合上下文和调用链核实
+ccbdab7be13a2dce3ac7,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,30,cs_literal,"""Balanced""",E,待结合上下文和调用链核实
+4e31b6ef5fd4de7d7d38,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,32,cs_literal,"""Unknown""",E,待结合上下文和调用链核实
+4aa499aac1d4a5997bfe,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,38,cs_literal,"""user32.dll""",E,待结合上下文和调用链核实
+1384a9848a393a2c7ceb,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,151,dynamic_entry,FanCustomBtn.ToolTip = tooltip;,E,待结合上下文和调用链核实
+85705363cd1be90f0349,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,175,cs_literal,"""Max""",E,待结合上下文和调用链核实
+dcf0957155bb9c4a6f56,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,180,cs_literal,"""Quiet""",E,待结合上下文和调用链核实
+8e1d3837c9b6b7c5395f,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,185,cs_literal,"""Auto""",E,待结合上下文和调用链核实
+8aef10f1e1c60fc4d604,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,190,cs_literal,"""Custom""",E,待结合上下文和调用链核实
+a1efb20c38be02d0b835,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,193,cs_literal,"""Auto""",E,待结合上下文和调用链核实
+54e5c35a9dc51e4d3c94,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,198,cs_literal,"""Unknown""",E,待结合上下文和调用链核实
+d6b018abe14b71cec964,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,212,cs_literal,"""Healthy""",E,待结合上下文和调用链核实
+3b8ba2dbd81e05c19ba9,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,213,cs_literal,"""Degraded""",E,待结合上下文和调用链核实
+1ac1b19ae5c9a13a1a1b,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,214,cs_literal,"""Stale""",E,待结合上下文和调用链核实
+c5b439297d2bd6930363,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,231,dynamic_entry,LinkModeText.ToolTip = linked,E,待结合上下文和调用链核实
+b8fee42fefc3edb7d709,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,265,cs_literal,"$""{sample.CpuLoadPercent:0}%""",E,待结合上下文和调用链核实
+ed2d9163c59f2e0d7abb,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,266,cs_literal,"$""{sample.GpuLoadPercent:0}%""",E,待结合上下文和调用链核实
+b3f57e3aa2ea900391d4,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,273,cs_literal,"""Unknown""",E,待结合上下文和调用链核实
+a0f80afb186a5c6af967,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,274,cs_literal,"""Healthy""",E,待结合上下文和调用链核实
+cfb79fd3b8c94a1bbc88,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,275,cs_literal,"""Degraded""",E,待结合上下文和调用链核实
+8b547ed6b7d86722998e,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,276,cs_literal,"""Stale""",E,待结合上下文和调用链核实
+e679886badcb6e6eb2bd,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,306,dynamic_entry,QuickQuietBtn.ToolTip = tooltip;,E,待结合上下文和调用链核实
+fcd83bd4b41f587837f1,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,307,dynamic_entry,QuickBalancedBtn.ToolTip = tooltip;,E,待结合上下文和调用链核实
+3f408197100dae118c8a,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,308,dynamic_entry,QuickPerformanceBtn.ToolTip = tooltip;,E,待结合上下文和调用链核实
+900db119f6c638452ec0,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,314,cs_literal,"""ModeButtonStyle""",E,待结合上下文和调用链核实
+bdc7e60f4bbfc84a7341,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,315,cs_literal,"""ModeButtonStyle""",E,待结合上下文和调用链核实
+0221fa313cafe9a666f0,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,316,cs_literal,"""ModeButtonStyle""",E,待结合上下文和调用链核实
+6a8f8b008e3b32b7da2a,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,319,cs_literal,"""ActiveModeButtonStyle""",E,待结合上下文和调用链核实
+96a7d7f4ad8c4e25e831,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,337,cs_literal,"""ModeButtonStyle""",E,待结合上下文和调用链核实
+eadfd0439aa2ab1e2e36,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,338,cs_literal,"""ModeButtonStyle""",E,待结合上下文和调用链核实
+3b0d52770d9d4abed238,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,339,cs_literal,"""ModeButtonStyle""",E,待结合上下文和调用链核实
+2011c5ecb6f59b840152,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,342,cs_literal,"""ActiveModeButtonStyle""",E,待结合上下文和调用链核实
+4918421d3759b51d4f1d,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,345,cs_literal,"""balanced""",E,待结合上下文和调用链核实
+0b3c3d4322dad844b55d,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,346,cs_literal,"""default""",E,待结合上下文和调用链核实
+6a2df0119975e43b2c26,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,349,cs_literal,"""performance""",E,待结合上下文和调用链核实
+d9e9a04adcf7da2ee33d,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,350,cs_literal,"""high""",E,待结合上下文和调用链核实
+8a3ff30e5b5dcdbc7dbd,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,353,cs_literal,"""quiet""",E,待结合上下文和调用链核实
+9eddd9e2243a4a3a1f58,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,354,cs_literal,"""powersaver""",E,待结合上下文和调用链核实
+9dbba941565266bb70de,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,367,cs_literal,"$""{currentRate}Hz""",E,待结合上下文和调用链核实
+aa408fc99c96bfc12bcb,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,367,cs_literal,"""N/A""",E,待结合上下文和调用链核实
+e795246b5cf199061ed0,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,368,dynamic_entry,RefreshRateBtn.ToolTip = Strings.QuickPopupText248;,E,待结合上下文和调用链核实
+0951d019e8b6b83bc9d4,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,372,cs_literal,"$""D{_activeDisplayTargetIndex + 1}""",E,待结合上下文和调用链核实
+a9b75535f16ca11bbc3c,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,373,cs_literal,"$""{targetLabel} {currentRate}Hz""",E,待结合上下文和调用链核实
+a5114c55b7cc85e6fb4e,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,373,cs_literal,"$""{targetLabel} N/A""",E,待结合上下文和调用链核实
+980deb79d39be1a9a195,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,374,dynamic_entry,"RefreshRateBtn.ToolTip = string.Format(Strings.QuickPopupRefreshTarget, target.FriendlyName);",E,待结合上下文和调用链核实
+816bcfaa9d36a49a424d,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,420,cs_literal,"""Balanced""",E,待结合上下文和调用链核实
+d40cb10dcf9eecfcaf77,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,421,cs_literal,"""Auto""",E,待结合上下文和调用链核实
+2e14148d0c75972ef724,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,436,cs_literal,"""LockWindows""",E,待结合上下文和调用链核实
+dc7f985c2eba5e1a2075,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,440,cs_literal,"""Quick Access could not lock Windows""",E,待结合上下文和调用链核实
+c36f0c7776f008527dcb,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,462,cs_literal,"""Disabled""",E,待结合上下文和调用链核实
+96cef14592877079999c,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,465,cs_literal,"""LockWindows""",E,待结合上下文和调用链核实
+a42ae4450f8f32f74edf,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,467,cs_literal,"""LockWindows""",E,待结合上下文和调用链核实
+a4d8b51e2ec471546be7,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,468,dynamic_entry,DisplayOffBtn.ToolTip = Strings.QuickPopupLockWindows;,E,待结合上下文和调用链核实
+8ef81ad7df89824dfdd4,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,474,cs_literal,"""DisplayOff""",E,待结合上下文和调用链核实
+b32363d6863b20e0acbb,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,475,dynamic_entry,DisplayOffBtn.ToolTip = Strings.QuickPopupText242;,E,待结合上下文和调用链核实
+59919898bc45bb24d1f0,src/OmenCoreApp/Views/QuickPopupWindow.xaml.cs,536,cs_literal,"""Visible tray quick-popup telemetry refresh""",E,待结合上下文和调用链核实
 a11242327dda706ac352,src/OmenCoreApp/Views/SettingsView.xaml,25,Text,Settings,E,待结合上下文和调用链核实
 dfe3560ce76e4bb21038,src/OmenCoreApp/Views/SettingsView.xaml,28,Text,{x:Static loc:Strings.SettingsReferenceText28Text},D,已有 Strings 资源引用；译文和显示仍需验证
 7bb5611cd27bebbe90be,src/OmenCoreApp/Views/SettingsView.xaml,42,AutomationProperties.Name,Settings Search Query,E,待结合上下文和调用链核实
