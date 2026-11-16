@@ -1677,4 +1677,25 @@ Continue?</value></data>
   <data name="LightAccessibilityExtra3" xml:space="preserve"><value>Enable performance mode synced lighting</value></data>
   <data name="LightAccessibilityExtra4" xml:space="preserve"><value>Enable throttling indicator lighting</value></data>
   <data name="LightAccessibilityExtra5" xml:space="preserve"><value>Macro profile selection</value></data>
+  <data name="OptimizerUndo0" xml:space="preserve"><value>Restore the Balanced plan with: powercfg /setactive 381b4222-f694-41f0-9685-ff5bb260df2e</value></data>
+  <data name="OptimizerUndo1" xml:space="preserve"><value>Set HwSchMode back to 0 or remove it, then reboot Windows.</value></data>
+  <data name="OptimizerUndo2" xml:space="preserve"><value>Set AutoGameModeEnabled to 0 or remove the value.</value></data>
+  <data name="OptimizerUndo3" xml:space="preserve"><value>Restore the default Win32PrioritySeparation value or remove the override.</value></data>
+  <data name="OptimizerUndo4" xml:space="preserve"><value>Remove the AllowTelemetry overrides to return to the Windows default policy.</value></data>
+  <data name="OptimizerUndo5" xml:space="preserve"><value>Set the SysMain service back to Automatic and start it from Services.</value></data>
+  <data name="OptimizerUndo6" xml:space="preserve"><value>Set the Windows Search service back to Automatic and start it from Services.</value></data>
+  <data name="OptimizerUndo7" xml:space="preserve"><value>Set the DiagTrack service back to Automatic and start it from Services.</value></data>
+  <data name="OptimizerUndo8" xml:space="preserve"><value>Remove TcpNoDelay or set it back to 0.</value></data>
+  <data name="OptimizerUndo9" xml:space="preserve"><value>Remove TcpAckFrequency or restore the default behavior.</value></data>
+  <data name="OptimizerUndo10" xml:space="preserve"><value>Remove DODownloadMode to let Windows manage Delivery Optimization normally.</value></data>
+  <data name="OptimizerUndo11" xml:space="preserve"><value>Remove TCPDelAckTicks to restore the default stack behavior.</value></data>
+  <data name="OptimizerUndo12" xml:space="preserve"><value>Set MouseSpeed back to 1 and restore threshold values, or re-enable pointer precision in Windows mouse settings.</value></data>
+  <data name="OptimizerUndo13" xml:space="preserve"><value>Remove the Game DVR policy values or set them back to enabled.</value></data>
+  <data name="OptimizerUndo14" xml:space="preserve"><value>Remove those Game Bar values or re-enable Xbox Game Bar in Windows Settings.</value></data>
+  <data name="OptimizerUndo15" xml:space="preserve"><value>Remove the GameConfigStore fullscreen values to restore Windows defaults.</value></data>
+  <data name="OptimizerUndo16" xml:space="preserve"><value>Set EnableTransparency back to 1 or re-enable Transparency Effects in Personalization settings.</value></data>
+  <data name="OptimizerUndo17" xml:space="preserve"><value>Restore MinAnimate, MenuShowDelay, and SmoothScroll to their default values if you want the stock Windows UI feel back.</value></data>
+  <data name="OptimizerUndo18" xml:space="preserve"><value>Run fsutil behavior set DisableDeleteNotify 1 to turn the override back off.</value></data>
+  <data name="OptimizerUndo19" xml:space="preserve"><value>Run fsutil behavior set disablelastaccess 0 to restore timestamp updates.</value></data>
+  <data name="OptimizerUndo20" xml:space="preserve"><value>Set NtfsDisable8dot3NameCreation back to 0 if older software depends on DOS-style short names.</value></data>
 </root>

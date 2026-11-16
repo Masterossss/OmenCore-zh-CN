@@ -1669,4 +1669,25 @@
   <data name="LightAccessibilityExtra3" xml:space="preserve"><value>启用性能模式同步灯光</value></data>
   <data name="LightAccessibilityExtra4" xml:space="preserve"><value>启用降频指示灯光</value></data>
   <data name="LightAccessibilityExtra5" xml:space="preserve"><value>选择宏配置文件</value></data>
+  <data name="OptimizerUndo0" xml:space="preserve"><value>使用以下命令恢复均衡计划：powercfg /setactive 381b4222-f694-41f0-9685-ff5bb260df2e</value></data>
+  <data name="OptimizerUndo1" xml:space="preserve"><value>将 HwSchMode 设回 0 或删除该值，然后重启 Windows。</value></data>
+  <data name="OptimizerUndo2" xml:space="preserve"><value>将 AutoGameModeEnabled 设为 0 或删除该值。</value></data>
+  <data name="OptimizerUndo3" xml:space="preserve"><value>恢复默认的 Win32PrioritySeparation 值或删除覆盖值。</value></data>
+  <data name="OptimizerUndo4" xml:space="preserve"><value>删除 AllowTelemetry 覆盖值，以恢复 Windows 默认策略。</value></data>
+  <data name="OptimizerUndo5" xml:space="preserve"><value>将 SysMain 服务设回自动，并在“服务”中启动它。</value></data>
+  <data name="OptimizerUndo6" xml:space="preserve"><value>将 Windows Search 服务设回自动，并在“服务”中启动它。</value></data>
+  <data name="OptimizerUndo7" xml:space="preserve"><value>将 DiagTrack 服务设回自动，并在“服务”中启动它。</value></data>
+  <data name="OptimizerUndo8" xml:space="preserve"><value>删除 TcpNoDelay 或将其设回 0。</value></data>
+  <data name="OptimizerUndo9" xml:space="preserve"><value>删除 TcpAckFrequency 或恢复默认行为。</value></data>
+  <data name="OptimizerUndo10" xml:space="preserve"><value>删除 DODownloadMode，让 Windows 正常管理传递优化。</value></data>
+  <data name="OptimizerUndo11" xml:space="preserve"><value>删除 TCPDelAckTicks，以恢复默认网络协议栈行为。</value></data>
+  <data name="OptimizerUndo12" xml:space="preserve"><value>将 MouseSpeed 设回 1 并恢复阈值，或在 Windows 鼠标设置中重新启用指针精确度。</value></data>
+  <data name="OptimizerUndo13" xml:space="preserve"><value>删除 Game DVR 策略值或将其重新设为启用。</value></data>
+  <data name="OptimizerUndo14" xml:space="preserve"><value>删除这些游戏栏值，或在 Windows 设置中重新启用 Xbox 游戏栏。</value></data>
+  <data name="OptimizerUndo15" xml:space="preserve"><value>删除 GameConfigStore 全屏相关值，以恢复 Windows 默认设置。</value></data>
+  <data name="OptimizerUndo16" xml:space="preserve"><value>将 EnableTransparency 设回 1，或在个性化设置中重新启用透明效果。</value></data>
+  <data name="OptimizerUndo17" xml:space="preserve"><value>如需恢复 Windows 原有界面效果，请将 MinAnimate、MenuShowDelay 和 SmoothScroll 恢复为默认值。</value></data>
+  <data name="OptimizerUndo18" xml:space="preserve"><value>运行 fsutil behavior set DisableDeleteNotify 1 以关闭该覆盖设置。</value></data>
+  <data name="OptimizerUndo19" xml:space="preserve"><value>运行 fsutil behavior set disablelastaccess 0 以恢复时间戳更新。</value></data>
+  <data name="OptimizerUndo20" xml:space="preserve"><value>如果旧软件依赖 DOS 风格短文件名，请将 NtfsDisable8dot3NameCreation 设回 0。</value></data>
 </root>

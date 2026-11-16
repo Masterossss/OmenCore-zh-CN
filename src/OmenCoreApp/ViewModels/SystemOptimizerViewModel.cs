@@ -1294,6 +1294,31 @@ namespace OmenCore.ViewModels
         public string? DetailedDescription { get; set; }
         public IReadOnlyList<string> AffectedRegistryKeys { get; set; } = Array.Empty<string>();
         public IReadOnlyList<string> ServiceNamesAffected { get; set; } = Array.Empty<string>();
+        public string? DisplayUndoInstructions => Id switch
+        {
+            "power_ultimate_perf" => Strings.OptimizerUndo0,
+            "power_gpu_scheduling" => Strings.OptimizerUndo1,
+            "power_game_mode" => Strings.OptimizerUndo2,
+            "power_foreground_priority" => Strings.OptimizerUndo3,
+            "service_telemetry" => Strings.OptimizerUndo4,
+            "service_sysmain" => Strings.OptimizerUndo5,
+            "service_search" => Strings.OptimizerUndo6,
+            "service_diagtrack" => Strings.OptimizerUndo7,
+            "network_tcp_nodelay" => Strings.OptimizerUndo8,
+            "network_tcp_ack" => Strings.OptimizerUndo9,
+            "network_delivery_opt" => Strings.OptimizerUndo10,
+            "network_nagle" => Strings.OptimizerUndo11,
+            "input_mouse_accel" => Strings.OptimizerUndo12,
+            "input_game_dvr" => Strings.OptimizerUndo13,
+            "input_game_bar" => Strings.OptimizerUndo14,
+            "input_fullscreen_opt" => Strings.OptimizerUndo15,
+            "visual_transparency" => Strings.OptimizerUndo16,
+            "visual_animations" => Strings.OptimizerUndo17,
+            "storage_trim" => Strings.OptimizerUndo18,
+            "storage_last_access" => Strings.OptimizerUndo19,
+            "storage_8dot3" => Strings.OptimizerUndo20,
+            _ => UndoInstructions
+        };
         public string? UndoInstructions { get; set; }
         
         public Func<OptimizationItem, bool, Task>? OnToggleAsync { get; set; }

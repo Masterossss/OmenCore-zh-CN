@@ -1533,5 +1533,26 @@ namespace OmenCore.Localization
         public static string LightAccessibilityExtra3 => Get(nameof(LightAccessibilityExtra3));
         public static string LightAccessibilityExtra4 => Get(nameof(LightAccessibilityExtra4));
         public static string LightAccessibilityExtra5 => Get(nameof(LightAccessibilityExtra5));
+        public static string OptimizerUndo0 => Get(nameof(OptimizerUndo0));
+        public static string OptimizerUndo1 => Get(nameof(OptimizerUndo1));
+        public static string OptimizerUndo2 => Get(nameof(OptimizerUndo2));
+        public static string OptimizerUndo3 => Get(nameof(OptimizerUndo3));
+        public static string OptimizerUndo4 => Get(nameof(OptimizerUndo4));
+        public static string OptimizerUndo5 => Get(nameof(OptimizerUndo5));
+        public static string OptimizerUndo6 => Get(nameof(OptimizerUndo6));
+        public static string OptimizerUndo7 => Get(nameof(OptimizerUndo7));
+        public static string OptimizerUndo8 => Get(nameof(OptimizerUndo8));
+        public static string OptimizerUndo9 => Get(nameof(OptimizerUndo9));
+        public static string OptimizerUndo10 => Get(nameof(OptimizerUndo10));
+        public static string OptimizerUndo11 => Get(nameof(OptimizerUndo11));
+        public static string OptimizerUndo12 => Get(nameof(OptimizerUndo12));
+        public static string OptimizerUndo13 => Get(nameof(OptimizerUndo13));
+        public static string OptimizerUndo14 => Get(nameof(OptimizerUndo14));
+        public static string OptimizerUndo15 => Get(nameof(OptimizerUndo15));
+        public static string OptimizerUndo16 => Get(nameof(OptimizerUndo16));
+        public static string OptimizerUndo17 => Get(nameof(OptimizerUndo17));
+        public static string OptimizerUndo18 => Get(nameof(OptimizerUndo18));
+        public static string OptimizerUndo19 => Get(nameof(OptimizerUndo19));
+        public static string OptimizerUndo20 => Get(nameof(OptimizerUndo20));
     }
 }
