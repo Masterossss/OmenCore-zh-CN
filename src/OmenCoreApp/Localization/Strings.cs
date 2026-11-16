@@ -1527,5 +1527,11 @@ namespace OmenCore.Localization
         public static string BloatServiceRestoreCanceled => Get(nameof(BloatServiceRestoreCanceled));
         public static string BloatServiceRollback => Get(nameof(BloatServiceRollback));
         public static string BloatServiceStopped => Get(nameof(BloatServiceStopped));
+        public static string LightAccessibilityExtra0 => Get(nameof(LightAccessibilityExtra0));
+        public static string LightAccessibilityExtra1 => Get(nameof(LightAccessibilityExtra1));
+        public static string LightAccessibilityExtra2 => Get(nameof(LightAccessibilityExtra2));
+        public static string LightAccessibilityExtra3 => Get(nameof(LightAccessibilityExtra3));
+        public static string LightAccessibilityExtra4 => Get(nameof(LightAccessibilityExtra4));
+        public static string LightAccessibilityExtra5 => Get(nameof(LightAccessibilityExtra5));
     }
 }

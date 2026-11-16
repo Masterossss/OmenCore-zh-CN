@@ -1663,4 +1663,10 @@
   <data name="BloatServiceRestoreCanceled" xml:space="preserve"><value>已取消还原 {0}</value></data>
   <data name="BloatServiceRollback" xml:space="preserve"><value>批量删除在 {0} 处失败，正在回滚此前的删除…</value></data>
   <data name="BloatServiceStopped" xml:space="preserve"><value>批量删除在 {0} 处停止。{1}</value></data>
+  <data name="LightAccessibilityExtra0" xml:space="preserve"><value>选择第二个自定义效果颜色</value></data>
+  <data name="LightAccessibilityExtra1" xml:space="preserve"><value>选择灯条颜色</value></data>
+  <data name="LightAccessibilityExtra2" xml:space="preserve"><value>启用温度响应灯光</value></data>
+  <data name="LightAccessibilityExtra3" xml:space="preserve"><value>启用性能模式同步灯光</value></data>
+  <data name="LightAccessibilityExtra4" xml:space="preserve"><value>启用降频指示灯光</value></data>
+  <data name="LightAccessibilityExtra5" xml:space="preserve"><value>选择宏配置文件</value></data>
 </root>

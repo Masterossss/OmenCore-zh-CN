@@ -1667,4 +1667,10 @@ Continue?</value></data>
   <data name="BloatServiceRestoreCanceled" xml:space="preserve"><value>Canceled restoring {0}</value></data>
   <data name="BloatServiceRollback" xml:space="preserve"><value>Bulk removal failed at {0}. Rolling back previous removals...</value></data>
   <data name="BloatServiceStopped" xml:space="preserve"><value>Bulk remove stopped at {0}. {1}</value></data>
+  <data name="LightAccessibilityExtra0" xml:space="preserve"><value>Choose the second custom effect colour</value></data>
+  <data name="LightAccessibilityExtra1" xml:space="preserve"><value>Choose the light bar colour</value></data>
+  <data name="LightAccessibilityExtra2" xml:space="preserve"><value>Enable temperature-responsive lighting</value></data>
+  <data name="LightAccessibilityExtra3" xml:space="preserve"><value>Enable performance mode synced lighting</value></data>
+  <data name="LightAccessibilityExtra4" xml:space="preserve"><value>Enable throttling indicator lighting</value></data>
+  <data name="LightAccessibilityExtra5" xml:space="preserve"><value>Macro profile selection</value></data>
 </root>

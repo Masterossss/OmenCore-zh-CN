@@ -1686,7 +1686,7 @@
                                     Padding="0" BorderThickness="0" Background="Transparent"
                                     Margin="0,0,6,0" IsEnabled="{Binding UseCustomColors}"
                                     ToolTip="{x:Static loc:Strings.LightingViewText1687}"
-                                    AutomationProperties.Name="Choose the second custom effect colour">
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibilityExtra0}">
                                 <Border Width="26" Height="26" CornerRadius="4"
                                         Background="{Binding SecondaryColorBrush}"
                                         BorderBrush="#666" BorderThickness="1"/>
@@ -1809,7 +1809,7 @@
                             <Button Command="{Binding PickBarColorCommand}" Cursor="Hand"
                                     Padding="0" BorderThickness="0" Background="Transparent"
                                     Margin="0,0,6,0" ToolTip="{x:Static loc:Strings.LightingViewText1810}"
-                                    AutomationProperties.Name="Choose the light bar colour">
+                                    AutomationProperties.Name="{x:Static loc:Strings.LightAccessibilityExtra1}">
                                 <Border Width="26" Height="26" CornerRadius="4"
                                         Background="{Binding BarColorBrush}"
                                         BorderBrush="#666" BorderThickness="1"/>
@@ -1876,7 +1876,7 @@
                                               IsChecked="{Binding TemperatureResponsiveLightingEnabled, Mode=TwoWay}"
                                               Style="{StaticResource ModernToggleButton}"
                                               VerticalAlignment="Center"
-                                              AutomationProperties.Name="Enable temperature-responsive lighting"/>
+                                              AutomationProperties.Name="{x:Static loc:Strings.LightAccessibilityExtra2}"/>
                             </Grid>
                         </Border>
 
@@ -1975,7 +1975,7 @@
                                               IsChecked="{Binding PerformanceModeSyncedLightingEnabled, Mode=TwoWay}"
                                               Style="{StaticResource ModernToggleButton}"
                                               VerticalAlignment="Center"
-                                              AutomationProperties.Name="Enable performance mode synced lighting"/>
+                                              AutomationProperties.Name="{x:Static loc:Strings.LightAccessibilityExtra3}"/>
                             </Grid>
                         </Border>
 
@@ -2057,7 +2057,7 @@
                                               IsChecked="{Binding ThrottlingIndicatorLightingEnabled, Mode=TwoWay}"
                                               Style="{StaticResource ModernToggleButton}"
                                               VerticalAlignment="Center"
-                                              AutomationProperties.Name="Enable throttling indicator lighting"/>
+                                              AutomationProperties.Name="{x:Static loc:Strings.LightAccessibilityExtra4}"/>
                             </Grid>
                         </Border>
 
@@ -2124,7 +2124,7 @@
                                       SelectedItem="{Binding SelectedMacroProfile}"
                                       DisplayMemberPath="ProfileName"
                                       Margin="0,0,12,0"
-                                      AutomationProperties.Name="Macro profile selection"/>
+                                      AutomationProperties.Name="{x:Static loc:Strings.LightAccessibilityExtra5}"/>
                             
                             <Button Grid.Column="2" 
                                     Content="{x:Static loc:Strings.LightingViewText2129}"
