@@ -985,5 +985,15 @@ namespace OmenCore.Localization
         public static string QuickPopupRefreshTarget => Get(nameof(QuickPopupRefreshTarget));
         public static string QuickPopupLockWindows => Get(nameof(QuickPopupLockWindows));
         public static string QuickPopupLock => Get(nameof(QuickPopupLock));
+        public static string MemoryResultSuccess => Get(nameof(MemoryResultSuccess));
+        public static string MemoryResultFailedCount => Get(nameof(MemoryResultFailedCount));
+        public static string MemoryResultFailure => Get(nameof(MemoryResultFailure));
+        public static string MemoryStatusDone => Get(nameof(MemoryStatusDone));
+        public static string MemoryStatusDoneFreed => Get(nameof(MemoryStatusDoneFreed));
+        public static string MemoryStatusCleaning => Get(nameof(MemoryStatusCleaning));
+        public static string MemoryStatusEnableCompression => Get(nameof(MemoryStatusEnableCompression));
+        public static string MemoryStatusDisableCompression => Get(nameof(MemoryStatusDisableCompression));
+        public static string MemoryCopyResultName => Get(nameof(MemoryCopyResultName));
+        public static string MemoryCopyResultHelp => Get(nameof(MemoryCopyResultHelp));
     }
 }

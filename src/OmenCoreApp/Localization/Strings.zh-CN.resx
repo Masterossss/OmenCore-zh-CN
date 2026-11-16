@@ -1097,4 +1097,14 @@
   <data name="QuickPopupRefreshTarget" xml:space="preserve"><value>切换 {0} 的刷新率。再次点击可切换到下一台显示器。</value></data>
   <data name="QuickPopupLockWindows" xml:space="preserve"><value>锁定 Windows</value></data>
   <data name="QuickPopupLock" xml:space="preserve"><value>锁定</value></data>
+  <data name="MemoryResultSuccess" xml:space="preserve"><value>已释放 {0} MB  •  {1} 项操作成功{2}  •  {3}</value></data>
+  <data name="MemoryResultFailedCount" xml:space="preserve"><value>  •  {0} 项失败</value></data>
+  <data name="MemoryResultFailure" xml:space="preserve"><value>失败：{0}</value></data>
+  <data name="MemoryStatusDone" xml:space="preserve"><value>完成</value></data>
+  <data name="MemoryStatusDoneFreed" xml:space="preserve"><value>完成：已释放 {0} MB</value></data>
+  <data name="MemoryStatusCleaning" xml:space="preserve"><value>正在清理内存...</value></data>
+  <data name="MemoryStatusEnableCompression" xml:space="preserve"><value>正在启用内存压缩...</value></data>
+  <data name="MemoryStatusDisableCompression" xml:space="preserve"><value>正在关闭内存压缩...</value></data>
+  <data name="MemoryCopyResultName" xml:space="preserve"><value>复制上次内存清理结果</value></data>
+  <data name="MemoryCopyResultHelp" xml:space="preserve"><value>将最近的内存清理摘要复制到剪贴板</value></data>
 </root>

@@ -327,6 +327,25 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void MemoryDisplayPreservesRawResultAndDistinguishesPartialFailure()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            const string raw = "Freed 128 MB  •  3 ops succeeded  •  1 failed  •  12:34:56\r\nDelta: 128 MB";
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                MemoryOptimizerDisplayText.Result(raw).Should().Contain("已释放 128 MB")
+                    .And.Contain("3 项操作成功").And.Contain("1 项失败").And.Contain("Delta: 128 MB");
+                MemoryOptimizerDisplayText.Status("Failed: service unavailable").Should().Contain("失败：service unavailable");
+                MemoryOptimizerDisplayText.Result("\nunknown").Should().Be("\nunknown");
+                raw.Should().StartWith("Freed 128 MB");
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                MemoryOptimizerDisplayText.Result(raw).Should().Be(raw);
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void Apply_ChangesOnlyTheUiCulture()
         {
             // Numbers must keep the invariant formatting App installs on every thread; a UI

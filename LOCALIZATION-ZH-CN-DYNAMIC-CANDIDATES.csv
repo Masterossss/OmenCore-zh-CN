@@ -257,3 +257,6 @@ src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,571,AutoCleanCheckInterva
 src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,591,GameAwareQuietWindowDisplay,A,是,已资源化,仅界面显示；Strings.MemoryGameAwareOn/MemoryGameAwareOff；清理结果和服务错误仍待审查
 src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,671,CleanEveryMinutesText,A,是,已资源化,仅界面显示；Strings.MemoryCleanEveryMinutes；清理结果和服务错误仍待审查
 src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,783,CleanupPreviewText,A,是,已资源化,仅界面显示；Strings.MemoryPreviewFree；清理结果和服务错误仍待审查
+src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,99,LastCleanResult = Freed ...,A,是,部分资源化,仅显示属性使用 MemoryOptimizerDisplayText；原始复制结果保留，未知服务详情和状态保留原文
+src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,115,LastCleanResult = Failed ...,A,是,部分资源化,仅显示属性使用 MemoryOptimizerDisplayText；原始复制结果保留，未知服务详情和状态保留原文
+src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1221,StatusMessage = status result,A,是,部分资源化,仅显示属性使用 MemoryOptimizerDisplayText；原始复制结果保留，未知服务详情和状态保留原文

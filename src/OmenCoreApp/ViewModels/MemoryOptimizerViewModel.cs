@@ -471,14 +471,17 @@ namespace OmenCore.ViewModels
         public string StatusMessage
         {
             get => _statusMessage;
-            private set { _statusMessage = value; OnPropertyChanged(); }
+            private set { _statusMessage = value; OnPropertyChanged(); OnPropertyChanged(nameof(StatusMessageDisplay)); }
         }
 
         public string LastCleanResult
         {
             get => _lastCleanResult;
-            private set { _lastCleanResult = value; OnPropertyChanged(); OnPropertyChanged(nameof(HasLastCleanResult)); }
+            private set { _lastCleanResult = value; OnPropertyChanged(); OnPropertyChanged(nameof(LastCleanResultDisplay)); OnPropertyChanged(nameof(HasLastCleanResult)); }
         }
+
+        public string StatusMessageDisplay => MemoryOptimizerDisplayText.Status(StatusMessage);
+        public string LastCleanResultDisplay => MemoryOptimizerDisplayText.Result(LastCleanResult);
 
         public bool HasLastCleanResult => !string.IsNullOrEmpty(_lastCleanResult);
 

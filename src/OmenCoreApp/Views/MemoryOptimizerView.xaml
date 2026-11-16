@@ -46,7 +46,7 @@
                             </Style>
                         </Ellipse.Style>
                     </Ellipse>
-                    <TextBlock Text="{Binding StatusMessage}" 
+                    <TextBlock Text="{Binding StatusMessageDisplay}" 
                                Foreground="#9CA3AF" 
                                FontSize="12"
                                VerticalAlignment="Center"/>
@@ -54,7 +54,7 @@
             </Grid>
 
             <Border Style="{StaticResource Omen.Toast}" Margin="0,0,0,12" HorizontalAlignment="Left">
-                <TextBlock Text="{Binding StatusMessage}" FontSize="11" Foreground="{StaticResource TextSecondaryBrush}"/>
+                <TextBlock Text="{Binding StatusMessageDisplay}" FontSize="11" Foreground="{StaticResource TextSecondaryBrush}"/>
             </Border>
 
             <!-- ====== MAIN MEMORY USAGE CARD ====== -->
@@ -190,7 +190,7 @@
 
                         <!-- Last Clean Result -->
                         <TextBlock Grid.Column="0"
-                                   Text="{Binding LastCleanResult}" 
+                                   Text="{Binding LastCleanResultDisplay}" 
                                    FontSize="12" 
                                    Foreground="#6B7280"
                                    TextWrapping="Wrap"
@@ -199,8 +199,8 @@
                         <Button Grid.Column="1" ToolTip="{x:Static loc:Strings.MemoryViewText198}" Command="{Binding CopyLastCleanCommand}"
                                 Visibility="{Binding HasLastCleanResult, Converter={StaticResource BoolToVisibility}}" 
                             Style="{StaticResource Omen.Button.Icon.Compact}"
-                                AutomationProperties.Name="Copy last memory clean result"
-                                AutomationProperties.HelpText="Copies the latest memory clean summary to the clipboard">
+                                AutomationProperties.Name="{x:Static loc:Strings.MemoryCopyResultName}"
+                                AutomationProperties.HelpText="{x:Static loc:Strings.MemoryCopyResultHelp}">
                             <Path Data="{StaticResource IconCopy}" Width="12" Height="12" Fill="{StaticResource TextSecondaryBrush}" Stretch="Uniform"/>
                         </Button>
 
@@ -747,7 +747,7 @@
         <Border Style="{StaticResource Omen.Busy.Panel}" HorizontalAlignment="Center" VerticalAlignment="Center">
             <StackPanel>
                 <ProgressBar Style="{StaticResource Omen.Busy.Progress}" IsIndeterminate="True" Margin="0,0,0,10"/>
-                <TextBlock Text="{Binding StatusMessage}" Foreground="{StaticResource TextSecondaryBrush}" HorizontalAlignment="Center" TextWrapping="Wrap"/>
+                <TextBlock Text="{Binding StatusMessageDisplay}" Foreground="{StaticResource TextSecondaryBrush}" HorizontalAlignment="Center" TextWrapping="Wrap"/>
             </StackPanel>
         </Border>
     </Border>

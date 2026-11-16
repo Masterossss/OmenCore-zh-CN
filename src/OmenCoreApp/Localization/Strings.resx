@@ -1105,4 +1105,14 @@ Try it anyway?</value></data>
   <data name="QuickPopupRefreshTarget" xml:space="preserve"><value>Toggle refresh rate for {0}. Click again to move to the next display.</value></data>
   <data name="QuickPopupLockWindows" xml:space="preserve"><value>Lock Windows</value></data>
   <data name="QuickPopupLock" xml:space="preserve"><value>Lock</value></data>
+  <data name="MemoryResultSuccess" xml:space="preserve"><value>Freed {0} MB  •  {1} ops succeeded{2}  •  {3}</value></data>
+  <data name="MemoryResultFailedCount" xml:space="preserve"><value>  •  {0} failed</value></data>
+  <data name="MemoryResultFailure" xml:space="preserve"><value>Failed: {0}</value></data>
+  <data name="MemoryStatusDone" xml:space="preserve"><value>Done</value></data>
+  <data name="MemoryStatusDoneFreed" xml:space="preserve"><value>Done: Freed {0} MB</value></data>
+  <data name="MemoryStatusCleaning" xml:space="preserve"><value>Cleaning memory...</value></data>
+  <data name="MemoryStatusEnableCompression" xml:space="preserve"><value>Enabling memory compression...</value></data>
+  <data name="MemoryStatusDisableCompression" xml:space="preserve"><value>Disabling memory compression...</value></data>
+  <data name="MemoryCopyResultName" xml:space="preserve"><value>Copy last memory clean result</value></data>
+  <data name="MemoryCopyResultHelp" xml:space="preserve"><value>Copies the latest memory clean summary to the clipboard</value></data>
 </root>
