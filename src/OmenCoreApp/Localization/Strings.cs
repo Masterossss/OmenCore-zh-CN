@@ -1795,5 +1795,19 @@ namespace OmenCore.Localization
         public static string TrayStayOnTopChecked => Get(nameof(TrayStayOnTopChecked));
         public static string TrayStayOnTopOn => Get(nameof(TrayStayOnTopOn));
         public static string TrayStayOnTopOff => Get(nameof(TrayStayOnTopOff));
+        public static string SafetyFollowup0 => Get(nameof(SafetyFollowup0));
+        public static string SafetyFollowup1 => Get(nameof(SafetyFollowup1));
+        public static string SafetyFollowup2 => Get(nameof(SafetyFollowup2));
+        public static string SafetyFollowup3 => Get(nameof(SafetyFollowup3));
+        public static string SafetyFollowup4 => Get(nameof(SafetyFollowup4));
+        public static string SafetyFollowup5 => Get(nameof(SafetyFollowup5));
+        public static string SafetyFollowup6 => Get(nameof(SafetyFollowup6));
+        public static string SafetyFollowup7 => Get(nameof(SafetyFollowup7));
+        public static string SafetyFollowup8 => Get(nameof(SafetyFollowup8));
+        public static string SafetyFollowup9 => Get(nameof(SafetyFollowup9));
+        public static string SafetyFollowup10 => Get(nameof(SafetyFollowup10));
+        public static string SafetyFollowup11 => Get(nameof(SafetyFollowup11));
+        public static string SafetyFollowup12 => Get(nameof(SafetyFollowup12));
+        public static string SafetyFollowup13 => Get(nameof(SafetyFollowup13));
     }
 }

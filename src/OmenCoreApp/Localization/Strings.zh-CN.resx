@@ -1939,4 +1939,18 @@
   <data name="TrayStayOnTopChecked" xml:space="preserve"><value>窗口置顶 ✓</value></data>
   <data name="TrayStayOnTopOn" xml:space="preserve"><value>将 OmenCore 保持在其他窗口上方（开）</value></data>
   <data name="TrayStayOnTopOff" xml:space="preserve"><value>将 OmenCore 保持在其他窗口上方（关）</value></data>
+  <data name="SafetyFollowup0" xml:space="preserve"><value>禁用依赖 HP 服务的功能（性能模式、GPU 切换）。仅使用 PawnIO 进行 EC 风扇控制和温度监测。</value></data>
+  <data name="SafetyFollowup1" xml:space="preserve"><value>仅使用 PawnIO 模式</value></data>
+  <data name="SafetyFollowup2" xml:space="preserve"><value>使用 BIOS WMI 事件映射循环切换性能配置。由于事件代码因机型而异，此功能默认关闭。</value></data>
+  <data name="SafetyFollowup3" xml:space="preserve"><value>实验性固件 Fn+P 配置切换</value></data>
+  <data name="SafetyFollowup4" xml:space="preserve"><value>——MSR 寄存器写入已锁定，直到重启后才会解除。可能需要调整 BIOS 设置或启用 HP Unleashed Mode。</value></data>
+  <data name="SafetyFollowup5" xml:space="preserve"><value>如果启动后监控不稳定，暂时阻止托盘中的写入操作</value></data>
+  <data name="SafetyFollowup6" xml:space="preserve"><value>启动后允许保护功能自动启用的时间范围</value></data>
+  <data name="SafetyFollowup7" xml:space="preserve"><value>启动安全模式启用前所需的连续监控超时次数</value></data>
+  <data name="SafetyFollowup8" xml:space="preserve"><value>主程序关闭后，若没有重新连接，工作进程将退出</value></data>
+  <data name="SafetyFollowup9" xml:space="preserve"><value>工作进程退出前等待重新连接的分钟数</value></data>
+  <data name="SafetyFollowup10" xml:space="preserve"><value>连接或断开交流电源时自动切换配置文件</value></data>
+  <data name="SafetyFollowup11" xml:space="preserve"><value>电源变化时自动切换</value></data>
+  <data name="SafetyFollowup12" xml:space="preserve"><value>电池供电性能模式</value></data>
+  <data name="SafetyFollowup13" xml:space="preserve"><value>将风扇与性能模式关联</value></data>
 </root>

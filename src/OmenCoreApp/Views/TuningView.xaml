@@ -600,7 +600,7 @@
                                 <TextBlock Text="🔒" FontSize="16" Margin="0,0,10,0" VerticalAlignment="Center"/>
                                 <TextBlock Grid.Column="1" FontSize="11" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap">
                                     <Run Text="{x:Static loc:Strings.TuningViewText601}" FontWeight="Bold" Foreground="#F44336"/>
-                                    <Run Text=" — MSR registers are write-locked until reboot. May require BIOS settings or HP Unleashed Mode."/>
+                                    <Run Text="{x:Static loc:Strings.SafetyFollowup4}"/>
                                 </TextBlock>
                             </Grid>
                         </Border>

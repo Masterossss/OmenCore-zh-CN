@@ -505,11 +505,11 @@
                                 <StackPanel Grid.Column="0" VerticalAlignment="Center">
                                     <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText506Text}" FontSize="14" FontWeight="SemiBold"
                                                Foreground="{StaticResource TextPrimaryBrush}"/>
-                                    <TextBlock Text="Disable HP service-dependent features (performance modes, GPU switching). Use only PawnIO for EC fan control and temperature monitoring." 
+                                    <TextBlock Text="{x:Static loc:Strings.SafetyFollowup0}"
                                                FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" 
                                                TextWrapping="Wrap" Margin="0,4,0,0"/>
                                 </StackPanel>
-                                <ToggleButton AutomationProperties.Name="PawnIO-Only Mode" Grid.Column="1" IsChecked="{Binding PawnIOOnlyMode}" 
+                                <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SafetyFollowup1}" Grid.Column="1" IsChecked="{Binding PawnIOOnlyMode}"
                                               Style="{StaticResource ModernToggleButton}" 
                                               VerticalAlignment="Center" Margin="16,0,0,0"/>
                             </Grid>
@@ -1008,7 +1008,7 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="Startup safe mode guard" FontSize="14" 
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Temporarily blocks tray write actions if monitoring is unstable right after startup" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SafetyFollowup5}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1"
@@ -1026,7 +1026,7 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="Safe-mode startup window" FontSize="13"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="How long after startup the guard can auto-activate" FontSize="12"
+                                <TextBlock Text="{x:Static loc:Strings.SafetyFollowup6}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
@@ -1052,7 +1052,7 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="Timeout threshold" FontSize="13"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Consecutive monitor timeouts required before startup safe mode activates" FontSize="12"
+                                <TextBlock Text="{x:Static loc:Strings.SafetyFollowup7}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                             </StackPanel>
                             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
@@ -1092,7 +1092,7 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1093Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Worker process exits after main app closes if no reconnection occurs" FontSize="12"
+                                <TextBlock Text="{x:Static loc:Strings.SafetyFollowup8}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1"
@@ -1110,7 +1110,7 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1111Text}" FontSize="13"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Minutes to wait for reconnection before worker exits" FontSize="12"
+                                <TextBlock Text="{x:Static loc:Strings.SafetyFollowup9}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                             </StackPanel>
                             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
@@ -1150,13 +1150,13 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1151Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Automatically switch profiles when AC power is connected or disconnected" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SafetyFollowup10}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding PowerAutomationEnabled, Mode=TwoWay}"
-                                          AutomationProperties.Name="Auto-switch on power change"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SafetyFollowup11}"/>
                         </Grid>
 
                         <!-- AC Power Settings -->
@@ -1220,7 +1220,7 @@
                             <ComboBox Grid.Column="1" SelectedItem="{Binding BatteryPerformanceMode, Mode=TwoWay}"
                                       ItemsSource="{Binding PerformanceModeOptions}"
                                       IsEnabled="{Binding PowerAutomationEnabled}"
-                                      AutomationProperties.Name="Battery power performance mode"/>
+                                      AutomationProperties.Name="{x:Static loc:Strings.SafetyFollowup12}"/>
                         </Grid>
 
                         <!-- Link fan preset to performance mode selection -->
@@ -1238,7 +1238,7 @@
                             <ToggleButton Grid.Column="1"
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding LinkFanToPerformanceMode, Mode=TwoWay}"
-                                          AutomationProperties.Name="Link fan to performance mode"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SafetyFollowup13}"/>
                         </Grid>
 
                         <!-- Experimental: do not pin a fan level when handing back to BIOS Auto (V1 boards) -->
@@ -1572,13 +1572,13 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1573Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Use BIOS WMI event mapping to cycle performance profiles. Disabled by default because event codes vary by model." FontSize="12"
+                                <TextBlock Text="{x:Static loc:Strings.SafetyFollowup2}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1"
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding EnableFirmwareFnPProfileCycle}"
-                                          AutomationProperties.Name="Experimental firmware Fn+P profile cycle"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SafetyFollowup3}"/>
                         </Grid>
 
                         <!-- Hotkey Reference -->

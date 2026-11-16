@@ -1947,4 +1947,18 @@ Continue with calibration?</value></data>
   <data name="TrayStayOnTopChecked" xml:space="preserve"><value>Stay on Top ✓</value></data>
   <data name="TrayStayOnTopOn" xml:space="preserve"><value>Keep OmenCore above other windows (On)</value></data>
   <data name="TrayStayOnTopOff" xml:space="preserve"><value>Keep OmenCore above other windows (Off)</value></data>
+  <data name="SafetyFollowup0" xml:space="preserve"><value>Disable HP service-dependent features (performance modes, GPU switching). Use only PawnIO for EC fan control and temperature monitoring.</value></data>
+  <data name="SafetyFollowup1" xml:space="preserve"><value>PawnIO-Only Mode</value></data>
+  <data name="SafetyFollowup2" xml:space="preserve"><value>Use BIOS WMI event mapping to cycle performance profiles. Disabled by default because event codes vary by model.</value></data>
+  <data name="SafetyFollowup3" xml:space="preserve"><value>Experimental firmware Fn+P profile cycle</value></data>
+  <data name="SafetyFollowup4" xml:space="preserve"><value> — MSR registers are write-locked until reboot. May require BIOS settings or HP Unleashed Mode.</value></data>
+  <data name="SafetyFollowup5" xml:space="preserve"><value>Temporarily blocks tray write actions if monitoring is unstable right after startup</value></data>
+  <data name="SafetyFollowup6" xml:space="preserve"><value>How long after startup the guard can auto-activate</value></data>
+  <data name="SafetyFollowup7" xml:space="preserve"><value>Consecutive monitor timeouts required before startup safe mode activates</value></data>
+  <data name="SafetyFollowup8" xml:space="preserve"><value>Worker process exits after main app closes if no reconnection occurs</value></data>
+  <data name="SafetyFollowup9" xml:space="preserve"><value>Minutes to wait for reconnection before worker exits</value></data>
+  <data name="SafetyFollowup10" xml:space="preserve"><value>Automatically switch profiles when AC power is connected or disconnected</value></data>
+  <data name="SafetyFollowup11" xml:space="preserve"><value>Auto-switch on power change</value></data>
+  <data name="SafetyFollowup12" xml:space="preserve"><value>Battery power performance mode</value></data>
+  <data name="SafetyFollowup13" xml:space="preserve"><value>Link fan to performance mode</value></data>
 </root>
