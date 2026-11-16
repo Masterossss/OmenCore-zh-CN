@@ -1476,4 +1476,7 @@
   <data name="OptimizerPreflightYes" xml:space="preserve"><value>是</value></data>
   <data name="OptimizerPreflightNo" xml:space="preserve"><value>否</value></data>
   <data name="OptimizerPreflightNoWarnings" xml:space="preserve"><value>没有其他预检警告。</value></data>
+  <data name="LightWmiVerifyHint" xml:space="preserve"><value> 此型号的 WMI 键盘命令未通过验证；如果颜色没有明显变化，请尝试在设置中启用“实验性 EC 键盘”。</value></data>
+  <data name="LightProbeSent" xml:space="preserve"><value>已通过 {0} 发送探测；请选择发生变化的区域并保存。{1}</value></data>
+  <data name="LightRestoredPrefix" xml:space="preserve"><value>已恢复保存的键盘颜色。</value></data>
 </root>

@@ -1340,5 +1340,8 @@ namespace OmenCore.Localization
         public static string OptimizerPreflightYes => Get(nameof(OptimizerPreflightYes));
         public static string OptimizerPreflightNo => Get(nameof(OptimizerPreflightNo));
         public static string OptimizerPreflightNoWarnings => Get(nameof(OptimizerPreflightNoWarnings));
+        public static string LightWmiVerifyHint => Get(nameof(LightWmiVerifyHint));
+        public static string LightProbeSent => Get(nameof(LightProbeSent));
+        public static string LightRestoredPrefix => Get(nameof(LightRestoredPrefix));
     }
 }

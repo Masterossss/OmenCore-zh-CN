@@ -1,4 +1,5 @@
 using System;
+using System.Text.RegularExpressions;
 
 namespace OmenCore.Localization
 {
@@ -25,6 +26,14 @@ namespace OmenCore.Localization
             const string failure = "RGB observation save failed: ";
             if (value.StartsWith(failure, StringComparison.Ordinal))
                 return string.Format(Strings.LightObservationError, value.Substring(failure.Length));
+            var probe = Regex.Match(value, @"\AProbe sent via (.+?); select what changed and save\. (.*)\z", RegexOptions.CultureInvariant);
+            if (probe.Success) return string.Format(Strings.LightProbeSent, probe.Groups[1].Value, probe.Groups[2].Value);
+            const string restore = "Restored saved keyboard colors. ";
+            if (value.StartsWith(restore, StringComparison.Ordinal))
+                return Strings.LightRestoredPrefix + value.Substring(restore.Length);
+            const string hint = " WMI keyboard commands aren't verifying on your model - try enabling 'Experimental EC Keyboard' in Settings if colors don't visibly change.";
+            if (value.EndsWith(hint, StringComparison.Ordinal))
+                return value.Substring(0, value.Length - hint.Length) + Strings.LightWmiVerifyHint;
             return value;
         }
     }

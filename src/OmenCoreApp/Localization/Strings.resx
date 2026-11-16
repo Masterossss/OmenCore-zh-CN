@@ -1484,4 +1484,7 @@ Continue?</value></data>
   <data name="OptimizerPreflightYes" xml:space="preserve"><value>Yes</value></data>
   <data name="OptimizerPreflightNo" xml:space="preserve"><value>No</value></data>
   <data name="OptimizerPreflightNoWarnings" xml:space="preserve"><value>No additional preflight warnings.</value></data>
+  <data name="LightWmiVerifyHint" xml:space="preserve"><value> WMI keyboard commands aren't verifying on your model - try enabling 'Experimental EC Keyboard' in Settings if colors don't visibly change.</value></data>
+  <data name="LightProbeSent" xml:space="preserve"><value>Probe sent via {0}; select what changed and save. {1}</value></data>
+  <data name="LightRestoredPrefix" xml:space="preserve"><value>Restored saved keyboard colors. </value></data>
 </root>
