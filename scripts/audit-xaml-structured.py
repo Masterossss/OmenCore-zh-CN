@@ -25,7 +25,8 @@ def scan(file):
         if not value or not re.search('[A-Za-z]',value): return
         cat,reason=category(name,value)
         fingerprint=hashlib.sha256('\0'.join((relative,path,name,value)).encode('utf-8')).hexdigest()[:20]
-        rows.append([fingerprint,relative,line,path,kind,name,value,cat,reason])
+        # Represent physical line breaks visibly so each CSV record remains one reviewable line.
+        rows.append([fingerprint,relative,line,path,kind,name,value.replace('\r','\\r').replace('\n','\\n'),cat,reason])
     def start(name,attrs):
         if stack:
             siblings=stack[-1]['counts']; siblings[name]=siblings.get(name,0)+1; index=siblings[name]; parent=stack[-1]['path']
