@@ -62,9 +62,9 @@ src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,294,"MessageBox.Show($
 src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,308,if (dialog.ShowDialog() == true),C,否,已核实,文件选择对话框调用；标题已资源化，过滤器格式保留
 src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,323,"MessageBox.Show(ValidationError, ""Invalid Game Profile"", MessageBoxButton.OK, MessageBoxImage.Warning);",A,是,已资源化,游戏配置确认或结果对话框；参见 Strings.GameProfile*；原始行号可能变化
 src/OmenCoreApp/ViewModels/GameProfileManagerViewModel.cs,341,"MessageBox.Show($""Failed to save profiles: {ex.Message}"", ""Error"", MessageBoxButton.OK, MessageBoxImage.Error);",A,是,已资源化,游戏配置确认或结果对话框；参见 Strings.GameProfile*；原始行号可能变化
-src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,92,if (info.Status == HpWmiBios.SmartAdapterStatus.BatteryPower),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,141,if (info.Status == HpWmiBios.SmartAdapterStatus.BatteryPower),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
-src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,161,if (info.Status == HpWmiBios.SmartAdapterStatus.ConnectedTypeC),E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
+src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,92,if (info.Status == HpWmiBios.SmartAdapterStatus.BatteryPower),C,否,已核实,硬件状态枚举比较，不是用户文字
+src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,141,if (info.Status == HpWmiBios.SmartAdapterStatus.BatteryPower),C,否,已核实,硬件状态枚举比较，不是用户文字
+src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,161,if (info.Status == HpWmiBios.SmartAdapterStatus.ConnectedTypeC),C,否,已核实,硬件状态枚举比较，不是用户文字
 src/OmenCoreApp/ViewModels/KeyboardDiagnosticsViewModel.cs,106,"Status = ""Connected"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/ViewModels/KeyboardDiagnosticsViewModel.cs,123,"Status = ""Connected"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/ViewModels/KeyboardDiagnosticsViewModel.cs,140,"Status = ""Connected"",",E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
@@ -109,7 +109,7 @@ src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1226,"StatusMessage = $""
 src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,45,return dlg.ShowDialog() == true ? ResolveAsync(dlg.FileName) : Task.CompletedTask;,C,否,已核实,文件对话框执行入口；标题和过滤器已资源化
 src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,86,"if (value) _ = RefreshAsync(); else StatusText = """";",C,否,已核实,清空状态，不包含显示文字
 src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,106,"Post(() => StatusText = ""Could not read the NVIDIA driver: "" + ex.Message);",A,是,已资源化,StatusText 绑定至调校界面；Strings.NvidiaPowerDriverReadFailed，异常内容仍来自系统
-src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,117,"StatusText = $""{(string.IsNullOrEmpty(s.Gpu) ? ""NVIDIA GPU"" : s.Gpu)}: {live}"" +",A,是,待处理,StatusText 绑定至调校界面；含驱动及服务返回的动态文本，需继续追踪
+src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,117,"StatusText = $""{(string.IsNullOrEmpty(s.Gpu) ? ""NVIDIA GPU"" : s.Gpu)}: {live}"" +",A,是,部分资源化,显示值和写入就绪状态已资源化；s.Reason 来自服务，仍需追踪
 src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,133,"if (MessageBox.Show(prompt, ""NVIDIA power"", MessageBoxButton.OKCancel, MessageBoxImage.Warning) != MessageBoxResult.OK) return;",A,是,已资源化,功率操作确认框；Strings.NvidiaPowerDialogTitle、NvidiaPowerApplyConfirm、NvidiaPowerRemoveConfirm 及重启说明
 src/OmenCoreApp/ViewModels/SettingsViewModel.cs,1570,var result = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
 src/OmenCoreApp/ViewModels/SettingsViewModel.cs,1620,var result = MessageBox.Show(,E,待核实,待审查,仅为调用或赋值入口，文字可能在相邻行或来自其他服务
@@ -242,3 +242,7 @@ src/OmenCoreApp/ViewModels/FanDiagnosticsViewModel.cs,322,GuidedTestResult = tem
 src/OmenCoreApp/Controls/FanCurveEditor.xaml.cs,271,Dangerous curve: At {0}°C the fan speed drops to {1}% (was {2}% at {3}°C). This could cause overheating!,A,是,已资源化,曲线编辑器警告；Strings.FanWarningDangerous
 src/OmenCoreApp/Controls/FanCurveEditor.xaml.cs,281,Safety warning: {0}°C has only {1}% fan speed. Recommend at least 70% at high temperatures to prevent throttling.,A,是,已资源化,曲线编辑器警告；Strings.FanWarningHighTemp
 src/OmenCoreApp/Controls/FanCurveEditor.xaml.cs,288,Incomplete coverage: Curve only extends to {0}°C. Add points up to 95°C to protect against thermal spikes.,A,是,已资源化,曲线编辑器警告；Strings.FanWarningIncomplete
+src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,697,Pinning the firmware's power gates and asking the driver to re-read them...,A,是,已资源化,DiagnosticsView 绑定状态；Strings.GpuUnlockWorking；服务结果文本仍需审查
+src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,712,Failed: {0},A,是,已资源化,DiagnosticsView 绑定状态；Strings.GpuUnlockFailure；服务结果文本仍需审查
+src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,777,Restarting the GPU...,A,是,已资源化,DiagnosticsView 绑定状态；Strings.AdapterGpuRestarting；服务结果文本仍需审查
+src/OmenCoreApp/ViewModels/GpuClampViewModel.cs,802, Now raising the CPU power limits...,A,是,已资源化,DiagnosticsView 绑定状态；Strings.AdapterCpuRaising；服务结果文本仍需审查

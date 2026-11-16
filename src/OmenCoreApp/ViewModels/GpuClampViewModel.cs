@@ -1,5 +1,6 @@
 using OmenCore.Hardware;
 using OmenCore.Models;
+using OmenCore.Localization;
 using OmenCore.Services;
 using OmenCore.Services.Diagnostics;
 using OmenCore.Utils;
@@ -694,7 +695,7 @@ namespace OmenCore.ViewModels
             if (service == null) return;
 
             GpuTgpUnlockBusy = true;
-            GpuTgpUnlockStatus = "Pinning the firmware's power gates and asking the driver to re-read them...";
+            GpuTgpUnlockStatus = Strings.GpuUnlockWorking;
 
             try
             {
@@ -709,7 +710,7 @@ namespace OmenCore.ViewModels
             catch (Exception ex)
             {
                 _logging.Warn($"GPU TGP unlock failed: {ex.Message}");
-                GpuTgpUnlockStatus = $"Failed: {ex.Message}";
+                GpuTgpUnlockStatus = string.Format(Strings.GpuUnlockFailure, ex.Message);
             }
             finally
             {
@@ -774,7 +775,7 @@ namespace OmenCore.ViewModels
         private async Task ApplyAdapterOverrideAsync()
         {
             AdapterOverrideBusy = true;
-            AdapterOverrideStatus = "Restarting the GPU...";
+            AdapterOverrideStatus = Strings.AdapterGpuRestarting;
 
             try
             {
@@ -799,7 +800,7 @@ namespace OmenCore.ViewModels
                 // CPU limit is not the next thing anyone needs.
                 if (result.Applied && CanOfferApuClampLift && ApuClamp is ApuPowerClampService clamp)
                 {
-                    AdapterOverrideStatus = result.Message + " Now raising the CPU power limits...";
+                    AdapterOverrideStatus = result.Message + Strings.AdapterCpuRaising;
 
                     var lift = await Task.Run(() => clamp.Engage(ApuClampTargetWatts))
                                          .ConfigureAwait(true);

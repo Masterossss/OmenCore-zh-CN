@@ -114,9 +114,9 @@ namespace OmenCore.ViewModels
                 foreach (var t in s.Targets) Targets.Add(t);
                 if (!Targets.Contains(SelectedTarget)) SelectedTarget = Targets.FirstOrDefault();
                 var live = s.LiveCurrentW.HasValue && s.LiveMaxW.HasValue
-                    ? $"Live CURRENT {s.LiveCurrentW:0.#} W, live MAX {s.LiveMaxW:0.#} W. " : "";
+                    ? string.Format(Strings.NvidiaPowerLiveStatus, s.LiveCurrentW.Value, s.LiveMaxW.Value) : "";
                 StatusText = $"{(string.IsNullOrEmpty(s.Gpu) ? "NVIDIA GPU" : s.Gpu)}: {live}" +
-                             $"MAX writes {(s.MaxReady ? "ready" : "not ready")}, CURRENT writes {(s.CurrentReady ? "ready" : "not ready")}. {s.Reason}" +
+                             string.Format(Strings.NvidiaPowerWriteStatus, s.MaxReady ? Strings.NvidiaPowerReady : Strings.NvidiaPowerNotReady, s.CurrentReady ? Strings.NvidiaPowerReady : Strings.NvidiaPowerNotReady, s.Reason) +
                              StockMismatchNote(s.LiveMaxW, s.ExpectedStockW);
                 RaiseCommands();
             });
@@ -154,8 +154,7 @@ namespace OmenCore.ViewModels
             if (!liveMaxW.HasValue || !expectedStockW.HasValue || Math.Abs(liveMaxW.Value - expectedStockW.Value) <= 1.0)
                 return string.Empty;
 
-            return $" Stock max read: {liveMaxW.Value:0.#} W, expected: {expectedStockW.Value} W. A difference is normal when a MAX override " +
-                   "is installed or the laptop maker set a lower limit; it is not an error by itself.";
+            return string.Format(Strings.NvidiaPowerStockMismatch, liveMaxW.Value, expectedStockW.Value);
         }
 
         private void RaiseCommands()

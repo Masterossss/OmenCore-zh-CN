@@ -924,4 +924,13 @@
 
 仍要尝试吗？</value></data>
   <data name="GpuUnlockExperimentalTitle" xml:space="preserve"><value>尝试实验性 GPU 功率解锁？</value></data>
+  <data name="GpuUnlockWorking" xml:space="preserve"><value>正在固定固件功率门控，并请求驱动重新读取...</value></data>
+  <data name="GpuUnlockFailure" xml:space="preserve"><value>失败：{0}</value></data>
+  <data name="AdapterGpuRestarting" xml:space="preserve"><value>正在重启 GPU...</value></data>
+  <data name="AdapterCpuRaising" xml:space="preserve"><value> 正在提高 CPU 功率限制...</value></data>
+  <data name="NvidiaPowerLiveStatus" xml:space="preserve"><value>实时 CURRENT {0:0.#} W，实时 MAX {1:0.#} W。</value></data>
+  <data name="NvidiaPowerReady" xml:space="preserve"><value>已就绪</value></data>
+  <data name="NvidiaPowerNotReady" xml:space="preserve"><value>未就绪</value></data>
+  <data name="NvidiaPowerWriteStatus" xml:space="preserve"><value>MAX 写入{0}，CURRENT 写入{1}。{2}</value></data>
+  <data name="NvidiaPowerStockMismatch" xml:space="preserve"><value> 读取到的出厂最大值：{0:0.#} W，预期：{1} W。安装了 MAX 覆盖设置或笔记本制造商设定了较低限制时，出现差异是正常的；差异本身并不代表错误。</value></data>
 </root>

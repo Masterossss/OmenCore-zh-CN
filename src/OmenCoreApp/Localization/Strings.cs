@@ -812,5 +812,14 @@ namespace OmenCore.Localization
         public static string AdapterClampConfirmTitle => Get(nameof(AdapterClampConfirmTitle));
         public static string GpuUnlockExperimentalConfirm => Get(nameof(GpuUnlockExperimentalConfirm));
         public static string GpuUnlockExperimentalTitle => Get(nameof(GpuUnlockExperimentalTitle));
+        public static string GpuUnlockWorking => Get(nameof(GpuUnlockWorking));
+        public static string GpuUnlockFailure => Get(nameof(GpuUnlockFailure));
+        public static string AdapterGpuRestarting => Get(nameof(AdapterGpuRestarting));
+        public static string AdapterCpuRaising => Get(nameof(AdapterCpuRaising));
+        public static string NvidiaPowerLiveStatus => Get(nameof(NvidiaPowerLiveStatus));
+        public static string NvidiaPowerReady => Get(nameof(NvidiaPowerReady));
+        public static string NvidiaPowerNotReady => Get(nameof(NvidiaPowerNotReady));
+        public static string NvidiaPowerWriteStatus => Get(nameof(NvidiaPowerWriteStatus));
+        public static string NvidiaPowerStockMismatch => Get(nameof(NvidiaPowerStockMismatch));
     }
 }

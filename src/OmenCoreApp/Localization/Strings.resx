@@ -932,4 +932,13 @@ This offer only appears when the connected adapter is well above this machine's 
 
 Try it anyway?</value></data>
   <data name="GpuUnlockExperimentalTitle" xml:space="preserve"><value>Try the experimental GPU power unlock?</value></data>
+  <data name="GpuUnlockWorking" xml:space="preserve"><value>Pinning the firmware's power gates and asking the driver to re-read them...</value></data>
+  <data name="GpuUnlockFailure" xml:space="preserve"><value>Failed: {0}</value></data>
+  <data name="AdapterGpuRestarting" xml:space="preserve"><value>Restarting the GPU...</value></data>
+  <data name="AdapterCpuRaising" xml:space="preserve"><value> Now raising the CPU power limits...</value></data>
+  <data name="NvidiaPowerLiveStatus" xml:space="preserve"><value>Live CURRENT {0:0.#} W, live MAX {1:0.#} W. </value></data>
+  <data name="NvidiaPowerReady" xml:space="preserve"><value>ready</value></data>
+  <data name="NvidiaPowerNotReady" xml:space="preserve"><value>not ready</value></data>
+  <data name="NvidiaPowerWriteStatus" xml:space="preserve"><value>MAX writes {0}, CURRENT writes {1}. {2}</value></data>
+  <data name="NvidiaPowerStockMismatch" xml:space="preserve"><value> Stock max read: {0:0.#} W, expected: {1} W. A difference is normal when a MAX override is installed or the laptop maker set a lower limit; it is not an error by itself.</value></data>
 </root>
