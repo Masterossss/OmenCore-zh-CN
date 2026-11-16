@@ -826,6 +826,14 @@ fbf715d5e41f945bc84d,src/OmenCoreApp/Localization/Language.cs,28,cs_literal,"""E
 b892a4ccee665b7d5466,src/OmenCoreApp/Localization/Language.cs,30,cs_literal,"""tr""",E,待结合上下文和调用链核实
 a683f8511f8dde38cc2d,src/OmenCoreApp/Localization/Language.cs,30,cs_literal,"""Türkçe""",E,待结合上下文和调用链核实
 bbcfed76725a84c1cc5e,src/OmenCoreApp/Localization/Language.cs,31,cs_literal,"""zh-CN""",E,待结合上下文和调用链核实
+3cdccd9850b7e306f65c,src/OmenCoreApp/Localization/MemoryOptimizerDisplayText.cs,15,cs_literal,"@""\AFreed ([0-9]+) MB  •  ([0-9]+) ops succeeded(?:  •  ([0-9]+) failed)?  •  ([0-9]{2}:[0-9]{2}:[0-9]{2})\z""",E,待结合上下文和调用链核实
+2f5fa6e6d3e99e49dbe2,src/OmenCoreApp/Localization/MemoryOptimizerDisplayText.cs,21,cs_literal,"""Failed: """,E,待结合上下文和调用链核实
+5fd5aa0249931551f035,src/OmenCoreApp/Localization/MemoryOptimizerDisplayText.cs,30,cs_literal,"""Done""",E,待结合上下文和调用链核实
+6ebe523aa8b070e64449,src/OmenCoreApp/Localization/MemoryOptimizerDisplayText.cs,31,cs_literal,"""Cleaning memory...""",E,待结合上下文和调用链核实
+a4652e75da5273f57fb0,src/OmenCoreApp/Localization/MemoryOptimizerDisplayText.cs,32,cs_literal,"""Enabling memory compression...""",E,待结合上下文和调用链核实
+ef4c3e73f850db4b3fc9,src/OmenCoreApp/Localization/MemoryOptimizerDisplayText.cs,33,cs_literal,"""Disabling memory compression...""",E,待结合上下文和调用链核实
+dd5884b8e9f4e9435a3b,src/OmenCoreApp/Localization/MemoryOptimizerDisplayText.cs,34,cs_literal,"@""\ADone: Freed ([0-9]+) MB\z""",E,待结合上下文和调用链核实
+32bcc345ae1e52102838,src/OmenCoreApp/Localization/MemoryOptimizerDisplayText.cs,36,cs_literal,"""Failed: """,E,待结合上下文和调用链核实
 1428fd0b0f037e0ed449,src/OmenCoreApp/Localization/NvidiaPowerDisplayText.cs,20,cs_literal,"""driver: """,E,待结合上下文和调用链核实
 b7324e29a9c7cab0b516,src/OmenCoreApp/Localization/NvidiaPowerDisplayText.cs,20,cs_literal,"""VBIOS: """,E,待结合上下文和调用链核实
 8120e32df50eee08506b,src/OmenCoreApp/Localization/NvidiaPowerDisplayText.cs,20,cs_literal,"""policy: """,E,待结合上下文和调用链核实
@@ -864,6 +872,15 @@ e7071eacb4daddafa9a4,src/OmenCoreApp/Localization/NvidiaPowerDisplayText.cs,62,c
 7d07f89a4041063c38c0,src/OmenCoreApp/Localization/NvidiaPowerDisplayText.cs,75,cs_literal,"@""\ACURRENT ([0-9]+) W exceeds live MAX ([0-9]+\.[0-9]{2}) W\. Apply MAX first, reboot Windows, then verify the new live MAX before applying CURRENT\.\z""",E,待结合上下文和调用链核实
 4cfe31b5c292b5f9b73c,src/OmenCoreApp/Localization/NvidiaPowerDisplayText.cs,76,cs_literal,"@""\AMAX ([0-9]+) W was saved to NVIDIA romOverride\. Reboot is required\. After reboot reopen Prophecy Power Unlocker, verify MAX, then apply CURRENT\.\z""",E,待结合上下文和调用链核实
 e502f7296471f56324a0,src/OmenCoreApp/Localization/NvidiaPowerDisplayText.cs,77,cs_literal,"@""\ARestore CURRENT to stock ([0-9]+) W while GPU is idle before removing MAX override\.\z""",E,待结合上下文和调用链核实
+9fe6c25c57911290c525,src/OmenCoreApp/Localization/RgbSyncDisplayText.cs,11,cs_literal,"""Ready to sync""",E,待结合上下文和调用链核实
+8c6d1cb2880bb8b735f0,src/OmenCoreApp/Localization/RgbSyncDisplayText.cs,12,cs_literal,"""No RGB targets available""",E,待结合上下文和调用链核实
+cc56a5c6e246a395d1ca,src/OmenCoreApp/Localization/RgbSyncDisplayText.cs,13,cs_literal,"""Sync failed: no providers updated""",E,待结合上下文和调用链核实
+6776dd692f8f3928f0b1,src/OmenCoreApp/Localization/RgbSyncDisplayText.cs,14,cs_literal,"""Sync failed: no targets updated""",E,待结合上下文和调用链核实
+33abb599f507e5cdc7d8,src/OmenCoreApp/Localization/RgbSyncDisplayText.cs,16,cs_literal,"""zh-CN""",E,待结合上下文和调用链核实
+209e023cadfbf1c28ad8,src/OmenCoreApp/Localization/RgbSyncDisplayText.cs,17,cs_literal,"@""\ASync complete: ([0-9]+) (provider|providers|target|targets) updated\z""",E,待结合上下文和调用链核实
+0f1a48fc5fe23af063f3,src/OmenCoreApp/Localization/RgbSyncDisplayText.cs,19,cs_literal,"""provider""",E,待结合上下文和调用链核实
+cb696d9463a9880eb5d8,src/OmenCoreApp/Localization/RgbSyncDisplayText.cs,20,cs_literal,"@""\APartial sync: ([0-9]+)/([0-9]+) (providers|targets) updated\z""",E,待结合上下文和调用链核实
+d93cdc71da0bab1bd10a,src/OmenCoreApp/Localization/RgbSyncDisplayText.cs,22,cs_literal,"""providers""",E,待结合上下文和调用链核实
 fb41c1fc485c16dc6401,src/OmenCoreApp/Localization/Strings.cs,104,dynamic_entry,public static string AboutUpdateAvailableStatus => Get(nameof(AboutUpdateAvailableStatus));,E,待结合上下文和调用链核实
 eefe56baf61e8e53f65f,src/OmenCoreApp/Localization/Strings.cs,110,dynamic_entry,public static string AboutDownloadFailedStatus => Get(nameof(AboutDownloadFailedStatus));,E,待结合上下文和调用链核实
 2301570c12faeab7bbe2,src/OmenCoreApp/Localization/Strings.cs,449,dynamic_entry,public static string DiagnosticsViewText68ToolTip => Get(nameof(DiagnosticsViewText68ToolTip));,E,待结合上下文和调用链核实
@@ -4188,400 +4205,393 @@ c45b31dc305c5af458c4,src/OmenCoreApp/ViewModels/LightingViewModel.cs,478,cs_lite
 39a666c92cd41de56f38,src/OmenCoreApp/ViewModels/LightingViewModel.cs,537,cs_literal,"""system""",E,待结合上下文和调用链核实
 f8ddbe18434e9d81149a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,544,cs_literal,"""1 active lighting target""",E,待结合上下文和调用链核实
 8151a06fca7b1fa208f1,src/OmenCoreApp/ViewModels/LightingViewModel.cs,545,cs_literal,"$""{ActiveRgbTargetCount} active lighting targets""",E,待结合上下文和调用链核实
-86002a9563f90b29df8d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,576,cs_literal,"""Sync failed""",E,待结合上下文和调用链核实
-9793932ad5365d1766d1,src/OmenCoreApp/ViewModels/LightingViewModel.cs,577,cs_literal,"""blocked""",E,待结合上下文和调用链核实
-3afa7f4ef2c4932cfbff,src/OmenCoreApp/ViewModels/LightingViewModel.cs,579,cs_literal,"""Partial""",E,待结合上下文和调用链核实
-49aa9da7087f054409d6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,580,cs_literal,"""No RGB""",E,待结合上下文和调用链核实
-162a8c16a92f4b8c7833,src/OmenCoreApp/ViewModels/LightingViewModel.cs,581,cs_literal,"""Ready""",E,待结合上下文和调用链核实
-387fb9fa8e24c8bc5b27,src/OmenCoreApp/ViewModels/LightingViewModel.cs,583,cs_literal,"""degraded""",E,待结合上下文和调用链核实
-8bcb81deac7fe90c1aa0,src/OmenCoreApp/ViewModels/LightingViewModel.cs,586,cs_literal,"""confirmed""",E,待结合上下文和调用链核实
-1aa932e5b8b6e508cc9b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,592,cs_literal,"""blocked""",E,待结合上下文和调用链核实
-e92583855df0ccaf0f8a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,592,cs_literal,"""Blocked""",E,待结合上下文和调用链核实
-4497afdeba6e92511d76,src/OmenCoreApp/ViewModels/LightingViewModel.cs,593,cs_literal,"""degraded""",E,待结合上下文和调用链核实
-edc836547bea8ac90ee0,src/OmenCoreApp/ViewModels/LightingViewModel.cs,593,cs_literal,"""Degraded""",E,待结合上下文和调用链核实
-b22a6f9e909c23a8c8ef,src/OmenCoreApp/ViewModels/LightingViewModel.cs,594,cs_literal,"""Confirmed""",E,待结合上下文和调用链核实
-c8a04480f4a51eb3eb91,src/OmenCoreApp/ViewModels/LightingViewModel.cs,599,cs_literal,"""#00FF00""",E,待结合上下文和调用链核实
-a6246e3d109ac04b0fee,src/OmenCoreApp/ViewModels/LightingViewModel.cs,608,cs_literal,"$""{_razerDevices.Count} device(s) detected""",E,待结合上下文和调用链核实
-eb338a925b84fb511556,src/OmenCoreApp/ViewModels/LightingViewModel.cs,609,cs_literal,"""Razer Synapse not detected""",E,待结合上下文和调用链核实
-a00f205569fb7d5125dc,src/OmenCoreApp/ViewModels/LightingViewModel.cs,670,cs_literal,"$""{OpenRgbDeviceCount} device(s) via OpenRGB""",E,待结合上下文和调用链核实
-2a5f062e2a92d5c703e6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,671,cs_literal,"""OpenRGB server not detected""",E,待结合上下文和调用链核实
-a627a1028b85741bfad9,src/OmenCoreApp/ViewModels/LightingViewModel.cs,701,cs_literal,"""This laptop has a single-colour backlit keyboard, so there are no colours to set (the firmware and OmenCore's model database agree). Use the Fn keys to adjust brightness.""",E,待结合上下文和调用链核实
-cdcfc2ec6f7a8256011c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,702,cs_literal,"""Keyboard lighting control is not available on this system.""",E,待结合上下文和调用链核实
-c505dc22a7b79c396aee,src/OmenCoreApp/ViewModels/LightingViewModel.cs,762,cs_literal,"""Per-key RGB editor is active for this keyboard.""",E,待结合上下文和调用链核实
-981df3ad2d4754680433,src/OmenCoreApp/ViewModels/LightingViewModel.cs,767,cs_literal,"""Per-key RGB capable hardware detected. OmenCore currently cannot open the per-key editor on this backend yet; zone lighting remains available in this build.""",E,待结合上下文和调用链核实
-964c5b78a761720d1c36,src/OmenCoreApp/ViewModels/LightingViewModel.cs,770,cs_literal,"""Per-key RGB is available on select OMEN Max models with HID per-key keyboards. This keyboard does not support per-key control.""",E,待结合上下文和调用链核实
-75117e2b477c352c684e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,776,cs_literal,"""None""",E,待结合上下文和调用链核实
-9fba2d611619eeb74d5e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,787,cs_literal,"""Keyboard RGB not detected on this system.""",E,待结合上下文和调用链核实
-e59aa76973b602822ed8,src/OmenCoreApp/ViewModels/LightingViewModel.cs,790,cs_literal,"""WMI""",E,待结合上下文和调用链核实
-ecddd06486ef4fc4b893,src/OmenCoreApp/ViewModels/LightingViewModel.cs,792,cs_literal,"""💡 If colors don't change, try enabling 'Experimental EC Keyboard' in Settings → Hardware.""",E,待结合上下文和调用链核实
-1254733821b15e54cbf2,src/OmenCoreApp/ViewModels/LightingViewModel.cs,794,cs_literal,"""EC""",E,待结合上下文和调用链核实
-c0f2921b442cfea3fd49,src/OmenCoreApp/ViewModels/LightingViewModel.cs,796,cs_literal,"""Using EC direct access (experimental). Changes may take a moment to apply.""",E,待结合上下文和调用链核实
-08034b1a088c4f87b056,src/OmenCoreApp/ViewModels/LightingViewModel.cs,798,cs_literal,"""OGH""",E,待结合上下文和调用链核实
-df2037f57854b2e2167a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,800,cs_literal,"""Using OMEN Gaming Hub proxy. Ensure Gaming Hub services are running.""",E,待结合上下文和调用链核实
-5473eff53a137f209d17,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1345,cs_literal,"""#FF0000""",E,待结合上下文和调用链核实
-2eb94b494d83c2684fa0,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1364,cs_literal,"$""color:{SystemColorHex}""",E,待结合上下文和调用链核实
-9d17bdb05d3c1eba7035,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1367,cs_literal,"$""{CorsairDevices.Count} device(s) detected""",E,待结合上下文和调用链核实
-1c05dcb58e5e99253189,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1368,cs_literal,"$""{LogitechDevices.Count} device(s) detected""",E,待结合上下文和调用链核实
-cac5727cf763c7aa4c9c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1456,cs_literal,"""openrgb""",E,待结合上下文和调用链核实
-0fe05a53217136204d75,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1522,cs_literal,"""WASD""",E,待结合上下文和调用链核实
-92893f358006da767a20,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1523,cs_literal,"""Left""",E,待结合上下文和调用链核实
-55e6d8beb44097faf61e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1524,cs_literal,"""Right""",E,待结合上下文和调用链核实
-fa77a7faf222c8cbf55b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1525,cs_literal,"""Far Right""",E,待结合上下文和调用链核实
-b51850157add58bfe260,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1530,cs_literal,"""WASD""",E,待结合上下文和调用链核实
-e15105993e38fddeed5c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1531,cs_literal,"""Left""",E,待结合上下文和调用链核实
-a9bdb24b529b70579c5c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1532,cs_literal,"""Right""",E,待结合上下文和调用链核实
-175a7898df777b38207b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1533,cs_literal,"""Far Right""",E,待结合上下文和调用链核实
-5b7f47a48dd68ddadacf,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1590,cs_literal,"""Red""",E,待结合上下文和调用链核实
-a622e0d5057fc4e90968,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1590,cs_literal,"""#FF0000""",E,待结合上下文和调用链核实
-beea4f4b2479e347460d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1591,cs_literal,"""Green""",E,待结合上下文和调用链核实
-d174d2519d67d27f4108,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1591,cs_literal,"""#00FF00""",E,待结合上下文和调用链核实
-1cc3bef472c0a5ac26f1,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1592,cs_literal,"""Blue""",E,待结合上下文和调用链核实
-eae85570bfe99fe3478e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1592,cs_literal,"""#0000FF""",E,待结合上下文和调用链核实
-400250168309be52a8ab,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1593,cs_literal,"""Purple""",E,待结合上下文和调用链核实
-d83e6198dcc3abe9daf2,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1593,cs_literal,"""#9B30FF""",E,待结合上下文和调用链核实
-1185ac3983960f90e47b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1594,cs_literal,"""Cyan""",E,待结合上下文和调用链核实
-d239372ea1522dd640f5,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1594,cs_literal,"""#00FFFF""",E,待结合上下文和调用链核实
-cef3239e0ab208731d22,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1595,cs_literal,"""White""",E,待结合上下文和调用链核实
-2a9a10e64c285f355f45,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1595,cs_literal,"""#FFFFFF""",E,待结合上下文和调用链核实
-0facb30a26d8648f99b3,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1611,cs_literal,"""OMEN Red""",E,待结合上下文和调用链核实
-32fba3f84c5e8597ff58,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1611,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
-1ed392ed07cb7d9a7f06,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1611,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
-618b8db9b061950aefae,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1611,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
-567ed6d7f79cd052faf3,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1611,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
-ce216ae2afd1eead9eaa,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1612,cs_literal,"""Gaming""",E,待结合上下文和调用链核实
-631ed2960778abef0429,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1612,cs_literal,"""#FF0000""",E,待结合上下文和调用链核实
-fdf58b88bd81a3b0d73d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1612,cs_literal,"""#FF4500""",E,待结合上下文和调用链核实
-b486e808996dd5be0108,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1612,cs_literal,"""#FF6600""",E,待结合上下文和调用链核实
-b621b7faaa16f8ba2180,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1612,cs_literal,"""#FF0000""",E,待结合上下文和调用链核实
-445999ce8caa3da67ea6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1613,cs_literal,"""Cool Blue""",E,待结合上下文和调用链核实
-db1d26a0d26e5891bd3d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1613,cs_literal,"""#0066FF""",E,待结合上下文和调用链核实
-f4e009fe8e283cef6079,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1613,cs_literal,"""#00CCFF""",E,待结合上下文和调用链核实
-2eb9d6da6318f633a614,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1613,cs_literal,"""#00CCFF""",E,待结合上下文和调用链核实
-cd4fee3bd6a757b92066,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1613,cs_literal,"""#0066FF""",E,待结合上下文和调用链核实
-a516e762d2b34a26e686,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1614,cs_literal,"""Rainbow""",E,待结合上下文和调用链核实
-581e8282f77d2973a3a5,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1614,cs_literal,"""#FF0000""",E,待结合上下文和调用链核实
-27735affa44dc8685fa6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1614,cs_literal,"""#00FF00""",E,待结合上下文和调用链核实
-76a272563c13e1df29e3,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1614,cs_literal,"""#0000FF""",E,待结合上下文和调用链核实
-140f33606ca06fde1ecf,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1614,cs_literal,"""#FFFF00""",E,待结合上下文和调用链核实
-d467a762d1ccba655912,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1615,cs_literal,"""Purple Haze""",E,待结合上下文和调用链核实
-57d034dff93b282fd79d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1615,cs_literal,"""#9400D3""",E,待结合上下文和调用链核实
-ee9b1ee72d4a9472f9aa,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1615,cs_literal,"""#8B008B""",E,待结合上下文和调用链核实
-7e0d425729a0ac3fcd7d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1615,cs_literal,"""#9932CC""",E,待结合上下文和调用链核实
-194f180263117fa2e00b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1615,cs_literal,"""#9400D3""",E,待结合上下文和调用链核实
-a09345b40d8f64f3a477,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1616,cs_literal,"""White""",E,待结合上下文和调用链核实
-c93288766b8459d407fb,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1616,cs_literal,"""#FFFFFF""",E,待结合上下文和调用链核实
-fe4bcb2d5b993f6208cc,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1616,cs_literal,"""#FFFFFF""",E,待结合上下文和调用链核实
-a5881714253856b4d0d6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1616,cs_literal,"""#FFFFFF""",E,待结合上下文和调用链核实
-28f8f6bcd946a52b6cea,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1616,cs_literal,"""#FFFFFF""",E,待结合上下文和调用链核实
-af241335adc1077ab617,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1619,cs_literal,"""Wave Blue""",E,待结合上下文和调用链核实
-1a10d9bf05350a57b47e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1619,cs_literal,"""#0033FF""",E,待结合上下文和调用链核实
-b3952d9beefd4cef1fc9,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1619,cs_literal,"""#0066FF""",E,待结合上下文和调用链核实
-4535f5c16e76330f289a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1619,cs_literal,"""#0099FF""",E,待结合上下文和调用链核实
-2c86f86b5ddc52866983,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1619,cs_literal,"""#00CCFF""",E,待结合上下文和调用链核实
-23fd442e2128a19c4500,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1620,cs_literal,"""Wave Red""",E,待结合上下文和调用链核实
-4ed3b02d3d9626146009,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1620,cs_literal,"""#FF0000""",E,待结合上下文和调用链核实
-87128e29e9f00a8fb261,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1620,cs_literal,"""#FF3300""",E,待结合上下文和调用链核实
-d84f30780b2e628e9c21,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1620,cs_literal,"""#FF6600""",E,待结合上下文和调用链核实
-28e5df2cbced2ccad984,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1620,cs_literal,"""#FF9900""",E,待结合上下文和调用链核实
-09a663b2a45ab789c8b8,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1621,cs_literal,"""Breathing Green""",E,待结合上下文和调用链核实
-322ab657f9f3bb27f507,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1621,cs_literal,"""#00FF00""",E,待结合上下文和调用链核实
-bee02501bb389ef1b429,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1621,cs_literal,"""#00FF00""",E,待结合上下文和调用链核实
-99d6a78c641d9989118f,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1621,cs_literal,"""#00FF00""",E,待结合上下文和调用链核实
-f278960f0c5b778c7b47,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1621,cs_literal,"""#00FF00""",E,待结合上下文和调用链核实
-f15f232d9b85c80e3e66,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1622,cs_literal,"""Reactive Purple""",E,待结合上下文和调用链核实
-c630479d8df8e50fe194,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1622,cs_literal,"""#6600FF""",E,待结合上下文和调用链核实
-806a2e23dba1aa87501f,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1622,cs_literal,"""#9900FF""",E,待结合上下文和调用链核实
-5a7be9ce1b165f1e94af,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1622,cs_literal,"""#CC00FF""",E,待结合上下文和调用链核实
-23e209012303194c9c70,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1622,cs_literal,"""#FF00FF""",E,待结合上下文和调用链核实
-3c0e0d3224a4dc646fd6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1623,cs_literal,"""Spectrum Flow""",E,待结合上下文和调用链核实
-2f09b868b81346e8e3d2,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1623,cs_literal,"""#FF0000""",E,待结合上下文和调用链核实
-2eab13f149c0a0b4738d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1623,cs_literal,"""#FFFF00""",E,待结合上下文和调用链核实
-d96e4826e0db56209fd5,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1623,cs_literal,"""#00FF00""",E,待结合上下文和调用链核实
-c648740eabc8c6d61acf,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1623,cs_literal,"""#00FFFF""",E,待结合上下文和调用链核实
-070540868e7ec7a033fe,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1624,cs_literal,"""Audio Reactive""",E,待结合上下文和调用链核实
-7a2fd44887860156b381,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1624,cs_literal,"""#FF4500""",E,待结合上下文和调用链核实
-4277c687d769c7772df3,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1624,cs_literal,"""#FF6600""",E,待结合上下文和调用链核实
-71300623dbc8c5dfa201,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1624,cs_literal,"""#FF8700""",E,待结合上下文和调用链核实
-ffa5fcb324d336f6df00,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1624,cs_literal,"""#FFA800""",E,待结合上下文和调用链核实
-958c1f790c6b132c62d9,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1627,cs_literal,"""Cyberpunk""",E,待结合上下文和调用链核实
-bc5152962beb1dd6f2f1,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1627,cs_literal,"""#FF00FF""",E,待结合上下文和调用链核实
-dd57fde2324e24480a64,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1627,cs_literal,"""#00FFFF""",E,待结合上下文和调用链核实
-b663239b22351c0199b6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1627,cs_literal,"""#FF00FF""",E,待结合上下文和调用链核实
-bb754b43e25fc1ade04d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1627,cs_literal,"""#00FFFF""",E,待结合上下文和调用链核实
-0bbc84ec7d33c671620b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1628,cs_literal,"""Sunset""",E,待结合上下文和调用链核实
-e65ac24d3e9eb21eec18,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1628,cs_literal,"""#FF4500""",E,待结合上下文和调用链核实
-0759254e3ab3ab6cb73a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1628,cs_literal,"""#FF6347""",E,待结合上下文和调用链核实
-71d0ecc2814e75c37f91,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1628,cs_literal,"""#FF7F50""",E,待结合上下文和调用链核实
-6ed0ce9426f206c8043c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1628,cs_literal,"""#FFA07A""",E,待结合上下文和调用链核实
-9b50f2c72210d24d4127,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1629,cs_literal,"""Forest""",E,待结合上下文和调用链核实
-cc1b70e61870dd6d42bc,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1629,cs_literal,"""#228B22""",E,待结合上下文和调用链核实
-298eea3c5c11420460ef,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1629,cs_literal,"""#32CD32""",E,待结合上下文和调用链核实
-1ea8ad6082ebf7c66e2e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1629,cs_literal,"""#90EE90""",E,待结合上下文和调用链核实
-59b171583e487c17475b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1629,cs_literal,"""#228B22""",E,待结合上下文和调用链核实
-6d72eea5eea48c3c4255,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1630,cs_literal,"""Ocean""",E,待结合上下文和调用链核实
-6a46b3a42f6cf6a84d24,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1630,cs_literal,"""#0000FF""",E,待结合上下文和调用链核实
-680ecfb9f9ca61c65dbb,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1630,cs_literal,"""#1E90FF""",E,待结合上下文和调用链核实
-80cf3a34d616efe39444,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1630,cs_literal,"""#00CED1""",E,待结合上下文和调用链核实
-92addbb9d136d3d10af8,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1631,cs_literal,"""Lava""",E,待结合上下文和调用链核实
-09497013b786ab1d21a6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1631,cs_literal,"""#8B0000""",E,待结合上下文和调用链核实
-4d6b1e4147c6688ee2eb,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1631,cs_literal,"""#FF0000""",E,待结合上下文和调用链核实
-e51c1c37435a6cfe1fdd,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1631,cs_literal,"""#FF4500""",E,待结合上下文和调用链核实
-0b281b00da143cc08169,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1631,cs_literal,"""#FF6600""",E,待结合上下文和调用链核实
-fb2d2472e4cd0c15df97,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1632,cs_literal,"""Ice""",E,待结合上下文和调用链核实
-b3aa2d87b85a980e4bdf,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1632,cs_literal,"""#E0FFFF""",E,待结合上下文和调用链核实
-9bdff0d3db4e0e94da6d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1632,cs_literal,"""#B0E0E6""",E,待结合上下文和调用链核实
-52682e8157e636404a55,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1632,cs_literal,"""#87CEEB""",E,待结合上下文和调用链核实
-718abb09673965e8d836,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1632,cs_literal,"""#ADD8E6""",E,待结合上下文和调用链核实
-218a97b05ba9f614dd80,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1633,cs_literal,"""Stealth""",E,待结合上下文和调用链核实
-48d1c3c3a05140e249b2,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1633,cs_literal,"""#1A1A1A""",E,待结合上下文和调用链核实
-c21082cafd9cf8a43b7a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1633,cs_literal,"""#2D2D2D""",E,待结合上下文和调用链核实
-afe97923e251ceae49f9,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1633,cs_literal,"""#1A1A1A""",E,待结合上下文和调用链核实
-2040d756cd4a37aeebf9,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1634,cs_literal,"""Off""",E,待结合上下文和调用链核实
-ded7707d9486f8c3730d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1644,cs_literal,"""Stage 1""",E,待结合上下文和调用链核实
-eebef835a9ab1770456b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1645,cs_literal,"""Stage 2""",E,待结合上下文和调用链核实
-3eff3b14037336f79b91,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1646,cs_literal,"""Stage 3""",E,待结合上下文和调用链核实
-2d137120fa6eb5512a4a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1649,cs_literal,"""Default""",E,待结合上下文和调用链核实
-ba2a222fe45f92fe01a4,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1650,cs_literal,"""Gaming""",E,待结合上下文和调用链核实
-2ee7be6cc7ac34d81c90,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1651,cs_literal,"""Productivity""",E,待结合上下文和调用链核实
-66ee0958e8e8e0b78686,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1655,cs_literal,"""#FF0000""",E,待结合上下文和调用链核实
-cd0d9d278f515aa717d7,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1731,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
-8a52898d0e501a3f49fd,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1742,dynamic_entry,if (dialog.ShowDialog() == true && dialog.DialogResultOk),E,待结合上下文和调用链核实
-36d2669f062ccc898501,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1761,cs_literal,"$""Zone {zoneNumber} color set to {dialog.SelectedHexColor}""",E,待结合上下文和调用链核实
-f57d3660fffc2618d107,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1767,cs_literal,"$""#{_logitechRedValue:X2}{_logitechGreenValue:X2}{_logitechBlueValue:X2}""",E,待结合上下文和调用链核实
-a30154b30f6e931752ea,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1773,cs_literal,"$""#{_razerRedValue:X2}{_razerGreenValue:X2}{_razerBlueValue:X2}""",E,待结合上下文和调用链核实
-14e6ad13724caaa0cdba,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1808,cs_literal,"""Sync complete: 1 provider updated""",E,待结合上下文和调用链核实
-8ac8a7ca624744c8e6a8,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1809,cs_literal,"$""Sync complete: {totalAttempted} providers updated""",E,待结合上下文和调用链核实
-0f79dd8a0f7bb36bab44,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1814,cs_literal,"$""Partial sync: {totalSucceeded}/{totalAttempted} providers updated""",E,待结合上下文和调用链核实
-0e03d4720073446a8b8d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1819,cs_literal,"""Sync failed: no providers updated""",E,待结合上下文和调用链核实
-1e32e3bdcfac9a67e784,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1823,cs_literal,"$""{DateTime.Now:HH:mm:ss} - {e.EffectId}""",E,待结合上下文和调用链核实
-f005fc73585126aeb24e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1837,cs_literal,"""No RGB targets available""",E,待结合上下文和调用链核实
-1164dab48015c148c29a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1843,cs_literal,"""Sync complete: 1 target updated""",E,待结合上下文和调用链核实
-c04123bd837b8c5dbc27,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1844,cs_literal,"$""Sync complete: {attempted} targets updated""",E,待结合上下文和调用链核实
-493d8fd67637015f64c6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1849,cs_literal,"$""Partial sync: {succeeded}/{attempted} targets updated""",E,待结合上下文和调用链核实
-ecb7981bdc897f472f3f,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1854,cs_literal,"""Sync failed: no targets updated""",E,待结合上下文和调用链核实
-00f619db86d4760726d9,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1858,cs_literal,"$""{DateTime.Now:HH:mm:ss} - Static {colorHex}""",E,待结合上下文和调用链核实
-718ce457e56f8d8ce0d5,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1883,cs_literal,"""Discovering Razer devices...""",E,待结合上下文和调用链核实
-b0bd292e7f58a2361fc1,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1892,cs_literal,"$""Applied Razer static color: {RazerColorHex}""",E,待结合上下文和调用链核实
-1850184bee9a7c8a422c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1894,cs_literal,"""Applying Razer color...""",E,待结合上下文和调用链核实
-86154316ed18938ad89a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1903,cs_literal,"$""Applied Razer breathing effect: {RazerColorHex}""",E,待结合上下文和调用链核实
-6a4d00e0e3e921a9f532,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1905,cs_literal,"""Applying Razer breathing...""",E,待结合上下文和调用链核实
-be35a365eb63e3520127,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1914,cs_literal,"""Applied Razer spectrum cycling effect""",E,待结合上下文和调用链核实
-7370a079c94737c8e7f4,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1916,cs_literal,"""Applying Razer spectrum...""",E,待结合上下文和调用链核实
-291fc5e2a8e244506ea6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1931,cs_literal,"$""Applied OpenRGB color: {colorHex ?? """,E,待结合上下文和调用链核实
-02fb12831be32a7f3e82,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1935,cs_literal,"$""Failed to apply OpenRGB color: {ex.Message}""",E,待结合上下文和调用链核实
-7cea42af7fae2b262a15,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1937,cs_literal,"""Applying OpenRGB color...""",E,待结合上下文和调用链核实
-4cd849596fde15f8492c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1949,cs_literal,"$""Applied Corsair lighting preset: {SelectedCorsairPreset.Name}""",E,待结合上下文和调用链核实
-05472dde72bf25224e09,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1950,cs_literal,"""Applying Corsair lighting...""",E,待结合上下文和调用链核实
-c75f0cdb3605d6111123,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1960,cs_literal,"$""preset:{SelectedCorsairPreset.Name}""",E,待结合上下文和调用链核实
-31cfbc9cd73201fd2786,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1961,cs_literal,"$""Applied Corsair preset '{SelectedCorsairPreset.Name}' to system""",E,待结合上下文和调用链核实
-4e799bc4b7408ebefb16,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1962,cs_literal,"""Applying lighting preset to system...""",E,待结合上下文和调用链核实
-d28e6995044a5fb73851,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2012,cs_literal,"$""Synced color {syncColor} to OMEN keyboard""",E,待结合上下文和调用链核实
-f1049fc35434cc1cc1d7,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2016,cs_literal,"$""Failed to sync to OMEN keyboard: {ex.Message}""",E,待结合上下文和调用链核实
-184f5b776d34a8bce1bb,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2025,cs_literal,"$""RGB Sync complete: {totalSucceeded}/{totalAttempted} target(s) updated""",E,待结合上下文和调用链核实
-1dfef1d04cd82e2c64e8,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2026,cs_literal,"""Syncing color to all RGB devices...""",E,待结合上下文和调用链核实
-d5eb469c3a92dce8b3fe,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2035,cs_literal,"$""Applied custom Corsair color: {CorsairColorHex}""",E,待结合上下文和调用链核实
-feb0b42b4e52adadf0c8,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2036,cs_literal,"""Applying custom color...""",E,待结合上下文和调用链核实
-01f9399ff8a66bf2bbe7,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2043,cs_literal,"""No Corsair device selected for DPI apply""",E,待结合上下文和调用链核实
-b6c0e7b160e5904af6c8,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2049,dynamic_entry,var res = MessageBox.Show(,E,待结合上下文和调用链核实
-d2a142541337bce2f17c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2050,cs_literal,"""This will change the hardware DPI settings on the selected device. Do you want to continue?""",E,待结合上下文和调用链核实
-09373c34139bb97c1e14,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2051,cs_literal,"""Confirm DPI Change""",E,待结合上下文和调用链核实
-e5d7ef1fe13c0505a79a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2058,cs_literal,"""User cancelled DPI apply""",E,待结合上下文和调用链核实
-43ba038d3848ec08b478,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2070,cs_literal,"$""Applying DPI Stage {stage.Name}: {stage.Dpi} DPI""",E,待结合上下文和调用链核实
-9a9f11fd1a0fb8aebdb7,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2078,cs_literal,"""DPI settings were not applied - active Corsair backend does not support writing DPI to this device""",E,待结合上下文和调用链核实
-faf34e7aeae6cb905f96,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2079,dynamic_entry,MessageBox.Show(,E,待结合上下文和调用链核实
-7fb7e9fee8ef9b9a5c4a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2080,cs_literal,"""OmenCore couldn't actually write these DPI settings to the device - the active Corsair connection (RGB.NET/iCUE) doesn't support DPI configuration. Nothing on the mouse changed.""",E,待结合上下文和调用链核实
-bde7a57bea10ec998fd1,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2081,cs_literal,"""DPI Settings Not Applied""",E,待结合上下文和调用链核实
-3b60e273cb9c6d4d8e04,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2126,cs_literal,"""DPI settings applied successfully""",E,待结合上下文和调用链核实
-e55f9b2f9ef4e0a30d46,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2130,cs_literal,"""Failed to apply DPI settings""",E,待结合上下文和调用链核实
-1159e88568e588cb7a35,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2134,cs_literal,"""Applying DPI settings...""",E,待结合上下文和调用链核实
-84f41d58f79a262a9e46,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2144,cs_literal,"""Applying Logitech lighting...""",E,待结合上下文和调用链核实
-a337d146dcdc9654adc3,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2152,dynamic_entry,var res = MessageBox.Show(,E,待结合上下文和调用链核实
-d0dbb857285dfa6ee575,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2153,cs_literal,"""This will restore DPI stages to their saved defaults (or built-in defaults if none). Continue?""",E,待结合上下文和调用链核实
-6634f382818371fed15a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2154,cs_literal,"""Restore DPI Defaults""",E,待结合上下文和调用链核实
-e39d085cbf049eab1426,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2160,cs_literal,"""User cancelled DPI restore""",E,待结合上下文和调用链核实
-b06b3ebead080689e886,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2173,cs_literal,"""Restored DPI stages from config defaults""",E,待结合上下文和调用链核实
-43f1034b1c6746e76519,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2179,cs_literal,"""Stage 1""",E,待结合上下文和调用链核实
-64cf82421705b978ed90,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2180,cs_literal,"""Stage 2""",E,待结合上下文和调用链核实
-36b8ffe8e976f9ca9fe4,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2181,cs_literal,"""Stage 3""",E,待结合上下文和调用链核实
-7aeb96cae95993b3f103,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2182,cs_literal,"""Restored built-in DPI defaults""",E,待结合上下文和调用链核实
-11a90e40808bc786ab15,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2190,cs_literal,"""No DPI profile selected""",E,待结合上下文和调用链核实
-748f519eb40c155fffbd,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2225,cs_literal,"$""Overwrote DPI profile '{existing.Name}'""",E,待结合上下文和调用链核实
-db7e395aeac5d237d6bf,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2243,cs_literal,"$""Saved DPI profile '{profile.Name}'""",E,待结合上下文和调用链核实
-a09fe11809b539749d60,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2254,dynamic_entry,if (namePrompt.ShowDialog() != true || string.IsNullOrWhiteSpace(namePrompt.Input)),E,待结合上下文和调用链核实
-75701766910af9264630,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2256,cs_literal,"""User cancelled Save DPI Profile""",E,待结合上下文和调用链核实
-1fcee3ea526a2df1d2b5,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2264,dynamic_entry,"var res = MessageBox.Show(string.Format(OmenCore.Localization.Strings.DpiOverwritePrompt, name), OmenCore.Localization.Strings.DpiOverwriteTitle, MessageBoxButton.YesNo, MessageBoxImage.Warning, MessageBoxResult.No);",E,待结合上下文和调用链核实
-3ec6fddec0672fddc971,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2267,cs_literal,"""User declined to overwrite existing DPI profile""",E,待结合上下文和调用链核实
-ff4c60fad9e52df5143e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2290,cs_literal,"$""Deleted DPI profile '{profileName}'""",E,待结合上下文和调用链核实
-e3eec7f900e0f2d9b92e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2298,cs_literal,"""No DPI profile selected""",E,待结合上下文和调用链核实
-8e9855c08bd8c8386ea0,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2302,dynamic_entry,var res = MessageBox.Show(,E,待结合上下文和调用链核实
-6b794b604bb650a2085e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2303,cs_literal,"$""Are you sure you want to delete the DPI profile '{SelectedCorsairDpiProfile.Name}'? This cannot be undone.""",E,待结合上下文和调用链核实
-e500ad6f473e21bf12e1,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2304,cs_literal,"""Delete DPI Profile""",E,待结合上下文和调用链核实
-c0bd1a8ee7c8d11f11ab,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2311,cs_literal,"""User cancelled DPI profile delete""",E,待结合上下文和调用链核实
-9f7fea7dd1185035f06d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2324,cs_literal,"$""Loading macro profile: {SelectedMacroProfile.Name}""",E,待结合上下文和调用链核实
-da028dd360a9ef5ee351,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2326,cs_literal,"""Macro profiles are UI placeholders - use iCUE or G HUB for macro configuration""",E,待结合上下文和调用链核实
-ac3ac0a2e979a401530b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2328,cs_literal,"""Loading macro profile...""",E,待结合上下文和调用链核实
-4b52e8dcef11a8dd162e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2338,cs_literal,"""Keyboard lighting not available""",E,待结合上下文和调用链核实
-1d9f456adf4e3014f603,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2339,cs_literal,"""Keyboard lighting is unavailable on this backend.""",E,待结合上下文和调用链核实
-78994571e36fe5b52427,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2355,cs_literal,"$""Keyboard telemetry: WMI {telemetry.WmiSuccessRate:F0}% success, EC {telemetry.EcSuccessRate:F0}% success""",E,待结合上下文和调用链核实
-94187e1f62700b7d84ac,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2365,cs_literal,""" WMI keyboard commands aren't verifying on your model - try enabling 'Experimental EC Keyboard' in Settings if colors don't visibly change.""",E,待结合上下文和调用链核实
-c0025ffb308196a6f981,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2366,cs_literal,"$""💡{backendHint}""",E,待结合上下文和调用链核实
-72747164efc95fb8771c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2370,cs_literal,"$""✓ Applied keyboard zone colors: Z1={_zone1ColorHex}, Z2={_zone2ColorHex}, Z3={_zone3ColorHex}, Z4={_zone4ColorHex}""",E,待结合上下文和调用链核实
-68a925d16521db565af9,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2371,cs_literal,"$""{_keyboardLightingService.LastApplyStatus} Surface: {_keyboardLightingService.LastApplySurface}.{backendHint}""",E,待结合上下文和调用链核实
-9acecb65c090d29fbdc6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2373,cs_literal,"""Applying keyboard colors...""",E,待结合上下文和调用链核实
-d73d0451c7f369eb7378,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2380,cs_literal,"""Keyboard lighting is unavailable; check backend detection or Settings > Hardware.""",E,待结合上下文和调用链核实
-fcbf51384e73c7d6e2e1,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2381,cs_literal,"""Keyboard lighting restore requested, but no keyboard backend is available""",E,待结合上下文和调用链核实
-51a1cda8f9060cef9c30,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2389,cs_literal,"$""Restored saved keyboard colors. {_keyboardLightingService.LastApplyStatus} Surface: {_keyboardLightingService.LastApplySurface}.""",E,待结合上下文和调用链核实
-622d1732cc2441b6035f,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2390,cs_literal,"$""Restored keyboard lighting from saved colors via {KeyboardLightingBackend}: Z1={_zone1ColorHex}, Z2={_zone2ColorHex}, Z3={_zone3ColorHex}, Z4={_zone4ColorHex}""",E,待结合上下文和调用链核实
-9500dd827f9e9c638132,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2391,cs_literal,"""Restoring keyboard lighting...""",E,待结合上下文和调用链核实
-891b26a386a8f22e1435,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2398,cs_literal,"""RGB probe unavailable because no HP keyboard lighting backend is active.""",E,待结合上下文和调用链核实
-ff112ca9842cb755da67,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2399,cs_literal,"""RGB observed-surface probe requested, but no keyboard backend is available""",E,待结合上下文和调用链核实
-740a032c3c43cc550ea7,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2410,cs_literal,"$""Probe sent via {KeyboardLightingBackend}; select what changed and save. {_keyboardLightingService.LastApplyStatus}""",E,待结合上下文和调用链核实
-abc73fb99d3732bb87d6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2411,cs_literal,"$""RGB observed-surface probe applied {RgbObservationProbeColorHex} via {KeyboardLightingBackend}; surface selection pending""",E,待结合上下文和调用链核实
-14b128ff2539f4470f66,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2412,cs_literal,"""Probing RGB surface...""",E,待结合上下文和调用链核实
-04e420b7a15534443363,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2421,cs_literal,"""RGB observation could not be saved because configuration is unavailable.""",E,待结合上下文和调用链核实
-9eaa72f2811c12171c0d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2427,cs_literal,"$""RGB observed surface saved: {SelectedObservedRgbSurface}""",E,待结合上下文和调用链核实
-070209d27866d43a917b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2431,cs_literal,"$""RGB observation save failed: {ex.Message}""",E,待结合上下文和调用链核实
-a2a2e9bc888937b34794,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2432,cs_literal,"$""Failed to save RGB observed surface: {ex.Message}""",E,待结合上下文和调用链核实
-009ffdc7a57e259659b0,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2453,dynamic_entry,"settings.ObservedApplyStatus = _keyboardLightingService?.LastApplyStatus ?? ""No keyboard lighting apply attempted this session."";",E,待结合上下文和调用链核实
-47de112fb81acda6d1d0,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2453,cs_literal,"""No keyboard lighting apply attempted this session.""",E,待结合上下文和调用链核实
-72a56e45e7d33ed1ebb0,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2480,cs_literal,"""Keyboard lighting not available""",E,待结合上下文和调用链核实
-7a861528157c64f724d7,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2498,cs_literal,"$""✓ Applied {_zone1ColorHex} to all keyboard zones""",E,待结合上下文和调用链核实
-4a63c3ca544dcca57b8c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2500,cs_literal,"""Applying color to all zones...""",E,待结合上下文和调用链核实
-00c668c99043ef742df8,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2512,cs_literal,"""Keyboard lighting not available""",E,待结合上下文和调用链核实
-c841cc28199501ac3fa4,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2530,cs_literal,"$""✓ Quick color {colorHex} applied to all keyboard zones""",E,待结合上下文和调用链核实
-085e414e34f0d96188b2,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2534,cs_literal,"$""Failed to apply quick color: {ex.Message}""",E,待结合上下文和调用链核实
-749b2f95a7eeb533c1aa,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2551,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
-90c2b8f63f02ca6426e3,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2552,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
-aaf628dfe64a875f602d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2553,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
-b273b3204f697f2d3972,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2554,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
-eb339f7162e58666c94b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2563,cs_literal,"$""Loaded keyboard colors from config: Z1={_zone1ColorHex}, Z2={_zone2ColorHex}, Z3={_zone3ColorHex}, Z4={_zone4ColorHex}""",E,待结合上下文和调用链核实
-30febc117a9f4e7f38ff,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2567,cs_literal,"$""Failed to load keyboard colors: {ex.Message}""",E,待结合上下文和调用链核实
-d5a80540d233541ef589,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2579,cs_literal,"""No RGB surface observation recorded.""",E,待结合上下文和调用链核实
-b9100cec0c25de72b80f,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2597,cs_literal,"$""Failed to load RGB surface observation: {ex.Message}""",E,待结合上下文和调用链核实
-2f729b4284ce526ed467,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2607,cs_literal,"""No RGB surface observation recorded.""",E,待结合上下文和调用链核实
-f265775ac51d5f2d5f3a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2611,cs_literal,"""unknown backend""",E,待结合上下文和调用链核实
-3c8454e6b489a15045b5,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2617,cs_literal,"$""Observed {settings.ObservedSurface} using {backend} at {settings.ObservedAtUtc.Value.ToLocalTime():g}; probe {color}.""",E,待结合上下文和调用链核实
-8eeb014f43dd4da17970,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2635,cs_literal,"""Keyboard colors saved to config""",E,待结合上下文和调用链核实
-3acd24b723779b19a477,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2639,cs_literal,"$""Failed to save keyboard colors: {ex.Message}""",E,待结合上下文和调用链核实
-7feaa3ee7e033f925c98,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2654,cs_literal,"$""Keyboard apply on startup setting saved: {_applyKeyboardColorsOnStartup}""",E,待结合上下文和调用链核实
-215aeb97dcdb1d2258d9,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2658,cs_literal,"$""Failed to save keyboard startup setting: {ex.Message}""",E,待结合上下文和调用链核实
-5c20285d25b506da7b8c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2673,cs_literal,"""Keyboard color restore disabled or no saved colors""",E,待结合上下文和调用链核实
-edf3d8b6eb6873f50bab,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2680,cs_literal,"""RGB startup restore category disabled - skipping keyboard color restore""",E,待结合上下文和调用链核实
-bcefe4491b726b8e3518,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2686,cs_literal,"""Keyboard lighting not available for color restore""",E,待结合上下文和调用链核实
-b6e7ffce4bf8fcf065b2,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2693,cs_literal,"""Keyboard backlight was OFF - respecting user preference, not restoring colors""",E,待结合上下文和调用链核实
-a11ab475a7380998e2f4,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2709,cs_literal,"$""✓ Restored per-key picture on startup: {config.PerKeyPicture.Count} cells""",E,待结合上下文和调用链核实
-ecc7aedb4f0deb0b7b11,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2714,cs_literal,"$""✓ Restored keyboard colors on startup: Z1={_zone1ColorHex}, Z2={_zone2ColorHex}, Z3={_zone3ColorHex}, Z4={_zone4ColorHex}""",E,待结合上下文和调用链核实
-6f359a080b63eae2a81f,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2718,cs_literal,"$""Failed to restore keyboard colors: {ex.Message}""",E,待结合上下文和调用链核实
-ee320e5af79c38898494,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2748,cs_literal,"$""Invalid media color '{hex}': {ex.Message}""",E,待结合上下文和调用链核实
-2c0289d76e4c9ed412fb,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2769,cs_literal,"$""Invalid drawing color '{hex}': {ex.Message}""",E,待结合上下文和调用链核实
-3fc52bce004f8ffd2bdc,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2784,cs_literal,"""temperature-responsive""",E,待结合上下文和调用链核实
-ae4df7681825f8c43fe4,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2786,cs_literal,"""Started temperature-responsive lighting monitoring""",E,待结合上下文和调用链核实
-992e99b371b996b25350,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2804,cs_literal,"""Stopped temperature-responsive lighting monitoring""",E,待结合上下文和调用链核实
-b6e18cb60fa75ba5d28a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2812,cs_literal,"""Performance mode synced lighting enabled with no performance mode """,E,待结合上下文和调用链核实
-13608329b868b9803f12,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2813,cs_literal,"""service; it will not respond to mode changes""",E,待结合上下文和调用链核实
-6b7b056880fd4bcc8452,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2817,cs_literal,"""Started performance mode synced lighting monitoring""",E,待结合上下文和调用链核实
-761e623c56dbcc023a2a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2827,cs_literal,"""Stopped performance mode synced lighting monitoring""",E,待结合上下文和调用链核实
-9a262fa4d069133a89bd,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2833,cs_literal,"""throttling indicator""",E,待结合上下文和调用链核实
-e096030d5eb9ce0d295c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2835,cs_literal,"""Started throttling indicator lighting monitoring""",E,待结合上下文和调用链核实
-8b713fa182589fba7ef4,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2848,cs_literal,"""Stopped throttling indicator lighting monitoring""",E,待结合上下文和调用链核实
-41cfaea8c43487ddbc5c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2860,cs_literal,"$""{feature} lighting enabled with no hardware monitoring service; """,E,待结合上下文和调用链核实
-af34fecf65e7973ce721,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2861,cs_literal,"""it will not respond to temperature changes""",E,待结合上下文和调用链核实
-9b313e4cfd47f4e4c12d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3006,cs_literal,"$""Applied {reason} lighting: {colorHex}""",E,待结合上下文和调用链核实
-94abed73e15ce519363e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3013,cs_literal,"$""color:{colorHex}""",E,待结合上下文和调用链核实
-a56a1c62da3626a74672,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3013,cs_literal,"""temperature-based""",E,待结合上下文和调用链核实
-980cdc3433a885349f60,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3017,cs_literal,"""Failed to apply temperature-based lighting""",E,待结合上下文和调用链核实
-05deb59ba1e3e842a2d5,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3030,cs_literal,"$""pulse:{ThrottlingColorHex}:1000""",E,待结合上下文和调用链核实
-4d3e770558afdec4121c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3030,cs_literal,"""throttling indicator""",E,待结合上下文和调用链核实
-12ea2454ae0734860174,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3034,cs_literal,"""Failed to apply throttling indicator lighting""",E,待结合上下文和调用链核实
-49142c5aa1a8cd966b11,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3048,cs_literal,"""balanced""",E,待结合上下文和调用链核实
-ea1358ef72d6add46206,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3049,cs_literal,"""performance""",E,待结合上下文和调用链核实
-4e51cc3a73722a4d0e6a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3049,cs_literal,"""high performance""",E,待结合上下文和调用链核实
-f196534dbd936ec7b19c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3050,cs_literal,"""quiet""",E,待结合上下文和调用链核实
-ae866350757e45701037,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3050,cs_literal,"""power saver""",E,待结合上下文和调用链核实
-8123815b4e05698ccb46,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3054,cs_literal,"$""color:{colorHex}""",E,待结合上下文和调用链核实
-ed6c349da784a00c601a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3054,cs_literal,"$""performance mode '{modeName}'""",E,待结合上下文和调用链核实
-6c7f68ff9a934986936a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3058,cs_literal,"$""Failed to apply performance mode lighting for '{modeName}'""",E,待结合上下文和调用链核实
-8c45634b9757a56ab07a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3132,cs_literal,"$""#{color.R:X2}{color.G:X2}{color.B:X2}""",E,待结合上下文和调用链核实
-32d69587fec5803a0090,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3144,cs_literal,"""Cannot apply scene: Scene service is null""",E,待结合上下文和调用链核实
-a1edb9c58c9bd65cf0f7,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3151,cs_literal,"""Cannot apply scene: Invalid scene parameter""",E,待结合上下文和调用链核实
-b71e5884e6b3d231cc0f,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3164,cs_literal,"$""Applied scene '{scene.Name}' successfully""",E,待结合上下文和调用链核实
-80aad2ac9795139ec032,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3168,cs_literal,"$""Scene '{scene.Name}' applied with errors: {string.Join(""",E,待结合上下文和调用链核实
-9fca689fb1d2c120f0b6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3168,cs_literal,""", result.Errors)}""",E,待结合上下文和调用链核实
-846bb1b24059ecb83354,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3173,cs_literal,"$""Failed to apply scene '{scene.Name}'""",E,待结合上下文和调用链核实
-70ddd0db8f29b561498e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3184,cs_literal,"""Cannot apply scene: Scene service or scene is null""",E,待结合上下文和调用链核实
-5feaeb3a9353c00e28dd,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3194,cs_literal,"$""Applied scene '{_selectedScene.Name}' successfully""",E,待结合上下文和调用链核实
-703f78ba0ebe4e99b7d6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3198,cs_literal,"$""Scene '{_selectedScene.Name}' applied with errors: {string.Join(""",E,待结合上下文和调用链核实
-adc12193351946a0e63b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3198,cs_literal,""", result.Errors)}""",E,待结合上下文和调用链核实
-d4ea8dfe686fe30ae5df,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3203,cs_literal,"$""Failed to apply scene '{_selectedScene.Name}'""",E,待结合上下文和调用链核实
-1bd6d85b8a0eebadc2dd,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3214,cs_literal,"""Cannot save scene: Scene service is not available""",E,待结合上下文和调用链核实
-9b0749b2e468d32c526b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3222,cs_literal,"$""Custom Scene {Scenes.Count + 1}""",E,待结合上下文和调用链核实
-a0056e5148785ee8ee07,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3242,cs_literal,"$""Created new scene: {scene.Name}""",E,待结合上下文和调用链核实
-64a2d5bb3824c0f3ee18,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3246,cs_literal,"""Failed to save current settings as scene""",E,待结合上下文和调用链核实
-ad321e75c3963d7a4aca,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3258,cs_literal,"""Screen sampling service not available""",E,待结合上下文和调用链核实
-e7771f396683e993285c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3271,cs_literal,"""Ambient mode enabled""",E,待结合上下文和调用链核实
-2e476cc0d6a6564ab562,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3276,cs_literal,"""Ambient mode disabled""",E,待结合上下文和调用链核实
-1d5d4a72ed84541ea279,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3284,cs_literal,"""Audio reactive service not available""",E,待结合上下文和调用链核实
-a727871dc1e313da661a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3305,cs_literal,"""Audio-reactive mode enabled""",E,待结合上下文和调用链核实
-3bcf5104d0147e3eb0c4,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3310,cs_literal,"""Audio-reactive mode disabled""",E,待结合上下文和调用链核实
-3cce38b4eb3134235ccd,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3320,cs_literal,"$""#{_audioReactiveRgbService?.GetCurrentColor().R ?? 0:X2}{_audioReactiveRgbService?.GetCurrentColor().G ?? 0:X2}{_audioReactiveRgbService?.GetCurrentColor().B ?? 0:X2}""",E,待结合上下文和调用链核实
-29b035a1092703e47ebb,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3335,cs_literal,"""Esc""",E,待结合上下文和调用链核实
-6fbd16f3e7cc2b225f43,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3335,cs_literal,"""F1""",E,待结合上下文和调用链核实
-d81047732ebcc5d3ad99,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3335,cs_literal,"""F2""",E,待结合上下文和调用链核实
-7dee857d99adfad598f7,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3335,cs_literal,"""F3""",E,待结合上下文和调用链核实
-20994d6b21fcd533dceb,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3335,cs_literal,"""F4""",E,待结合上下文和调用链核实
-3cdfe986f3c0bb2bce61,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3335,cs_literal,"""F5""",E,待结合上下文和调用链核实
-c892bb24b7721259e512,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3335,cs_literal,"""F6""",E,待结合上下文和调用链核实
-1e5e2b58dc56d190be56,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3335,cs_literal,"""F7""",E,待结合上下文和调用链核实
-5d65289fb3b3e5db7b8e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3335,cs_literal,"""F8""",E,待结合上下文和调用链核实
-860b02fdf14df5f7f311,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3335,cs_literal,"""F9""",E,待结合上下文和调用链核实
-75903327a305f5d0ed18,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3335,cs_literal,"""F10""",E,待结合上下文和调用链核实
-28c13f44b0389d25a565,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3335,cs_literal,"""F11""",E,待结合上下文和调用链核实
-c309650652def686dc5d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3335,cs_literal,"""F12""",E,待结合上下文和调用链核实
-24f433ffd05cb5b01750,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3336,cs_literal,"""BS""",E,待结合上下文和调用链核实
-c0d4f83356a3f5432c11,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3337,cs_literal,"""Tab""",E,待结合上下文和调用链核实
-102dcaaef512e30a1dcf,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3337,cs_literal,"""Q""",E,待结合上下文和调用链核实
-b91bd566a814ee1873b4,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3337,cs_literal,"""W""",E,待结合上下文和调用链核实
-1b31ff2204a2e86d0b54,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3337,cs_literal,"""E""",E,待结合上下文和调用链核实
-1631ebdd7490ab3fc468,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3337,cs_literal,"""R""",E,待结合上下文和调用链核实
-62ec4e1f0aac966c986e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3337,cs_literal,"""T""",E,待结合上下文和调用链核实
-8394f912a30c75bbdefd,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3337,cs_literal,"""Y""",E,待结合上下文和调用链核实
-10acbb2a19c3ab54feb5,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3337,cs_literal,"""U""",E,待结合上下文和调用链核实
-9166bf7bfcdb54548b32,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3337,cs_literal,"""I""",E,待结合上下文和调用链核实
-56416682f35116d96ba3,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3337,cs_literal,"""O""",E,待结合上下文和调用链核实
-f2348681678c0df90828,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3337,cs_literal,"""P""",E,待结合上下文和调用链核实
-f025a98f5f1d3d9abfa9,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""Caps""",E,待结合上下文和调用链核实
-f2b4562b5df543d2e87c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""A""",E,待结合上下文和调用链核实
-148ad3fa6da9b28bdb57,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""S""",E,待结合上下文和调用链核实
-a062cdeea67a7bc55b53,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""D""",E,待结合上下文和调用链核实
-a27a5cc7183063fcb684,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""F""",E,待结合上下文和调用链核实
-fab67e61fd7a7ef524d5,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""G""",E,待结合上下文和调用链核实
-e0247e31268861a5fc52,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""H""",E,待结合上下文和调用链核实
-9676e07e8cc25d5ab44f,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""J""",E,待结合上下文和调用链核实
-ed6e3781169e74881c6b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""K""",E,待结合上下文和调用链核实
-ffdf600fd77f8d7de45b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""L""",E,待结合上下文和调用链核实
-b5ef1c5e362eb5f9f538,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""Ent""",E,待结合上下文和调用链核实
-9d48915a5514eee81c7b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3339,cs_literal,"""Sh""",E,待结合上下文和调用链核实
-dfcf8f5b5b49057f0b4b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3339,cs_literal,"""Z""",E,待结合上下文和调用链核实
-55264b67fd44e4be3df8,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3339,cs_literal,"""X""",E,待结合上下文和调用链核实
-fe150dbd150ae70d85df,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3339,cs_literal,"""C""",E,待结合上下文和调用链核实
-7baa5586988d2ae28591,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3339,cs_literal,"""V""",E,待结合上下文和调用链核实
-9325949c51e8203a3d01,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3339,cs_literal,"""B""",E,待结合上下文和调用链核实
-8d6c822125c0bac31c84,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3339,cs_literal,"""N""",E,待结合上下文和调用链核实
-b856dd8504aa2a04000f,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3339,cs_literal,"""M""",E,待结合上下文和调用链核实
-31dbc99b8340bd3b5f8a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3339,cs_literal,"""Sh""",E,待结合上下文和调用链核实
-e7044ccd13c8653b6d6d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3340,cs_literal,"""Ct""",E,待结合上下文和调用链核实
-5e9354b1181428c570bd,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3340,cs_literal,"""Win""",E,待结合上下文和调用链核实
-7e78b89c979c53d2a508,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3340,cs_literal,"""Alt""",E,待结合上下文和调用链核实
-7a9a40c2dad6b6c2e78e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3340,cs_literal,"""Spc""",E,待结合上下文和调用链核实
-7b82a17f7882a376339b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3340,cs_literal,"""Alt""",E,待结合上下文和调用链核实
-c6627de27403e6c123c1,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3340,cs_literal,"""Ct""",E,待结合上下文和调用链核实
-801918cdf32cd90b08bc,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3351,cs_literal,"""#1A1A2E""",E,待结合上下文和调用链核实
-76ffa08551a23167349c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3365,cs_literal,"""[LightingVM] ApplyPerKeyGridAsync returned false""",E,待结合上下文和调用链核实
-9a7ab9393be7b22d23a1,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3398,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
-30e57e8a6b0487a27ab7,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3399,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
-784454922bc48c9d5aee,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3400,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
-55a09be073f49906533a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3401,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
-71d3a80239c90741e82e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3410,cs_literal,"""#1A1A2E""",E,待结合上下文和调用链核实
+86002a9563f90b29df8d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,579,cs_literal,"""Sync failed""",E,待结合上下文和调用链核实
+9793932ad5365d1766d1,src/OmenCoreApp/ViewModels/LightingViewModel.cs,580,cs_literal,"""blocked""",E,待结合上下文和调用链核实
+3afa7f4ef2c4932cfbff,src/OmenCoreApp/ViewModels/LightingViewModel.cs,582,cs_literal,"""Partial""",E,待结合上下文和调用链核实
+49aa9da7087f054409d6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,583,cs_literal,"""No RGB""",E,待结合上下文和调用链核实
+162a8c16a92f4b8c7833,src/OmenCoreApp/ViewModels/LightingViewModel.cs,584,cs_literal,"""Ready""",E,待结合上下文和调用链核实
+387fb9fa8e24c8bc5b27,src/OmenCoreApp/ViewModels/LightingViewModel.cs,586,cs_literal,"""degraded""",E,待结合上下文和调用链核实
+8bcb81deac7fe90c1aa0,src/OmenCoreApp/ViewModels/LightingViewModel.cs,589,cs_literal,"""confirmed""",E,待结合上下文和调用链核实
+1aa932e5b8b6e508cc9b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,595,cs_literal,"""blocked""",E,待结合上下文和调用链核实
+4497afdeba6e92511d76,src/OmenCoreApp/ViewModels/LightingViewModel.cs,596,cs_literal,"""degraded""",E,待结合上下文和调用链核实
+c8a04480f4a51eb3eb91,src/OmenCoreApp/ViewModels/LightingViewModel.cs,602,cs_literal,"""#00FF00""",E,待结合上下文和调用链核实
+a00f205569fb7d5125dc,src/OmenCoreApp/ViewModels/LightingViewModel.cs,673,cs_literal,"$""{OpenRgbDeviceCount} device(s) via OpenRGB""",E,待结合上下文和调用链核实
+2a5f062e2a92d5c703e6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,674,cs_literal,"""OpenRGB server not detected""",E,待结合上下文和调用链核实
+a627a1028b85741bfad9,src/OmenCoreApp/ViewModels/LightingViewModel.cs,704,cs_literal,"""This laptop has a single-colour backlit keyboard, so there are no colours to set (the firmware and OmenCore's model database agree). Use the Fn keys to adjust brightness.""",E,待结合上下文和调用链核实
+cdcfc2ec6f7a8256011c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,705,cs_literal,"""Keyboard lighting control is not available on this system.""",E,待结合上下文和调用链核实
+c505dc22a7b79c396aee,src/OmenCoreApp/ViewModels/LightingViewModel.cs,765,cs_literal,"""Per-key RGB editor is active for this keyboard.""",E,待结合上下文和调用链核实
+981df3ad2d4754680433,src/OmenCoreApp/ViewModels/LightingViewModel.cs,770,cs_literal,"""Per-key RGB capable hardware detected. OmenCore currently cannot open the per-key editor on this backend yet; zone lighting remains available in this build.""",E,待结合上下文和调用链核实
+964c5b78a761720d1c36,src/OmenCoreApp/ViewModels/LightingViewModel.cs,773,cs_literal,"""Per-key RGB is available on select OMEN Max models with HID per-key keyboards. This keyboard does not support per-key control.""",E,待结合上下文和调用链核实
+75117e2b477c352c684e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,779,cs_literal,"""None""",E,待结合上下文和调用链核实
+9fba2d611619eeb74d5e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,790,cs_literal,"""Keyboard RGB not detected on this system.""",E,待结合上下文和调用链核实
+e59aa76973b602822ed8,src/OmenCoreApp/ViewModels/LightingViewModel.cs,793,cs_literal,"""WMI""",E,待结合上下文和调用链核实
+ecddd06486ef4fc4b893,src/OmenCoreApp/ViewModels/LightingViewModel.cs,795,cs_literal,"""💡 If colors don't change, try enabling 'Experimental EC Keyboard' in Settings → Hardware.""",E,待结合上下文和调用链核实
+1254733821b15e54cbf2,src/OmenCoreApp/ViewModels/LightingViewModel.cs,797,cs_literal,"""EC""",E,待结合上下文和调用链核实
+c0f2921b442cfea3fd49,src/OmenCoreApp/ViewModels/LightingViewModel.cs,799,cs_literal,"""Using EC direct access (experimental). Changes may take a moment to apply.""",E,待结合上下文和调用链核实
+08034b1a088c4f87b056,src/OmenCoreApp/ViewModels/LightingViewModel.cs,801,cs_literal,"""OGH""",E,待结合上下文和调用链核实
+df2037f57854b2e2167a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,803,cs_literal,"""Using OMEN Gaming Hub proxy. Ensure Gaming Hub services are running.""",E,待结合上下文和调用链核实
+5473eff53a137f209d17,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1348,cs_literal,"""#FF0000""",E,待结合上下文和调用链核实
+2eb94b494d83c2684fa0,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1367,cs_literal,"$""color:{SystemColorHex}""",E,待结合上下文和调用链核实
+cac5727cf763c7aa4c9c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1459,cs_literal,"""openrgb""",E,待结合上下文和调用链核实
+0fe05a53217136204d75,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1525,cs_literal,"""WASD""",E,待结合上下文和调用链核实
+92893f358006da767a20,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1526,cs_literal,"""Left""",E,待结合上下文和调用链核实
+55e6d8beb44097faf61e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1527,cs_literal,"""Right""",E,待结合上下文和调用链核实
+fa77a7faf222c8cbf55b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1528,cs_literal,"""Far Right""",E,待结合上下文和调用链核实
+b51850157add58bfe260,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1533,cs_literal,"""WASD""",E,待结合上下文和调用链核实
+e15105993e38fddeed5c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1534,cs_literal,"""Left""",E,待结合上下文和调用链核实
+a9bdb24b529b70579c5c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1535,cs_literal,"""Right""",E,待结合上下文和调用链核实
+175a7898df777b38207b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1536,cs_literal,"""Far Right""",E,待结合上下文和调用链核实
+5b7f47a48dd68ddadacf,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1593,cs_literal,"""Red""",E,待结合上下文和调用链核实
+a622e0d5057fc4e90968,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1593,cs_literal,"""#FF0000""",E,待结合上下文和调用链核实
+beea4f4b2479e347460d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1594,cs_literal,"""Green""",E,待结合上下文和调用链核实
+d174d2519d67d27f4108,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1594,cs_literal,"""#00FF00""",E,待结合上下文和调用链核实
+1cc3bef472c0a5ac26f1,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1595,cs_literal,"""Blue""",E,待结合上下文和调用链核实
+eae85570bfe99fe3478e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1595,cs_literal,"""#0000FF""",E,待结合上下文和调用链核实
+400250168309be52a8ab,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1596,cs_literal,"""Purple""",E,待结合上下文和调用链核实
+d83e6198dcc3abe9daf2,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1596,cs_literal,"""#9B30FF""",E,待结合上下文和调用链核实
+1185ac3983960f90e47b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1597,cs_literal,"""Cyan""",E,待结合上下文和调用链核实
+d239372ea1522dd640f5,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1597,cs_literal,"""#00FFFF""",E,待结合上下文和调用链核实
+cef3239e0ab208731d22,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1598,cs_literal,"""White""",E,待结合上下文和调用链核实
+2a9a10e64c285f355f45,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1598,cs_literal,"""#FFFFFF""",E,待结合上下文和调用链核实
+0facb30a26d8648f99b3,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1614,cs_literal,"""OMEN Red""",E,待结合上下文和调用链核实
+32fba3f84c5e8597ff58,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1614,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
+1ed392ed07cb7d9a7f06,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1614,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
+618b8db9b061950aefae,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1614,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
+567ed6d7f79cd052faf3,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1614,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
+ce216ae2afd1eead9eaa,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1615,cs_literal,"""Gaming""",E,待结合上下文和调用链核实
+631ed2960778abef0429,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1615,cs_literal,"""#FF0000""",E,待结合上下文和调用链核实
+fdf58b88bd81a3b0d73d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1615,cs_literal,"""#FF4500""",E,待结合上下文和调用链核实
+b486e808996dd5be0108,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1615,cs_literal,"""#FF6600""",E,待结合上下文和调用链核实
+b621b7faaa16f8ba2180,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1615,cs_literal,"""#FF0000""",E,待结合上下文和调用链核实
+445999ce8caa3da67ea6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1616,cs_literal,"""Cool Blue""",E,待结合上下文和调用链核实
+db1d26a0d26e5891bd3d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1616,cs_literal,"""#0066FF""",E,待结合上下文和调用链核实
+f4e009fe8e283cef6079,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1616,cs_literal,"""#00CCFF""",E,待结合上下文和调用链核实
+2eb9d6da6318f633a614,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1616,cs_literal,"""#00CCFF""",E,待结合上下文和调用链核实
+cd4fee3bd6a757b92066,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1616,cs_literal,"""#0066FF""",E,待结合上下文和调用链核实
+a516e762d2b34a26e686,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1617,cs_literal,"""Rainbow""",E,待结合上下文和调用链核实
+581e8282f77d2973a3a5,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1617,cs_literal,"""#FF0000""",E,待结合上下文和调用链核实
+27735affa44dc8685fa6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1617,cs_literal,"""#00FF00""",E,待结合上下文和调用链核实
+76a272563c13e1df29e3,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1617,cs_literal,"""#0000FF""",E,待结合上下文和调用链核实
+140f33606ca06fde1ecf,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1617,cs_literal,"""#FFFF00""",E,待结合上下文和调用链核实
+d467a762d1ccba655912,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1618,cs_literal,"""Purple Haze""",E,待结合上下文和调用链核实
+57d034dff93b282fd79d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1618,cs_literal,"""#9400D3""",E,待结合上下文和调用链核实
+ee9b1ee72d4a9472f9aa,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1618,cs_literal,"""#8B008B""",E,待结合上下文和调用链核实
+7e0d425729a0ac3fcd7d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1618,cs_literal,"""#9932CC""",E,待结合上下文和调用链核实
+194f180263117fa2e00b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1618,cs_literal,"""#9400D3""",E,待结合上下文和调用链核实
+a09345b40d8f64f3a477,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1619,cs_literal,"""White""",E,待结合上下文和调用链核实
+c93288766b8459d407fb,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1619,cs_literal,"""#FFFFFF""",E,待结合上下文和调用链核实
+fe4bcb2d5b993f6208cc,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1619,cs_literal,"""#FFFFFF""",E,待结合上下文和调用链核实
+a5881714253856b4d0d6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1619,cs_literal,"""#FFFFFF""",E,待结合上下文和调用链核实
+28f8f6bcd946a52b6cea,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1619,cs_literal,"""#FFFFFF""",E,待结合上下文和调用链核实
+af241335adc1077ab617,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1622,cs_literal,"""Wave Blue""",E,待结合上下文和调用链核实
+1a10d9bf05350a57b47e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1622,cs_literal,"""#0033FF""",E,待结合上下文和调用链核实
+b3952d9beefd4cef1fc9,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1622,cs_literal,"""#0066FF""",E,待结合上下文和调用链核实
+4535f5c16e76330f289a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1622,cs_literal,"""#0099FF""",E,待结合上下文和调用链核实
+2c86f86b5ddc52866983,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1622,cs_literal,"""#00CCFF""",E,待结合上下文和调用链核实
+23fd442e2128a19c4500,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1623,cs_literal,"""Wave Red""",E,待结合上下文和调用链核实
+4ed3b02d3d9626146009,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1623,cs_literal,"""#FF0000""",E,待结合上下文和调用链核实
+87128e29e9f00a8fb261,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1623,cs_literal,"""#FF3300""",E,待结合上下文和调用链核实
+d84f30780b2e628e9c21,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1623,cs_literal,"""#FF6600""",E,待结合上下文和调用链核实
+28e5df2cbced2ccad984,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1623,cs_literal,"""#FF9900""",E,待结合上下文和调用链核实
+09a663b2a45ab789c8b8,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1624,cs_literal,"""Breathing Green""",E,待结合上下文和调用链核实
+322ab657f9f3bb27f507,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1624,cs_literal,"""#00FF00""",E,待结合上下文和调用链核实
+bee02501bb389ef1b429,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1624,cs_literal,"""#00FF00""",E,待结合上下文和调用链核实
+99d6a78c641d9989118f,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1624,cs_literal,"""#00FF00""",E,待结合上下文和调用链核实
+f278960f0c5b778c7b47,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1624,cs_literal,"""#00FF00""",E,待结合上下文和调用链核实
+f15f232d9b85c80e3e66,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1625,cs_literal,"""Reactive Purple""",E,待结合上下文和调用链核实
+c630479d8df8e50fe194,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1625,cs_literal,"""#6600FF""",E,待结合上下文和调用链核实
+806a2e23dba1aa87501f,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1625,cs_literal,"""#9900FF""",E,待结合上下文和调用链核实
+5a7be9ce1b165f1e94af,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1625,cs_literal,"""#CC00FF""",E,待结合上下文和调用链核实
+23e209012303194c9c70,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1625,cs_literal,"""#FF00FF""",E,待结合上下文和调用链核实
+3c0e0d3224a4dc646fd6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1626,cs_literal,"""Spectrum Flow""",E,待结合上下文和调用链核实
+2f09b868b81346e8e3d2,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1626,cs_literal,"""#FF0000""",E,待结合上下文和调用链核实
+2eab13f149c0a0b4738d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1626,cs_literal,"""#FFFF00""",E,待结合上下文和调用链核实
+d96e4826e0db56209fd5,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1626,cs_literal,"""#00FF00""",E,待结合上下文和调用链核实
+c648740eabc8c6d61acf,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1626,cs_literal,"""#00FFFF""",E,待结合上下文和调用链核实
+070540868e7ec7a033fe,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1627,cs_literal,"""Audio Reactive""",E,待结合上下文和调用链核实
+7a2fd44887860156b381,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1627,cs_literal,"""#FF4500""",E,待结合上下文和调用链核实
+4277c687d769c7772df3,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1627,cs_literal,"""#FF6600""",E,待结合上下文和调用链核实
+71300623dbc8c5dfa201,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1627,cs_literal,"""#FF8700""",E,待结合上下文和调用链核实
+ffa5fcb324d336f6df00,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1627,cs_literal,"""#FFA800""",E,待结合上下文和调用链核实
+958c1f790c6b132c62d9,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1630,cs_literal,"""Cyberpunk""",E,待结合上下文和调用链核实
+bc5152962beb1dd6f2f1,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1630,cs_literal,"""#FF00FF""",E,待结合上下文和调用链核实
+dd57fde2324e24480a64,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1630,cs_literal,"""#00FFFF""",E,待结合上下文和调用链核实
+b663239b22351c0199b6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1630,cs_literal,"""#FF00FF""",E,待结合上下文和调用链核实
+bb754b43e25fc1ade04d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1630,cs_literal,"""#00FFFF""",E,待结合上下文和调用链核实
+0bbc84ec7d33c671620b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1631,cs_literal,"""Sunset""",E,待结合上下文和调用链核实
+e65ac24d3e9eb21eec18,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1631,cs_literal,"""#FF4500""",E,待结合上下文和调用链核实
+0759254e3ab3ab6cb73a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1631,cs_literal,"""#FF6347""",E,待结合上下文和调用链核实
+71d0ecc2814e75c37f91,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1631,cs_literal,"""#FF7F50""",E,待结合上下文和调用链核实
+6ed0ce9426f206c8043c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1631,cs_literal,"""#FFA07A""",E,待结合上下文和调用链核实
+9b50f2c72210d24d4127,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1632,cs_literal,"""Forest""",E,待结合上下文和调用链核实
+cc1b70e61870dd6d42bc,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1632,cs_literal,"""#228B22""",E,待结合上下文和调用链核实
+298eea3c5c11420460ef,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1632,cs_literal,"""#32CD32""",E,待结合上下文和调用链核实
+1ea8ad6082ebf7c66e2e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1632,cs_literal,"""#90EE90""",E,待结合上下文和调用链核实
+59b171583e487c17475b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1632,cs_literal,"""#228B22""",E,待结合上下文和调用链核实
+6d72eea5eea48c3c4255,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1633,cs_literal,"""Ocean""",E,待结合上下文和调用链核实
+6a46b3a42f6cf6a84d24,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1633,cs_literal,"""#0000FF""",E,待结合上下文和调用链核实
+680ecfb9f9ca61c65dbb,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1633,cs_literal,"""#1E90FF""",E,待结合上下文和调用链核实
+80cf3a34d616efe39444,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1633,cs_literal,"""#00CED1""",E,待结合上下文和调用链核实
+92addbb9d136d3d10af8,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1634,cs_literal,"""Lava""",E,待结合上下文和调用链核实
+09497013b786ab1d21a6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1634,cs_literal,"""#8B0000""",E,待结合上下文和调用链核实
+4d6b1e4147c6688ee2eb,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1634,cs_literal,"""#FF0000""",E,待结合上下文和调用链核实
+e51c1c37435a6cfe1fdd,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1634,cs_literal,"""#FF4500""",E,待结合上下文和调用链核实
+0b281b00da143cc08169,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1634,cs_literal,"""#FF6600""",E,待结合上下文和调用链核实
+fb2d2472e4cd0c15df97,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1635,cs_literal,"""Ice""",E,待结合上下文和调用链核实
+b3aa2d87b85a980e4bdf,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1635,cs_literal,"""#E0FFFF""",E,待结合上下文和调用链核实
+9bdff0d3db4e0e94da6d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1635,cs_literal,"""#B0E0E6""",E,待结合上下文和调用链核实
+52682e8157e636404a55,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1635,cs_literal,"""#87CEEB""",E,待结合上下文和调用链核实
+718abb09673965e8d836,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1635,cs_literal,"""#ADD8E6""",E,待结合上下文和调用链核实
+218a97b05ba9f614dd80,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1636,cs_literal,"""Stealth""",E,待结合上下文和调用链核实
+48d1c3c3a05140e249b2,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1636,cs_literal,"""#1A1A1A""",E,待结合上下文和调用链核实
+c21082cafd9cf8a43b7a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1636,cs_literal,"""#2D2D2D""",E,待结合上下文和调用链核实
+afe97923e251ceae49f9,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1636,cs_literal,"""#1A1A1A""",E,待结合上下文和调用链核实
+2040d756cd4a37aeebf9,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1637,cs_literal,"""Off""",E,待结合上下文和调用链核实
+ded7707d9486f8c3730d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1647,cs_literal,"""Stage 1""",E,待结合上下文和调用链核实
+eebef835a9ab1770456b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1648,cs_literal,"""Stage 2""",E,待结合上下文和调用链核实
+3eff3b14037336f79b91,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1649,cs_literal,"""Stage 3""",E,待结合上下文和调用链核实
+2d137120fa6eb5512a4a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1652,cs_literal,"""Default""",E,待结合上下文和调用链核实
+ba2a222fe45f92fe01a4,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1653,cs_literal,"""Gaming""",E,待结合上下文和调用链核实
+2ee7be6cc7ac34d81c90,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1654,cs_literal,"""Productivity""",E,待结合上下文和调用链核实
+66ee0958e8e8e0b78686,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1658,cs_literal,"""#FF0000""",E,待结合上下文和调用链核实
+cd0d9d278f515aa717d7,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1734,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
+8a52898d0e501a3f49fd,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1745,dynamic_entry,if (dialog.ShowDialog() == true && dialog.DialogResultOk),E,待结合上下文和调用链核实
+36d2669f062ccc898501,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1764,cs_literal,"$""Zone {zoneNumber} color set to {dialog.SelectedHexColor}""",E,待结合上下文和调用链核实
+f57d3660fffc2618d107,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1770,cs_literal,"$""#{_logitechRedValue:X2}{_logitechGreenValue:X2}{_logitechBlueValue:X2}""",E,待结合上下文和调用链核实
+a30154b30f6e931752ea,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1776,cs_literal,"$""#{_razerRedValue:X2}{_razerGreenValue:X2}{_razerBlueValue:X2}""",E,待结合上下文和调用链核实
+14e6ad13724caaa0cdba,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1811,cs_literal,"""Sync complete: 1 provider updated""",E,待结合上下文和调用链核实
+8ac8a7ca624744c8e6a8,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1812,cs_literal,"$""Sync complete: {totalAttempted} providers updated""",E,待结合上下文和调用链核实
+0f79dd8a0f7bb36bab44,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1817,cs_literal,"$""Partial sync: {totalSucceeded}/{totalAttempted} providers updated""",E,待结合上下文和调用链核实
+0e03d4720073446a8b8d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1822,cs_literal,"""Sync failed: no providers updated""",E,待结合上下文和调用链核实
+1e32e3bdcfac9a67e784,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1826,cs_literal,"$""{DateTime.Now:HH:mm:ss} - {e.EffectId}""",E,待结合上下文和调用链核实
+f005fc73585126aeb24e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1840,cs_literal,"""No RGB targets available""",E,待结合上下文和调用链核实
+1164dab48015c148c29a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1846,cs_literal,"""Sync complete: 1 target updated""",E,待结合上下文和调用链核实
+c04123bd837b8c5dbc27,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1847,cs_literal,"$""Sync complete: {attempted} targets updated""",E,待结合上下文和调用链核实
+493d8fd67637015f64c6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1852,cs_literal,"$""Partial sync: {succeeded}/{attempted} targets updated""",E,待结合上下文和调用链核实
+ecb7981bdc897f472f3f,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1857,cs_literal,"""Sync failed: no targets updated""",E,待结合上下文和调用链核实
+00f619db86d4760726d9,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1861,cs_literal,"$""{DateTime.Now:HH:mm:ss} - Static {colorHex}""",E,待结合上下文和调用链核实
+718ce457e56f8d8ce0d5,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1886,cs_literal,"""Discovering Razer devices...""",E,待结合上下文和调用链核实
+b0bd292e7f58a2361fc1,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1895,cs_literal,"$""Applied Razer static color: {RazerColorHex}""",E,待结合上下文和调用链核实
+1850184bee9a7c8a422c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1897,cs_literal,"""Applying Razer color...""",E,待结合上下文和调用链核实
+86154316ed18938ad89a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1906,cs_literal,"$""Applied Razer breathing effect: {RazerColorHex}""",E,待结合上下文和调用链核实
+6a4d00e0e3e921a9f532,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1908,cs_literal,"""Applying Razer breathing...""",E,待结合上下文和调用链核实
+be35a365eb63e3520127,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1917,cs_literal,"""Applied Razer spectrum cycling effect""",E,待结合上下文和调用链核实
+7370a079c94737c8e7f4,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1919,cs_literal,"""Applying Razer spectrum...""",E,待结合上下文和调用链核实
+291fc5e2a8e244506ea6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1934,cs_literal,"$""Applied OpenRGB color: {colorHex ?? """,E,待结合上下文和调用链核实
+02fb12831be32a7f3e82,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1938,cs_literal,"$""Failed to apply OpenRGB color: {ex.Message}""",E,待结合上下文和调用链核实
+7cea42af7fae2b262a15,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1940,cs_literal,"""Applying OpenRGB color...""",E,待结合上下文和调用链核实
+4cd849596fde15f8492c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1952,cs_literal,"$""Applied Corsair lighting preset: {SelectedCorsairPreset.Name}""",E,待结合上下文和调用链核实
+05472dde72bf25224e09,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1953,cs_literal,"""Applying Corsair lighting...""",E,待结合上下文和调用链核实
+c75f0cdb3605d6111123,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1963,cs_literal,"$""preset:{SelectedCorsairPreset.Name}""",E,待结合上下文和调用链核实
+31cfbc9cd73201fd2786,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1964,cs_literal,"$""Applied Corsair preset '{SelectedCorsairPreset.Name}' to system""",E,待结合上下文和调用链核实
+4e799bc4b7408ebefb16,src/OmenCoreApp/ViewModels/LightingViewModel.cs,1965,cs_literal,"""Applying lighting preset to system...""",E,待结合上下文和调用链核实
+d28e6995044a5fb73851,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2015,cs_literal,"$""Synced color {syncColor} to OMEN keyboard""",E,待结合上下文和调用链核实
+f1049fc35434cc1cc1d7,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2019,cs_literal,"$""Failed to sync to OMEN keyboard: {ex.Message}""",E,待结合上下文和调用链核实
+184f5b776d34a8bce1bb,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2028,cs_literal,"$""RGB Sync complete: {totalSucceeded}/{totalAttempted} target(s) updated""",E,待结合上下文和调用链核实
+1dfef1d04cd82e2c64e8,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2029,cs_literal,"""Syncing color to all RGB devices...""",E,待结合上下文和调用链核实
+d5eb469c3a92dce8b3fe,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2038,cs_literal,"$""Applied custom Corsair color: {CorsairColorHex}""",E,待结合上下文和调用链核实
+feb0b42b4e52adadf0c8,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2039,cs_literal,"""Applying custom color...""",E,待结合上下文和调用链核实
+01f9399ff8a66bf2bbe7,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2046,cs_literal,"""No Corsair device selected for DPI apply""",E,待结合上下文和调用链核实
+b6c0e7b160e5904af6c8,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2052,dynamic_entry,var res = MessageBox.Show(,E,待结合上下文和调用链核实
+d2a142541337bce2f17c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2053,cs_literal,"""This will change the hardware DPI settings on the selected device. Do you want to continue?""",E,待结合上下文和调用链核实
+09373c34139bb97c1e14,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2054,cs_literal,"""Confirm DPI Change""",E,待结合上下文和调用链核实
+e5d7ef1fe13c0505a79a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2061,cs_literal,"""User cancelled DPI apply""",E,待结合上下文和调用链核实
+43ba038d3848ec08b478,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2073,cs_literal,"$""Applying DPI Stage {stage.Name}: {stage.Dpi} DPI""",E,待结合上下文和调用链核实
+9a9f11fd1a0fb8aebdb7,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2081,cs_literal,"""DPI settings were not applied - active Corsair backend does not support writing DPI to this device""",E,待结合上下文和调用链核实
+faf34e7aeae6cb905f96,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2082,dynamic_entry,MessageBox.Show(,E,待结合上下文和调用链核实
+7fb7e9fee8ef9b9a5c4a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2083,cs_literal,"""OmenCore couldn't actually write these DPI settings to the device - the active Corsair connection (RGB.NET/iCUE) doesn't support DPI configuration. Nothing on the mouse changed.""",E,待结合上下文和调用链核实
+bde7a57bea10ec998fd1,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2084,cs_literal,"""DPI Settings Not Applied""",E,待结合上下文和调用链核实
+3b60e273cb9c6d4d8e04,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2129,cs_literal,"""DPI settings applied successfully""",E,待结合上下文和调用链核实
+e55f9b2f9ef4e0a30d46,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2133,cs_literal,"""Failed to apply DPI settings""",E,待结合上下文和调用链核实
+1159e88568e588cb7a35,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2137,cs_literal,"""Applying DPI settings...""",E,待结合上下文和调用链核实
+84f41d58f79a262a9e46,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2147,cs_literal,"""Applying Logitech lighting...""",E,待结合上下文和调用链核实
+a337d146dcdc9654adc3,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2155,dynamic_entry,var res = MessageBox.Show(,E,待结合上下文和调用链核实
+d0dbb857285dfa6ee575,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2156,cs_literal,"""This will restore DPI stages to their saved defaults (or built-in defaults if none). Continue?""",E,待结合上下文和调用链核实
+6634f382818371fed15a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2157,cs_literal,"""Restore DPI Defaults""",E,待结合上下文和调用链核实
+e39d085cbf049eab1426,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2163,cs_literal,"""User cancelled DPI restore""",E,待结合上下文和调用链核实
+b06b3ebead080689e886,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2176,cs_literal,"""Restored DPI stages from config defaults""",E,待结合上下文和调用链核实
+43f1034b1c6746e76519,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2182,cs_literal,"""Stage 1""",E,待结合上下文和调用链核实
+64cf82421705b978ed90,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2183,cs_literal,"""Stage 2""",E,待结合上下文和调用链核实
+36b8ffe8e976f9ca9fe4,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2184,cs_literal,"""Stage 3""",E,待结合上下文和调用链核实
+7aeb96cae95993b3f103,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2185,cs_literal,"""Restored built-in DPI defaults""",E,待结合上下文和调用链核实
+11a90e40808bc786ab15,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2193,cs_literal,"""No DPI profile selected""",E,待结合上下文和调用链核实
+748f519eb40c155fffbd,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2228,cs_literal,"$""Overwrote DPI profile '{existing.Name}'""",E,待结合上下文和调用链核实
+db7e395aeac5d237d6bf,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2246,cs_literal,"$""Saved DPI profile '{profile.Name}'""",E,待结合上下文和调用链核实
+a09fe11809b539749d60,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2257,dynamic_entry,if (namePrompt.ShowDialog() != true || string.IsNullOrWhiteSpace(namePrompt.Input)),E,待结合上下文和调用链核实
+75701766910af9264630,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2259,cs_literal,"""User cancelled Save DPI Profile""",E,待结合上下文和调用链核实
+1fcee3ea526a2df1d2b5,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2267,dynamic_entry,"var res = MessageBox.Show(string.Format(OmenCore.Localization.Strings.DpiOverwritePrompt, name), OmenCore.Localization.Strings.DpiOverwriteTitle, MessageBoxButton.YesNo, MessageBoxImage.Warning, MessageBoxResult.No);",E,待结合上下文和调用链核实
+3ec6fddec0672fddc971,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2270,cs_literal,"""User declined to overwrite existing DPI profile""",E,待结合上下文和调用链核实
+ff4c60fad9e52df5143e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2293,cs_literal,"$""Deleted DPI profile '{profileName}'""",E,待结合上下文和调用链核实
+e3eec7f900e0f2d9b92e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2301,cs_literal,"""No DPI profile selected""",E,待结合上下文和调用链核实
+8e9855c08bd8c8386ea0,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2305,dynamic_entry,var res = MessageBox.Show(,E,待结合上下文和调用链核实
+6b794b604bb650a2085e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2306,cs_literal,"$""Are you sure you want to delete the DPI profile '{SelectedCorsairDpiProfile.Name}'? This cannot be undone.""",E,待结合上下文和调用链核实
+e500ad6f473e21bf12e1,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2307,cs_literal,"""Delete DPI Profile""",E,待结合上下文和调用链核实
+c0bd1a8ee7c8d11f11ab,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2314,cs_literal,"""User cancelled DPI profile delete""",E,待结合上下文和调用链核实
+9f7fea7dd1185035f06d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2327,cs_literal,"$""Loading macro profile: {SelectedMacroProfile.Name}""",E,待结合上下文和调用链核实
+da028dd360a9ef5ee351,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2329,cs_literal,"""Macro profiles are UI placeholders - use iCUE or G HUB for macro configuration""",E,待结合上下文和调用链核实
+ac3ac0a2e979a401530b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2331,cs_literal,"""Loading macro profile...""",E,待结合上下文和调用链核实
+4b52e8dcef11a8dd162e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2341,cs_literal,"""Keyboard lighting not available""",E,待结合上下文和调用链核实
+1d9f456adf4e3014f603,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2342,cs_literal,"""Keyboard lighting is unavailable on this backend.""",E,待结合上下文和调用链核实
+78994571e36fe5b52427,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2358,cs_literal,"$""Keyboard telemetry: WMI {telemetry.WmiSuccessRate:F0}% success, EC {telemetry.EcSuccessRate:F0}% success""",E,待结合上下文和调用链核实
+94187e1f62700b7d84ac,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2368,cs_literal,""" WMI keyboard commands aren't verifying on your model - try enabling 'Experimental EC Keyboard' in Settings if colors don't visibly change.""",E,待结合上下文和调用链核实
+c0025ffb308196a6f981,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2369,cs_literal,"$""💡{backendHint}""",E,待结合上下文和调用链核实
+72747164efc95fb8771c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2373,cs_literal,"$""✓ Applied keyboard zone colors: Z1={_zone1ColorHex}, Z2={_zone2ColorHex}, Z3={_zone3ColorHex}, Z4={_zone4ColorHex}""",E,待结合上下文和调用链核实
+68a925d16521db565af9,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2374,cs_literal,"$""{_keyboardLightingService.LastApplyStatus} Surface: {_keyboardLightingService.LastApplySurface}.{backendHint}""",E,待结合上下文和调用链核实
+9acecb65c090d29fbdc6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2376,cs_literal,"""Applying keyboard colors...""",E,待结合上下文和调用链核实
+d73d0451c7f369eb7378,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2383,cs_literal,"""Keyboard lighting is unavailable; check backend detection or Settings > Hardware.""",E,待结合上下文和调用链核实
+fcbf51384e73c7d6e2e1,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2384,cs_literal,"""Keyboard lighting restore requested, but no keyboard backend is available""",E,待结合上下文和调用链核实
+51a1cda8f9060cef9c30,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2392,cs_literal,"$""Restored saved keyboard colors. {_keyboardLightingService.LastApplyStatus} Surface: {_keyboardLightingService.LastApplySurface}.""",E,待结合上下文和调用链核实
+622d1732cc2441b6035f,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2393,cs_literal,"$""Restored keyboard lighting from saved colors via {KeyboardLightingBackend}: Z1={_zone1ColorHex}, Z2={_zone2ColorHex}, Z3={_zone3ColorHex}, Z4={_zone4ColorHex}""",E,待结合上下文和调用链核实
+9500dd827f9e9c638132,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2394,cs_literal,"""Restoring keyboard lighting...""",E,待结合上下文和调用链核实
+891b26a386a8f22e1435,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2401,cs_literal,"""RGB probe unavailable because no HP keyboard lighting backend is active.""",E,待结合上下文和调用链核实
+ff112ca9842cb755da67,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2402,cs_literal,"""RGB observed-surface probe requested, but no keyboard backend is available""",E,待结合上下文和调用链核实
+740a032c3c43cc550ea7,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2413,cs_literal,"$""Probe sent via {KeyboardLightingBackend}; select what changed and save. {_keyboardLightingService.LastApplyStatus}""",E,待结合上下文和调用链核实
+abc73fb99d3732bb87d6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2414,cs_literal,"$""RGB observed-surface probe applied {RgbObservationProbeColorHex} via {KeyboardLightingBackend}; surface selection pending""",E,待结合上下文和调用链核实
+14b128ff2539f4470f66,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2415,cs_literal,"""Probing RGB surface...""",E,待结合上下文和调用链核实
+04e420b7a15534443363,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2424,cs_literal,"""RGB observation could not be saved because configuration is unavailable.""",E,待结合上下文和调用链核实
+9eaa72f2811c12171c0d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2430,cs_literal,"$""RGB observed surface saved: {SelectedObservedRgbSurface}""",E,待结合上下文和调用链核实
+070209d27866d43a917b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2434,cs_literal,"$""RGB observation save failed: {ex.Message}""",E,待结合上下文和调用链核实
+a2a2e9bc888937b34794,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2435,cs_literal,"$""Failed to save RGB observed surface: {ex.Message}""",E,待结合上下文和调用链核实
+009ffdc7a57e259659b0,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2456,dynamic_entry,"settings.ObservedApplyStatus = _keyboardLightingService?.LastApplyStatus ?? ""No keyboard lighting apply attempted this session."";",E,待结合上下文和调用链核实
+47de112fb81acda6d1d0,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2456,cs_literal,"""No keyboard lighting apply attempted this session.""",E,待结合上下文和调用链核实
+72a56e45e7d33ed1ebb0,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2483,cs_literal,"""Keyboard lighting not available""",E,待结合上下文和调用链核实
+7a861528157c64f724d7,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2501,cs_literal,"$""✓ Applied {_zone1ColorHex} to all keyboard zones""",E,待结合上下文和调用链核实
+4a63c3ca544dcca57b8c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2503,cs_literal,"""Applying color to all zones...""",E,待结合上下文和调用链核实
+00c668c99043ef742df8,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2515,cs_literal,"""Keyboard lighting not available""",E,待结合上下文和调用链核实
+c841cc28199501ac3fa4,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2533,cs_literal,"$""✓ Quick color {colorHex} applied to all keyboard zones""",E,待结合上下文和调用链核实
+085e414e34f0d96188b2,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2537,cs_literal,"$""Failed to apply quick color: {ex.Message}""",E,待结合上下文和调用链核实
+749b2f95a7eeb533c1aa,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2554,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
+90c2b8f63f02ca6426e3,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2555,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
+aaf628dfe64a875f602d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2556,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
+b273b3204f697f2d3972,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2557,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
+eb339f7162e58666c94b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2566,cs_literal,"$""Loaded keyboard colors from config: Z1={_zone1ColorHex}, Z2={_zone2ColorHex}, Z3={_zone3ColorHex}, Z4={_zone4ColorHex}""",E,待结合上下文和调用链核实
+30febc117a9f4e7f38ff,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2570,cs_literal,"$""Failed to load keyboard colors: {ex.Message}""",E,待结合上下文和调用链核实
+d5a80540d233541ef589,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2582,cs_literal,"""No RGB surface observation recorded.""",E,待结合上下文和调用链核实
+b9100cec0c25de72b80f,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2600,cs_literal,"$""Failed to load RGB surface observation: {ex.Message}""",E,待结合上下文和调用链核实
+2f729b4284ce526ed467,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2610,cs_literal,"""No RGB surface observation recorded.""",E,待结合上下文和调用链核实
+f265775ac51d5f2d5f3a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2614,cs_literal,"""unknown backend""",E,待结合上下文和调用链核实
+3c8454e6b489a15045b5,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2620,cs_literal,"$""Observed {settings.ObservedSurface} using {backend} at {settings.ObservedAtUtc.Value.ToLocalTime():g}; probe {color}.""",E,待结合上下文和调用链核实
+8eeb014f43dd4da17970,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2638,cs_literal,"""Keyboard colors saved to config""",E,待结合上下文和调用链核实
+3acd24b723779b19a477,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2642,cs_literal,"$""Failed to save keyboard colors: {ex.Message}""",E,待结合上下文和调用链核实
+7feaa3ee7e033f925c98,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2657,cs_literal,"$""Keyboard apply on startup setting saved: {_applyKeyboardColorsOnStartup}""",E,待结合上下文和调用链核实
+215aeb97dcdb1d2258d9,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2661,cs_literal,"$""Failed to save keyboard startup setting: {ex.Message}""",E,待结合上下文和调用链核实
+5c20285d25b506da7b8c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2676,cs_literal,"""Keyboard color restore disabled or no saved colors""",E,待结合上下文和调用链核实
+edf3d8b6eb6873f50bab,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2683,cs_literal,"""RGB startup restore category disabled - skipping keyboard color restore""",E,待结合上下文和调用链核实
+bcefe4491b726b8e3518,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2689,cs_literal,"""Keyboard lighting not available for color restore""",E,待结合上下文和调用链核实
+b6e7ffce4bf8fcf065b2,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2696,cs_literal,"""Keyboard backlight was OFF - respecting user preference, not restoring colors""",E,待结合上下文和调用链核实
+a11ab475a7380998e2f4,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2712,cs_literal,"$""✓ Restored per-key picture on startup: {config.PerKeyPicture.Count} cells""",E,待结合上下文和调用链核实
+ecc7aedb4f0deb0b7b11,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2717,cs_literal,"$""✓ Restored keyboard colors on startup: Z1={_zone1ColorHex}, Z2={_zone2ColorHex}, Z3={_zone3ColorHex}, Z4={_zone4ColorHex}""",E,待结合上下文和调用链核实
+6f359a080b63eae2a81f,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2721,cs_literal,"$""Failed to restore keyboard colors: {ex.Message}""",E,待结合上下文和调用链核实
+ee320e5af79c38898494,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2751,cs_literal,"$""Invalid media color '{hex}': {ex.Message}""",E,待结合上下文和调用链核实
+2c0289d76e4c9ed412fb,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2772,cs_literal,"$""Invalid drawing color '{hex}': {ex.Message}""",E,待结合上下文和调用链核实
+3fc52bce004f8ffd2bdc,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2787,cs_literal,"""temperature-responsive""",E,待结合上下文和调用链核实
+ae4df7681825f8c43fe4,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2789,cs_literal,"""Started temperature-responsive lighting monitoring""",E,待结合上下文和调用链核实
+992e99b371b996b25350,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2807,cs_literal,"""Stopped temperature-responsive lighting monitoring""",E,待结合上下文和调用链核实
+b6e18cb60fa75ba5d28a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2815,cs_literal,"""Performance mode synced lighting enabled with no performance mode """,E,待结合上下文和调用链核实
+13608329b868b9803f12,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2816,cs_literal,"""service; it will not respond to mode changes""",E,待结合上下文和调用链核实
+6b7b056880fd4bcc8452,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2820,cs_literal,"""Started performance mode synced lighting monitoring""",E,待结合上下文和调用链核实
+761e623c56dbcc023a2a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2830,cs_literal,"""Stopped performance mode synced lighting monitoring""",E,待结合上下文和调用链核实
+9a262fa4d069133a89bd,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2836,cs_literal,"""throttling indicator""",E,待结合上下文和调用链核实
+e096030d5eb9ce0d295c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2838,cs_literal,"""Started throttling indicator lighting monitoring""",E,待结合上下文和调用链核实
+8b713fa182589fba7ef4,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2851,cs_literal,"""Stopped throttling indicator lighting monitoring""",E,待结合上下文和调用链核实
+41cfaea8c43487ddbc5c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2863,cs_literal,"$""{feature} lighting enabled with no hardware monitoring service; """,E,待结合上下文和调用链核实
+af34fecf65e7973ce721,src/OmenCoreApp/ViewModels/LightingViewModel.cs,2864,cs_literal,"""it will not respond to temperature changes""",E,待结合上下文和调用链核实
+9b313e4cfd47f4e4c12d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3009,cs_literal,"$""Applied {reason} lighting: {colorHex}""",E,待结合上下文和调用链核实
+94abed73e15ce519363e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3016,cs_literal,"$""color:{colorHex}""",E,待结合上下文和调用链核实
+a56a1c62da3626a74672,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3016,cs_literal,"""temperature-based""",E,待结合上下文和调用链核实
+980cdc3433a885349f60,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3020,cs_literal,"""Failed to apply temperature-based lighting""",E,待结合上下文和调用链核实
+05deb59ba1e3e842a2d5,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3033,cs_literal,"$""pulse:{ThrottlingColorHex}:1000""",E,待结合上下文和调用链核实
+4d3e770558afdec4121c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3033,cs_literal,"""throttling indicator""",E,待结合上下文和调用链核实
+12ea2454ae0734860174,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3037,cs_literal,"""Failed to apply throttling indicator lighting""",E,待结合上下文和调用链核实
+49142c5aa1a8cd966b11,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3051,cs_literal,"""balanced""",E,待结合上下文和调用链核实
+ea1358ef72d6add46206,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3052,cs_literal,"""performance""",E,待结合上下文和调用链核实
+4e51cc3a73722a4d0e6a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3052,cs_literal,"""high performance""",E,待结合上下文和调用链核实
+f196534dbd936ec7b19c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3053,cs_literal,"""quiet""",E,待结合上下文和调用链核实
+ae866350757e45701037,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3053,cs_literal,"""power saver""",E,待结合上下文和调用链核实
+8123815b4e05698ccb46,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3057,cs_literal,"$""color:{colorHex}""",E,待结合上下文和调用链核实
+ed6c349da784a00c601a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3057,cs_literal,"$""performance mode '{modeName}'""",E,待结合上下文和调用链核实
+6c7f68ff9a934986936a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3061,cs_literal,"$""Failed to apply performance mode lighting for '{modeName}'""",E,待结合上下文和调用链核实
+8c45634b9757a56ab07a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3135,cs_literal,"$""#{color.R:X2}{color.G:X2}{color.B:X2}""",E,待结合上下文和调用链核实
+32d69587fec5803a0090,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3147,cs_literal,"""Cannot apply scene: Scene service is null""",E,待结合上下文和调用链核实
+a1edb9c58c9bd65cf0f7,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3154,cs_literal,"""Cannot apply scene: Invalid scene parameter""",E,待结合上下文和调用链核实
+b71e5884e6b3d231cc0f,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3167,cs_literal,"$""Applied scene '{scene.Name}' successfully""",E,待结合上下文和调用链核实
+80aad2ac9795139ec032,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3171,cs_literal,"$""Scene '{scene.Name}' applied with errors: {string.Join(""",E,待结合上下文和调用链核实
+9fca689fb1d2c120f0b6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3171,cs_literal,""", result.Errors)}""",E,待结合上下文和调用链核实
+846bb1b24059ecb83354,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3176,cs_literal,"$""Failed to apply scene '{scene.Name}'""",E,待结合上下文和调用链核实
+70ddd0db8f29b561498e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3187,cs_literal,"""Cannot apply scene: Scene service or scene is null""",E,待结合上下文和调用链核实
+5feaeb3a9353c00e28dd,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3197,cs_literal,"$""Applied scene '{_selectedScene.Name}' successfully""",E,待结合上下文和调用链核实
+703f78ba0ebe4e99b7d6,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3201,cs_literal,"$""Scene '{_selectedScene.Name}' applied with errors: {string.Join(""",E,待结合上下文和调用链核实
+adc12193351946a0e63b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3201,cs_literal,""", result.Errors)}""",E,待结合上下文和调用链核实
+d4ea8dfe686fe30ae5df,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3206,cs_literal,"$""Failed to apply scene '{_selectedScene.Name}'""",E,待结合上下文和调用链核实
+1bd6d85b8a0eebadc2dd,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3217,cs_literal,"""Cannot save scene: Scene service is not available""",E,待结合上下文和调用链核实
+9b0749b2e468d32c526b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3225,cs_literal,"$""Custom Scene {Scenes.Count + 1}""",E,待结合上下文和调用链核实
+a0056e5148785ee8ee07,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3245,cs_literal,"$""Created new scene: {scene.Name}""",E,待结合上下文和调用链核实
+64a2d5bb3824c0f3ee18,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3249,cs_literal,"""Failed to save current settings as scene""",E,待结合上下文和调用链核实
+ad321e75c3963d7a4aca,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3261,cs_literal,"""Screen sampling service not available""",E,待结合上下文和调用链核实
+e7771f396683e993285c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3274,cs_literal,"""Ambient mode enabled""",E,待结合上下文和调用链核实
+2e476cc0d6a6564ab562,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3279,cs_literal,"""Ambient mode disabled""",E,待结合上下文和调用链核实
+1d5d4a72ed84541ea279,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3287,cs_literal,"""Audio reactive service not available""",E,待结合上下文和调用链核实
+a727871dc1e313da661a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3308,cs_literal,"""Audio-reactive mode enabled""",E,待结合上下文和调用链核实
+3bcf5104d0147e3eb0c4,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3313,cs_literal,"""Audio-reactive mode disabled""",E,待结合上下文和调用链核实
+3cce38b4eb3134235ccd,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3323,cs_literal,"$""#{_audioReactiveRgbService?.GetCurrentColor().R ?? 0:X2}{_audioReactiveRgbService?.GetCurrentColor().G ?? 0:X2}{_audioReactiveRgbService?.GetCurrentColor().B ?? 0:X2}""",E,待结合上下文和调用链核实
+29b035a1092703e47ebb,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""Esc""",E,待结合上下文和调用链核实
+6fbd16f3e7cc2b225f43,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""F1""",E,待结合上下文和调用链核实
+d81047732ebcc5d3ad99,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""F2""",E,待结合上下文和调用链核实
+7dee857d99adfad598f7,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""F3""",E,待结合上下文和调用链核实
+20994d6b21fcd533dceb,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""F4""",E,待结合上下文和调用链核实
+3cdfe986f3c0bb2bce61,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""F5""",E,待结合上下文和调用链核实
+c892bb24b7721259e512,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""F6""",E,待结合上下文和调用链核实
+1e5e2b58dc56d190be56,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""F7""",E,待结合上下文和调用链核实
+5d65289fb3b3e5db7b8e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""F8""",E,待结合上下文和调用链核实
+860b02fdf14df5f7f311,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""F9""",E,待结合上下文和调用链核实
+75903327a305f5d0ed18,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""F10""",E,待结合上下文和调用链核实
+28c13f44b0389d25a565,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""F11""",E,待结合上下文和调用链核实
+c309650652def686dc5d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3338,cs_literal,"""F12""",E,待结合上下文和调用链核实
+24f433ffd05cb5b01750,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3339,cs_literal,"""BS""",E,待结合上下文和调用链核实
+c0d4f83356a3f5432c11,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3340,cs_literal,"""Tab""",E,待结合上下文和调用链核实
+102dcaaef512e30a1dcf,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3340,cs_literal,"""Q""",E,待结合上下文和调用链核实
+b91bd566a814ee1873b4,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3340,cs_literal,"""W""",E,待结合上下文和调用链核实
+1b31ff2204a2e86d0b54,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3340,cs_literal,"""E""",E,待结合上下文和调用链核实
+1631ebdd7490ab3fc468,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3340,cs_literal,"""R""",E,待结合上下文和调用链核实
+62ec4e1f0aac966c986e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3340,cs_literal,"""T""",E,待结合上下文和调用链核实
+8394f912a30c75bbdefd,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3340,cs_literal,"""Y""",E,待结合上下文和调用链核实
+10acbb2a19c3ab54feb5,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3340,cs_literal,"""U""",E,待结合上下文和调用链核实
+9166bf7bfcdb54548b32,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3340,cs_literal,"""I""",E,待结合上下文和调用链核实
+56416682f35116d96ba3,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3340,cs_literal,"""O""",E,待结合上下文和调用链核实
+f2348681678c0df90828,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3340,cs_literal,"""P""",E,待结合上下文和调用链核实
+f025a98f5f1d3d9abfa9,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3341,cs_literal,"""Caps""",E,待结合上下文和调用链核实
+f2b4562b5df543d2e87c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3341,cs_literal,"""A""",E,待结合上下文和调用链核实
+148ad3fa6da9b28bdb57,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3341,cs_literal,"""S""",E,待结合上下文和调用链核实
+a062cdeea67a7bc55b53,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3341,cs_literal,"""D""",E,待结合上下文和调用链核实
+a27a5cc7183063fcb684,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3341,cs_literal,"""F""",E,待结合上下文和调用链核实
+fab67e61fd7a7ef524d5,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3341,cs_literal,"""G""",E,待结合上下文和调用链核实
+e0247e31268861a5fc52,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3341,cs_literal,"""H""",E,待结合上下文和调用链核实
+9676e07e8cc25d5ab44f,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3341,cs_literal,"""J""",E,待结合上下文和调用链核实
+ed6e3781169e74881c6b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3341,cs_literal,"""K""",E,待结合上下文和调用链核实
+ffdf600fd77f8d7de45b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3341,cs_literal,"""L""",E,待结合上下文和调用链核实
+b5ef1c5e362eb5f9f538,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3341,cs_literal,"""Ent""",E,待结合上下文和调用链核实
+9d48915a5514eee81c7b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3342,cs_literal,"""Sh""",E,待结合上下文和调用链核实
+dfcf8f5b5b49057f0b4b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3342,cs_literal,"""Z""",E,待结合上下文和调用链核实
+55264b67fd44e4be3df8,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3342,cs_literal,"""X""",E,待结合上下文和调用链核实
+fe150dbd150ae70d85df,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3342,cs_literal,"""C""",E,待结合上下文和调用链核实
+7baa5586988d2ae28591,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3342,cs_literal,"""V""",E,待结合上下文和调用链核实
+9325949c51e8203a3d01,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3342,cs_literal,"""B""",E,待结合上下文和调用链核实
+8d6c822125c0bac31c84,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3342,cs_literal,"""N""",E,待结合上下文和调用链核实
+b856dd8504aa2a04000f,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3342,cs_literal,"""M""",E,待结合上下文和调用链核实
+31dbc99b8340bd3b5f8a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3342,cs_literal,"""Sh""",E,待结合上下文和调用链核实
+e7044ccd13c8653b6d6d,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3343,cs_literal,"""Ct""",E,待结合上下文和调用链核实
+5e9354b1181428c570bd,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3343,cs_literal,"""Win""",E,待结合上下文和调用链核实
+7e78b89c979c53d2a508,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3343,cs_literal,"""Alt""",E,待结合上下文和调用链核实
+7a9a40c2dad6b6c2e78e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3343,cs_literal,"""Spc""",E,待结合上下文和调用链核实
+7b82a17f7882a376339b,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3343,cs_literal,"""Alt""",E,待结合上下文和调用链核实
+c6627de27403e6c123c1,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3343,cs_literal,"""Ct""",E,待结合上下文和调用链核实
+801918cdf32cd90b08bc,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3354,cs_literal,"""#1A1A2E""",E,待结合上下文和调用链核实
+76ffa08551a23167349c,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3368,cs_literal,"""[LightingVM] ApplyPerKeyGridAsync returned false""",E,待结合上下文和调用链核实
+9a7ab9393be7b22d23a1,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3401,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
+30e57e8a6b0487a27ab7,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3402,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
+784454922bc48c9d5aee,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3403,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
+55a09be073f49906533a,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3404,cs_literal,"""#E6002E""",E,待结合上下文和调用链核实
+71d3a80239c90741e82e,src/OmenCoreApp/ViewModels/LightingViewModel.cs,3413,cs_literal,"""#1A1A2E""",E,待结合上下文和调用链核实
 0ae72b8a07413c4e3f3d,src/OmenCoreApp/ViewModels/MainViewModel.cs,29,cs_literal,"""user32.dll""",E,待结合上下文和调用链核实
 edabdb7bd35952aacc85,src/OmenCoreApp/ViewModels/MainViewModel.cs,32,cs_literal,"""user32.dll""",E,待结合上下文和调用链核实
 c3a33d4589c034d090a1,src/OmenCoreApp/ViewModels/MainViewModel.cs,35,cs_literal,"""user32.dll""",E,待结合上下文和调用链核实
@@ -5128,62 +5138,62 @@ eb6c0144b8e0c375bd63,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,417,
 e626c34327754b851cee,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,440,cs_literal,"""#FF005C""",E,待结合上下文和调用链核实
 7aaf600e9c7574560044,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,441,cs_literal,"""#FFB800""",E,待结合上下文和调用链核实
 226aebef14cdf12b50bc,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,442,cs_literal,"""#00C8C8""",E,待结合上下文和调用链核实
-f9c0ca3da811d7612aff,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,518,cs_literal,"$""{AutoCleanThreshold}%""",E,待结合上下文和调用链核实
-62ff4ddaf3b6f89af1f0,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,546,cs_literal,"$""Profile default ({GetAutoCleanCooldownMinutes(profile)} min)""",E,待结合上下文和调用链核实
-bf80a5c35bd73207e098,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,549,cs_literal,"$""{AutoCleanCooldownMinutes} min""",E,待结合上下文和调用链核实
-70c71bf2735a59e41e4a,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,553,cs_literal,"""Aggressive""",E,待结合上下文和调用链核实
-75f9d1809f1c126e0892,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,553,cs_literal,"""Balanced""",E,待结合上下文和调用链核实
-d10b8adb1372ad2db9a3,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,553,cs_literal,"""Conservative""",E,待结合上下文和调用链核实
-0ef3c717cbca97904e55,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,553,cs_literal,"""OffPeakOnly""",E,待结合上下文和调用链核实
-22ebb222dd14718d525e,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,553,cs_literal,"""Manual""",E,待结合上下文和调用链核实
-74ae72ce0bcbd349af7f,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,560,cs_literal,"""Balanced""",E,待结合上下文和调用链核实
-0bdf0cadcfab66b07463,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,595,cs_literal,"""On: fullscreen and borderless games get light working-set trims unless memory pressure is critical.""",E,待结合上下文和调用链核实
-e06329b3a25f2bbfbcd9,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,596,cs_literal,"""Off: Smart Clean can run the full safe cleanup profile while a game is in the foreground.""",E,待结合上下文和调用链核实
-3f3959c43ffa3facfffc,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,618,cs_literal,"""Memory compression status unavailable""",E,待结合上下文和调用链核实
-d78095bf86248fa6d90e,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,619,cs_literal,"""Enabled""",E,待结合上下文和调用链核实
-b13fda7bc3af8ac99d2a,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,619,cs_literal,"""Disabled""",E,待结合上下文和调用链核实
-78502b3836e395e65e87,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,700,cs_literal,"""Conservative""",E,待结合上下文和调用链核实
-dfcd6f52ec71b1eadc60,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,701,cs_literal,"""Conservative""",E,待结合上下文和调用链核实
-5565dc5672803cb80d67,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,706,cs_literal,"""Balanced""",E,待结合上下文和调用链核实
-45ddc72034dd8980421b,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,707,cs_literal,"""Balanced""",E,待结合上下文和调用链核实
-9f622a6a9f71de14d1b1,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,712,cs_literal,"""Aggressive""",E,待结合上下文和调用链核实
-bf678631a49b23f10fbe,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,713,cs_literal,"""Aggressive""",E,待结合上下文和调用链核实
-d291fd32e6875afe6337,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,738,cs_literal,"""Tip: exclude apps you keep open (games, capture, chat, anti-cheat). You can add from the top-process list or type a process name without .exe.""",E,待结合上下文和调用链核实
-6fc84f7328ccf5492f21,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,739,cs_literal,"$""{ExcludedProcesses.Count} process exclusions active. Add more from the top-process list to avoid repeated working-set trims.""",E,待结合上下文和调用链核实
-42a4883fb68d3ae257ef,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,742,cs_literal,"$""Suggested exclusions from current top processes: {string.Join(""",E,待结合上下文和调用链核实
-7aa2bd8f66a296dff5f0,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,742,cs_literal,""", suggestions)}.""",E,待结合上下文和调用链核实
-0102f724a8433aedc19f,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,773,cs_literal,"""Conservative""",E,待结合上下文和调用链核实
-6ce126e18222075ed1fc,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,774,cs_literal,"""Balanced""",E,待结合上下文和调用链核实
-928d4b1aa9d4e63650d4,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,775,cs_literal,"""Aggressive""",E,待结合上下文和调用链核实
-4c9abc62ac3d271e98eb,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,792,cs_literal,"$""Failed to update cleanup preview: {ex.Message}""",E,待结合上下文和调用链核实
-0634efd45786c1a0caca,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,885,cs_literal,"$""Excluded {NormalizeProcessName(process.ProcessName)} from working-set trims""",E,待结合上下文和调用链核实
-9dd50196255166047c00,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,950,cs_literal,""".exe""",E,待结合上下文和调用链核实
-8b0b668804240fa8e5a5,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,982,cs_literal,"""Enabling memory compression""",E,待结合上下文和调用链核实
-a14c638636e1f7a2a0f3,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,982,cs_literal,"""Disabling memory compression""",E,待结合上下文和调用链核实
-8f4d366df083b1af8cd4,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,986,cs_literal,"""Failed to change memory compression state""",E,待结合上下文和调用链核实
-ff4632f332c7c080a7ed,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,992,cs_literal,"$""Memory compression {(target ? """,E,待结合上下文和调用链核实
-69cc864a1193de0e50f6,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,992,cs_literal,"""disabled""",E,待结合上下文和调用链核实
-e88c50eebe9d4317664e,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1030,cs_literal,"$""Failed to refresh memory info: {ex.Message}""",E,待结合上下文和调用链核实
-fef4641777e2dee465e8,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1048,cs_literal,"""MemoryOptimizerViewModel""",E,待结合上下文和调用链核实
-27608ac54109cd485a16,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1049,cs_literal,"""Refreshes memory optimizer telemetry while the page is visible""",E,待结合上下文和调用链核实
-a1d3dc5aeec069003911,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1104,cs_literal,"$""Failed to update top memory hogs: {ex.Message}""",E,待结合上下文和调用链核实
-e12a6f1f33def127e740,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1143,cs_literal,"$""Copied {process.ProcessName}""",E,待结合上下文和调用链核实
-7f1d5ac951668b758853,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1147,cs_literal,"$""Failed to copy process name: {ex.Message}""",E,待结合上下文和调用链核实
-e348a73f5c2e172140cc,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1169,cs_literal,"""Process location unavailable""",E,待结合上下文和调用链核实
-09c731615ae81479ddf4,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1173,cs_literal,"""explorer.exe""",E,待结合上下文和调用链核实
-4bc336ff8b8b70387c56,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1173,cs_literal,"$""/select,\""{executablePath}\""""",E,待结合上下文和调用链核实
-10409c39998f2defb92a,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1177,cs_literal,"$""Failed to open process location: {ex.Message}""",E,待结合上下文和调用链核实
-8e957e5a026a30d6282c,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1178,cs_literal,"""Failed to open process location""",E,待结合上下文和调用链核实
-dc1f611f840906c5fa1f,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1187,cs_literal,"""Cleaning memory""",E,待结合上下文和调用链核实
-54b179f272cfd23921f3,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1193,cs_literal,"$""Freed {result.FreedMB} MB""",E,待结合上下文和调用链核实
-7ebceeae5932d359ddd3,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1205,cs_literal,"$""Memory clean failed: {ex.Message}""",E,待结合上下文和调用链核实
-06703843ad8aecf4a579,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1221,dynamic_entry,"StatusMessage = $""{action.Trim().TrimEnd('.')}..."";",E,待结合上下文和调用链核实
-f455aea8ac77531d1f32,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1221,cs_literal,"$""{action.Trim().TrimEnd('.')}...""",E,待结合上下文和调用链核实
-2f9fb9b7f55d58970228,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1226,dynamic_entry,"StatusMessage = string.IsNullOrWhiteSpace(details) ? ""Done"" : $""Done: {details}"";",E,待结合上下文和调用链核实
-5444681e88c056f6c658,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1226,cs_literal,"""Done""",E,待结合上下文和调用链核实
-6d98cf84237df42e39ec,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1226,cs_literal,"$""Done: {details}""",E,待结合上下文和调用链核实
-9125ce1cf696179ecd62,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1231,dynamic_entry,"StatusMessage = $""Failed: {reason}"";",E,待结合上下文和调用链核实
-c4843206a3c787fe0df7,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1231,cs_literal,"$""Failed: {reason}""",E,待结合上下文和调用链核实
+f9c0ca3da811d7612aff,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,521,cs_literal,"$""{AutoCleanThreshold}%""",E,待结合上下文和调用链核实
+62ff4ddaf3b6f89af1f0,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,549,cs_literal,"$""Profile default ({GetAutoCleanCooldownMinutes(profile)} min)""",E,待结合上下文和调用链核实
+bf80a5c35bd73207e098,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,552,cs_literal,"$""{AutoCleanCooldownMinutes} min""",E,待结合上下文和调用链核实
+70c71bf2735a59e41e4a,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,556,cs_literal,"""Aggressive""",E,待结合上下文和调用链核实
+75f9d1809f1c126e0892,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,556,cs_literal,"""Balanced""",E,待结合上下文和调用链核实
+d10b8adb1372ad2db9a3,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,556,cs_literal,"""Conservative""",E,待结合上下文和调用链核实
+0ef3c717cbca97904e55,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,556,cs_literal,"""OffPeakOnly""",E,待结合上下文和调用链核实
+22ebb222dd14718d525e,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,556,cs_literal,"""Manual""",E,待结合上下文和调用链核实
+74ae72ce0bcbd349af7f,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,563,cs_literal,"""Balanced""",E,待结合上下文和调用链核实
+0bdf0cadcfab66b07463,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,598,cs_literal,"""On: fullscreen and borderless games get light working-set trims unless memory pressure is critical.""",E,待结合上下文和调用链核实
+e06329b3a25f2bbfbcd9,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,599,cs_literal,"""Off: Smart Clean can run the full safe cleanup profile while a game is in the foreground.""",E,待结合上下文和调用链核实
+3f3959c43ffa3facfffc,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,621,cs_literal,"""Memory compression status unavailable""",E,待结合上下文和调用链核实
+d78095bf86248fa6d90e,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,622,cs_literal,"""Enabled""",E,待结合上下文和调用链核实
+b13fda7bc3af8ac99d2a,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,622,cs_literal,"""Disabled""",E,待结合上下文和调用链核实
+78502b3836e395e65e87,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,703,cs_literal,"""Conservative""",E,待结合上下文和调用链核实
+dfcd6f52ec71b1eadc60,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,704,cs_literal,"""Conservative""",E,待结合上下文和调用链核实
+5565dc5672803cb80d67,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,709,cs_literal,"""Balanced""",E,待结合上下文和调用链核实
+45ddc72034dd8980421b,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,710,cs_literal,"""Balanced""",E,待结合上下文和调用链核实
+9f622a6a9f71de14d1b1,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,715,cs_literal,"""Aggressive""",E,待结合上下文和调用链核实
+bf678631a49b23f10fbe,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,716,cs_literal,"""Aggressive""",E,待结合上下文和调用链核实
+d291fd32e6875afe6337,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,741,cs_literal,"""Tip: exclude apps you keep open (games, capture, chat, anti-cheat). You can add from the top-process list or type a process name without .exe.""",E,待结合上下文和调用链核实
+6fc84f7328ccf5492f21,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,742,cs_literal,"$""{ExcludedProcesses.Count} process exclusions active. Add more from the top-process list to avoid repeated working-set trims.""",E,待结合上下文和调用链核实
+42a4883fb68d3ae257ef,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,745,cs_literal,"$""Suggested exclusions from current top processes: {string.Join(""",E,待结合上下文和调用链核实
+7aa2bd8f66a296dff5f0,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,745,cs_literal,""", suggestions)}.""",E,待结合上下文和调用链核实
+0102f724a8433aedc19f,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,776,cs_literal,"""Conservative""",E,待结合上下文和调用链核实
+6ce126e18222075ed1fc,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,777,cs_literal,"""Balanced""",E,待结合上下文和调用链核实
+928d4b1aa9d4e63650d4,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,778,cs_literal,"""Aggressive""",E,待结合上下文和调用链核实
+4c9abc62ac3d271e98eb,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,795,cs_literal,"$""Failed to update cleanup preview: {ex.Message}""",E,待结合上下文和调用链核实
+0634efd45786c1a0caca,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,888,cs_literal,"$""Excluded {NormalizeProcessName(process.ProcessName)} from working-set trims""",E,待结合上下文和调用链核实
+9dd50196255166047c00,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,953,cs_literal,""".exe""",E,待结合上下文和调用链核实
+8b0b668804240fa8e5a5,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,985,cs_literal,"""Enabling memory compression""",E,待结合上下文和调用链核实
+a14c638636e1f7a2a0f3,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,985,cs_literal,"""Disabling memory compression""",E,待结合上下文和调用链核实
+8f4d366df083b1af8cd4,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,989,cs_literal,"""Failed to change memory compression state""",E,待结合上下文和调用链核实
+ff4632f332c7c080a7ed,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,995,cs_literal,"$""Memory compression {(target ? """,E,待结合上下文和调用链核实
+69cc864a1193de0e50f6,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,995,cs_literal,"""disabled""",E,待结合上下文和调用链核实
+e88c50eebe9d4317664e,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1033,cs_literal,"$""Failed to refresh memory info: {ex.Message}""",E,待结合上下文和调用链核实
+fef4641777e2dee465e8,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1051,cs_literal,"""MemoryOptimizerViewModel""",E,待结合上下文和调用链核实
+27608ac54109cd485a16,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1052,cs_literal,"""Refreshes memory optimizer telemetry while the page is visible""",E,待结合上下文和调用链核实
+a1d3dc5aeec069003911,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1107,cs_literal,"$""Failed to update top memory hogs: {ex.Message}""",E,待结合上下文和调用链核实
+e12a6f1f33def127e740,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1146,cs_literal,"$""Copied {process.ProcessName}""",E,待结合上下文和调用链核实
+7f1d5ac951668b758853,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1150,cs_literal,"$""Failed to copy process name: {ex.Message}""",E,待结合上下文和调用链核实
+e348a73f5c2e172140cc,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1172,cs_literal,"""Process location unavailable""",E,待结合上下文和调用链核实
+09c731615ae81479ddf4,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1176,cs_literal,"""explorer.exe""",E,待结合上下文和调用链核实
+4bc336ff8b8b70387c56,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1176,cs_literal,"$""/select,\""{executablePath}\""""",E,待结合上下文和调用链核实
+10409c39998f2defb92a,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1180,cs_literal,"$""Failed to open process location: {ex.Message}""",E,待结合上下文和调用链核实
+8e957e5a026a30d6282c,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1181,cs_literal,"""Failed to open process location""",E,待结合上下文和调用链核实
+dc1f611f840906c5fa1f,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1190,cs_literal,"""Cleaning memory""",E,待结合上下文和调用链核实
+54b179f272cfd23921f3,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1196,cs_literal,"$""Freed {result.FreedMB} MB""",E,待结合上下文和调用链核实
+7ebceeae5932d359ddd3,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1208,cs_literal,"$""Memory clean failed: {ex.Message}""",E,待结合上下文和调用链核实
+06703843ad8aecf4a579,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1224,dynamic_entry,"StatusMessage = $""{action.Trim().TrimEnd('.')}..."";",E,待结合上下文和调用链核实
+f455aea8ac77531d1f32,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1224,cs_literal,"$""{action.Trim().TrimEnd('.')}...""",E,待结合上下文和调用链核实
+2f9fb9b7f55d58970228,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1229,dynamic_entry,"StatusMessage = string.IsNullOrWhiteSpace(details) ? ""Done"" : $""Done: {details}"";",E,待结合上下文和调用链核实
+5444681e88c056f6c658,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1229,cs_literal,"""Done""",E,待结合上下文和调用链核实
+6d98cf84237df42e39ec,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1229,cs_literal,"$""Done: {details}""",E,待结合上下文和调用链核实
+9125ce1cf696179ecd62,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1234,dynamic_entry,"StatusMessage = $""Failed: {reason}"";",E,待结合上下文和调用链核实
+c4843206a3c787fe0df7,src/OmenCoreApp/ViewModels/MemoryOptimizerViewModel.cs,1234,cs_literal,"$""Failed: {reason}""",E,待结合上下文和调用链核实
 17a1bba38b5a30cdde5c,src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,36,cs_literal,"""MAX""",E,待结合上下文和调用链核实
 47da16b09b598b0aa66d,src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,38,cs_literal,"""CURRENT""",E,待结合上下文和调用链核实
 3f5cd28768e92efa8bbb,src/OmenCoreApp/ViewModels/NvidiaPowerViewModel.cs,40,cs_literal,"""remove MAX override""",E,待结合上下文和调用链核实
@@ -8312,7 +8322,7 @@ c31410451f68e6ec6263,src/OmenCoreApp/Views/LightingView.xaml,80,ToolTip,{Binding
 a5fdb860ee5cd2abebb3,src/OmenCoreApp/Views/LightingView.xaml,92,Text,OMEN Keyboard,E,待结合上下文和调用链核实
 a856d44632a9e7a10830,src/OmenCoreApp/Views/LightingView.xaml,102,ToolTip,{Binding LastRgbSyncDetail},C,绑定或资源标识；绑定值仍需追踪
 f1455154c31a92584b14,src/OmenCoreApp/Views/LightingView.xaml,117,Text,{Binding LastRgbSyncVisualLabel},C,绑定或资源标识；绑定值仍需追踪
-88978976262dabf9a1ff,src/OmenCoreApp/Views/LightingView.xaml,121,Text,{Binding LastRgbSyncSummary},C,绑定或资源标识；绑定值仍需追踪
+2f0095ee72c2ddfa4bb5,src/OmenCoreApp/Views/LightingView.xaml,121,Text,{Binding LastRgbSyncDisplay},C,绑定或资源标识；绑定值仍需追踪
 ac08a67c4dfec3890d8c,src/OmenCoreApp/Views/LightingView.xaml,125,Text,{Binding LastRgbSyncDetail},C,绑定或资源标识；绑定值仍需追踪
 baee400dd362fdfad413,src/OmenCoreApp/Views/LightingView.xaml,137,Text,{Binding RgbSyncParticipantSummary},C,绑定或资源标识；绑定值仍需追踪
 4656d51484267f6d0fbd,src/OmenCoreApp/Views/LightingView.xaml,158,Text,Control ownership,E,待结合上下文和调用链核实
@@ -8733,8 +8743,8 @@ f87269ff1d8a2f46d1b0,src/OmenCoreApp/Views/MainWindow.xaml.cs,485,cs_literal,"""
 833f9089ed5bfb6bc0bf,src/OmenCoreApp/Views/MainWindow.xaml.cs,757,cs_literal,"$""[MainWindow] Ignored transient title-bar drag failure: {ex.Message}""",E,待结合上下文和调用链核实
 34a358dfb5ed6416ca48,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,27,Text,{x:Static loc:Strings.MemoryViewText26},D,已有 Strings 资源引用；译文和显示仍需验证
 4cf193688e4be28247b4,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,29,Text,{x:Static loc:Strings.MemoryViewText28},D,已有 Strings 资源引用；译文和显示仍需验证
-a5e01c6c1ca1f157ee4e,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,49,Text,{Binding StatusMessage},C,绑定或资源标识；绑定值仍需追踪
-b42e205a8addd479221f,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,57,Text,{Binding StatusMessage},C,绑定或资源标识；绑定值仍需追踪
+d7e3030f423dfd9c68cc,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,49,Text,{Binding StatusMessageDisplay},C,绑定或资源标识；绑定值仍需追踪
+121ac8479f56bd431df5,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,57,Text,{Binding StatusMessageDisplay},C,绑定或资源标识；绑定值仍需追踪
 d75302347aefe5d56b02,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,78,Text,{x:Static loc:Strings.MemoryViewText77},D,已有 Strings 资源引用；译文和显示仍需验证
 765f5368d933e2219097,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,100,Text,"{Binding MemoryLoadText, Mode=OneWay}",C,绑定或资源标识；绑定值仍需追踪
 14adfae19c079d0d7854,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,108,Text,"{Binding UsedPhysicalGB, Mode=OneWay}",C,绑定或资源标识；绑定值仍需追踪
@@ -8748,10 +8758,10 @@ e788c11b81f1ad4f74df,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,159,Text,MB,
 66abfa6095302d520b08,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,168,Text,{Binding CommitText},C,绑定或资源标识；绑定值仍需追踪
 25cfa280c917843344d3,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,176,Text,{x:Static loc:Strings.MemoryViewText175},D,已有 Strings 资源引用；译文和显示仍需验证
 5456f9c7b4c3a6bb6233,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,177,Text,{Binding PageFileText},C,绑定或资源标识；绑定值仍需追踪
-f4fcd36f5e517c9cf507,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,193,Text,{Binding LastCleanResult},C,绑定或资源标识；绑定值仍需追踪
+8d30605ce4a4150383ea,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,193,Text,{Binding LastCleanResultDisplay},C,绑定或资源标识；绑定值仍需追踪
 63dd19c6d4fb23c3e752,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,199,ToolTip,{x:Static loc:Strings.MemoryViewText198},D,已有 Strings 资源引用；译文和显示仍需验证
-17274d7c45ad631d41bf,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,202,AutomationProperties.Name,Copy last memory clean result,E,待结合上下文和调用链核实
-5ed4566cb4e3f32ac3fb,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,203,AutomationProperties.HelpText,Copies the latest memory clean summary to the clipboard,E,待结合上下文和调用链核实
+e64447647a3bca5af6b3,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,202,AutomationProperties.Name,{x:Static loc:Strings.MemoryCopyResultName},D,已有 Strings 资源引用；译文和显示仍需验证
+f4c38e41777933e13828,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,203,AutomationProperties.HelpText,{x:Static loc:Strings.MemoryCopyResultHelp},D,已有 Strings 资源引用；译文和显示仍需验证
 b03e36d65b509b15c8d0,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,212,ToolTip,{x:Static loc:Strings.MemoryViewText211},D,已有 Strings 资源引用；译文和显示仍需验证
 6aa539215afb8e9b1016,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,216,Text,{x:Static loc:Strings.MemoryViewText215},D,已有 Strings 资源引用；译文和显示仍需验证
 67d590443ae193c912fc,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,224,ToolTip,{x:Static loc:Strings.MemoryViewText223},D,已有 Strings 资源引用；译文和显示仍需验证
@@ -8838,7 +8848,7 @@ b1b50edd7895bdd0fcfe,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,683,Content,
 90dedd614c39de65ae58,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,724,Text,"trims process working sets, purges low-priority standby pages, and combines identical memory pages. These operations are safe and won't cause application issues.",E,待结合上下文和调用链核实
 1d0fd1532e72c5951c32,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,728,text_node,Deep Clean,E,待结合上下文和调用链核实
 47b6ffd2ea2427fb4d1d,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,729,Text,"additionally purges all standby pages, flushes the system file cache, and writes modified pages to disk. This may cause a brief stutter as data is re-cached.",E,待结合上下文和调用链核实
-83a5886061ec0b044f73,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,750,Text,{Binding StatusMessage},C,绑定或资源标识；绑定值仍需追踪
+127831a3b60c13d3d203,src/OmenCoreApp/Views/MemoryOptimizerView.xaml,750,Text,{Binding StatusMessageDisplay},C,绑定或资源标识；绑定值仍需追踪
 88a23b82045796e85892,src/OmenCoreApp/Views/OnboardingWindow.xaml,4,Title,Welcome to OmenCore,E,待结合上下文和调用链核实
 a2fb1d6a3f9bb965a28e,src/OmenCoreApp/Views/OnboardingWindow.xaml,28,Text,OmenCore Setup,E,待结合上下文和调用链核实
 db89d783eb2e4bba3252,src/OmenCoreApp/Views/OnboardingWindow.xaml,47,Text,👋 Welcome!,E,待结合上下文和调用链核实

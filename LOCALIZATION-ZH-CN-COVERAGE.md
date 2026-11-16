@@ -44,3 +44,5 @@
 全局范围还包括托盘菜单、OSD、通知、更新服务及非 View 生成的对话框；这些调用链尚未逐项验收。
 审计快照 `LOCALIZATION-ZH-CN-AUDIT-SNAPSHOT.csv` 由 `scripts/audit-localization.py` 生成，ID 由路径、来源、原文与同文序号计算；纯移动行号通常不变，同一文件中重复原文的插入或修改会使序号变化。快照是候选，不是覆盖率。
 扫描是正则初筛，不能保证覆盖跨行 XAML 属性、嵌套 markup extension、所有 C# 原始字符串、运行时拼接与外部资源；技术值、日志和未使用页面混在 E 类中，必须人工追踪。
+
+结构化 XAML 初筛：`LOCALIZATION-ZH-CN-XAML-STRUCTURED.csv` 由 `scripts/audit-xaml-structured.py` 基于 XML 命名空间与元素路径生成，覆盖可见属性、辅助功能名称/说明、文本节点及部分绑定 StringFormat。路径中的同名兄弟序号可能因插入控件而变化；E 类须人工核实，XML 解析不证明 WPF 运行时可见性。C# 目前仍是正则候选，尚未完成 Roslyn 语义追踪。
