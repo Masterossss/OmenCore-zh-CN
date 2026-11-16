@@ -146,3 +146,10 @@
 - 内存页面自动清理配置选项、趋势及清理说明已接入资源；XAML 结构化核查剩余 MB 单位，code-behind 未发现用户文本。清理完成通知及历史仍由核心 NotificationService 使用英文生成，故尚未关闭模块。
 - 软件清理页面固定辅助名称、还原点创建/复用及完整/部分回滚摘要已处理；XAML 结构化核查未发现固定英文。未知回滚细节保持原文；服务状态、数据模型和对话框调用链仍需完整核查。
 - 本次新增 23 个资源，Debug 构建成功，32 项相关纯软件测试通过；未执行 Release、GUI、实际清理、卸载或还原。代码提交 1be1a21、6eb2d08；下一步处理内存通知显示/历史链与软件清理动态结果，并继续灯光和系统优化。
+
+## 第九阶段检查点（未完成）
+
+- 内存通知调用链：MemoryOptimizerViewModel.CleanCompleted → NotificationService.ShowMemoryCleaned；核心方法分别生成 Toast、AddInfo 历史及日志。托盘 GetRecentNotifications 直接读取 Title/Message。当前接口未提供只替换 Toast 显示、同时保留原历史及日志的注入点；英文通知仍为阻碍。已确认结果显示映射、原始剪贴板及既有纯软件测试，实际通知/历史中文转换测试未执行。
+- 软件清理：新增批量删除完成、取消、回滚失败摘要的显示映射；风险枚举由 WPF 转换器呈现，原枚举及 DataTrigger 保持；预览标题、预计耗时、进度和依赖提示接入资源。未知详情保留原文。列表仍直接绑定核心模型的 Category、Type、Description、LastRemovalDetail；服务元数据及所有调用方未审计完。
+- 新增 20 个资源；Debug 0 错误/警告，33 项相关纯软件测试通过。未执行 Release、GUI、清理、卸载或系统恢复。两个模块静态 XAML 已核查，动态与风险调用链尚未穷尽，均不能标记源码完成；应用层历史差异尚未完整审计。
+- 准确恢复位置：先设计不修改核心原始历史及日志语义的内存 Toast/历史显示适配并测试；再追踪 BloatwareManagerView.xaml 的 Category、Type、Description、LastRemovalDetail 绑定及对应目录/服务结果，完成确认和回滚风险复核。代码提交 b367ffd、4ff61bb、54b879d。
