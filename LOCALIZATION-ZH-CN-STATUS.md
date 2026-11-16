@@ -43,3 +43,11 @@
 - 设置页复用 140 个静态候选（其中 PawnIO-Only 译文已修正），风扇诊断动态状态新增 13 个资源。本轮新增 153 键，中文资源总数 704。清单最初 1263 个属性候选中，554 已迁移、19 保留、690 待核实；动态入口另有 239 条待审查，不等于未翻译总数。
 - 本轮 Debug 解决方案构建通过，0 错误、0 警告；本地化测试 9 项通过。未运行硬件测试、未验证 GUI，不满足最终发布条件。
 - 下一步：逐条复核本轮设置页译文及资源绑定、标点和布局；继续 FanDiagnosticsViewModel 的诊断报告正文与温度阻止提示，审查 TuningViewModel、FanControlViewModel、GeneralViewModel 和游戏配置动态文本；再处理 Lighting、MemoryOptimizer、SystemOptimizer、Bloatware、托盘和 OSD。映射表及动态候选表的行号是扫描时位置，修改后需重新定位原文。
+
+## 动态文字专项检查点（未完成）
+
+- 在 ea776a5 之后，新增 86 个资源，中文资源共 790 个；覆盖风扇诊断过热提示、风扇曲线与预设对话框和校验警告、NVIDIA 功率确认及部分状态、GPU 诊断两项风险确认框、游戏配置验证与对话框。服务返回的原因和诊断正文仍可能为英文。
+- 动态候选清单从原始 239 个入口补充到 247 行：A 38、C 8、D 10、E 191；其中 47 已资源化、8 已核实、1 部分资源化、191 待审查。它是调用和赋值入口的审计记录，不是未翻译字符串总数。静态候选 1263 行中 A 554、B 19、E 690。
+- 最终 Debug 解决方案构建 0 错误、0 警告；本地化及 NVIDIA 状态纯软件测试共 16 项通过。曾发现既有 NVIDIA 状态测试依赖系统英文，已改为分别指定英文和中文文化并复测通过。
+- 下一步从 NvidiaPowerService 的 `Reason`/`Outcome.Message`、GpuClampViewModel 的服务返回文字和 FanDiagnosticsViewModel 的 GuidedTestResult/诊断报告正文继续，先追踪是否同时用于日志或结构化导出；再审查 SystemControlViewModel 的 CPU/GPU 调校反馈，以及 Lighting、MemoryOptimizer、SystemOptimizer、Bloatware、托盘和 OSD。
+- 未执行真实 GUI 验证、实际硬件测试、驱动安装或最终发布打包；请勿将现有构建等同于完整验收。
