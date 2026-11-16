@@ -1320,5 +1320,15 @@ namespace OmenCore.Localization
         public static string TrayClearNotifications => Get(nameof(TrayClearNotifications));
         public static string TrayReportProblem => Get(nameof(TrayReportProblem));
         public static string TrayAdvanced => Get(nameof(TrayAdvanced));
+        public static string LightReadyRestore => Get(nameof(LightReadyRestore));
+        public static string LightNoObservation => Get(nameof(LightNoObservation));
+        public static string LightUnavailableBackend => Get(nameof(LightUnavailableBackend));
+        public static string LightUnavailableRestore => Get(nameof(LightUnavailableRestore));
+        public static string LightProbeUnavailable => Get(nameof(LightProbeUnavailable));
+        public static string LightObservationConfig => Get(nameof(LightObservationConfig));
+        public static string LightObservationError => Get(nameof(LightObservationError));
+        public static string LightCorsairUnconfigured => Get(nameof(LightCorsairUnconfigured));
+        public static string LightLogitechUnconfigured => Get(nameof(LightLogitechUnconfigured));
+        public static string LightRazerUnconfigured => Get(nameof(LightRazerUnconfigured));
     }
 }

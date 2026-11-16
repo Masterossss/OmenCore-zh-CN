@@ -1456,4 +1456,14 @@
   <data name="TrayClearNotifications" xml:space="preserve"><value>全部清除</value></data>
   <data name="TrayReportProblem" xml:space="preserve"><value>报告问题</value></data>
   <data name="TrayAdvanced" xml:space="preserve"><value>高级</value></data>
+  <data name="LightReadyRestore" xml:space="preserve"><value>已准备恢复保存的键盘颜色。</value></data>
+  <data name="LightNoObservation" xml:space="preserve"><value>尚未记录 RGB 灯光区域观察结果。</value></data>
+  <data name="LightUnavailableBackend" xml:space="preserve"><value>当前后端不支持键盘灯光。</value></data>
+  <data name="LightUnavailableRestore" xml:space="preserve"><value>键盘灯光不可用；请检查后端检测结果或“设置 &gt; 硬件”。</value></data>
+  <data name="LightProbeUnavailable" xml:space="preserve"><value>没有启用的 HP 键盘灯光后端，无法进行 RGB 探测。</value></data>
+  <data name="LightObservationConfig" xml:space="preserve"><value>配置不可用，无法保存 RGB 观察结果。</value></data>
+  <data name="LightObservationError" xml:space="preserve"><value>RGB 观察结果保存失败：{0}</value></data>
+  <data name="LightCorsairUnconfigured" xml:space="preserve"><value>尚未配置 Corsair iCUE</value></data>
+  <data name="LightLogitechUnconfigured" xml:space="preserve"><value>尚未配置 Logitech G HUB</value></data>
+  <data name="LightRazerUnconfigured" xml:space="preserve"><value>尚未配置 Razer Synapse</value></data>
 </root>

@@ -351,6 +351,22 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void LightingStatusDisplaysKnownFailuresAndPreservesUnknownDetails()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                LightingStatusDisplayText.Translate("Keyboard lighting is unavailable on this backend.").Should().Contain("不支持");
+                LightingStatusDisplayText.Translate("RGB observation save failed: access denied").Should().Be("RGB 观察结果保存失败：access denied");
+                LightingStatusDisplayText.Translate("Backend accepted write but verification failed").Should().Be("Backend accepted write but verification failed");
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                LightingStatusDisplayText.Translate("RGB observation save failed: access denied").Should().Be("RGB observation save failed: access denied");
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void LightingDisplayDistinguishesCompletePartialFailureAndUnknown()
         {
             var original = CultureInfo.CurrentUICulture;

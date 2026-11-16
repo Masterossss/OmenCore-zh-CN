@@ -60,7 +60,7 @@
                     <!-- Connection Status Badges — shown for all enabled providers with status-aware color -->
                     <Border Background="#0D000000" BorderBrush="{Binding CorsairStatusBrush}" BorderThickness="1" 
                             CornerRadius="10" Padding="10,4" Margin="0,0,8,0"
-                            ToolTip="{Binding CorsairStatusDetail}"
+                            ToolTip="{Binding CorsairStatusDetailDisplay}"
                             Visibility="{Binding IsCorsairEnabled, Converter={StaticResource BooleanToVisibilityConverter}}">
                         <StackPanel Orientation="Horizontal">
                             <Ellipse Fill="{Binding CorsairStatusBrush}" Style="{StaticResource ConnectionIndicator}"/>
@@ -69,7 +69,7 @@
                     </Border>
                     <Border Background="#0D000000" BorderBrush="{Binding LogitechStatusBrush}" BorderThickness="1" 
                             CornerRadius="10" Padding="10,4" Margin="0,0,8,0"
-                            ToolTip="{Binding LogitechStatusDetail}"
+                            ToolTip="{Binding LogitechStatusDetailDisplay}"
                             Visibility="{Binding IsLogitechEnabled, Converter={StaticResource BooleanToVisibilityConverter}}">
                         <StackPanel Orientation="Horizontal">
                             <Ellipse Fill="{Binding LogitechStatusBrush}" Style="{StaticResource ConnectionIndicator}"/>
@@ -78,7 +78,7 @@
                     </Border>
                     <Border Background="#0D000000" BorderBrush="{Binding RazerStatusBrush}" BorderThickness="1" 
                             CornerRadius="10" Padding="10,4" Margin="0,0,8,0"
-                            ToolTip="{Binding RazerStatusDetail}"
+                            ToolTip="{Binding RazerStatusDetailDisplay}"
                             Visibility="{Binding IsRazerEnabled, Converter={StaticResource BooleanToVisibilityConverter}}">
                         <StackPanel Orientation="Horizontal">
                             <Ellipse Fill="{Binding RazerStatusBrush}" Style="{StaticResource ConnectionIndicator}"/>
@@ -212,7 +212,7 @@
                             </Grid.ColumnDefinitions>
 
                             <TextBlock Grid.Column="0"
-                                       Text="{Binding KeyboardRestoreStatusText}"
+                                       Text="{Binding KeyboardRestoreStatusTextDisplay}"
                                        FontSize="10"
                                        Foreground="{StaticResource TextTertiaryBrush}"
                                        TextWrapping="Wrap"
@@ -250,7 +250,7 @@
                                                FontSize="11"
                                                FontWeight="SemiBold"
                                                Foreground="{StaticResource TextPrimaryBrush}"/>
-                                    <TextBlock Text="{Binding RgbSurfaceObservationStatusText}"
+                                    <TextBlock Text="{Binding RgbSurfaceObservationStatusTextDisplay}"
                                                FontSize="10"
                                                Foreground="{StaticResource TextTertiaryBrush}"
                                                TextWrapping="Wrap"
@@ -327,27 +327,27 @@
                             </Grid.ColumnDefinitions>
 
                             <TextBlock Grid.Column="0"
-                                       Text="{Binding CorsairStatusDetail}"
+                                       Text="{Binding CorsairStatusDetailDisplay}"
                                        FontSize="10"
                                        Foreground="{StaticResource TextTertiaryBrush}"
                                        TextTrimming="CharacterEllipsis"
-                                       ToolTip="{Binding CorsairStatusDetail}"
+                                       ToolTip="{Binding CorsairStatusDetailDisplay}"
                                        Margin="0,0,8,0"
                                        Visibility="{Binding IsCorsairEnabled, Converter={StaticResource BooleanToVisibilityConverter}}"/>
                             <TextBlock Grid.Column="1"
-                                       Text="{Binding LogitechStatusDetail}"
+                                       Text="{Binding LogitechStatusDetailDisplay}"
                                        FontSize="10"
                                        Foreground="{StaticResource TextTertiaryBrush}"
                                        TextTrimming="CharacterEllipsis"
-                                       ToolTip="{Binding LogitechStatusDetail}"
+                                       ToolTip="{Binding LogitechStatusDetailDisplay}"
                                        Margin="0,0,8,0"
                                        Visibility="{Binding IsLogitechEnabled, Converter={StaticResource BooleanToVisibilityConverter}}"/>
                             <TextBlock Grid.Column="2"
-                                       Text="{Binding RazerStatusDetail}"
+                                       Text="{Binding RazerStatusDetailDisplay}"
                                        FontSize="10"
                                        Foreground="{StaticResource TextTertiaryBrush}"
                                        TextTrimming="CharacterEllipsis"
-                                       ToolTip="{Binding RazerStatusDetail}"
+                                       ToolTip="{Binding RazerStatusDetailDisplay}"
                                        Visibility="{Binding IsRazerEnabled, Converter={StaticResource BooleanToVisibilityConverter}}"/>
                         </Grid>
                     </StackPanel>
@@ -546,10 +546,10 @@
                                        Foreground="{StaticResource TextPrimaryBrush}" VerticalAlignment="Center"/>
                             <Border Background="#0D000000" CornerRadius="8" Padding="8,3" Margin="12,0,0,0" VerticalAlignment="Center"
                                     BorderBrush="{Binding CorsairStatusBrush}" BorderThickness="1"
-                                    ToolTip="{Binding CorsairStatusDetail}">
+                                    ToolTip="{Binding CorsairStatusDetailDisplay}">
                                 <StackPanel Orientation="Horizontal">
                                     <Ellipse Fill="{Binding CorsairStatusBrush}" Width="7" Height="7" VerticalAlignment="Center" Margin="0,0,5,0"/>
-                                    <TextBlock Text="{Binding CorsairStatusDetail}" FontSize="10" Foreground="{Binding CorsairStatusBrush}"/>
+                                    <TextBlock Text="{Binding CorsairStatusDetailDisplay}" FontSize="10" Foreground="{Binding CorsairStatusBrush}"/>
                                 </StackPanel>
                             </Border>
                             <ToggleButton IsChecked="{Binding CorsairCardEnabled, Mode=TwoWay}"
@@ -799,10 +799,10 @@
                                        Foreground="{StaticResource TextPrimaryBrush}" VerticalAlignment="Center"/>
                             <Border Background="#0D000000" CornerRadius="8" Padding="8,3" Margin="12,0,0,0" VerticalAlignment="Center"
                                     BorderBrush="{Binding LogitechStatusBrush}" BorderThickness="1"
-                                    ToolTip="{Binding LogitechStatusDetail}">
+                                    ToolTip="{Binding LogitechStatusDetailDisplay}">
                                 <StackPanel Orientation="Horizontal">
                                     <Ellipse Fill="{Binding LogitechStatusBrush}" Width="7" Height="7" VerticalAlignment="Center" Margin="0,0,5,0"/>
-                                    <TextBlock Text="{Binding LogitechStatusDetail}" FontSize="10" Foreground="{Binding LogitechStatusBrush}"/>
+                                    <TextBlock Text="{Binding LogitechStatusDetailDisplay}" FontSize="10" Foreground="{Binding LogitechStatusBrush}"/>
                                 </StackPanel>
                             </Border>
                             <ToggleButton IsChecked="{Binding LogitechCardEnabled, Mode=TwoWay}"
@@ -967,10 +967,10 @@
                                        Foreground="{StaticResource TextPrimaryBrush}" VerticalAlignment="Center"/>
                             <Border Background="#0D000000" CornerRadius="8" Padding="8,3" Margin="12,0,0,0" VerticalAlignment="Center"
                                     BorderBrush="{Binding RazerStatusBrush}" BorderThickness="1"
-                                    ToolTip="{Binding RazerStatusDetail}">
+                                    ToolTip="{Binding RazerStatusDetailDisplay}">
                                 <StackPanel Orientation="Horizontal">
                                     <Ellipse Fill="{Binding RazerStatusBrush}" Width="7" Height="7" VerticalAlignment="Center" Margin="0,0,5,0"/>
-                                    <TextBlock Text="{Binding RazerStatusDetail}" FontSize="10" Foreground="{Binding RazerStatusBrush}"/>
+                                    <TextBlock Text="{Binding RazerStatusDetailDisplay}" FontSize="10" Foreground="{Binding RazerStatusBrush}"/>
                                 </StackPanel>
                             </Border>
                             <ToggleButton IsChecked="{Binding RazerCardEnabled, Mode=TwoWay}"

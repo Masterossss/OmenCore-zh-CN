@@ -414,12 +414,15 @@ namespace OmenCore.ViewModels
             };
 
         public System.Windows.Media.SolidColorBrush CorsairStatusBrush => StatusToBrush(GetProviderStatus("corsair"));
+        public string CorsairStatusDetailDisplay => OmenCore.Localization.LightingStatusDisplayText.Translate(CorsairStatusDetail);
         public string CorsairStatusDetail => _rgbManager?.GetProvider("corsair")?.StatusDetail ?? "Corsair iCUE not configured";
 
         public System.Windows.Media.SolidColorBrush LogitechStatusBrush => StatusToBrush(GetProviderStatus("logitech"));
+        public string LogitechStatusDetailDisplay => OmenCore.Localization.LightingStatusDisplayText.Translate(LogitechStatusDetail);
         public string LogitechStatusDetail => _rgbManager?.GetProvider("logitech")?.StatusDetail ?? "Logitech G HUB not configured";
 
         public System.Windows.Media.SolidColorBrush RazerStatusBrush => StatusToBrush(GetProviderStatus("razer"));
+        public string RazerStatusDetailDisplay => OmenCore.Localization.LightingStatusDisplayText.Translate(RazerStatusDetail);
         public string RazerStatusDetail => _rgbManager?.GetProvider("razer")?.StatusDetail ?? "Razer Synapse not configured";
 
         /// <summary>
@@ -806,10 +809,16 @@ namespace OmenCore.ViewModels
             }
         }
 
+        public string KeyboardRestoreStatusTextDisplay => OmenCore.Localization.LightingStatusDisplayText.Translate(KeyboardRestoreStatusText);
+
         public string KeyboardRestoreStatusText
         {
             get => _keyboardRestoreStatusText;
-            private set => SetProperty(ref _keyboardRestoreStatusText, value);
+            private set
+            {
+                if (SetProperty(ref _keyboardRestoreStatusText, value))
+                    OnPropertyChanged(nameof(KeyboardRestoreStatusTextDisplay));
+            }
         }
 
         public string SelectedObservedRgbSurface
@@ -818,10 +827,16 @@ namespace OmenCore.ViewModels
             set => SetProperty(ref _selectedObservedRgbSurface, value);
         }
 
+        public string RgbSurfaceObservationStatusTextDisplay => OmenCore.Localization.LightingStatusDisplayText.Translate(RgbSurfaceObservationStatusText);
+
         public string RgbSurfaceObservationStatusText
         {
             get => _rgbSurfaceObservationStatusText;
-            private set => SetProperty(ref _rgbSurfaceObservationStatusText, value);
+            private set
+            {
+                if (SetProperty(ref _rgbSurfaceObservationStatusText, value))
+                    OnPropertyChanged(nameof(RgbSurfaceObservationStatusTextDisplay));
+            }
         }
         
         /// <summary>
@@ -1783,10 +1798,13 @@ namespace OmenCore.ViewModels
             OnPropertyChanged(nameof(RgbSyncParticipantSummary));
             OnPropertyChanged(nameof(CorsairStatusBrush));
             OnPropertyChanged(nameof(CorsairStatusDetail));
+            OnPropertyChanged(nameof(CorsairStatusDetailDisplay));
             OnPropertyChanged(nameof(LogitechStatusBrush));
             OnPropertyChanged(nameof(LogitechStatusDetail));
+            OnPropertyChanged(nameof(LogitechStatusDetailDisplay));
             OnPropertyChanged(nameof(RazerStatusBrush));
             OnPropertyChanged(nameof(RazerStatusDetail));
+            OnPropertyChanged(nameof(RazerStatusDetailDisplay));
             OnPropertyChanged(nameof(OpenRgbStatusText));
             OnPropertyChanged(nameof(OpenRgbDeviceCount));
             OnPropertyChanged(nameof(HasOpenRgbDevices));
