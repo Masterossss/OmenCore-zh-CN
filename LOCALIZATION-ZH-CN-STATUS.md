@@ -88,3 +88,12 @@
 - 36 个覆盖矩阵条目均仍为进行中，尚不能证明任何模块满足完整静态和动态验收标准；旧候选清单存在未追踪入口，不能据此计算真实剩余英文总数。灯光设备反馈、内存优化服务错误、系统优化预检、软件清理还原、托盘/OSD 及硬件相关动态消息仍需逐条审查。
 - 未达到发布候选的静态翻译和安全审计条件，未生成 RC ZIP 或 SHA256。下一步从 LightingViewModel 设备状态及确认框、MemoryOptimizerViewModel 服务返回消息继续，随后审计 SystemOptimizerViewModel 预检及 BloatwareManagerViewModel 还原；对显示层映射核对所有消费者与未知消息回退。
 - 代码检查点：5b25c45、7b1b2f8、ca46604。
+
+## 第六阶段检查点（未完成）
+
+- 内存优化显示层新增清理进度、权限及并发错误、部分失败数量、进程位置、复制和压缩状态；原服务结果、日志及剪贴板数据未修改，未知错误继续原文回退。清理 delta 和其他动态内容尚未完成。
+- 托盘快捷配置、通知和报告问题入口，以及 OSD 热键来源、RTSS 不可用提示已汉化；实时状态、其他菜单和 OSD 调用方仍待审查。共新增 30 个资源，中文资源现 1289 键。
+- 覆盖矩阵增加逐文件纯软件测试维度，明确全局测试不代表逐页面验收；重点页面未完成静态及动态全审查，不能标记源码完成。已建立 LOCALIZATION-ZH-CN-REMAINING-UI.md，列出本轮确认的高优先级显示英文，但尚非穷尽清单。
+- 应用层差异抽查：系统优化和软件清理的已审查修改集中在确认对话框及显示摘要；仍有大量其他 ViewModel、日志和导出路径未完成逐项核查。不得据此断言应用层所有行为无差异。
+- Debug 和 Release 构建通过，均 0 错误 0 警告；26 项本地化和 NVIDIA 纯软件测试通过。GUI、DPI、真实设备和完整应用安全回归未执行；未生成 RC 或开发预览 ZIP。
+- 恢复位置：先处理 LightingViewModel 的 KeyboardRestoreStatusText 与 RgbSurfaceObservationStatusText 显示链；再处理 SystemOptimizerViewModel 预检格式与项目说明、BloatwareManagerViewModel 的状态及还原结果；托盘实时刷新和 OSD 的调用方也需追踪。提交：60ea920、33fd532、e7ff3d7。
