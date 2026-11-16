@@ -327,6 +327,30 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void MemoryNotificationToastAndHistoryLocalizeWithoutChangingRawValues()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            const string rawTitle = "Freed 1.5 GB";
+            const string rawMessage = "2 cleanup operations completed";
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                var toast = OmenCore.Services.MemoryNotificationDisplay.Format("1.5 GB", 2, typeof(Strings).Assembly);
+                var history = MemoryNotificationHistoryDisplay.Translate(rawTitle, rawMessage);
+                toast.Should().Be(("已释放 1.5 GB", "已完成 2 项清理操作"));
+                history.Should().Be(toast);
+                rawTitle.Should().Be("Freed 1.5 GB");
+                rawMessage.Should().Be("2 cleanup operations completed");
+                MemoryNotificationHistoryDisplay.Translate(rawTitle, "unknown").Should().Be((rawTitle, "unknown"));
+                OmenCore.Services.MemoryNotificationDisplay.Format("1.5 GB", 2, null).Should().Be((rawTitle, rawMessage));
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                OmenCore.Services.MemoryNotificationDisplay.Format("1.5 GB", 2, typeof(Strings).Assembly).Should().Be((rawTitle, rawMessage));
+                MemoryNotificationHistoryDisplay.Translate("Freed 1 MB", "1 cleanup operation completed").Should().Be(("Freed 1 MB", "1 cleanup operation completed"));
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void MemoryDisplayPreservesRawResultAndDistinguishesPartialFailure()
         {
             var original = CultureInfo.CurrentUICulture;

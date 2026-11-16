@@ -244,10 +244,11 @@ namespace OmenCore.Utils
                     {
                         foreach (var n in recent)
                         {
+                            var display = OmenCore.Localization.MemoryNotificationHistoryDisplay.Translate(n.Title, n.Message);
                             var item = new MenuItem
                             {
-                                Header = $"{n.Title} — {n.TimeAgo}",
-                                ToolTip = n.Message,
+                                Header = $"{display.Title} — {n.TimeAgo}",
+                                ToolTip = display.Message,
                                 FontWeight = n.IsRead ? FontWeights.Normal : FontWeights.Bold
                             };
                             var id = n.Id;

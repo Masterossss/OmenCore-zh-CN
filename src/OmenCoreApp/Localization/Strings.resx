@@ -1793,4 +1793,7 @@ Continue?</value></data>
   <data name="BloatDetail8" xml:space="preserve"><value>Scheduled task disabled successfully.</value></data>
   <data name="BloatDetail9" xml:space="preserve"><value>Restore canceled before completion.</value></data>
   <data name="BloatDetail10" xml:space="preserve"><value>Skipped because bulk restore was canceled before this item was processed.</value></data>
+  <data name="MemoryToastFreed" xml:space="preserve"><value>Freed {0}</value></data>
+  <data name="MemoryToastOperationOne" xml:space="preserve"><value>{0} cleanup operation completed</value></data>
+  <data name="MemoryToastOperationMany" xml:space="preserve"><value>{0} cleanup operations completed</value></data>
 </root>

@@ -175,9 +175,10 @@ namespace OmenCore.Services
             {
                 var freedDisplay = freedMB >= 1024 ? $"{freedMB / 1024.0:F1} GB" : $"{freedMB} MB";
 
+                var display = MemoryNotificationDisplay.Format(freedDisplay, operationsSucceeded);
                 new ToastContentBuilder()
-                    .AddText($"Freed {freedDisplay}")
-                    .AddText($"{operationsSucceeded} cleanup operation{(operationsSucceeded == 1 ? "" : "s")} completed")
+                    .AddText(display.Title)
+                    .AddText(display.Message)
                     .SetToastDuration(ToastDuration.Short)
                     .Show();
 

@@ -1785,4 +1785,7 @@
   <data name="BloatDetail8" xml:space="preserve"><value>计划任务已成功禁用。</value></data>
   <data name="BloatDetail9" xml:space="preserve"><value>还原在完成前已取消。</value></data>
   <data name="BloatDetail10" xml:space="preserve"><value>此项目处理前批量还原已取消，故已跳过。</value></data>
+  <data name="MemoryToastFreed" xml:space="preserve"><value>已释放 {0}</value></data>
+  <data name="MemoryToastOperationOne" xml:space="preserve"><value>已完成 {0} 项清理操作</value></data>
+  <data name="MemoryToastOperationMany" xml:space="preserve"><value>已完成 {0} 项清理操作</value></data>
 </root>

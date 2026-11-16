@@ -1649,5 +1649,8 @@ namespace OmenCore.Localization
         public static string BloatDetail8 => Get(nameof(BloatDetail8));
         public static string BloatDetail9 => Get(nameof(BloatDetail9));
         public static string BloatDetail10 => Get(nameof(BloatDetail10));
+        public static string MemoryToastFreed => Get(nameof(MemoryToastFreed));
+        public static string MemoryToastOperationOne => Get(nameof(MemoryToastOperationOne));
+        public static string MemoryToastOperationMany => Get(nameof(MemoryToastOperationMany));
     }
 }
