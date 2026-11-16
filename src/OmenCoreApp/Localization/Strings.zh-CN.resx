@@ -1472,4 +1472,8 @@
   <data name="BloatRestoreCount" xml:space="preserve"><value>完成：已还原 {0} 个预装软件项目</value></data>
   <data name="BloatRestorePartial" xml:space="preserve"><value>失败：批量还原结束，{0} 项失败；已还原 {1}/{2} 项。</value></data>
   <data name="BloatRestoreCanceled" xml:space="preserve"><value>失败：批量还原在 {0} 处取消；已完成 {1} 项，跳过 {2} 项。</value></data>
+  <data name="OptimizerPreflightDisplay" xml:space="preserve"><value>预检：低风险 {0} 项，中风险 {1} 项，高风险 {2} 项 | 需要重启：{3}</value></data>
+  <data name="OptimizerPreflightYes" xml:space="preserve"><value>是</value></data>
+  <data name="OptimizerPreflightNo" xml:space="preserve"><value>否</value></data>
+  <data name="OptimizerPreflightNoWarnings" xml:space="preserve"><value>没有其他预检警告。</value></data>
 </root>

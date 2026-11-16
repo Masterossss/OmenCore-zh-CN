@@ -29,6 +29,24 @@ namespace OmenCoreApp.Tests.ViewModels
         }
 
         [Fact]
+        public void DisplaySummaryPreservesRiskAndRebootAndUnknownWarnings()
+        {
+            var original = System.Globalization.CultureInfo.CurrentUICulture;
+            try
+            {
+                var report = new PreflightReport { Items = new[] {
+                    new PreflightItem { Id = "a", Risk = OptimizationRisk.High, RequiresReboot = true, Warning = "unknown warning" }
+                } };
+                System.Globalization.CultureInfo.CurrentUICulture = System.Globalization.CultureInfo.GetCultureInfo("zh-CN");
+                SystemOptimizerPreflightFormatter.BuildDisplaySummary(report).Should().Contain("高风险 1 项").And.Contain("需要重启：是");
+                SystemOptimizerPreflightFormatter.BuildDisplayWarningRollup(report).Should().Contain("unknown warning");
+                System.Globalization.CultureInfo.CurrentUICulture = System.Globalization.CultureInfo.GetCultureInfo("en");
+                SystemOptimizerPreflightFormatter.BuildDisplaySummary(report).Should().Be(SystemOptimizerPreflightFormatter.BuildSummary(report));
+            }
+            finally { System.Globalization.CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void BuildWarningRollup_UsesLimitAndReportsRemainder()
         {
             var report = new PreflightReport

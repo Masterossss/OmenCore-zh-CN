@@ -11,6 +11,20 @@ namespace OmenCore.ViewModels
             return $"Preflight: Low {report.LowRiskCount}, Medium {report.MediumRiskCount}, High {report.HighRiskCount}{rebootTag}";
         }
 
+        public static string BuildDisplaySummary(PreflightReport report)
+        {
+            return string.Format(OmenCore.Localization.Strings.OptimizerPreflightDisplay,
+                report.LowRiskCount, report.MediumRiskCount, report.HighRiskCount,
+                report.RequiresReboot ? OmenCore.Localization.Strings.OptimizerPreflightYes : OmenCore.Localization.Strings.OptimizerPreflightNo);
+        }
+
+        public static string BuildDisplayWarningRollup(PreflightReport report, int maxWarnings = 2)
+        {
+            return report.Warnings.Count == 0
+                ? OmenCore.Localization.Strings.OptimizerPreflightNoWarnings
+                : BuildWarningRollup(report, maxWarnings);
+        }
+
         public static string BuildWarningRollup(PreflightReport report, int maxWarnings = 2)
         {
             if (report.Warnings.Count == 0)

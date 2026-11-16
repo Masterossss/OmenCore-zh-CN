@@ -1336,5 +1336,9 @@ namespace OmenCore.Localization
         public static string BloatRestoreCount => Get(nameof(BloatRestoreCount));
         public static string BloatRestorePartial => Get(nameof(BloatRestorePartial));
         public static string BloatRestoreCanceled => Get(nameof(BloatRestoreCanceled));
+        public static string OptimizerPreflightDisplay => Get(nameof(OptimizerPreflightDisplay));
+        public static string OptimizerPreflightYes => Get(nameof(OptimizerPreflightYes));
+        public static string OptimizerPreflightNo => Get(nameof(OptimizerPreflightNo));
+        public static string OptimizerPreflightNoWarnings => Get(nameof(OptimizerPreflightNoWarnings));
     }
 }

@@ -1476,4 +1476,8 @@ Continue?</value></data>
   <data name="BloatRestoreCount" xml:space="preserve"><value>Done: Restored {0} bloatware items</value></data>
   <data name="BloatRestorePartial" xml:space="preserve"><value>Failed: Bulk restore finished with {0} failures. Restored {1}/{2} items.</value></data>
   <data name="BloatRestoreCanceled" xml:space="preserve"><value>Failed: Bulk restore canceled at {0}. {1} completed, {2} skipped.</value></data>
+  <data name="OptimizerPreflightDisplay" xml:space="preserve"><value>Preflight: Low {0}, Medium {1}, High {2} | Reboot: {3}</value></data>
+  <data name="OptimizerPreflightYes" xml:space="preserve"><value>Yes</value></data>
+  <data name="OptimizerPreflightNo" xml:space="preserve"><value>No</value></data>
+  <data name="OptimizerPreflightNoWarnings" xml:space="preserve"><value>No additional preflight warnings.</value></data>
 </root>

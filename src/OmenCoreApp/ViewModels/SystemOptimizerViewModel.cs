@@ -606,8 +606,8 @@ namespace OmenCore.ViewModels
 
             var msgResult = MessageBox.Show(
                 Strings.OptimizerMaxIntro +
-                $"{SystemOptimizerPreflightFormatter.BuildSummary(preflight)}\n" +
-                $"{SystemOptimizerPreflightFormatter.BuildWarningRollup(preflight)}\n\n" +
+                $"{SystemOptimizerPreflightFormatter.BuildDisplaySummary(preflight)}\n" +
+                $"{SystemOptimizerPreflightFormatter.BuildDisplayWarningRollup(preflight)}\n\n" +
                 Strings.OptimizerRestoreContinue,
                 Strings.OptimizerMaxTitle,
                 MessageBoxButton.YesNo,
@@ -735,8 +735,8 @@ namespace OmenCore.ViewModels
 
             var msgResult = MessageBox.Show(
                 Strings.OptimizerBalancedIntro +
-                $"{SystemOptimizerPreflightFormatter.BuildSummary(preflight)}\n" +
-                $"{SystemOptimizerPreflightFormatter.BuildWarningRollup(preflight)}\n\n" +
+                $"{SystemOptimizerPreflightFormatter.BuildDisplaySummary(preflight)}\n" +
+                $"{SystemOptimizerPreflightFormatter.BuildDisplayWarningRollup(preflight)}\n\n" +
                 Strings.OptimizerRestoreContinue,
                 Strings.OptimizerBalancedTitle,
                 MessageBoxButton.YesNo,
@@ -932,8 +932,8 @@ namespace OmenCore.ViewModels
                 }
 
                 var report = await _optimizerService.GeneratePreflightReportAsync(includeHighRisk: true);
-                PreflightSummary = SystemOptimizerPreflightFormatter.BuildSummary(report);
-                PreflightWarningRollup = SystemOptimizerPreflightFormatter.BuildWarningRollup(report);
+                PreflightSummary = SystemOptimizerPreflightFormatter.BuildDisplaySummary(report);
+                PreflightWarningRollup = SystemOptimizerPreflightFormatter.BuildDisplayWarningRollup(report);
                 PreflightHasHighRisk = report.HasHighRisk;
                 PreflightHighRiskCount = report.HighRiskCount;
 
