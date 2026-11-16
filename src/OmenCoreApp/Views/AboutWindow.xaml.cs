@@ -72,7 +72,7 @@ namespace OmenCore.Views
                             var installResult = await _updateService.InstallUpdateAsync(installerPath);
                             if (!installResult.Success)
                             {
-                                SetStatus(installResult.Message, "AccentBrush");
+                                SetStatus(UpdateDisplayText.Translate(installResult.Message), "AccentBrush");
                             }
                         }
                         else
@@ -93,7 +93,7 @@ namespace OmenCore.Views
                 }
                 else
                 {
-                    SetStatus(result.Message, "TextSecondaryBrush");
+                    SetStatus(UpdateDisplayText.Translate(result.Message), "TextSecondaryBrush");
                 }
             }
             catch (Exception ex)

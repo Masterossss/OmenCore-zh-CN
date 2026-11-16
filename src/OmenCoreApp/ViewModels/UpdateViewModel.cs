@@ -103,6 +103,7 @@ namespace OmenCore.ViewModels
                 {
                     _updateBannerMessage = value;
                     OnPropertyChanged(nameof(UpdateBannerMessage));
+                    OnPropertyChanged(nameof(UpdateBannerMessageDisplay));
                 }
             }
         }
@@ -142,9 +143,13 @@ namespace OmenCore.ViewModels
                 {
                     _updateDownloadStatus = value;
                     OnPropertyChanged(nameof(UpdateDownloadStatus));
+                    OnPropertyChanged(nameof(UpdateDownloadStatusDisplay));
                 }
             }
         }
+
+        public string UpdateBannerMessageDisplay => OmenCore.Localization.UpdateDisplayText.Translate(UpdateBannerMessage);
+        public string UpdateDownloadStatusDisplay => OmenCore.Localization.UpdateDisplayText.Translate(UpdateDownloadStatus);
 
         public ICommand InstallUpdateCommand { get; }
         public ICommand CheckForUpdatesCommand { get; }

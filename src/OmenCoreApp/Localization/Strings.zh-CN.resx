@@ -1400,4 +1400,30 @@
   <data name="LightingDpiRestoreTitle" xml:space="preserve"><value>恢复 DPI 默认设置</value></data>
   <data name="LightingDpiDelete" xml:space="preserve"><value>确定要删除 DPI 配置文件“{0}”吗？此操作无法撤销。</value></data>
   <data name="LightingDpiDeleteTitle" xml:space="preserve"><value>删除 DPI 配置文件</value></data>
+  <data name="UpdateNoRelease" xml:space="preserve"><value>GitHub 未返回发布数据。</value></data>
+  <data name="UpdateInvalidRelease" xml:space="preserve"><value>服务器返回的发布数据无效。</value></data>
+  <data name="UpdateLatest" xml:space="preserve"><value>当前已是最新版本。</value></data>
+  <data name="UpdateGitHubAvailable" xml:space="preserve"><value>GitHub 发布页面有可用更新。</value></data>
+  <data name="UpdateInstallerMissing" xml:space="preserve"><value>未找到安装程序文件。</value></data>
+  <data name="UpdateInvalidExecutable" xml:space="preserve"><value>下载的文件不是有效的 Windows 可执行文件，下载内容可能已损坏。请重试或从 GitHub 手动下载。</value></data>
+  <data name="UpdateInstallerLaunched" xml:space="preserve"><value>更新安装程序已启动。安装完成后应用将重新启动。</value></data>
+  <data name="UpdateInitializing" xml:space="preserve"><value>正在初始化下载...</value></data>
+  <data name="UpdateManualHash" xml:space="preserve"><value>更新需要手动下载（发布说明中缺少 SHA256）。</value></data>
+  <data name="UpdateDownloadFailed" xml:space="preserve"><value>下载失败。请查看发布说明并手动下载。</value></data>
+  <data name="UpdateHashBlocked" xml:space="preserve"><value>在提供 SHA256 前无法安装</value></data>
+  <data name="UpdateDownloadFailedShort" xml:space="preserve"><value>下载失败</value></data>
+  <data name="UpdateLaunching" xml:space="preserve"><value>正在启动安装程序...</value></data>
+  <data name="UpdateInstallationFailed" xml:space="preserve"><value>安装失败</value></data>
+  <data name="UpdateSecurityFailed" xml:space="preserve"><value>安全验证失败</value></data>
+  <data name="UpdateHashRejected" xml:space="preserve"><value>哈希验证失败——为安全起见已拒绝更新</value></data>
+  <data name="UpdateErrorOccurred" xml:space="preserve"><value>发生错误</value></data>
+  <data name="UpdateInvalidVersion" xml:space="preserve"><value>版本格式无效：{0}</value></data>
+  <data name="UpdateNetworkError" xml:space="preserve"><value>网络错误：{0}</value></data>
+  <data name="UpdateCheckError" xml:space="preserve"><value>检查更新失败：{0}</value></data>
+  <data name="UpdateInstallError" xml:space="preserve"><value>安装失败：{0}</value></data>
+  <data name="UpdateBannerError" xml:space="preserve"><value>更新失败：{0}</value></data>
+  <data name="UpdateVersionAvailable" xml:space="preserve"><value>v{0} 现已可用</value></data>
+  <data name="UpdateBannerAvailable" xml:space="preserve"><value>有可用更新：v{0}（当前 {1}）</value></data>
+  <data name="UpdateBannerDownloading" xml:space="preserve"><value>正在下载 v{0}（{1}）</value></data>
+  <data name="UpdatePortableMessage" xml:space="preserve"><value>这是 OmenCore 便携版，运行时无法替换自身。更新已下载到 {0}。请关闭 OmenCore，然后将该 ZIP 解压覆盖到当前 OmenCore 文件夹。</value></data>
 </root>

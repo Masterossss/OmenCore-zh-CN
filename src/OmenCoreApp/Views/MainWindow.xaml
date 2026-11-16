@@ -1,4 +1,4 @@
-﻿<Window x:Class="OmenCore.Views.MainWindow"
+<Window x:Class="OmenCore.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -685,7 +685,7 @@
                                     <Path Data="{StaticResource IconUpdate}" Width="20" Height="20" Fill="{StaticResource AccentBlueBrush}" Stretch="Uniform" Margin="0,0,12,0" VerticalAlignment="Center"/>
                                     <StackPanel>
                                         <TextBlock Text="Update Ready" FontSize="15" FontWeight="Bold" Foreground="{StaticResource TextPrimaryBrush}" />
-                                        <TextBlock Text="{Binding Update.UpdateBannerMessage}" FontSize="13" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap" />
+                                        <TextBlock Text="{Binding Update.UpdateBannerMessageDisplay}" FontSize="13" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap" />
                                     </StackPanel>
                                 </StackPanel>
                                 
@@ -715,7 +715,7 @@
                                                  Foreground="{StaticResource AccentBlueBrush}"
                                                  Background="{StaticResource SurfaceDarkBrush}"
                                                  Margin="0,0,0,6" />
-                                    <TextBlock Text="{Binding Update.UpdateDownloadStatus, Mode=OneWay}" 
+                                    <TextBlock Text="{Binding Update.UpdateDownloadStatusDisplay, Mode=OneWay}"
                                                FontSize="12" 
                                                Foreground="{StaticResource TextSecondaryBrush}"
                                                FontFamily="{StaticResource MonospaceFontFamily}" />

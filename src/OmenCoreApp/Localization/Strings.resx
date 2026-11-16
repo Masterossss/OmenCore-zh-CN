@@ -1408,4 +1408,30 @@ Continue?</value></data>
   <data name="LightingDpiRestoreTitle" xml:space="preserve"><value>Restore DPI Defaults</value></data>
   <data name="LightingDpiDelete" xml:space="preserve"><value>Are you sure you want to delete the DPI profile '{0}'? This cannot be undone.</value></data>
   <data name="LightingDpiDeleteTitle" xml:space="preserve"><value>Delete DPI Profile</value></data>
+  <data name="UpdateNoRelease" xml:space="preserve"><value>No release data returned from GitHub.</value></data>
+  <data name="UpdateInvalidRelease" xml:space="preserve"><value>Invalid release data from server.</value></data>
+  <data name="UpdateLatest" xml:space="preserve"><value>You are running the latest version.</value></data>
+  <data name="UpdateGitHubAvailable" xml:space="preserve"><value>Update available on GitHub releases.</value></data>
+  <data name="UpdateInstallerMissing" xml:space="preserve"><value>Installer file not found.</value></data>
+  <data name="UpdateInvalidExecutable" xml:space="preserve"><value>Downloaded file is not a valid Windows executable. The download may have been corrupted. Please try again or download manually from GitHub.</value></data>
+  <data name="UpdateInstallerLaunched" xml:space="preserve"><value>Update installer launched. Application will restart after installation.</value></data>
+  <data name="UpdateInitializing" xml:space="preserve"><value>Initializing download...</value></data>
+  <data name="UpdateManualHash" xml:space="preserve"><value>Update requires manual download (missing SHA256 in release notes).</value></data>
+  <data name="UpdateDownloadFailed" xml:space="preserve"><value>Download failed. Check Release Notes for manual download.</value></data>
+  <data name="UpdateHashBlocked" xml:space="preserve"><value>Install blocked until SHA256 is provided</value></data>
+  <data name="UpdateDownloadFailedShort" xml:space="preserve"><value>Download failed</value></data>
+  <data name="UpdateLaunching" xml:space="preserve"><value>Launching installer...</value></data>
+  <data name="UpdateInstallationFailed" xml:space="preserve"><value>Installation failed</value></data>
+  <data name="UpdateSecurityFailed" xml:space="preserve"><value>Security verification failed</value></data>
+  <data name="UpdateHashRejected" xml:space="preserve"><value>Hash verification failed - update rejected for security</value></data>
+  <data name="UpdateErrorOccurred" xml:space="preserve"><value>Error occurred</value></data>
+  <data name="UpdateInvalidVersion" xml:space="preserve"><value>Invalid version format: {0}</value></data>
+  <data name="UpdateNetworkError" xml:space="preserve"><value>Network error: {0}</value></data>
+  <data name="UpdateCheckError" xml:space="preserve"><value>Update check failed: {0}</value></data>
+  <data name="UpdateInstallError" xml:space="preserve"><value>Installation failed: {0}</value></data>
+  <data name="UpdateBannerError" xml:space="preserve"><value>Update failed: {0}</value></data>
+  <data name="UpdateVersionAvailable" xml:space="preserve"><value>v{0} is now available</value></data>
+  <data name="UpdateBannerAvailable" xml:space="preserve"><value>Update available: v{0} (Current {1})</value></data>
+  <data name="UpdateBannerDownloading" xml:space="preserve"><value>Downloading v{0} ({1})</value></data>
+  <data name="UpdatePortableMessage" xml:space="preserve"><value>This is the portable version of OmenCore, which can't replace itself while it's running. The update has been downloaded to {0}. Close OmenCore, then extract that zip over your current OmenCore folder.</value></data>
 </root>

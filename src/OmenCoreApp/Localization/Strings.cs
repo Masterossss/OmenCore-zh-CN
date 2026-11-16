@@ -1264,5 +1264,31 @@ namespace OmenCore.Localization
         public static string LightingDpiRestoreTitle => Get(nameof(LightingDpiRestoreTitle));
         public static string LightingDpiDelete => Get(nameof(LightingDpiDelete));
         public static string LightingDpiDeleteTitle => Get(nameof(LightingDpiDeleteTitle));
+        public static string UpdateNoRelease => Get(nameof(UpdateNoRelease));
+        public static string UpdateInvalidRelease => Get(nameof(UpdateInvalidRelease));
+        public static string UpdateLatest => Get(nameof(UpdateLatest));
+        public static string UpdateGitHubAvailable => Get(nameof(UpdateGitHubAvailable));
+        public static string UpdateInstallerMissing => Get(nameof(UpdateInstallerMissing));
+        public static string UpdateInvalidExecutable => Get(nameof(UpdateInvalidExecutable));
+        public static string UpdateInstallerLaunched => Get(nameof(UpdateInstallerLaunched));
+        public static string UpdateInitializing => Get(nameof(UpdateInitializing));
+        public static string UpdateManualHash => Get(nameof(UpdateManualHash));
+        public static string UpdateDownloadFailed => Get(nameof(UpdateDownloadFailed));
+        public static string UpdateHashBlocked => Get(nameof(UpdateHashBlocked));
+        public static string UpdateDownloadFailedShort => Get(nameof(UpdateDownloadFailedShort));
+        public static string UpdateLaunching => Get(nameof(UpdateLaunching));
+        public static string UpdateInstallationFailed => Get(nameof(UpdateInstallationFailed));
+        public static string UpdateSecurityFailed => Get(nameof(UpdateSecurityFailed));
+        public static string UpdateHashRejected => Get(nameof(UpdateHashRejected));
+        public static string UpdateErrorOccurred => Get(nameof(UpdateErrorOccurred));
+        public static string UpdateInvalidVersion => Get(nameof(UpdateInvalidVersion));
+        public static string UpdateNetworkError => Get(nameof(UpdateNetworkError));
+        public static string UpdateCheckError => Get(nameof(UpdateCheckError));
+        public static string UpdateInstallError => Get(nameof(UpdateInstallError));
+        public static string UpdateBannerError => Get(nameof(UpdateBannerError));
+        public static string UpdateVersionAvailable => Get(nameof(UpdateVersionAvailable));
+        public static string UpdateBannerAvailable => Get(nameof(UpdateBannerAvailable));
+        public static string UpdateBannerDownloading => Get(nameof(UpdateBannerDownloading));
+        public static string UpdatePortableMessage => Get(nameof(UpdatePortableMessage));
     }
 }

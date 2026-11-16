@@ -398,6 +398,26 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void UpdateDisplayPreservesRawStateAndDistinguishesFailureFromSuccess()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            const string latest = "You are running the latest version.";
+            const string portable = "This is the portable version of OmenCore, which can't replace itself while it's running. The update has been downloaded to C:\\Temp\\update.zip. Close OmenCore, then extract that zip over your current OmenCore folder.";
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                UpdateDisplayText.Translate(latest).Should().Contain("最新版本");
+                UpdateDisplayText.Translate("Installation failed: checksum mismatch").Should().Contain("安装失败").And.Contain("checksum mismatch");
+                UpdateDisplayText.Translate(portable).Should().Contain("便携版").And.Contain("C:\\Temp\\update.zip").And.Contain("关闭 OmenCore");
+                UpdateDisplayText.Translate("unrecognized update response").Should().Be("unrecognized update response");
+                latest.Should().Be("You are running the latest version.");
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                UpdateDisplayText.Translate(portable).Should().Be(portable);
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void Apply_ChangesOnlyTheUiCulture()
         {
             // Numbers must keep the invariant formatting App installs on every thread; a UI
