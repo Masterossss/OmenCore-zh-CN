@@ -35,3 +35,11 @@
 - 候选清单 LOCALIZATION-ZH-CN-CANDIDATES.csv 固定记录本阶段开始时 1263 条 Text/Content/ToolTip/Header 候选及当时行号，不覆盖全部 XAML 形式、动态文字、提示、绑定和日志。414 条已迁移，19 条作为技术标识保留，830 条待核实，不能据此计算完整汉化率。
 - 恢复位置：先审查第一批 ViewModel 和 Code-behind 的动态文字、验证错误与禁用原因（FanDiagnosticsViewModel、TuningViewModel、FanControlViewModel、GeneralViewModel 等）；随后处理 LightingView、MemoryOptimizerView、SystemOptimizerView、BloatwareManagerView、SettingsView、托盘及 OSD。还需检查已修改页面中的文本节点、StringFormat 和绑定显示。
 - 本阶段每批 Debug 解决方案构建成功（0 错误、0 警告），本地化测试各 9 项通过。尚未运行完整测试套件或实际 GUI，未验证启动全程只读；未生成最终 ZIP。
+
+## 中文参考源码对照检查点（未完成）
+
+- 用户提供的 omencore-cn-main.zip 与本地 489064a 参考源码在抽查文件的文本行一致；以官方 v3.6.3 英文文件为旧版基线。见 LOCALIZATION-ZH-CN-REFERENCE-RESEARCH.md。
+- LOCALIZATION-ZH-CN-REFERENCE-MAPPING.csv 保存 393 条旧版属性对应记录，269 条匹配到 v5 同文件、同属性、同英文候选。此自动匹配不代表语境已全面验证；未系统覆盖语义近似、文本节点和动态拼接。
+- 设置页复用 140 个静态候选（其中 PawnIO-Only 译文已修正），风扇诊断动态状态新增 13 个资源。本轮新增 153 键，中文资源总数 704。清单最初 1263 个属性候选中，554 已迁移、19 保留、690 待核实；动态入口另有 239 条待审查，不等于未翻译总数。
+- 本轮 Debug 解决方案构建通过，0 错误、0 警告；本地化测试 9 项通过。未运行硬件测试、未验证 GUI，不满足最终发布条件。
+- 下一步：逐条复核本轮设置页译文及资源绑定、标点和布局；继续 FanDiagnosticsViewModel 的诊断报告正文与温度阻止提示，审查 TuningViewModel、FanControlViewModel、GeneralViewModel 和游戏配置动态文本；再处理 Lighting、MemoryOptimizer、SystemOptimizer、Bloatware、托盘和 OSD。映射表及动态候选表的行号是扫描时位置，修改后需重新定位原文。
