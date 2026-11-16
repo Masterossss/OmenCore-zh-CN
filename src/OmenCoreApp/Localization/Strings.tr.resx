@@ -1707,4 +1707,11 @@ Continue?</value></data>
   <data name="BloatBulkRemoveCancelAt" xml:space="preserve"><value>Bulk removal canceled at {0}. {1} completed, {2} skipped.</value></data>
   <data name="BloatBulkRestoreCancel" xml:space="preserve"><value>Bulk restore canceled. {0} completed, {1} skipped.</value></data>
   <data name="BloatBulkRestoreCancelAt" xml:space="preserve"><value>Bulk restore canceled at {0}. {1} completed, {2} skipped.</value></data>
+  <data name="OptimizerPreflightWarning0" xml:space="preserve"><value>Increases idle power draw; not recommended on battery.</value></data>
+  <data name="OptimizerPreflightWarning1" xml:space="preserve"><value>May slow app-launch times on HDDs; beneficial on SSDs.</value></data>
+  <data name="OptimizerPreflightWarning2" xml:space="preserve"><value>Windows Search will be slower after this change.</value></data>
+  <data name="OptimizerPreflightWarning3" xml:space="preserve"><value>Some HDR and variable-refresh features may not work in affected apps.</value></data>
+  <data name="OptimizerPreflightWarning4" xml:space="preserve"><value>Some legacy 16-bit or very old programs may fail to launch after this change.</value></data>
+  <data name="OptimizerPreflightWarning5" xml:space="preserve"><value>Backup tools that rely on last-access timestamps may not detect unchanged files correctly.</value></data>
+  <data name="OptimizerPreflightMore" xml:space="preserve"><value> (+{0} more)</value></data>
 </root>

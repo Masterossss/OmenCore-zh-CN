@@ -60,6 +60,9 @@ namespace OmenCoreApp.Tests.ViewModels
                 System.Globalization.CultureInfo.CurrentUICulture = System.Globalization.CultureInfo.GetCultureInfo("zh-CN");
                 SystemOptimizerPreflightFormatter.BuildDisplaySummary(report).Should().Contain("高风险 1 项").And.Contain("需要重启：是");
                 SystemOptimizerPreflightFormatter.BuildDisplayWarningRollup(report).Should().Contain("unknown warning");
+                var known = new PreflightReport { Items = new[] { new PreflightItem { Id = "a", Risk = OptimizationRisk.Medium, Warning = "Increases idle power draw; not recommended on battery." } } };
+                SystemOptimizerPreflightFormatter.BuildDisplayWarningRollup(known).Should().Contain("空闲功耗").And.Contain("电池");
+                SystemOptimizerPreflightFormatter.BuildWarningRollup(known).Should().Contain("not recommended on battery");
                 System.Globalization.CultureInfo.CurrentUICulture = System.Globalization.CultureInfo.GetCultureInfo("en");
                 SystemOptimizerPreflightFormatter.BuildDisplaySummary(report).Should().Be(SystemOptimizerPreflightFormatter.BuildSummary(report));
             }

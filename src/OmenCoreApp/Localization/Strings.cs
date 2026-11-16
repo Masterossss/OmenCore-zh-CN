@@ -1567,5 +1567,12 @@ namespace OmenCore.Localization
         public static string BloatBulkRemoveCancelAt => Get(nameof(BloatBulkRemoveCancelAt));
         public static string BloatBulkRestoreCancel => Get(nameof(BloatBulkRestoreCancel));
         public static string BloatBulkRestoreCancelAt => Get(nameof(BloatBulkRestoreCancelAt));
+        public static string OptimizerPreflightWarning0 => Get(nameof(OptimizerPreflightWarning0));
+        public static string OptimizerPreflightWarning1 => Get(nameof(OptimizerPreflightWarning1));
+        public static string OptimizerPreflightWarning2 => Get(nameof(OptimizerPreflightWarning2));
+        public static string OptimizerPreflightWarning3 => Get(nameof(OptimizerPreflightWarning3));
+        public static string OptimizerPreflightWarning4 => Get(nameof(OptimizerPreflightWarning4));
+        public static string OptimizerPreflightWarning5 => Get(nameof(OptimizerPreflightWarning5));
+        public static string OptimizerPreflightMore => Get(nameof(OptimizerPreflightMore));
     }
 }

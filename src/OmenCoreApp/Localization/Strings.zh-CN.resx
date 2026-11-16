@@ -1703,4 +1703,11 @@
   <data name="BloatBulkRemoveCancelAt" xml:space="preserve"><value>批量删除在 {0} 处取消，已完成 {1} 项，跳过 {2} 项。</value></data>
   <data name="BloatBulkRestoreCancel" xml:space="preserve"><value>批量还原已取消，已完成 {0} 项，跳过 {1} 项。</value></data>
   <data name="BloatBulkRestoreCancelAt" xml:space="preserve"><value>批量还原在 {0} 处取消，已完成 {1} 项，跳过 {2} 项。</value></data>
+  <data name="OptimizerPreflightWarning0" xml:space="preserve"><value>会增加空闲功耗；不建议在使用电池时启用。</value></data>
+  <data name="OptimizerPreflightWarning1" xml:space="preserve"><value>可能使机械硬盘上的应用启动变慢；对 SSD 有益。</value></data>
+  <data name="OptimizerPreflightWarning2" xml:space="preserve"><value>此更改后 Windows 搜索速度会变慢。</value></data>
+  <data name="OptimizerPreflightWarning3" xml:space="preserve"><value>受影响的应用中，部分 HDR 和可变刷新率功能可能无法使用。</value></data>
+  <data name="OptimizerPreflightWarning4" xml:space="preserve"><value>此更改后，部分旧版 16 位或非常老的程序可能无法启动。</value></data>
+  <data name="OptimizerPreflightWarning5" xml:space="preserve"><value>依赖上次访问时间戳的备份工具可能无法正确检测未更改的文件。</value></data>
+  <data name="OptimizerPreflightMore" xml:space="preserve"><value>（另有 {0} 项）</value></data>
 </root>
