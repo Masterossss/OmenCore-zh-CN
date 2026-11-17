@@ -348,6 +348,26 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void SettingsOptionsTranslateDisplayWithoutChangingStoredValues()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                var converter = new SettingsOptionDisplayConverter();
+                const string stored = "Cooldown";
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                converter.Convert(stored, typeof(string), null!, CultureInfo.CurrentCulture).Should().Be("冷却后");
+                converter.Convert("Connected", typeof(string), null!, CultureInfo.CurrentCulture).Should().Be("已连接");
+                converter.Convert("CustomFutureValue", typeof(string), null!, CultureInfo.CurrentCulture).Should().Be("CustomFutureValue");
+                stored.Should().Be("Cooldown");
+                converter.ConvertBack("冷却后", typeof(string), null!, CultureInfo.CurrentCulture).Should().Be(System.Windows.Data.Binding.DoNothing);
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                converter.Convert(stored, typeof(string), null!, CultureInfo.CurrentCulture).Should().Be(stored);
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void GamePlatformDisplayPreservesFilterIdentity()
         {
             var original = CultureInfo.CurrentUICulture;

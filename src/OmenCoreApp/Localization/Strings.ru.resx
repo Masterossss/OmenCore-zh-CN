@@ -2376,4 +2376,58 @@ Continue?</value></data>
   <data name="TuningExplainBatch6" xml:space="preserve"><value>= Throttle at 70°C</value></data>
   <data name="TuningExplainBatch7" xml:space="preserve"><value> Verify fan control responsiveness, test different speed levels, and validate RPM readings</value></data>
   <data name="TuningExplainBatch8" xml:space="preserve"><value> Test individual key backlighting, verify RGB zones, and troubleshoot keyboard lighting issues</value></data>
+  <data name="SettingsOption0" xml:space="preserve"><value>Display Off</value></data>
+  <data name="SettingsOption1" xml:space="preserve"><value>Lock Windows</value></data>
+  <data name="SettingsOption2" xml:space="preserve"><value>Disabled</value></data>
+  <data name="SettingsOption3" xml:space="preserve"><value>Off</value></data>
+  <data name="SettingsOption4" xml:space="preserve"><value>Cooldown</value></data>
+  <data name="SettingsOption5" xml:space="preserve"><value>Timer</value></data>
+  <data name="SettingsOption6" xml:space="preserve"><value>Auto</value></data>
+  <data name="SettingsOption7" xml:space="preserve"><value>Quiet</value></data>
+  <data name="SettingsOption8" xml:space="preserve"><value>Silent</value></data>
+  <data name="SettingsOption9" xml:space="preserve"><value>Gaming</value></data>
+  <data name="SettingsOption10" xml:space="preserve"><value>Extreme</value></data>
+  <data name="SettingsOption11" xml:space="preserve"><value>Max</value></data>
+  <data name="SettingsOption12" xml:space="preserve"><value>Balanced</value></data>
+  <data name="SettingsOption13" xml:space="preserve"><value>Performance</value></data>
+  <data name="SettingsOption14" xml:space="preserve"><value>Turbo</value></data>
+  <data name="SettingsOption15" xml:space="preserve"><value>TopLeft</value></data>
+  <data name="SettingsOption16" xml:space="preserve"><value>TopCenter</value></data>
+  <data name="SettingsOption17" xml:space="preserve"><value>TopRight</value></data>
+  <data name="SettingsOption18" xml:space="preserve"><value>BottomLeft</value></data>
+  <data name="SettingsOption19" xml:space="preserve"><value>BottomCenter</value></data>
+  <data name="SettingsOption20" xml:space="preserve"><value>BottomRight</value></data>
+  <data name="SettingsOption21" xml:space="preserve"><value>Primary</value></data>
+  <data name="SettingsOption22" xml:space="preserve"><value>ActiveWindow</value></data>
+  <data name="SettingsOption23" xml:space="preserve"><value>MouseCursor</value></data>
+  <data name="SettingsOption24" xml:space="preserve"><value>Compact</value></data>
+  <data name="SettingsOption25" xml:space="preserve"><value>Comfortable</value></data>
+  <data name="SettingsOption26" xml:space="preserve"><value>Cyan</value></data>
+  <data name="SettingsOption27" xml:space="preserve"><value>Orange</value></data>
+  <data name="SettingsOption28" xml:space="preserve"><value>Teal</value></data>
+  <data name="SettingsOption29" xml:space="preserve"><value>Magenta</value></data>
+  <data name="SettingsOption30" xml:space="preserve"><value>ShowQuickPopup</value></data>
+  <data name="SettingsOption31" xml:space="preserve"><value>ShowWindow</value></data>
+  <data name="SettingsOption32" xml:space="preserve"><value>ToggleFanMode</value></data>
+  <data name="SettingsOption33" xml:space="preserve"><value>TogglePerformanceMode</value></data>
+  <data name="SettingsOption34" xml:space="preserve"><value>CyclePerformance</value></data>
+  <data name="SettingsOption35" xml:space="preserve"><value>CycleFanMode</value></data>
+  <data name="SettingsOption36" xml:space="preserve"><value>ToggleMaxCooling</value></data>
+  <data name="SettingsOption37" xml:space="preserve"><value>ToggleOsd</value></data>
+  <data name="SettingsOption38" xml:space="preserve"><value>LaunchExternalApp</value></data>
+  <data name="SettingsOption39" xml:space="preserve"><value>DoNothing</value></data>
+  <data name="SettingsOption40" xml:space="preserve"><value>Time</value></data>
+  <data name="SettingsOption41" xml:space="preserve"><value>Battery</value></data>
+  <data name="SettingsOption42" xml:space="preserve"><value>ACPower</value></data>
+  <data name="SettingsOption43" xml:space="preserve"><value>Temperature</value></data>
+  <data name="SettingsOption44" xml:space="preserve"><value>Idle</value></data>
+  <data name="SettingsOption45" xml:space="preserve"><value>Process</value></data>
+  <data name="SettingsOption46" xml:space="preserve"><value>WiFiSSID</value></data>
+  <data name="SettingsOption47" xml:space="preserve"><value>LidState</value></data>
+  <data name="SettingsOption48" xml:space="preserve"><value>Below</value></data>
+  <data name="SettingsOption49" xml:space="preserve"><value>Above</value></data>
+  <data name="SettingsOption50" xml:space="preserve"><value>Connected</value></data>
+  <data name="SettingsOption51" xml:space="preserve"><value>Disconnected</value></data>
+  <data name="SettingsOption52" xml:space="preserve"><value>Closed</value></data>
+  <data name="SettingsOption53" xml:space="preserve"><value>Open</value></data>
 </root>

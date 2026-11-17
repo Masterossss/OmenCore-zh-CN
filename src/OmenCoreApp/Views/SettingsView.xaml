@@ -8,6 +8,10 @@
              xmlns:loc="clr-namespace:OmenCore.Localization"
              mc:Ignorable="d" 
              d:DesignHeight="800" d:DesignWidth="1000">
+    <UserControl.Resources>
+        <loc:SettingsOptionDisplayConverter x:Key="SettingsOptionDisplay"/>
+        <DataTemplate x:Key="SettingsOptionTemplate"><TextBlock Text="{Binding Converter={StaticResource SettingsOptionDisplay}}"/></DataTemplate>
+    </UserControl.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -804,7 +808,7 @@
                                            FontSize="12" Foreground="{StaticResource TextSecondaryBrush}"
                                            TextWrapping="Wrap"/>
                             </StackPanel>
-                            <ComboBox Grid.Column="1"
+                            <ComboBox ItemTemplate="{StaticResource SettingsOptionTemplate}" Grid.Column="1"
                                       ItemsSource="{Binding QuickAccessActionOptions}"
                                       SelectedItem="{Binding QuickAccessAction, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                                       VerticalAlignment="Center"
@@ -1171,7 +1175,7 @@
                                 <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1171Text}" FontSize="13"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
-                            <ComboBox Grid.Column="1" SelectedItem="{Binding AcFanPreset, Mode=TwoWay}"
+                            <ComboBox ItemTemplate="{StaticResource SettingsOptionTemplate}" Grid.Column="1" SelectedItem="{Binding AcFanPreset, Mode=TwoWay}"
                                       ItemsSource="{Binding FanPresetOptions}"
                                       IsEnabled="{Binding PowerAutomationEnabled}"
                                       AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch9}"/>
@@ -1185,7 +1189,7 @@
                                 <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1185Text}" FontSize="13"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
-                            <ComboBox Grid.Column="1" SelectedItem="{Binding AcPerformanceMode, Mode=TwoWay}"
+                            <ComboBox ItemTemplate="{StaticResource SettingsOptionTemplate}" Grid.Column="1" SelectedItem="{Binding AcPerformanceMode, Mode=TwoWay}"
                                       ItemsSource="{Binding PerformanceModeOptions}"
                                       IsEnabled="{Binding PowerAutomationEnabled}"
                                       AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch10}"/>
@@ -1203,7 +1207,7 @@
                                 <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1203Text}" FontSize="13"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
-                            <ComboBox Grid.Column="1" SelectedItem="{Binding BatteryFanPreset, Mode=TwoWay}"
+                            <ComboBox ItemTemplate="{StaticResource SettingsOptionTemplate}" Grid.Column="1" SelectedItem="{Binding BatteryFanPreset, Mode=TwoWay}"
                                       ItemsSource="{Binding FanPresetOptions}"
                                       IsEnabled="{Binding PowerAutomationEnabled}"
                                       AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch11}"/>
@@ -1217,7 +1221,7 @@
                                 <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1217Text}" FontSize="13"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
-                            <ComboBox Grid.Column="1" SelectedItem="{Binding BatteryPerformanceMode, Mode=TwoWay}"
+                            <ComboBox ItemTemplate="{StaticResource SettingsOptionTemplate}" Grid.Column="1" SelectedItem="{Binding BatteryPerformanceMode, Mode=TwoWay}"
                                       ItemsSource="{Binding PerformanceModeOptions}"
                                       IsEnabled="{Binding PowerAutomationEnabled}"
                                       AutomationProperties.Name="{x:Static loc:Strings.SafetyFollowup12}"/>
@@ -1272,7 +1276,7 @@
                                 <TextBlock Text="{x:Static loc:Strings.SettingsSafetyBatch4}"
                                            FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                             </StackPanel>
-                            <ComboBox Grid.Column="1" Margin="12,0,0,0" VerticalAlignment="Center"
+                            <ComboBox ItemTemplate="{StaticResource SettingsOptionTemplate}" Grid.Column="1" Margin="12,0,0,0" VerticalAlignment="Center"
                                       SelectedItem="{Binding MaxAutoReturnMode, Mode=TwoWay}"
                                       ItemsSource="{Binding MaxAutoReturnModeOptions}"
                                       AutomationProperties.Name="{x:Static loc:Strings.SettingsSafetyBatch3}"/>
@@ -2320,7 +2324,7 @@
                                             <Run Text="{x:Static loc:Strings.SettingsMaintenanceBatch7}"/>
                                         </TextBlock>
                                     </StackPanel>
-                                    <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsLabelBatch46}" Grid.Column="1"
+                                    <ComboBox ItemTemplate="{StaticResource SettingsOptionTemplate}" AutomationProperties.Name="{x:Static loc:Strings.SettingsLabelBatch46}" Grid.Column="1"
                                               Width="110"
                                               VerticalAlignment="Center"
                                               ItemsSource="{Binding KeyboardBackendOptions}"
@@ -2475,7 +2479,7 @@
                                         <TextBlock Text="{x:Static loc:Strings.SettingsLabelBatch48}" FontSize="13"
                                                    Foreground="{StaticResource TextSecondaryBrush}"/>
                                     </StackPanel>
-                                    <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsLabelBatch48}" Grid.Column="1"
+                                    <ComboBox ItemTemplate="{StaticResource SettingsOptionTemplate}" AutomationProperties.Name="{x:Static loc:Strings.SettingsLabelBatch48}" Grid.Column="1"
                                               SelectedItem="{Binding OmenKeyAction, Mode=TwoWay}"
                                               ItemsSource="{Binding OmenKeyActionOptions}"
                                               IsEnabled="{Binding OmenKeyInterceptionEnabled}"/>
@@ -2555,7 +2559,7 @@
                                     </Grid.ColumnDefinitions>
                                     <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsLabelBatch52}" FontSize="13"
                                                Foreground="{StaticResource TextSecondaryBrush}" VerticalAlignment="Center"/>
-                                    <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsLabelBatch52}" Grid.Column="1"
+                                    <ComboBox ItemTemplate="{StaticResource SettingsOptionTemplate}" AutomationProperties.Name="{x:Static loc:Strings.SettingsLabelBatch52}" Grid.Column="1"
                                               SelectedItem="{Binding OsdPosition, Mode=TwoWay}"
                                               ItemsSource="{Binding OsdPositionOptions}"/>
                                 </Grid>
@@ -2567,7 +2571,7 @@
                                     </Grid.ColumnDefinitions>
                                     <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText2576Text}" FontSize="13"
                                                Foreground="{StaticResource TextSecondaryBrush}" VerticalAlignment="Center"/>
-                                    <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch40}" Grid.Column="1"
+                                    <ComboBox ItemTemplate="{StaticResource SettingsOptionTemplate}" AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch40}" Grid.Column="1"
                                               SelectedItem="{Binding OsdMonitorTarget, Mode=TwoWay}"
                                               ItemsSource="{Binding OsdMonitorTargetOptions}"/>
                                 </Grid>
@@ -2580,7 +2584,7 @@
                                     </Grid.ColumnDefinitions>
                                     <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText2589Text}" FontSize="13"
                                                Foreground="{StaticResource TextSecondaryBrush}" VerticalAlignment="Center"/>
-                                    <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch41}" Grid.Column="1"
+                                    <ComboBox ItemTemplate="{StaticResource SettingsOptionTemplate}" AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch41}" Grid.Column="1"
                                               SelectedItem="{Binding OsdDensityMode, Mode=TwoWay}"
                                               ItemsSource="{Binding OsdDensityModeOptions}"/>
                                 </Grid>
@@ -2638,7 +2642,7 @@
                                     </Grid.ColumnDefinitions>
                                     <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText2647Text}" FontSize="13"
                                                Foreground="{StaticResource TextSecondaryBrush}" VerticalAlignment="Center"/>
-                                    <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch45}" Grid.Column="1"
+                                    <ComboBox ItemTemplate="{StaticResource SettingsOptionTemplate}" AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch45}" Grid.Column="1"
                                               SelectedItem="{Binding OsdHotkeyToastAccent, Mode=TwoWay}"
                                               ItemsSource="{Binding OsdHotkeyToastAccentOptions}"/>
                                 </Grid>
@@ -3496,7 +3500,7 @@
                                                         <TextBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch87}" Grid.Column="1" Text="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                                                                  Style="{StaticResource ModernTextBox}" Padding="8,4" Margin="0,0,10,0"/>
 
-                                                        <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch88}" Grid.Column="2" ItemsSource="{Binding SupportedTriggerTypes}" SelectedItem="{Binding Trigger, Mode=TwoWay}"
+                                                        <ComboBox ItemTemplate="{StaticResource SettingsOptionTemplate}" AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch88}" Grid.Column="2" ItemsSource="{Binding SupportedTriggerTypes}" SelectedItem="{Binding Trigger, Mode=TwoWay}"
                                                                   Style="{StaticResource ModernComboBox}" Margin="0,0,10,0"/>
 
                                                         <TextBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch89}" Grid.Column="3" Text="{Binding Priority, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
@@ -3536,14 +3540,14 @@
                                                         <StackPanel Grid.Column="1" Margin="0,0,12,0"
                                                                     Visibility="{Binding IsBatteryTrigger, Converter={StaticResource BooleanToVisibilityConverter}}">
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3546Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
-                                                            <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch94}" ItemsSource="{Binding BatteryConditions}" SelectedItem="{Binding BatteryCondition, Mode=TwoWay}"
+                                                            <ComboBox ItemTemplate="{StaticResource SettingsOptionTemplate}" AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch94}" ItemsSource="{Binding BatteryConditions}" SelectedItem="{Binding BatteryCondition, Mode=TwoWay}"
                                                                       Style="{StaticResource ModernComboBox}"/>
                                                         </StackPanel>
 
                                                         <StackPanel Grid.Column="0" Margin="0,0,12,0"
                                                                     Visibility="{Binding IsACPowerTrigger, Converter={StaticResource BooleanToVisibilityConverter}}">
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3553Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
-                                                            <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch95}" ItemsSource="{Binding AcPowerStates}" SelectedItem="{Binding AcPowerState, Mode=TwoWay}"
+                                                            <ComboBox ItemTemplate="{StaticResource SettingsOptionTemplate}" AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch95}" ItemsSource="{Binding AcPowerStates}" SelectedItem="{Binding AcPowerState, Mode=TwoWay}"
                                                                       Style="{StaticResource ModernComboBox}"/>
                                                         </StackPanel>
 
@@ -3556,14 +3560,14 @@
                                                         <StackPanel Grid.Column="1" Margin="0,0,12,0"
                                                                     Visibility="{Binding IsTemperatureTrigger, Converter={StaticResource BooleanToVisibilityConverter}}">
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsLabelBatch85}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
-                                                            <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsLabelBatch85}" ItemsSource="{Binding TemperatureConditions}" SelectedItem="{Binding TemperatureCondition, Mode=TwoWay}"
+                                                            <ComboBox ItemTemplate="{StaticResource SettingsOptionTemplate}" AutomationProperties.Name="{x:Static loc:Strings.SettingsLabelBatch85}" ItemsSource="{Binding TemperatureConditions}" SelectedItem="{Binding TemperatureCondition, Mode=TwoWay}"
                                                                       Style="{StaticResource ModernComboBox}"/>
                                                         </StackPanel>
 
                                                         <StackPanel Grid.Column="2"
                                                                     Visibility="{Binding IsTemperatureTrigger, Converter={StaticResource BooleanToVisibilityConverter}}">
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsLabelBatch86}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
-                                                            <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch97}" ItemsSource="{Binding TemperatureSensors}" SelectedItem="{Binding TemperatureSensor, Mode=TwoWay}"
+                                                            <ComboBox ItemTemplate="{StaticResource SettingsOptionTemplate}" AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch97}" ItemsSource="{Binding TemperatureSensors}" SelectedItem="{Binding TemperatureSensor, Mode=TwoWay}"
                                                                       Style="{StaticResource ModernComboBox}"/>
                                                         </StackPanel>
 
@@ -3588,7 +3592,7 @@
                                                         <StackPanel Grid.Column="0" Margin="0,0,12,0"
                                                                     Visibility="{Binding IsLidTrigger, Converter={StaticResource BooleanToVisibilityConverter}}">
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsLabelBatch90}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
-                                                            <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsLabelBatch90}" ItemsSource="{Binding LidStates}" SelectedItem="{Binding LidState, Mode=TwoWay}"
+                                                            <ComboBox ItemTemplate="{StaticResource SettingsOptionTemplate}" AutomationProperties.Name="{x:Static loc:Strings.SettingsLabelBatch90}" ItemsSource="{Binding LidStates}" SelectedItem="{Binding LidState, Mode=TwoWay}"
                                                                       Style="{StaticResource ModernComboBox}"/>
                                                         </StackPanel>
                                                     </Grid>
@@ -3601,13 +3605,13 @@
 
                                                         <StackPanel Grid.Column="0" Margin="0,0,12,0">
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3611Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
-                                                            <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch100}" ItemsSource="{Binding FanPresetOptions}" SelectedItem="{Binding FanPreset, Mode=TwoWay}"
+                                                            <ComboBox ItemTemplate="{StaticResource SettingsOptionTemplate}" AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch100}" ItemsSource="{Binding FanPresetOptions}" SelectedItem="{Binding FanPreset, Mode=TwoWay}"
                                                                       Style="{StaticResource ModernComboBox}"/>
                                                         </StackPanel>
 
                                                         <StackPanel Grid.Column="1">
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3617Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
-                                                            <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch101}" ItemsSource="{Binding PerformanceModeOptions}" SelectedItem="{Binding PerformanceMode, Mode=TwoWay}"
+                                                            <ComboBox ItemTemplate="{StaticResource SettingsOptionTemplate}" AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch101}" ItemsSource="{Binding PerformanceModeOptions}" SelectedItem="{Binding PerformanceMode, Mode=TwoWay}"
                                                                       Style="{StaticResource ModernComboBox}"/>
                                                         </StackPanel>
                                                     </Grid>
