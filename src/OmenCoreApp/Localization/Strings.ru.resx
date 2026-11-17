@@ -2049,4 +2049,32 @@ Are you sure?</value></data>
   <data name="SettingsMaintenanceBatch23" xml:space="preserve"><value>Some components may still be running until you restart Windows.</value></data>
   <data name="SettingsMaintenanceBatch24" xml:space="preserve"><value>Load fan curves, performance modes, and GPU OC settings from .omencore file</value></data>
   <data name="SettingsMaintenanceBatch25" xml:space="preserve"><value>Reset all settings to default values</value></data>
+  <data name="MainPagesBatch0" xml:space="preserve"><value>🎮 Game Library</value></data>
+  <data name="MainPagesBatch1" xml:space="preserve"><value>Performance profile: maximum CPU/GPU power and aggressive fans</value></data>
+  <data name="MainPagesBatch2" xml:space="preserve"><value>Balanced profile: default HP power and thermals</value></data>
+  <data name="MainPagesBatch3" xml:space="preserve"><value>Quiet profile: reduced power and minimal fan speed</value></data>
+  <data name="MainPagesBatch4" xml:space="preserve"><value>Custom profile: user-defined fan curves and power settings</value></data>
+  <data name="MainPagesBatch5" xml:space="preserve"><value>Fan mode: Max</value></data>
+  <data name="MainPagesBatch6" xml:space="preserve"><value>Fan mode: Profile controlled, automatic</value></data>
+  <data name="MainPagesBatch7" xml:space="preserve"><value>Fan mode: Custom</value></data>
+  <data name="MainPagesBatch8" xml:space="preserve"><value>Quiet performance mode: silent operation, low power</value></data>
+  <data name="MainPagesBatch9" xml:space="preserve"><value>Balanced performance mode: recommended, automatic power and fan control</value></data>
+  <data name="MainPagesBatch10" xml:space="preserve"><value>Performance mode: maximum power, high fan speed</value></data>
+  <data name="MainPagesBatch11" xml:space="preserve"><value>Remember the current fan, GPU boost, refresh rate, lighting and charge limit settings in this selected performance mode</value></data>
+  <data name="MainPagesBatch12" xml:space="preserve"><value>⚠ Firmware-Determined Ceiling: </value></data>
+  <data name="MainPagesBatch13" xml:space="preserve"><value>GPU power boost level</value></data>
+  <data name="MainPagesBatch14" xml:space="preserve"><value>Apply GPU power boost level</value></data>
+  <data name="MainPagesBatch15" xml:space="preserve"><value>⚠ Hardware Limitation: </value></data>
+  <data name="MainPagesBatch16" xml:space="preserve"><value>Switch GPU mode to</value></data>
+  <data name="MainPagesBatch17" xml:space="preserve"><value>Apply GPU mode switch, requires restart</value></data>
+  <data name="MainPagesBatch18" xml:space="preserve"><value>Why GPU mode switching is unavailable</value></data>
+  <data name="MainPagesBatch19" xml:space="preserve"><value>Disable HP telemetry services</value></data>
+  <data name="MainPagesBatch20" xml:space="preserve"><value>Restore HP telemetry services</value></data>
+  <data name="MainPagesBatch21" xml:space="preserve"><value>Panel overdrive</value></data>
+  <data name="MainPagesBatch22" xml:space="preserve"><value>Refresh dashboard readings</value></data>
+  <data name="MainPagesBatch23" xml:space="preserve"><value>SSD temperature and disk activity. Optimal SSD temp is below 45°C.</value></data>
+  <data name="MainPagesBatch24" xml:space="preserve"><value>Show last 1 minute of history</value></data>
+  <data name="MainPagesBatch25" xml:space="preserve"><value>Show last 5 minutes of history</value></data>
+  <data name="MainPagesBatch26" xml:space="preserve"><value>Show last 15 minutes of history</value></data>
+  <data name="MainPagesBatch27" xml:space="preserve"><value>Show last 30 minutes of history</value></data>
 </root>

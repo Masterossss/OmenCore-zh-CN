@@ -1899,5 +1899,33 @@ namespace OmenCore.Localization
         public static string SettingsMaintenanceBatch23 => Get(nameof(SettingsMaintenanceBatch23));
         public static string SettingsMaintenanceBatch24 => Get(nameof(SettingsMaintenanceBatch24));
         public static string SettingsMaintenanceBatch25 => Get(nameof(SettingsMaintenanceBatch25));
+        public static string MainPagesBatch0 => Get(nameof(MainPagesBatch0));
+        public static string MainPagesBatch1 => Get(nameof(MainPagesBatch1));
+        public static string MainPagesBatch2 => Get(nameof(MainPagesBatch2));
+        public static string MainPagesBatch3 => Get(nameof(MainPagesBatch3));
+        public static string MainPagesBatch4 => Get(nameof(MainPagesBatch4));
+        public static string MainPagesBatch5 => Get(nameof(MainPagesBatch5));
+        public static string MainPagesBatch6 => Get(nameof(MainPagesBatch6));
+        public static string MainPagesBatch7 => Get(nameof(MainPagesBatch7));
+        public static string MainPagesBatch8 => Get(nameof(MainPagesBatch8));
+        public static string MainPagesBatch9 => Get(nameof(MainPagesBatch9));
+        public static string MainPagesBatch10 => Get(nameof(MainPagesBatch10));
+        public static string MainPagesBatch11 => Get(nameof(MainPagesBatch11));
+        public static string MainPagesBatch12 => Get(nameof(MainPagesBatch12));
+        public static string MainPagesBatch13 => Get(nameof(MainPagesBatch13));
+        public static string MainPagesBatch14 => Get(nameof(MainPagesBatch14));
+        public static string MainPagesBatch15 => Get(nameof(MainPagesBatch15));
+        public static string MainPagesBatch16 => Get(nameof(MainPagesBatch16));
+        public static string MainPagesBatch17 => Get(nameof(MainPagesBatch17));
+        public static string MainPagesBatch18 => Get(nameof(MainPagesBatch18));
+        public static string MainPagesBatch19 => Get(nameof(MainPagesBatch19));
+        public static string MainPagesBatch20 => Get(nameof(MainPagesBatch20));
+        public static string MainPagesBatch21 => Get(nameof(MainPagesBatch21));
+        public static string MainPagesBatch22 => Get(nameof(MainPagesBatch22));
+        public static string MainPagesBatch23 => Get(nameof(MainPagesBatch23));
+        public static string MainPagesBatch24 => Get(nameof(MainPagesBatch24));
+        public static string MainPagesBatch25 => Get(nameof(MainPagesBatch25));
+        public static string MainPagesBatch26 => Get(nameof(MainPagesBatch26));
+        public static string MainPagesBatch27 => Get(nameof(MainPagesBatch27));
     }
 }

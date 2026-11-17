@@ -60,7 +60,7 @@
                 <Button Style="{StaticResource ModernOutlineButton}"
                         Command="{Binding RefreshCommand}"
                         ToolTip="{x:Static loc:Strings.DashboardText04}"
-                        AutomationProperties.Name="Refresh dashboard readings">
+                        AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch22}">
                     <StackPanel Orientation="Horizontal">
                         <Path Data="{StaticResource IconRestore}" Width="12" Height="12" 
                               Fill="{StaticResource TextSecondaryBrush}" Stretch="Uniform" Margin="0,0,6,0"/>
@@ -332,7 +332,7 @@
 
             <!-- Storage Card (hidden when SSD data unavailable) -->
             <Border Grid.Column="3" Style="{StaticResource PremiumPanelCardAnimated}" Padding="18,16" Margin="5,0"
-                    ToolTip="SSD temperature and disk activity. Optimal SSD temp is below 45°C."
+                    ToolTip="{x:Static loc:Strings.MainPagesBatch23}"
                     Visibility="{Binding IsSsdDataAvailable, Converter={StaticResource BooleanToVisibilityConverter}}">
                 <Grid>
                     <Grid.RowDefinitions>
@@ -458,10 +458,10 @@
             <!-- Time range selector -->
             <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,0,8">
                 <TextBlock Text="{x:Static loc:Strings.DashboardText30}" FontSize="10" Foreground="{StaticResource TextTertiaryBrush}" VerticalAlignment="Center" Margin="0,0,8,0"/>
-                <RadioButton Content="1m"  IsChecked="{Binding IsTimeRange1m,  Mode=TwoWay}" GroupName="TimeRange" Style="{StaticResource TimeRangeButton}" Margin="0,0,2,0" AutomationProperties.Name="Show last 1 minute of history"/>
-                <RadioButton Content="5m"  IsChecked="{Binding IsTimeRange5m,  Mode=TwoWay}" GroupName="TimeRange" Style="{StaticResource TimeRangeButton}" Margin="0,0,2,0" AutomationProperties.Name="Show last 5 minutes of history"/>
-                <RadioButton Content="15m" IsChecked="{Binding IsTimeRange15m, Mode=TwoWay}" GroupName="TimeRange" Style="{StaticResource TimeRangeButton}" Margin="0,0,2,0" AutomationProperties.Name="Show last 15 minutes of history"/>
-                <RadioButton Content="30m" IsChecked="{Binding IsTimeRange30m, Mode=TwoWay}" GroupName="TimeRange" Style="{StaticResource TimeRangeButton}" AutomationProperties.Name="Show last 30 minutes of history"/>
+                <RadioButton Content="1m"  IsChecked="{Binding IsTimeRange1m,  Mode=TwoWay}" GroupName="TimeRange" Style="{StaticResource TimeRangeButton}" Margin="0,0,2,0" AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch24}"/>
+                <RadioButton Content="5m"  IsChecked="{Binding IsTimeRange5m,  Mode=TwoWay}" GroupName="TimeRange" Style="{StaticResource TimeRangeButton}" Margin="0,0,2,0" AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch25}"/>
+                <RadioButton Content="15m" IsChecked="{Binding IsTimeRange15m, Mode=TwoWay}" GroupName="TimeRange" Style="{StaticResource TimeRangeButton}" Margin="0,0,2,0" AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch26}"/>
+                <RadioButton Content="30m" IsChecked="{Binding IsTimeRange30m, Mode=TwoWay}" GroupName="TimeRange" Style="{StaticResource TimeRangeButton}" AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch27}"/>
             </StackPanel>
 
             <Grid>

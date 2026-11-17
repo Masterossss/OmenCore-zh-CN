@@ -190,7 +190,7 @@
                                 BorderThickness="2"
                                 MouseLeftButtonUp="Profile_Performance_Click"
                                 KeyDown="Profile_Performance_KeyDown"
-                                AutomationProperties.Name="Performance profile: maximum CPU/GPU power and aggressive fans"
+                                AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch1}"
                                 ToolTip="{x:Static loc:Strings.GeneralViewText193}">
                             <Grid>
                                 <Grid.RowDefinitions>
@@ -243,7 +243,7 @@
                                 BorderThickness="2"
                                 MouseLeftButtonUp="Profile_Balanced_Click"
                                 KeyDown="Profile_Balanced_KeyDown"
-                                AutomationProperties.Name="Balanced profile: default HP power and thermals"
+                                AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch2}"
                                 ToolTip="{x:Static loc:Strings.GeneralViewText246}">
                             <Grid>
                                 <Grid.RowDefinitions>
@@ -293,7 +293,7 @@
                                 BorderThickness="2"
                                 MouseLeftButtonUp="Profile_Quiet_Click"
                                 KeyDown="Profile_Quiet_KeyDown"
-                                AutomationProperties.Name="Quiet profile: reduced power and minimal fan speed"
+                                AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch3}"
                                 ToolTip="{x:Static loc:Strings.GeneralViewText296}">
                             <Grid>
                                 <Grid.RowDefinitions>
@@ -343,7 +343,7 @@
                                 BorderThickness="2"
                                 MouseLeftButtonUp="Profile_Custom_Click"
                                 KeyDown="Profile_Custom_KeyDown"
-                                AutomationProperties.Name="Custom profile: user-defined fan curves and power settings"
+                                AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch4}"
                                 ToolTip="{x:Static loc:Strings.GeneralViewText346}">
                             <Grid>
                                 <Grid.RowDefinitions>
@@ -410,7 +410,7 @@
                                 BorderBrush="{Binding FanQuickModeBorder_Max}" BorderThickness="2"
                                 MouseLeftButtonUp="FanQuickMode_Max_Click"
                                 KeyDown="FanQuickMode_Max_KeyDown"
-                                AutomationProperties.Name="Fan mode: Max"
+                                AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch5}"
                                 ToolTip="{x:Static loc:Strings.GeneralViewText413}">
                             <TextBlock Text="{x:Static loc:Strings.GeneralViewText414}" FontSize="12" FontWeight="SemiBold" HorizontalAlignment="Center"
                                        Foreground="{StaticResource TextPrimaryBrush}"/>
@@ -423,7 +423,7 @@
                                 BorderBrush="{Binding FanQuickModeBorder_Auto}" BorderThickness="2"
                                 MouseLeftButtonUp="FanQuickMode_Auto_Click"
                                 KeyDown="FanQuickMode_Auto_KeyDown"
-                                AutomationProperties.Name="Fan mode: Profile controlled, automatic"
+                                AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch6}"
                                 ToolTip="{x:Static loc:Strings.GeneralViewText426}">
                             <TextBlock Text="{x:Static loc:Strings.GeneralViewText427}" FontSize="12" FontWeight="SemiBold" HorizontalAlignment="Center"
                                        Foreground="{StaticResource TextPrimaryBrush}"/>
@@ -436,7 +436,7 @@
                                 BorderBrush="{Binding FanQuickModeBorder_Custom}" BorderThickness="2"
                                 MouseLeftButtonUp="FanQuickMode_Custom_Click"
                                 KeyDown="FanQuickMode_Custom_KeyDown"
-                                AutomationProperties.Name="Fan mode: Custom"
+                                AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch7}"
                                 ToolTip="{x:Static loc:Strings.GeneralViewText439}">
                             <TextBlock Text="{x:Static loc:Strings.GeneralViewText440}" FontSize="12" FontWeight="SemiBold" HorizontalAlignment="Center"
                                        Foreground="{StaticResource TextPrimaryBrush}"/>

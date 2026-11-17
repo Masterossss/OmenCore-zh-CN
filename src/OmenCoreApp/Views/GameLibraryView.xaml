@@ -89,7 +89,7 @@
 
         <!-- Header -->
         <StackPanel Grid.Row="0" Margin="0,0,0,16">
-            <TextBlock Text="🎮 Game Library" 
+            <TextBlock Text="{x:Static loc:Strings.MainPagesBatch0}"
                        FontSize="24" 
                        FontWeight="Bold" 
                        Foreground="White"/>

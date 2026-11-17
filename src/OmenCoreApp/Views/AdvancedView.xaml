@@ -102,7 +102,7 @@
                                      CommandParameter="Quiet"
                                      Style="{StaticResource PerformanceModeCard}"
                                      Margin="0,0,8,0"
-                                     AutomationProperties.Name="Quiet performance mode: silent operation, low power">
+                                     AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch8}">
                             <Grid>
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="Auto"/>
@@ -158,7 +158,7 @@
                                      CommandParameter="Balanced"
                                      Style="{StaticResource PerformanceModeCard}"
                                      Margin="4,0,4,0"
-                                     AutomationProperties.Name="Balanced performance mode: recommended, automatic power and fan control">
+                                     AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch9}">
                             <Grid>
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="Auto"/>
@@ -211,7 +211,7 @@
                                      CommandParameter="Performance"
                                      Style="{StaticResource PerformanceModeCard}"
                                      Margin="8,0,0,0"
-                                     AutomationProperties.Name="Performance mode: maximum power, high fan speed">
+                                     AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch10}">
                             <Grid>
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="Auto"/>
@@ -279,7 +279,7 @@
                                     Padding="14,8" Margin="16,0,0,0" VerticalAlignment="Center"
                                     Background="{StaticResource AccentBrush}" Foreground="White"
                                     BorderThickness="0" Cursor="Hand"
-                                    AutomationProperties.Name="Remember the current fan, GPU boost, refresh rate, lighting and charge limit settings in this selected performance mode"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch11}"/>
                         </Grid>
                     </Border>
                 </Grid>
@@ -340,7 +340,7 @@
                                 Padding="10,8"
                                 Margin="0,0,0,16">
                             <TextBlock FontSize="10" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap">
-                                <Run Text="⚠ Firmware-Determined Ceiling: " FontWeight="SemiBold" Foreground="#FF9800"/>
+                                <Run Text="{x:Static loc:Strings.MainPagesBatch12}" FontWeight="SemiBold" Foreground="#FF9800"/>
                                 <Run Text="{x:Static loc:Strings.AdvancedViewText343}"/>
                             </TextBlock>
                         </Border>
@@ -423,14 +423,14 @@
                                   ItemsSource="{Binding SystemControl.GpuPowerBoostLevels}"
                                   SelectedItem="{Binding SystemControl.GpuPowerBoostLevel}"
                                   Margin="0,0,12,0"
-                                  AutomationProperties.Name="GPU power boost level"/>
+                                  AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch13}"/>
 
                         <Button Grid.Column="2"
                                 Content="{x:Static loc:Strings.AdvancedViewText428}"
                                 Style="{StaticResource ModernButton}"
                                 Command="{Binding SystemControl.ApplyGpuPowerBoostCommand}"
                                 Padding="16,8"
-                                AutomationProperties.Name="Apply GPU power boost level"/>
+                                AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch14}"/>
                     </Grid>
                     </StackPanel>
                 </Grid>
@@ -455,7 +455,7 @@
                             Padding="10,8"
                             Margin="0,0,0,16">
                         <TextBlock FontSize="10" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap">
-                            <Run Text="⚠ Hardware Limitation: " FontWeight="SemiBold" Foreground="#FF9800"/>
+                            <Run Text="{x:Static loc:Strings.MainPagesBatch15}" FontWeight="SemiBold" Foreground="#FF9800"/>
                             <Run Text="{x:Static loc:Strings.AdvancedViewText458}"/>
                         </TextBlock>
                     </Border>
@@ -497,21 +497,21 @@
                                   SelectedItem="{Binding SystemControl.Maintenance.SelectedGpuMode}"
                                   IsEnabled="{Binding SystemControl.Maintenance.GpuModeSwitchingSupported}"
                                   Margin="0,0,12,0"
-                                  AutomationProperties.Name="Switch GPU mode to"/>
+                                  AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch16}"/>
 
                         <Button Grid.Column="2"
                                 Content="{x:Static loc:Strings.AdvancedViewText502}"
                                 Style="{StaticResource ModernButton}"
                                 Command="{Binding SystemControl.Maintenance.SwitchGpuModeCommand}"
                                 Padding="16,8"
-                                AutomationProperties.Name="Apply GPU mode switch, requires restart"/>
+                                AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch17}"/>
                     </Grid>
 
                     <!-- Why Apply is disabled, instead of a button that does nothing when clicked. -->
                     <TextBlock Text="{Binding SystemControl.Maintenance.GpuModeSwitchingStatusText}"
                                Visibility="{Binding SystemControl.Maintenance.GpuModeSwitchingUnsupported, Converter={StaticResource BoolToVisibility}}"
                                FontSize="11" Foreground="#FF9800" TextWrapping="Wrap" Margin="0,10,0,0"
-                               AutomationProperties.Name="Why GPU mode switching is unavailable"/>
+                               AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch18}"/>
                 </StackPanel>
             </Border>
             
@@ -530,10 +530,10 @@
                     <StackPanel Orientation="Horizontal">
                         <Button Content="{x:Static loc:Strings.AdvancedViewText530}" Style="{StaticResource ModernButton}" Padding="16,8" Margin="0,0,8,0"
                                 Command="{Binding SystemControl.Maintenance.DisableHpTelemetryCommand}"
-                                AutomationProperties.Name="Disable HP telemetry services"/>
+                                AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch19}"/>
                         <Button Content="{x:Static loc:Strings.AdvancedViewText533}" Style="{StaticResource ModernButton}" Padding="16,8"
                                 Command="{Binding SystemControl.Maintenance.RestoreHpTelemetryCommand}"
-                                AutomationProperties.Name="Restore HP telemetry services"/>
+                                AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch20}"/>
                     </StackPanel>
                     <TextBlock Text="{Binding SystemControl.Maintenance.HpTelemetryStatus}" TextWrapping="Wrap"
                                Foreground="{StaticResource TextMutedBrush}" FontSize="11" Margin="0,8,0,0"/>
@@ -566,7 +566,7 @@
                                       IsChecked="{Binding SystemControl.Maintenance.DisplayOverdriveEnabled, Mode=TwoWay}"
                                       Style="{StaticResource ModernToggleButton}"
                                       VerticalAlignment="Center"
-                                      AutomationProperties.Name="Panel overdrive"/>
+                                      AutomationProperties.Name="{x:Static loc:Strings.MainPagesBatch21}"/>
                     </Grid>
                 </StackPanel>
             </Border>

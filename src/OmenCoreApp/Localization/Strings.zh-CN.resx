@@ -2045,4 +2045,32 @@
   <data name="SettingsMaintenanceBatch23" xml:space="preserve"><value>在重启 Windows 之前，部分组件可能仍在运行。</value></data>
   <data name="SettingsMaintenanceBatch24" xml:space="preserve"><value>从 .omencore 文件加载风扇曲线、性能模式和 GPU 超频设置</value></data>
   <data name="SettingsMaintenanceBatch25" xml:space="preserve"><value>将所有设置重置为默认值</value></data>
+  <data name="MainPagesBatch0" xml:space="preserve"><value>🎮 游戏库</value></data>
+  <data name="MainPagesBatch1" xml:space="preserve"><value>性能配置：CPU/GPU 最大功率，风扇积极散热</value></data>
+  <data name="MainPagesBatch2" xml:space="preserve"><value>均衡配置：HP 默认功率和散热</value></data>
+  <data name="MainPagesBatch3" xml:space="preserve"><value>安静配置：降低功率，尽量降低风扇转速</value></data>
+  <data name="MainPagesBatch4" xml:space="preserve"><value>自定义配置：用户自定义风扇曲线和功率设置</value></data>
+  <data name="MainPagesBatch5" xml:space="preserve"><value>风扇模式：最大</value></data>
+  <data name="MainPagesBatch6" xml:space="preserve"><value>风扇模式：由配置文件自动控制</value></data>
+  <data name="MainPagesBatch7" xml:space="preserve"><value>风扇模式：自定义</value></data>
+  <data name="MainPagesBatch8" xml:space="preserve"><value>安静性能模式：低噪音、低功耗</value></data>
+  <data name="MainPagesBatch9" xml:space="preserve"><value>均衡性能模式：推荐使用，自动控制功率和风扇</value></data>
+  <data name="MainPagesBatch10" xml:space="preserve"><value>性能模式：最大功率、高风扇转速</value></data>
+  <data name="MainPagesBatch11" xml:space="preserve"><value>在所选性能模式中记住当前风扇、GPU 增强、刷新率、灯光和充电限制设置</value></data>
+  <data name="MainPagesBatch12" xml:space="preserve"><value>⚠ 固件决定的上限：</value></data>
+  <data name="MainPagesBatch13" xml:space="preserve"><value>GPU 功率增强档位</value></data>
+  <data name="MainPagesBatch14" xml:space="preserve"><value>应用 GPU 功率增强档位</value></data>
+  <data name="MainPagesBatch15" xml:space="preserve"><value>⚠ 硬件限制：</value></data>
+  <data name="MainPagesBatch16" xml:space="preserve"><value>将 GPU 模式切换为</value></data>
+  <data name="MainPagesBatch17" xml:space="preserve"><value>应用 GPU 模式切换，需要重启</value></data>
+  <data name="MainPagesBatch18" xml:space="preserve"><value>GPU 模式切换不可用的原因</value></data>
+  <data name="MainPagesBatch19" xml:space="preserve"><value>禁用 HP 遥测服务</value></data>
+  <data name="MainPagesBatch20" xml:space="preserve"><value>恢复 HP 遥测服务</value></data>
+  <data name="MainPagesBatch21" xml:space="preserve"><value>屏幕响应加速</value></data>
+  <data name="MainPagesBatch22" xml:space="preserve"><value>刷新仪表盘读数</value></data>
+  <data name="MainPagesBatch23" xml:space="preserve"><value>SSD 温度和磁盘活动。SSD 的最佳温度低于 45°C。</value></data>
+  <data name="MainPagesBatch24" xml:space="preserve"><value>显示最近 1 分钟的历史记录</value></data>
+  <data name="MainPagesBatch25" xml:space="preserve"><value>显示最近 5 分钟的历史记录</value></data>
+  <data name="MainPagesBatch26" xml:space="preserve"><value>显示最近 15 分钟的历史记录</value></data>
+  <data name="MainPagesBatch27" xml:space="preserve"><value>显示最近 30 分钟的历史记录</value></data>
 </root>
