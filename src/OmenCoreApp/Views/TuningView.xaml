@@ -167,7 +167,7 @@
                             Margin="14,0,0,0"
                             VerticalAlignment="Center"
                             ToolTip="{x:Static loc:Strings.TuningViewText168}"
-                            AutomationProperties.Name="Roll back all tuning to safe defaults">
+                            AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch0}">
                         <StackPanel Orientation="Horizontal">
                             <Path Data="{StaticResource IconRestore}"
                                   Width="12"
@@ -195,7 +195,7 @@
             <Border Background="#1A2D2D1F" BorderBrush="#FF9800" BorderThickness="1" CornerRadius="6"
                     Padding="12,9" Margin="0,0,0,16"
                     Visibility="{Binding SystemControl.IsUndervoltSupported, Converter={StaticResource InverseBoolToVisibility}, FallbackValue=Collapsed}"
-                    AutomationProperties.Name="CPU undervolt is not available">
+                    AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch1}">
                 <StackPanel>
                     <TextBlock Text="{x:Static loc:Strings.TuningViewText199}" FontSize="12" FontWeight="SemiBold"
                                Foreground="{StaticResource TextPrimaryBrush}"/>
@@ -415,14 +415,14 @@
                                     Command="{Binding SystemControl.ApplyUndervoltCommand}"
                                     Padding="16,8" Margin="0,0,8,0"
                                     ToolTip="{x:Static loc:Strings.TuningViewText416}"
-                                    AutomationProperties.Name="Apply CPU undervolt offset"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch2}"/>
 
                             <Button Content="{x:Static loc:Strings.TuningViewText419}"
                                     Style="{StaticResource SecondaryButton}"
                                     Command="{Binding SystemControl.ResetUndervoltCommand}"
                                     Padding="16,8"
                                     ToolTip="{x:Static loc:Strings.TuningViewText423}"
-                                    AutomationProperties.Name="Reset CPU undervolt to 0 millivolts"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch3}"/>
                         </StackPanel>
                     </StackPanel>
                 </Grid>
@@ -476,7 +476,7 @@
                                     Command="{Binding SystemControl.RefreshCpuPowerLimitsCommand}"
                                     Padding="12,6" FontSize="11"
                                     ToolTip="{x:Static loc:Strings.TuningViewText477}"
-                                    AutomationProperties.Name="Refresh CPU power limit readings"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch4}"/>
                         </Grid>
                     </Border>
                     
@@ -613,7 +613,7 @@
                                     Padding="16,8" Margin="0,0,8,0"
                                     IsEnabled="{Binding SystemControl.CpuPowerLimitsLocked, Converter={StaticResource InverseBooleanConverter}}"
                                     ToolTip="{x:Static loc:Strings.TuningViewText614}"
-                                    AutomationProperties.Name="Apply CPU power limits"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch5}"/>
 
                             <Button Content="{x:Static loc:Strings.TuningViewText617}"
                                     Style="{StaticResource SecondaryButton}"
@@ -621,7 +621,7 @@
                                     Padding="16,8"
                                     IsEnabled="{Binding SystemControl.CpuPowerLimitsLocked, Converter={StaticResource InverseBooleanConverter}}"
                                     ToolTip="{x:Static loc:Strings.TuningViewText622}"
-                                    AutomationProperties.Name="Reset CPU power limits to defaults"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch6}"/>
                         </StackPanel>
                     </StackPanel>
                 </Grid>
@@ -761,19 +761,19 @@
                                     Command="{Binding SystemControl.RefreshAmdPowerLimitReadbackCommand}"
                                     Padding="16,8" Margin="0,0,8,0"
                                     ToolTip="{x:Static loc:Strings.TuningViewText762}"
-                                    AutomationProperties.Name="Refresh enforced AMD CPU power limits"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch7}"/>
                             <Button Content="{x:Static loc:Strings.TuningViewText764}"
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding SystemControl.ApplyAmdPowerLimitsCommand}"
                                     Padding="16,8" Margin="0,0,8,0"
                                     ToolTip="{x:Static loc:Strings.TuningViewText768}"
-                                    AutomationProperties.Name="Apply AMD CPU power limits"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch8}"/>
                             <Button Content="{x:Static loc:Strings.TuningViewText770}"
                                     Style="{StaticResource SecondaryButton}"
                                     Command="{Binding SystemControl.ResetAmdPowerLimitsCommand}"
                                     Padding="16,8"
                                     ToolTip="{x:Static loc:Strings.TuningViewText774}"
-                                    AutomationProperties.Name="Reset AMD CPU power limits to defaults"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch9}"/>
                         </StackPanel>
                     </StackPanel>
                 </Grid>
@@ -883,14 +883,14 @@
                                     Command="{Binding SystemControl.ApplyTccOffsetCommand}"
                                     Padding="16,8" Margin="0,0,8,0"
                                     ToolTip="{x:Static loc:Strings.TuningViewText884}"
-                                    AutomationProperties.Name="Apply CPU thermal limit offset"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch10}"/>
 
                             <Button Content="{x:Static loc:Strings.TuningViewText887}"
                                     Style="{StaticResource SecondaryButton}"
                                     Command="{Binding SystemControl.ResetTccOffsetCommand}"
                                     Padding="16,8"
                                     ToolTip="{x:Static loc:Strings.TuningViewText891}"
-                                    AutomationProperties.Name="Remove CPU thermal limit offset"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch11}"/>
                         </StackPanel>
                     </StackPanel>
                 </Grid>
@@ -931,7 +931,7 @@
                             <ComboBox ItemsSource="{Binding SystemControl.NvidiaPower.Targets}" SelectedItem="{Binding SystemControl.NvidiaPower.SelectedTarget}" MinWidth="80"/>
                         </StackPanel>
                         <WrapPanel>
-                            <Button Content="1. Resolve VBIOS" Command="{Binding SystemControl.NvidiaPower.ResolveVbiosCommand}" Style="{StaticResource ModernButton}" Padding="16,8" Margin="0,0,8,4"
+                            <Button Content="{x:Static loc:Strings.TuningDiagBatch12}" Command="{Binding SystemControl.NvidiaPower.ResolveVbiosCommand}" Style="{StaticResource ModernButton}" Padding="16,8" Margin="0,0,8,4"
                                     ToolTip="{x:Static loc:Strings.TuningViewText934}"/>
                             <Button Content="{x:Static loc:Strings.TuningViewText935}" Command="{Binding SystemControl.NvidiaPower.ResolveVbiosFromFileCommand}" Style="{StaticResource ModernButton}" Padding="16,8" Margin="0,0,8,4"/>
                             <Button Content="{x:Static loc:Strings.TuningViewText936}" Command="{Binding SystemControl.NvidiaPower.ApplyMaxCommand}" Style="{StaticResource ModernButton}" Padding="16,8" Margin="0,0,8,4"/>
@@ -1223,7 +1223,7 @@
                                     Padding="12"
                                     Margin="0,0,0,16">
                                 <TextBlock FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap">
-                                    <Run Text="✓ AMD GPU Overclocking (ADL2)" FontWeight="Bold" Foreground="#4CAF50"/>
+                                    <Run Text="{x:Static loc:Strings.TuningDiagBatch13}" FontWeight="Bold" Foreground="#4CAF50"/>
                                     <LineBreak/>
                                     <Run Text="{x:Static loc:Strings.TuningViewText1227}"/>
                                     <LineBreak/>
@@ -1295,13 +1295,13 @@
                                         Command="{Binding SystemControl.ResetAmdGpuCommand}"
                                         Margin="0,0,8,0" Padding="16,8"
                                         ToolTip="{x:Static loc:Strings.TuningViewText1296}"
-                                        AutomationProperties.Name="Reset AMD GPU overclock to defaults"/>
+                                        AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch14}"/>
                                 <Button Content="{x:Static loc:Strings.TuningViewText1298}"
                                         Style="{StaticResource ModernButton}"
                                         Command="{Binding SystemControl.ApplyAmdGpuOcCommand}"
                                         Padding="16,8"
                                         ToolTip="{x:Static loc:Strings.TuningViewText1302}"
-                                        AutomationProperties.Name="Apply AMD GPU overclock"/>
+                                        AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch15}"/>
                             </StackPanel>
                         </StackPanel>
 
@@ -1317,7 +1317,7 @@
                                     Margin="0,0,0,16"
                                     Visibility="{Binding SystemControl.GpuOcNotAvailable, Converter={StaticResource BooleanToVisibilityConverter}}">
                                 <TextBlock FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap">
-                                    <Run Text="ℹ️ Clock Offsets Not Available" FontWeight="Bold" Foreground="#2196F3"/>
+                                    <Run Text="{x:Static loc:Strings.TuningDiagBatch16}" FontWeight="Bold" Foreground="#2196F3"/>
                                     <LineBreak/>
                                     <Run Text="{x:Static loc:Strings.TuningViewText1321}"/>
                                     <LineBreak/>
@@ -1466,28 +1466,28 @@
                                     Command="{Binding SystemControl.TestGpuOcCommand}"
                                     Padding="16,8" Margin="0,0,8,0"
                                     ToolTip="{x:Static loc:Strings.TuningViewText1467}"
-                                    AutomationProperties.Name="Test GPU overclock temporarily"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch17}"/>
 
                                 <Button Content="{x:Static loc:Strings.TuningViewText1470}"
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding SystemControl.ConfirmGpuOcTestCommand}"
                                     Padding="16,8" Margin="0,0,8,0"
                                     ToolTip="{x:Static loc:Strings.TuningViewText1474}"
-                                    AutomationProperties.Name="Keep tested GPU overclock"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch18}"/>
 
                                 <Button Content="{x:Static loc:Strings.TuningViewText1477}"
                                         Style="{StaticResource ModernButton}"
                                         Command="{Binding SystemControl.ApplyGpuOcCommand}"
                                         Padding="16,8" Margin="0,0,8,0"
                                         ToolTip="{x:Static loc:Strings.TuningViewText1481}"
-                                        AutomationProperties.Name="Apply NVIDIA GPU overclock"/>
+                                        AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch19}"/>
 
                                 <Button Content="{x:Static loc:Strings.TuningViewText1484}"
                                         Style="{StaticResource SecondaryButton}"
                                         Command="{Binding SystemControl.ResetGpuOcCommand}"
                                         Padding="16,8"
                                         ToolTip="{x:Static loc:Strings.TuningViewText1488}"
-                                        AutomationProperties.Name="Reset NVIDIA GPU overclock to defaults"/>
+                                        AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch20}"/>
                             </StackPanel>
 
                             <TextBlock Text="{Binding SystemControl.GpuOcTestStatusText}"

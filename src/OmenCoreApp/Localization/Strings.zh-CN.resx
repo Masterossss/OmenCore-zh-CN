@@ -2323,4 +2323,44 @@
   <data name="SettingsAccessibleBatch99" xml:space="preserve"><value>WiFi SSID</value></data>
   <data name="SettingsAccessibleBatch100" xml:space="preserve"><value>风扇预设操作</value></data>
   <data name="SettingsAccessibleBatch101" xml:space="preserve"><value>性能模式操作</value></data>
+  <data name="TuningDiagBatch0" xml:space="preserve"><value>将所有性能调校回退到安全默认值</value></data>
+  <data name="TuningDiagBatch1" xml:space="preserve"><value>CPU 降压不可用</value></data>
+  <data name="TuningDiagBatch2" xml:space="preserve"><value>应用 CPU 降压偏移</value></data>
+  <data name="TuningDiagBatch3" xml:space="preserve"><value>将 CPU 降压重置为 0 毫伏</value></data>
+  <data name="TuningDiagBatch4" xml:space="preserve"><value>刷新 CPU 功率限制读数</value></data>
+  <data name="TuningDiagBatch5" xml:space="preserve"><value>应用 CPU 功率限制</value></data>
+  <data name="TuningDiagBatch6" xml:space="preserve"><value>将 CPU 功率限制恢复默认值</value></data>
+  <data name="TuningDiagBatch7" xml:space="preserve"><value>刷新实际执行的 AMD CPU 功率限制</value></data>
+  <data name="TuningDiagBatch8" xml:space="preserve"><value>应用 AMD CPU 功率限制</value></data>
+  <data name="TuningDiagBatch9" xml:space="preserve"><value>将 AMD CPU 功率限制恢复默认值</value></data>
+  <data name="TuningDiagBatch10" xml:space="preserve"><value>应用 CPU 温度限制偏移</value></data>
+  <data name="TuningDiagBatch11" xml:space="preserve"><value>移除 CPU 温度限制偏移</value></data>
+  <data name="TuningDiagBatch12" xml:space="preserve"><value>1. 确定 VBIOS</value></data>
+  <data name="TuningDiagBatch13" xml:space="preserve"><value>✓ AMD GPU 超频（ADL2）</value></data>
+  <data name="TuningDiagBatch14" xml:space="preserve"><value>将 AMD GPU 超频恢复默认值</value></data>
+  <data name="TuningDiagBatch15" xml:space="preserve"><value>应用 AMD GPU 超频</value></data>
+  <data name="TuningDiagBatch16" xml:space="preserve"><value>ℹ️ 时钟偏移不可用</value></data>
+  <data name="TuningDiagBatch17" xml:space="preserve"><value>临时测试 GPU 超频</value></data>
+  <data name="TuningDiagBatch18" xml:space="preserve"><value>保留测试过的 GPU 超频</value></data>
+  <data name="TuningDiagBatch19" xml:space="preserve"><value>应用 NVIDIA GPU 超频</value></data>
+  <data name="TuningDiagBatch20" xml:space="preserve"><value>将 NVIDIA GPU 超频恢复默认值</value></data>
+  <data name="TuningDiagBatch21" xml:space="preserve"><value>添加 CPU 曲线控制点</value></data>
+  <data name="TuningDiagBatch22" xml:space="preserve"><value>移除最后一个 CPU 曲线控制点</value></data>
+  <data name="TuningDiagBatch23" xml:space="preserve"><value>将 CPU 曲线恢复默认值</value></data>
+  <data name="TuningDiagBatch24" xml:space="preserve"><value>将 CPU 曲线复制到 GPU</value></data>
+  <data name="TuningDiagBatch25" xml:space="preserve"><value>添加 GPU 曲线控制点</value></data>
+  <data name="TuningDiagBatch26" xml:space="preserve"><value>移除最后一个 GPU 曲线控制点</value></data>
+  <data name="TuningDiagBatch27" xml:space="preserve"><value>将 GPU 曲线恢复默认值</value></data>
+  <data name="TuningDiagBatch28" xml:space="preserve"><value>打开风扇校准向导</value></data>
+  <data name="TuningDiagBatch29" xml:space="preserve"><value>导出完整诊断报告</value></data>
+  <data name="TuningDiagBatch30" xml:space="preserve"><value>导出遥测 JSON</value></data>
+  <data name="TuningDiagBatch31" xml:space="preserve"><value>向维护者报告此机型</value></data>
+  <data name="TuningDiagBatch32" xml:space="preserve"><value>打开应用日志文件夹</value></data>
+  <data name="TuningDiagBatch33" xml:space="preserve"><value>打开 OmenCore 数据文件夹</value></data>
+  <data name="TuningDiagBatch34" xml:space="preserve"><value>运行温度来源比较</value></data>
+  <data name="TuningDiagBatch35" xml:space="preserve"><value>检查当前 GPU 功率限制</value></data>
+  <data name="TuningDiagBatch36" xml:space="preserve"><value>解除电源适配器功率钳制</value></data>
+  <data name="TuningDiagBatch37" xml:space="preserve"><value>停止维持 CPU 功率限制</value></data>
+  <data name="TuningDiagBatch38" xml:space="preserve"><value>尝试 GPU 功率解锁（实验性）</value></data>
+  <data name="TuningDiagBatch39" xml:space="preserve"><value>ℹ️ 关于诊断</value></data>
 </root>

@@ -65,11 +65,11 @@
                         <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
                             <Button Content="{x:Static loc:Strings.DiagnosticsViewText65}" Command="{Binding Settings.ExportDiagnosticsCommand}" Style="{StaticResource AccentButtonSmall}" Margin="0,0,8,0"
                                     ToolTip="{x:Static loc:Strings.DiagnosticsViewText66}"
-                                    AutomationProperties.Name="Export full diagnostics report" />
+                                    AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch29}" />
                             <Button Content="{x:Static loc:Strings.DiagnosticsViewText68Content}" Command="{Binding ExportTelemetryCommand}" Style="{StaticResource AccentButtonSmall}" Margin="0,0,8,0" ToolTip="{x:Static loc:Strings.DiagnosticsViewText68ToolTip}"
-                                    AutomationProperties.Name="Export telemetry JSON" />
+                                    AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch30}" />
                             <Button Content="{x:Static loc:Strings.DiagnosticsViewText70Content}" Command="{Binding ReportModelCommand}" Style="{StaticResource OutlineButtonSmall}" ToolTip="{x:Static loc:Strings.DiagnosticsViewText70ToolTip}"
-                                    AutomationProperties.Name="Report this model to the maintainer" />
+                                    AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch31}" />
                         </StackPanel>
                     </StackPanel>
 
@@ -84,10 +84,10 @@
                         <TextBlock Text="{x:Static loc:Strings.DiagnosticsViewText83}" FontWeight="SemiBold" Margin="0,12,0,0"/>
                         <Button Content="{x:Static loc:Strings.DiagnosticsViewText84}" Click="OpenDiagnosticsFolder_Click" Style="{StaticResource OutlineButtonSmall}" Margin="0,0,0,8"
                                 ToolTip="{x:Static loc:Strings.DiagnosticsViewText85}"
-                                AutomationProperties.Name="Open app logs folder" />
+                                AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch32}" />
                         <Button Content="{x:Static loc:Strings.DiagnosticsViewText87}" Click="OpenOmenCoreDataFolder_Click" Style="{StaticResource OutlineButtonSmall}"
                                 ToolTip="{x:Static loc:Strings.DiagnosticsViewText88}"
-                                AutomationProperties.Name="Open OmenCore data folder" />
+                                AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch33}" />
                     </StackPanel>
                 </Grid>
             </GroupBox>
@@ -105,7 +105,7 @@
                             Command="{Binding TemperatureSourceDiagnostics.RunComparisonCommand}"
                             Style="{StaticResource OutlineButtonSmall}" HorizontalAlignment="Left"
                             ToolTip="{x:Static loc:Strings.DiagnosticsViewText106}"
-                            AutomationProperties.Name="Run temperature source comparison"/>
+                            AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch34}"/>
 
                     <Border Background="#2D2D1F" BorderBrush="{StaticResource WarningBrush}" BorderThickness="1"
                             CornerRadius="6" Padding="10,8" Margin="0,10,0,0"
@@ -175,7 +175,7 @@
                                 Style="{StaticResource OutlineButtonSmall}" Margin="0,8,0,0"
                                 HorizontalAlignment="Left"
                                 ToolTip="{x:Static loc:Strings.DiagnosticsViewText176}"
-                                AutomationProperties.Name="Check current GPU power limit"/>
+                                AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch35}"/>
 
                         <Separator Margin="0,12,0,10"/>
 
@@ -200,7 +200,7 @@
                                 Style="{StaticResource OutlineButtonSmall}" Margin="0,10,0,0"
                                 HorizontalAlignment="Left"
                                 ToolTip="{x:Static loc:Strings.DiagnosticsViewText201}"
-                                AutomationProperties.Name="Drop the adapter power clamp"/>
+                                AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch36}"/>
 
                         <TextBlock Text="{Binding GpuClamp.ApuClampStatus}" FontSize="11" Margin="0,8,0,0"
                                    Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"
@@ -212,7 +212,7 @@
                                 HorizontalAlignment="Left"
                                 Visibility="{Binding GpuClamp.IsApuClampHeld, Converter={StaticResource BoolToVisibility}}"
                                 ToolTip="{x:Static loc:Strings.DiagnosticsViewText213}"
-                                AutomationProperties.Name="Stop holding the CPU power limits"/>
+                                AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch37}"/>
 
                         <!-- Doing it without being asked every boot. Both off by default; the GPU one
                              carries its condition in the label, because that condition is the only
@@ -276,7 +276,7 @@
                                 Style="{StaticResource OutlineButtonSmall}" Margin="0,10,0,0"
                                 HorizontalAlignment="Left"
                                 ToolTip="{x:Static loc:Strings.DiagnosticsViewText277}"
-                                AutomationProperties.Name="Try the GPU power unlock (experimental)"/>
+                                AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch38}"/>
                     </StackPanel>
                 </StackPanel>
             </GroupBox>
@@ -445,7 +445,7 @@
                     BorderBrush="{StaticResource AccentBlueBrush}"
                     BorderThickness="1">
                 <StackPanel>
-                    <TextBlock Text="ℹ️ About Diagnostics" 
+                    <TextBlock Text="{x:Static loc:Strings.TuningDiagBatch39}"
                                FontSize="14" 
                                FontWeight="SemiBold" 
                                Foreground="{StaticResource AccentBlueBrush}" 

@@ -2331,4 +2331,44 @@ Continue?</value></data>
   <data name="SettingsAccessibleBatch99" xml:space="preserve"><value>WiFi SSID</value></data>
   <data name="SettingsAccessibleBatch100" xml:space="preserve"><value>Fan preset action</value></data>
   <data name="SettingsAccessibleBatch101" xml:space="preserve"><value>Performance mode action</value></data>
+  <data name="TuningDiagBatch0" xml:space="preserve"><value>Roll back all tuning to safe defaults</value></data>
+  <data name="TuningDiagBatch1" xml:space="preserve"><value>CPU undervolt is not available</value></data>
+  <data name="TuningDiagBatch2" xml:space="preserve"><value>Apply CPU undervolt offset</value></data>
+  <data name="TuningDiagBatch3" xml:space="preserve"><value>Reset CPU undervolt to 0 millivolts</value></data>
+  <data name="TuningDiagBatch4" xml:space="preserve"><value>Refresh CPU power limit readings</value></data>
+  <data name="TuningDiagBatch5" xml:space="preserve"><value>Apply CPU power limits</value></data>
+  <data name="TuningDiagBatch6" xml:space="preserve"><value>Reset CPU power limits to defaults</value></data>
+  <data name="TuningDiagBatch7" xml:space="preserve"><value>Refresh enforced AMD CPU power limits</value></data>
+  <data name="TuningDiagBatch8" xml:space="preserve"><value>Apply AMD CPU power limits</value></data>
+  <data name="TuningDiagBatch9" xml:space="preserve"><value>Reset AMD CPU power limits to defaults</value></data>
+  <data name="TuningDiagBatch10" xml:space="preserve"><value>Apply CPU thermal limit offset</value></data>
+  <data name="TuningDiagBatch11" xml:space="preserve"><value>Remove CPU thermal limit offset</value></data>
+  <data name="TuningDiagBatch12" xml:space="preserve"><value>1. Resolve VBIOS</value></data>
+  <data name="TuningDiagBatch13" xml:space="preserve"><value>✓ AMD GPU Overclocking (ADL2)</value></data>
+  <data name="TuningDiagBatch14" xml:space="preserve"><value>Reset AMD GPU overclock to defaults</value></data>
+  <data name="TuningDiagBatch15" xml:space="preserve"><value>Apply AMD GPU overclock</value></data>
+  <data name="TuningDiagBatch16" xml:space="preserve"><value>ℹ️ Clock Offsets Not Available</value></data>
+  <data name="TuningDiagBatch17" xml:space="preserve"><value>Test GPU overclock temporarily</value></data>
+  <data name="TuningDiagBatch18" xml:space="preserve"><value>Keep tested GPU overclock</value></data>
+  <data name="TuningDiagBatch19" xml:space="preserve"><value>Apply NVIDIA GPU overclock</value></data>
+  <data name="TuningDiagBatch20" xml:space="preserve"><value>Reset NVIDIA GPU overclock to defaults</value></data>
+  <data name="TuningDiagBatch21" xml:space="preserve"><value>Add CPU curve point</value></data>
+  <data name="TuningDiagBatch22" xml:space="preserve"><value>Remove last CPU curve point</value></data>
+  <data name="TuningDiagBatch23" xml:space="preserve"><value>Reset CPU curve to default</value></data>
+  <data name="TuningDiagBatch24" xml:space="preserve"><value>Copy CPU curve to GPU</value></data>
+  <data name="TuningDiagBatch25" xml:space="preserve"><value>Add GPU curve point</value></data>
+  <data name="TuningDiagBatch26" xml:space="preserve"><value>Remove last GPU curve point</value></data>
+  <data name="TuningDiagBatch27" xml:space="preserve"><value>Reset GPU curve to default</value></data>
+  <data name="TuningDiagBatch28" xml:space="preserve"><value>Open fan calibration wizard</value></data>
+  <data name="TuningDiagBatch29" xml:space="preserve"><value>Export full diagnostics report</value></data>
+  <data name="TuningDiagBatch30" xml:space="preserve"><value>Export telemetry JSON</value></data>
+  <data name="TuningDiagBatch31" xml:space="preserve"><value>Report this model to the maintainer</value></data>
+  <data name="TuningDiagBatch32" xml:space="preserve"><value>Open app logs folder</value></data>
+  <data name="TuningDiagBatch33" xml:space="preserve"><value>Open OmenCore data folder</value></data>
+  <data name="TuningDiagBatch34" xml:space="preserve"><value>Run temperature source comparison</value></data>
+  <data name="TuningDiagBatch35" xml:space="preserve"><value>Check current GPU power limit</value></data>
+  <data name="TuningDiagBatch36" xml:space="preserve"><value>Drop the adapter power clamp</value></data>
+  <data name="TuningDiagBatch37" xml:space="preserve"><value>Stop holding the CPU power limits</value></data>
+  <data name="TuningDiagBatch38" xml:space="preserve"><value>Try the GPU power unlock (experimental)</value></data>
+  <data name="TuningDiagBatch39" xml:space="preserve"><value>ℹ️ About Diagnostics</value></data>
 </root>

@@ -925,20 +925,20 @@
                                             Width="32" Height="28"
                                             FontSize="12"
                                             Margin="0,0,4,0"
-                                            AutomationProperties.Name="Add CPU curve point"/>
+                                            AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch21}"/>
                                     <Button Content="−"
                                             Command="{Binding RemoveCurvePointCommand}"
                                             Style="{StaticResource SecondaryButton}"
                                             Width="32" Height="28"
                                             FontSize="12"
                                             Margin="0,0,4,0"
-                                            AutomationProperties.Name="Remove last CPU curve point"/>
+                                            AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch22}"/>
                                     <Button Content="↺"
                                             Command="{Binding ResetCurveCommand}"
                                             Style="{StaticResource SecondaryButton}"
                                             Width="32" Height="28"
                                             FontSize="12"
-                                            AutomationProperties.Name="Reset CPU curve to default"/>
+                                            AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch23}"/>
                                 </StackPanel>
                             </Grid>
 
@@ -997,7 +997,7 @@
                                             FontSize="12"
                                             Margin="0,0,4,0"
                                             ToolTip="{x:Static loc:Strings.FanControlViewText998}"
-                                            AutomationProperties.Name="Copy CPU curve to GPU">
+                                            AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch24}">
                                         <Path Data="{StaticResource IconCopy}" Fill="{StaticResource TextPrimaryBrush}" Width="12" Height="12" Stretch="Uniform"/>
                                     </Button>
                                     <Button Content="+"
@@ -1006,20 +1006,20 @@
                                             Width="32" Height="28"
                                             FontSize="12"
                                             Margin="0,0,4,0"
-                                            AutomationProperties.Name="Add GPU curve point"/>
+                                            AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch25}"/>
                                     <Button Content="−"
                                             Command="{Binding RemoveGpuCurvePointCommand}"
                                             Style="{StaticResource SecondaryButton}"
                                             Width="32" Height="28"
                                             FontSize="12"
                                             Margin="0,0,4,0"
-                                            AutomationProperties.Name="Remove last GPU curve point"/>
+                                            AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch26}"/>
                                     <Button Content="↺"
                                             Command="{Binding ResetGpuCurveCommand}"
                                             Style="{StaticResource SecondaryButton}"
                                             Width="32" Height="28"
                                             FontSize="12"
-                                            AutomationProperties.Name="Reset GPU curve to default"/>
+                                            AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch27}"/>
                                 </StackPanel>
                             </Grid>
                             
@@ -1158,7 +1158,7 @@
                                             Padding="12,6"
                                             Margin="12,0,0,0"
                                             VerticalAlignment="Top"
-                                            AutomationProperties.Name="Open fan calibration wizard">
+                                            AutomationProperties.Name="{x:Static loc:Strings.TuningDiagBatch28}">
                                         <TextBlock Text="{Binding FanCalibrationActionText}" FontSize="10"/>
                                     </Button>
                                 </Grid>
