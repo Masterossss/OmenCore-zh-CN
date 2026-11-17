@@ -2111,4 +2111,95 @@
   <data name="SettingsUiBatch26" xml:space="preserve"><value>OmenCore 是免费开源软件。如果它对您有帮助，欢迎支持其开发！</value></data>
   <data name="SettingsUiBatch27" xml:space="preserve"><value>每天在计划时间自动应用风扇预设和性能模式。</value></data>
   <data name="SettingsUiBatch28" xml:space="preserve"><value>内置自动化支持的触发条件：时间段、电池阈值、交流电源状态、CPU/GPU 温度及系统空闲时间。</value></data>
+  <data name="SettingsLabelBatch0" xml:space="preserve"><value>设置</value></data>
+  <data name="SettingsLabelBatch1" xml:space="preserve"><value>状态</value></data>
+  <data name="SettingsLabelBatch2" xml:space="preserve"><value>系统恢复后的修复</value></data>
+  <data name="SettingsLabelBatch3" xml:space="preserve"><value>刷新</value></data>
+  <data name="SettingsLabelBatch4" xml:space="preserve"><value>常规</value></data>
+  <data name="SettingsLabelBatch5" xml:space="preserve"><value>高级</value></data>
+  <data name="SettingsLabelBatch6" xml:space="preserve"><value>硬件监控</value></data>
+  <data name="SettingsLabelBatch7" xml:space="preserve"><value>当前级别：</value></data>
+  <data name="SettingsLabelBatch8" xml:space="preserve"><value>原因：</value></data>
+  <data name="SettingsLabelBatch9" xml:space="preserve"><value>超低频率的阻碍：</value></data>
+  <data name="SettingsLabelBatch10" xml:space="preserve"><value>启动安全模式保护</value></data>
+  <data name="SettingsLabelBatch11" xml:space="preserve"><value>安全模式启动时间窗口</value></data>
+  <data name="SettingsLabelBatch12" xml:space="preserve"><value>超时阈值</value></data>
+  <data name="SettingsLabelBatch13" xml:space="preserve"><value>当前状态：</value></data>
+  <data name="SettingsLabelBatch14" xml:space="preserve"><value>每小时</value></data>
+  <data name="SettingsLabelBatch15" xml:space="preserve"><value>每 6 小时</value></data>
+  <data name="SettingsLabelBatch16" xml:space="preserve"><value>每天</value></data>
+  <data name="SettingsLabelBatch17" xml:space="preserve"><value>每周</value></data>
+  <data name="SettingsLabelBatch18" xml:space="preserve"><value>循环切换常规配置</value></data>
+  <data name="SettingsLabelBatch19" xml:space="preserve"><value>增强模式（性能）</value></data>
+  <data name="SettingsLabelBatch20" xml:space="preserve"><value>📥 获取 PawnIO（推荐）</value></data>
+  <data name="SettingsLabelBatch21" xml:space="preserve"><value>🔄 刷新状态</value></data>
+  <data name="SettingsLabelBatch22" xml:space="preserve"><value>将 EC 恢复为默认值</value></data>
+  <data name="SettingsLabelBatch23" xml:space="preserve"><value>🔧 重置 EC</value></data>
+  <data name="SettingsLabelBatch24" xml:space="preserve"><value>HP 机型：</value></data>
+  <data name="SettingsLabelBatch25" xml:space="preserve"><value>当前 BIOS：</value></data>
+  <data name="SettingsLabelBatch26" xml:space="preserve"><value>最新 BIOS：</value></data>
+  <data name="SettingsLabelBatch27" xml:space="preserve"><value>🔍 检查更新</value></data>
+  <data name="SettingsLabelBatch28" xml:space="preserve"><value>⬇️ 下载更新</value></data>
+  <data name="SettingsLabelBatch29" xml:space="preserve"><value>助手</value></data>
+  <data name="SettingsLabelBatch30" xml:space="preserve"><value>驱动</value></data>
+  <data name="SettingsLabelBatch31" xml:space="preserve"><value>下载</value></data>
+  <data name="SettingsLabelBatch32" xml:space="preserve"><value>（官方）</value></data>
+  <data name="SettingsLabelBatch33" xml:space="preserve"><value>风扇增强</value></data>
+  <data name="SettingsLabelBatch34" xml:space="preserve"><value>💨 开始风扇增强</value></data>
+  <data name="SettingsLabelBatch35" xml:space="preserve"><value>取消</value></data>
+  <data name="SettingsLabelBatch36" xml:space="preserve"><value>HP 预装软件清理</value></data>
+  <data name="SettingsLabelBatch37" xml:space="preserve"><value>🗑️ 打开软件清理 →</value></data>
+  <data name="SettingsLabelBatch38" xml:space="preserve"><value>功能模块</value></data>
+  <data name="SettingsLabelBatch39" xml:space="preserve"><value>Corsair iCUE 集成</value></data>
+  <data name="SettingsLabelBatch40" xml:space="preserve"><value>Logitech G HUB 集成</value></data>
+  <data name="SettingsLabelBatch41" xml:space="preserve"><value>游戏配置自动切换</value></data>
+  <data name="SettingsLabelBatch42" xml:space="preserve"><value>键盘背光控制</value></data>
+  <data name="SettingsLabelBatch43" xml:space="preserve"><value>🌈 环境灯光</value></data>
+  <data name="SettingsLabelBatch44" xml:space="preserve"><value>饱和度：</value></data>
+  <data name="SettingsLabelBatch45" xml:space="preserve"><value>更新频率：</value></data>
+  <data name="SettingsLabelBatch46" xml:space="preserve"><value>键盘后端</value></data>
+  <data name="SettingsLabelBatch47" xml:space="preserve"><value>反转 RGB 分区顺序</value></data>
+  <data name="SettingsLabelBatch48" xml:space="preserve"><value>OMEN 键操作</value></data>
+  <data name="SettingsLabelBatch49" xml:space="preserve"><value>要运行的程序或脚本</value></data>
+  <data name="SettingsLabelBatch50" xml:space="preserve"><value>参数（可选）</value></data>
+  <data name="SettingsLabelBatch51" xml:space="preserve"><value>外观</value></data>
+  <data name="SettingsLabelBatch52" xml:space="preserve"><value>位置</value></data>
+  <data name="SettingsLabelBatch53" xml:space="preserve"><value>温度</value></data>
+  <data name="SettingsLabelBatch54" xml:space="preserve"><value>网络</value></data>
+  <data name="SettingsLabelBatch55" xml:space="preserve"><value>系统</value></data>
+  <data name="SettingsLabelBatch56" xml:space="preserve"><value>CPU 负载 %</value></data>
+  <data name="SettingsLabelBatch57" xml:space="preserve"><value>GPU 负载 %</value></data>
+  <data name="SettingsLabelBatch58" xml:space="preserve"><value>CPU 功率（W）</value></data>
+  <data name="SettingsLabelBatch59" xml:space="preserve"><value>GPU 功率（W）</value></data>
+  <data name="SettingsLabelBatch60" xml:space="preserve"><value>性能模式</value></data>
+  <data name="SettingsLabelBatch61" xml:space="preserve"><value>电池 %</value></data>
+  <data name="SettingsLabelBatch62" xml:space="preserve"><value>布局</value></data>
+  <data name="SettingsLabelBatch63" xml:space="preserve"><value>（屏幕边缘的紧凑栏）</value></data>
+  <data name="SettingsLabelBatch64" xml:space="preserve"><value>🗑️ 执行清理</value></data>
+  <data name="SettingsLabelBatch65" xml:space="preserve"><value>📥 导入配置</value></data>
+  <data name="SettingsLabelBatch66" xml:space="preserve"><value>📤 导出配置</value></data>
+  <data name="SettingsLabelBatch67" xml:space="preserve"><value>🔬 导出诊断信息</value></data>
+  <data name="SettingsLabelBatch68" xml:space="preserve"><value>📂 打开配置文件夹</value></data>
+  <data name="SettingsLabelBatch69" xml:space="preserve"><value>📋 打开日志文件夹</value></data>
+  <data name="SettingsLabelBatch70" xml:space="preserve"><value>🔄 恢复默认设置</value></data>
+  <data name="SettingsLabelBatch71" xml:space="preserve"><value>关于</value></data>
+  <data name="SettingsLabelBatch72" xml:space="preserve"><value>版本：</value></data>
+  <data name="SettingsLabelBatch73" xml:space="preserve"><value>📝 版本说明</value></data>
+  <data name="SettingsLabelBatch74" xml:space="preserve"><value>🐛 报告问题</value></data>
+  <data name="SettingsLabelBatch75" xml:space="preserve"><value>💖 支持开发</value></data>
+  <data name="SettingsLabelBatch76" xml:space="preserve"><value>计划任务</value></data>
+  <data name="SettingsLabelBatch77" xml:space="preserve"><value>时间：</value></data>
+  <data name="SettingsLabelBatch78" xml:space="preserve"><value>风扇：</value></data>
+  <data name="SettingsLabelBatch79" xml:space="preserve"><value>模式：</value></data>
+  <data name="SettingsLabelBatch80" xml:space="preserve"><value>＋ 添加规则</value></data>
+  <data name="SettingsLabelBatch81" xml:space="preserve"><value>自动化规则</value></data>
+  <data name="SettingsLabelBatch82" xml:space="preserve"><value>＋ 添加自动化规则</value></data>
+  <data name="SettingsLabelBatch83" xml:space="preserve"><value>数字较小的规则先执行</value></data>
+  <data name="SettingsLabelBatch84" xml:space="preserve"><value>温度阈值（°C）</value></data>
+  <data name="SettingsLabelBatch85" xml:space="preserve"><value>温度条件</value></data>
+  <data name="SettingsLabelBatch86" xml:space="preserve"><value>传感器</value></data>
+  <data name="SettingsLabelBatch87" xml:space="preserve"><value>空闲分钟数</value></data>
+  <data name="SettingsLabelBatch88" xml:space="preserve"><value>进程名称（例如 game.exe）</value></data>
+  <data name="SettingsLabelBatch89" xml:space="preserve"><value>WiFi 网络名称（SSID）</value></data>
+  <data name="SettingsLabelBatch90" xml:space="preserve"><value>屏幕盖状态</value></data>
 </root>

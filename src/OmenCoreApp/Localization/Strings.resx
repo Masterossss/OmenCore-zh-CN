@@ -2119,4 +2119,95 @@ Continue?</value></data>
   <data name="SettingsUiBatch26" xml:space="preserve"><value>OmenCore is free and open source. If you find it useful, consider supporting its development!</value></data>
   <data name="SettingsUiBatch27" xml:space="preserve"><value>Automatically apply fan presets and performance modes at scheduled times each day.</value></data>
   <data name="SettingsUiBatch28" xml:space="preserve"><value>Promoted triggers for shipped automation: time window, battery threshold, AC power state, CPU/GPU temperature, and system idle time.</value></data>
+  <data name="SettingsLabelBatch0" xml:space="preserve"><value>Settings</value></data>
+  <data name="SettingsLabelBatch1" xml:space="preserve"><value>Status</value></data>
+  <data name="SettingsLabelBatch2" xml:space="preserve"><value>Post-Resume Recovery</value></data>
+  <data name="SettingsLabelBatch3" xml:space="preserve"><value>Refresh</value></data>
+  <data name="SettingsLabelBatch4" xml:space="preserve"><value>General</value></data>
+  <data name="SettingsLabelBatch5" xml:space="preserve"><value>Advanced</value></data>
+  <data name="SettingsLabelBatch6" xml:space="preserve"><value>Monitoring</value></data>
+  <data name="SettingsLabelBatch7" xml:space="preserve"><value>Current tier: </value></data>
+  <data name="SettingsLabelBatch8" xml:space="preserve"><value>Reason: </value></data>
+  <data name="SettingsLabelBatch9" xml:space="preserve"><value>Ultra-low blockers: </value></data>
+  <data name="SettingsLabelBatch10" xml:space="preserve"><value>Startup safe mode guard</value></data>
+  <data name="SettingsLabelBatch11" xml:space="preserve"><value>Safe-mode startup window</value></data>
+  <data name="SettingsLabelBatch12" xml:space="preserve"><value>Timeout threshold</value></data>
+  <data name="SettingsLabelBatch13" xml:space="preserve"><value>Current status: </value></data>
+  <data name="SettingsLabelBatch14" xml:space="preserve"><value>Every hour</value></data>
+  <data name="SettingsLabelBatch15" xml:space="preserve"><value>Every 6 hours</value></data>
+  <data name="SettingsLabelBatch16" xml:space="preserve"><value>Daily</value></data>
+  <data name="SettingsLabelBatch17" xml:space="preserve"><value>Weekly</value></data>
+  <data name="SettingsLabelBatch18" xml:space="preserve"><value>Cycle General profiles</value></data>
+  <data name="SettingsLabelBatch19" xml:space="preserve"><value>Boost mode (Performance)</value></data>
+  <data name="SettingsLabelBatch20" xml:space="preserve"><value>📥 Get PawnIO (Recommended)</value></data>
+  <data name="SettingsLabelBatch21" xml:space="preserve"><value>🔄 Refresh Status</value></data>
+  <data name="SettingsLabelBatch22" xml:space="preserve"><value>Reset EC to Defaults</value></data>
+  <data name="SettingsLabelBatch23" xml:space="preserve"><value>🔧 Reset EC</value></data>
+  <data name="SettingsLabelBatch24" xml:space="preserve"><value>HP Model:</value></data>
+  <data name="SettingsLabelBatch25" xml:space="preserve"><value>Current BIOS:</value></data>
+  <data name="SettingsLabelBatch26" xml:space="preserve"><value>Latest BIOS:</value></data>
+  <data name="SettingsLabelBatch27" xml:space="preserve"><value>🔍 Check for Updates</value></data>
+  <data name="SettingsLabelBatch28" xml:space="preserve"><value>⬇️ Download Update</value></data>
+  <data name="SettingsLabelBatch29" xml:space="preserve"><value>Assistant</value></data>
+  <data name="SettingsLabelBatch30" xml:space="preserve"><value>Driver</value></data>
+  <data name="SettingsLabelBatch31" xml:space="preserve"><value>Downloads</value></data>
+  <data name="SettingsLabelBatch32" xml:space="preserve"><value>(Official)</value></data>
+  <data name="SettingsLabelBatch33" xml:space="preserve"><value>Fan Boost</value></data>
+  <data name="SettingsLabelBatch34" xml:space="preserve"><value>💨 Start Fan Boost</value></data>
+  <data name="SettingsLabelBatch35" xml:space="preserve"><value>Cancel</value></data>
+  <data name="SettingsLabelBatch36" xml:space="preserve"><value>HP Bloatware Removal</value></data>
+  <data name="SettingsLabelBatch37" xml:space="preserve"><value>🗑️ Open Bloatware Manager →</value></data>
+  <data name="SettingsLabelBatch38" xml:space="preserve"><value>Feature Modules</value></data>
+  <data name="SettingsLabelBatch39" xml:space="preserve"><value>Corsair iCUE Integration</value></data>
+  <data name="SettingsLabelBatch40" xml:space="preserve"><value>Logitech G HUB Integration</value></data>
+  <data name="SettingsLabelBatch41" xml:space="preserve"><value>Game Profile Auto-Switching</value></data>
+  <data name="SettingsLabelBatch42" xml:space="preserve"><value>Keyboard Backlight Control</value></data>
+  <data name="SettingsLabelBatch43" xml:space="preserve"><value>🌈 Ambient Lighting</value></data>
+  <data name="SettingsLabelBatch44" xml:space="preserve"><value>Saturation:</value></data>
+  <data name="SettingsLabelBatch45" xml:space="preserve"><value>Update Rate:</value></data>
+  <data name="SettingsLabelBatch46" xml:space="preserve"><value>Keyboard Backend</value></data>
+  <data name="SettingsLabelBatch47" xml:space="preserve"><value>Invert RGB Zone Order</value></data>
+  <data name="SettingsLabelBatch48" xml:space="preserve"><value>OMEN Key Action</value></data>
+  <data name="SettingsLabelBatch49" xml:space="preserve"><value>Program or script to run</value></data>
+  <data name="SettingsLabelBatch50" xml:space="preserve"><value>Arguments (optional)</value></data>
+  <data name="SettingsLabelBatch51" xml:space="preserve"><value>Appearance</value></data>
+  <data name="SettingsLabelBatch52" xml:space="preserve"><value>Position</value></data>
+  <data name="SettingsLabelBatch53" xml:space="preserve"><value>Thermals</value></data>
+  <data name="SettingsLabelBatch54" xml:space="preserve"><value>Network</value></data>
+  <data name="SettingsLabelBatch55" xml:space="preserve"><value>System</value></data>
+  <data name="SettingsLabelBatch56" xml:space="preserve"><value>CPU Load %</value></data>
+  <data name="SettingsLabelBatch57" xml:space="preserve"><value>GPU Load %</value></data>
+  <data name="SettingsLabelBatch58" xml:space="preserve"><value>CPU Power (W)</value></data>
+  <data name="SettingsLabelBatch59" xml:space="preserve"><value>GPU Power (W)</value></data>
+  <data name="SettingsLabelBatch60" xml:space="preserve"><value>Perf. Mode</value></data>
+  <data name="SettingsLabelBatch61" xml:space="preserve"><value>Battery %</value></data>
+  <data name="SettingsLabelBatch62" xml:space="preserve"><value>Layout</value></data>
+  <data name="SettingsLabelBatch63" xml:space="preserve"><value>(Compact bar at screen edge)</value></data>
+  <data name="SettingsLabelBatch64" xml:space="preserve"><value>🗑️ Run Cleanup</value></data>
+  <data name="SettingsLabelBatch65" xml:space="preserve"><value>📥 Import Profile</value></data>
+  <data name="SettingsLabelBatch66" xml:space="preserve"><value>📤 Export Profile</value></data>
+  <data name="SettingsLabelBatch67" xml:space="preserve"><value>🔬 Export Diagnostics</value></data>
+  <data name="SettingsLabelBatch68" xml:space="preserve"><value>📂 Open Config Folder</value></data>
+  <data name="SettingsLabelBatch69" xml:space="preserve"><value>📋 Open Log Folder</value></data>
+  <data name="SettingsLabelBatch70" xml:space="preserve"><value>🔄 Reset to Defaults</value></data>
+  <data name="SettingsLabelBatch71" xml:space="preserve"><value>About</value></data>
+  <data name="SettingsLabelBatch72" xml:space="preserve"><value>Version: </value></data>
+  <data name="SettingsLabelBatch73" xml:space="preserve"><value>📝 Release Notes</value></data>
+  <data name="SettingsLabelBatch74" xml:space="preserve"><value>🐛 Report Issue</value></data>
+  <data name="SettingsLabelBatch75" xml:space="preserve"><value>💖 Support Development</value></data>
+  <data name="SettingsLabelBatch76" xml:space="preserve"><value>Scheduler</value></data>
+  <data name="SettingsLabelBatch77" xml:space="preserve"><value>Time:</value></data>
+  <data name="SettingsLabelBatch78" xml:space="preserve"><value>Fan:</value></data>
+  <data name="SettingsLabelBatch79" xml:space="preserve"><value>Mode:</value></data>
+  <data name="SettingsLabelBatch80" xml:space="preserve"><value>+ Add Rule</value></data>
+  <data name="SettingsLabelBatch81" xml:space="preserve"><value>Automation Rules</value></data>
+  <data name="SettingsLabelBatch82" xml:space="preserve"><value>+ Add Automation Rule</value></data>
+  <data name="SettingsLabelBatch83" xml:space="preserve"><value>Lower numbers run first</value></data>
+  <data name="SettingsLabelBatch84" xml:space="preserve"><value>Temperature threshold (°C)</value></data>
+  <data name="SettingsLabelBatch85" xml:space="preserve"><value>Temperature condition</value></data>
+  <data name="SettingsLabelBatch86" xml:space="preserve"><value>Sensor</value></data>
+  <data name="SettingsLabelBatch87" xml:space="preserve"><value>Idle minutes</value></data>
+  <data name="SettingsLabelBatch88" xml:space="preserve"><value>Process name (e.g. game.exe)</value></data>
+  <data name="SettingsLabelBatch89" xml:space="preserve"><value>WiFi network name (SSID)</value></data>
+  <data name="SettingsLabelBatch90" xml:space="preserve"><value>Lid state</value></data>
 </root>
