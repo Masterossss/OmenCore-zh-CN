@@ -5,7 +5,7 @@
 | 文件 | 运行时引用线索 | 静态文字 | 动态文字 | 风险提示 | 资源一致性 | 纯软件测试 | 中英文页面切换 | GUI | 未解决位置 | 状态 |
 |---|---|---|---|---|---|---|---|---|---|
 | `src/OmenCoreApp/Controls/DiagnosticExportControl.xaml` | 未找到直接引用；待追踪 | 待审查 | 待审查 | 待核查 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | 静态候选及 code-behind/绑定需核查 | 进行中 |
-| `src/OmenCoreApp/Controls/FanCalibrationControl.xaml` | 源码引用：`src/OmenCoreApp/ViewModels/FanControlViewModel.cs` | 待审查 | 待审查 | 待核查 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | 校准动态状态及确认部分已汉化；静态候选待核查，原版清除数据提示与实际行为不一致 | 进行中 |
+| `src/OmenCoreApp/Controls/FanCalibrationControl.xaml` | 源码引用：`src/OmenCoreApp/ViewModels/FanControlViewModel.cs` | 待审查 | 待审查 | 待核查 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | 校准动态状态、确认及结果部分已汉化；静态候选待核查，清除功能未实现且现在明确提示不删除 | 进行中 |
 | `src/OmenCoreApp/Controls/FanCurveChart.xaml` | 源码引用：`src/OmenCoreApp/Views/DashboardView.xaml` | 待审查 | 待审查 | 待核查 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | 静态候选及 code-behind/绑定需核查 | 进行中 |
 | `src/OmenCoreApp/Controls/FanCurveEditor.xaml` | 源码引用：`src/OmenCoreApp/Views/FanControlView.xaml` | 待审查 | 待审查 | 待核查 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | 静态候选及 code-behind/绑定需核查 | 进行中 |
 | `src/OmenCoreApp/Controls/GpuVcChart.xaml` | 源码引用：`src/OmenCoreApp/Views/DashboardView.xaml` | 待审查 | 待审查 | 待确认 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | 静态候选及 code-behind/绑定需核查 | 进行中 |
@@ -34,7 +34,7 @@
 | `src/OmenCoreApp/Views/OnboardingWindow.xaml` | 未找到直接引用；待追踪 | 待审查 | 待审查 | 待确认 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | 静态候选及 code-behind/绑定需核查 | 进行中 |
 | `src/OmenCoreApp/Views/OsdOverlayWindow.xaml` | 源码引用：`src/OmenCoreApp/Services/OsdService.cs` | 待审查 | 待审查 | 待确认 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | 静态候选及 code-behind/绑定需核查 | 进行中 |
 | `src/OmenCoreApp/Views/QuickPopupWindow.xaml` | 源码引用：`src/OmenCoreApp/Utils/TrayIconService.cs` | 部分处理 | 部分处理 | 待确认 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | 托盘调用、绑定与布局仍需核查 | 进行中 |
-| `src/OmenCoreApp/Views/SettingsView.xaml` | 源码引用：`src/OmenCoreApp/Views/MainWindow.xaml.cs` | 部分处理 | 部分处理 | 待核查 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | EC、散热、启动恢复、维护提示部分已汉化；仍有大量静态文本及动态绑定待核查 | 进行中 |
+| `src/OmenCoreApp/Views/SettingsView.xaml` | 源码引用：`src/OmenCoreApp/Views/MainWindow.xaml.cs` | 部分处理 | 部分处理 | 待核查 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | 固定文本、文本节点和辅助名称大部分已处理；枚举选项与动态绑定待核查 | 进行中 |
 | `src/OmenCoreApp/Views/SplashWindow.xaml` | 未找到直接引用；待追踪 | 待审查 | 待审查 | 待确认 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | 静态候选及 code-behind/绑定需核查 | 进行中 |
 | `src/OmenCoreApp/Views/SystemOptimizerView.xaml` | 源码引用：`src/OmenCoreApp/Views/MainWindow.xaml.cs` | 部分处理 | 部分处理 | 待核查 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | 21 项详细说明和撤销说明、6 条预检警告已处理；动态反馈及未知警告待核查 | 进行中 |
 | `src/OmenCoreApp/Views/TuningView.xaml` | 源码引用：`src/OmenCoreApp/Views/MainWindow.xaml.cs` | 部分处理 | 部分处理 | 待核查 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | 调校风险、MSR 锁定及 NVIDIA 建议部分处理；其他静态文字与动态反馈待核查 | 进行中 |
