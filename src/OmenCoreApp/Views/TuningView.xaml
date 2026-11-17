@@ -466,7 +466,7 @@
                             <StackPanel Grid.Column="1" VerticalAlignment="Center">
                                 <TextBlock Text="{x:Static loc:Strings.TuningViewText466}" FontSize="16" FontWeight="SemiBold"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="{Binding SystemControl.CpuPowerLimitsStatus}" 
+                                <TextBlock Text="{Binding SystemControl.CpuPowerLimitsDisplayStatus}"
                                            FontSize="11" Foreground="{StaticResource AccentBrush}"
                                            Margin="0,4,0,0" TextTrimming="CharacterEllipsis"/>
                             </StackPanel>

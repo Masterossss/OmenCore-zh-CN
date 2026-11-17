@@ -2795,4 +2795,13 @@ BIOS 可能在启动过程中锁定了 MSR 寄存器。</value></data>
   <data name="SealLightThrottle" xml:space="preserve"><value>🚨 降频指示</value></data>
   <data name="SealLightThrottleAlert" xml:space="preserve"><value>⚠️ 降频警报</value></data>
   <data name="SealLightOpenRgb" xml:space="preserve"><value> 可控制 OpenRGB 支持的 RGB 设备（主板、内存、显卡、散热器、灯带等）。 </value></data>
+  <data name="SealCpuDetecting" xml:space="preserve"><value>正在检测…</value></data>
+  <data name="SealCpuNoMsr" xml:space="preserve"><value>无法访问 MSR（安装 PawnIO 以控制功率限制）</value></data>
+  <data name="SealCpuMsr8d2f" xml:space="preserve"><value>8D2F Intel 平台上的 MSR 封装功率限制不可用，请使用 OMEN/OGH 模式策略控制</value></data>
+  <data name="SealCpuMsrUnavailable" xml:space="preserve"><value>MSR 封装功率限制不可用：HP 固件可能要求使用 OMEN 性能模式或 Unleashed 模式</value></data>
+  <data name="SealCpuBiosLocked" xml:space="preserve"><value>⚠️ BIOS 已锁定，只读（PL1：{0}W，PL2：{1}W）</value></data>
+  <data name="SealCpuBiosLockedOgh" xml:space="preserve"><value>⚠️ BIOS 已锁定，只读（PL1：{0}W，PL2：{1}W）。OMEN/OGH 模式策略仍然生效</value></data>
+  <data name="SealGpuSavedNotApplied" xml:space="preserve"><value>{0}（通过 WMI 检测；保存的首选档位“{1}”尚未应用）</value></data>
+  <data name="SealGpuDetectedWmi" xml:space="preserve"><value>{0}（通过 WMI 检测）</value></data>
+  <data name="SealGpuDetectedOgh" xml:space="preserve"><value>{0}（通过 OGH 检测）</value></data>
 </root>

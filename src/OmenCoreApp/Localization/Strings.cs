@@ -2582,5 +2582,14 @@ namespace OmenCore.Localization
         public static string SealLightThrottle => Get(nameof(SealLightThrottle));
         public static string SealLightThrottleAlert => Get(nameof(SealLightThrottleAlert));
         public static string SealLightOpenRgb => Get(nameof(SealLightOpenRgb));
+        public static string SealCpuDetecting => Get(nameof(SealCpuDetecting));
+        public static string SealCpuNoMsr => Get(nameof(SealCpuNoMsr));
+        public static string SealCpuMsr8d2f => Get(nameof(SealCpuMsr8d2f));
+        public static string SealCpuMsrUnavailable => Get(nameof(SealCpuMsrUnavailable));
+        public static string SealCpuBiosLocked => Get(nameof(SealCpuBiosLocked));
+        public static string SealCpuBiosLockedOgh => Get(nameof(SealCpuBiosLockedOgh));
+        public static string SealGpuSavedNotApplied => Get(nameof(SealGpuSavedNotApplied));
+        public static string SealGpuDetectedWmi => Get(nameof(SealGpuDetectedWmi));
+        public static string SealGpuDetectedOgh => Get(nameof(SealGpuDetectedOgh));
     }
 }

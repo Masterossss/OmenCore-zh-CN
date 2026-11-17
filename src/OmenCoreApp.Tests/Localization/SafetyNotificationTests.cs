@@ -8,6 +8,36 @@ namespace OmenCoreApp.Tests.Localization
     public class SafetyNotificationTests
     {
         [Fact]
+        public void GpuUnverifiedAndFailureRemainDistinctAndUnknownFallsBack()
+        {
+            var previous = CultureInfo.CurrentUICulture;
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                GpuPowerStatusDisplay.Translate("⚠️ Command sent but GPU power may not have changed (BIOS WMI degraded)").Should().Contain("可能没有改变");
+                GpuPowerStatusDisplay.Translate("⚠️ GPU power restore attempted but BIOS readback shows no change").Should().Contain("没有变化");
+                GpuPowerStatusDisplay.Translate("Failed - WMI/EC commands not supported on this model").Should().StartWith("失败");
+                GpuPowerStatusDisplay.Translate("Maximum (detected via WMI; saved preference 'Medium' not yet applied)").Should().Contain("尚未应用").And.Contain("Medium");
+                GpuPowerStatusDisplay.Translate("Unexpected failure").Should().Be("Unexpected failure");
+            }
+            finally { CultureInfo.CurrentUICulture = previous; }
+        }
+
+        [Fact]
+        public void BiosLockedCpuStatusPreservesReadOnlyAndModePolicy()
+        {
+            var previous = CultureInfo.CurrentUICulture;
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                var text = CpuPowerStatusDisplay.Translate("⚠️ BIOS Locked - Read-only (PL1: 45W, PL2: 65W). Mode policy still applies via OMEN/OGH");
+                text.Should().Contain("只读").And.Contain("45W").And.Contain("65W").And.Contain("模式策略仍然生效");
+                CpuPowerStatusDisplay.Translate("Unknown status").Should().Be("Unknown status");
+            }
+            finally { CultureInfo.CurrentUICulture = previous; }
+        }
+
+        [Fact]
         public void HistoryTranslatesKnownWarningsAndKeepsUnknownMessages()
         {
             var previous = CultureInfo.CurrentUICulture;

@@ -862,7 +862,6 @@ namespace OmenCore.ViewModels
                     OnPropertyChanged(nameof(IsGpuFullPowerActive));
                     OnPropertyChanged(nameof(ShowGpuFullPowerPill));
                     OnPropertyChanged(nameof(CurrentPerformanceModeIndicator));
-                    OnPropertyChanged(nameof(GpuPowerBoostDisplayStatus));
                     OnPropertyChanged(nameof(GpuPowerBoostVisualState));
                     OnPropertyChanged(nameof(GpuPowerBoostVisualLabel));
                 }
@@ -974,6 +973,7 @@ namespace OmenCore.ViewModels
                 {
                     _gpuPowerBoostStatus = value;
                     OnPropertyChanged();
+                    OnPropertyChanged(nameof(GpuPowerBoostDisplayStatus));
                     OnPropertyChanged(nameof(GpuPowerBoostVisualState));
                     OnPropertyChanged(nameof(GpuPowerBoostVisualLabel));
                 }
@@ -2565,9 +2565,12 @@ namespace OmenCore.ViewModels
                 {
                     _cpuPowerLimitsStatus = value;
                     OnPropertyChanged();
+                    OnPropertyChanged(nameof(CpuPowerLimitsDisplayStatus));
                 }
             }
         }
+
+        public string CpuPowerLimitsDisplayStatus => OmenCore.Localization.CpuPowerStatusDisplay.Translate(CpuPowerLimitsStatus);
 
         private bool _cpuPowerLimitsLocked;
         public bool CpuPowerLimitsLocked

@@ -2803,4 +2803,13 @@ The BIOS may have locked the MSR registers during boot.</value></data>
   <data name="SealLightThrottle" xml:space="preserve"><value>🚨 Throttling Indicators</value></data>
   <data name="SealLightThrottleAlert" xml:space="preserve"><value>⚠️ Throttling Alert</value></data>
   <data name="SealLightOpenRgb" xml:space="preserve"><value> Controls any RGB device supported by OpenRGB (motherboards, RAM, GPUs, coolers, LED strips, etc). </value></data>
+  <data name="SealCpuDetecting" xml:space="preserve"><value>Detecting...</value></data>
+  <data name="SealCpuNoMsr" xml:space="preserve"><value>No MSR access (install PawnIO for power limit control)</value></data>
+  <data name="SealCpuMsr8d2f" xml:space="preserve"><value>MSR package limits unavailable on 8D2F Intel path - use OMEN/OGH mode policy control</value></data>
+  <data name="SealCpuMsrUnavailable" xml:space="preserve"><value>MSR package limits unavailable - HP firmware may require OMEN performance modes/Unleashed mode</value></data>
+  <data name="SealCpuBiosLocked" xml:space="preserve"><value>⚠️ BIOS Locked - Read-only (PL1: {0}W, PL2: {1}W)</value></data>
+  <data name="SealCpuBiosLockedOgh" xml:space="preserve"><value>⚠️ BIOS Locked - Read-only (PL1: {0}W, PL2: {1}W). Mode policy still applies via OMEN/OGH</value></data>
+  <data name="SealGpuSavedNotApplied" xml:space="preserve"><value>{0} (detected via WMI; saved preference '{1}' not yet applied)</value></data>
+  <data name="SealGpuDetectedWmi" xml:space="preserve"><value>{0} (detected via WMI)</value></data>
+  <data name="SealGpuDetectedOgh" xml:space="preserve"><value>{0} (detected via OGH)</value></data>
 </root>
