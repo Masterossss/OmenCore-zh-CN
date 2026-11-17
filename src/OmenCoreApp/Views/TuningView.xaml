@@ -1110,11 +1110,11 @@
                                       Margin="0,0,12,0" VerticalAlignment="Top"/>
                                 <TextBlock Grid.Column="1" FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap">
                                     <Run Text="{x:Static loc:Strings.TuningViewText1111}" FontWeight="Bold" Foreground="#64B5F6"/>
-                                    <Run Text=" Modern NVIDIA GPUs auto-manage voltage. To reduce power/heat: lower the"/>
-                                    <Run Text=" Power Limit" FontWeight="SemiBold" Foreground="{StaticResource AccentBrush}"/>
-                                    <Run Text=" (forces lower voltage at each frequency) or use"/>
-                                    <Run Text=" negative Core Offset" FontWeight="SemiBold" Foreground="{StaticResource AccentBrush}"/>
-                                    <Run Text=" (reduces boost clocks → less voltage needed). For V/F curve editing, use MSI Afterburner."/>
+                                    <Run Text="{x:Static loc:Strings.FanAndGpuGuide0}"/>
+                                    <Run Text="{x:Static loc:Strings.FanAndGpuGuide1}" FontWeight="SemiBold" Foreground="{StaticResource AccentBrush}"/>
+                                    <Run Text="{x:Static loc:Strings.FanAndGpuGuide2}"/>
+                                    <Run Text="{x:Static loc:Strings.FanAndGpuGuide3}" FontWeight="SemiBold" Foreground="{StaticResource AccentBrush}"/>
+                                    <Run Text="{x:Static loc:Strings.FanAndGpuGuide4}"/>
                                 </TextBlock>
                             </Grid>
                         </Border>

@@ -1834,7 +1834,7 @@
   <data name="SettingsSafetyBatch14" xml:space="preserve"><value>恢复保存的最大风扇模式</value></data>
   <data name="SettingsSafetyBatch15" xml:space="preserve"><value>允许启动时使用保存的最大预设，以全速运行风扇。默认关闭，关闭时改用 BIOS 自动模式。</value></data>
   <data name="SettingsSafetyBatch16" xml:space="preserve"><value>性能模式下使用出厂风扇曲线（实验性）</value></data>
-  <data name="SettingsSafetyBatch17" xml:space="preserve"><value>此主板的固件自动模式在高负载下可能使风扇转速过低。此选项仅在性能模式启用且风扇处于自动模式时，改用 HP 自带的性能模式风扇曲线。尚未经硬件验证；关闭后风扇恢复 BIOS 自动模式。默认关闭。</value></data>
+  <data name="SettingsSafetyBatch17" xml:space="preserve"><value>此主板的固件自动模式在高负载下会使风扇转速过低。此选项仅在性能模式启用且风扇处于自动模式时，改用 HP 自带的性能模式风扇曲线。尚未经硬件验证；关闭后风扇恢复 BIOS 自动模式。默认关闭。</value></data>
   <data name="SettingsSafetyBatch18" xml:space="preserve"><value>性能模式下使用出厂风扇曲线</value></data>
   <data name="SettingsSafetyBatch19" xml:space="preserve"><value>性能</value></data>
   <data name="SettingsSafetyBatch20" xml:space="preserve"><value>重新应用性能模式和 GPU 功率增强。</value></data>
@@ -1983,4 +1983,40 @@
   <data name="FanCalClearTitle" xml:space="preserve"><value>清除校准数据</value></data>
   <data name="FanCalCleared" xml:space="preserve"><value>校准数据已清除。</value></data>
   <data name="FanCalClearedTitle" xml:space="preserve"><value>数据已清除</value></data>
+  <data name="FanAndGpuGuide0" xml:space="preserve"><value>现代 NVIDIA GPU 会自动管理电压。如需降低功耗和热量，可降低</value></data>
+  <data name="FanAndGpuGuide1" xml:space="preserve"><value>功率限制</value></data>
+  <data name="FanAndGpuGuide2" xml:space="preserve"><value>（迫使每个频率使用更低电压），或使用</value></data>
+  <data name="FanAndGpuGuide3" xml:space="preserve"><value>负核心偏移</value></data>
+  <data name="FanAndGpuGuide4" xml:space="preserve"><value>（降低加速频率，从而减少所需电压）。如需编辑电压／频率曲线，请使用 MSI Afterburner。</value></data>
+  <data name="FanAndGpuGuide5" xml:space="preserve"><value>💡 使用方法：</value></data>
+  <data name="FanAndGpuGuide6" xml:space="preserve"><value>• 拖动控制点以调整温度与风扇转速的对应关系</value></data>
+  <data name="FanAndGpuGuide7" xml:space="preserve"><value>• 单击空白区域以添加控制点</value></data>
+  <data name="FanAndGpuGuide8" xml:space="preserve"><value>• 右键单击控制点以将其移除</value></data>
+  <data name="FanAndGpuGuide9" xml:space="preserve"><value>• 蓝线表示当前温度（CPU/GPU 中的较高值）</value></data>
+  <data name="FanAndGpuGuide10" xml:space="preserve"><value>关闭风扇与性能模式解除关联提示</value></data>
+  <data name="FanAndGpuGuide11" xml:space="preserve"><value>关闭风扇硬件问题警告</value></data>
+  <data name="FanAndGpuGuide12" xml:space="preserve"><value>恢复厂商自动风扇控制</value></data>
+  <data name="FanAndGpuGuide13" xml:space="preserve"><value>最大风扇预设：强制所有风扇达到 100%</value></data>
+  <data name="FanAndGpuGuide14" xml:space="preserve"><value>直接固定风扇档位预设</value></data>
+  <data name="FanAndGpuGuide15" xml:space="preserve"><value>极致风扇预设：除最大模式外散热最强的曲线</value></data>
+  <data name="FanAndGpuGuide16" xml:space="preserve"><value>游戏风扇预设：积极升速曲线</value></data>
+  <data name="FanAndGpuGuide17" xml:space="preserve"><value>自动风扇预设：由 BIOS 控制的均衡曲线</value></data>
+  <data name="FanAndGpuGuide18" xml:space="preserve"><value>静音风扇预设：优先降低噪音</value></data>
+  <data name="FanAndGpuGuide19" xml:space="preserve"><value>自定义风扇预设：用户自定义曲线</value></data>
+  <data name="FanAndGpuGuide20" xml:space="preserve"><value>直接风扇档位百分比</value></data>
+  <data name="FanAndGpuGuide21" xml:space="preserve"><value>应用直接风扇档位</value></data>
+  <data name="FanAndGpuGuide22" xml:space="preserve"><value>自定义预设名称</value></data>
+  <data name="FanAndGpuGuide23" xml:space="preserve"><value>保存自定义预设</value></data>
+  <data name="FanAndGpuGuide24" xml:space="preserve"><value>已保存的自定义预设</value></data>
+  <data name="FanAndGpuGuide25" xml:space="preserve"><value>删除所选预设</value></data>
+  <data name="FanAndGpuGuide26" xml:space="preserve"><value>从文件导入预设</value></data>
+  <data name="FanAndGpuGuide27" xml:space="preserve"><value>将预设导出到文件</value></data>
+  <data name="FanAndGpuGuide28" xml:space="preserve"><value>关闭启动恢复提示</value></data>
+  <data name="FanAndGpuGuide29" xml:space="preserve"><value>平滑持续时间（毫秒）</value></data>
+  <data name="FanAndGpuGuide30" xml:space="preserve"><value>平滑步长（毫秒）</value></data>
+  <data name="FanAndGpuGuide31" xml:space="preserve"><value>添加曲线控制点</value></data>
+  <data name="FanAndGpuGuide32" xml:space="preserve"><value>移除最后一个曲线控制点</value></data>
+  <data name="FanAndGpuGuide33" xml:space="preserve"><value>将曲线重置为默认值</value></data>
+  <data name="FanAndGpuGuide34" xml:space="preserve"><value>将曲线复制为分享代码</value></data>
+  <data name="FanAndGpuGuide35" xml:space="preserve"><value>从剪贴板分享代码导入曲线</value></data>
 </root>

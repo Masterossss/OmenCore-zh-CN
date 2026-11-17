@@ -130,7 +130,7 @@
                     <TextBlock Text="{Binding FanPerformanceLinkDescription}" FontSize="11" Foreground="{StaticResource TextSecondaryBrush}" Margin="0,6,0,0" TextWrapping="Wrap"/>
                 </StackPanel>
                 <Button Grid.Column="1" Command="{Binding DismissFanPerformanceInfoBannerCommand}" Style="{StaticResource OutlineButtonSmall}" Padding="10,6" Margin="12,0,0,0"
-                        AutomationProperties.Name="Dismiss fan/performance decoupling notice">
+                        AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide10}">
                     <TextBlock Text="{x:Static loc:Strings.FanControlViewText133}" FontSize="10"/>
                 </Button>
             </Grid>
@@ -153,7 +153,7 @@
                     <TextBlock Text="{x:Static loc:Strings.FanControlViewText152}" FontSize="10" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,8,0,0" TextWrapping="Wrap" FontStyle="Italic"/>
                 </StackPanel>
                 <Button Grid.Column="1" Command="{Binding DismissRpmSanityWarningCommand}" Style="{StaticResource OutlineButtonSmall}" Padding="10,6" Margin="12,0,0,0"
-                        AutomationProperties.Name="Dismiss fan hardware issue warning">
+                        AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide11}">
                     <TextBlock Text="{x:Static loc:Strings.FanControlViewText156}" FontSize="10"/>
                 </Button>
             </Grid>
@@ -188,7 +188,7 @@
                                     Padding="10,6"
                                     Margin="10,0,0,0"
                                     ToolTip="{x:Static loc:Strings.FanControlViewText189}"
-                                    AutomationProperties.Name="Restore OEM auto fan control">
+                                    AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide12}">
                                 <TextBlock Text="{x:Static loc:Strings.FanControlViewText191}" FontSize="10"/>
                             </Button>
                         </StackPanel>
@@ -207,7 +207,7 @@
                                  MouseLeave="PresetCard_MouseLeave"
                                  ToolTip="{x:Static loc:Strings.FanControlViewText207}"
                                  Margin="0,0,6,0"
-                                 AutomationProperties.Name="Max fan preset: forces all fans to 100%">
+                                 AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide13}">
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto"/>
@@ -245,7 +245,7 @@
                                  IsEnabled="{Binding ManualFanControlAvailable}"
                                  ToolTip="{Binding DirectFanControlTooltip}"
                                  Margin="3,0,3,0"
-                                 AutomationProperties.Name="Direct fixed fan level preset">
+                                 AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide14}">
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto"/>
@@ -284,7 +284,7 @@
                                  MouseLeave="PresetCard_MouseLeave"
                                  ToolTip="{x:Static loc:Strings.FanControlViewText284}"
                                  Margin="3,0,3,0"
-                                 AutomationProperties.Name="Extreme fan preset: highest non-Max cooling curve">
+                                 AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide15}">
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto"/>
@@ -323,7 +323,7 @@
                                  MouseLeave="PresetCard_MouseLeave"
                                  ToolTip="{x:Static loc:Strings.FanControlViewText323}"
                                  Margin="3,0,3,0"
-                                 AutomationProperties.Name="Gaming fan preset: aggressive ramp-up curve">
+                                 AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide16}">
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto"/>
@@ -362,7 +362,7 @@
                                  MouseLeave="PresetCard_MouseLeave"
                                  ToolTip="{x:Static loc:Strings.FanControlViewText362}"
                                  Margin="3,0,3,0"
-                                 AutomationProperties.Name="Auto fan preset: BIOS-controlled balanced curve">
+                                 AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide17}">
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto"/>
@@ -401,7 +401,7 @@
                                  MouseLeave="PresetCard_MouseLeave"
                                  ToolTip="{x:Static loc:Strings.FanControlViewText401}"
                                  Margin="3,0,3,0"
-                                 AutomationProperties.Name="Silent fan preset: prioritizes quiet operation">
+                                 AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide18}">
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto"/>
@@ -441,7 +441,7 @@
                                  MouseLeave="PresetCard_MouseLeave"
                                  ToolTip="{Binding CustomCurveTooltip}"
                                  Margin="6,0,0,0"
-                                 AutomationProperties.Name="Custom fan preset: user-defined curve">
+                                 AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide19}">
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto"/>
@@ -507,7 +507,7 @@
                                     Value="{Binding ConstantFanPercent, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                                     Style="{StaticResource ModernSlider}"
                                     ToolTip="{x:Static loc:Strings.FanControlViewText508}"
-                                    AutomationProperties.Name="Direct fan level percentage"/>
+                                    AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide20}"/>
                             <Grid Margin="0,5,0,0">
                                 <TextBlock Text="0%" FontSize="10" Foreground="{StaticResource TextTertiaryBrush}" HorizontalAlignment="Left"/>
                                 <TextBlock Text="50%" FontSize="10" Foreground="{StaticResource TextTertiaryBrush}" HorizontalAlignment="Center"/>
@@ -523,7 +523,7 @@
                                 Margin="16,0,0,0"
                                 VerticalAlignment="Center"
                                 ToolTip="{x:Static loc:Strings.FanControlViewText524}"
-                                AutomationProperties.Name="Apply direct fan level">
+                                AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide21}">
                             <TextBlock Text="{x:Static loc:Strings.FanControlViewText526}" FontSize="11"/>
                         </Button>
                     </Grid>
@@ -539,12 +539,12 @@
                                  Width="130" Height="28" FontSize="10" Padding="6,4"
                                  VerticalContentAlignment="Center"
                                  ToolTip="{x:Static loc:Strings.FanControlViewText540}"
-                                 AutomationProperties.Name="Custom preset name"/>
+                                 AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide22}"/>
                         <Button Command="{Binding SaveCustomPresetCommand}"
                                 Style="{StaticResource ModernButton}"
                                 Height="28" Padding="8,0" Margin="6,0,0,0"
                                 ToolTip="{x:Static loc:Strings.FanControlViewText545}"
-                                AutomationProperties.Name="Save custom preset">
+                                AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide23}">
                             <StackPanel Orientation="Horizontal">
                                 <Path Data="{StaticResource IconExport}" Width="10" Height="10" Fill="{StaticResource TextPrimaryBrush}" Stretch="Uniform" Margin="0,0,4,0"/>
                                 <TextBlock Text="{x:Static loc:Strings.FanControlViewText549}" FontSize="10"/>
@@ -561,26 +561,26 @@
                                   DisplayMemberPath="Name"
                                   Width="130" Height="28" FontSize="10"
                                   ToolTip="{x:Static loc:Strings.FanControlViewText562}"
-                                  AutomationProperties.Name="Saved custom presets"/>
+                                  AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide24}"/>
                         <Button Command="{Binding DeleteSelectedPresetCommand}"
                                 Style="{StaticResource ModernButton}"
                                 Height="28" Padding="6,0" Margin="4,0,0,0"
                                 ToolTip="{x:Static loc:Strings.FanControlViewText567}"
-                                AutomationProperties.Name="Delete selected preset">
+                                AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide25}">
                             <TextBlock Text="🗑️" FontSize="10"/>
                         </Button>
                         <Button Command="{Binding ImportPresetsCommand}"
                                 Style="{StaticResource ModernButton}"
                                 Height="28" Padding="6,0" Margin="8,0,0,0"
                                 ToolTip="{x:Static loc:Strings.FanControlViewText574}"
-                                AutomationProperties.Name="Import presets from file">
+                                AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide26}">
                             <TextBlock Text="{x:Static loc:Strings.FanControlViewText576}" FontSize="10"/>
                         </Button>
                         <Button Command="{Binding ExportPresetsCommand}"
                                 Style="{StaticResource ModernButton}"
                                 Height="28" Padding="6,0" Margin="4,0,0,0"
                                 ToolTip="{x:Static loc:Strings.FanControlViewText581}"
-                                AutomationProperties.Name="Export presets to file">
+                                AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide27}">
                             <TextBlock Text="{x:Static loc:Strings.FanControlViewText583}" FontSize="10"/>
                         </Button>
                     </WrapPanel>
@@ -598,7 +598,7 @@
                                 <TextBlock Text="{Binding StartupRestoreHintText}" FontSize="10" Foreground="{StaticResource TextSecondaryBrush}" Margin="0,4,0,0" TextWrapping="Wrap"/>
                             </StackPanel>
                             <Button Grid.Column="1" Command="{Binding DismissStartupRestoreHintCommand}" Style="{StaticResource OutlineButtonSmall}" Padding="10,6" Margin="12,0,0,0"
-                                    AutomationProperties.Name="Dismiss startup restore hint">
+                                    AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide28}">
                                 <TextBlock Text="{x:Static loc:Strings.FanControlViewText601}" FontSize="10"/>
                             </Button>
                         </Grid>
@@ -620,14 +620,14 @@
                             <TextBlock Text="{x:Static loc:Strings.FanControlViewText619}" Style="{StaticResource SettingsLabel}" Margin="0,0,6,0"/>
                             <TextBox Text="{Binding SmoothingDurationMs, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
                                      Width="50" Height="24" Style="{StaticResource ModernTextBox}" FontSize="10" Padding="4,2"
-                                     AutomationProperties.Name="Smoothing duration in milliseconds"/>
+                                     AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide29}"/>
                             <TextBlock Text="ms" Style="{StaticResource SettingsLabel}" Margin="4,0,12,0"/>
 
                             <!-- Step -->
                             <TextBlock Text="{x:Static loc:Strings.FanControlViewText626}" Style="{StaticResource SettingsLabel}" Margin="0,0,6,0"/>
                             <TextBox Text="{Binding SmoothingStepMs, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
                                      Width="50" Height="24" Style="{StaticResource ModernTextBox}" FontSize="10" Padding="4,2"
-                                     AutomationProperties.Name="Smoothing step in milliseconds"/>
+                                     AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide30}"/>
                             <TextBlock Text="ms" Style="{StaticResource SettingsLabel}" Margin="4,0,12,0"/>
                             
                             <Border Width="1" Background="#333" Margin="0,0,12,0"/>
@@ -713,7 +713,7 @@
                                             FontSize="12"
                                             Margin="0,0,6,0"
                                             ToolTip="{x:Static loc:Strings.FanControlViewText714}"
-                                            AutomationProperties.Name="Add curve point"/>
+                                            AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide31}"/>
                                     <Button Content="− Remove"
                                             Command="{Binding RemoveCurvePointCommand}"
                                             Style="{StaticResource SecondaryButton}"
@@ -721,7 +721,7 @@
                                             FontSize="12"
                                             Margin="0,0,6,0"
                                             ToolTip="{x:Static loc:Strings.FanControlViewText722}"
-                                            AutomationProperties.Name="Remove last curve point"/>
+                                            AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide32}"/>
                                     <Button Content="↺ Reset"
                                             Command="{Binding ResetCurveCommand}"
                                             Style="{StaticResource SecondaryButton}"
@@ -729,7 +729,7 @@
                                             FontSize="12"
                                             Margin="0,0,6,0"
                                             ToolTip="{x:Static loc:Strings.FanControlViewText730}"
-                                            AutomationProperties.Name="Reset curve to default"/>
+                                            AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide33}"/>
                                     <Button Content="📋 Copy Code"
                                             Command="{Binding CopyCurveShareCodeCommand}"
                                             Style="{StaticResource SecondaryButton}"
@@ -737,14 +737,14 @@
                                             FontSize="12"
                                             Margin="0,0,6,0"
                                             ToolTip="{x:Static loc:Strings.FanControlViewText738}"
-                                            AutomationProperties.Name="Copy curve as share code"/>
+                                            AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide34}"/>
                                     <Button Content="📥 Paste Code"
                                             Command="{Binding ImportCurveFromClipboardCommand}"
                                             Style="{StaticResource SecondaryButton}"
                                             Width="105" Height="32"
                                             FontSize="12"
                                             ToolTip="{x:Static loc:Strings.FanControlViewText745}"
-                                            AutomationProperties.Name="Import curve from clipboard share code"/>
+                                            AutomationProperties.Name="{x:Static loc:Strings.FanAndGpuGuide35}"/>
                                 </StackPanel>
                             </Grid>
                             
@@ -756,18 +756,18 @@
                                     Padding="12"
                                     Margin="0,12,0,0">
                                 <StackPanel>
-                                    <TextBlock Text="💡 How to Use:" 
+                                    <TextBlock Text="{x:Static loc:Strings.FanAndGpuGuide5}"
                                                FontSize="11" FontWeight="SemiBold"
                                                Foreground="{StaticResource AccentBlueBrush}"
                                                Margin="0,0,0,4"/>
                                     <TextBlock Style="{StaticResource Caption}" FontSize="10" TextWrapping="Wrap">
-                                        <Run Text="• Drag points to adjust temperature/fan speed mapping"/>
+                                        <Run Text="{x:Static loc:Strings.FanAndGpuGuide6}"/>
                                         <LineBreak/>
-                                        <Run Text="• Click empty area to add new points"/>
+                                        <Run Text="{x:Static loc:Strings.FanAndGpuGuide7}"/>
                                         <LineBreak/>
-                                        <Run Text="• Right-click a point to remove it"/>
+                                        <Run Text="{x:Static loc:Strings.FanAndGpuGuide8}"/>
                                         <LineBreak/>
-                                        <Run Text="• Blue line shows current temperature (max of CPU/GPU)"/>
+                                        <Run Text="{x:Static loc:Strings.FanAndGpuGuide9}"/>
                                     </TextBlock>
                                 </StackPanel>
                             </Border>

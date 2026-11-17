@@ -1991,4 +1991,40 @@ Are you sure?</value></data>
   <data name="FanCalClearTitle" xml:space="preserve"><value>Clear Calibration Data</value></data>
   <data name="FanCalCleared" xml:space="preserve"><value>Calibration data cleared.</value></data>
   <data name="FanCalClearedTitle" xml:space="preserve"><value>Data Cleared</value></data>
+  <data name="FanAndGpuGuide0" xml:space="preserve"><value> Modern NVIDIA GPUs auto-manage voltage. To reduce power/heat: lower the</value></data>
+  <data name="FanAndGpuGuide1" xml:space="preserve"><value> Power Limit</value></data>
+  <data name="FanAndGpuGuide2" xml:space="preserve"><value> (forces lower voltage at each frequency) or use</value></data>
+  <data name="FanAndGpuGuide3" xml:space="preserve"><value> negative Core Offset</value></data>
+  <data name="FanAndGpuGuide4" xml:space="preserve"><value> (reduces boost clocks → less voltage needed). For V/F curve editing, use MSI Afterburner.</value></data>
+  <data name="FanAndGpuGuide5" xml:space="preserve"><value>💡 How to Use:</value></data>
+  <data name="FanAndGpuGuide6" xml:space="preserve"><value>• Drag points to adjust temperature/fan speed mapping</value></data>
+  <data name="FanAndGpuGuide7" xml:space="preserve"><value>• Click empty area to add new points</value></data>
+  <data name="FanAndGpuGuide8" xml:space="preserve"><value>• Right-click a point to remove it</value></data>
+  <data name="FanAndGpuGuide9" xml:space="preserve"><value>• Blue line shows current temperature (max of CPU/GPU)</value></data>
+  <data name="FanAndGpuGuide10" xml:space="preserve"><value>Dismiss fan/performance decoupling notice</value></data>
+  <data name="FanAndGpuGuide11" xml:space="preserve"><value>Dismiss fan hardware issue warning</value></data>
+  <data name="FanAndGpuGuide12" xml:space="preserve"><value>Restore OEM auto fan control</value></data>
+  <data name="FanAndGpuGuide13" xml:space="preserve"><value>Max fan preset: forces all fans to 100%</value></data>
+  <data name="FanAndGpuGuide14" xml:space="preserve"><value>Direct fixed fan level preset</value></data>
+  <data name="FanAndGpuGuide15" xml:space="preserve"><value>Extreme fan preset: highest non-Max cooling curve</value></data>
+  <data name="FanAndGpuGuide16" xml:space="preserve"><value>Gaming fan preset: aggressive ramp-up curve</value></data>
+  <data name="FanAndGpuGuide17" xml:space="preserve"><value>Auto fan preset: BIOS-controlled balanced curve</value></data>
+  <data name="FanAndGpuGuide18" xml:space="preserve"><value>Silent fan preset: prioritizes quiet operation</value></data>
+  <data name="FanAndGpuGuide19" xml:space="preserve"><value>Custom fan preset: user-defined curve</value></data>
+  <data name="FanAndGpuGuide20" xml:space="preserve"><value>Direct fan level percentage</value></data>
+  <data name="FanAndGpuGuide21" xml:space="preserve"><value>Apply direct fan level</value></data>
+  <data name="FanAndGpuGuide22" xml:space="preserve"><value>Custom preset name</value></data>
+  <data name="FanAndGpuGuide23" xml:space="preserve"><value>Save custom preset</value></data>
+  <data name="FanAndGpuGuide24" xml:space="preserve"><value>Saved custom presets</value></data>
+  <data name="FanAndGpuGuide25" xml:space="preserve"><value>Delete selected preset</value></data>
+  <data name="FanAndGpuGuide26" xml:space="preserve"><value>Import presets from file</value></data>
+  <data name="FanAndGpuGuide27" xml:space="preserve"><value>Export presets to file</value></data>
+  <data name="FanAndGpuGuide28" xml:space="preserve"><value>Dismiss startup restore hint</value></data>
+  <data name="FanAndGpuGuide29" xml:space="preserve"><value>Smoothing duration in milliseconds</value></data>
+  <data name="FanAndGpuGuide30" xml:space="preserve"><value>Smoothing step in milliseconds</value></data>
+  <data name="FanAndGpuGuide31" xml:space="preserve"><value>Add curve point</value></data>
+  <data name="FanAndGpuGuide32" xml:space="preserve"><value>Remove last curve point</value></data>
+  <data name="FanAndGpuGuide33" xml:space="preserve"><value>Reset curve to default</value></data>
+  <data name="FanAndGpuGuide34" xml:space="preserve"><value>Copy curve as share code</value></data>
+  <data name="FanAndGpuGuide35" xml:space="preserve"><value>Import curve from clipboard share code</value></data>
 </root>
