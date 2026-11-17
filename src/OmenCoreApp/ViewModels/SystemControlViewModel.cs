@@ -862,6 +862,7 @@ namespace OmenCore.ViewModels
                     OnPropertyChanged(nameof(IsGpuFullPowerActive));
                     OnPropertyChanged(nameof(ShowGpuFullPowerPill));
                     OnPropertyChanged(nameof(CurrentPerformanceModeIndicator));
+                    OnPropertyChanged(nameof(GpuPowerBoostDisplayStatus));
                     OnPropertyChanged(nameof(GpuPowerBoostVisualState));
                     OnPropertyChanged(nameof(GpuPowerBoostVisualLabel));
                 }
@@ -978,6 +979,8 @@ namespace OmenCore.ViewModels
                 }
             }
         }
+
+        public string GpuPowerBoostDisplayStatus => OmenCore.Localization.GpuPowerStatusDisplay.Translate(GpuPowerBoostStatus);
 
         public string GpuPowerBoostVisualState
         {
@@ -3347,10 +3350,8 @@ namespace OmenCore.ViewModels
             {
                 _logging.Warn("Cannot apply TCC offset: MSR access not available (install PawnIO)");
                 System.Windows.MessageBox.Show(
-                    "TCC offset cannot be applied - MSR access not available.\n\n" +
-                    "This requires PawnIO driver access (pawnio.eu).\n\n" +
-                    "Without MSR access, CPU temperature limits cannot be modified.",
-                    "TCC Offset Unavailable",
+                    OmenCore.Localization.Strings.SealTccUnavailable,
+                    OmenCore.Localization.Strings.SealTccUnavailableTitle,
                     System.Windows.MessageBoxButton.OK,
                     System.Windows.MessageBoxImage.Warning);
                 return;
@@ -3389,16 +3390,8 @@ namespace OmenCore.ViewModels
                     _logging.Warn($"× TCC offset write failed - value unchanged at {offsetBefore}°C. " +
                                   "This may indicate HVCI/Secure Boot is blocking MSR writes.");
                     System.Windows.MessageBox.Show(
-                        $"TCC offset could not be changed - the value remained at {offsetBefore}°C.\n\n" +
-                        "This usually means:\n" +
-                        "• Hyper-V/HVCI (Core Isolation) is blocking MSR writes\n" +
-                        "• Secure Boot is preventing kernel-mode access\n\n" +
-                        "To fix:\n" +
-                        "1. Open Windows Security → Device Security → Core Isolation\n" +
-                        "2. Disable 'Memory Integrity'\n" +
-                        "3. Restart your computer\n\n" +
-                        "Or use Intel XTU which has a signed driver.",
-                        "TCC Offset Write Failed",
+                        string.Format(OmenCore.Localization.Strings.SealTccWriteFailed, offsetBefore),
+                        OmenCore.Localization.Strings.SealTccWriteFailedTitle,
                         System.Windows.MessageBoxButton.OK,
                         System.Windows.MessageBoxImage.Warning);
                 }
@@ -3414,9 +3407,8 @@ namespace OmenCore.ViewModels
             {
                 _logging.Error($"Failed to apply TCC offset: {ex.Message}", ex);
                 System.Windows.MessageBox.Show(
-                    $"Failed to apply TCC offset: {ex.Message}\n\n" +
-                    "Ensure you have MSR access via PawnIO.",
-                    "TCC Offset Error",
+                    string.Format(OmenCore.Localization.Strings.SealTccError, ex.Message),
+                    OmenCore.Localization.Strings.SealTccErrorTitle,
                     System.Windows.MessageBoxButton.OK,
                     System.Windows.MessageBoxImage.Error);
             }
@@ -3550,9 +3542,8 @@ namespace OmenCore.ViewModels
             {
                 _logging.Warn("Cannot apply CPU power limits: MSR access not available");
                 System.Windows.MessageBox.Show(
-                    "CPU power limits cannot be applied - MSR access not available.\n\n" +
-                    "Install PawnIO driver from pawnio.eu to enable power limit control.",
-                    "Power Limits Unavailable",
+                    OmenCore.Localization.Strings.SealCpuPowerUnavailable,
+                    OmenCore.Localization.Strings.SealCpuPowerUnavailableTitle,
                     System.Windows.MessageBoxButton.OK,
                     System.Windows.MessageBoxImage.Warning);
                 return;
@@ -3562,11 +3553,8 @@ namespace OmenCore.ViewModels
             {
                 _logging.Warn("Cannot apply CPU power limits: locked by BIOS");
                 System.Windows.MessageBox.Show(
-                    "CPU power limits are locked by BIOS and cannot be modified.\n\n" +
-                    "This lock is set during boot and persists until the next restart.\n" +
-                    "Some laptops may require specific BIOS settings or Unleashed Mode to unlock.\n\n" +
-                    "If you are on OMEN 16-am0xxx (8D2F) Intel Core Ultra, direct PL1/PL2 sliders may stay locked while OMEN/OGH performance mode policy still works.",
-                    "Power Limits Locked",
+                    OmenCore.Localization.Strings.SealCpuPowerLocked,
+                    OmenCore.Localization.Strings.SealCpuPowerLockedTitle,
                     System.Windows.MessageBoxButton.OK,
                     System.Windows.MessageBoxImage.Warning);
                 return;
@@ -3599,9 +3587,8 @@ namespace OmenCore.ViewModels
                 {
                     _logging.Warn("CPU power limits write returned false - may be locked");
                     System.Windows.MessageBox.Show(
-                        "Failed to apply CPU power limits.\n\n" +
-                        "The BIOS may have locked the MSR registers during boot.",
-                        "Power Limits Failed",
+                        OmenCore.Localization.Strings.SealCpuPowerFailed,
+                        OmenCore.Localization.Strings.SealCpuPowerFailedTitle,
                         System.Windows.MessageBoxButton.OK,
                         System.Windows.MessageBoxImage.Warning);
                 }
@@ -3610,8 +3597,8 @@ namespace OmenCore.ViewModels
             {
                 _logging.Error($"Failed to apply CPU power limits: {ex.Message}", ex);
                 System.Windows.MessageBox.Show(
-                    $"Error applying CPU power limits: {ex.Message}",
-                    "Power Limits Error",
+                    string.Format(OmenCore.Localization.Strings.SealCpuPowerError, ex.Message),
+                    OmenCore.Localization.Strings.SealCpuPowerErrorTitle,
                     System.Windows.MessageBoxButton.OK,
                     System.Windows.MessageBoxImage.Error);
             }

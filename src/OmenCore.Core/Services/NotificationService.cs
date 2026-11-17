@@ -231,9 +231,9 @@ namespace OmenCore.Services
                 // (90°C default) or to anything in firmware. Clarifying it right here, at the
                 // moment of actual confusion, rather than only in a GitHub reply after the fact.
                 new ToastContentBuilder()
-                    .AddText($"High Temperature Warning")
-                    .AddText($"{component}: {temperature:F0}°C")
-                    .AddText($"Threshold: {threshold:F0}°C · informational only, not a fan trigger")
+                    .AddText(SafetyNotificationDisplay.Format("SealTempTitle", "High Temperature Warning"))
+                    .AddText(SafetyNotificationDisplay.Format("SealTempReading", "{0}: {1:F0}°C", component, temperature))
+                    .AddText(SafetyNotificationDisplay.Format("SealTempThreshold", "Threshold: {0:F0}°C · informational only, not a fan trigger", threshold))
                     .SetToastDuration(ToastDuration.Long)
                     .Show();
 
@@ -265,9 +265,9 @@ namespace OmenCore.Services
             try
             {
                 new ToastContentBuilder()
-                    .AddText("GPU power clamp is back")
-                    .AddText($"The GPU is limited to {enforcedWatts:F0} W again, of its own {defaultWatts:F0} W.")
-                    .AddText("Restart the GPU from Diagnostics when nothing needs it.")
+                    .AddText(SafetyNotificationDisplay.Format("SealClampTitle", "GPU power clamp is back"))
+                    .AddText(SafetyNotificationDisplay.Format("SealClampToast", "The GPU is limited to {0:F0} W again, of its own {1:F0} W.", enforcedWatts, defaultWatts))
+                    .AddText(SafetyNotificationDisplay.Format("SealClampRestart", "Restart the GPU from Diagnostics when nothing needs it."))
                     .SetToastDuration(ToastDuration.Long)
                     .Show();
 
@@ -294,9 +294,9 @@ namespace OmenCore.Services
             try
             {
                 new ToastContentBuilder()
-                    .AddText($"CRITICAL: {component} Overheating!")
-                    .AddText($"Temperature: {temperature:F0}°C")
-                    .AddText("Thermal throttling may occur. Consider reducing load or improving cooling.")
+                    .AddText(SafetyNotificationDisplay.Format("SealCriticalTitle", "CRITICAL: {0} Overheating!", component))
+                    .AddText(SafetyNotificationDisplay.Format("SealTempValue", "Temperature: {0:F0}°C", temperature))
+                    .AddText(SafetyNotificationDisplay.Format("SealCriticalAdvice", "Thermal throttling may occur. Consider reducing load or improving cooling."))
                     .SetToastDuration(ToastDuration.Long)
                     .Show();
 
@@ -319,8 +319,8 @@ namespace OmenCore.Services
             try
             {
                 new ToastContentBuilder()
-                    .AddText($"Thermal Protection: {protectionLevel}")
-                    .AddText($"{temperature:F0}°C - Fans boosted to max")
+                    .AddText(SafetyNotificationDisplay.Format("SealProtectionTitle", "Thermal Protection: {0}", protectionLevel))
+                    .AddText(SafetyNotificationDisplay.Format("SealProtectionFans", "{0:F0}°C - Fans boosted to max", temperature))
                     .SetToastDuration(ToastDuration.Short)
                     .Show();
 
@@ -392,9 +392,9 @@ namespace OmenCore.Services
             try
             {
                 new ToastContentBuilder()
-                    .AddText("EC Bridge Unavailable")
-                    .AddText("Fan control features are disabled.")
-                    .AddText("Install LibreHardwareMonitor to enable EC access.")
+                    .AddText(SafetyNotificationDisplay.Format("SealEcTitle", "EC Bridge Unavailable"))
+                    .AddText(SafetyNotificationDisplay.Format("SealEcDisabled", "Fan control features are disabled."))
+                    .AddText(SafetyNotificationDisplay.Format("SealEcInstall", "Install LibreHardwareMonitor to enable EC access."))
                     .SetToastDuration(ToastDuration.Long)
                     .Show();
 

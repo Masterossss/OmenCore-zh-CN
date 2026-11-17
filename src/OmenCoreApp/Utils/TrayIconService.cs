@@ -245,6 +245,7 @@ namespace OmenCore.Utils
                         foreach (var n in recent)
                         {
                             var display = OmenCore.Localization.MemoryNotificationHistoryDisplay.Translate(n.Title, n.Message);
+                            display = OmenCore.Localization.SafetyNotificationHistoryDisplay.Translate(display.Title, display.Message);
                             var item = new MenuItem
                             {
                                 Header = $"{display.Title} — {n.TimeAgo}",

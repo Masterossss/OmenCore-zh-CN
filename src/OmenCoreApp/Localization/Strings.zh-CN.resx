@@ -2718,4 +2718,81 @@
 • 某些更改可能需要重启后才能生效
 • 中高风险优化可能影响系统稳定性或功能
 • 可随时使用“全部还原”恢复原始设置</value></data>
+  <data name="SealTccUnavailable" xml:space="preserve"><value>无法应用 TCC 偏移：MSR 访问不可用。
+
+此操作需要通过 PawnIO 驱动访问（pawnio.eu）。
+
+无法访问 MSR 时，不能修改 CPU 温度限制。</value></data>
+  <data name="SealTccUnavailableTitle" xml:space="preserve"><value>TCC 偏移不可用</value></data>
+  <data name="SealTccWriteFailed" xml:space="preserve"><value>无法更改 TCC 偏移，数值仍为 {0}°C。
+
+这通常意味着：
+• Hyper-V/HVCI（内核隔离）阻止了 MSR 写入
+• 安全启动阻止了内核模式访问
+
+处理方法：
+1. 打开 Windows 安全中心 → 设备安全性 → 内核隔离
+2. 关闭“内存完整性”
+3. 重启计算机
+
+也可使用具有签名驱动的 Intel XTU。</value></data>
+  <data name="SealTccWriteFailedTitle" xml:space="preserve"><value>TCC 偏移写入失败</value></data>
+  <data name="SealTccError" xml:space="preserve"><value>应用 TCC 偏移失败：{0}
+
+请确认可以通过 PawnIO 访问 MSR。</value></data>
+  <data name="SealTccErrorTitle" xml:space="preserve"><value>TCC 偏移错误</value></data>
+  <data name="SealCpuPowerUnavailable" xml:space="preserve"><value>无法应用 CPU 功率限制：MSR 访问不可用。
+
+要启用功率限制控制，请从 pawnio.eu 安装 PawnIO 驱动。</value></data>
+  <data name="SealCpuPowerUnavailableTitle" xml:space="preserve"><value>功率限制不可用</value></data>
+  <data name="SealCpuPowerLocked" xml:space="preserve"><value>CPU 功率限制已被 BIOS 锁定，无法修改。
+
+此锁定在启动时设置，并持续到下次重启。
+某些笔记本可能需要特定 BIOS 设置或 Unleashed Mode 才能解锁。
+
+在 OMEN 16-am0xxx（8D2F）Intel Core Ultra 上，PL1/PL2 滑块可能仍被锁定，但 OMEN/OGH 性能模式策略仍可用。</value></data>
+  <data name="SealCpuPowerLockedTitle" xml:space="preserve"><value>功率限制已锁定</value></data>
+  <data name="SealCpuPowerFailed" xml:space="preserve"><value>应用 CPU 功率限制失败。
+
+BIOS 可能在启动过程中锁定了 MSR 寄存器。</value></data>
+  <data name="SealCpuPowerFailedTitle" xml:space="preserve"><value>功率限制设置失败</value></data>
+  <data name="SealCpuPowerError" xml:space="preserve"><value>应用 CPU 功率限制时出错：{0}</value></data>
+  <data name="SealCpuPowerErrorTitle" xml:space="preserve"><value>功率限制错误</value></data>
+  <data name="SealTempTitle" xml:space="preserve"><value>高温警告</value></data>
+  <data name="SealTempReading" xml:space="preserve"><value>{0}：{1:F0}°C</value></data>
+  <data name="SealTempThreshold" xml:space="preserve"><value>阈值：{0:F0}°C · 仅供提示，不会触发风扇控制</value></data>
+  <data name="SealClampTitle" xml:space="preserve"><value>GPU 功率限制已重新生效</value></data>
+  <data name="SealClampToast" xml:space="preserve"><value>GPU 再次被限制为 {0:F0} W，其自身默认值为 {1:F0} W。</value></data>
+  <data name="SealClampRestart" xml:space="preserve"><value>请在没有程序使用 GPU 时，从“诊断”中重启 GPU。</value></data>
+  <data name="SealCriticalTitle" xml:space="preserve"><value>严重警告：{0} 过热！</value></data>
+  <data name="SealTempValue" xml:space="preserve"><value>温度：{0:F0}°C</value></data>
+  <data name="SealCriticalAdvice" xml:space="preserve"><value>可能发生温度降频。请考虑降低负载或改善散热。</value></data>
+  <data name="SealProtectionTitle" xml:space="preserve"><value>温度保护：{0}</value></data>
+  <data name="SealProtectionFans" xml:space="preserve"><value>{0:F0}°C - 风扇已提升至最高转速</value></data>
+  <data name="SealEcTitle" xml:space="preserve"><value>EC 桥接不可用</value></data>
+  <data name="SealEcDisabled" xml:space="preserve"><value>风扇控制功能已禁用。</value></data>
+  <data name="SealEcInstall" xml:space="preserve"><value>安装 LibreHardwareMonitor 以启用 EC 访问。</value></data>
+  <data name="SealTempHistory" xml:space="preserve"><value>{0}：{1}°C（阈值 {2}°C）。此通知仅供提示，与风扇行为及任何 BIOS 温度/TCC 限制无关。可在“设置 → 通知”中调整或关闭。</value></data>
+  <data name="SealClampHistory" xml:space="preserve"><value>已限制为 {0} W，默认值为 {1} W。固件已再次将适配器信息告知驱动；重启 GPU 可解除此限制。</value></data>
+  <data name="SealCriticalHistory" xml:space="preserve"><value>{0}°C — 可能发生温度降频</value></data>
+  <data name="SealProtectionHistory" xml:space="preserve"><value>{0}°C — 风扇已提升至最高转速</value></data>
+  <data name="SealEcHistory" xml:space="preserve"><value>风扇控制功能已禁用。安装 LibreHardwareMonitor 以启用 EC 访问。</value></data>
+  <data name="SealGpuDetecting" xml:space="preserve"><value>正在检测…</value></data>
+  <data name="SealGpuUnsupportedVictus" xml:space="preserve"><value>不支持：HP Victus BIOS 未提供自定义 TGP/PPAB 控制</value></data>
+  <data name="SealGpuUnavailableModel" xml:space="preserve"><value>此型号不支持</value></data>
+  <data name="SealGpuUnverified" xml:space="preserve"><value>⚠️ 命令已发送，但 GPU 功率可能没有改变（BIOS WMI 功能受限）</value></data>
+  <data name="SealGpuRestoreUnverified" xml:space="preserve"><value>⚠️ 已尝试恢复 GPU 功率，但 BIOS 回读显示没有变化</value></data>
+  <data name="SealGpuExtendedUnavailable" xml:space="preserve"><value>不可用：此 BIOS 无法通过 WMI 应用扩展档位，EC 也没有高于最大档位的独立备用档位</value></data>
+  <data name="SealGpuCommandsFailed" xml:space="preserve"><value>失败：此型号不支持 WMI/EC 命令</value></data>
+  <data name="SealLightIdentify" xml:space="preserve"><value>💡 识别</value></data>
+  <data name="SealLightApplyAll" xml:space="preserve"><value>🎨 应用于全部系统 RGB</value></data>
+  <data name="SealLightQuick" xml:space="preserve"><value>⚡ 快捷颜色</value></data>
+  <data name="SealLightQuickZones" xml:space="preserve"><value>⚡ 快捷颜色（点击应用于所有区域）</value></data>
+  <data name="SealLightZones" xml:space="preserve"><value>🎹 键盘区域（点击区域更改颜色）</value></data>
+  <data name="SealLightAdvanced" xml:space="preserve"><value>🎨 高级灯效</value></data>
+  <data name="SealLightTemp" xml:space="preserve"><value>🌡️ 温度响应灯效</value></data>
+  <data name="SealLightPerf" xml:space="preserve"><value>⚡ 性能模式同步灯效</value></data>
+  <data name="SealLightThrottle" xml:space="preserve"><value>🚨 降频指示</value></data>
+  <data name="SealLightThrottleAlert" xml:space="preserve"><value>⚠️ 降频警报</value></data>
+  <data name="SealLightOpenRgb" xml:space="preserve"><value> 可控制 OpenRGB 支持的 RGB 设备（主板、内存、显卡、散热器、灯带等）。 </value></data>
 </root>

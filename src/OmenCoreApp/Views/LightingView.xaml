@@ -622,7 +622,7 @@
 
                                             <!-- Identify Button -->
                                             <Button Grid.Column="2" 
-                                                    Content="💡 Identify"
+                                                    Content="{x:Static loc:Strings.SealLightIdentify}"
                                                     Style="{StaticResource ModernButton}"
                                                     Command="{Binding DataContext.FlashCorsairDeviceCommand, RelativeSource={RelativeSource AncestorType=ItemsControl}}"
                                                     CommandParameter="{Binding}"
@@ -818,7 +818,7 @@
                         <!-- System RGB Section -->
                         <Border Background="{StaticResource SurfaceDarkBrush}" CornerRadius="10" Padding="16" Margin="0,0,0,16">
                             <StackPanel>
-                                <TextBlock Text="🎨 Apply to All System RGB" FontSize="14" FontWeight="SemiBold" 
+                                <TextBlock Text="{x:Static loc:Strings.SealLightApplyAll}" FontSize="14" FontWeight="SemiBold"
                                            Foreground="{StaticResource TextPrimaryBrush}" Margin="0,0,0,8"/>
                                 <TextBlock Text="{x:Static loc:Strings.LightingViewText822}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}" Margin="0,0,0,12"/>
@@ -1206,7 +1206,7 @@
                         </ItemsControl>
 
                         <!-- Quick Color Buttons for OpenRGB -->
-                        <TextBlock Text="⚡ QUICK COLORS" 
+                        <TextBlock Text="{x:Static loc:Strings.SealLightQuick}"
                                    FontSize="11" FontWeight="SemiBold"
                                    Foreground="{StaticResource TextTertiaryBrush}" 
                                    Margin="0,0,0,8"/>
@@ -1250,7 +1250,7 @@
                                 Padding="12" Margin="0,16,0,0">
                             <TextBlock TextWrapping="Wrap" FontSize="12" Foreground="{StaticResource TextSecondaryBrush}">
                                 <Run Text="{x:Static loc:Strings.LightingViewText1251}"/>
-                                <Run Text=" Controls any RGB device supported by OpenRGB (motherboards, RAM, GPUs, coolers, LED strips, etc). "/>
+                                <Run Text="{x:Static loc:Strings.SealLightOpenRgb}"/>
                                 <Run Text="{x:Static loc:Strings.LightingViewText1253}"/>
                             </TextBlock>
                         </Border>
@@ -1297,7 +1297,7 @@
                         <StackPanel Visibility="{Binding HasFourZoneKeyboard, Converter={StaticResource BooleanToVisibilityConverter}}">
 
                         <!-- Quick Color Buttons -->
-                        <TextBlock Text="⚡ QUICK COLORS (click to apply to all zones)" 
+                        <TextBlock Text="{x:Static loc:Strings.SealLightQuickZones}"
                                    FontSize="11" FontWeight="SemiBold"
                                    Foreground="{StaticResource TextTertiaryBrush}" 
                                    Margin="0,0,0,8"/>
@@ -1350,7 +1350,7 @@
                         </Border>
 
                         <!-- Keyboard Zone Display - Visual Schematic -->
-                        <TextBlock Text="🎹 KEYBOARD ZONES (click zone to change color)" 
+                        <TextBlock Text="{x:Static loc:Strings.SealLightZones}"
                                    FontSize="12" FontWeight="SemiBold"
                                    Foreground="{StaticResource TextSecondaryBrush}" 
                                    Margin="0,8,0,12"/>
@@ -1850,7 +1850,7 @@
                 <!-- Advanced Lighting Effects -->
                 <Border Style="{StaticResource SurfaceCard}" Padding="24" Margin="0,0,0,16">
                     <StackPanel>
-                        <TextBlock Text="🎨 Advanced Lighting Effects" FontSize="20" FontWeight="SemiBold"
+                        <TextBlock Text="{x:Static loc:Strings.SealLightAdvanced}" FontSize="20" FontWeight="SemiBold"
                                    Foreground="{StaticResource TextPrimaryBrush}" Margin="0,0,0,16"/>
 
                         <!-- Temperature-Responsive Lighting -->
@@ -1863,7 +1863,7 @@
                                 </Grid.ColumnDefinitions>
 
                                 <StackPanel Grid.Column="0">
-                                    <TextBlock Text="🌡️ Temperature-Responsive Lighting"
+                                    <TextBlock Text="{x:Static loc:Strings.SealLightTemp}"
                                                FontSize="14" FontWeight="SemiBold"
                                                Foreground="{StaticResource TextPrimaryBrush}"/>
                                     <TextBlock Text="{x:Static loc:Strings.LightingViewText1868}"
@@ -1962,7 +1962,7 @@
                                 </Grid.ColumnDefinitions>
 
                                 <StackPanel Grid.Column="0">
-                                    <TextBlock Text="⚡ Performance Mode Synced Lighting"
+                                    <TextBlock Text="{x:Static loc:Strings.SealLightPerf}"
                                                FontSize="14" FontWeight="SemiBold"
                                                Foreground="{StaticResource TextPrimaryBrush}"/>
                                     <TextBlock Text="{x:Static loc:Strings.LightingViewText1967}"
@@ -2044,7 +2044,7 @@
                                 </Grid.ColumnDefinitions>
 
                                 <StackPanel Grid.Column="0">
-                                    <TextBlock Text="🚨 Throttling Indicators"
+                                    <TextBlock Text="{x:Static loc:Strings.SealLightThrottle}"
                                                FontSize="14" FontWeight="SemiBold"
                                                Foreground="{StaticResource TextPrimaryBrush}"/>
                                     <TextBlock Text="{x:Static loc:Strings.LightingViewText2049}"
@@ -2072,7 +2072,7 @@
                                 <Border Background="{Binding ThrottlingColorHex, Converter={StaticResource HexToBrushConverter}}"
                                         CornerRadius="6" Padding="12" Cursor="Hand">
                                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                                        <TextBlock Text="⚠️ Throttling Alert" FontSize="12" Foreground="White" FontWeight="SemiBold"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SealLightThrottleAlert}" FontSize="12" Foreground="White" FontWeight="SemiBold"/>
                                         <TextBox Text="{Binding ThrottlingColorHex, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                                                  Style="{StaticResource ModernTextBox}" FontSize="10" Margin="12,0,0,0" Width="70"/>
                                     </StackPanel>

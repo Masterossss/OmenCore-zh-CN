@@ -2726,4 +2726,81 @@ Continue with -140mV undervolt?</value></data>
 • Some changes may require a restart to take effect
 • Medium/High risk optimizations may affect system stability or features
 • Use "Revert All" to restore original settings at any time</value></data>
+  <data name="SealTccUnavailable" xml:space="preserve"><value>TCC offset cannot be applied - MSR access not available.
+
+This requires PawnIO driver access (pawnio.eu).
+
+Without MSR access, CPU temperature limits cannot be modified.</value></data>
+  <data name="SealTccUnavailableTitle" xml:space="preserve"><value>TCC Offset Unavailable</value></data>
+  <data name="SealTccWriteFailed" xml:space="preserve"><value>TCC offset could not be changed - the value remained at {0}°C.
+
+This usually means:
+• Hyper-V/HVCI (Core Isolation) is blocking MSR writes
+• Secure Boot is preventing kernel-mode access
+
+To fix:
+1. Open Windows Security → Device Security → Core Isolation
+2. Disable 'Memory Integrity'
+3. Restart your computer
+
+Or use Intel XTU which has a signed driver.</value></data>
+  <data name="SealTccWriteFailedTitle" xml:space="preserve"><value>TCC Offset Write Failed</value></data>
+  <data name="SealTccError" xml:space="preserve"><value>Failed to apply TCC offset: {0}
+
+Ensure you have MSR access via PawnIO.</value></data>
+  <data name="SealTccErrorTitle" xml:space="preserve"><value>TCC Offset Error</value></data>
+  <data name="SealCpuPowerUnavailable" xml:space="preserve"><value>CPU power limits cannot be applied - MSR access not available.
+
+Install PawnIO driver from pawnio.eu to enable power limit control.</value></data>
+  <data name="SealCpuPowerUnavailableTitle" xml:space="preserve"><value>Power Limits Unavailable</value></data>
+  <data name="SealCpuPowerLocked" xml:space="preserve"><value>CPU power limits are locked by BIOS and cannot be modified.
+
+This lock is set during boot and persists until the next restart.
+Some laptops may require specific BIOS settings or Unleashed Mode to unlock.
+
+If you are on OMEN 16-am0xxx (8D2F) Intel Core Ultra, direct PL1/PL2 sliders may stay locked while OMEN/OGH performance mode policy still works.</value></data>
+  <data name="SealCpuPowerLockedTitle" xml:space="preserve"><value>Power Limits Locked</value></data>
+  <data name="SealCpuPowerFailed" xml:space="preserve"><value>Failed to apply CPU power limits.
+
+The BIOS may have locked the MSR registers during boot.</value></data>
+  <data name="SealCpuPowerFailedTitle" xml:space="preserve"><value>Power Limits Failed</value></data>
+  <data name="SealCpuPowerError" xml:space="preserve"><value>Error applying CPU power limits: {0}</value></data>
+  <data name="SealCpuPowerErrorTitle" xml:space="preserve"><value>Power Limits Error</value></data>
+  <data name="SealTempTitle" xml:space="preserve"><value>High Temperature Warning</value></data>
+  <data name="SealTempReading" xml:space="preserve"><value>{0}: {1:F0}°C</value></data>
+  <data name="SealTempThreshold" xml:space="preserve"><value>Threshold: {0:F0}°C · informational only, not a fan trigger</value></data>
+  <data name="SealClampTitle" xml:space="preserve"><value>GPU power clamp is back</value></data>
+  <data name="SealClampToast" xml:space="preserve"><value>The GPU is limited to {0:F0} W again, of its own {1:F0} W.</value></data>
+  <data name="SealClampRestart" xml:space="preserve"><value>Restart the GPU from Diagnostics when nothing needs it.</value></data>
+  <data name="SealCriticalTitle" xml:space="preserve"><value>CRITICAL: {0} Overheating!</value></data>
+  <data name="SealTempValue" xml:space="preserve"><value>Temperature: {0:F0}°C</value></data>
+  <data name="SealCriticalAdvice" xml:space="preserve"><value>Thermal throttling may occur. Consider reducing load or improving cooling.</value></data>
+  <data name="SealProtectionTitle" xml:space="preserve"><value>Thermal Protection: {0}</value></data>
+  <data name="SealProtectionFans" xml:space="preserve"><value>{0:F0}°C - Fans boosted to max</value></data>
+  <data name="SealEcTitle" xml:space="preserve"><value>EC Bridge Unavailable</value></data>
+  <data name="SealEcDisabled" xml:space="preserve"><value>Fan control features are disabled.</value></data>
+  <data name="SealEcInstall" xml:space="preserve"><value>Install LibreHardwareMonitor to enable EC access.</value></data>
+  <data name="SealTempHistory" xml:space="preserve"><value>{0}: {1}°C (threshold {2}°C). This is an informational notification only - it's independent of fan behavior and any BIOS thermal/TCC limit. Adjust or disable it under Settings → Notifications.</value></data>
+  <data name="SealClampHistory" xml:space="preserve"><value>Limited to {0} W of {1} W. The firmware told the driver about the adapter again - restarting the GPU drops it.</value></data>
+  <data name="SealCriticalHistory" xml:space="preserve"><value>{0}°C — thermal throttling may occur</value></data>
+  <data name="SealProtectionHistory" xml:space="preserve"><value>{0}°C — fans boosted to max</value></data>
+  <data name="SealEcHistory" xml:space="preserve"><value>Fan control features are disabled. Install LibreHardwareMonitor to enable EC access.</value></data>
+  <data name="SealGpuDetecting" xml:space="preserve"><value>Detecting...</value></data>
+  <data name="SealGpuUnsupportedVictus" xml:space="preserve"><value>Not supported — HP Victus BIOS does not expose custom TGP/PPAB control</value></data>
+  <data name="SealGpuUnavailableModel" xml:space="preserve"><value>Not available on this model</value></data>
+  <data name="SealGpuUnverified" xml:space="preserve"><value>⚠️ Command sent but GPU power may not have changed (BIOS WMI degraded)</value></data>
+  <data name="SealGpuRestoreUnverified" xml:space="preserve"><value>⚠️ GPU power restore attempted but BIOS readback shows no change</value></data>
+  <data name="SealGpuExtendedUnavailable" xml:space="preserve"><value>Not available - this BIOS doesn't apply Extended via WMI, and no distinct EC fallback level exists beyond Maximum</value></data>
+  <data name="SealGpuCommandsFailed" xml:space="preserve"><value>Failed - WMI/EC commands not supported on this model</value></data>
+  <data name="SealLightIdentify" xml:space="preserve"><value>💡 Identify</value></data>
+  <data name="SealLightApplyAll" xml:space="preserve"><value>🎨 Apply to All System RGB</value></data>
+  <data name="SealLightQuick" xml:space="preserve"><value>⚡ QUICK COLORS</value></data>
+  <data name="SealLightQuickZones" xml:space="preserve"><value>⚡ QUICK COLORS (click to apply to all zones)</value></data>
+  <data name="SealLightZones" xml:space="preserve"><value>🎹 KEYBOARD ZONES (click zone to change color)</value></data>
+  <data name="SealLightAdvanced" xml:space="preserve"><value>🎨 Advanced Lighting Effects</value></data>
+  <data name="SealLightTemp" xml:space="preserve"><value>🌡️ Temperature-Responsive Lighting</value></data>
+  <data name="SealLightPerf" xml:space="preserve"><value>⚡ Performance Mode Synced Lighting</value></data>
+  <data name="SealLightThrottle" xml:space="preserve"><value>🚨 Throttling Indicators</value></data>
+  <data name="SealLightThrottleAlert" xml:space="preserve"><value>⚠️ Throttling Alert</value></data>
+  <data name="SealLightOpenRgb" xml:space="preserve"><value> Controls any RGB device supported by OpenRGB (motherboards, RAM, GPUs, coolers, LED strips, etc). </value></data>
 </root>
