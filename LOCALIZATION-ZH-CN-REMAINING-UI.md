@@ -33,3 +33,7 @@ CPU、GPU、FPS、RTSS、RGB、API、配置键、日志和机器可读字段保�
 - P0：`src/OmenCoreApp/ViewModels/SystemControlViewModel.cs` 的 TCC/MSR 失败、BIOS 锁定与部分成功提示尚需审查；`GpuPowerBoostStatus` 同时参与判断和显示，应保留原字段并在显示边界处理。
 - P1：`src/OmenCoreApp/Views/LightingView.xaml` 仍有 Identify、系统 RGB、快捷颜色、温度响应和降频提示等可见英文；关联图表及 `KeyboardMapViewModel` 的按键提示尚未全部核查。
 - 风扇校准静态说明、系统优化固定风险说明、OSD 温度降频警告及托盘工具提示实时显示已处理；本文件上方较早记录中的相应待办以本节为准。各页面动态链和 GUI 仍未完成验收。
+
+## 开发预览冻结说明
+
+上述五类安全 Toast 和其托盘历史已对已知格式进行显示转换；CPU TCC/MSR 与 BIOS 锁定对话框、GPU 回读未确认状态及列出的灯光固定文字已处理。未知后端消息、未列举的 GPU 成功状态、照明设备反馈、图表和低频界面仍可能显示英文，继续回退原文。启动路径、真实 Toast、GUI 与硬件兼容性未验证；本列表的历史条目以本节为准。

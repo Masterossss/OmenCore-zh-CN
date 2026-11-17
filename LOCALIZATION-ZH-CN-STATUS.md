@@ -208,3 +208,11 @@
 - 以 5b32c1e 的 1650 键为基准，四种语言各 2500 键，净增 850。Debug/Release 构建均通过（0 错误、0 警告）；68 项已筛选纯软件测试通过；34 个 Views/Controls XAML 文件解析通过；四种资源键、非空值及格式参数检查通过。
 - 未启动应用或进行 GUI、真实 Toast、硬件写入、驱动安装、系统优化、软件卸载及恢复。尚未生成预览包：仍有已确认的 P0/P1 用户界面英文，完整应用层安全差异审计未完成。此前历史统计仅代表当时检查点。
 - 下一步：从 OmenCore.Core/Services/NotificationService.cs 的高温、GPU 功率限制、EC 不可用通知（含历史与 Toast 两条消费路径）开始；然后处理 SystemControlViewModel 的 TCC/BIOS 失败状态与未验证 GPU 状态显示，以及 LightingView 剩余固定文本。代码提交 8516dc6、e4cabb3、4704b8f。
+
+## 冻结范围开发预览（GUI 和硬件未验证）
+
+- 已处理五类安全 Toast 和托盘通知历史的已知格式；原始历史、日志、硬件调用保持原样，未知格式回退。CPU TCC/MSR、BIOS 功率锁定、GPU 回读未确认和部分灯光静态文字已处理；修正 GPU 状态显示未刷新的属性通知。
+- 四语言各 2560 键；Debug 与隔离输出目录 Release 构建均 0 错误 0 警告，71 项安全筛选的纯软件测试通过；34 个 XAML XML 解析通过。未由本次测试启动应用或访问真实硬件。
+- 审计核对 v5.0.1 的 App.xaml.cs、MainViewModel、核心硬件、NVIDIA 和 HardwareWorker 无源码差异；审查关键应用层显示、通知、日志和状态路径。其余应用层差异并非全部运行场景均已验证。
+- 已生成自包含 win-x64 开发预览 ZIP，包含中文卫星资源及独立 HardwareWorker；521 文件的 ZIP CRC 和结构检查通过。SHA256：AEAFB6A595A71B00623DE55AD4999847E287E5ED0E0E4F91BD1C578E494C3FA7。源码构建提交 a372252。
+- 未完成 GUI、DPI、真实 Toast、实际启动安全与硬件兼容性验证。仅供隔离 Windows 测试，不能视为稳定版或替代官方版。构建记录及已知问题见 BUILD-VERIFICATION.md、KNOWN-ISSUES-ZH-CN.md。
