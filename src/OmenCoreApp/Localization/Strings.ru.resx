@@ -2679,4 +2679,47 @@ The undervolt will not persist after reboot, so a crash will reset it.
 
 Continue with -140mV undervolt?</value></data>
   <data name="TuningAggressiveUndervoltTitle" xml:space="preserve"><value>Aggressive Undervolt Warning</value></data>
+  <data name="FanCalUiTitle" xml:space="preserve"><value>Fan Calibration</value></data>
+  <data name="FanCalUiDescription" xml:space="preserve"><value>Calibrate fan RPM curves for accurate speed control on your specific laptop model.</value></data>
+  <data name="FanCalUiRange" xml:space="preserve"><value>This process will test fan speeds from 0% to 100% and may take several minutes.</value></data>
+  <data name="FanCalUiModel" xml:space="preserve"><value>Model Information</value></data>
+  <data name="FanCalUiDetecting" xml:space="preserve"><value>Detecting laptop model...</value></data>
+  <data name="FanCalUiNoData" xml:space="preserve"><value>No calibration data found</value></data>
+  <data name="FanCalUiSelect" xml:space="preserve"><value>Fan Selection</value></data>
+  <data name="FanCalUiSelectPrompt" xml:space="preserve"><value>Select which fan to calibrate:</value></data>
+  <data name="FanCalUiCpu" xml:space="preserve"><value>CPU Fan (Fan 0)</value></data>
+  <data name="FanCalUiGpu" xml:space="preserve"><value>GPU Fan (Fan 1)</value></data>
+  <data name="FanCalUiSelectStatus" xml:space="preserve"><value>Select a fan to see current status</value></data>
+  <data name="FanCalUiProgress" xml:space="preserve"><value>Calibration Progress</value></data>
+  <data name="FanCalUiPreparing" xml:space="preserve"><value>Preparing calibration...</value></data>
+  <data name="FanCalUiResults" xml:space="preserve"><value>Calibration Results</value></data>
+  <data name="FanCalUiCompleted" xml:space="preserve"><value>Calibration completed successfully</value></data>
+  <data name="FanCalUiTarget" xml:space="preserve"><value>Target %</value></data>
+  <data name="FanCalUiLevel" xml:space="preserve"><value>Applied Level</value></data>
+  <data name="FanCalUiRpm" xml:space="preserve"><value>Measured RPM</value></data>
+  <data name="FanCalUiRpmRange" xml:space="preserve"><value>RPM Range</value></data>
+  <data name="FanCalUiStatus" xml:space="preserve"><value>Status</value></data>
+  <data name="FanCalUiDuration" xml:space="preserve"><value>Duration</value></data>
+  <data name="FanCalUiImportant" xml:space="preserve"><value>⚠️ Important Notes:</value></data>
+  <data name="FanCalUiTime" xml:space="preserve"><value>• Calibration may take 5-10 minutes per fan</value></data>
+  <data name="FanCalUiVentilation" xml:space="preserve"><value>• Fans will run at various speeds - ensure proper ventilation</value></data>
+  <data name="FanCalUiNoInterrupt" xml:space="preserve"><value>• Do not interrupt the calibration process</value></data>
+  <data name="FanCalUiRestore" xml:space="preserve"><value>• OmenCore restores BIOS auto fan control when calibration ends; use Restore Auto if fans still sound pinned high</value></data>
+  <data name="FanCalUiLocalData" xml:space="preserve"><value>• Calibration data is stored locally and can be shared with the community</value></data>
+  <data name="FanCalUiStart" xml:space="preserve"><value>Start Calibration</value></data>
+  <data name="FanCalUiStop" xml:space="preserve"><value>Stop</value></data>
+  <data name="FanCalUiLoad" xml:space="preserve"><value>Load Existing</value></data>
+  <data name="FanCalUiSave" xml:space="preserve"><value>Save Results</value></data>
+  <data name="FanCalUiRestoreButton" xml:space="preserve"><value>Restore Auto</value></data>
+  <data name="FanCalUiClear" xml:space="preserve"><value>Clear Data</value></data>
+  <data name="FanCalUiRestoreTip" xml:space="preserve"><value>Release calibration/manual fan ownership and return fans to BIOS automatic control</value></data>
+  <data name="FanCurveUiEmpty" xml:space="preserve"><value>Click to add curve points, drag to adjust</value></data>
+  <data name="FanCurveUiTemp" xml:space="preserve"><value>🌡️ Temperature (°C)</value></data>
+  <data name="FanCurveUiFan" xml:space="preserve"><value>💨 Fan Speed (%)</value></data>
+  <data name="FanCurveUiDrag" xml:space="preserve"><value> • Drag points to adjust</value></data>
+  <data name="OsdThermalThrottleWarning" xml:space="preserve"><value>⚠ THERMAL THROTTLE</value></data>
+  <data name="SystemOptimizerRiskNotes" xml:space="preserve"><value>• A system restore point is created before applying presets
+• Some changes may require a restart to take effect
+• Medium/High risk optimizations may affect system stability or features
+• Use "Revert All" to restore original settings at any time</value></data>
 </root>

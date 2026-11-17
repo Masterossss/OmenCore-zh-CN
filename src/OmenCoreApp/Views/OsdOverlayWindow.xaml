@@ -297,7 +297,7 @@
                     Padding="8,4" 
                     Margin="0,6,0,0"
                     Visibility="{Binding IsThrottling, Converter={StaticResource BoolToVisibility}}">
-                <TextBlock Text="⚠ THERMAL THROTTLE" FontSize="11" Foreground="#FF6666" FontWeight="Bold" HorizontalAlignment="Center"/>
+                <TextBlock Text="{x:Static loc:Strings.OsdThermalThrottleWarning}" FontSize="11" Foreground="#FF6666" FontWeight="Bold" HorizontalAlignment="Center"/>
             </Border>
         </StackPanel>
     </Border>

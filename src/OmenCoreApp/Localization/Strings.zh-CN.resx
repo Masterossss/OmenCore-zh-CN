@@ -2675,4 +2675,47 @@
 
 是否继续应用 -140mV 降压？</value></data>
   <data name="TuningAggressiveUndervoltTitle" xml:space="preserve"><value>激进降压警告</value></data>
+  <data name="FanCalUiTitle" xml:space="preserve"><value>风扇校准</value></data>
+  <data name="FanCalUiDescription" xml:space="preserve"><value>针对当前笔记本型号校准风扇转速曲线，以便准确控制转速。</value></data>
+  <data name="FanCalUiRange" xml:space="preserve"><value>此过程将测试 0% 至 100% 的风扇转速，可能需要几分钟。</value></data>
+  <data name="FanCalUiModel" xml:space="preserve"><value>型号信息</value></data>
+  <data name="FanCalUiDetecting" xml:space="preserve"><value>正在检测笔记本型号…</value></data>
+  <data name="FanCalUiNoData" xml:space="preserve"><value>未找到校准数据</value></data>
+  <data name="FanCalUiSelect" xml:space="preserve"><value>风扇选择</value></data>
+  <data name="FanCalUiSelectPrompt" xml:space="preserve"><value>选择要校准的风扇：</value></data>
+  <data name="FanCalUiCpu" xml:space="preserve"><value>CPU 风扇（风扇 0）</value></data>
+  <data name="FanCalUiGpu" xml:space="preserve"><value>GPU 风扇（风扇 1）</value></data>
+  <data name="FanCalUiSelectStatus" xml:space="preserve"><value>选择风扇以查看当前状态</value></data>
+  <data name="FanCalUiProgress" xml:space="preserve"><value>校准进度</value></data>
+  <data name="FanCalUiPreparing" xml:space="preserve"><value>正在准备校准…</value></data>
+  <data name="FanCalUiResults" xml:space="preserve"><value>校准结果</value></data>
+  <data name="FanCalUiCompleted" xml:space="preserve"><value>校准成功完成</value></data>
+  <data name="FanCalUiTarget" xml:space="preserve"><value>目标百分比</value></data>
+  <data name="FanCalUiLevel" xml:space="preserve"><value>已应用级别</value></data>
+  <data name="FanCalUiRpm" xml:space="preserve"><value>测得转速（RPM）</value></data>
+  <data name="FanCalUiRpmRange" xml:space="preserve"><value>转速范围</value></data>
+  <data name="FanCalUiStatus" xml:space="preserve"><value>状态</value></data>
+  <data name="FanCalUiDuration" xml:space="preserve"><value>耗时</value></data>
+  <data name="FanCalUiImportant" xml:space="preserve"><value>⚠️ 重要提示：</value></data>
+  <data name="FanCalUiTime" xml:space="preserve"><value>• 每个风扇的校准可能需要 5–10 分钟</value></data>
+  <data name="FanCalUiVentilation" xml:space="preserve"><value>• 风扇将以不同转速运行，请确保通风良好</value></data>
+  <data name="FanCalUiNoInterrupt" xml:space="preserve"><value>• 请勿中断校准过程</value></data>
+  <data name="FanCalUiRestore" xml:space="preserve"><value>• 校准结束时，OmenCore 会恢复 BIOS 自动风扇控制；如果风扇仍持续高速运转，请使用“恢复自动控制”</value></data>
+  <data name="FanCalUiLocalData" xml:space="preserve"><value>• 校准数据保存在本地，可与社区分享</value></data>
+  <data name="FanCalUiStart" xml:space="preserve"><value>开始校准</value></data>
+  <data name="FanCalUiStop" xml:space="preserve"><value>停止</value></data>
+  <data name="FanCalUiLoad" xml:space="preserve"><value>加载已有数据</value></data>
+  <data name="FanCalUiSave" xml:space="preserve"><value>保存结果</value></data>
+  <data name="FanCalUiRestoreButton" xml:space="preserve"><value>恢复自动控制</value></data>
+  <data name="FanCalUiClear" xml:space="preserve"><value>清除数据</value></data>
+  <data name="FanCalUiRestoreTip" xml:space="preserve"><value>释放校准或手动风扇控制权，将风扇交还 BIOS 自动控制</value></data>
+  <data name="FanCurveUiEmpty" xml:space="preserve"><value>单击添加曲线点，拖动进行调整</value></data>
+  <data name="FanCurveUiTemp" xml:space="preserve"><value>🌡️ 温度（°C）</value></data>
+  <data name="FanCurveUiFan" xml:space="preserve"><value>💨 风扇转速（%）</value></data>
+  <data name="FanCurveUiDrag" xml:space="preserve"><value> • 拖动曲线点进行调整</value></data>
+  <data name="OsdThermalThrottleWarning" xml:space="preserve"><value>⚠ 温度过高，正在降频</value></data>
+  <data name="SystemOptimizerRiskNotes" xml:space="preserve"><value>• 应用预设前会创建系统还原点
+• 某些更改可能需要重启后才能生效
+• 中高风险优化可能影响系统稳定性或功能
+• 可随时使用“全部还原”恢复原始设置</value></data>
 </root>
