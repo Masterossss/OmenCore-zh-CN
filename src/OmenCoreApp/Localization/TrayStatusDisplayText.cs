@@ -11,6 +11,7 @@ namespace OmenCore.Localization
             "Degraded" => Strings.TrayStateDegraded,
             "Stale" => Strings.TrayStateStale,
             "Firmware default" => Strings.TrayStateFirmwareDefault,
+            "Default" => Strings.TrayStateDefault,
             "Custom" => Strings.TrayStateCustom,
             _ => HotkeyOsdDisplayText.Value(value)
         };

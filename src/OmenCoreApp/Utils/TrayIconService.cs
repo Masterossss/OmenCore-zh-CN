@@ -635,8 +635,8 @@ namespace OmenCore.Utils
                 var fan1Rpm = _latestSample.Fan1Rpm;
                 var fan2Rpm = _latestSample.Fan2Rpm;
                 var fanLine = fan2Rpm > 0 
-                    ? $"CPU Fan: {fan1Rpm} · GPU Fan: {fan2Rpm} RPM" 
-                    : (fan1Rpm > 0 ? $"Fan: {fan1Rpm} RPM" : "Fan: —");
+                    ? string.Format(OmenCore.Localization.Strings.TrayTooltipFanDual, fan1Rpm, fan2Rpm) 
+                    : (fan1Rpm > 0 ? string.Format(OmenCore.Localization.Strings.TrayTooltipFanSingle, fan1Rpm) : OmenCore.Localization.Strings.TrayTooltipFanNone);
                     
                 var gpuPower = _latestSample.GpuPowerWatts;
                 var gpuPowerDisplay = gpuPower > 0 ? $" · {gpuPower:F0}W" : "";
@@ -644,7 +644,7 @@ namespace OmenCore.Utils
                 var batteryPercent = _latestSample.BatteryChargePercent;
                 var isAc = _latestSample.IsOnAcPower;
                 var powerLine = batteryPercent > 0 || isAc
-                    ? $"{batteryPercent:F0}% · {(isAc ? "AC Power" : "Battery")}"
+                    ? $"{batteryPercent:F0}% · {(isAc ? OmenCore.Localization.Strings.TrayTooltipAc : OmenCore.Localization.Strings.TrayTooltipBattery)}"
                     : "";
                 
                 var toolTipText = $"OmenCore v{_appVersion}\n" +
@@ -652,12 +652,12 @@ namespace OmenCore.Utils
                                   $"CPU: {cpuTempStr} @ {cpuLoad:F0}%\n" +
                                   $"GPU: {gpuTempStr} @ {gpuLoad:F0}%{gpuPowerDisplay}\n" +
                                   $"RAM: {memUsedGb:F1}/{memTotalGb:F1} GB ({memPercent:F0}%)\n" +
-                                  $"{fanLine} | {_currentPerformanceMode}\n" +
-                                  $"Fan/Perf: {(_linkFanToPerformanceMode ? "Linked" : "Decoupled")}\n" +
+                                  $"{fanLine} | {OmenCore.Localization.TrayStatusDisplayText.Value(_currentPerformanceMode)}\n" +
+                                  string.Format(OmenCore.Localization.Strings.TrayTooltipFanPerf, _linkFanToPerformanceMode ? OmenCore.Localization.Strings.TrayTooltipLinked : OmenCore.Localization.Strings.TrayTooltipDecoupled) + "\n" +
                                   (powerLine.Length > 0 ? $"{powerLine}\n" : "") +
-                                  $"Monitor: {_monitoringHealth}\n" +
+                                  OmenCore.Localization.TrayStatusDisplayText.Monitor(_monitoringHealth) + "\n" +
                                   $"━━━━━━━━━━━━━━━━━━\n" +
-                                  $"Left-click to open dashboard";
+                                  OmenCore.Localization.Strings.TrayTooltipClick;
                 if (!string.Equals(_lastTooltipText, toolTipText, StringComparison.Ordinal))
                 {
                     _trayIcon.ToolTipText = toolTipText;

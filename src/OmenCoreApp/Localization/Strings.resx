@@ -2631,4 +2631,14 @@ Watch the keyboard and note the NUMBER of the step during which it turns red, th
   <data name="KeyMapLayoutBar" xml:space="preserve"><value> and 4 light bar zones.</value></data>
   <data name="KeyMapLayoutNoBar" xml:space="preserve"><value>.</value></data>
   <data name="KeyMapLayoutUnverified" xml:space="preserve"><value> This layout has not been confirmed on hardware.</value></data>
+  <data name="TrayTooltipFanDual" xml:space="preserve"><value>CPU Fan: {0} · GPU Fan: {1} RPM</value></data>
+  <data name="TrayTooltipFanSingle" xml:space="preserve"><value>Fan: {0} RPM</value></data>
+  <data name="TrayTooltipFanNone" xml:space="preserve"><value>Fan: —</value></data>
+  <data name="TrayTooltipAc" xml:space="preserve"><value>AC Power</value></data>
+  <data name="TrayTooltipBattery" xml:space="preserve"><value>Battery</value></data>
+  <data name="TrayTooltipFanPerf" xml:space="preserve"><value>Fan/Perf: {0}</value></data>
+  <data name="TrayTooltipLinked" xml:space="preserve"><value>Linked</value></data>
+  <data name="TrayTooltipDecoupled" xml:space="preserve"><value>Decoupled</value></data>
+  <data name="TrayTooltipClick" xml:space="preserve"><value>Left-click to open dashboard</value></data>
+  <data name="TrayStateDefault" xml:space="preserve"><value>Default</value></data>
 </root>

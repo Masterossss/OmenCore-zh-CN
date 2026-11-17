@@ -2470,5 +2470,15 @@ namespace OmenCore.Localization
         public static string KeyMapLayoutBar => Get(nameof(KeyMapLayoutBar));
         public static string KeyMapLayoutNoBar => Get(nameof(KeyMapLayoutNoBar));
         public static string KeyMapLayoutUnverified => Get(nameof(KeyMapLayoutUnverified));
+        public static string TrayTooltipFanDual => Get(nameof(TrayTooltipFanDual));
+        public static string TrayTooltipFanSingle => Get(nameof(TrayTooltipFanSingle));
+        public static string TrayTooltipFanNone => Get(nameof(TrayTooltipFanNone));
+        public static string TrayTooltipAc => Get(nameof(TrayTooltipAc));
+        public static string TrayTooltipBattery => Get(nameof(TrayTooltipBattery));
+        public static string TrayTooltipFanPerf => Get(nameof(TrayTooltipFanPerf));
+        public static string TrayTooltipLinked => Get(nameof(TrayTooltipLinked));
+        public static string TrayTooltipDecoupled => Get(nameof(TrayTooltipDecoupled));
+        public static string TrayTooltipClick => Get(nameof(TrayTooltipClick));
+        public static string TrayStateDefault => Get(nameof(TrayStateDefault));
     }
 }
