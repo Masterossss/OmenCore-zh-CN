@@ -1796,7 +1796,7 @@
                                     <TextBlock Text="Reset EC to Defaults" FontSize="13" FontWeight="SemiBold"
                                                Foreground="{StaticResource TextPrimaryBrush}"/>
                                     <TextBlock FontSize="11" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap">
-                                        <Run Text="Restores BIOS fan control. Use if BIOS shows stuck/incorrect fan values."/>
+                                        <Run Text="{x:Static loc:Strings.SettingsMaintenanceBatch0}"/>
                                     </TextBlock>
                                 </StackPanel>
                                 <Button AutomationProperties.Name="Reset EC" Grid.Column="1" 
@@ -1895,7 +1895,7 @@
                                     HorizontalAlignment="Left"
                                     Padding="20,10"
                                     Margin="0,0,12,0"
-                                    ToolTip="Check HP for available BIOS firmware updates"/>
+                                    ToolTip="{x:Static loc:Strings.SettingsMaintenanceBatch1}"/>
                             <Button AutomationProperties.Name="Download Update" Content="⬇️ Download Update" 
                                     Style="{StaticResource ModernButton}"
                                     Background="#66BB6A"
@@ -1903,7 +1903,7 @@
                                     Visibility="{Binding BiosUpdateAvailable, Converter={StaticResource BooleanToVisibilityConverter}}"
                                     HorizontalAlignment="Left"
                                     Padding="20,10"
-                                    ToolTip="Download and launch the BIOS update installer"/>
+                                    ToolTip="{x:Static loc:Strings.SettingsMaintenanceBatch2}"/>
                         </StackPanel>
                     </StackPanel>
                 </Border>
@@ -2045,7 +2045,7 @@
                                 IsEnabled="{Binding CanStartFanCleaning}"
                                 HorizontalAlignment="Left"
                                 Padding="20,10"
-                                ToolTip="Run fans at maximum speed for ~60 seconds to clear dust buildup"/>
+                                ToolTip="{x:Static loc:Strings.SettingsMaintenanceBatch3}"/>
 
                         <!-- Boost Progress -->
                         <StackPanel Visibility="{Binding IsFanCleaningActive, Converter={StaticResource BooleanToVisibilityConverter}}"
@@ -2063,7 +2063,7 @@
                                     HorizontalAlignment="Left"
                                     Padding="16,6"
                                     Margin="0,8,0,0"
-                                    ToolTip="Stop the fan cleaning cycle and return fans to normal control"/>
+                                    ToolTip="{x:Static loc:Strings.SettingsMaintenanceBatch4}"/>
                         </StackPanel>
                     </StackPanel>
                 </Border>
@@ -2079,7 +2079,7 @@
                             <StackPanel>
                                 <TextBlock Text="HP Bloatware Removal" FontSize="20" FontWeight="SemiBold"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Remove unnecessary HP pre-installed apps" FontSize="12"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsMaintenanceBatch5}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                         </StackPanel>
@@ -2110,7 +2110,7 @@
                             <StackPanel>
                                 <TextBlock Text="Feature Modules" FontSize="20" FontWeight="SemiBold" 
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Enable/disable features to reduce resource usage" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsMaintenanceBatch6}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                         </StackPanel>
@@ -2322,7 +2322,7 @@
                                         <TextBlock Text="Keyboard Backend" FontSize="13" FontWeight="SemiBold"
                                                    Foreground="{StaticResource TextPrimaryBrush}"/>
                                         <TextBlock FontSize="11" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap">
-                                            <Run Text="Auto = WMI BIOS → WMI → EC. Set specific if auto-detection fails."/>
+                                            <Run Text="{x:Static loc:Strings.SettingsMaintenanceBatch7}"/>
                                         </TextBlock>
                                     </StackPanel>
                                     <ComboBox AutomationProperties.Name="Keyboard Backend" Grid.Column="1" 
@@ -2342,7 +2342,7 @@
                                         <TextBlock Text="Invert RGB Zone Order" FontSize="13" FontWeight="SemiBold"
                                                    Foreground="{StaticResource TextPrimaryBrush}"/>
                                         <TextBlock FontSize="11" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap">
-                                            <Run Text="Enable for OMEN Max 16 light bar (zones run right-to-left)"/>
+                                            <Run Text="{x:Static loc:Strings.SettingsMaintenanceBatch8}"/>
                                         </TextBlock>
                                     </StackPanel>
                                     <ToggleButton Grid.Column="1" 
@@ -2367,7 +2367,7 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2371Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Continuous fan speed adjustment (disable for BIOS-only control)" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsMaintenanceBatch9}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
@@ -2385,7 +2385,7 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2389Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Auto-switch profiles when plugging/unplugging AC" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsMaintenanceBatch10}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
@@ -2403,7 +2403,7 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2407Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Control Hybrid/Discrete/Optimus modes" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsMaintenanceBatch11}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
@@ -2421,7 +2421,7 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2425Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Voltage offset adjustment (requires compatible CPU)" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsMaintenanceBatch12}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
@@ -2463,7 +2463,7 @@
                                                  still opened OmenCore on that machine - the old text's specific
                                                  prediction ("will open OGH instead") was wrong for that case. Says
                                                  what was actually detected instead of asserting the consequence. -->
-                                            <TextBlock Text="An OMEN Gaming Hub service or process is running. This can conflict with OmenCore's fan control, undervolt, or OMEN key handling. If Gaming Hub itself is still installed, use Bloatware Manager to remove it."
+                                            <TextBlock Text="{x:Static loc:Strings.SettingsMaintenanceBatch13}"
                                                        FontSize="11" Foreground="{StaticResource WarningBrush}" TextWrapping="Wrap"/>
                                             <TextBlock Text="{Binding OghDetectionDetail}" FontSize="10"
                                                        Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap" Margin="0,4,0,0"/>
@@ -2540,7 +2540,7 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2544Text}" FontSize="14" FontWeight="SemiBold"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="When disabled, no OSD background process runs at all" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsMaintenanceBatch14}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
@@ -2910,7 +2910,7 @@
                                     <StackPanel Grid.Column="0">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2914Text}" FontSize="13"
                                                    Foreground="{StaticResource TextSecondaryBrush}"/>
-                                        <TextBlock Text="Fans won't change unless temp moves beyond this" FontSize="11" 
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsMaintenanceBatch15}" FontSize="11"
                                                    Foreground="{StaticResource TextTertiaryBrush}"/>
                                     </StackPanel>
                                     <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
@@ -3060,11 +3060,11 @@
                         
                         <TextBlock FontSize="12" Foreground="{StaticResource TextSecondaryBrush}"
                                    Margin="0,0,0,8" TextWrapping="Wrap">
-                            <Run Text="Remove HP OMEN Gaming Hub and related services. This is optional - OmenCore works without OGH installed."/>
+                            <Run Text="{x:Static loc:Strings.SettingsMaintenanceBatch16}"/>
                         </TextBlock>
                         
                         <TextBlock FontSize="12" Margin="0,0,0,16" TextWrapping="Wrap">
-                            <Run Text="ℹ️ A System Restore point will be created automatically before cleanup begins." FontWeight="Bold" Foreground="#4CAF50"/>
+                            <Run Text="{x:Static loc:Strings.SettingsMaintenanceBatch17}" FontWeight="Bold" Foreground="#4CAF50"/>
                         </TextBlock>
 
                         <!-- Cleanup Options -->
@@ -3096,9 +3096,9 @@
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <TextBlock Grid.Column="0" Text="Remove HP OMEN services (OmenService, LightingService)" 
+                                <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsMaintenanceBatch18}"
                                            VerticalAlignment="Center" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <ToggleButton AutomationProperties.Name="Remove HP OMEN services (OmenService, LightingService)" Grid.Column="1" Style="{StaticResource ModernToggleButton}" 
+                                <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsMaintenanceBatch18}" Grid.Column="1" Style="{StaticResource ModernToggleButton}"
                                               IsChecked="{Binding CleanupRemoveServices}" HorizontalAlignment="Right"/>
                             </Grid>
                             
@@ -3118,9 +3118,9 @@
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <TextBlock Grid.Column="0" Text="Remove HP OMEN legacy installers (winget/AppX)" 
+                                <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsMaintenanceBatch19}"
                                            VerticalAlignment="Center" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <ToggleButton AutomationProperties.Name="Remove HP OMEN legacy installers (winget/AppX)" Grid.Column="1" Style="{StaticResource ModernToggleButton}" 
+                                <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsMaintenanceBatch19}" Grid.Column="1" Style="{StaticResource ModernToggleButton}"
                                               IsChecked="{Binding CleanupRemoveLegacyInstallers}" HorizontalAlignment="Right"/>
                             </Grid>
                             
@@ -3161,7 +3161,7 @@
                                         Style="{StaticResource SecondaryButton}"
                                         Command="{Binding CreateRestorePointCommand}"
                                         HorizontalAlignment="Left" Padding="16,8" Margin="0,12,0,0"
-                                        ToolTip="Create a Windows System Restore snapshot before running cleanup"/>
+                                        ToolTip="{x:Static loc:Strings.SettingsMaintenanceBatch20}"/>
                             </StackPanel>
                         </Border>
 
@@ -3192,7 +3192,7 @@
                                     Command="{Binding RunCleanupCommand}"
                                     Padding="16,8"
                                     Background="{StaticResource ErrorBrush}"
-                                    ToolTip="Execute the selected Windows system cleanup tasks"/>
+                                    ToolTip="{x:Static loc:Strings.SettingsMaintenanceBatch21}"/>
                         </Grid>
                         
                         <!-- Cleanup Steps Log (visible during/after cleanup) -->
@@ -3224,10 +3224,10 @@
                                 Margin="0,12,0,0"
                                 Visibility="{Binding CleanupComplete, Converter={StaticResource BoolToVisibility}}">
                             <StackPanel>
-                                <TextBlock Text="💡 Restart recommended to complete cleanup" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsMaintenanceBatch22}"
                                            FontSize="12" FontWeight="SemiBold"
                                            Foreground="#2196F3"/>
-                                <TextBlock Text="Some components may still be running until you restart Windows." 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsMaintenanceBatch23}"
                                            FontSize="11" 
                                            Foreground="{StaticResource TextSecondaryBrush}"
                                            Margin="0,4,0,0"/>
@@ -3258,7 +3258,7 @@
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding ImportProfileCommand}"
                                     Padding="16,8" Margin="0,0,12,0"
-                                    ToolTip="Load fan curves, performance modes, and GPU OC settings from .omencore file"/>
+                                    ToolTip="{x:Static loc:Strings.SettingsMaintenanceBatch24}"/>
                             <Button AutomationProperties.Name="Export Profile" Content="📤 Export Profile" 
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding ExportProfileCommand}"
@@ -3314,7 +3314,7 @@
                                     Style="{StaticResource SecondaryButton}"
                                     Command="{Binding ResetToDefaultsCommand}"
                                     Padding="16,8"
-                                    ToolTip="Reset all settings to default values"/>
+                                    ToolTip="{x:Static loc:Strings.SettingsMaintenanceBatch25}"/>
                         </StackPanel>
 
                         <TextBlock Text="{Binding ConfigFolderPath}" 

@@ -2019,4 +2019,30 @@
   <data name="FanAndGpuGuide33" xml:space="preserve"><value>将曲线重置为默认值</value></data>
   <data name="FanAndGpuGuide34" xml:space="preserve"><value>将曲线复制为分享代码</value></data>
   <data name="FanAndGpuGuide35" xml:space="preserve"><value>从剪贴板分享代码导入曲线</value></data>
+  <data name="SettingsMaintenanceBatch0" xml:space="preserve"><value>恢复 BIOS 风扇控制。如果 BIOS 显示的风扇数值卡住或不正确，可使用此功能。</value></data>
+  <data name="SettingsMaintenanceBatch1" xml:space="preserve"><value>检查 HP 是否提供可用的 BIOS 固件更新</value></data>
+  <data name="SettingsMaintenanceBatch2" xml:space="preserve"><value>下载并启动 BIOS 更新安装程序</value></data>
+  <data name="SettingsMaintenanceBatch3" xml:space="preserve"><value>以最大转速运行风扇约 60 秒，清除积尘</value></data>
+  <data name="SettingsMaintenanceBatch4" xml:space="preserve"><value>停止风扇清理周期，并将风扇恢复正常控制</value></data>
+  <data name="SettingsMaintenanceBatch5" xml:space="preserve"><value>删除不需要的 HP 预装应用</value></data>
+  <data name="SettingsMaintenanceBatch6" xml:space="preserve"><value>启用或禁用功能以减少资源使用</value></data>
+  <data name="SettingsMaintenanceBatch7" xml:space="preserve"><value>自动模式依次尝试 WMI BIOS → WMI → EC。自动检测失败时可指定后端。</value></data>
+  <data name="SettingsMaintenanceBatch8" xml:space="preserve"><value>适用于 OMEN Max 16 灯条（分区从右向左排列）</value></data>
+  <data name="SettingsMaintenanceBatch9" xml:space="preserve"><value>持续调整风扇转速（仅使用 BIOS 控制时请关闭）</value></data>
+  <data name="SettingsMaintenanceBatch10" xml:space="preserve"><value>连接或断开交流电源时自动切换配置</value></data>
+  <data name="SettingsMaintenanceBatch11" xml:space="preserve"><value>控制混合显卡、独立显卡和 Optimus 模式</value></data>
+  <data name="SettingsMaintenanceBatch12" xml:space="preserve"><value>调整电压偏移（需要兼容的 CPU）</value></data>
+  <data name="SettingsMaintenanceBatch13" xml:space="preserve"><value>OMEN Gaming Hub 的服务或进程正在运行。这可能与 OmenCore 的风扇控制、降压或 OMEN 键处理发生冲突。如果 Gaming Hub 仍已安装，可使用软件清理功能将其删除。</value></data>
+  <data name="SettingsMaintenanceBatch14" xml:space="preserve"><value>关闭后，不会运行任何 OSD 后台进程</value></data>
+  <data name="SettingsMaintenanceBatch15" xml:space="preserve"><value>温度变化未超过此范围时，风扇转速不会改变</value></data>
+  <data name="SettingsMaintenanceBatch16" xml:space="preserve"><value>删除 HP OMEN Gaming Hub 及相关服务。此操作是可选的；未安装 OGH 时 OmenCore 也可运行。</value></data>
+  <data name="SettingsMaintenanceBatch17" xml:space="preserve"><value>ℹ️ 清理开始前将自动创建系统还原点。</value></data>
+  <data name="SettingsMaintenanceBatch18" xml:space="preserve"><value>删除 HP OMEN 服务（OmenService、LightingService）</value></data>
+  <data name="SettingsMaintenanceBatch19" xml:space="preserve"><value>删除 HP OMEN 旧版安装程序（winget/AppX）</value></data>
+  <data name="SettingsMaintenanceBatch20" xml:space="preserve"><value>运行清理前创建 Windows 系统还原快照</value></data>
+  <data name="SettingsMaintenanceBatch21" xml:space="preserve"><value>执行所选的 Windows 系统清理任务</value></data>
+  <data name="SettingsMaintenanceBatch22" xml:space="preserve"><value>💡 建议重启以完成清理</value></data>
+  <data name="SettingsMaintenanceBatch23" xml:space="preserve"><value>在重启 Windows 之前，部分组件可能仍在运行。</value></data>
+  <data name="SettingsMaintenanceBatch24" xml:space="preserve"><value>从 .omencore 文件加载风扇曲线、性能模式和 GPU 超频设置</value></data>
+  <data name="SettingsMaintenanceBatch25" xml:space="preserve"><value>将所有设置重置为默认值</value></data>
 </root>

@@ -1873,5 +1873,31 @@ namespace OmenCore.Localization
         public static string FanAndGpuGuide33 => Get(nameof(FanAndGpuGuide33));
         public static string FanAndGpuGuide34 => Get(nameof(FanAndGpuGuide34));
         public static string FanAndGpuGuide35 => Get(nameof(FanAndGpuGuide35));
+        public static string SettingsMaintenanceBatch0 => Get(nameof(SettingsMaintenanceBatch0));
+        public static string SettingsMaintenanceBatch1 => Get(nameof(SettingsMaintenanceBatch1));
+        public static string SettingsMaintenanceBatch2 => Get(nameof(SettingsMaintenanceBatch2));
+        public static string SettingsMaintenanceBatch3 => Get(nameof(SettingsMaintenanceBatch3));
+        public static string SettingsMaintenanceBatch4 => Get(nameof(SettingsMaintenanceBatch4));
+        public static string SettingsMaintenanceBatch5 => Get(nameof(SettingsMaintenanceBatch5));
+        public static string SettingsMaintenanceBatch6 => Get(nameof(SettingsMaintenanceBatch6));
+        public static string SettingsMaintenanceBatch7 => Get(nameof(SettingsMaintenanceBatch7));
+        public static string SettingsMaintenanceBatch8 => Get(nameof(SettingsMaintenanceBatch8));
+        public static string SettingsMaintenanceBatch9 => Get(nameof(SettingsMaintenanceBatch9));
+        public static string SettingsMaintenanceBatch10 => Get(nameof(SettingsMaintenanceBatch10));
+        public static string SettingsMaintenanceBatch11 => Get(nameof(SettingsMaintenanceBatch11));
+        public static string SettingsMaintenanceBatch12 => Get(nameof(SettingsMaintenanceBatch12));
+        public static string SettingsMaintenanceBatch13 => Get(nameof(SettingsMaintenanceBatch13));
+        public static string SettingsMaintenanceBatch14 => Get(nameof(SettingsMaintenanceBatch14));
+        public static string SettingsMaintenanceBatch15 => Get(nameof(SettingsMaintenanceBatch15));
+        public static string SettingsMaintenanceBatch16 => Get(nameof(SettingsMaintenanceBatch16));
+        public static string SettingsMaintenanceBatch17 => Get(nameof(SettingsMaintenanceBatch17));
+        public static string SettingsMaintenanceBatch18 => Get(nameof(SettingsMaintenanceBatch18));
+        public static string SettingsMaintenanceBatch19 => Get(nameof(SettingsMaintenanceBatch19));
+        public static string SettingsMaintenanceBatch20 => Get(nameof(SettingsMaintenanceBatch20));
+        public static string SettingsMaintenanceBatch21 => Get(nameof(SettingsMaintenanceBatch21));
+        public static string SettingsMaintenanceBatch22 => Get(nameof(SettingsMaintenanceBatch22));
+        public static string SettingsMaintenanceBatch23 => Get(nameof(SettingsMaintenanceBatch23));
+        public static string SettingsMaintenanceBatch24 => Get(nameof(SettingsMaintenanceBatch24));
+        public static string SettingsMaintenanceBatch25 => Get(nameof(SettingsMaintenanceBatch25));
     }
 }

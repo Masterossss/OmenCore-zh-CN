@@ -2027,4 +2027,30 @@ Are you sure?</value></data>
   <data name="FanAndGpuGuide33" xml:space="preserve"><value>Reset curve to default</value></data>
   <data name="FanAndGpuGuide34" xml:space="preserve"><value>Copy curve as share code</value></data>
   <data name="FanAndGpuGuide35" xml:space="preserve"><value>Import curve from clipboard share code</value></data>
+  <data name="SettingsMaintenanceBatch0" xml:space="preserve"><value>Restores BIOS fan control. Use if BIOS shows stuck/incorrect fan values.</value></data>
+  <data name="SettingsMaintenanceBatch1" xml:space="preserve"><value>Check HP for available BIOS firmware updates</value></data>
+  <data name="SettingsMaintenanceBatch2" xml:space="preserve"><value>Download and launch the BIOS update installer</value></data>
+  <data name="SettingsMaintenanceBatch3" xml:space="preserve"><value>Run fans at maximum speed for ~60 seconds to clear dust buildup</value></data>
+  <data name="SettingsMaintenanceBatch4" xml:space="preserve"><value>Stop the fan cleaning cycle and return fans to normal control</value></data>
+  <data name="SettingsMaintenanceBatch5" xml:space="preserve"><value>Remove unnecessary HP pre-installed apps</value></data>
+  <data name="SettingsMaintenanceBatch6" xml:space="preserve"><value>Enable/disable features to reduce resource usage</value></data>
+  <data name="SettingsMaintenanceBatch7" xml:space="preserve"><value>Auto = WMI BIOS → WMI → EC. Set specific if auto-detection fails.</value></data>
+  <data name="SettingsMaintenanceBatch8" xml:space="preserve"><value>Enable for OMEN Max 16 light bar (zones run right-to-left)</value></data>
+  <data name="SettingsMaintenanceBatch9" xml:space="preserve"><value>Continuous fan speed adjustment (disable for BIOS-only control)</value></data>
+  <data name="SettingsMaintenanceBatch10" xml:space="preserve"><value>Auto-switch profiles when plugging/unplugging AC</value></data>
+  <data name="SettingsMaintenanceBatch11" xml:space="preserve"><value>Control Hybrid/Discrete/Optimus modes</value></data>
+  <data name="SettingsMaintenanceBatch12" xml:space="preserve"><value>Voltage offset adjustment (requires compatible CPU)</value></data>
+  <data name="SettingsMaintenanceBatch13" xml:space="preserve"><value>An OMEN Gaming Hub service or process is running. This can conflict with OmenCore's fan control, undervolt, or OMEN key handling. If Gaming Hub itself is still installed, use Bloatware Manager to remove it.</value></data>
+  <data name="SettingsMaintenanceBatch14" xml:space="preserve"><value>When disabled, no OSD background process runs at all</value></data>
+  <data name="SettingsMaintenanceBatch15" xml:space="preserve"><value>Fans won't change unless temp moves beyond this</value></data>
+  <data name="SettingsMaintenanceBatch16" xml:space="preserve"><value>Remove HP OMEN Gaming Hub and related services. This is optional - OmenCore works without OGH installed.</value></data>
+  <data name="SettingsMaintenanceBatch17" xml:space="preserve"><value>ℹ️ A System Restore point will be created automatically before cleanup begins.</value></data>
+  <data name="SettingsMaintenanceBatch18" xml:space="preserve"><value>Remove HP OMEN services (OmenService, LightingService)</value></data>
+  <data name="SettingsMaintenanceBatch19" xml:space="preserve"><value>Remove HP OMEN legacy installers (winget/AppX)</value></data>
+  <data name="SettingsMaintenanceBatch20" xml:space="preserve"><value>Create a Windows System Restore snapshot before running cleanup</value></data>
+  <data name="SettingsMaintenanceBatch21" xml:space="preserve"><value>Execute the selected Windows system cleanup tasks</value></data>
+  <data name="SettingsMaintenanceBatch22" xml:space="preserve"><value>💡 Restart recommended to complete cleanup</value></data>
+  <data name="SettingsMaintenanceBatch23" xml:space="preserve"><value>Some components may still be running until you restart Windows.</value></data>
+  <data name="SettingsMaintenanceBatch24" xml:space="preserve"><value>Load fan curves, performance modes, and GPU OC settings from .omencore file</value></data>
+  <data name="SettingsMaintenanceBatch25" xml:space="preserve"><value>Reset all settings to default values</value></data>
 </root>
