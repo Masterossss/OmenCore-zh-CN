@@ -3431,19 +3431,19 @@
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsLabelBatch78}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" VerticalAlignment="Center" Margin="12,0,6,0"/>
                                                             <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsLabelBatch78}" SelectedValue="{Binding FanPreset, Mode=TwoWay}" Width="90" FontSize="11"
                                                                       Style="{StaticResource ModernComboBox}">
-                                                                <ComboBoxItem Content="Auto"/>
-                                                                <ComboBoxItem Content="Silent"/>
-                                                                <ComboBoxItem Content="Gaming"/>
-                                                                <ComboBoxItem Content="Extreme"/>
-                                                                <ComboBoxItem Content="Max"/>
+                                                                <ComboBoxItem Content="Auto" ContentTemplate="{StaticResource SettingsOptionTemplate}"/>
+                                                                <ComboBoxItem Content="Silent" ContentTemplate="{StaticResource SettingsOptionTemplate}"/>
+                                                                <ComboBoxItem Content="Gaming" ContentTemplate="{StaticResource SettingsOptionTemplate}"/>
+                                                                <ComboBoxItem Content="Extreme" ContentTemplate="{StaticResource SettingsOptionTemplate}"/>
+                                                                <ComboBoxItem Content="Max" ContentTemplate="{StaticResource SettingsOptionTemplate}"/>
                                                             </ComboBox>
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsLabelBatch79}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" VerticalAlignment="Center" Margin="12,0,6,0"/>
                                                             <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsLabelBatch79}" SelectedValue="{Binding PerformanceMode, Mode=TwoWay}" Width="100" FontSize="11"
                                                                       Style="{StaticResource ModernComboBox}">
-                                                                <ComboBoxItem Content=""/>
-                                                                <ComboBoxItem Content="Balanced"/>
-                                                                <ComboBoxItem Content="Performance"/>
-                                                                <ComboBoxItem Content="Silent"/>
+                                                                <ComboBoxItem Content="" ContentTemplate="{StaticResource SettingsOptionTemplate}"/>
+                                                                <ComboBoxItem Content="Balanced" ContentTemplate="{StaticResource SettingsOptionTemplate}"/>
+                                                                <ComboBoxItem Content="Performance" ContentTemplate="{StaticResource SettingsOptionTemplate}"/>
+                                                                <ComboBoxItem Content="Silent" ContentTemplate="{StaticResource SettingsOptionTemplate}"/>
                                                             </ComboBox>
                                                         </StackPanel>
                                                     </StackPanel>
