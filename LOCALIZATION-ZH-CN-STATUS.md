@@ -196,3 +196,8 @@
 - 自 5b32c1e 新增 777 个资源，四种语言各 2427 键；Debug/Release 构建通过，68 项相关纯软件测试通过，38 个 XAML/资源 XML 解析通过。未运行应用、真实 Toast、硬件、卸载或系统优化。
 - 尚未达到预览条件：键盘编辑器其他动态结果、设置服务状态、BloatwareManager 部分结果、托盘工具提示/OSD、风扇和 CPU/GPU 其他调用链仍待核查。未生成 ZIP 或 SHA256。
 - 下一步从 KeyboardMapViewModel.Status 余项、KeyboardDiagnosticsViewModel 外设类型、SettingsViewModel 显示状态和托盘动态 Tooltip 继续。代码提交 11f30cd、08fd683、6757a5e、099ad02、7bcd415、3e476f5、1c7f454、044c871。
+
+## 键盘编辑反馈检查点
+
+- 补充键盘映射的已知选区、恢复图案、布局及未验证状态；原始 Status 和设备写入/日志不变，未知格式回退。按键 Tooltip 和其他动态设备状态仍需核查。
+- 自 5b32c1e 新增 789 资源，四种语言各 2439 键；Debug/Release 构建通过，68 项相关纯软件测试通过，38 个 XAML/资源 XML 解析通过。未运行 GUI、键盘写入或其他硬件操作。P0/P1 全面审计仍未完成，不满足开发预览条件。代码提交 5e76919。
