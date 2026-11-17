@@ -2476,4 +2476,32 @@
   <data name="OptStatusItemDisabledReboot" xml:space="preserve"><value>完成：已禁用 {0}（需要重启）</value></data>
   <data name="OptStatusCategoryDone" xml:space="preserve"><value>完成：已应用 {0} 项{1}优化</value></data>
   <data name="OptStatusCategoryAlready" xml:space="preserve"><value>完成：{0}已全部应用</value></data>
+  <data name="MainWindowUiBatch0" xml:space="preserve"><value>应用已保存的风扇预设</value></data>
+  <data name="MainWindowUiBatch1" xml:space="preserve"><value>应用已保存的风扇预设</value></data>
+  <data name="MainWindowUiBatch2" xml:space="preserve"><value>切换性能配置</value></data>
+  <data name="MainWindowUiBatch3" xml:space="preserve"><value>应用 RGB 灯光</value></data>
+  <data name="MainWindowUiBatch4" xml:space="preserve"><value>启用游戏优化</value></data>
+  <data name="MainWindowUiBatch5" xml:space="preserve"><value>恢复默认设置：将风扇曲线、灯光和性能模式重置为默认值</value></data>
+  <data name="MainWindowUiBatch6" xml:space="preserve"><value>恢复默认设置</value></data>
+  <data name="MainWindowUiBatch7" xml:space="preserve"><value>导出设置</value></data>
+  <data name="MainWindowUiBatch8" xml:space="preserve"><value>导出</value></data>
+  <data name="MainWindowUiBatch9" xml:space="preserve"><value>导入设置文件</value></data>
+  <data name="MainWindowUiBatch10" xml:space="preserve"><value>导入</value></data>
+  <data name="MainWindowUiBatch11" xml:space="preserve"><value>管理各游戏的设置</value></data>
+  <data name="MainWindowUiBatch12" xml:space="preserve"><value>配置文件</value></data>
+  <data name="MainWindowUiBatch13" xml:space="preserve"><value>关于 OmenCore</value></data>
+  <data name="MainWindowUiBatch14" xml:space="preserve"><value>关于</value></data>
+  <data name="MainWindowUiBatch15" xml:space="preserve"><value>手动检查新版本</value></data>
+  <data name="MainWindowUiBatch16" xml:space="preserve"><value>检查更新</value></data>
+  <data name="MainWindowUiBatch17" xml:space="preserve"><value>性能</value></data>
+  <data name="MainWindowUiBatch18" xml:space="preserve"><value>风扇模式</value></data>
+  <data name="MainWindowUiBatch19" xml:space="preserve"><value>更新已准备就绪</value></data>
+  <data name="MainWindowUiBatch20" xml:space="preserve"><value>安装更新</value></data>
+  <data name="MainWindowUiBatch21" xml:space="preserve"><value>版本说明</value></data>
+  <data name="MainWindowUiBatch22" xml:space="preserve"><value>警告：检测到不受支持的系统</value></data>
+  <data name="MainWindowUiBatch23" xml:space="preserve"><value>OmenCore 专为 HP OMEN 和 Victus 游戏笔记本设计。当前系统未被识别为这两类设备，因此大多数硬件控制功能将不可用。这是硬件或固件限制，更新机型数据库无法解决。</value></data>
+  <data name="MainWindowUiBatch24" xml:space="preserve"><value>提示：此机型尚未经过实际验证</value></data>
+  <data name="MainWindowUiBatch25" xml:space="preserve"><value>这是一台 HP OMEN/Victus 设备，但此具体机型的功能是推断所得，尚未由其他用户确认。请查看诊断页面，了解具体受影响的功能。大多数功能应该仍可使用；如发现异常，请反馈。</value></data>
+  <data name="MainWindowUiBatch26" xml:space="preserve"><value>最近活动</value></data>
+  <data name="MainWindowUiBatch27" xml:space="preserve"><value>系统日志</value></data>
 </root>

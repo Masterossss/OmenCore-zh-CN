@@ -2484,4 +2484,32 @@ To enable: Control Panel → System → System Protection → Configure</value><
   <data name="OptStatusItemDisabledReboot" xml:space="preserve"><value>Done: {0} disabled (reboot required)</value></data>
   <data name="OptStatusCategoryDone" xml:space="preserve"><value>Done: Applied {0} {1} optimization(s)</value></data>
   <data name="OptStatusCategoryAlready" xml:space="preserve"><value>Done: {0} is already fully applied</value></data>
+  <data name="MainWindowUiBatch0" xml:space="preserve"><value>Apply your saved fan preset</value></data>
+  <data name="MainWindowUiBatch1" xml:space="preserve"><value>Apply saved fan preset</value></data>
+  <data name="MainWindowUiBatch2" xml:space="preserve"><value>Switch performance profile</value></data>
+  <data name="MainWindowUiBatch3" xml:space="preserve"><value>Apply RGB lighting</value></data>
+  <data name="MainWindowUiBatch4" xml:space="preserve"><value>Enable gaming optimizations</value></data>
+  <data name="MainWindowUiBatch5" xml:space="preserve"><value>Restore Defaults: reset fan curves, lighting, and performance mode to their defaults</value></data>
+  <data name="MainWindowUiBatch6" xml:space="preserve"><value>Restore defaults</value></data>
+  <data name="MainWindowUiBatch7" xml:space="preserve"><value>Export your settings</value></data>
+  <data name="MainWindowUiBatch8" xml:space="preserve"><value>Export</value></data>
+  <data name="MainWindowUiBatch9" xml:space="preserve"><value>Import settings file</value></data>
+  <data name="MainWindowUiBatch10" xml:space="preserve"><value>Import</value></data>
+  <data name="MainWindowUiBatch11" xml:space="preserve"><value>Manage per-game settings</value></data>
+  <data name="MainWindowUiBatch12" xml:space="preserve"><value>Profiles</value></data>
+  <data name="MainWindowUiBatch13" xml:space="preserve"><value>About OmenCore</value></data>
+  <data name="MainWindowUiBatch14" xml:space="preserve"><value>About</value></data>
+  <data name="MainWindowUiBatch15" xml:space="preserve"><value>Manually check for a new version</value></data>
+  <data name="MainWindowUiBatch16" xml:space="preserve"><value>Check for Updates</value></data>
+  <data name="MainWindowUiBatch17" xml:space="preserve"><value>PERFORMANCE</value></data>
+  <data name="MainWindowUiBatch18" xml:space="preserve"><value>FAN MODE</value></data>
+  <data name="MainWindowUiBatch19" xml:space="preserve"><value>Update Ready</value></data>
+  <data name="MainWindowUiBatch20" xml:space="preserve"><value>Install Update</value></data>
+  <data name="MainWindowUiBatch21" xml:space="preserve"><value>Release Notes</value></data>
+  <data name="MainWindowUiBatch22" xml:space="preserve"><value>Warning: Unsupported System Detected</value></data>
+  <data name="MainWindowUiBatch23" xml:space="preserve"><value>OmenCore is built for HP OMEN and Victus gaming laptops. This system isn't detected as either, so most hardware-control features will be unavailable - this is a hardware/firmware limitation, not something a model-database update can fix.</value></data>
+  <data name="MainWindowUiBatch24" xml:space="preserve"><value>Notice: Model Not Yet Field-Confirmed</value></data>
+  <data name="MainWindowUiBatch25" xml:space="preserve"><value>This is a real HP OMEN/Victus system, but this exact model's capabilities are inferred rather than confirmed by another user - see the Diagnostics tab for exactly which features that affects. Most functionality should still work; please report anything that looks wrong.</value></data>
+  <data name="MainWindowUiBatch26" xml:space="preserve"><value>RECENT ACTIVITY</value></data>
+  <data name="MainWindowUiBatch27" xml:space="preserve"><value>SYSTEM LOG</value></data>
 </root>

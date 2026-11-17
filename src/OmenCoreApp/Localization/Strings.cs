@@ -2325,5 +2325,33 @@ namespace OmenCore.Localization
         public static string OptStatusItemDisabledReboot => Get(nameof(OptStatusItemDisabledReboot));
         public static string OptStatusCategoryDone => Get(nameof(OptStatusCategoryDone));
         public static string OptStatusCategoryAlready => Get(nameof(OptStatusCategoryAlready));
+        public static string MainWindowUiBatch0 => Get(nameof(MainWindowUiBatch0));
+        public static string MainWindowUiBatch1 => Get(nameof(MainWindowUiBatch1));
+        public static string MainWindowUiBatch2 => Get(nameof(MainWindowUiBatch2));
+        public static string MainWindowUiBatch3 => Get(nameof(MainWindowUiBatch3));
+        public static string MainWindowUiBatch4 => Get(nameof(MainWindowUiBatch4));
+        public static string MainWindowUiBatch5 => Get(nameof(MainWindowUiBatch5));
+        public static string MainWindowUiBatch6 => Get(nameof(MainWindowUiBatch6));
+        public static string MainWindowUiBatch7 => Get(nameof(MainWindowUiBatch7));
+        public static string MainWindowUiBatch8 => Get(nameof(MainWindowUiBatch8));
+        public static string MainWindowUiBatch9 => Get(nameof(MainWindowUiBatch9));
+        public static string MainWindowUiBatch10 => Get(nameof(MainWindowUiBatch10));
+        public static string MainWindowUiBatch11 => Get(nameof(MainWindowUiBatch11));
+        public static string MainWindowUiBatch12 => Get(nameof(MainWindowUiBatch12));
+        public static string MainWindowUiBatch13 => Get(nameof(MainWindowUiBatch13));
+        public static string MainWindowUiBatch14 => Get(nameof(MainWindowUiBatch14));
+        public static string MainWindowUiBatch15 => Get(nameof(MainWindowUiBatch15));
+        public static string MainWindowUiBatch16 => Get(nameof(MainWindowUiBatch16));
+        public static string MainWindowUiBatch17 => Get(nameof(MainWindowUiBatch17));
+        public static string MainWindowUiBatch18 => Get(nameof(MainWindowUiBatch18));
+        public static string MainWindowUiBatch19 => Get(nameof(MainWindowUiBatch19));
+        public static string MainWindowUiBatch20 => Get(nameof(MainWindowUiBatch20));
+        public static string MainWindowUiBatch21 => Get(nameof(MainWindowUiBatch21));
+        public static string MainWindowUiBatch22 => Get(nameof(MainWindowUiBatch22));
+        public static string MainWindowUiBatch23 => Get(nameof(MainWindowUiBatch23));
+        public static string MainWindowUiBatch24 => Get(nameof(MainWindowUiBatch24));
+        public static string MainWindowUiBatch25 => Get(nameof(MainWindowUiBatch25));
+        public static string MainWindowUiBatch26 => Get(nameof(MainWindowUiBatch26));
+        public static string MainWindowUiBatch27 => Get(nameof(MainWindowUiBatch27));
     }
 }
