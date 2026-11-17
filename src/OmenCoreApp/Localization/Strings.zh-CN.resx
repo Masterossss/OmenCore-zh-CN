@@ -2598,4 +2598,7 @@
   <data name="KeyMapBrightnessFull" xml:space="preserve"><value>已选择 {0} 个，亮度为全亮。将在下次应用时生效。</value></data>
   <data name="KeyMapBrightnessPartial" xml:space="preserve"><value>已选择 {0} 个，亮度为 {1}%；应用主亮度 {3}% 后实际为 {2}%。</value></data>
   <data name="KeyMapBrightnessEffect" xml:space="preserve"><value> 正在运行的键盘灯效无法调暗，它由 MCU 自行渲染。</value></data>
+  <data name="KeyDiagYesNo" xml:space="preserve"><value>是|否</value></data>
+  <data name="KeyDiagNoService" xml:space="preserve"><value>没有键盘灯光服务</value></data>
+  <data name="KeyDiagAttempts" xml:space="preserve"><value>尝试次数：{0}</value></data>
 </root>

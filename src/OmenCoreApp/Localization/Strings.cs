@@ -2445,5 +2445,8 @@ namespace OmenCore.Localization
         public static string KeyMapBrightnessFull => Get(nameof(KeyMapBrightnessFull));
         public static string KeyMapBrightnessPartial => Get(nameof(KeyMapBrightnessPartial));
         public static string KeyMapBrightnessEffect => Get(nameof(KeyMapBrightnessEffect));
+        public static string KeyDiagYesNo => Get(nameof(KeyDiagYesNo));
+        public static string KeyDiagNoService => Get(nameof(KeyDiagNoService));
+        public static string KeyDiagAttempts => Get(nameof(KeyDiagAttempts));
     }
 }

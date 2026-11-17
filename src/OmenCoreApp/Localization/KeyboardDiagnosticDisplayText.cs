@@ -18,6 +18,7 @@ namespace OmenCore.Localization
             var known = value switch
             {
                 "Ready" => Strings.KeyDiagReady,
+                "No keyboard lighting service" => Strings.KeyDiagNoService,
                 "Detecting devices..." => Strings.KeyDiagDetecting,
                 "Probe finished. Report which step number (if any) turned the keyboard red." => Strings.KeyDiagProbeFinished,
                 "Running test pattern..." => Strings.KeyDiagTesting,
@@ -30,6 +31,8 @@ namespace OmenCore.Localization
                 _ => null
             };
             if (known != null) return known;
+            const string attempts = "Attempts: ";
+            if (value.StartsWith(attempts, StringComparison.Ordinal)) return string.Format(Strings.KeyDiagAttempts, value.Substring(attempts.Length));
             var found = Regex.Match(value, @"\ADetection complete\. Found ([0-9]+) device\(s\)\.\z", RegexOptions.CultureInvariant);
             if (found.Success) return string.Format(Strings.KeyDiagDetected, found.Groups[1].Value);
             var probe = Regex.Match(value, @"\AProbe step ([0-9]+) of ([0-9]+): is the keyboard red now\?\z", RegexOptions.CultureInvariant);

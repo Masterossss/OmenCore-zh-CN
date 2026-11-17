@@ -60,21 +60,21 @@
                 </Grid.RowDefinitions>
 
                 <TextBlock Grid.Row="0" Grid.Column="0" Text="Corsair iCUE:" Style="{StaticResource Label}" />
-                <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding HasCorsair, Converter={StaticResource BoolToYesNo}}" Foreground="{Binding HasCorsair, Converter={StaticResource BoolToColor}}" />
+                <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding HasCorsair, Converter={StaticResource BoolToYesNo}, ConverterParameter={x:Static loc:Strings.KeyDiagYesNo}}" Foreground="{Binding HasCorsair, Converter={StaticResource BoolToColor}}" />
 
                 <TextBlock Grid.Row="1" Grid.Column="0" Text="Logitech G HUB:" Style="{StaticResource Label}" />
-                <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding HasLogitech, Converter={StaticResource BoolToYesNo}}" Foreground="{Binding HasLogitech, Converter={StaticResource BoolToColor}}" />
+                <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding HasLogitech, Converter={StaticResource BoolToYesNo}, ConverterParameter={x:Static loc:Strings.KeyDiagYesNo}}" Foreground="{Binding HasLogitech, Converter={StaticResource BoolToColor}}" />
 
                 <TextBlock Grid.Row="2" Grid.Column="0" Text="Razer Chroma:" Style="{StaticResource Label}" />
-                <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding HasRazer, Converter={StaticResource BoolToYesNo}}" Foreground="{Binding HasRazer, Converter={StaticResource BoolToColor}}" />
+                <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding HasRazer, Converter={StaticResource BoolToYesNo}, ConverterParameter={x:Static loc:Strings.KeyDiagYesNo}}" Foreground="{Binding HasRazer, Converter={StaticResource BoolToColor}}" />
 
                 <TextBlock Grid.Row="3" Grid.Column="0" Text="{x:Static loc:Strings.KeyboardDiagUi9}" Style="{StaticResource Label}" />
-                <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding HasKeyboardLighting, Converter={StaticResource BoolToYesNo}}" Foreground="{Binding HasKeyboardLighting, Converter={StaticResource BoolToColor}}" />
+                <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding HasKeyboardLighting, Converter={StaticResource BoolToYesNo}, ConverterParameter={x:Static loc:Strings.KeyDiagYesNo}}" Foreground="{Binding HasKeyboardLighting, Converter={StaticResource BoolToColor}}" />
             </Grid>
 
             <TextBlock Text="{x:Static loc:Strings.KeyboardDiagUi10}" Style="{StaticResource Heading3}" Margin="0,16,0,8" />
             <Border Background="{StaticResource SurfaceDarkBrush}" Padding="12" CornerRadius="6">
-                <TextBlock Text="{Binding KeyboardLightingTelemetry}" Style="{StaticResource Caption}" TextWrapping="Wrap" />
+                <TextBlock Text="{Binding KeyboardLightingTelemetry, Converter={StaticResource KeyboardDiagnosticDisplay}}" Style="{StaticResource Caption}" TextWrapping="Wrap" />
             </Border>
 
             <TextBlock Text="{x:Static loc:Strings.KeyboardDiagUi11}" Style="{StaticResource Heading3}" Margin="0,16,0,8" />

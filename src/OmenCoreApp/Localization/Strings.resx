@@ -2606,4 +2606,7 @@ Watch the keyboard and note the NUMBER of the step during which it turns red, th
   <data name="KeyMapBrightnessFull" xml:space="preserve"><value>{0} selected, at full. Applies on the next Apply.</value></data>
   <data name="KeyMapBrightnessPartial" xml:space="preserve"><value>{0} selected at {1}% — they land at {2}% once the master's {3}% is applied.</value></data>
   <data name="KeyMapBrightnessEffect" xml:space="preserve"><value> A running keyboard effect cannot be dimmed — the MCU draws those itself.</value></data>
+  <data name="KeyDiagYesNo" xml:space="preserve"><value>Yes|No</value></data>
+  <data name="KeyDiagNoService" xml:space="preserve"><value>No keyboard lighting service</value></data>
+  <data name="KeyDiagAttempts" xml:space="preserve"><value>Attempts: {0}</value></data>
 </root>
