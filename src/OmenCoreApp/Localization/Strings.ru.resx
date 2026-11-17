@@ -2605,4 +2605,14 @@ Watch the keyboard and note the NUMBER of the step during which it turns red, th
   <data name="KeyDiagYesNo" xml:space="preserve"><value>Yes|No</value></data>
   <data name="KeyDiagNoService" xml:space="preserve"><value>No keyboard lighting service</value></data>
   <data name="KeyDiagAttempts" xml:space="preserve"><value>Attempts: {0}</value></data>
+  <data name="KeyMapLedAccepted" xml:space="preserve"><value>{0} LEDs accepted</value></data>
+  <data name="KeyMapLedRefused" xml:space="preserve"><value>{0} LEDs REFUSED</value></data>
+  <data name="KeyMapKeysAccepted" xml:space="preserve"><value>{0} keys accepted</value></data>
+  <data name="KeyMapKeysRefused" xml:space="preserve"><value>{0} keys REFUSED</value></data>
+  <data name="KeyMapBarAccepted" xml:space="preserve"><value>{0} bar zones accepted</value></data>
+  <data name="KeyMapBarRefused" xml:space="preserve"><value>{0} bar zones REFUSED</value></data>
+  <data name="KeyMapVisualVerify" xml:space="preserve"><value>. Only looking confirms it.</value></data>
+  <data name="KeyMapBrightnessNotApplied" xml:space="preserve"><value> Brightness {0} was NOT applied - this keyboard's backend has no brightness lever.</value></data>
+  <data name="KeyMapFlashSaved" xml:space="preserve"><value>Saved to the keyboard. This picture now survives a power cycle, and shows with OmenCore closed.</value></data>
+  <data name="KeyMapFlashRefused" xml:space="preserve"><value>Applied, but the keyboard refused the save-to-flash — the picture is showing now and will not survive a power cycle.</value></data>
 </root>

@@ -2448,5 +2448,15 @@ namespace OmenCore.Localization
         public static string KeyDiagYesNo => Get(nameof(KeyDiagYesNo));
         public static string KeyDiagNoService => Get(nameof(KeyDiagNoService));
         public static string KeyDiagAttempts => Get(nameof(KeyDiagAttempts));
+        public static string KeyMapLedAccepted => Get(nameof(KeyMapLedAccepted));
+        public static string KeyMapLedRefused => Get(nameof(KeyMapLedRefused));
+        public static string KeyMapKeysAccepted => Get(nameof(KeyMapKeysAccepted));
+        public static string KeyMapKeysRefused => Get(nameof(KeyMapKeysRefused));
+        public static string KeyMapBarAccepted => Get(nameof(KeyMapBarAccepted));
+        public static string KeyMapBarRefused => Get(nameof(KeyMapBarRefused));
+        public static string KeyMapVisualVerify => Get(nameof(KeyMapVisualVerify));
+        public static string KeyMapBrightnessNotApplied => Get(nameof(KeyMapBrightnessNotApplied));
+        public static string KeyMapFlashSaved => Get(nameof(KeyMapFlashSaved));
+        public static string KeyMapFlashRefused => Get(nameof(KeyMapFlashRefused));
     }
 }

@@ -15,6 +15,31 @@ namespace OmenCore.Localization
     {
         internal static string Translate(string value)
         {
+            if (value == "Saved to the keyboard. This picture now survives a power cycle, and shows with OmenCore closed.") return Strings.KeyMapFlashSaved;
+            if (value == "Applied, but the keyboard refused the save-to-flash — the picture is showing now and will not survive a power cycle.") return Strings.KeyMapFlashRefused;
+            const string visible = ". Only looking confirms it.";
+            var visibilityIndex = value.IndexOf(visible, StringComparison.Ordinal);
+            if (visibilityIndex >= 0)
+            {
+                var suffixText = value.Substring(visibilityIndex + visible.Length);
+                var brightness = Regex.Match(suffixText, @"\A Brightness ([0-9]+) was NOT applied - this keyboard's backend has no brightness lever\.\z", RegexOptions.CultureInvariant);
+                if (suffixText.Length != 0 && !brightness.Success) return value;
+                var parts = value.Substring(0, visibilityIndex).Split(new[] { ", " }, StringSplitOptions.None);
+                for (var i = 0; i < parts.Length; i++)
+                {
+                    var part = Regex.Match(parts[i], @"\A([0-9]+) (LEDs|keys|bar zones) (accepted|REFUSED)\z", RegexOptions.CultureInvariant);
+                    if (!part.Success) return value;
+                    var accepted = part.Groups[3].Value == "accepted";
+                    var format = part.Groups[2].Value switch
+                    {
+                        "LEDs" => accepted ? Strings.KeyMapLedAccepted : Strings.KeyMapLedRefused,
+                        "keys" => accepted ? Strings.KeyMapKeysAccepted : Strings.KeyMapKeysRefused,
+                        _ => accepted ? Strings.KeyMapBarAccepted : Strings.KeyMapBarRefused
+                    };
+                    parts[i] = string.Format(format, part.Groups[1].Value);
+                }
+                return string.Join(", ", parts) + Strings.KeyMapVisualVerify + (brightness.Success ? string.Format(Strings.KeyMapBrightnessNotApplied, brightness.Groups[1].Value) : "");
+            }
             const string prefix = "This keyboard (";
             const string suffix = ") matches HP's device list for this protocol but has not been confirmed on hardware here. Per-key colour is expected to work and the layout is read from the keyboard itself, so it should be correct — but if anything misbehaves, that is worth reporting with this device id.";
             if (value.StartsWith(prefix, StringComparison.Ordinal) && value.EndsWith(suffix, StringComparison.Ordinal) && value.Length >= prefix.Length + suffix.Length)

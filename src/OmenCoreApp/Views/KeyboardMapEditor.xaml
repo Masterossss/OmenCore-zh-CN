@@ -213,7 +213,7 @@
             </Viewbox>
         </Border>
 
-        <TextBlock Text="{Binding Status}" FontSize="11" Foreground="#909090"
+        <TextBlock Text="{Binding Status, Converter={StaticResource KeyboardMapDisplay}}" FontSize="11" Foreground="#909090"
                    Margin="2,8,0,0" TextWrapping="Wrap"/>
         <TextBlock FontSize="11" Foreground="#707070" Margin="2,2,0,0" TextWrapping="Wrap"
                    Text="{x:Static loc:Strings.KeyboardMapUi19}"/>

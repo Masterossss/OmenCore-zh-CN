@@ -2601,4 +2601,14 @@
   <data name="KeyDiagYesNo" xml:space="preserve"><value>是|否</value></data>
   <data name="KeyDiagNoService" xml:space="preserve"><value>没有键盘灯光服务</value></data>
   <data name="KeyDiagAttempts" xml:space="preserve"><value>尝试次数：{0}</value></data>
+  <data name="KeyMapLedAccepted" xml:space="preserve"><value>{0} 个 LED 的写入已被接受</value></data>
+  <data name="KeyMapLedRefused" xml:space="preserve"><value>{0} 个 LED 的写入被拒绝</value></data>
+  <data name="KeyMapKeysAccepted" xml:space="preserve"><value>{0} 个按键的写入已被接受</value></data>
+  <data name="KeyMapKeysRefused" xml:space="preserve"><value>{0} 个按键的写入被拒绝</value></data>
+  <data name="KeyMapBarAccepted" xml:space="preserve"><value>{0} 个灯条分区的写入已被接受</value></data>
+  <data name="KeyMapBarRefused" xml:space="preserve"><value>{0} 个灯条分区的写入被拒绝</value></data>
+  <data name="KeyMapVisualVerify" xml:space="preserve"><value>。只能通过观察确认效果。</value></data>
+  <data name="KeyMapBrightnessNotApplied" xml:space="preserve"><value> 亮度 {0} 未被应用：此键盘后端没有亮度调节功能。</value></data>
+  <data name="KeyMapFlashSaved" xml:space="preserve"><value>已保存到键盘。此图案将在断电重启后保留，并在 OmenCore 关闭时显示。</value></data>
+  <data name="KeyMapFlashRefused" xml:space="preserve"><value>已应用，但键盘拒绝保存到闪存；图案现在可见，但断电重启后不会保留。</value></data>
 </root>
