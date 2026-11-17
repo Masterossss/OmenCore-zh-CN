@@ -2480,5 +2480,16 @@ namespace OmenCore.Localization
         public static string TrayTooltipDecoupled => Get(nameof(TrayTooltipDecoupled));
         public static string TrayTooltipClick => Get(nameof(TrayTooltipClick));
         public static string TrayStateDefault => Get(nameof(TrayStateDefault));
+        public static string TuningGpuConflictWarning => Get(nameof(TuningGpuConflictWarning));
+        public static string TuningCpuConflictWarning => Get(nameof(TuningCpuConflictWarning));
+        public static string TuningConflictTitle => Get(nameof(TuningConflictTitle));
+        public static string TuningGpuTestConfirm => Get(nameof(TuningGpuTestConfirm));
+        public static string TuningGpuTestTitle => Get(nameof(TuningGpuTestTitle));
+        public static string TuningCpuTestConfirm => Get(nameof(TuningCpuTestConfirm));
+        public static string TuningCpuTestTitle => Get(nameof(TuningCpuTestTitle));
+        public static string TuningGpuBatteryWarning => Get(nameof(TuningGpuBatteryWarning));
+        public static string TuningGpuBatteryTitle => Get(nameof(TuningGpuBatteryTitle));
+        public static string TuningAggressiveUndervoltWarning => Get(nameof(TuningAggressiveUndervoltWarning));
+        public static string TuningAggressiveUndervoltTitle => Get(nameof(TuningAggressiveUndervoltTitle));
     }
 }

@@ -2633,4 +2633,46 @@
   <data name="TrayTooltipDecoupled" xml:space="preserve"><value>未关联</value></data>
   <data name="TrayTooltipClick" xml:space="preserve"><value>左键单击以打开仪表盘</value></data>
   <data name="TrayStateDefault" xml:space="preserve"><value>默认</value></data>
+  <data name="TuningGpuConflictWarning" xml:space="preserve"><value>检测到正在运行的冲突工具：
+
+{0}
+
+在该工具运行时应用 GPU 超频可能导致系统不稳定或驱动程序崩溃。
+
+仍要继续吗？</value></data>
+  <data name="TuningCpuConflictWarning" xml:space="preserve"><value>检测到正在运行的冲突工具：
+
+{0}
+
+在该工具运行时应用 CPU 降压可能导致系统不稳定或崩溃。
+
+仍要继续吗？</value></data>
+  <data name="TuningConflictTitle" xml:space="preserve"><value>检测到调校冲突</value></data>
+  <data name="TuningGpuTestConfirm" xml:space="preserve"><value>测试应用将当前 GPU 调校设置应用 30 秒；除非按下“保留”，否则随后会自动恢复之前的 GPU 状态。是否继续？</value></data>
+  <data name="TuningGpuTestTitle" xml:space="preserve"><value>测试 GPU 调校</value></data>
+  <data name="TuningCpuTestConfirm" xml:space="preserve"><value>测试应用将当前 CPU 降压设置应用 30 秒；除非按下“保留”，否则随后会自动恢复之前的 CPU 电压。是否继续？</value></data>
+  <data name="TuningCpuTestTitle" xml:space="preserve"><value>测试 CPU 降压</value></data>
+  <data name="TuningGpuBatteryWarning" xml:space="preserve"><value>检测到使用电池供电时提高 GPU 超频设置。
+
+在电池供电时提高频率或功率限制可能导致频率不稳定、电池快速耗尽以及突然降频。
+
+请先连接交流电源，再提高 GPU 超频设置。</value></data>
+  <data name="TuningGpuBatteryTitle" xml:space="preserve"><value>建议连接交流电源</value></data>
+  <data name="TuningAggressiveUndervoltWarning" xml:space="preserve"><value>⚠️ 警告：激进降压
+
+即将应用 -140mV 降压偏移。
+
+这是一项激进设置，可能导致：
+• 蓝屏崩溃（BSOD）
+• 应用程序崩溃或冻结
+• 系统在负载下不稳定
+
+仅在了解风险并做好以下准备时继续：
+• 系统不稳定时重新启动
+• 使用压力测试工具（Prime95、OCCT）进行充分测试
+
+降压设置在重启后不会保留，因此崩溃后会重置。
+
+是否继续应用 -140mV 降压？</value></data>
+  <data name="TuningAggressiveUndervoltTitle" xml:space="preserve"><value>激进降压警告</value></data>
 </root>

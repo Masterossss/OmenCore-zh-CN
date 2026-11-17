@@ -2637,4 +2637,46 @@ Watch the keyboard and note the NUMBER of the step during which it turns red, th
   <data name="TrayTooltipDecoupled" xml:space="preserve"><value>Decoupled</value></data>
   <data name="TrayTooltipClick" xml:space="preserve"><value>Left-click to open dashboard</value></data>
   <data name="TrayStateDefault" xml:space="preserve"><value>Default</value></data>
+  <data name="TuningGpuConflictWarning" xml:space="preserve"><value>A conflicting tool is running:
+
+{0}
+
+Applying GPU overclocking while this tool is active may cause instability or a driver crash.
+
+Do you want to continue anyway?</value></data>
+  <data name="TuningCpuConflictWarning" xml:space="preserve"><value>A conflicting tool is running:
+
+{0}
+
+Applying a CPU undervolt while this tool is active may cause instability or a crash.
+
+Do you want to continue anyway?</value></data>
+  <data name="TuningConflictTitle" xml:space="preserve"><value>Tuning Conflict Detected</value></data>
+  <data name="TuningGpuTestConfirm" xml:space="preserve"><value>Test Apply will apply the current GPU tuning for 30 seconds and then automatically restore the previous GPU state unless you press Keep. Continue?</value></data>
+  <data name="TuningGpuTestTitle" xml:space="preserve"><value>Test GPU Tuning</value></data>
+  <data name="TuningCpuTestConfirm" xml:space="preserve"><value>Test Apply will apply the current CPU undervolt for 30 seconds and then automatically restore the previous CPU voltage unless you press Keep. Continue?</value></data>
+  <data name="TuningCpuTestTitle" xml:space="preserve"><value>Test CPU Undervolt</value></data>
+  <data name="TuningGpuBatteryWarning" xml:space="preserve"><value>GPU OC increase detected while running on battery power.
+
+Applying higher clocks/power limits on battery can cause unstable clocks, rapid battery drain, and sudden throttling.
+
+Connect AC power before increasing GPU OC settings.</value></data>
+  <data name="TuningGpuBatteryTitle" xml:space="preserve"><value>AC Power Recommended</value></data>
+  <data name="TuningAggressiveUndervoltWarning" xml:space="preserve"><value>⚠️ WARNING: Aggressive Undervolt
+
+You are about to apply a -140mV undervolt offset.
+
+This is an aggressive setting that may cause:
+• Blue screen crashes (BSOD)
+• Application crashes or freezes
+• System instability under load
+
+Only proceed if you understand the risks and are prepared to:
+• Reboot if your system becomes unstable
+• Test thoroughly with stress tests (Prime95, OCCT)
+
+The undervolt will not persist after reboot, so a crash will reset it.
+
+Continue with -140mV undervolt?</value></data>
+  <data name="TuningAggressiveUndervoltTitle" xml:space="preserve"><value>Aggressive Undervolt Warning</value></data>
 </root>

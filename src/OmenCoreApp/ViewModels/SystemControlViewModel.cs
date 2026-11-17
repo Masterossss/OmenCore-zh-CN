@@ -2126,8 +2126,8 @@ namespace OmenCore.ViewModels
             if (conflictReport.HasHighRiskConflict)
             {
                 var proceed = System.Windows.MessageBox.Show(
-                    $"A conflicting tool is running:\n\n{string.Join("\n", conflictReport.Conflicts.Select(c => $"• {c.Title}: {c.Suggestion}"))}\n\nApplying GPU overclocking while this tool is active may cause instability or a driver crash.\n\nDo you want to continue anyway?",
-                    "Tuning Conflict Detected",
+                    string.Format(OmenCore.Localization.Strings.TuningGpuConflictWarning, string.Join("\n", conflictReport.Conflicts.Select(c => $"• {c.Title}: {c.Suggestion}"))),
+                    OmenCore.Localization.Strings.TuningConflictTitle,
                     System.Windows.MessageBoxButton.YesNo,
                     System.Windows.MessageBoxImage.Warning);
                 if (proceed != System.Windows.MessageBoxResult.Yes)
@@ -2135,8 +2135,8 @@ namespace OmenCore.ViewModels
             }
 
             var confirmation = System.Windows.MessageBox.Show(
-                "Test Apply will apply the current GPU tuning for 30 seconds and then automatically restore the previous GPU state unless you press Keep. Continue?",
-                "Test GPU Tuning",
+                OmenCore.Localization.Strings.TuningGpuTestConfirm,
+                OmenCore.Localization.Strings.TuningGpuTestTitle,
                 System.Windows.MessageBoxButton.YesNo,
                 System.Windows.MessageBoxImage.Warning);
 
@@ -2291,8 +2291,8 @@ namespace OmenCore.ViewModels
             if (conflictReport.HasHighRiskConflict)
             {
                 var proceed = System.Windows.MessageBox.Show(
-                    $"A conflicting tool is running:\n\n{string.Join("\n", conflictReport.Conflicts.Select(c => $"• {c.Title}: {c.Suggestion}"))}\n\nApplying a CPU undervolt while this tool is active may cause instability or a crash.\n\nDo you want to continue anyway?",
-                    "Tuning Conflict Detected",
+                    string.Format(OmenCore.Localization.Strings.TuningCpuConflictWarning, string.Join("\n", conflictReport.Conflicts.Select(c => $"• {c.Title}: {c.Suggestion}"))),
+                    OmenCore.Localization.Strings.TuningConflictTitle,
                     System.Windows.MessageBoxButton.YesNo,
                     System.Windows.MessageBoxImage.Warning);
                 if (proceed != System.Windows.MessageBoxResult.Yes)
@@ -2300,8 +2300,8 @@ namespace OmenCore.ViewModels
             }
 
             var confirmation = System.Windows.MessageBox.Show(
-                "Test Apply will apply the current CPU undervolt for 30 seconds and then automatically restore the previous CPU voltage unless you press Keep. Continue?",
-                "Test CPU Undervolt",
+                OmenCore.Localization.Strings.TuningCpuTestConfirm,
+                OmenCore.Localization.Strings.TuningCpuTestTitle,
                 System.Windows.MessageBoxButton.YesNo,
                 System.Windows.MessageBoxImage.Warning);
 
@@ -4613,10 +4613,8 @@ namespace OmenCore.ViewModels
             if (showDialogIfBlocked)
             {
                 System.Windows.MessageBox.Show(
-                    "GPU OC increase detected while running on battery power.\n\n" +
-                    "Applying higher clocks/power limits on battery can cause unstable clocks, rapid battery drain, and sudden throttling.\n\n" +
-                    "Connect AC power before increasing GPU OC settings.",
-                    "AC Power Recommended",
+                    OmenCore.Localization.Strings.TuningGpuBatteryWarning,
+                    OmenCore.Localization.Strings.TuningGpuBatteryTitle,
                     System.Windows.MessageBoxButton.OK,
                     System.Windows.MessageBoxImage.Warning);
             }
@@ -5576,18 +5574,8 @@ namespace OmenCore.ViewModels
         private async Task ApplyAggressiveUndervoltAsync()
         {
             var result = System.Windows.MessageBox.Show(
-                "⚠️ WARNING: Aggressive Undervolt\n\n" +
-                "You are about to apply a -140mV undervolt offset.\n\n" +
-                "This is an aggressive setting that may cause:\n" +
-                "• Blue screen crashes (BSOD)\n" +
-                "• Application crashes or freezes\n" +
-                "• System instability under load\n\n" +
-                "Only proceed if you understand the risks and are prepared to:\n" +
-                "• Reboot if your system becomes unstable\n" +
-                "• Test thoroughly with stress tests (Prime95, OCCT)\n\n" +
-                "The undervolt will not persist after reboot, so a crash will reset it.\n\n" +
-                "Continue with -140mV undervolt?",
-                "Aggressive Undervolt Warning",
+                OmenCore.Localization.Strings.TuningAggressiveUndervoltWarning,
+                OmenCore.Localization.Strings.TuningAggressiveUndervoltTitle,
                 System.Windows.MessageBoxButton.YesNo,
                 System.Windows.MessageBoxImage.Warning,
                 System.Windows.MessageBoxResult.No);
