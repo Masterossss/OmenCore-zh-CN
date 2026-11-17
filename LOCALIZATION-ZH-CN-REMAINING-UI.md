@@ -23,3 +23,6 @@ CPU、GPU、FPS、RTSS、RGB、API、配置键、日志和机器可读字段保�
 - P1：`SettingsView.xaml` 的配置枚举显示和动态绑定仍有待核查项；`TrayIconService.cs` 的部分提示和实时值、`OsdOverlayWindow.xaml` 的动态状态；游戏库扫描反馈已处理。
 - P1：`BloatwareManagerViewModel.cs` 的其余服务状态与恢复点失败原因、`FanCalibrationControl.xaml` 的静态内容和其他页面动态绑定需继续审计。
 - P2：未知后端错误、自定义软件说明、技术报告和无法确认可达的旧控件保留原文或待核查；无安全隔离 Windows VM，GUI、DPI 与真实 Toast 未验证。
+
+- P0/P1：`KeyboardMapViewModel.cs` 的部分非写入状态及设备类型、`KeyboardDiagnosticsViewModel.cs` 的外设类型和技术诊断日志仍需按显示语境核查；已知写入拒绝、未验证与闪存风险已处理。
+- P1：`SettingsView.xaml` 的静态字符串与辅助名称已大批处理，下拉选项保留原始配置值并使用显示模板；动态服务状态及 GUI 布局仍待核查。
