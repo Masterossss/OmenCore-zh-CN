@@ -12,7 +12,9 @@ namespace OmenCore.Controls
 {
     public partial class FanCurveChart : UserControl
     {
-        private ObservableCollection<FanCurvePoint>? _points;
+        public static readonly DependencyProperty PointsProperty = DependencyProperty.Register(
+            nameof(Points), typeof(ObservableCollection<FanCurvePoint>), typeof(FanCurveChart),
+            new PropertyMetadata(null, OnPointsPropertyChanged));
 
         // DashboardViewModel.UpdateFanCurvePoints() adds/removes one point at a time on
         // essentially every telemetry sample (>=1/sec), and RebuildHistoricalTelemetryBuffers()
@@ -31,23 +33,18 @@ namespace OmenCore.Controls
 
         public ObservableCollection<FanCurvePoint>? Points
         {
-            get => _points;
-            set
-            {
-                if (_points != null)
-                {
-                    _points.CollectionChanged -= OnPointsChanged;
-                }
+            get => (ObservableCollection<FanCurvePoint>?)GetValue(PointsProperty);
+            set => SetValue(PointsProperty, value);
+        }
 
-                _points = value;
-
-                if (_points != null)
-                {
-                    _points.CollectionChanged += OnPointsChanged;
-                }
-
-                UpdateChart();
-            }
+        private static void OnPointsPropertyChanged(DependencyObject sender, DependencyPropertyChangedEventArgs e)
+        {
+            var chart = (FanCurveChart)sender;
+            if (e.OldValue is ObservableCollection<FanCurvePoint> oldPoints)
+                oldPoints.CollectionChanged -= chart.OnPointsChanged;
+            if (e.NewValue is ObservableCollection<FanCurvePoint> newPoints)
+                newPoints.CollectionChanged += chart.OnPointsChanged;
+            chart.UpdateChart();
         }
 
         private void OnPointsChanged(object? sender, NotifyCollectionChangedEventArgs e)
@@ -78,7 +75,7 @@ namespace OmenCore.Controls
         {
             ChartCanvas.Children.Clear();
 
-            if (_points == null || _points.Count == 0)
+            if (Points == null || Points.Count == 0)
             {
                 EmptyStateText.Visibility = Visibility.Visible;
                 return;
@@ -87,10 +84,10 @@ namespace OmenCore.Controls
             EmptyStateText.Visibility = Visibility.Collapsed;
 
             // Get data range
-            double minTemp = _points.Min(p => p.TemperatureC);
-            double maxTemp = _points.Max(p => p.TemperatureC);
-            double minSpeed = _points.Min(p => p.FanSpeedRpm);
-            double maxSpeed = _points.Max(p => p.FanSpeedRpm);
+            double minTemp = Points.Min(p => p.TemperatureC);
+            double maxTemp = Points.Max(p => p.TemperatureC);
+            double minSpeed = Points.Min(p => p.FanSpeedRpm);
+            double maxSpeed = Points.Max(p => p.FanSpeedRpm);
 
             // Add some padding
             var tempRange = Math.Max(maxTemp - minTemp, 10);
@@ -154,7 +151,7 @@ namespace OmenCore.Controls
 
         private void DrawDataPoints(double minTemp, double maxTemp, double minSpeed, double maxSpeed)
         {
-            if (_points == null) return;
+            if (Points == null) return;
 
             var width = ChartCanvas.ActualWidth;
             var height = ChartCanvas.ActualHeight;
@@ -162,7 +159,7 @@ namespace OmenCore.Controls
             if (width <= 0 || height <= 0) return;
 
             // Sort points by temperature for proper line drawing
-            var sortedPoints = _points.OrderBy(p => p.TemperatureC).ToList();
+            var sortedPoints = Points.OrderBy(p => p.TemperatureC).ToList();
 
             Point? previousPoint = null;
 

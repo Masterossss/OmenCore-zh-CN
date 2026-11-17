@@ -229,10 +229,10 @@
                                 <Image Width="32" Height="32">
                                     <Image.Style>
                                         <Style TargetType="Image">
-                                            <Setter Property="Source" Value="pack://application:,,,/Assets/intel.png"/>
+                                            <Setter Property="Source" Value="pack://application:,,,/OmenCore;component/Assets/intel.png"/>
                                             <Style.Triggers>
                                                 <DataTrigger Binding="{Binding SystemControl.CpuVendor}" Value="AMD">
-                                                    <Setter Property="Source" Value="pack://application:,,,/Assets/amd.png"/>
+                                                    <Setter Property="Source" Value="pack://application:,,,/OmenCore;component/Assets/amd.png"/>
                                                 </DataTrigger>
                                             </Style.Triggers>
                                         </Style>
@@ -452,10 +452,10 @@
                                 <Image Width="32" Height="32">
                                     <Image.Style>
                                         <Style TargetType="Image">
-                                            <Setter Property="Source" Value="pack://application:,,,/Assets/intel.png"/>
+                                            <Setter Property="Source" Value="pack://application:,,,/OmenCore;component/Assets/intel.png"/>
                                             <Style.Triggers>
                                                 <DataTrigger Binding="{Binding SystemControl.CpuVendor}" Value="AMD">
-                                                    <Setter Property="Source" Value="pack://application:,,,/Assets/amd.png"/>
+                                                    <Setter Property="Source" Value="pack://application:,,,/OmenCore;component/Assets/amd.png"/>
                                                 </DataTrigger>
                                             </Style.Triggers>
                                         </Style>
@@ -646,7 +646,7 @@
 
                             <Border Grid.Column="0" Background="#12121A" CornerRadius="8"
                                     Padding="10" Margin="0,0,16,0" VerticalAlignment="Center">
-                                <Image Width="32" Height="32" Source="pack://application:,,,/Assets/amd.png"/>
+                                <Image Width="32" Height="32" Source="pack://application:,,,/OmenCore;component/Assets/amd.png"/>
                             </Border>
 
                             <StackPanel Grid.Column="1" VerticalAlignment="Center">
@@ -812,10 +812,10 @@
                                 <Image Width="32" Height="32">
                                     <Image.Style>
                                         <Style TargetType="Image">
-                                            <Setter Property="Source" Value="pack://application:,,,/Assets/intel.png"/>
+                                            <Setter Property="Source" Value="pack://application:,,,/OmenCore;component/Assets/intel.png"/>
                                             <Style.Triggers>
                                                 <DataTrigger Binding="{Binding SystemControl.CpuVendor}" Value="AMD">
-                                                    <Setter Property="Source" Value="pack://application:,,,/Assets/amd.png"/>
+                                                    <Setter Property="Source" Value="pack://application:,,,/OmenCore;component/Assets/amd.png"/>
                                                 </DataTrigger>
                                             </Style.Triggers>
                                         </Style>
@@ -970,13 +970,13 @@
                                 <Image Width="40" Height="40">
                                     <Image.Style>
                                         <Style TargetType="Image">
-                                            <Setter Property="Source" Value="pack://application:,,,/Assets/nvidia.png"/>
+                                            <Setter Property="Source" Value="pack://application:,,,/OmenCore;component/Assets/nvidia.png"/>
                                             <Style.Triggers>
                                                 <DataTrigger Binding="{Binding SystemControl.GpuVendor}" Value="AMD">
-                                                    <Setter Property="Source" Value="pack://application:,,,/Assets/amd.png"/>
+                                                    <Setter Property="Source" Value="pack://application:,,,/OmenCore;component/Assets/amd.png"/>
                                                 </DataTrigger>
                                                 <DataTrigger Binding="{Binding SystemControl.GpuVendor}" Value="Intel">
-                                                    <Setter Property="Source" Value="pack://application:,,,/Assets/intel.png"/>
+                                                    <Setter Property="Source" Value="pack://application:,,,/OmenCore;component/Assets/intel.png"/>
                                                 </DataTrigger>
                                             </Style.Triggers>
                                         </Style>
