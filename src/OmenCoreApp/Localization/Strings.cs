@@ -2280,5 +2280,20 @@ namespace OmenCore.Localization
         public static string SettingsOption51 => Get(nameof(SettingsOption51));
         public static string SettingsOption52 => Get(nameof(SettingsOption52));
         public static string SettingsOption53 => Get(nameof(SettingsOption53));
+        public static string BloatRestoreReason0 => Get(nameof(BloatRestoreReason0));
+        public static string BloatRestoreReason1 => Get(nameof(BloatRestoreReason1));
+        public static string BloatRestoreReason2 => Get(nameof(BloatRestoreReason2));
+        public static string BloatRestoreReason3 => Get(nameof(BloatRestoreReason3));
+        public static string BloatRestoreReason4 => Get(nameof(BloatRestoreReason4));
+        public static string BloatRestoreReason5 => Get(nameof(BloatRestoreReason5));
+        public static string BloatRestoreReason6 => Get(nameof(BloatRestoreReason6));
+        public static string BloatRestoreReason7 => Get(nameof(BloatRestoreReason7));
+        public static string BloatRestoreReason8 => Get(nameof(BloatRestoreReason8));
+        public static string BloatRestoreReason9 => Get(nameof(BloatRestoreReason9));
+        public static string BloatRestoreReason10 => Get(nameof(BloatRestoreReason10));
+        public static string BloatRestoreReason11 => Get(nameof(BloatRestoreReason11));
+        public static string BloatRestoreCode => Get(nameof(BloatRestoreCode));
+        public static string BloatRestoreSystemError => Get(nameof(BloatRestoreSystemError));
+        public static string BloatRestoreCreateError => Get(nameof(BloatRestoreCreateError));
     }
 }

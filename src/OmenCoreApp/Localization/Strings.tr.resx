@@ -2430,4 +2430,24 @@ Continue?</value></data>
   <data name="SettingsOption51" xml:space="preserve"><value>Disconnected</value></data>
   <data name="SettingsOption52" xml:space="preserve"><value>Closed</value></data>
   <data name="SettingsOption53" xml:space="preserve"><value>Open</value></data>
+  <data name="BloatRestoreReason0" xml:space="preserve"><value>Administrator privileges are required to create a restore point.</value></data>
+  <data name="BloatRestoreReason1" xml:space="preserve"><value>Unknown restore point failure</value></data>
+  <data name="BloatRestoreReason2" xml:space="preserve"><value>Restore point creation was canceled.</value></data>
+  <data name="BloatRestoreReason3" xml:space="preserve"><value>System Restore is disabled on this system. Enable it in System Properties → System Protection to create restore points.</value></data>
+  <data name="BloatRestoreReason4" xml:space="preserve"><value>System Restore WMI class not available. System Restore may not be installed.</value></data>
+  <data name="BloatRestoreReason5" xml:space="preserve"><value>Access denied. Try running OmenCore as Administrator.</value></data>
+  <data name="BloatRestoreReason6" xml:space="preserve"><value>System Restore is disabled. Enable it in System Properties → System Protection.</value></data>
+  <data name="BloatRestoreReason7" xml:space="preserve"><value>Restore point creation is currently in progress.</value></data>
+  <data name="BloatRestoreReason8" xml:space="preserve"><value>Not enough disk space for restore point.</value></data>
+  <data name="BloatRestoreReason9" xml:space="preserve"><value>A restore point was created recently. Windows limits restore point frequency.</value></data>
+  <data name="BloatRestoreReason10" xml:space="preserve"><value>Access denied. Please run OmenCore as Administrator to create restore points.</value></data>
+  <data name="BloatRestoreReason11" xml:space="preserve"><value>System Restore is not available. This can happen if:
+• System Restore is disabled in System Properties → System Protection
+• The Volume Shadow Copy service is stopped
+• Group Policy has disabled System Restore
+
+To enable: Control Panel → System → System Protection → Configure</value></data>
+  <data name="BloatRestoreCode" xml:space="preserve"><value>System Restore failed with error code {0}</value></data>
+  <data name="BloatRestoreSystemError" xml:space="preserve"><value>System Restore error: {0}</value></data>
+  <data name="BloatRestoreCreateError" xml:space="preserve"><value>Failed to create restore point: {0}</value></data>
 </root>

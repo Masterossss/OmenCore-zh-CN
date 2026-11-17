@@ -631,7 +631,7 @@ namespace OmenCore.ViewModels
             }
 
             var continueWithoutRestorePoint = MessageBox.Show(
-                string.Format(Strings.BloatRestorePointFailedPrompt, restorePointResult.Message),
+                string.Format(Strings.BloatRestorePointFailedPrompt, BloatwareRestorePointDisplayText.Translate(restorePointResult.Message)),
                 Strings.BloatRestorePointFailedTitle,
                 MessageBoxButton.YesNo,
                 MessageBoxImage.Warning);

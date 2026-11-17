@@ -2426,4 +2426,24 @@
   <data name="SettingsOption51" xml:space="preserve"><value>已断开</value></data>
   <data name="SettingsOption52" xml:space="preserve"><value>已关闭</value></data>
   <data name="SettingsOption53" xml:space="preserve"><value>已打开</value></data>
+  <data name="BloatRestoreReason0" xml:space="preserve"><value>创建还原点需要管理员权限。</value></data>
+  <data name="BloatRestoreReason1" xml:space="preserve"><value>还原点创建失败，原因未知</value></data>
+  <data name="BloatRestoreReason2" xml:space="preserve"><value>还原点创建已取消。</value></data>
+  <data name="BloatRestoreReason3" xml:space="preserve"><value>此系统已禁用系统还原。请在“系统属性 → 系统保护”中启用后创建还原点。</value></data>
+  <data name="BloatRestoreReason4" xml:space="preserve"><value>系统还原 WMI 类不可用。可能未安装系统还原功能。</value></data>
+  <data name="BloatRestoreReason5" xml:space="preserve"><value>访问被拒绝。请尝试以管理员身份运行 OmenCore。</value></data>
+  <data name="BloatRestoreReason6" xml:space="preserve"><value>系统还原已禁用。请在“系统属性 → 系统保护”中启用。</value></data>
+  <data name="BloatRestoreReason7" xml:space="preserve"><value>还原点创建正在进行。</value></data>
+  <data name="BloatRestoreReason8" xml:space="preserve"><value>磁盘空间不足，无法创建还原点。</value></data>
+  <data name="BloatRestoreReason9" xml:space="preserve"><value>最近已创建还原点。Windows 限制还原点创建频率。</value></data>
+  <data name="BloatRestoreReason10" xml:space="preserve"><value>访问被拒绝。请以管理员身份运行 OmenCore 以创建还原点。</value></data>
+  <data name="BloatRestoreReason11" xml:space="preserve"><value>系统还原不可用。可能原因包括：
+• 在“系统属性 → 系统保护”中禁用了系统还原
+• 卷影复制服务已停止
+• 组策略已禁用系统还原
+
+启用路径：控制面板 → 系统 → 系统保护 → 配置</value></data>
+  <data name="BloatRestoreCode" xml:space="preserve"><value>系统还原失败，错误代码：{0}</value></data>
+  <data name="BloatRestoreSystemError" xml:space="preserve"><value>系统还原错误：{0}</value></data>
+  <data name="BloatRestoreCreateError" xml:space="preserve"><value>创建还原点失败：{0}</value></data>
 </root>

@@ -537,6 +537,23 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void RestorePointFailuresKeepUnknownDetailsAndErrorCodes()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                BloatwareRestorePointDisplayText.Translate("Not enough disk space for restore point.").Should().Contain("磁盘空间不足");
+                BloatwareRestorePointDisplayText.Translate("System Restore failed with error code 42").Should().Contain("失败").And.Contain("42");
+                BloatwareRestorePointDisplayText.Translate("Failed to create restore point: details").Should().Contain("失败").And.Contain("details");
+                BloatwareRestorePointDisplayText.Translate("unknown vendor failure").Should().Be("unknown vendor failure");
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                BloatwareRestorePointDisplayText.Translate("Not enough disk space for restore point.").Should().Be("Not enough disk space for restore point.");
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void BloatwareRestoreStatusKeepsFailureAndProgressDistinct()
         {
             var original = CultureInfo.CurrentUICulture;
