@@ -455,11 +455,11 @@
                                Foreground="{StaticResource TextSecondaryBrush}">
                         <Run Text="• "/>
                         <Run Text="{x:Static loc:Strings.DiagnosticsViewText456}" FontWeight="SemiBold"/>
-                        <Run Text=" Verify fan control responsiveness, test different speed levels, and validate RPM readings"/>
+                        <Run Text="{x:Static loc:Strings.TuningExplainBatch7}"/>
                         <LineBreak/><LineBreak/>
                         <Run Text="• "/>
                         <Run Text="{x:Static loc:Strings.DiagnosticsViewText460}" FontWeight="SemiBold"/>
-                        <Run Text=" Test individual key backlighting, verify RGB zones, and troubleshoot keyboard lighting issues"/>
+                        <Run Text="{x:Static loc:Strings.TuningExplainBatch8}"/>
                         <LineBreak/><LineBreak/>
                         <Run Text="• "/>
                         <Run Text="{x:Static loc:Strings.DiagnosticsViewText464}"/>

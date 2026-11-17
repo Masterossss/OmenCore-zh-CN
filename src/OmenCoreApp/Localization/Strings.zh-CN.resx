@@ -2363,4 +2363,13 @@
   <data name="TuningDiagBatch37" xml:space="preserve"><value>停止维持 CPU 功率限制</value></data>
   <data name="TuningDiagBatch38" xml:space="preserve"><value>尝试 GPU 功率解锁（实验性）</value></data>
   <data name="TuningDiagBatch39" xml:space="preserve"><value>ℹ️ 关于诊断</value></data>
+  <data name="TuningExplainBatch0" xml:space="preserve"><value>= 持续 TDP •</value></data>
+  <data name="TuningExplainBatch1" xml:space="preserve"><value>= 睿频突发功率 • 数值越高，性能和发热越高</value></data>
+  <data name="TuningExplainBatch2" xml:space="preserve"><value> 控制持续封装功率，而 </value></data>
+  <data name="TuningExplainBatch3" xml:space="preserve"><value> 设置温度降频目标。较低的数值可减少发热和风扇噪音；较高的数值更偏重性能。</value></data>
+  <data name="TuningExplainBatch4" xml:space="preserve"><value>= 默认值（100°C Tjmax）•</value></data>
+  <data name="TuningExplainBatch5" xml:space="preserve"><value>= 在 85°C 时降频 •</value></data>
+  <data name="TuningExplainBatch6" xml:space="preserve"><value>= 在 70°C 时降频</value></data>
+  <data name="TuningExplainBatch7" xml:space="preserve"><value> 验证风扇控制响应、测试不同转速档位并核实 RPM 读数</value></data>
+  <data name="TuningExplainBatch8" xml:space="preserve"><value> 测试逐键背光、验证 RGB 分区并排查键盘灯光问题</value></data>
 </root>

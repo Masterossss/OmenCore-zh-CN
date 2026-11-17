@@ -2371,4 +2371,13 @@ Continue?</value></data>
   <data name="TuningDiagBatch37" xml:space="preserve"><value>Stop holding the CPU power limits</value></data>
   <data name="TuningDiagBatch38" xml:space="preserve"><value>Try the GPU power unlock (experimental)</value></data>
   <data name="TuningDiagBatch39" xml:space="preserve"><value>ℹ️ About Diagnostics</value></data>
+  <data name="TuningExplainBatch0" xml:space="preserve"><value>= Sustained TDP •</value></data>
+  <data name="TuningExplainBatch1" xml:space="preserve"><value>= Burst power for turbo • Higher = more performance &amp; heat</value></data>
+  <data name="TuningExplainBatch2" xml:space="preserve"><value> controls sustained package power, while </value></data>
+  <data name="TuningExplainBatch3" xml:space="preserve"><value> sets the thermal throttle target. Lower values reduce heat and fan noise; higher values bias toward performance.</value></data>
+  <data name="TuningExplainBatch4" xml:space="preserve"><value>= Default (100°C Tjmax) •</value></data>
+  <data name="TuningExplainBatch5" xml:space="preserve"><value>= Throttle at 85°C •</value></data>
+  <data name="TuningExplainBatch6" xml:space="preserve"><value>= Throttle at 70°C</value></data>
+  <data name="TuningExplainBatch7" xml:space="preserve"><value> Verify fan control responsiveness, test different speed levels, and validate RPM readings</value></data>
+  <data name="TuningExplainBatch8" xml:space="preserve"><value> Test individual key backlighting, verify RGB zones, and troubleshoot keyboard lighting issues</value></data>
 </root>

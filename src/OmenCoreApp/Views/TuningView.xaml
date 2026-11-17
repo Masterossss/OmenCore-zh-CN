@@ -498,8 +498,8 @@
                                       Width="16" Height="16" Stretch="Uniform" 
                                       Margin="0,0,10,0" VerticalAlignment="Top"/>
                                 <TextBlock Grid.Column="1" FontSize="11" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap">
-                                    <Run Text="PL1" FontWeight="SemiBold" Foreground="#64B5F6"/> <Run Text="= Sustained TDP •"/>
-                                    <Run Text="PL2" FontWeight="SemiBold" Foreground="#64B5F6"/> <Run Text="= Burst power for turbo • Higher = more performance &amp; heat"/>
+                                    <Run Text="PL1" FontWeight="SemiBold" Foreground="#64B5F6"/> <Run Text="{x:Static loc:Strings.TuningExplainBatch0}"/>
+                                    <Run Text="PL2" FontWeight="SemiBold" Foreground="#64B5F6"/> <Run Text="{x:Static loc:Strings.TuningExplainBatch1}"/>
                                 </TextBlock>
                             </Grid>
                         </Border>
@@ -668,9 +668,9 @@
                                 Margin="0,0,0,20">
                             <TextBlock FontSize="11" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap">
                                 <Run Text="STAPM" FontWeight="SemiBold" Foreground="#FFB74D"/>
-                                <Run Text=" controls sustained package power, while "/>
+                                <Run Text="{x:Static loc:Strings.TuningExplainBatch2}"/>
                                 <Run Text="Tctl" FontWeight="SemiBold" Foreground="#FFB74D"/>
-                                <Run Text=" sets the thermal throttle target. Lower values reduce heat and fan noise; higher values bias toward performance."/>
+                                <Run Text="{x:Static loc:Strings.TuningExplainBatch3}"/>
                             </TextBlock>
                         </Border>
 
@@ -871,9 +871,9 @@
                         
                         <!-- Reference info -->
                         <TextBlock FontSize="11" Foreground="{StaticResource TextMutedBrush}" Margin="0,0,0,20" TextWrapping="Wrap">
-                            <Run Text="0°C" FontWeight="SemiBold" Foreground="{StaticResource TextSecondaryBrush}"/> <Run Text="= Default (100°C Tjmax) •"/>
-                            <Run Text="15°C" FontWeight="SemiBold" Foreground="{StaticResource TextSecondaryBrush}"/> <Run Text="= Throttle at 85°C •"/>
-                            <Run Text="30°C" FontWeight="SemiBold" Foreground="{StaticResource TextSecondaryBrush}"/> <Run Text="= Throttle at 70°C"/>
+                            <Run Text="0°C" FontWeight="SemiBold" Foreground="{StaticResource TextSecondaryBrush}"/> <Run Text="{x:Static loc:Strings.TuningExplainBatch4}"/>
+                            <Run Text="15°C" FontWeight="SemiBold" Foreground="{StaticResource TextSecondaryBrush}"/> <Run Text="{x:Static loc:Strings.TuningExplainBatch5}"/>
+                            <Run Text="30°C" FontWeight="SemiBold" Foreground="{StaticResource TextSecondaryBrush}"/> <Run Text="{x:Static loc:Strings.TuningExplainBatch6}"/>
                         </TextBlock>
 
                         <!-- Apply Buttons -->

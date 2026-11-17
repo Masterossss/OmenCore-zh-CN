@@ -2217,5 +2217,14 @@ namespace OmenCore.Localization
         public static string TuningDiagBatch37 => Get(nameof(TuningDiagBatch37));
         public static string TuningDiagBatch38 => Get(nameof(TuningDiagBatch38));
         public static string TuningDiagBatch39 => Get(nameof(TuningDiagBatch39));
+        public static string TuningExplainBatch0 => Get(nameof(TuningExplainBatch0));
+        public static string TuningExplainBatch1 => Get(nameof(TuningExplainBatch1));
+        public static string TuningExplainBatch2 => Get(nameof(TuningExplainBatch2));
+        public static string TuningExplainBatch3 => Get(nameof(TuningExplainBatch3));
+        public static string TuningExplainBatch4 => Get(nameof(TuningExplainBatch4));
+        public static string TuningExplainBatch5 => Get(nameof(TuningExplainBatch5));
+        public static string TuningExplainBatch6 => Get(nameof(TuningExplainBatch6));
+        public static string TuningExplainBatch7 => Get(nameof(TuningExplainBatch7));
+        public static string TuningExplainBatch8 => Get(nameof(TuningExplainBatch8));
     }
 }
