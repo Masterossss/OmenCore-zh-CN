@@ -39,7 +39,7 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <Path Grid.Column="0" Data="{StaticResource IconSearch}" Width="14" Height="14" Fill="{StaticResource TextTertiaryBrush}" Stretch="Uniform" VerticalAlignment="Center" Margin="0,0,6,0"/>
-                    <TextBox AutomationProperties.Name="Settings Search Query" Grid.Column="1" Text="{Binding SettingsSearchQuery, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                    <TextBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch0}" Grid.Column="1" Text="{Binding SettingsSearchQuery, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                              Background="Transparent" BorderThickness="0" Foreground="{StaticResource TextPrimaryBrush}"
                              FontSize="12" VerticalAlignment="Center"
                              CaretBrush="{StaticResource TextPrimaryBrush}">
@@ -346,7 +346,7 @@
                                     <TextBlock Text="{Binding ResumeRecoveryLastUpdated}" FontSize="11"
                                                Foreground="{StaticResource TextTertiaryBrush}"
                                                Margin="0,4,0,0"/>
-                                    <TextBox AutomationProperties.Name="Resume Recovery Timeline" Text="{Binding ResumeRecoveryTimeline}"
+                                    <TextBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch1}" Text="{Binding ResumeRecoveryTimeline}"
                                              Margin="0,10,0,0"
                                              IsReadOnly="True"
                                              TextWrapping="Wrap"
@@ -485,7 +485,7 @@
                                             </TextBlock.Style>
                                         </TextBlock>
                                     </Border>
-                                    <Button AutomationProperties.Name="Copy Summary" Content="{x:Static loc:Strings.SettingsReferenceText488Content}"
+                                    <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch2}" Content="{x:Static loc:Strings.SettingsReferenceText488Content}"
                                             Style="{StaticResource ModernButton}"
                                             Command="{Binding CopyModelIdentitySummaryCommand}"
                                             Padding="12,6" Margin="10,0,0,0"/>
@@ -947,7 +947,7 @@
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
-                                <Slider AutomationProperties.Name="History Count" Minimum="30" Maximum="300" 
+                                <Slider AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch3}" Minimum="30" Maximum="300"
                                         TickFrequency="30"
                                         IsSnapToTickEnabled="True"
                                         Value="{Binding HistoryCount}"
@@ -974,7 +974,7 @@
                             <ToggleButton Grid.Column="1" 
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding LowOverheadMode}"
-                                          AutomationProperties.Name="Low overhead mode"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch4}"/>
                         </Grid>
 
                         <Border Margin="0,16,0,0" Padding="14" CornerRadius="10" Background="#141A20" BorderBrush="#22303C" BorderThickness="1">
@@ -1030,7 +1030,7 @@
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
-                                <Slider AutomationProperties.Name="Startup Safe Mode Window Seconds" Minimum="30" Maximum="600"
+                                <Slider AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch5}" Minimum="30" Maximum="600"
                                         TickFrequency="30"
                                         IsSnapToTickEnabled="True"
                                         Value="{Binding StartupSafeModeWindowSeconds}"
@@ -1056,7 +1056,7 @@
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                             </StackPanel>
                             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
-                                <Slider AutomationProperties.Name="Startup Safe Mode Timeout Threshold" Minimum="1" Maximum="10"
+                                <Slider AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch6}" Minimum="1" Maximum="10"
                                         TickFrequency="1"
                                         IsSnapToTickEnabled="True"
                                         Value="{Binding StartupSafeModeTimeoutThreshold}"
@@ -1098,7 +1098,7 @@
                             <ToggleButton Grid.Column="1"
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding HardwareWorkerOrphanTimeoutEnabled, Mode=TwoWay}"
-                                          AutomationProperties.Name="Enable orphan timeout"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch7}"/>
                         </Grid>
 
                         <!-- Orphan Timeout Minutes -->
@@ -1114,7 +1114,7 @@
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                             </StackPanel>
                             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
-                                <Slider AutomationProperties.Name="Hardware Worker Orphan Timeout Minutes" Minimum="1" Maximum="60"
+                                <Slider AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch8}" Minimum="1" Maximum="60"
                                         TickFrequency="5"
                                         IsSnapToTickEnabled="True"
                                         Value="{Binding HardwareWorkerOrphanTimeoutMinutes, Mode=TwoWay}"
@@ -1174,7 +1174,7 @@
                             <ComboBox Grid.Column="1" SelectedItem="{Binding AcFanPreset, Mode=TwoWay}"
                                       ItemsSource="{Binding FanPresetOptions}"
                                       IsEnabled="{Binding PowerAutomationEnabled}"
-                                      AutomationProperties.Name="AC power fan preset"/>
+                                      AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch9}"/>
                         </Grid>
                         <Grid Margin="0,0,0,16">
                             <Grid.ColumnDefinitions>
@@ -1188,7 +1188,7 @@
                             <ComboBox Grid.Column="1" SelectedItem="{Binding AcPerformanceMode, Mode=TwoWay}"
                                       ItemsSource="{Binding PerformanceModeOptions}"
                                       IsEnabled="{Binding PowerAutomationEnabled}"
-                                      AutomationProperties.Name="AC power performance mode"/>
+                                      AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch10}"/>
                         </Grid>
 
                         <!-- Battery Settings -->
@@ -1206,7 +1206,7 @@
                             <ComboBox Grid.Column="1" SelectedItem="{Binding BatteryFanPreset, Mode=TwoWay}"
                                       ItemsSource="{Binding FanPresetOptions}"
                                       IsEnabled="{Binding PowerAutomationEnabled}"
-                                      AutomationProperties.Name="Battery power fan preset"/>
+                                      AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch11}"/>
                         </Grid>
                         <Grid Margin="0,0,0,8">
                             <Grid.ColumnDefinitions>
@@ -1467,7 +1467,7 @@
                             <ToggleButton Grid.Column="1" 
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding AutoCheckUpdates}"
-                                          AutomationProperties.Name="Check for updates automatically"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch12}"/>
                         </Grid>
 
                         <!-- Update Check Interval -->
@@ -1486,7 +1486,7 @@
                                       Style="{StaticResource ModernComboBox}"
                                       SelectedIndex="{Binding UpdateCheckIntervalIndex}"
                                       HorizontalAlignment="Right" Width="150"
-                                      AutomationProperties.Name="Update check interval">
+                                      AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch13}">
                                 <ComboBoxItem Content="{x:Static loc:Strings.SettingsLabelBatch14}"/>
                                 <ComboBoxItem Content="{x:Static loc:Strings.SettingsLabelBatch15}"/>
                                 <ComboBoxItem Content="{x:Static loc:Strings.SettingsLabelBatch16}"/>
@@ -1509,7 +1509,7 @@
                             <ToggleButton Grid.Column="1" 
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding IncludePreReleases}"
-                                          AutomationProperties.Name="Include pre-releases"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch14}"/>
                         </Grid>
                     </StackPanel>
                 </Border>
@@ -1539,7 +1539,7 @@
                             <ToggleButton Grid.Column="1" 
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding HotkeysEnabled}"
-                                          AutomationProperties.Name="Enable global hotkeys"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch15}"/>
                         </Grid>
                         <!-- Window-focused toggle -->
                         <Grid Margin="0,0,0,12">
@@ -1556,7 +1556,7 @@
                             <ToggleButton Grid.Column="1" 
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding HotkeysWindowFocused}"
-                                          AutomationProperties.Name="Only enable hotkeys when window is focused"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch16}"/>
                         </Grid>
 
                         <TextBlock Text="{Binding HotkeyFailureText}" FontSize="12" Margin="0,0,0,12" TextWrapping="Wrap"
@@ -1667,7 +1667,7 @@
                             <ToggleButton Grid.Column="1" 
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding NotificationsEnabled}"
-                                          AutomationProperties.Name="Enable notifications"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch17}"/>
                         </Grid>
 
                         <!-- Game Profile Notifications -->
@@ -1686,7 +1686,7 @@
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding GameNotificationsEnabled}"
                                           IsEnabled="{Binding NotificationsEnabled}"
-                                          AutomationProperties.Name="Game profile notifications"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch18}"/>
                         </Grid>
 
                         <!-- Mode Change Notifications -->
@@ -1705,7 +1705,7 @@
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding ModeChangeNotificationsEnabled}"
                                           IsEnabled="{Binding NotificationsEnabled}"
-                                          AutomationProperties.Name="Mode change notifications"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch19}"/>
                         </Grid>
 
                         <!-- Temperature Warning Notifications -->
@@ -1724,7 +1724,7 @@
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding TemperatureWarningsEnabled}"
                                           IsEnabled="{Binding NotificationsEnabled}"
-                                          AutomationProperties.Name="Temperature warnings"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch20}"/>
                         </Grid>
                     </StackPanel>
                 </Border>
@@ -1769,7 +1769,7 @@
                                    Margin="0,0,0,12" Text="{x:Static loc:Strings.SettingsDriverSecurityNotice}"/>
 
                         <StackPanel Orientation="Horizontal">
-                            <Button AutomationProperties.Name="Get PawnIO (Recommended)" Content="{x:Static loc:Strings.SettingsLabelBatch20}"
+                            <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch21}" Content="{x:Static loc:Strings.SettingsLabelBatch20}"
                                     Style="{StaticResource ModernButton}"
                                     Background="#9575CD"
                                     Command="{Binding InstallDriverCommand}"
@@ -1777,7 +1777,7 @@
                                     Padding="20,10"
                                     Margin="0,0,12,0"
                                     ToolTip="{x:Static loc:Strings.SettingsUiBatch5}"/>
-                            <Button AutomationProperties.Name="Refresh Status" Content="{x:Static loc:Strings.SettingsLabelBatch21}"
+                            <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch22}" Content="{x:Static loc:Strings.SettingsLabelBatch21}"
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding RefreshDriverStatusCommand}"
                                     HorizontalAlignment="Left"
@@ -1799,7 +1799,7 @@
                                         <Run Text="{x:Static loc:Strings.SettingsMaintenanceBatch0}"/>
                                     </TextBlock>
                                 </StackPanel>
-                                <Button AutomationProperties.Name="Reset EC" Grid.Column="1" 
+                                <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch23}" Grid.Column="1"
                                         Content="{x:Static loc:Strings.SettingsLabelBatch23}"
                                         Style="{StaticResource ModernButton}"
                                         Background="#E57373"
@@ -1887,7 +1887,7 @@
                         </TextBlock>
 
                         <StackPanel Orientation="Horizontal">
-                            <Button AutomationProperties.Name="Check for Updates" Content="{x:Static loc:Strings.SettingsLabelBatch27}"
+                            <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch24}" Content="{x:Static loc:Strings.SettingsLabelBatch27}"
                                     Style="{StaticResource ModernButton}"
                                     Background="#4DD0E1"
                                     Command="{Binding CheckBiosUpdatesCommand}"
@@ -1895,7 +1895,7 @@
                                     Padding="20,10"
                                     Margin="0,0,12,0"
                                     ToolTip="{x:Static loc:Strings.SettingsMaintenanceBatch1}"/>
-                            <Button AutomationProperties.Name="Download Update" Content="{x:Static loc:Strings.SettingsLabelBatch28}"
+                            <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch25}" Content="{x:Static loc:Strings.SettingsLabelBatch28}"
                                     Style="{StaticResource ModernButton}"
                                     Background="#66BB6A"
                                     Command="{Binding DownloadBiosUpdateCommand}"
@@ -1943,7 +1943,7 @@
                             </Button>
 
                             <!-- HP Driver Downloads -->
-                            <Button AutomationProperties.Name="HP Driver Downloads" Style="{StaticResource ModernButton}" 
+                            <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch26}" Style="{StaticResource ModernButton}"
                                     Command="{Binding OpenHpDriversPageCommand}"
                                     Margin="0,0,8,8" Padding="12,16">
                                 <StackPanel>
@@ -1958,7 +1958,7 @@
                             </Button>
 
                             <!-- HP OMEN Gaming Hub -->
-                            <Button AutomationProperties.Name="OMEN Gaming Hub (Official)" Style="{StaticResource ModernButton}" 
+                            <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch27}" Style="{StaticResource ModernButton}"
                                     Command="{Binding OpenOmenGamingHubCommand}"
                                     Margin="0,0,0,8" Padding="12,16">
                                 <StackPanel>
@@ -2034,7 +2034,7 @@
                             </Grid>
                         </Border>
 
-                        <Button AutomationProperties.Name="Start Fan Boost" Content="{x:Static loc:Strings.SettingsLabelBatch34}"
+                        <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch28}" Content="{x:Static loc:Strings.SettingsLabelBatch34}"
                                 Style="{StaticResource ModernButton}"
                                 Background="#FFB74D"
                                 Command="{Binding StartFanCleaningCommand}"
@@ -2086,7 +2086,7 @@
                             <Run Text="{x:Static loc:Strings.SettingsBloatMoved}"/>
                         </TextBlock>
 
-                        <Button AutomationProperties.Name="Open Bloatware Manager →" Content="{x:Static loc:Strings.SettingsLabelBatch37}"
+                        <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch29}" Content="{x:Static loc:Strings.SettingsLabelBatch37}"
                                 Style="{StaticResource ModernButton}"
                                 Background="#EF5350"
                                 Command="{Binding NavigateToBloatwareCommand}"
@@ -2213,7 +2213,7 @@
                                         <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsLabelBatch44}"
                                                    FontSize="12" Foreground="{StaticResource TextSecondaryBrush}"
                                                    VerticalAlignment="Center" Margin="0,0,8,0"/>
-                                        <Slider AutomationProperties.Name="Ambient Lighting Saturation" Grid.Column="1" 
+                                        <Slider AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch30}" Grid.Column="1"
                                                 Value="{Binding AmbientLightingSaturation, Mode=TwoWay}"
                                                 Minimum="0.5" Maximum="2.0" 
                                                 TickFrequency="0.1" IsSnapToTickEnabled="True"
@@ -2234,7 +2234,7 @@
                                         <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsLabelBatch45}"
                                                    FontSize="12" Foreground="{StaticResource TextSecondaryBrush}"
                                                    VerticalAlignment="Center" Margin="0,0,8,0"/>
-                                        <Slider AutomationProperties.Name="Ambient Lighting Fps" Grid.Column="1" 
+                                        <Slider AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch31}" Grid.Column="1"
                                                 Value="{Binding AmbientLightingFps, Mode=TwoWay}"
                                                 Minimum="10" Maximum="60" 
                                                 TickFrequency="5" IsSnapToTickEnabled="True"
@@ -2368,7 +2368,7 @@
                             <ToggleButton Grid.Column="1" 
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding FanCurvesEnabled}"
-                                          AutomationProperties.Name="Custom Fan Curves"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch32}"/>
                         </Grid>
 
                         <!-- Power Automation -->
@@ -2386,7 +2386,7 @@
                             <ToggleButton Grid.Column="1" 
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding FeaturePowerAutomationEnabled}"
-                                          AutomationProperties.Name="Power Source Automation"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch33}"/>
                         </Grid>
 
                         <!-- GPU Switching -->
@@ -2404,7 +2404,7 @@
                             <ToggleButton Grid.Column="1" 
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding GpuSwitchingEnabled}"
-                                          AutomationProperties.Name="GPU Mode Switching"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch34}"/>
                         </Grid>
 
                         <!-- Undervolt -->
@@ -2422,7 +2422,7 @@
                             <ToggleButton Grid.Column="1" 
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding UndervoltEnabled}"
-                                          AutomationProperties.Name="CPU Undervolt Controls"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch35}"/>
                         </Grid>
 
                         <!-- OMEN Key Section -->
@@ -2442,7 +2442,7 @@
                                         <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch15}" FontSize="12"
                                                    Foreground="{StaticResource TextSecondaryBrush}" Margin="24,4,0,0"/>
                                     </StackPanel>
-                                    <ToggleButton AutomationProperties.Name="Omen Key Interception Enabled" Grid.Column="1" 
+                                    <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch36}" Grid.Column="1"
                                                   Style="{StaticResource ModernToggleButton}"
                                                   IsChecked="{Binding OmenKeyInterceptionEnabled}"/>
                                 </Grid>
@@ -2484,10 +2484,10 @@
                                 <StackPanel Margin="0,8,0,0" IsEnabled="{Binding OmenKeyInterceptionEnabled}"
                                             Visibility="{Binding OmenKeyLaunchesApp, Converter={StaticResource BoolToVisibility}}">
                                     <TextBlock Text="{x:Static loc:Strings.SettingsLabelBatch49}" FontSize="12" Foreground="{StaticResource TextSecondaryBrush}"/>
-                                    <TextBox AutomationProperties.Name="OMEN key program or script" Margin="0,4,0,8"
+                                    <TextBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch37}" Margin="0,4,0,8"
                                              Text="{Binding OmenKeyExternalApp, UpdateSourceTrigger=LostFocus}"/>
                                     <TextBlock Text="{x:Static loc:Strings.SettingsLabelBatch50}" FontSize="12" Foreground="{StaticResource TextSecondaryBrush}"/>
-                                    <TextBox AutomationProperties.Name="OMEN key arguments" Margin="0,4,0,0"
+                                    <TextBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch38}" Margin="0,4,0,0"
                                              Text="{Binding OmenKeyExternalArgs, UpdateSourceTrigger=LostFocus}"/>
                                 </StackPanel>
                             </StackPanel>
@@ -2541,7 +2541,7 @@
                             <ToggleButton Grid.Column="1" 
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding OsdEnabled}"
-                                          AutomationProperties.Name="Enable OSD Overlay"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch39}"/>
                         </Grid>
 
                         <Border Background="#1A6B4C9A" CornerRadius="8" Padding="16" 
@@ -2567,7 +2567,7 @@
                                     </Grid.ColumnDefinitions>
                                     <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText2576Text}" FontSize="13"
                                                Foreground="{StaticResource TextSecondaryBrush}" VerticalAlignment="Center"/>
-                                    <ComboBox AutomationProperties.Name="Target Monitor" Grid.Column="1"
+                                    <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch40}" Grid.Column="1"
                                               SelectedItem="{Binding OsdMonitorTarget, Mode=TwoWay}"
                                               ItemsSource="{Binding OsdMonitorTargetOptions}"/>
                                 </Grid>
@@ -2580,7 +2580,7 @@
                                     </Grid.ColumnDefinitions>
                                     <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText2589Text}" FontSize="13"
                                                Foreground="{StaticResource TextSecondaryBrush}" VerticalAlignment="Center"/>
-                                    <ComboBox AutomationProperties.Name="Overlay Density" Grid.Column="1"
+                                    <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch41}" Grid.Column="1"
                                               SelectedItem="{Binding OsdDensityMode, Mode=TwoWay}"
                                               ItemsSource="{Binding OsdDensityModeOptions}"/>
                                 </Grid>
@@ -2593,7 +2593,7 @@
                                     </Grid.ColumnDefinitions>
                                     <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText2602Text}" FontSize="13"
                                                Foreground="{StaticResource TextSecondaryBrush}" VerticalAlignment="Center"/>
-                                    <TextBox AutomationProperties.Name="Toggle Hotkey" Grid.Column="1" Text="{Binding OsdHotkey, Mode=TwoWay}" 
+                                    <TextBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch42}" Grid.Column="1" Text="{Binding OsdHotkey, Mode=TwoWay}"
                                              Padding="8,6"/>
                                 </Grid>
 
@@ -2609,7 +2609,7 @@
                                     <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText2617Text}" FontSize="13"
                                                Foreground="{StaticResource TextSecondaryBrush}" VerticalAlignment="Center"/>
                                     <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
-                                        <Slider AutomationProperties.Name="Osd Hotkey Toast Duration Ms" Minimum="800" Maximum="6000" TickFrequency="100" IsSnapToTickEnabled="True"
+                                        <Slider AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch43}" Minimum="800" Maximum="6000" TickFrequency="100" IsSnapToTickEnabled="True"
                                                 Value="{Binding OsdHotkeyToastDurationMs}" Width="120" VerticalAlignment="Center"/>
                                         <TextBlock Text="{Binding OsdHotkeyToastDurationMs, StringFormat={}{0} ms}" FontSize="12" Width="72"
                                                    Foreground="{StaticResource TextPrimaryBrush}" Margin="8,0,0,0" VerticalAlignment="Center"/>
@@ -2624,7 +2624,7 @@
                                     <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText2632Text}" FontSize="13"
                                                Foreground="{StaticResource TextSecondaryBrush}" VerticalAlignment="Center"/>
                                     <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
-                                        <Slider AutomationProperties.Name="Osd Hotkey Toast Scale Percent" Minimum="80" Maximum="140" TickFrequency="5" IsSnapToTickEnabled="True"
+                                        <Slider AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch44}" Minimum="80" Maximum="140" TickFrequency="5" IsSnapToTickEnabled="True"
                                                 Value="{Binding OsdHotkeyToastScalePercent}" Width="120" VerticalAlignment="Center"/>
                                         <TextBlock Text="{Binding OsdHotkeyToastScalePercent, StringFormat={}{0}%}" FontSize="12" Width="72"
                                                    Foreground="{StaticResource TextPrimaryBrush}" Margin="8,0,0,0" VerticalAlignment="Center"/>
@@ -2638,14 +2638,14 @@
                                     </Grid.ColumnDefinitions>
                                     <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText2647Text}" FontSize="13"
                                                Foreground="{StaticResource TextSecondaryBrush}" VerticalAlignment="Center"/>
-                                    <ComboBox AutomationProperties.Name="Accent Theme" Grid.Column="1"
+                                    <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch45}" Grid.Column="1"
                                               SelectedItem="{Binding OsdHotkeyToastAccent, Mode=TwoWay}"
                                               ItemsSource="{Binding OsdHotkeyToastAccentOptions}"/>
                                 </Grid>
 
                                 <StackPanel Orientation="Horizontal" Margin="0,0,0,12">
                                     <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2655Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                    <ToggleButton AutomationProperties.Name="Compact Popup" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdHotkeyToastCompact}"/>
+                                    <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch46}" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdHotkeyToastCompact}"/>
                                     <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch16}" VerticalAlignment="Center" Margin="8,0,0,0" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}"/>
                                 </StackPanel>
 
@@ -2678,11 +2678,11 @@
                                 <WrapPanel Margin="0,0,0,8">
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2688Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <ToggleButton AutomationProperties.Name="CPU Temp" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowCpuTemp}"/>
+                                        <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch47}" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowCpuTemp}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2692Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <ToggleButton AutomationProperties.Name="GPU Temp" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowGpuTemp}"/>
+                                        <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch48}" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowGpuTemp}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsLabelBatch56}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
@@ -2707,11 +2707,11 @@
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2717Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <ToggleButton AutomationProperties.Name="RAM Usage" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowRamUsage}"/>
+                                        <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch49}" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowRamUsage}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2721Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <ToggleButton AutomationProperties.Name="VRAM Usage" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowVramUsage}"/>
+                                        <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch50}" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowVramUsage}"/>
                                     </StackPanel>
                                 </WrapPanel>
                                 
@@ -2724,19 +2724,19 @@
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2734Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <ToggleButton AutomationProperties.Name="Frametime (ms)" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowFrametime}"/>
+                                        <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch51}" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowFrametime}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2738Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <ToggleButton AutomationProperties.Name="Network Ping" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowNetworkLatency}"/>
+                                        <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch52}" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowNetworkLatency}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2742Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <ToggleButton AutomationProperties.Name="Net Upload" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowNetworkUpload}"/>
+                                        <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch53}" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowNetworkUpload}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2746Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <ToggleButton AutomationProperties.Name="Net Download" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowNetworkDownload}"/>
+                                        <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch54}" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowNetworkDownload}"/>
                                     </StackPanel>
                                 </WrapPanel>
                                 
@@ -2745,11 +2745,11 @@
                                 <WrapPanel Margin="0,0,0,4">
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2755Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <ToggleButton AutomationProperties.Name="Fan Speed (RPM)" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowFanSpeed}"/>
+                                        <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch55}" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowFanSpeed}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2759Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <ToggleButton AutomationProperties.Name="Fan Mode" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowFanMode}"/>
+                                        <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch56}" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowFanMode}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsLabelBatch60}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
@@ -2757,7 +2757,7 @@
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2767Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <ToggleButton AutomationProperties.Name="Clock Time" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowTime}"/>
+                                        <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch57}" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowTime}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsLabelBatch61}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
@@ -2765,11 +2765,11 @@
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2775Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <ToggleButton AutomationProperties.Name="CPU Clock" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowCpuClock}"/>
+                                        <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch58}" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowCpuClock}"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,0,16,4">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2779Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <ToggleButton AutomationProperties.Name="GPU Clock" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowGpuClock}"/>
+                                        <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch59}" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdShowGpuClock}"/>
                                     </StackPanel>
                                 </WrapPanel>
                                 
@@ -2777,7 +2777,7 @@
                                 <TextBlock Text="{x:Static loc:Strings.SettingsLabelBatch62}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,8,0,4"/>
                                 <StackPanel Orientation="Horizontal" Margin="0,0,0,4">
                                     <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2787Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                    <ToggleButton AutomationProperties.Name="Horizontal Layout" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding IsOsdHorizontalLayout}"/>
+                                    <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch60}" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding IsOsdHorizontalLayout}"/>
                                     <TextBlock Text="{x:Static loc:Strings.SettingsLabelBatch63}" VerticalAlignment="Center" Margin="8,0,0,0" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}"/>
                                 </StackPanel>
                             </StackPanel>
@@ -2814,7 +2814,7 @@
                             <ToggleButton Grid.Column="1" 
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding BatteryChargeLimitEnabled}"
-                                          AutomationProperties.Name="Enable Charge Limit"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch61}"/>
                         </Grid>
 
                         <!-- Charge Threshold Slider (shown when enabled) -->
@@ -2832,7 +2832,7 @@
                                                Foreground="{StaticResource TextSecondaryBrush}"/>
                                 </StackPanel>
                                 <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
-                                    <Slider AutomationProperties.Name="Battery Charge Threshold Percent" Minimum="60" Maximum="100" 
+                                    <Slider AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch62}" Minimum="60" Maximum="100"
                                             TickFrequency="5"
                                             IsSnapToTickEnabled="True"
                                             Value="{Binding BatteryChargeThresholdPercent}"
@@ -2890,7 +2890,7 @@
                             <ToggleButton Grid.Column="1" 
                                           Style="{StaticResource ModernToggleButton}"
                                           IsChecked="{Binding FanHysteresisEnabled}"
-                                          AutomationProperties.Name="Enable Hysteresis"/>
+                                          AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch63}"/>
                         </Grid>
 
                         <Border Background="#1A6B4C9A" CornerRadius="8" Padding="16" 
@@ -2909,7 +2909,7 @@
                                                    Foreground="{StaticResource TextTertiaryBrush}"/>
                                     </StackPanel>
                                     <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
-                                        <TextBox AutomationProperties.Name="Fan Hysteresis Dead Zone" Text="{Binding FanHysteresisDeadZone, StringFormat=F1}" 
+                                        <TextBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch64}" Text="{Binding FanHysteresisDeadZone, StringFormat=F1}"
                                                  Width="50" Padding="6,4" TextAlignment="Right"/>
                                         <TextBlock Text="°C" VerticalAlignment="Center" Margin="4,0,0,0" 
                                                    Foreground="{StaticResource TextSecondaryBrush}"/>
@@ -2929,7 +2929,7 @@
                                                    Foreground="{StaticResource TextTertiaryBrush}"/>
                                     </StackPanel>
                                     <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
-                                        <TextBox AutomationProperties.Name="Fan Hysteresis Ramp Up Delay" Text="{Binding FanHysteresisRampUpDelay, StringFormat=F1}" 
+                                        <TextBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch65}" Text="{Binding FanHysteresisRampUpDelay, StringFormat=F1}"
                                                  Width="50" Padding="6,4" TextAlignment="Right"/>
                                         <TextBlock Text="s" VerticalAlignment="Center" Margin="4,0,0,0" 
                                                    Foreground="{StaticResource TextSecondaryBrush}"/>
@@ -2949,7 +2949,7 @@
                                                    Foreground="{StaticResource TextTertiaryBrush}"/>
                                     </StackPanel>
                                     <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
-                                        <TextBox AutomationProperties.Name="Fan Hysteresis Ramp Down Delay" Text="{Binding FanHysteresisRampDownDelay, StringFormat=F1}" 
+                                        <TextBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch66}" Text="{Binding FanHysteresisRampDownDelay, StringFormat=F1}"
                                                  Width="50" Padding="6,4" TextAlignment="Right"/>
                                         <TextBlock Text="s" VerticalAlignment="Center" Margin="4,0,0,0" 
                                                    Foreground="{StaticResource TextSecondaryBrush}"/>
@@ -3071,7 +3071,7 @@
                                 </Grid.ColumnDefinitions>
                                 <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText3080Text}"
                                            VerticalAlignment="Center" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <ToggleButton AutomationProperties.Name="Kill running HP OMEN processes" Grid.Column="1" Style="{StaticResource ModernToggleButton}" 
+                                <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch67}" Grid.Column="1" Style="{StaticResource ModernToggleButton}"
                                               IsChecked="{Binding CleanupKillProcesses}" HorizontalAlignment="Right"/>
                             </Grid>
                             
@@ -3082,7 +3082,7 @@
                                 </Grid.ColumnDefinitions>
                                 <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText3091Text}"
                                            VerticalAlignment="Center" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <ToggleButton AutomationProperties.Name="Uninstall HP OMEN Gaming Hub application" Grid.Column="1" Style="{StaticResource ModernToggleButton}" 
+                                <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch68}" Grid.Column="1" Style="{StaticResource ModernToggleButton}"
                                               IsChecked="{Binding CleanupUninstallApp}" HorizontalAlignment="Right"/>
                             </Grid>
                             
@@ -3104,7 +3104,7 @@
                                 </Grid.ColumnDefinitions>
                                 <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText3113Text}"
                                            VerticalAlignment="Center" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <ToggleButton AutomationProperties.Name="Clean HP OMEN registry entries" Grid.Column="1" Style="{StaticResource ModernToggleButton}" 
+                                <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch69}" Grid.Column="1" Style="{StaticResource ModernToggleButton}"
                                               IsChecked="{Binding CleanupRegistryEntries}" HorizontalAlignment="Right"/>
                             </Grid>
                             
@@ -3126,7 +3126,7 @@
                                 </Grid.ColumnDefinitions>
                                 <TextBlock Grid.Column="0" Text="{x:Static loc:Strings.SettingsReferenceText3135Text}"
                                            VerticalAlignment="Center" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <ToggleButton AutomationProperties.Name="Remove residual HP OMEN files and folders" Grid.Column="1" Style="{StaticResource ModernToggleButton}" 
+                                <ToggleButton AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch70}" Grid.Column="1" Style="{StaticResource ModernToggleButton}"
                                               IsChecked="{Binding CleanupRemoveFiles}" HorizontalAlignment="Right"/>
                             </Grid>
                         </StackPanel>
@@ -3181,7 +3181,7 @@
                                              Visibility="{Binding CleanupInProgress, Converter={StaticResource BoolToVisibility}}"/>
                             </StackPanel>
                             
-                            <Button AutomationProperties.Name="Run Cleanup" Grid.Column="1" 
+                            <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch71}" Grid.Column="1"
                                     Content="{x:Static loc:Strings.SettingsLabelBatch64}"
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding RunCleanupCommand}"
@@ -3249,17 +3249,17 @@
 
                         <!-- Profile buttons -->
                         <StackPanel Orientation="Horizontal" Margin="0,0,0,12">
-                            <Button AutomationProperties.Name="Import Profile" Content="{x:Static loc:Strings.SettingsLabelBatch65}"
+                            <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch72}" Content="{x:Static loc:Strings.SettingsLabelBatch65}"
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding ImportProfileCommand}"
                                     Padding="16,8" Margin="0,0,12,0"
                                     ToolTip="{x:Static loc:Strings.SettingsMaintenanceBatch24}"/>
-                            <Button AutomationProperties.Name="Export Profile" Content="{x:Static loc:Strings.SettingsLabelBatch66}"
+                            <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch73}" Content="{x:Static loc:Strings.SettingsLabelBatch66}"
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding ExportProfileCommand}"
                                     Padding="16,8" Margin="0,0,12,0"
                                     ToolTip="{x:Static loc:Strings.SettingsUiBatch19}"/>
-                            <Button AutomationProperties.Name="Export Diagnostics" Content="{x:Static loc:Strings.SettingsLabelBatch67}"
+                            <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch74}" Content="{x:Static loc:Strings.SettingsLabelBatch67}"
                                     Style="{StaticResource SecondaryButton}"
                                     Command="{Binding ExportDiagnosticsCommand}"
                                     Padding="16,8"
@@ -3295,17 +3295,17 @@
                         </StackPanel>
 
                         <StackPanel Orientation="Horizontal" Margin="0,0,0,12">
-                            <Button AutomationProperties.Name="Open Config Folder" Content="{x:Static loc:Strings.SettingsLabelBatch68}"
+                            <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch75}" Content="{x:Static loc:Strings.SettingsLabelBatch68}"
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding OpenConfigFolderCommand}"
                                     Padding="16,8" Margin="0,0,12,0"
                                     ToolTip="{x:Static loc:Strings.SettingsUiBatch21}"/>
-                            <Button AutomationProperties.Name="Open Log Folder" Content="{x:Static loc:Strings.SettingsLabelBatch69}"
+                            <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch76}" Content="{x:Static loc:Strings.SettingsLabelBatch69}"
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding OpenLogFolderCommand}"
                                     Padding="16,8" Margin="0,0,12,0"
                                     ToolTip="{x:Static loc:Strings.SettingsUiBatch22}"/>
-                            <Button AutomationProperties.Name="Reset to Defaults" Content="{x:Static loc:Strings.SettingsLabelBatch70}"
+                            <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch77}" Content="{x:Static loc:Strings.SettingsLabelBatch70}"
                                     Style="{StaticResource SecondaryButton}"
                                     Command="{Binding ResetToDefaultsCommand}"
                                     Padding="16,8"
@@ -3352,12 +3352,12 @@
                                     Command="{Binding OpenGitHubCommand}"
                                     Padding="16,8" Margin="0,0,12,0"
                                     ToolTip="{x:Static loc:Strings.SettingsUiBatch23}"/>
-                            <Button AutomationProperties.Name="Release Notes" Content="{x:Static loc:Strings.SettingsLabelBatch73}"
+                            <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch78}" Content="{x:Static loc:Strings.SettingsLabelBatch73}"
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding OpenReleaseNotesCommand}"
                                     Padding="16,8" Margin="0,0,12,0"
                                     ToolTip="{x:Static loc:Strings.SettingsUiBatch24}"/>
-                            <Button AutomationProperties.Name="Report Issue" Content="{x:Static loc:Strings.SettingsLabelBatch74}"
+                            <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch79}" Content="{x:Static loc:Strings.SettingsLabelBatch74}"
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding OpenIssuesCommand}"
                                     Padding="16,8"
@@ -3371,7 +3371,7 @@
                                            Foreground="{StaticResource TextPrimaryBrush}" Margin="0,0,0,8"/>
                                 <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch26}"
                                            FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap" Margin="0,0,0,12"/>
-                                <Button AutomationProperties.Name="Donate via PayPal" Command="{Binding OpenDonateCommand}" 
+                                <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch80}" Command="{Binding OpenDonateCommand}"
                                         Style="{StaticResource PrimaryButton}"
                                         Padding="20,10" HorizontalAlignment="Left">
                                     <StackPanel Orientation="Horizontal">
@@ -3414,11 +3414,11 @@
                                                     </Grid.ColumnDefinitions>
 
                                                     <!-- Enable toggle -->
-                                                    <CheckBox AutomationProperties.Name="Enable this schedule rule" Grid.Column="0" IsChecked="{Binding IsEnabled, Mode=TwoWay}" VerticalAlignment="Center" Margin="0,0,12,0"/>
+                                                    <CheckBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch81}" Grid.Column="0" IsChecked="{Binding IsEnabled, Mode=TwoWay}" VerticalAlignment="Center" Margin="0,0,12,0"/>
 
                                                     <!-- Rule name + time -->
                                                     <StackPanel Grid.Column="1" VerticalAlignment="Center">
-                                                        <TextBox AutomationProperties.Name="Rule Name" Text="{Binding RuleName, Mode=TwoWay, UpdateSourceTrigger=LostFocus}"
+                                                        <TextBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch82}" Text="{Binding RuleName, Mode=TwoWay, UpdateSourceTrigger=LostFocus}"
                                                                  Style="{StaticResource ModernTextBox}" FontSize="13" FontWeight="SemiBold" Padding="4,2"/>
                                                         <StackPanel Orientation="Horizontal" Margin="0,4,0,0">
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsLabelBatch77}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" VerticalAlignment="Center" Margin="0,0,6,0"/>
@@ -3445,7 +3445,7 @@
                                                     </StackPanel>
 
                                                     <!-- Remove button -->
-                                                    <Button AutomationProperties.Name="Remove Schedule Rule" Grid.Column="4" Content="✕" Style="{StaticResource DangerButton}"
+                                                    <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch83}" Grid.Column="4" Content="✕" Style="{StaticResource DangerButton}"
                                                             Command="{Binding DataContext.RemoveScheduleRuleCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
                                                             CommandParameter="{Binding}"
                                                             Width="32" Height="32" Padding="0" VerticalAlignment="Center" Margin="8,0,0,0"/>
@@ -3456,7 +3456,7 @@
                                 </ItemsControl>
 
                                 <!-- Add rule button -->
-                                <Button AutomationProperties.Name="Add Rule" Content="{x:Static loc:Strings.SettingsLabelBatch80}" Command="{Binding AddScheduleRuleCommand}"
+                                <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch84}" Content="{x:Static loc:Strings.SettingsLabelBatch80}" Command="{Binding AddScheduleRuleCommand}"
                                         Style="{StaticResource SecondaryButton}" HorizontalAlignment="Left"
                                         Margin="0,8,0,0"/>
                             </StackPanel>
@@ -3473,7 +3473,7 @@
                                         <TextBlock Text="{x:Static loc:Strings.SettingsLabelBatch81}" FontSize="20" FontWeight="SemiBold" Foreground="{StaticResource TextPrimaryBrush}"/>
                                         <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch28}" FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" Margin="0,4,0,0"/>
                                     </StackPanel>
-                                    <Button AutomationProperties.Name="Add Automation Rule" Grid.Column="1" Content="{x:Static loc:Strings.SettingsLabelBatch82}" Command="{Binding AddAutomationRuleCommand}"
+                                    <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch85}" Grid.Column="1" Content="{x:Static loc:Strings.SettingsLabelBatch82}" Command="{Binding AddAutomationRuleCommand}"
                                             Style="{StaticResource SecondaryButton}" VerticalAlignment="Center"/>
                                 </Grid>
 
@@ -3491,18 +3491,18 @@
                                                             <ColumnDefinition Width="Auto"/>
                                                         </Grid.ColumnDefinitions>
 
-                                                        <CheckBox AutomationProperties.Name="Enable this automation rule" Grid.Column="0" IsChecked="{Binding Enabled, Mode=TwoWay}" VerticalAlignment="Center" Margin="0,0,12,0"/>
+                                                        <CheckBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch86}" Grid.Column="0" IsChecked="{Binding Enabled, Mode=TwoWay}" VerticalAlignment="Center" Margin="0,0,12,0"/>
 
-                                                        <TextBox AutomationProperties.Name="Automation Rule Name" Grid.Column="1" Text="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                                        <TextBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch87}" Grid.Column="1" Text="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                                                                  Style="{StaticResource ModernTextBox}" Padding="8,4" Margin="0,0,10,0"/>
 
-                                                        <ComboBox AutomationProperties.Name="Trigger Type" Grid.Column="2" ItemsSource="{Binding SupportedTriggerTypes}" SelectedItem="{Binding Trigger, Mode=TwoWay}"
+                                                        <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch88}" Grid.Column="2" ItemsSource="{Binding SupportedTriggerTypes}" SelectedItem="{Binding Trigger, Mode=TwoWay}"
                                                                   Style="{StaticResource ModernComboBox}" Margin="0,0,10,0"/>
 
-                                                        <TextBox AutomationProperties.Name="Priority (lower numbers run first)" Grid.Column="3" Text="{Binding Priority, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                                        <TextBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch89}" Grid.Column="3" Text="{Binding Priority, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                                                                  Style="{StaticResource ModernTextBox}" Padding="8,4" Margin="0,0,10,0" ToolTip="{x:Static loc:Strings.SettingsLabelBatch83}"/>
 
-                                                        <Button AutomationProperties.Name="Remove Automation Rule" Grid.Column="4" Content="✕" Style="{StaticResource DangerButton}"
+                                                        <Button AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch90}" Grid.Column="4" Content="✕" Style="{StaticResource DangerButton}"
                                                                 Width="32" Height="32" Padding="0"
                                                                 Command="{Binding DataContext.RemoveAutomationRuleCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
                                                                 CommandParameter="{Binding}"/>
@@ -3518,39 +3518,39 @@
                                                         <StackPanel Grid.Column="0" Margin="0,0,12,0"
                                                                     Visibility="{Binding IsTimeTrigger, Converter={StaticResource BooleanToVisibilityConverter}}">
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3528Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
-                                                            <TextBox AutomationProperties.Name="Start time" Text="{Binding StartTimeText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource ModernTextBox}" Padding="8,4"/>
+                                                            <TextBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch91}" Text="{Binding StartTimeText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource ModernTextBox}" Padding="8,4"/>
                                                         </StackPanel>
 
                                                         <StackPanel Grid.Column="1" Margin="0,0,12,0"
                                                                     Visibility="{Binding IsTimeTrigger, Converter={StaticResource BooleanToVisibilityConverter}}">
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3534Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
-                                                            <TextBox AutomationProperties.Name="End time" Text="{Binding EndTimeText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource ModernTextBox}" Padding="8,4"/>
+                                                            <TextBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch92}" Text="{Binding EndTimeText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource ModernTextBox}" Padding="8,4"/>
                                                         </StackPanel>
 
                                                         <StackPanel Grid.Column="0" Margin="0,0,12,0"
                                                                     Visibility="{Binding IsBatteryTrigger, Converter={StaticResource BooleanToVisibilityConverter}}">
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3540Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
-                                                            <TextBox AutomationProperties.Name="Battery threshold" Text="{Binding BatteryThreshold, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource ModernTextBox}" Padding="8,4"/>
+                                                            <TextBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch93}" Text="{Binding BatteryThreshold, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource ModernTextBox}" Padding="8,4"/>
                                                         </StackPanel>
 
                                                         <StackPanel Grid.Column="1" Margin="0,0,12,0"
                                                                     Visibility="{Binding IsBatteryTrigger, Converter={StaticResource BooleanToVisibilityConverter}}">
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3546Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
-                                                            <ComboBox AutomationProperties.Name="Battery condition" ItemsSource="{Binding BatteryConditions}" SelectedItem="{Binding BatteryCondition, Mode=TwoWay}"
+                                                            <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch94}" ItemsSource="{Binding BatteryConditions}" SelectedItem="{Binding BatteryCondition, Mode=TwoWay}"
                                                                       Style="{StaticResource ModernComboBox}"/>
                                                         </StackPanel>
 
                                                         <StackPanel Grid.Column="0" Margin="0,0,12,0"
                                                                     Visibility="{Binding IsACPowerTrigger, Converter={StaticResource BooleanToVisibilityConverter}}">
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3553Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
-                                                            <ComboBox AutomationProperties.Name="AC power state" ItemsSource="{Binding AcPowerStates}" SelectedItem="{Binding AcPowerState, Mode=TwoWay}"
+                                                            <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch95}" ItemsSource="{Binding AcPowerStates}" SelectedItem="{Binding AcPowerState, Mode=TwoWay}"
                                                                       Style="{StaticResource ModernComboBox}"/>
                                                         </StackPanel>
 
                                                         <StackPanel Grid.Column="0" Margin="0,0,12,0"
                                                                     Visibility="{Binding IsTemperatureTrigger, Converter={StaticResource BooleanToVisibilityConverter}}">
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsLabelBatch84}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
-                                                            <TextBox AutomationProperties.Name="Temperature threshold" Text="{Binding TemperatureThreshold, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource ModernTextBox}" Padding="8,4"/>
+                                                            <TextBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch96}" Text="{Binding TemperatureThreshold, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource ModernTextBox}" Padding="8,4"/>
                                                         </StackPanel>
 
                                                         <StackPanel Grid.Column="1" Margin="0,0,12,0"
@@ -3563,7 +3563,7 @@
                                                         <StackPanel Grid.Column="2"
                                                                     Visibility="{Binding IsTemperatureTrigger, Converter={StaticResource BooleanToVisibilityConverter}}">
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsLabelBatch86}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
-                                                            <ComboBox AutomationProperties.Name="Temperature sensor" ItemsSource="{Binding TemperatureSensors}" SelectedItem="{Binding TemperatureSensor, Mode=TwoWay}"
+                                                            <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch97}" ItemsSource="{Binding TemperatureSensors}" SelectedItem="{Binding TemperatureSensor, Mode=TwoWay}"
                                                                       Style="{StaticResource ModernComboBox}"/>
                                                         </StackPanel>
 
@@ -3576,13 +3576,13 @@
                                                         <StackPanel Grid.Column="0" Margin="0,0,12,0"
                                                                     Visibility="{Binding IsProcessTrigger, Converter={StaticResource BooleanToVisibilityConverter}}">
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsLabelBatch88}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
-                                                            <TextBox AutomationProperties.Name="Process name" Text="{Binding ProcessName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource ModernTextBox}" Padding="8,4"/>
+                                                            <TextBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch98}" Text="{Binding ProcessName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource ModernTextBox}" Padding="8,4"/>
                                                         </StackPanel>
 
                                                         <StackPanel Grid.Column="0" Margin="0,0,12,0"
                                                                     Visibility="{Binding IsWiFiTrigger, Converter={StaticResource BooleanToVisibilityConverter}}">
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsLabelBatch89}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
-                                                            <TextBox AutomationProperties.Name="WiFi SSID" Text="{Binding WiFiSSID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource ModernTextBox}" Padding="8,4"/>
+                                                            <TextBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch99}" Text="{Binding WiFiSSID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource ModernTextBox}" Padding="8,4"/>
                                                         </StackPanel>
 
                                                         <StackPanel Grid.Column="0" Margin="0,0,12,0"
@@ -3601,13 +3601,13 @@
 
                                                         <StackPanel Grid.Column="0" Margin="0,0,12,0">
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3611Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
-                                                            <ComboBox AutomationProperties.Name="Fan preset action" ItemsSource="{Binding FanPresetOptions}" SelectedItem="{Binding FanPreset, Mode=TwoWay}"
+                                                            <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch100}" ItemsSource="{Binding FanPresetOptions}" SelectedItem="{Binding FanPreset, Mode=TwoWay}"
                                                                       Style="{StaticResource ModernComboBox}"/>
                                                         </StackPanel>
 
                                                         <StackPanel Grid.Column="1">
                                                             <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3617Text}" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}" Margin="0,0,0,4"/>
-                                                            <ComboBox AutomationProperties.Name="Performance mode action" ItemsSource="{Binding PerformanceModeOptions}" SelectedItem="{Binding PerformanceMode, Mode=TwoWay}"
+                                                            <ComboBox AutomationProperties.Name="{x:Static loc:Strings.SettingsAccessibleBatch101}" ItemsSource="{Binding PerformanceModeOptions}" SelectedItem="{Binding PerformanceMode, Mode=TwoWay}"
                                                                       Style="{StaticResource ModernComboBox}"/>
                                                         </StackPanel>
                                                     </Grid>

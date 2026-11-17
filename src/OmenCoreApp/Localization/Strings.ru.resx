@@ -2225,4 +2225,106 @@ Continue?</value></data>
   <data name="SettingsProfileShare" xml:space="preserve"><value>• Safe to share - no personal data included, just hardware settings</value></data>
   <data name="SettingsProfileDiag" xml:space="preserve"><value>• Diagnostics export creates a troubleshooting bundle (logs, config, hardware status)</value></data>
   <data name="SettingsAboutTagline" xml:space="preserve"><value>A lightweight replacement for HP OMEN Gaming Hub</value></data>
+  <data name="SettingsAccessibleBatch0" xml:space="preserve"><value>Settings Search Query</value></data>
+  <data name="SettingsAccessibleBatch1" xml:space="preserve"><value>Resume Recovery Timeline</value></data>
+  <data name="SettingsAccessibleBatch2" xml:space="preserve"><value>Copy Summary</value></data>
+  <data name="SettingsAccessibleBatch3" xml:space="preserve"><value>History Count</value></data>
+  <data name="SettingsAccessibleBatch4" xml:space="preserve"><value>Low overhead mode</value></data>
+  <data name="SettingsAccessibleBatch5" xml:space="preserve"><value>Startup Safe Mode Window Seconds</value></data>
+  <data name="SettingsAccessibleBatch6" xml:space="preserve"><value>Startup Safe Mode Timeout Threshold</value></data>
+  <data name="SettingsAccessibleBatch7" xml:space="preserve"><value>Enable orphan timeout</value></data>
+  <data name="SettingsAccessibleBatch8" xml:space="preserve"><value>Hardware Worker Orphan Timeout Minutes</value></data>
+  <data name="SettingsAccessibleBatch9" xml:space="preserve"><value>AC power fan preset</value></data>
+  <data name="SettingsAccessibleBatch10" xml:space="preserve"><value>AC power performance mode</value></data>
+  <data name="SettingsAccessibleBatch11" xml:space="preserve"><value>Battery power fan preset</value></data>
+  <data name="SettingsAccessibleBatch12" xml:space="preserve"><value>Check for updates automatically</value></data>
+  <data name="SettingsAccessibleBatch13" xml:space="preserve"><value>Update check interval</value></data>
+  <data name="SettingsAccessibleBatch14" xml:space="preserve"><value>Include pre-releases</value></data>
+  <data name="SettingsAccessibleBatch15" xml:space="preserve"><value>Enable global hotkeys</value></data>
+  <data name="SettingsAccessibleBatch16" xml:space="preserve"><value>Only enable hotkeys when window is focused</value></data>
+  <data name="SettingsAccessibleBatch17" xml:space="preserve"><value>Enable notifications</value></data>
+  <data name="SettingsAccessibleBatch18" xml:space="preserve"><value>Game profile notifications</value></data>
+  <data name="SettingsAccessibleBatch19" xml:space="preserve"><value>Mode change notifications</value></data>
+  <data name="SettingsAccessibleBatch20" xml:space="preserve"><value>Temperature warnings</value></data>
+  <data name="SettingsAccessibleBatch21" xml:space="preserve"><value>Get PawnIO (Recommended)</value></data>
+  <data name="SettingsAccessibleBatch22" xml:space="preserve"><value>Refresh Status</value></data>
+  <data name="SettingsAccessibleBatch23" xml:space="preserve"><value>Reset EC</value></data>
+  <data name="SettingsAccessibleBatch24" xml:space="preserve"><value>Check for Updates</value></data>
+  <data name="SettingsAccessibleBatch25" xml:space="preserve"><value>Download Update</value></data>
+  <data name="SettingsAccessibleBatch26" xml:space="preserve"><value>HP Driver Downloads</value></data>
+  <data name="SettingsAccessibleBatch27" xml:space="preserve"><value>OMEN Gaming Hub (Official)</value></data>
+  <data name="SettingsAccessibleBatch28" xml:space="preserve"><value>Start Fan Boost</value></data>
+  <data name="SettingsAccessibleBatch29" xml:space="preserve"><value>Open Bloatware Manager →</value></data>
+  <data name="SettingsAccessibleBatch30" xml:space="preserve"><value>Ambient Lighting Saturation</value></data>
+  <data name="SettingsAccessibleBatch31" xml:space="preserve"><value>Ambient Lighting Fps</value></data>
+  <data name="SettingsAccessibleBatch32" xml:space="preserve"><value>Custom Fan Curves</value></data>
+  <data name="SettingsAccessibleBatch33" xml:space="preserve"><value>Power Source Automation</value></data>
+  <data name="SettingsAccessibleBatch34" xml:space="preserve"><value>GPU Mode Switching</value></data>
+  <data name="SettingsAccessibleBatch35" xml:space="preserve"><value>CPU Undervolt Controls</value></data>
+  <data name="SettingsAccessibleBatch36" xml:space="preserve"><value>Omen Key Interception Enabled</value></data>
+  <data name="SettingsAccessibleBatch37" xml:space="preserve"><value>OMEN key program or script</value></data>
+  <data name="SettingsAccessibleBatch38" xml:space="preserve"><value>OMEN key arguments</value></data>
+  <data name="SettingsAccessibleBatch39" xml:space="preserve"><value>Enable OSD Overlay</value></data>
+  <data name="SettingsAccessibleBatch40" xml:space="preserve"><value>Target Monitor</value></data>
+  <data name="SettingsAccessibleBatch41" xml:space="preserve"><value>Overlay Density</value></data>
+  <data name="SettingsAccessibleBatch42" xml:space="preserve"><value>Toggle Hotkey</value></data>
+  <data name="SettingsAccessibleBatch43" xml:space="preserve"><value>Osd Hotkey Toast Duration Ms</value></data>
+  <data name="SettingsAccessibleBatch44" xml:space="preserve"><value>Osd Hotkey Toast Scale Percent</value></data>
+  <data name="SettingsAccessibleBatch45" xml:space="preserve"><value>Accent Theme</value></data>
+  <data name="SettingsAccessibleBatch46" xml:space="preserve"><value>Compact Popup</value></data>
+  <data name="SettingsAccessibleBatch47" xml:space="preserve"><value>CPU Temp</value></data>
+  <data name="SettingsAccessibleBatch48" xml:space="preserve"><value>GPU Temp</value></data>
+  <data name="SettingsAccessibleBatch49" xml:space="preserve"><value>RAM Usage</value></data>
+  <data name="SettingsAccessibleBatch50" xml:space="preserve"><value>VRAM Usage</value></data>
+  <data name="SettingsAccessibleBatch51" xml:space="preserve"><value>Frametime (ms)</value></data>
+  <data name="SettingsAccessibleBatch52" xml:space="preserve"><value>Network Ping</value></data>
+  <data name="SettingsAccessibleBatch53" xml:space="preserve"><value>Net Upload</value></data>
+  <data name="SettingsAccessibleBatch54" xml:space="preserve"><value>Net Download</value></data>
+  <data name="SettingsAccessibleBatch55" xml:space="preserve"><value>Fan Speed (RPM)</value></data>
+  <data name="SettingsAccessibleBatch56" xml:space="preserve"><value>Fan Mode</value></data>
+  <data name="SettingsAccessibleBatch57" xml:space="preserve"><value>Clock Time</value></data>
+  <data name="SettingsAccessibleBatch58" xml:space="preserve"><value>CPU Clock</value></data>
+  <data name="SettingsAccessibleBatch59" xml:space="preserve"><value>GPU Clock</value></data>
+  <data name="SettingsAccessibleBatch60" xml:space="preserve"><value>Horizontal Layout</value></data>
+  <data name="SettingsAccessibleBatch61" xml:space="preserve"><value>Enable Charge Limit</value></data>
+  <data name="SettingsAccessibleBatch62" xml:space="preserve"><value>Battery Charge Threshold Percent</value></data>
+  <data name="SettingsAccessibleBatch63" xml:space="preserve"><value>Enable Hysteresis</value></data>
+  <data name="SettingsAccessibleBatch64" xml:space="preserve"><value>Fan Hysteresis Dead Zone</value></data>
+  <data name="SettingsAccessibleBatch65" xml:space="preserve"><value>Fan Hysteresis Ramp Up Delay</value></data>
+  <data name="SettingsAccessibleBatch66" xml:space="preserve"><value>Fan Hysteresis Ramp Down Delay</value></data>
+  <data name="SettingsAccessibleBatch67" xml:space="preserve"><value>Kill running HP OMEN processes</value></data>
+  <data name="SettingsAccessibleBatch68" xml:space="preserve"><value>Uninstall HP OMEN Gaming Hub application</value></data>
+  <data name="SettingsAccessibleBatch69" xml:space="preserve"><value>Clean HP OMEN registry entries</value></data>
+  <data name="SettingsAccessibleBatch70" xml:space="preserve"><value>Remove residual HP OMEN files and folders</value></data>
+  <data name="SettingsAccessibleBatch71" xml:space="preserve"><value>Run Cleanup</value></data>
+  <data name="SettingsAccessibleBatch72" xml:space="preserve"><value>Import Profile</value></data>
+  <data name="SettingsAccessibleBatch73" xml:space="preserve"><value>Export Profile</value></data>
+  <data name="SettingsAccessibleBatch74" xml:space="preserve"><value>Export Diagnostics</value></data>
+  <data name="SettingsAccessibleBatch75" xml:space="preserve"><value>Open Config Folder</value></data>
+  <data name="SettingsAccessibleBatch76" xml:space="preserve"><value>Open Log Folder</value></data>
+  <data name="SettingsAccessibleBatch77" xml:space="preserve"><value>Reset to Defaults</value></data>
+  <data name="SettingsAccessibleBatch78" xml:space="preserve"><value>Release Notes</value></data>
+  <data name="SettingsAccessibleBatch79" xml:space="preserve"><value>Report Issue</value></data>
+  <data name="SettingsAccessibleBatch80" xml:space="preserve"><value>Donate via PayPal</value></data>
+  <data name="SettingsAccessibleBatch81" xml:space="preserve"><value>Enable this schedule rule</value></data>
+  <data name="SettingsAccessibleBatch82" xml:space="preserve"><value>Rule Name</value></data>
+  <data name="SettingsAccessibleBatch83" xml:space="preserve"><value>Remove Schedule Rule</value></data>
+  <data name="SettingsAccessibleBatch84" xml:space="preserve"><value>Add Rule</value></data>
+  <data name="SettingsAccessibleBatch85" xml:space="preserve"><value>Add Automation Rule</value></data>
+  <data name="SettingsAccessibleBatch86" xml:space="preserve"><value>Enable this automation rule</value></data>
+  <data name="SettingsAccessibleBatch87" xml:space="preserve"><value>Automation Rule Name</value></data>
+  <data name="SettingsAccessibleBatch88" xml:space="preserve"><value>Trigger Type</value></data>
+  <data name="SettingsAccessibleBatch89" xml:space="preserve"><value>Priority (lower numbers run first)</value></data>
+  <data name="SettingsAccessibleBatch90" xml:space="preserve"><value>Remove Automation Rule</value></data>
+  <data name="SettingsAccessibleBatch91" xml:space="preserve"><value>Start time</value></data>
+  <data name="SettingsAccessibleBatch92" xml:space="preserve"><value>End time</value></data>
+  <data name="SettingsAccessibleBatch93" xml:space="preserve"><value>Battery threshold</value></data>
+  <data name="SettingsAccessibleBatch94" xml:space="preserve"><value>Battery condition</value></data>
+  <data name="SettingsAccessibleBatch95" xml:space="preserve"><value>AC power state</value></data>
+  <data name="SettingsAccessibleBatch96" xml:space="preserve"><value>Temperature threshold</value></data>
+  <data name="SettingsAccessibleBatch97" xml:space="preserve"><value>Temperature sensor</value></data>
+  <data name="SettingsAccessibleBatch98" xml:space="preserve"><value>Process name</value></data>
+  <data name="SettingsAccessibleBatch99" xml:space="preserve"><value>WiFi SSID</value></data>
+  <data name="SettingsAccessibleBatch100" xml:space="preserve"><value>Fan preset action</value></data>
+  <data name="SettingsAccessibleBatch101" xml:space="preserve"><value>Performance mode action</value></data>
 </root>

@@ -2221,4 +2221,106 @@
   <data name="SettingsProfileShare" xml:space="preserve"><value>• 可以安全分享：仅包含硬件设置，不含个人数据</value></data>
   <data name="SettingsProfileDiag" xml:space="preserve"><value>• 导出诊断信息会生成故障排查包（日志、配置、硬件状态）</value></data>
   <data name="SettingsAboutTagline" xml:space="preserve"><value>HP OMEN Gaming Hub 的轻量替代方案</value></data>
+  <data name="SettingsAccessibleBatch0" xml:space="preserve"><value>设置搜索内容</value></data>
+  <data name="SettingsAccessibleBatch1" xml:space="preserve"><value>系统恢复修复时间线</value></data>
+  <data name="SettingsAccessibleBatch2" xml:space="preserve"><value>复制摘要</value></data>
+  <data name="SettingsAccessibleBatch3" xml:space="preserve"><value>历史记录数量</value></data>
+  <data name="SettingsAccessibleBatch4" xml:space="preserve"><value>低开销模式</value></data>
+  <data name="SettingsAccessibleBatch5" xml:space="preserve"><value>启动安全模式时间窗口（秒）</value></data>
+  <data name="SettingsAccessibleBatch6" xml:space="preserve"><value>启动安全模式超时阈值</value></data>
+  <data name="SettingsAccessibleBatch7" xml:space="preserve"><value>启用孤立进程超时</value></data>
+  <data name="SettingsAccessibleBatch8" xml:space="preserve"><value>硬件工作进程孤立超时（分钟）</value></data>
+  <data name="SettingsAccessibleBatch9" xml:space="preserve"><value>交流电源风扇预设</value></data>
+  <data name="SettingsAccessibleBatch10" xml:space="preserve"><value>交流电源性能模式</value></data>
+  <data name="SettingsAccessibleBatch11" xml:space="preserve"><value>电池供电风扇预设</value></data>
+  <data name="SettingsAccessibleBatch12" xml:space="preserve"><value>自动检查更新</value></data>
+  <data name="SettingsAccessibleBatch13" xml:space="preserve"><value>更新检查间隔</value></data>
+  <data name="SettingsAccessibleBatch14" xml:space="preserve"><value>包含预发布版本</value></data>
+  <data name="SettingsAccessibleBatch15" xml:space="preserve"><value>启用全局热键</value></data>
+  <data name="SettingsAccessibleBatch16" xml:space="preserve"><value>仅当窗口获得焦点时启用热键</value></data>
+  <data name="SettingsAccessibleBatch17" xml:space="preserve"><value>启用通知</value></data>
+  <data name="SettingsAccessibleBatch18" xml:space="preserve"><value>游戏配置通知</value></data>
+  <data name="SettingsAccessibleBatch19" xml:space="preserve"><value>模式更改通知</value></data>
+  <data name="SettingsAccessibleBatch20" xml:space="preserve"><value>温度警告</value></data>
+  <data name="SettingsAccessibleBatch21" xml:space="preserve"><value>获取 PawnIO（推荐）</value></data>
+  <data name="SettingsAccessibleBatch22" xml:space="preserve"><value>刷新状态</value></data>
+  <data name="SettingsAccessibleBatch23" xml:space="preserve"><value>重置 EC</value></data>
+  <data name="SettingsAccessibleBatch24" xml:space="preserve"><value>检查更新</value></data>
+  <data name="SettingsAccessibleBatch25" xml:space="preserve"><value>下载更新</value></data>
+  <data name="SettingsAccessibleBatch26" xml:space="preserve"><value>HP 驱动下载</value></data>
+  <data name="SettingsAccessibleBatch27" xml:space="preserve"><value>OMEN Gaming Hub（官方）</value></data>
+  <data name="SettingsAccessibleBatch28" xml:space="preserve"><value>开始风扇增强</value></data>
+  <data name="SettingsAccessibleBatch29" xml:space="preserve"><value>打开软件清理 →</value></data>
+  <data name="SettingsAccessibleBatch30" xml:space="preserve"><value>环境灯光饱和度</value></data>
+  <data name="SettingsAccessibleBatch31" xml:space="preserve"><value>环境灯光帧率</value></data>
+  <data name="SettingsAccessibleBatch32" xml:space="preserve"><value>自定义风扇曲线</value></data>
+  <data name="SettingsAccessibleBatch33" xml:space="preserve"><value>电源自动化</value></data>
+  <data name="SettingsAccessibleBatch34" xml:space="preserve"><value>GPU 模式切换</value></data>
+  <data name="SettingsAccessibleBatch35" xml:space="preserve"><value>CPU 降压控制</value></data>
+  <data name="SettingsAccessibleBatch36" xml:space="preserve"><value>启用 OMEN 键接管</value></data>
+  <data name="SettingsAccessibleBatch37" xml:space="preserve"><value>OMEN 键程序或脚本</value></data>
+  <data name="SettingsAccessibleBatch38" xml:space="preserve"><value>OMEN 键参数</value></data>
+  <data name="SettingsAccessibleBatch39" xml:space="preserve"><value>启用 OSD 悬浮层</value></data>
+  <data name="SettingsAccessibleBatch40" xml:space="preserve"><value>目标显示器</value></data>
+  <data name="SettingsAccessibleBatch41" xml:space="preserve"><value>悬浮层密度</value></data>
+  <data name="SettingsAccessibleBatch42" xml:space="preserve"><value>切换热键</value></data>
+  <data name="SettingsAccessibleBatch43" xml:space="preserve"><value>OSD 热键提示持续时间（毫秒）</value></data>
+  <data name="SettingsAccessibleBatch44" xml:space="preserve"><value>OSD 热键提示缩放百分比</value></data>
+  <data name="SettingsAccessibleBatch45" xml:space="preserve"><value>强调色主题</value></data>
+  <data name="SettingsAccessibleBatch46" xml:space="preserve"><value>紧凑弹窗</value></data>
+  <data name="SettingsAccessibleBatch47" xml:space="preserve"><value>CPU 温度</value></data>
+  <data name="SettingsAccessibleBatch48" xml:space="preserve"><value>GPU 温度</value></data>
+  <data name="SettingsAccessibleBatch49" xml:space="preserve"><value>内存使用率</value></data>
+  <data name="SettingsAccessibleBatch50" xml:space="preserve"><value>显存使用率</value></data>
+  <data name="SettingsAccessibleBatch51" xml:space="preserve"><value>帧时间（毫秒）</value></data>
+  <data name="SettingsAccessibleBatch52" xml:space="preserve"><value>网络延迟</value></data>
+  <data name="SettingsAccessibleBatch53" xml:space="preserve"><value>网络上传</value></data>
+  <data name="SettingsAccessibleBatch54" xml:space="preserve"><value>网络下载</value></data>
+  <data name="SettingsAccessibleBatch55" xml:space="preserve"><value>风扇转速（RPM）</value></data>
+  <data name="SettingsAccessibleBatch56" xml:space="preserve"><value>风扇模式</value></data>
+  <data name="SettingsAccessibleBatch57" xml:space="preserve"><value>当前时间</value></data>
+  <data name="SettingsAccessibleBatch58" xml:space="preserve"><value>CPU 频率</value></data>
+  <data name="SettingsAccessibleBatch59" xml:space="preserve"><value>GPU 频率</value></data>
+  <data name="SettingsAccessibleBatch60" xml:space="preserve"><value>水平布局</value></data>
+  <data name="SettingsAccessibleBatch61" xml:space="preserve"><value>启用充电限制</value></data>
+  <data name="SettingsAccessibleBatch62" xml:space="preserve"><value>电池充电阈值百分比</value></data>
+  <data name="SettingsAccessibleBatch63" xml:space="preserve"><value>启用风扇迟滞</value></data>
+  <data name="SettingsAccessibleBatch64" xml:space="preserve"><value>风扇迟滞死区</value></data>
+  <data name="SettingsAccessibleBatch65" xml:space="preserve"><value>风扇迟滞升速延迟</value></data>
+  <data name="SettingsAccessibleBatch66" xml:space="preserve"><value>风扇迟滞降速延迟</value></data>
+  <data name="SettingsAccessibleBatch67" xml:space="preserve"><value>结束正在运行的 HP OMEN 进程</value></data>
+  <data name="SettingsAccessibleBatch68" xml:space="preserve"><value>卸载 HP OMEN Gaming Hub 应用</value></data>
+  <data name="SettingsAccessibleBatch69" xml:space="preserve"><value>清理 HP OMEN 注册表项</value></data>
+  <data name="SettingsAccessibleBatch70" xml:space="preserve"><value>删除残留 HP OMEN 文件和文件夹</value></data>
+  <data name="SettingsAccessibleBatch71" xml:space="preserve"><value>执行清理</value></data>
+  <data name="SettingsAccessibleBatch72" xml:space="preserve"><value>导入配置文件</value></data>
+  <data name="SettingsAccessibleBatch73" xml:space="preserve"><value>导出配置文件</value></data>
+  <data name="SettingsAccessibleBatch74" xml:space="preserve"><value>导出诊断信息</value></data>
+  <data name="SettingsAccessibleBatch75" xml:space="preserve"><value>打开配置文件夹</value></data>
+  <data name="SettingsAccessibleBatch76" xml:space="preserve"><value>打开日志文件夹</value></data>
+  <data name="SettingsAccessibleBatch77" xml:space="preserve"><value>恢复默认设置</value></data>
+  <data name="SettingsAccessibleBatch78" xml:space="preserve"><value>版本说明</value></data>
+  <data name="SettingsAccessibleBatch79" xml:space="preserve"><value>报告问题</value></data>
+  <data name="SettingsAccessibleBatch80" xml:space="preserve"><value>通过 PayPal 捐助</value></data>
+  <data name="SettingsAccessibleBatch81" xml:space="preserve"><value>启用此计划规则</value></data>
+  <data name="SettingsAccessibleBatch82" xml:space="preserve"><value>规则名称</value></data>
+  <data name="SettingsAccessibleBatch83" xml:space="preserve"><value>移除计划规则</value></data>
+  <data name="SettingsAccessibleBatch84" xml:space="preserve"><value>添加规则</value></data>
+  <data name="SettingsAccessibleBatch85" xml:space="preserve"><value>添加自动化规则</value></data>
+  <data name="SettingsAccessibleBatch86" xml:space="preserve"><value>启用此自动化规则</value></data>
+  <data name="SettingsAccessibleBatch87" xml:space="preserve"><value>自动化规则名称</value></data>
+  <data name="SettingsAccessibleBatch88" xml:space="preserve"><value>触发条件类型</value></data>
+  <data name="SettingsAccessibleBatch89" xml:space="preserve"><value>优先级（数字较小的先执行）</value></data>
+  <data name="SettingsAccessibleBatch90" xml:space="preserve"><value>移除自动化规则</value></data>
+  <data name="SettingsAccessibleBatch91" xml:space="preserve"><value>开始时间</value></data>
+  <data name="SettingsAccessibleBatch92" xml:space="preserve"><value>结束时间</value></data>
+  <data name="SettingsAccessibleBatch93" xml:space="preserve"><value>电池阈值</value></data>
+  <data name="SettingsAccessibleBatch94" xml:space="preserve"><value>电池条件</value></data>
+  <data name="SettingsAccessibleBatch95" xml:space="preserve"><value>交流电源状态</value></data>
+  <data name="SettingsAccessibleBatch96" xml:space="preserve"><value>温度阈值</value></data>
+  <data name="SettingsAccessibleBatch97" xml:space="preserve"><value>温度传感器</value></data>
+  <data name="SettingsAccessibleBatch98" xml:space="preserve"><value>进程名称</value></data>
+  <data name="SettingsAccessibleBatch99" xml:space="preserve"><value>WiFi SSID</value></data>
+  <data name="SettingsAccessibleBatch100" xml:space="preserve"><value>风扇预设操作</value></data>
+  <data name="SettingsAccessibleBatch101" xml:space="preserve"><value>性能模式操作</value></data>
 </root>
