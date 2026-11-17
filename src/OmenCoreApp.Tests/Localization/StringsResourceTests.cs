@@ -359,6 +359,8 @@ namespace OmenCoreApp.Tests.Localization
                 KeyboardMapDisplayText.Translate(warning).Should().Contain("PID123").And.Contain("尚未").And.Contain("反馈");
                 KeyboardMapDisplayText.Translate("2 selected at 50% — they land at 25% once the master's 50% is applied. A running keyboard effect cannot be dimmed — the MCU draws those itself.").Should().Contain("25%").And.Contain("无法调暗");
                 KeyboardMapDisplayText.Translate("unknown backend text").Should().Be("unknown backend text");
+                KeyboardMapDisplayText.Translate("120 LEDs across 100 keys (map1) and 4 light bar zones. Click to select, or drag a box. Hold Ctrl to add. This layout has not been confirmed on hardware.").Should().Contain("120").And.Contain("100").And.Contain("尚未经硬件验证");
+                KeyboardMapDisplayText.Translate("Restored the last picture (12 cells). Apply to send it to the keyboard.").Should().Contain("12").And.Contain("应用");
                 KeyboardMapDisplayText.Translate("2 LEDs accepted, 4 bar zones REFUSED. Only looking confirms it. Brightness 50 was NOT applied - this keyboard's backend has no brightness lever.").Should().Contain("已被接受").And.Contain("被拒绝").And.Contain("只能通过观察确认").And.Contain("未被应用");
                 KeyboardMapDisplayText.Translate("Applied, but the keyboard refused the save-to-flash — the picture is showing now and will not survive a power cycle.").Should().Contain("拒绝").And.Contain("不会保留");
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");

@@ -40,6 +40,23 @@ namespace OmenCore.Localization
                 }
                 return string.Join(", ", parts) + Strings.KeyMapVisualVerify + (brightness.Success ? string.Format(Strings.KeyMapBrightnessNotApplied, brightness.Groups[1].Value) : "");
             }
+            var fixedText = value switch
+            {
+                "Nothing selected. Click keys, or drag a box across them." => Strings.KeyMapNothingSelected,
+                "All keys set to black. Apply to send it." => Strings.KeyMapAllBlack,
+                "No measured key map on this machine." => Strings.KeyMapNoMeasured,
+                "Could not open Settings. It is under Settings > Personalisation > Dynamic Lighting." => Strings.KeyMapSettingsFailed,
+                _ => null
+            };
+            if (fixedText != null) return fixedText;
+            var painted = Regex.Match(value, @"\APainted ([0-9]+) key\(s\) (#[0-9A-Fa-f]{6})\. Keep going, then Apply to send the whole map to the keyboard\.\z", RegexOptions.CultureInvariant);
+            if (painted.Success) return string.Format(Strings.KeyMapPainted, painted.Groups[1].Value, painted.Groups[2].Value);
+            var restored = Regex.Match(value, @"\ARestored the last picture \(([0-9]+) cells\)\. Apply to send it to the keyboard\.\z", RegexOptions.CultureInvariant);
+            if (restored.Success) return string.Format(Strings.KeyMapRestoredPicture, restored.Groups[1].Value);
+            var count = Regex.Match(value, @"\A([0-9]+) keys( and 4 light bar zones)?\. Click to select, or drag a box\. Hold Ctrl to add\.\z", RegexOptions.CultureInvariant);
+            if (count.Success) return string.Format(count.Groups[2].Success ? Strings.KeyMapCountBar : Strings.KeyMapCount, count.Groups[1].Value);
+            var layout = Regex.Match(value, @"\A([0-9]+) LEDs across ([0-9]+) keys \((.+?)\)( and 4 light bar zones\.|\.) Click to select, or drag a box\. Hold Ctrl to add\.( This layout has not been confirmed on hardware\.)?\z", RegexOptions.CultureInvariant);
+            if (layout.Success) return string.Format(Strings.KeyMapLayout, layout.Groups[1].Value, layout.Groups[2].Value, layout.Groups[3].Value, layout.Groups[4].Value == "." ? Strings.KeyMapLayoutNoBar : Strings.KeyMapLayoutBar, layout.Groups[5].Success ? Strings.KeyMapLayoutUnverified : string.Empty);
             const string prefix = "This keyboard (";
             const string suffix = ") matches HP's device list for this protocol but has not been confirmed on hardware here. Per-key colour is expected to work and the layout is read from the keyboard itself, so it should be correct — but if anything misbehaves, that is worth reporting with this device id.";
             if (value.StartsWith(prefix, StringComparison.Ordinal) && value.EndsWith(suffix, StringComparison.Ordinal) && value.Length >= prefix.Length + suffix.Length)

@@ -2615,4 +2615,16 @@ Watch the keyboard and note the NUMBER of the step during which it turns red, th
   <data name="KeyMapBrightnessNotApplied" xml:space="preserve"><value> Brightness {0} was NOT applied - this keyboard's backend has no brightness lever.</value></data>
   <data name="KeyMapFlashSaved" xml:space="preserve"><value>Saved to the keyboard. This picture now survives a power cycle, and shows with OmenCore closed.</value></data>
   <data name="KeyMapFlashRefused" xml:space="preserve"><value>Applied, but the keyboard refused the save-to-flash — the picture is showing now and will not survive a power cycle.</value></data>
+  <data name="KeyMapNothingSelected" xml:space="preserve"><value>Nothing selected. Click keys, or drag a box across them.</value></data>
+  <data name="KeyMapAllBlack" xml:space="preserve"><value>All keys set to black. Apply to send it.</value></data>
+  <data name="KeyMapNoMeasured" xml:space="preserve"><value>No measured key map on this machine.</value></data>
+  <data name="KeyMapSettingsFailed" xml:space="preserve"><value>Could not open Settings. It is under Settings &gt; Personalisation &gt; Dynamic Lighting.</value></data>
+  <data name="KeyMapPainted" xml:space="preserve"><value>Painted {0} key(s) {1}. Keep going, then Apply to send the whole map to the keyboard.</value></data>
+  <data name="KeyMapRestoredPicture" xml:space="preserve"><value>Restored the last picture ({0} cells). Apply to send it to the keyboard.</value></data>
+  <data name="KeyMapCount" xml:space="preserve"><value>{0} keys. Click to select, or drag a box. Hold Ctrl to add.</value></data>
+  <data name="KeyMapCountBar" xml:space="preserve"><value>{0} keys and 4 light bar zones. Click to select, or drag a box. Hold Ctrl to add.</value></data>
+  <data name="KeyMapLayout" xml:space="preserve"><value>{0} LEDs across {1} keys ({2}){3} Click to select, or drag a box. Hold Ctrl to add.{4}</value></data>
+  <data name="KeyMapLayoutBar" xml:space="preserve"><value> and 4 light bar zones.</value></data>
+  <data name="KeyMapLayoutNoBar" xml:space="preserve"><value>.</value></data>
+  <data name="KeyMapLayoutUnverified" xml:space="preserve"><value> This layout has not been confirmed on hardware.</value></data>
 </root>

@@ -2611,4 +2611,16 @@
   <data name="KeyMapBrightnessNotApplied" xml:space="preserve"><value> 亮度 {0} 未被应用：此键盘后端没有亮度调节功能。</value></data>
   <data name="KeyMapFlashSaved" xml:space="preserve"><value>已保存到键盘。此图案将在断电重启后保留，并在 OmenCore 关闭时显示。</value></data>
   <data name="KeyMapFlashRefused" xml:space="preserve"><value>已应用，但键盘拒绝保存到闪存；图案现在可见，但断电重启后不会保留。</value></data>
+  <data name="KeyMapNothingSelected" xml:space="preserve"><value>没有选中任何内容。请单击按键或拖动框选。</value></data>
+  <data name="KeyMapAllBlack" xml:space="preserve"><value>所有按键已设为黑色。请应用以发送到键盘。</value></data>
+  <data name="KeyMapNoMeasured" xml:space="preserve"><value>此设备没有经过实测的键位映射。</value></data>
+  <data name="KeyMapSettingsFailed" xml:space="preserve"><value>无法打开设置。该选项位于“设置 &gt; 个性化 &gt; 动态照明”。</value></data>
+  <data name="KeyMapPainted" xml:space="preserve"><value>已将 {0} 个按键涂为 {1}。可继续编辑，然后点击“应用”将整个映射发送到键盘。</value></data>
+  <data name="KeyMapRestoredPicture" xml:space="preserve"><value>已恢复上次图案（{0} 个单元）。请应用以发送到键盘。</value></data>
+  <data name="KeyMapCount" xml:space="preserve"><value>{0} 个按键。单击选择或拖动框选，按住 Ctrl 可添加到选择。</value></data>
+  <data name="KeyMapCountBar" xml:space="preserve"><value>{0} 个按键和 4 个灯条分区。单击选择或拖动框选，按住 Ctrl 可添加到选择。</value></data>
+  <data name="KeyMapLayout" xml:space="preserve"><value>{1} 个按键包含 {0} 个 LED（{2}）{3} 单击选择或拖动框选，按住 Ctrl 可添加到选择。{4}</value></data>
+  <data name="KeyMapLayoutBar" xml:space="preserve"><value>，另有 4 个灯条分区。</value></data>
+  <data name="KeyMapLayoutNoBar" xml:space="preserve"><value>。</value></data>
+  <data name="KeyMapLayoutUnverified" xml:space="preserve"><value> 此布局尚未经硬件验证。</value></data>
 </root>

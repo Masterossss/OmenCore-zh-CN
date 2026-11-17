@@ -2458,5 +2458,17 @@ namespace OmenCore.Localization
         public static string KeyMapBrightnessNotApplied => Get(nameof(KeyMapBrightnessNotApplied));
         public static string KeyMapFlashSaved => Get(nameof(KeyMapFlashSaved));
         public static string KeyMapFlashRefused => Get(nameof(KeyMapFlashRefused));
+        public static string KeyMapNothingSelected => Get(nameof(KeyMapNothingSelected));
+        public static string KeyMapAllBlack => Get(nameof(KeyMapAllBlack));
+        public static string KeyMapNoMeasured => Get(nameof(KeyMapNoMeasured));
+        public static string KeyMapSettingsFailed => Get(nameof(KeyMapSettingsFailed));
+        public static string KeyMapPainted => Get(nameof(KeyMapPainted));
+        public static string KeyMapRestoredPicture => Get(nameof(KeyMapRestoredPicture));
+        public static string KeyMapCount => Get(nameof(KeyMapCount));
+        public static string KeyMapCountBar => Get(nameof(KeyMapCountBar));
+        public static string KeyMapLayout => Get(nameof(KeyMapLayout));
+        public static string KeyMapLayoutBar => Get(nameof(KeyMapLayoutBar));
+        public static string KeyMapLayoutNoBar => Get(nameof(KeyMapLayoutNoBar));
+        public static string KeyMapLayoutUnverified => Get(nameof(KeyMapLayoutUnverified));
     }
 }
