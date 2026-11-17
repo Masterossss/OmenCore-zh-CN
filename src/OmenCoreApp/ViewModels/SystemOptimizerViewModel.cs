@@ -672,8 +672,8 @@ namespace OmenCore.ViewModels
             }
 
             var confirmation = MessageBox.Show(
-                string.Format(Strings.OptimizerCategoryPrompt, pendingItems.Count, categoryName),
-                string.Format(Strings.OptimizerCategoryTitle, categoryName),
+                string.Format(Strings.OptimizerCategoryPrompt, pendingItems.Count, SystemOptimizerStatusDisplayText.Category(categoryName)),
+                string.Format(Strings.OptimizerCategoryTitle, SystemOptimizerStatusDisplayText.Category(categoryName)),
                 MessageBoxButton.YesNo,
                 MessageBoxImage.Question);
 

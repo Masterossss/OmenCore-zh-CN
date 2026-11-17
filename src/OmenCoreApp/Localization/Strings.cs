@@ -2311,5 +2311,19 @@ namespace OmenCore.Localization
         public static string OptStatusNoReport => Get(nameof(OptStatusNoReport));
         public static string OptStatusReportOpened => Get(nameof(OptStatusReportOpened));
         public static string OptStatusReportCopied => Get(nameof(OptStatusReportCopied));
+        public static string OptCategory0 => Get(nameof(OptCategory0));
+        public static string OptCategory1 => Get(nameof(OptCategory1));
+        public static string OptCategory2 => Get(nameof(OptCategory2));
+        public static string OptCategory3 => Get(nameof(OptCategory3));
+        public static string OptCategory4 => Get(nameof(OptCategory4));
+        public static string OptCategory5 => Get(nameof(OptCategory5));
+        public static string OptStatusApplying => Get(nameof(OptStatusApplying));
+        public static string OptStatusReverting => Get(nameof(OptStatusReverting));
+        public static string OptStatusItemEnabled => Get(nameof(OptStatusItemEnabled));
+        public static string OptStatusItemDisabled => Get(nameof(OptStatusItemDisabled));
+        public static string OptStatusItemEnabledReboot => Get(nameof(OptStatusItemEnabledReboot));
+        public static string OptStatusItemDisabledReboot => Get(nameof(OptStatusItemDisabledReboot));
+        public static string OptStatusCategoryDone => Get(nameof(OptStatusCategoryDone));
+        public static string OptStatusCategoryAlready => Get(nameof(OptStatusCategoryAlready));
     }
 }

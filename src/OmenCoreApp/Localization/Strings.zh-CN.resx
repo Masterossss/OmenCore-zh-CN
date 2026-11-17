@@ -2462,4 +2462,18 @@
   <data name="OptStatusNoReport" xml:space="preserve"><value>失败：没有可复制的报告路径</value></data>
   <data name="OptStatusReportOpened" xml:space="preserve"><value>完成：已打开导出的报告</value></data>
   <data name="OptStatusReportCopied" xml:space="preserve"><value>完成：已将报告路径复制到剪贴板</value></data>
+  <data name="OptCategory0" xml:space="preserve"><value>功率与性能</value></data>
+  <data name="OptCategory1" xml:space="preserve"><value>Windows 服务</value></data>
+  <data name="OptCategory2" xml:space="preserve"><value>网络与延迟</value></data>
+  <data name="OptCategory3" xml:space="preserve"><value>输入与游戏</value></data>
+  <data name="OptCategory4" xml:space="preserve"><value>视觉效果</value></data>
+  <data name="OptCategory5" xml:space="preserve"><value>存储与磁盘</value></data>
+  <data name="OptStatusApplying" xml:space="preserve"><value>正在应用 {0}…</value></data>
+  <data name="OptStatusReverting" xml:space="preserve"><value>正在还原 {0}…</value></data>
+  <data name="OptStatusItemEnabled" xml:space="preserve"><value>完成：已启用 {0}</value></data>
+  <data name="OptStatusItemDisabled" xml:space="preserve"><value>完成：已禁用 {0}</value></data>
+  <data name="OptStatusItemEnabledReboot" xml:space="preserve"><value>完成：已启用 {0}（需要重启）</value></data>
+  <data name="OptStatusItemDisabledReboot" xml:space="preserve"><value>完成：已禁用 {0}（需要重启）</value></data>
+  <data name="OptStatusCategoryDone" xml:space="preserve"><value>完成：已应用 {0} 项{1}优化</value></data>
+  <data name="OptStatusCategoryAlready" xml:space="preserve"><value>完成：{0}已全部应用</value></data>
 </root>

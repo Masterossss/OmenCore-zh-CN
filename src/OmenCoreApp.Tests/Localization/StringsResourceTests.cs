@@ -377,6 +377,9 @@ namespace OmenCoreApp.Tests.Localization
                 SystemOptimizerStatusDisplayText.Translate("Done: Applied 3/5 optimizations (2 failed)").Should().Contain("3/5").And.Contain("2 项失败");
                 SystemOptimizerStatusDisplayText.Translate("Failed: Revert timed out — check system state manually").Should().Contain("超时").And.Contain("手动检查");
                 SystemOptimizerStatusDisplayText.Translate("Failed: unknown error").Should().Contain("失败").And.Contain("unknown error");
+                SystemOptimizerStatusDisplayText.Translate("Done: Applied 2/3 items in Power & Performance (1 failed)").Should().Contain("功率与性能").And.Contain("1 项失败");
+                SystemOptimizerStatusDisplayText.Translate("Done: Game Mode enabled (reboot required)").Should().Contain("游戏模式").And.Contain("需要重启");
+                SystemOptimizerStatusDisplayText.Translate("Reverting unknown item...").Should().Contain("还原").And.Contain("unknown item");
                 CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
                 SystemOptimizerStatusDisplayText.Translate("Done: Applied 3/5 optimizations (2 failed)").Should().Be("Done: Applied 3/5 optimizations (2 failed)");
             }
