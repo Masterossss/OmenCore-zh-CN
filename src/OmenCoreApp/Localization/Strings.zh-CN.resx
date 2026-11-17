@@ -1968,4 +1968,19 @@
   <data name="TrayStateCharging" xml:space="preserve"><value>正在充电</value></data>
   <data name="TrayStateBattery" xml:space="preserve"><value>电池供电</value></data>
   <data name="TrayFanRpm" xml:space="preserve"><value>风扇：{0} · {1}</value></data>
+  <data name="FanCalLoadedOne" xml:space="preserve"><value>已加载 {0} 的校准数据（{1} 个风扇配置文件）。</value></data>
+  <data name="FanCalLoadedMany" xml:space="preserve"><value>已加载 {0} 的校准数据（{1} 个风扇配置文件）。</value></data>
+  <data name="FanCalLoadedTitle" xml:space="preserve"><value>已加载校准数据</value></data>
+  <data name="FanCalNothingSave" xml:space="preserve"><value>没有可保存的成功校准结果。请先运行校准。</value></data>
+  <data name="FanCalNothingTitle" xml:space="preserve"><value>没有可保存的内容</value></data>
+  <data name="FanCalSaved" xml:space="preserve"><value>已保存 {0} 的校准数据。</value></data>
+  <data name="FanCalSavedTitle" xml:space="preserve"><value>校准数据已保存</value></data>
+  <data name="FanCalSaveFailed" xml:space="preserve"><value>保存校准数据失败：{0}</value></data>
+  <data name="FanCalSaveErrorTitle" xml:space="preserve"><value>保存错误</value></data>
+  <data name="FanCalClearPrompt" xml:space="preserve"><value>这将删除此机型的所有校准数据。
+
+确定继续吗？</value></data>
+  <data name="FanCalClearTitle" xml:space="preserve"><value>清除校准数据</value></data>
+  <data name="FanCalCleared" xml:space="preserve"><value>校准数据已清除。</value></data>
+  <data name="FanCalClearedTitle" xml:space="preserve"><value>数据已清除</value></data>
 </root>

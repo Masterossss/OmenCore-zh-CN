@@ -1972,4 +1972,19 @@ Continue with calibration?</value></data>
   <data name="TrayStateCharging" xml:space="preserve"><value>Charging</value></data>
   <data name="TrayStateBattery" xml:space="preserve"><value>On Battery</value></data>
   <data name="TrayFanRpm" xml:space="preserve"><value>Fan: {0} · {1}</value></data>
+  <data name="FanCalLoadedOne" xml:space="preserve"><value>Loaded calibration data for {0} ({1} fan profile).</value></data>
+  <data name="FanCalLoadedMany" xml:space="preserve"><value>Loaded calibration data for {0} ({1} fan profiles).</value></data>
+  <data name="FanCalLoadedTitle" xml:space="preserve"><value>Calibration Loaded</value></data>
+  <data name="FanCalNothingSave" xml:space="preserve"><value>No successful calibration result is available to save. Run calibration first.</value></data>
+  <data name="FanCalNothingTitle" xml:space="preserve"><value>Nothing to Save</value></data>
+  <data name="FanCalSaved" xml:space="preserve"><value>Calibration data saved for {0}.</value></data>
+  <data name="FanCalSavedTitle" xml:space="preserve"><value>Calibration Saved</value></data>
+  <data name="FanCalSaveFailed" xml:space="preserve"><value>Failed to save calibration: {0}</value></data>
+  <data name="FanCalSaveErrorTitle" xml:space="preserve"><value>Save Error</value></data>
+  <data name="FanCalClearPrompt" xml:space="preserve"><value>This will remove all calibration data for this model.
+
+Are you sure?</value></data>
+  <data name="FanCalClearTitle" xml:space="preserve"><value>Clear Calibration Data</value></data>
+  <data name="FanCalCleared" xml:space="preserve"><value>Calibration data cleared.</value></data>
+  <data name="FanCalClearedTitle" xml:space="preserve"><value>Data Cleared</value></data>
 </root>

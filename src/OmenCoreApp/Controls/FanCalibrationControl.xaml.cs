@@ -300,8 +300,8 @@ namespace OmenCore.Controls
             var calibration = _calibrationStorage.GetCalibration(_currentModelId);
             var fanCount = calibration?.FanCalibrations.Count ?? 0;
             MessageBox.Show(
-                $"Loaded calibration data for {_currentModelId} ({fanCount} fan profile{(fanCount == 1 ? "" : "s")}).",
-                "Calibration Loaded",
+                string.Format(fanCount == 1 ? Strings.FanCalLoadedOne : Strings.FanCalLoadedMany, _currentModelId, fanCount),
+                Strings.FanCalLoadedTitle,
                 MessageBoxButton.OK,
                 MessageBoxImage.Information);
         }
@@ -313,8 +313,8 @@ namespace OmenCore.Controls
                 if (_lastCalibrationResult == null || !_lastCalibrationResult.Success)
                 {
                     MessageBox.Show(
-                        "No successful calibration result is available to save. Run calibration first.",
-                        "Nothing to Save",
+                        Strings.FanCalNothingSave,
+                        Strings.FanCalNothingTitle,
                         MessageBoxButton.OK,
                         MessageBoxImage.Information);
                     return;
@@ -329,23 +329,23 @@ namespace OmenCore.Controls
                 SaveCalibrationButton.Visibility = Visibility.Collapsed;
 
                 MessageBox.Show(
-                    $"Calibration data saved for {_currentModelId}.",
-                    "Calibration Saved",
+                    string.Format(Strings.FanCalSaved, _currentModelId),
+                    Strings.FanCalSavedTitle,
                     MessageBoxButton.OK,
                     MessageBoxImage.Information);
             }
             catch (Exception ex)
             {
                 _logging.Error($"Failed to save calibration: {ex.Message}", ex);
-                MessageBox.Show($"Failed to save calibration: {ex.Message}", "Save Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show(string.Format(Strings.FanCalSaveFailed, ex.Message), Strings.FanCalSaveErrorTitle, MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
         private void ClearCalibrationButton_Click(object sender, RoutedEventArgs e)
         {
             var result = MessageBox.Show(
-                "This will remove all calibration data for this model.\n\nAre you sure?",
-                "Clear Calibration Data",
+                Strings.FanCalClearPrompt,
+                Strings.FanCalClearTitle,
                 MessageBoxButton.YesNo,
                 MessageBoxImage.Warning);
 
@@ -353,7 +353,7 @@ namespace OmenCore.Controls
             {
                 // Clear calibration data
                 UpdateCalibrationStatus();
-                MessageBox.Show("Calibration data cleared.", "Data Cleared", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show(Strings.FanCalCleared, Strings.FanCalClearedTitle, MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
 

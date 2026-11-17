@@ -1824,5 +1824,18 @@ namespace OmenCore.Localization
         public static string TrayStateCharging => Get(nameof(TrayStateCharging));
         public static string TrayStateBattery => Get(nameof(TrayStateBattery));
         public static string TrayFanRpm => Get(nameof(TrayFanRpm));
+        public static string FanCalLoadedOne => Get(nameof(FanCalLoadedOne));
+        public static string FanCalLoadedMany => Get(nameof(FanCalLoadedMany));
+        public static string FanCalLoadedTitle => Get(nameof(FanCalLoadedTitle));
+        public static string FanCalNothingSave => Get(nameof(FanCalNothingSave));
+        public static string FanCalNothingTitle => Get(nameof(FanCalNothingTitle));
+        public static string FanCalSaved => Get(nameof(FanCalSaved));
+        public static string FanCalSavedTitle => Get(nameof(FanCalSavedTitle));
+        public static string FanCalSaveFailed => Get(nameof(FanCalSaveFailed));
+        public static string FanCalSaveErrorTitle => Get(nameof(FanCalSaveErrorTitle));
+        public static string FanCalClearPrompt => Get(nameof(FanCalClearPrompt));
+        public static string FanCalClearTitle => Get(nameof(FanCalClearTitle));
+        public static string FanCalCleared => Get(nameof(FanCalCleared));
+        public static string FanCalClearedTitle => Get(nameof(FanCalClearedTitle));
     }
 }
