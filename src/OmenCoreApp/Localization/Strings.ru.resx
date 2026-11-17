@@ -2539,4 +2539,24 @@ To enable: Control Panel → System → System Protection → Configure</value><
   <data name="OnboardingUiBatch28" xml:space="preserve"><value>Hardware monitoring active</value></data>
   <data name="OnboardingUiBatch29" xml:space="preserve"><value>Check Settings → Status for driver details</value></data>
   <data name="OnboardingQuickStartIntro" xml:space="preserve"><value>You're all set! Here are a few things to try first:</value></data>
+  <data name="KeyboardMapUi0" xml:space="preserve"><value>Open Dynamic Lighting settings</value></data>
+  <data name="KeyboardMapUi1" xml:space="preserve"><value>Open the Windows Dynamic Lighting settings page</value></data>
+  <data name="KeyboardMapUi2" xml:space="preserve"><value>Brush:</value></data>
+  <data name="KeyboardMapUi3" xml:space="preserve"><value>Choose a colour</value></data>
+  <data name="KeyboardMapUi4" xml:space="preserve"><value>Choose brush colour</value></data>
+  <data name="KeyboardMapUi5" xml:space="preserve"><value>Pick colour…</value></data>
+  <data name="KeyboardMapUi6" xml:space="preserve"><value>Paint selected</value></data>
+  <data name="KeyboardMapUi7" xml:space="preserve"><value>Select all</value></data>
+  <data name="KeyboardMapUi8" xml:space="preserve"><value>Clear selection</value></data>
+  <data name="KeyboardMapUi9" xml:space="preserve"><value>All black</value></data>
+  <data name="KeyboardMapUi10" xml:space="preserve"><value>Apply to keyboard</value></data>
+  <data name="KeyboardMapUi11" xml:space="preserve"><value>Apply per-key colours to the keyboard</value></data>
+  <data name="KeyboardMapUi12" xml:space="preserve"><value>Save to keyboard</value></data>
+  <data name="KeyboardMapUi13" xml:space="preserve"><value>Save the picture into the keyboard so it survives a power cycle</value></data>
+  <data name="KeyboardMapUi14" xml:space="preserve"><value>Applies the picture, then stores it in the keyboard's own memory so it survives a power cycle and shows with OmenCore closed. This writes to the keyboard's flash, so use it when you have finished rather than after every change.</value></data>
+  <data name="KeyboardMapUi15" xml:space="preserve"><value>Whole keyboard:</value></data>
+  <data name="KeyboardMapUi16" xml:space="preserve"><value>Master brightness for the whole keyboard and light bar</value></data>
+  <data name="KeyboardMapUi17" xml:space="preserve"><value>Selected:</value></data>
+  <data name="KeyboardMapUi18" xml:space="preserve"><value>Brightness of the selected keys and light bar zones</value></data>
+  <data name="KeyboardMapUi19" xml:space="preserve"><value>Click a key to select or deselect it. Drag a box to select a region — it can span the keyboard and the light bar. Hold Ctrl or Shift while dragging to add to the selection.</value></data>
 </root>

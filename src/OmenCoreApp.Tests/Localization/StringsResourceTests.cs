@@ -340,6 +340,7 @@ namespace OmenCoreApp.Tests.Localization
                 Strings.SafetyCriticalBatch21.Should().Contain("崩溃").And.Contain("死机").And.Contain("重启");
                 Strings.FanCalStartPrompt.Should().Contain("0%").And.Contain("100%").And.Contain("5–10").And.Contain("请勿中断");
                 Strings.FanCalAutoFailed.Should().Contain("无法").And.Contain("BIOS");
+                Strings.KeyboardMapUi14.Should().Contain("写入键盘闪存").And.Contain("不是每次修改后");
                 Strings.FanCalClearPrompt.Should().Contain("不会删除");
                 Strings.FanCalCleared.Should().Contain("未删除");
                 string.Format(Strings.FanCalPartial, 5, 2).Should().Contain("5").And.Contain("2").And.Contain("失败");

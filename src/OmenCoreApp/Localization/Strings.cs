@@ -2384,5 +2384,25 @@ namespace OmenCore.Localization
         public static string OnboardingUiBatch28 => Get(nameof(OnboardingUiBatch28));
         public static string OnboardingUiBatch29 => Get(nameof(OnboardingUiBatch29));
         public static string OnboardingQuickStartIntro => Get(nameof(OnboardingQuickStartIntro));
+        public static string KeyboardMapUi0 => Get(nameof(KeyboardMapUi0));
+        public static string KeyboardMapUi1 => Get(nameof(KeyboardMapUi1));
+        public static string KeyboardMapUi2 => Get(nameof(KeyboardMapUi2));
+        public static string KeyboardMapUi3 => Get(nameof(KeyboardMapUi3));
+        public static string KeyboardMapUi4 => Get(nameof(KeyboardMapUi4));
+        public static string KeyboardMapUi5 => Get(nameof(KeyboardMapUi5));
+        public static string KeyboardMapUi6 => Get(nameof(KeyboardMapUi6));
+        public static string KeyboardMapUi7 => Get(nameof(KeyboardMapUi7));
+        public static string KeyboardMapUi8 => Get(nameof(KeyboardMapUi8));
+        public static string KeyboardMapUi9 => Get(nameof(KeyboardMapUi9));
+        public static string KeyboardMapUi10 => Get(nameof(KeyboardMapUi10));
+        public static string KeyboardMapUi11 => Get(nameof(KeyboardMapUi11));
+        public static string KeyboardMapUi12 => Get(nameof(KeyboardMapUi12));
+        public static string KeyboardMapUi13 => Get(nameof(KeyboardMapUi13));
+        public static string KeyboardMapUi14 => Get(nameof(KeyboardMapUi14));
+        public static string KeyboardMapUi15 => Get(nameof(KeyboardMapUi15));
+        public static string KeyboardMapUi16 => Get(nameof(KeyboardMapUi16));
+        public static string KeyboardMapUi17 => Get(nameof(KeyboardMapUi17));
+        public static string KeyboardMapUi18 => Get(nameof(KeyboardMapUi18));
+        public static string KeyboardMapUi19 => Get(nameof(KeyboardMapUi19));
     }
 }

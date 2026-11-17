@@ -2535,4 +2535,24 @@
   <data name="OnboardingUiBatch28" xml:space="preserve"><value>硬件监控已启用</value></data>
   <data name="OnboardingUiBatch29" xml:space="preserve"><value>请在“设置 → 状态”中查看驱动详情</value></data>
   <data name="OnboardingQuickStartIntro" xml:space="preserve"><value>准备就绪！您可以先尝试以下操作：</value></data>
+  <data name="KeyboardMapUi0" xml:space="preserve"><value>打开动态照明设置</value></data>
+  <data name="KeyboardMapUi1" xml:space="preserve"><value>打开 Windows 动态照明设置页面</value></data>
+  <data name="KeyboardMapUi2" xml:space="preserve"><value>画笔：</value></data>
+  <data name="KeyboardMapUi3" xml:space="preserve"><value>选择颜色</value></data>
+  <data name="KeyboardMapUi4" xml:space="preserve"><value>选择画笔颜色</value></data>
+  <data name="KeyboardMapUi5" xml:space="preserve"><value>选择颜色…</value></data>
+  <data name="KeyboardMapUi6" xml:space="preserve"><value>为选中区域上色</value></data>
+  <data name="KeyboardMapUi7" xml:space="preserve"><value>全选</value></data>
+  <data name="KeyboardMapUi8" xml:space="preserve"><value>清除选择</value></data>
+  <data name="KeyboardMapUi9" xml:space="preserve"><value>全部设为黑色</value></data>
+  <data name="KeyboardMapUi10" xml:space="preserve"><value>应用到键盘</value></data>
+  <data name="KeyboardMapUi11" xml:space="preserve"><value>将逐键颜色应用到键盘</value></data>
+  <data name="KeyboardMapUi12" xml:space="preserve"><value>保存到键盘</value></data>
+  <data name="KeyboardMapUi13" xml:space="preserve"><value>将图案保存到键盘，使其断电重启后仍然保留</value></data>
+  <data name="KeyboardMapUi14" xml:space="preserve"><value>应用图案，然后将其存入键盘自身内存，使其断电重启后以及 OmenCore 关闭时仍能显示。此操作会写入键盘闪存，请在完成后使用，而不是每次修改后都写入。</value></data>
+  <data name="KeyboardMapUi15" xml:space="preserve"><value>整个键盘：</value></data>
+  <data name="KeyboardMapUi16" xml:space="preserve"><value>整个键盘和灯条的主亮度</value></data>
+  <data name="KeyboardMapUi17" xml:space="preserve"><value>已选中：</value></data>
+  <data name="KeyboardMapUi18" xml:space="preserve"><value>所选按键和灯条区域的亮度</value></data>
+  <data name="KeyboardMapUi19" xml:space="preserve"><value>单击按键可选中或取消选择。拖动框选一个区域，可跨越键盘和灯条。拖动时按住 Ctrl 或 Shift 可添加到现有选择。</value></data>
 </root>
