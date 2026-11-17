@@ -26,3 +26,10 @@ CPU、GPU、FPS、RTSS、RGB、API、配置键、日志和机器可读字段保�
 
 - P0/P1：`KeyboardMapViewModel.cs` 的按键 Tooltip、未知状态及设备类型、`KeyboardDiagnosticsViewModel.cs` 的外设类型和技术诊断日志仍需按显示语境核查；已知写入拒绝、未验证与闪存风险已处理。
 - P1：`SettingsView.xaml` 的静态字符串与辅助名称已大批处理，下拉选项保留原始配置值并使用显示模板；动态服务状态及 GUI 布局仍待核查。
+
+## 最新增量核查（以源码位置为准）
+
+- P0：`src/OmenCore.Core/Services/NotificationService.cs` 的 `ShowTemperatureWarning`、`ShowCriticalTemperature`、`ShowThermalProtectionActivated`、`ShowAdapterClampReturned`、`ShowEcBridgeUnavailable` 仍生成英文 Toast 和历史通知；需分别追踪并在展示边界转换，保留历史原始数据、日志及保护状态，不能将提示性阈值误译为风扇触发条件。
+- P0：`src/OmenCoreApp/ViewModels/SystemControlViewModel.cs` 的 TCC/MSR 失败、BIOS 锁定与部分成功提示尚需审查；`GpuPowerBoostStatus` 同时参与判断和显示，应保留原字段并在显示边界处理。
+- P1：`src/OmenCoreApp/Views/LightingView.xaml` 仍有 Identify、系统 RGB、快捷颜色、温度响应和降频提示等可见英文；关联图表及 `KeyboardMapViewModel` 的按键提示尚未全部核查。
+- 风扇校准静态说明、系统优化固定风险说明、OSD 温度降频警告及托盘工具提示实时显示已处理；本文件上方较早记录中的相应待办以本节为准。各页面动态链和 GUI 仍未完成验收。
