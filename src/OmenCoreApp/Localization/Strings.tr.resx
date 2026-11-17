@@ -2596,4 +2596,10 @@ To enable: Control Panel → System → System Protection → Configure</value><
 
 Watch the keyboard and note the NUMBER of the step during which it turns red, then report it on the GitHub issue. Your current keyboard colours are saved first and put back when the probe finishes.</value></data>
   <data name="KeyDiagProbeTitle" xml:space="preserve"><value>RGB payload probe</value></data>
+  <data name="KeyMapVerification" xml:space="preserve"><value>This keyboard ({0}) matches HP's device list for this protocol but has not been confirmed on hardware here. Per-key colour is expected to work and the layout is read from the keyboard itself, so it should be correct — but if anything misbehaves, that is worth reporting with this device id.</value></data>
+  <data name="KeyMapDynamicWarning" xml:space="preserve"><value>Windows Dynamic Lighting is switched on for this keyboard. Your colours will look right while OmenCore is open, and Windows will repaint the keyboard as soon as it closes. Turn Dynamic Lighting off for this device to keep them.</value></data>
+  <data name="KeyMapBrightnessNone" xml:space="preserve"><value>Applies on the next Apply. Select keys to dim them independently.</value></data>
+  <data name="KeyMapBrightnessFull" xml:space="preserve"><value>{0} selected, at full. Applies on the next Apply.</value></data>
+  <data name="KeyMapBrightnessPartial" xml:space="preserve"><value>{0} selected at {1}% — they land at {2}% once the master's {3}% is applied.</value></data>
+  <data name="KeyMapBrightnessEffect" xml:space="preserve"><value> A running keyboard effect cannot be dimmed — the MCU draws those itself.</value></data>
 </root>

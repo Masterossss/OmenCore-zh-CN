@@ -2439,5 +2439,11 @@ namespace OmenCore.Localization
         public static string KeyDiagKeyboard => Get(nameof(KeyDiagKeyboard));
         public static string KeyDiagProbePrompt => Get(nameof(KeyDiagProbePrompt));
         public static string KeyDiagProbeTitle => Get(nameof(KeyDiagProbeTitle));
+        public static string KeyMapVerification => Get(nameof(KeyMapVerification));
+        public static string KeyMapDynamicWarning => Get(nameof(KeyMapDynamicWarning));
+        public static string KeyMapBrightnessNone => Get(nameof(KeyMapBrightnessNone));
+        public static string KeyMapBrightnessFull => Get(nameof(KeyMapBrightnessFull));
+        public static string KeyMapBrightnessPartial => Get(nameof(KeyMapBrightnessPartial));
+        public static string KeyMapBrightnessEffect => Get(nameof(KeyMapBrightnessEffect));
     }
 }

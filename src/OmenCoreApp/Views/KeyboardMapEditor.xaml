@@ -5,6 +5,7 @@
              mc:Ignorable="d"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
+    <UserControl.Resources><loc:KeyboardMapDisplayConverter x:Key="KeyboardMapDisplay"/></UserControl.Resources>
     <StackPanel>
 
         <!-- Shown only for a keyboard matched from HP's device table rather than measured here. The
@@ -13,7 +14,7 @@
         <Border Background="#22E0A030" BorderBrush="#E0A030" BorderThickness="1" CornerRadius="6"
                 Padding="10" Margin="0,0,0,10"
                 Visibility="{Binding HasVerificationWarning, Converter={StaticResource BooleanToVisibilityConverter}}">
-            <TextBlock Text="{Binding VerificationWarning}" FontSize="11" Foreground="#F0C070"
+            <TextBlock Text="{Binding VerificationWarning, Converter={StaticResource KeyboardMapDisplay}}" FontSize="11" Foreground="#F0C070"
                        TextWrapping="Wrap"/>
         </Border>
 
@@ -25,7 +26,7 @@
                 Padding="10" Margin="0,0,0,10"
                 Visibility="{Binding HasDynamicLightingWarning, Converter={StaticResource BooleanToVisibilityConverter}}">
             <StackPanel>
-                <TextBlock Text="{Binding DynamicLightingWarning}" FontSize="11" Foreground="#8CC8F0"
+                <TextBlock Text="{Binding DynamicLightingWarning, Converter={StaticResource KeyboardMapDisplay}}" FontSize="11" Foreground="#8CC8F0"
                            TextWrapping="Wrap"/>
                 <Button Content="{x:Static loc:Strings.KeyboardMapUi0}"
                         Command="{Binding OpenDynamicLightingSettingsCommand}"
@@ -134,7 +135,7 @@
 
             <TextBlock Grid.Column="6" FontSize="11" Foreground="#707070" VerticalAlignment="Center"
                        TextWrapping="Wrap" Margin="12,0,0,0"
-                       Text="{Binding BrightnessHint}"/>
+                       Text="{Binding BrightnessHint, Converter={StaticResource KeyboardMapDisplay}}"/>
         </Grid>
 
         <!-- The keyboard itself. Viewbox so the logical layout, computed in millimetres, scales to

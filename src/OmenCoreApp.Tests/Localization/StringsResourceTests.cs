@@ -349,6 +349,23 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void KeyboardMapWarningsPreserveUnverifiedAndWindowsOwnership()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                const string warning = "This keyboard (PID123) matches HP's device list for this protocol but has not been confirmed on hardware here. Per-key colour is expected to work and the layout is read from the keyboard itself, so it should be correct — but if anything misbehaves, that is worth reporting with this device id.";
+                KeyboardMapDisplayText.Translate(warning).Should().Contain("PID123").And.Contain("尚未").And.Contain("反馈");
+                KeyboardMapDisplayText.Translate("2 selected at 50% — they land at 25% once the master's 50% is applied. A running keyboard effect cannot be dimmed — the MCU draws those itself.").Should().Contain("25%").And.Contain("无法调暗");
+                KeyboardMapDisplayText.Translate("unknown backend text").Should().Be("unknown backend text");
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                KeyboardMapDisplayText.Translate(warning).Should().Be(warning);
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void KeyboardDiagnosticsPreservesProbeAndFailureMeaning()
         {
             var original = CultureInfo.CurrentUICulture;
