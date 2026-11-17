@@ -349,6 +349,23 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void KeyboardDiagnosticsPreservesProbeAndFailureMeaning()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                KeyboardDiagnosticDisplayText.Translate("Detection failed: unknown detail").Should().Contain("失败").And.Contain("unknown detail");
+                KeyboardDiagnosticDisplayText.Translate("Probe step 2 of 5: is the keyboard red now?").Should().Contain("2/5").And.Contain("变红");
+                Strings.KeyDiagProbePrompt.Should().Contain("4 秒").And.Contain("恢复").And.Contain("步骤编号");
+                KeyboardDiagnosticDisplayText.Translate("unknown backend").Should().Be("unknown backend");
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                KeyboardDiagnosticDisplayText.Translate("Detection complete. Found 2 device(s).").Should().Be("Detection complete. Found 2 device(s).");
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void SettingsOptionsTranslateDisplayWithoutChangingStoredValues()
         {
             var original = CultureInfo.CurrentUICulture;

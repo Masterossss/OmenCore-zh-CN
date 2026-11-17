@@ -2573,4 +2573,23 @@
   <data name="KeyboardDiagUi15" xml:space="preserve"><value>• 安装或更新灯光软件后请重启应用</value></data>
   <data name="KeyboardDiagUi16" xml:space="preserve"><value>• 在 Windows 事件查看器中检查 SDK 初始化错误</value></data>
   <data name="KeyboardDiagUi17" xml:space="preserve"><value>诊断日志</value></data>
+  <data name="KeyDiagReady" xml:space="preserve"><value>就绪</value></data>
+  <data name="KeyDiagDetecting" xml:space="preserve"><value>正在检测设备…</value></data>
+  <data name="KeyDiagDetected" xml:space="preserve"><value>检测完成，找到 {0} 个设备。</value></data>
+  <data name="KeyDiagDetectFailed" xml:space="preserve"><value>检测失败：{0}</value></data>
+  <data name="KeyDiagProbeStep" xml:space="preserve"><value>探测步骤 {0}/{1}：键盘现在是否变红？</value></data>
+  <data name="KeyDiagProbeFinished" xml:space="preserve"><value>探测完成。请反馈哪一个步骤（如有）使键盘变红。</value></data>
+  <data name="KeyDiagTesting" xml:space="preserve"><value>正在运行测试图案…</value></data>
+  <data name="KeyDiagTestDone" xml:space="preserve"><value>测试图案已成功应用。</value></data>
+  <data name="KeyDiagTestFailed" xml:space="preserve"><value>测试图案失败：{0}</value></data>
+  <data name="KeyDiagClearing" xml:space="preserve"><value>正在清除测试图案…</value></data>
+  <data name="KeyDiagCleared" xml:space="preserve"><value>测试图案已清除。</value></data>
+  <data name="KeyDiagClearFailed" xml:space="preserve"><value>清除失败：{0}</value></data>
+  <data name="KeyDiagConnected" xml:space="preserve"><value>已连接</value></data>
+  <data name="KeyDiagIntegrated" xml:space="preserve"><value>集成键盘</value></data>
+  <data name="KeyDiagKeyboard" xml:space="preserve"><value>键盘</value></data>
+  <data name="KeyDiagProbePrompt" xml:space="preserve"><value>此操作将发送 {0} 条实验性键盘颜色命令，每 4 秒发送一条，颜色均为红色。
+
+请观察键盘，记下它变红时的步骤编号，并在 GitHub 问题中反馈。探测前会先保存当前键盘颜色，结束后再恢复。</value></data>
+  <data name="KeyDiagProbeTitle" xml:space="preserve"><value>RGB 数据载荷探测</value></data>
 </root>

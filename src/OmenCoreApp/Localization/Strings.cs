@@ -2422,5 +2422,22 @@ namespace OmenCore.Localization
         public static string KeyboardDiagUi15 => Get(nameof(KeyboardDiagUi15));
         public static string KeyboardDiagUi16 => Get(nameof(KeyboardDiagUi16));
         public static string KeyboardDiagUi17 => Get(nameof(KeyboardDiagUi17));
+        public static string KeyDiagReady => Get(nameof(KeyDiagReady));
+        public static string KeyDiagDetecting => Get(nameof(KeyDiagDetecting));
+        public static string KeyDiagDetected => Get(nameof(KeyDiagDetected));
+        public static string KeyDiagDetectFailed => Get(nameof(KeyDiagDetectFailed));
+        public static string KeyDiagProbeStep => Get(nameof(KeyDiagProbeStep));
+        public static string KeyDiagProbeFinished => Get(nameof(KeyDiagProbeFinished));
+        public static string KeyDiagTesting => Get(nameof(KeyDiagTesting));
+        public static string KeyDiagTestDone => Get(nameof(KeyDiagTestDone));
+        public static string KeyDiagTestFailed => Get(nameof(KeyDiagTestFailed));
+        public static string KeyDiagClearing => Get(nameof(KeyDiagClearing));
+        public static string KeyDiagCleared => Get(nameof(KeyDiagCleared));
+        public static string KeyDiagClearFailed => Get(nameof(KeyDiagClearFailed));
+        public static string KeyDiagConnected => Get(nameof(KeyDiagConnected));
+        public static string KeyDiagIntegrated => Get(nameof(KeyDiagIntegrated));
+        public static string KeyDiagKeyboard => Get(nameof(KeyDiagKeyboard));
+        public static string KeyDiagProbePrompt => Get(nameof(KeyDiagProbePrompt));
+        public static string KeyDiagProbeTitle => Get(nameof(KeyDiagProbeTitle));
     }
 }

@@ -2581,4 +2581,23 @@ To enable: Control Panel → System → System Protection → Configure</value><
   <data name="KeyboardDiagUi15" xml:space="preserve"><value>• Restart the application after installing/updating lighting software</value></data>
   <data name="KeyboardDiagUi16" xml:space="preserve"><value>• Check Windows Event Viewer for SDK initialization errors</value></data>
   <data name="KeyboardDiagUi17" xml:space="preserve"><value>Diagnostic Logs</value></data>
+  <data name="KeyDiagReady" xml:space="preserve"><value>Ready</value></data>
+  <data name="KeyDiagDetecting" xml:space="preserve"><value>Detecting devices...</value></data>
+  <data name="KeyDiagDetected" xml:space="preserve"><value>Detection complete. Found {0} device(s).</value></data>
+  <data name="KeyDiagDetectFailed" xml:space="preserve"><value>Detection failed: {0}</value></data>
+  <data name="KeyDiagProbeStep" xml:space="preserve"><value>Probe step {0} of {1}: is the keyboard red now?</value></data>
+  <data name="KeyDiagProbeFinished" xml:space="preserve"><value>Probe finished. Report which step number (if any) turned the keyboard red.</value></data>
+  <data name="KeyDiagTesting" xml:space="preserve"><value>Running test pattern...</value></data>
+  <data name="KeyDiagTestDone" xml:space="preserve"><value>Test pattern applied successfully.</value></data>
+  <data name="KeyDiagTestFailed" xml:space="preserve"><value>Test pattern failed: {0}</value></data>
+  <data name="KeyDiagClearing" xml:space="preserve"><value>Clearing test pattern...</value></data>
+  <data name="KeyDiagCleared" xml:space="preserve"><value>Test pattern cleared.</value></data>
+  <data name="KeyDiagClearFailed" xml:space="preserve"><value>Clear failed: {0}</value></data>
+  <data name="KeyDiagConnected" xml:space="preserve"><value>Connected</value></data>
+  <data name="KeyDiagIntegrated" xml:space="preserve"><value>Integrated Keyboard</value></data>
+  <data name="KeyDiagKeyboard" xml:space="preserve"><value>Keyboard</value></data>
+  <data name="KeyDiagProbePrompt" xml:space="preserve"><value>This sends {0} experimental keyboard colour commands, one every 4 seconds, each in red.
+
+Watch the keyboard and note the NUMBER of the step during which it turns red, then report it on the GitHub issue. Your current keyboard colours are saved first and put back when the probe finishes.</value></data>
+  <data name="KeyDiagProbeTitle" xml:space="preserve"><value>RGB payload probe</value></data>
 </root>

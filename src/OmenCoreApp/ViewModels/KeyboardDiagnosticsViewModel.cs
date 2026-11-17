@@ -174,10 +174,8 @@ namespace OmenCore.ViewModels
         {
             if (_wmiBios == null) return;
             var confirm = System.Windows.MessageBox.Show(
-                $"This sends {OmenCore.Hardware.ColorTableProbe.Variants.Count} experimental keyboard colour commands, one every 4 seconds, each in red.\n\n" +
-                "Watch the keyboard and note the NUMBER of the step during which it turns red, then report it on the GitHub issue. " +
-                "Your current keyboard colours are saved first and put back when the probe finishes.",
-                "RGB payload probe", System.Windows.MessageBoxButton.OKCancel, System.Windows.MessageBoxImage.Information);
+                string.Format(OmenCore.Localization.Strings.KeyDiagProbePrompt, OmenCore.Hardware.ColorTableProbe.Variants.Count),
+                OmenCore.Localization.Strings.KeyDiagProbeTitle, System.Windows.MessageBoxButton.OKCancel, System.Windows.MessageBoxImage.Information);
             if (confirm != System.Windows.MessageBoxResult.OK) return;
 
             IsRunningTest = true;
