@@ -2563,4 +2563,22 @@ To enable: Control Panel → System → System Protection → Configure</value><
   <data name="KeyboardMapUi17" xml:space="preserve"><value>Selected:</value></data>
   <data name="KeyboardMapUi18" xml:space="preserve"><value>Brightness of the selected keys and light bar zones</value></data>
   <data name="KeyboardMapUi19" xml:space="preserve"><value>Click a key to select or deselect it. Drag a box to select a region — it can span the keyboard and the light bar. Hold Ctrl or Shift while dragging to add to the selection.</value></data>
+  <data name="KeyboardDiagUi0" xml:space="preserve"><value>Keyboard Lighting Diagnostics</value></data>
+  <data name="KeyboardDiagUi1" xml:space="preserve"><value>Detect Devices</value></data>
+  <data name="KeyboardDiagUi2" xml:space="preserve"><value>Run Test Pattern</value></data>
+  <data name="KeyboardDiagUi3" xml:space="preserve"><value>Clear Test Pattern</value></data>
+  <data name="KeyboardDiagUi4" xml:space="preserve"><value>Collect Logs</value></data>
+  <data name="KeyboardDiagUi5" xml:space="preserve"><value>RGB Payload Probe (advanced)</value></data>
+  <data name="KeyboardDiagUi6" xml:space="preserve"><value>Experimental: tries 5 colour-command layouts for keyboards that ignore colour (GitHub #212).</value></data>
+  <data name="KeyboardDiagUi7" xml:space="preserve"><value>Detected Devices</value></data>
+  <data name="KeyboardDiagUi8" xml:space="preserve"><value>Service Status</value></data>
+  <data name="KeyboardDiagUi9" xml:space="preserve"><value>HP Omen Keyboard:</value></data>
+  <data name="KeyboardDiagUi10" xml:space="preserve"><value>Keyboard Lighting Telemetry</value></data>
+  <data name="KeyboardDiagUi11" xml:space="preserve"><value>Troubleshooting Tips</value></data>
+  <data name="KeyboardDiagUi12" xml:space="preserve"><value>• Ensure iCUE, G HUB, or Synapse software is running for respective devices</value></data>
+  <data name="KeyboardDiagUi13" xml:space="preserve"><value>• Check device connections and try re-plugging USB devices</value></data>
+  <data name="KeyboardDiagUi14" xml:space="preserve"><value>• For HP Omen keyboard, ensure WMI BIOS support is available</value></data>
+  <data name="KeyboardDiagUi15" xml:space="preserve"><value>• Restart the application after installing/updating lighting software</value></data>
+  <data name="KeyboardDiagUi16" xml:space="preserve"><value>• Check Windows Event Viewer for SDK initialization errors</value></data>
+  <data name="KeyboardDiagUi17" xml:space="preserve"><value>Diagnostic Logs</value></data>
 </root>

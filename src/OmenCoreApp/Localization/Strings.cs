@@ -2404,5 +2404,23 @@ namespace OmenCore.Localization
         public static string KeyboardMapUi17 => Get(nameof(KeyboardMapUi17));
         public static string KeyboardMapUi18 => Get(nameof(KeyboardMapUi18));
         public static string KeyboardMapUi19 => Get(nameof(KeyboardMapUi19));
+        public static string KeyboardDiagUi0 => Get(nameof(KeyboardDiagUi0));
+        public static string KeyboardDiagUi1 => Get(nameof(KeyboardDiagUi1));
+        public static string KeyboardDiagUi2 => Get(nameof(KeyboardDiagUi2));
+        public static string KeyboardDiagUi3 => Get(nameof(KeyboardDiagUi3));
+        public static string KeyboardDiagUi4 => Get(nameof(KeyboardDiagUi4));
+        public static string KeyboardDiagUi5 => Get(nameof(KeyboardDiagUi5));
+        public static string KeyboardDiagUi6 => Get(nameof(KeyboardDiagUi6));
+        public static string KeyboardDiagUi7 => Get(nameof(KeyboardDiagUi7));
+        public static string KeyboardDiagUi8 => Get(nameof(KeyboardDiagUi8));
+        public static string KeyboardDiagUi9 => Get(nameof(KeyboardDiagUi9));
+        public static string KeyboardDiagUi10 => Get(nameof(KeyboardDiagUi10));
+        public static string KeyboardDiagUi11 => Get(nameof(KeyboardDiagUi11));
+        public static string KeyboardDiagUi12 => Get(nameof(KeyboardDiagUi12));
+        public static string KeyboardDiagUi13 => Get(nameof(KeyboardDiagUi13));
+        public static string KeyboardDiagUi14 => Get(nameof(KeyboardDiagUi14));
+        public static string KeyboardDiagUi15 => Get(nameof(KeyboardDiagUi15));
+        public static string KeyboardDiagUi16 => Get(nameof(KeyboardDiagUi16));
+        public static string KeyboardDiagUi17 => Get(nameof(KeyboardDiagUi17));
     }
 }

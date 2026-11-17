@@ -2555,4 +2555,22 @@
   <data name="KeyboardMapUi17" xml:space="preserve"><value>已选中：</value></data>
   <data name="KeyboardMapUi18" xml:space="preserve"><value>所选按键和灯条区域的亮度</value></data>
   <data name="KeyboardMapUi19" xml:space="preserve"><value>单击按键可选中或取消选择。拖动框选一个区域，可跨越键盘和灯条。拖动时按住 Ctrl 或 Shift 可添加到现有选择。</value></data>
+  <data name="KeyboardDiagUi0" xml:space="preserve"><value>键盘灯光诊断</value></data>
+  <data name="KeyboardDiagUi1" xml:space="preserve"><value>检测设备</value></data>
+  <data name="KeyboardDiagUi2" xml:space="preserve"><value>运行测试图案</value></data>
+  <data name="KeyboardDiagUi3" xml:space="preserve"><value>清除测试图案</value></data>
+  <data name="KeyboardDiagUi4" xml:space="preserve"><value>收集日志</value></data>
+  <data name="KeyboardDiagUi5" xml:space="preserve"><value>RGB 数据载荷探测（高级）</value></data>
+  <data name="KeyboardDiagUi6" xml:space="preserve"><value>实验性：对忽略颜色的键盘尝试 5 种颜色命令布局（GitHub #212）。</value></data>
+  <data name="KeyboardDiagUi7" xml:space="preserve"><value>已检测设备</value></data>
+  <data name="KeyboardDiagUi8" xml:space="preserve"><value>服务状态</value></data>
+  <data name="KeyboardDiagUi9" xml:space="preserve"><value>HP OMEN 键盘：</value></data>
+  <data name="KeyboardDiagUi10" xml:space="preserve"><value>键盘灯光遥测</value></data>
+  <data name="KeyboardDiagUi11" xml:space="preserve"><value>故障排查提示</value></data>
+  <data name="KeyboardDiagUi12" xml:space="preserve"><value>• 确保对应设备的 iCUE、G HUB 或 Synapse 软件正在运行</value></data>
+  <data name="KeyboardDiagUi13" xml:space="preserve"><value>• 检查设备连接，并尝试重新插拔 USB 设备</value></data>
+  <data name="KeyboardDiagUi14" xml:space="preserve"><value>• 对于 HP OMEN 键盘，请确认 WMI BIOS 支持可用</value></data>
+  <data name="KeyboardDiagUi15" xml:space="preserve"><value>• 安装或更新灯光软件后请重启应用</value></data>
+  <data name="KeyboardDiagUi16" xml:space="preserve"><value>• 在 Windows 事件查看器中检查 SDK 初始化错误</value></data>
+  <data name="KeyboardDiagUi17" xml:space="preserve"><value>诊断日志</value></data>
 </root>
