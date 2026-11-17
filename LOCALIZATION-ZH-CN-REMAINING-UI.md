@@ -15,3 +15,11 @@
 | `src/OmenCoreApp/Localization/MemoryOptimizerDisplayText.cs` | 内存优化 | 未匹配的服务错误及非标准结果摘要 | 状态及清理结果 | 可能 | 可能 | 中 | 标准七项 delta 已汉化；未知错误按原文回退，复制数据保持不变 |
 
 CPU、GPU、FPS、RTSS、RGB、API、配置键、日志和机器可读字段保留英文；它们是技术标识或非显示数据，不计入上述已确认的 UI 英文。其他界面的未判定项仍须审计，不应理解为已经完成。
+
+## 当前优先级与发布阻碍（增量审计）
+
+- P0：`src/OmenCoreApp/Controls/FanCalibrationControl.xaml.cs` 的 `ClearCalibrationButton_Click` 在官方 v5.0.1 即只刷新状态、未看到删除调用，却提示“校准数据已清除”。尚未修改删除行为；须核查并解决误导性结果后才能关闭此项。
+- P0：`SettingsView.xaml`、`TuningView.xaml`、`FanControlView.xaml` 仍有未核实的硬件和恢复相关提示，现有审计尚不足以证明全部风险提示已处理。
+- P1：`SettingsView.xaml` 仍有大量真实用户界面静态文字；`TrayIconService.cs` 的部分提示和实时值、`OsdOverlayWindow.xaml` 的动态状态、`GameLibraryViewModel.cs` 的扫描反馈仍须处理。
+- P1：`BloatwareManagerViewModel.cs` 的其余服务状态与恢复点失败原因、`FanCalibrationControl.xaml` 的静态内容和其他页面动态绑定需继续审计。
+- P2：未知后端错误、自定义软件说明、技术报告和无法确认可达的旧控件保留原文或待核查；无安全隔离 Windows VM，GUI、DPI 与真实 Toast 未验证。
