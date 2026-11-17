@@ -2504,4 +2504,35 @@
   <data name="MainWindowUiBatch25" xml:space="preserve"><value>这是一台 HP OMEN/Victus 设备，但此具体机型的功能是推断所得，尚未由其他用户确认。请查看诊断页面，了解具体受影响的功能。大多数功能应该仍可使用；如发现异常，请反馈。</value></data>
   <data name="MainWindowUiBatch26" xml:space="preserve"><value>最近活动</value></data>
   <data name="MainWindowUiBatch27" xml:space="preserve"><value>系统日志</value></data>
+  <data name="OnboardingUiBatch0" xml:space="preserve"><value>欢迎使用 OmenCore</value></data>
+  <data name="OnboardingUiBatch1" xml:space="preserve"><value>OmenCore 设置</value></data>
+  <data name="OnboardingUiBatch2" xml:space="preserve"><value>👋 欢迎！</value></data>
+  <data name="OnboardingUiBatch3" xml:space="preserve"><value>OmenCore 是由社区开发的 HP OMEN 笔记本风扇、灯光和性能控制程序。</value></data>
+  <data name="OnboardingUiBatch4" xml:space="preserve"><value>快速设置约需 30 秒，可帮助 OmenCore 在您的系统上更好地运行。</value></data>
+  <data name="OnboardingUiBatch5" xml:space="preserve"><value>OmenCore 提供：</value></data>
+  <data name="OnboardingUiBatch6" xml:space="preserve"><value>按温度控制的自定义风扇曲线</value></data>
+  <data name="OnboardingUiBatch7" xml:space="preserve"><value>四区 RGB 键盘灯光控制</value></data>
+  <data name="OnboardingUiBatch8" xml:space="preserve"><value>性能和电源模式切换</value></data>
+  <data name="OnboardingUiBatch9" xml:space="preserve"><value>实时 CPU/GPU 温度和负载监控</value></data>
+  <data name="OnboardingUiBatch10" xml:space="preserve"><value>🔍 您的硬件</value></data>
+  <data name="OnboardingUiBatch11" xml:space="preserve"><value>OmenCore 在您的系统上检测到：</value></data>
+  <data name="OnboardingUiBatch12" xml:space="preserve"><value>风扇控制后端</value></data>
+  <data name="OnboardingUiBatch13" xml:space="preserve"><value>正在检测…</value></data>
+  <data name="OnboardingUiBatch14" xml:space="preserve"><value>监控来源</value></data>
+  <data name="OnboardingUiBatch15" xml:space="preserve"><value>PawnIO 驱动</value></data>
+  <data name="OnboardingUiBatch16" xml:space="preserve"><value>正在检查…</value></data>
+  <data name="OnboardingUiBatch17" xml:space="preserve"><value>🚀 快速开始</value></data>
+  <data name="OnboardingUiBatch18" xml:space="preserve"><value>应用风扇预设</value></data>
+  <data name="OnboardingUiBatch19" xml:space="preserve"><value>前往风扇控制，尝试自动或游戏预设。</value></data>
+  <data name="OnboardingUiBatch20" xml:space="preserve"><value>自定义灯光</value></data>
+  <data name="OnboardingUiBatch21" xml:space="preserve"><value>打开灯光页面，单击任意键盘分区以更改颜色。</value></data>
+  <data name="OnboardingUiBatch22" xml:space="preserve"><value>配置设置</value></data>
+  <data name="OnboardingUiBatch23" xml:space="preserve"><value>启用随 Windows 启动，设置轮询间隔并了解自动化功能。</value></data>
+  <data name="OnboardingUiBatch24" xml:space="preserve"><value>← 返回</value></data>
+  <data name="OnboardingUiBatch25" xml:space="preserve"><value>下一步 →</value></data>
+  <data name="OnboardingUiBatch26" xml:space="preserve"><value>开始使用</value></data>
+  <data name="OnboardingUiBatch27" xml:space="preserve"><value>EC（嵌入式控制器）</value></data>
+  <data name="OnboardingUiBatch28" xml:space="preserve"><value>硬件监控已启用</value></data>
+  <data name="OnboardingUiBatch29" xml:space="preserve"><value>请在“设置 → 状态”中查看驱动详情</value></data>
+  <data name="OnboardingQuickStartIntro" xml:space="preserve"><value>准备就绪！您可以先尝试以下操作：</value></data>
 </root>

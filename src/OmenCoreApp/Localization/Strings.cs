@@ -2353,5 +2353,36 @@ namespace OmenCore.Localization
         public static string MainWindowUiBatch25 => Get(nameof(MainWindowUiBatch25));
         public static string MainWindowUiBatch26 => Get(nameof(MainWindowUiBatch26));
         public static string MainWindowUiBatch27 => Get(nameof(MainWindowUiBatch27));
+        public static string OnboardingUiBatch0 => Get(nameof(OnboardingUiBatch0));
+        public static string OnboardingUiBatch1 => Get(nameof(OnboardingUiBatch1));
+        public static string OnboardingUiBatch2 => Get(nameof(OnboardingUiBatch2));
+        public static string OnboardingUiBatch3 => Get(nameof(OnboardingUiBatch3));
+        public static string OnboardingUiBatch4 => Get(nameof(OnboardingUiBatch4));
+        public static string OnboardingUiBatch5 => Get(nameof(OnboardingUiBatch5));
+        public static string OnboardingUiBatch6 => Get(nameof(OnboardingUiBatch6));
+        public static string OnboardingUiBatch7 => Get(nameof(OnboardingUiBatch7));
+        public static string OnboardingUiBatch8 => Get(nameof(OnboardingUiBatch8));
+        public static string OnboardingUiBatch9 => Get(nameof(OnboardingUiBatch9));
+        public static string OnboardingUiBatch10 => Get(nameof(OnboardingUiBatch10));
+        public static string OnboardingUiBatch11 => Get(nameof(OnboardingUiBatch11));
+        public static string OnboardingUiBatch12 => Get(nameof(OnboardingUiBatch12));
+        public static string OnboardingUiBatch13 => Get(nameof(OnboardingUiBatch13));
+        public static string OnboardingUiBatch14 => Get(nameof(OnboardingUiBatch14));
+        public static string OnboardingUiBatch15 => Get(nameof(OnboardingUiBatch15));
+        public static string OnboardingUiBatch16 => Get(nameof(OnboardingUiBatch16));
+        public static string OnboardingUiBatch17 => Get(nameof(OnboardingUiBatch17));
+        public static string OnboardingUiBatch18 => Get(nameof(OnboardingUiBatch18));
+        public static string OnboardingUiBatch19 => Get(nameof(OnboardingUiBatch19));
+        public static string OnboardingUiBatch20 => Get(nameof(OnboardingUiBatch20));
+        public static string OnboardingUiBatch21 => Get(nameof(OnboardingUiBatch21));
+        public static string OnboardingUiBatch22 => Get(nameof(OnboardingUiBatch22));
+        public static string OnboardingUiBatch23 => Get(nameof(OnboardingUiBatch23));
+        public static string OnboardingUiBatch24 => Get(nameof(OnboardingUiBatch24));
+        public static string OnboardingUiBatch25 => Get(nameof(OnboardingUiBatch25));
+        public static string OnboardingUiBatch26 => Get(nameof(OnboardingUiBatch26));
+        public static string OnboardingUiBatch27 => Get(nameof(OnboardingUiBatch27));
+        public static string OnboardingUiBatch28 => Get(nameof(OnboardingUiBatch28));
+        public static string OnboardingUiBatch29 => Get(nameof(OnboardingUiBatch29));
+        public static string OnboardingQuickStartIntro => Get(nameof(OnboardingQuickStartIntro));
     }
 }

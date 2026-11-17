@@ -30,7 +30,7 @@ namespace OmenCore.Views
             var fb = _config?.EcDevicePath;
             if (!string.IsNullOrWhiteSpace(fb))
             {
-                FanBackendText.Text = "EC (Embedded Controller)";
+                FanBackendText.Text = OmenCore.Localization.Strings.OnboardingUiBatch27;
                 FanBackendDot.Fill = (Brush)FindResource("SuccessBrush");
             }
             else
@@ -39,9 +39,9 @@ namespace OmenCore.Views
                 FanBackendDot.Fill = (Brush)FindResource("WarningBrush");
             }
 
-            MonitoringText.Text = "Hardware monitoring active";
+            MonitoringText.Text = OmenCore.Localization.Strings.OnboardingUiBatch28;
             MonitoringDot.Fill = (Brush)FindResource("SuccessBrush");
-            DriverText.Text = "Check Settings → Status for driver details";
+            DriverText.Text = OmenCore.Localization.Strings.OnboardingUiBatch29;
             DriverDot.Fill = (Brush)FindResource("TextTertiaryBrush");
         }
 

@@ -2508,4 +2508,35 @@ To enable: Control Panel → System → System Protection → Configure</value><
   <data name="MainWindowUiBatch25" xml:space="preserve"><value>This is a real HP OMEN/Victus system, but this exact model's capabilities are inferred rather than confirmed by another user - see the Diagnostics tab for exactly which features that affects. Most functionality should still work; please report anything that looks wrong.</value></data>
   <data name="MainWindowUiBatch26" xml:space="preserve"><value>RECENT ACTIVITY</value></data>
   <data name="MainWindowUiBatch27" xml:space="preserve"><value>SYSTEM LOG</value></data>
+  <data name="OnboardingUiBatch0" xml:space="preserve"><value>Welcome to OmenCore</value></data>
+  <data name="OnboardingUiBatch1" xml:space="preserve"><value>OmenCore Setup</value></data>
+  <data name="OnboardingUiBatch2" xml:space="preserve"><value>👋 Welcome!</value></data>
+  <data name="OnboardingUiBatch3" xml:space="preserve"><value>OmenCore is a community-built fan, lighting, and performance controller for HP OMEN laptops.</value></data>
+  <data name="OnboardingUiBatch4" xml:space="preserve"><value>This quick setup takes about 30 seconds and helps OmenCore work best on your system.</value></data>
+  <data name="OnboardingUiBatch5" xml:space="preserve"><value>What OmenCore does:</value></data>
+  <data name="OnboardingUiBatch6" xml:space="preserve"><value>Custom fan curves with temperature-based control</value></data>
+  <data name="OnboardingUiBatch7" xml:space="preserve"><value>4-zone RGB keyboard lighting control</value></data>
+  <data name="OnboardingUiBatch8" xml:space="preserve"><value>Performance and power mode switching</value></data>
+  <data name="OnboardingUiBatch9" xml:space="preserve"><value>Real-time CPU/GPU temperature and load monitoring</value></data>
+  <data name="OnboardingUiBatch10" xml:space="preserve"><value>🔍 Your Hardware</value></data>
+  <data name="OnboardingUiBatch11" xml:space="preserve"><value>OmenCore detected the following on your system:</value></data>
+  <data name="OnboardingUiBatch12" xml:space="preserve"><value>Fan Control Backend</value></data>
+  <data name="OnboardingUiBatch13" xml:space="preserve"><value>Detecting...</value></data>
+  <data name="OnboardingUiBatch14" xml:space="preserve"><value>Monitoring Source</value></data>
+  <data name="OnboardingUiBatch15" xml:space="preserve"><value>PawnIO Driver</value></data>
+  <data name="OnboardingUiBatch16" xml:space="preserve"><value>Checking...</value></data>
+  <data name="OnboardingUiBatch17" xml:space="preserve"><value>🚀 Quick Start</value></data>
+  <data name="OnboardingUiBatch18" xml:space="preserve"><value>Apply a Fan Preset</value></data>
+  <data name="OnboardingUiBatch19" xml:space="preserve"><value>Head to Fan Control and try the Auto or Gaming preset.</value></data>
+  <data name="OnboardingUiBatch20" xml:space="preserve"><value>Customise Your Lighting</value></data>
+  <data name="OnboardingUiBatch21" xml:space="preserve"><value>Open Lighting and click any keyboard zone to change its colour.</value></data>
+  <data name="OnboardingUiBatch22" xml:space="preserve"><value>Configure Settings</value></data>
+  <data name="OnboardingUiBatch23" xml:space="preserve"><value>Enable start with Windows, set a polling interval, and explore automations.</value></data>
+  <data name="OnboardingUiBatch24" xml:space="preserve"><value>← Back</value></data>
+  <data name="OnboardingUiBatch25" xml:space="preserve"><value>Next →</value></data>
+  <data name="OnboardingUiBatch26" xml:space="preserve"><value>Get Started</value></data>
+  <data name="OnboardingUiBatch27" xml:space="preserve"><value>EC (Embedded Controller)</value></data>
+  <data name="OnboardingUiBatch28" xml:space="preserve"><value>Hardware monitoring active</value></data>
+  <data name="OnboardingUiBatch29" xml:space="preserve"><value>Check Settings → Status for driver details</value></data>
+  <data name="OnboardingQuickStartIntro" xml:space="preserve"><value>You're all set! Here are a few things to try first:</value></data>
 </root>
