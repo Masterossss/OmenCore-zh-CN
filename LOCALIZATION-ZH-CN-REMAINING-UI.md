@@ -20,6 +20,6 @@ CPU、GPU、FPS、RTSS、RGB、API、配置键、日志和机器可读字段保�
 
 - P0：`src/OmenCoreApp/Controls/FanCalibrationControl.xaml.cs` 的 `ClearCalibrationButton_Click` 在官方 v5.0.1 即只刷新状态、未看到删除调用，却提示“校准数据已清除”。尚未修改删除行为；须核查并解决误导性结果后才能关闭此项。
 - P0：`SettingsView.xaml`、`TuningView.xaml`、`FanControlView.xaml` 仍有未核实的硬件和恢复相关提示，现有审计尚不足以证明全部风险提示已处理。
-- P1：`SettingsView.xaml` 仍有大量真实用户界面静态文字；`TrayIconService.cs` 的部分提示和实时值、`OsdOverlayWindow.xaml` 的动态状态、`GameLibraryViewModel.cs` 的扫描反馈仍须处理。
+- P1：`SettingsView.xaml` 仍有大量真实用户界面静态文字；`TrayIconService.cs` 的部分提示和实时值、`OsdOverlayWindow.xaml` 的动态状态；游戏库扫描反馈已处理。
 - P1：`BloatwareManagerViewModel.cs` 的其余服务状态与恢复点失败原因、`FanCalibrationControl.xaml` 的静态内容和其他页面动态绑定需继续审计。
 - P2：未知后端错误、自定义软件说明、技术报告和无法确认可达的旧控件保留原文或待核查；无安全隔离 Windows VM，GUI、DPI 与真实 Toast 未验证。

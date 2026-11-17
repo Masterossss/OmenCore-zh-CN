@@ -21,7 +21,7 @@
 | `src/OmenCoreApp/Views/DiagnosticsView.xaml` | 源码引用：`src/OmenCoreApp/Views/MainWindow.xaml.cs` | 部分处理 | 部分处理 | 待核查 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | 文本节点、绑定状态及相关服务需核查 | 进行中 |
 | `src/OmenCoreApp/Views/FanControlView.xaml` | 源码引用：`src/OmenCoreApp/Views/AdvancedView.xaml` | 部分处理 | 部分处理 | 待核查 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | 文本节点、绑定状态及相关服务需核查 | 进行中 |
 | `src/OmenCoreApp/Views/FanDiagnosticsView.xaml` | 源码引用：`src/OmenCoreApp/Views/DiagnosticsView.xaml` | 部分处理 | 部分处理 | 待核查 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | 文本节点、绑定状态及相关服务需核查 | 进行中 |
-| `src/OmenCoreApp/Views/GameLibraryView.xaml` | 源码引用：`src/OmenCoreApp/Views/MainWindow.xaml.cs` | 部分处理 | 部分处理 | 待确认 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | 文本节点、绑定状态及相关服务需核查 | 进行中 |
+| `src/OmenCoreApp/Views/GameLibraryView.xaml` | 源码引用：`src/OmenCoreApp/Views/MainWindow.xaml.cs` | 静态结构化审查完成 | 扫描状态、平台筛选和文件选择源码审查完成 | 不涉及硬件风险确认 | 全局通过，引用待核查 | 63 项相关纯软件测试通过 | 资源测试通过；页面切换未测 | 未执行 | GUI、实际扫描与页面切换未验证；平台名称、游戏名和路径保留原文 | 源码汉化完成，GUI 待验证 |
 | `src/OmenCoreApp/Views/GameProfileManagerView.xaml` | 源码引用：`src/OmenCoreApp/ViewModels/MainViewModel.cs` | 部分处理 | 部分处理 | 待确认 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | 文本节点、绑定状态及相关服务需核查 | 进行中 |
 | `src/OmenCoreApp/Views/GeneralView.xaml` | 源码引用：`src/OmenCoreApp/Views/MainWindow.xaml.cs` | 部分处理 | 部分处理 | 待核查 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | 文本节点、绑定状态及相关服务需核查 | 进行中 |
 | `src/OmenCoreApp/Views/HotkeyOsdWindow.xaml` | 源码引用：`src/OmenCoreApp/ViewModels/MainViewModel.cs` | 待审查 | 待审查 | 待确认 | 全局通过，引用待核查 | 全局 33 项通过；非逐页面验收 | 资源测试通过；页面切换未测 | 未执行 | 热键来源已处理；模式名、调用方与静态内容待核查 | 进行中 |
