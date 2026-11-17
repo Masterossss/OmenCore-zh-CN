@@ -666,19 +666,19 @@ namespace OmenCore.Utils
 
                 SetMenuHeaderIfChanged(_cpuTempMenuItem, $"CPU: {cpuTempStr} · {cpuLoad:F0}%");
                 SetMenuHeaderIfChanged(_gpuTempMenuItem, $"GPU: {gpuTempStr} · {gpuLoad:F0}%");
-                SetMenuHeaderIfChanged(_monitoringHealthMenuItem, BuildMonitoringHealthHeaderText(_monitoringHealth));
+                SetMenuHeaderIfChanged(_monitoringHealthMenuItem, OmenCore.Localization.TrayStatusDisplayText.Monitor(_monitoringHealth));
                 SetMenuHeaderIfChanged(_ramMenuItem, $"RAM: {memUsedGb:F1}/{memTotalGb:F1} GB ({memPercent:F0}%)");
 
                 var fanRpmStr = fan2Rpm > 0
                     ? $"CPU {fan1Rpm} · GPU {fan2Rpm} RPM"
                     : (fan1Rpm > 0 ? $"{fan1Rpm} RPM" : "—");
-                SetMenuHeaderIfChanged(_fanStatusMenuItem, $"Fan: {_currentFanMode} · {fanRpmStr}");
+                SetMenuHeaderIfChanged(_fanStatusMenuItem, string.Format(OmenCore.Localization.Strings.TrayFanRpm, OmenCore.Localization.TrayStatusDisplayText.Value(_currentFanMode), fanRpmStr));
 
                 if (_batteryMenuItem != null)
                 {
                     if (batteryPercent > 0 || isAc)
                     {
-                        SetMenuHeaderIfChanged(_batteryMenuItem, $"{batteryPercent:F0}% · {(isAc ? "Charging" : "On Battery")}");
+                        SetMenuHeaderIfChanged(_batteryMenuItem, $"{batteryPercent:F0}% · {(isAc ? OmenCore.Localization.Strings.TrayStateCharging : OmenCore.Localization.Strings.TrayStateBattery)}");
                         SetMenuVisibilityIfChanged(_batteryMenuItem, Visibility.Visible);
                     }
                     else
@@ -770,7 +770,7 @@ namespace OmenCore.Utils
             _currentPerformanceMode = PerformanceModeNameResolver.Normalize(mode);
             if (_performanceModeMenuItem != null)
             {
-                _performanceModeMenuItem.Header = BuildPerformanceModeHeaderText(_currentPerformanceMode);
+                _performanceModeMenuItem.Header = OmenCore.Localization.TrayStatusDisplayText.Performance(_currentPerformanceMode);
             }
             
             // v2.6.1: Update checkmarks on performance menu items
@@ -1032,8 +1032,8 @@ namespace OmenCore.Utils
                 if (_performanceModeMenuItem != null)
                 {
                     _performanceModeMenuItem.Header = _performanceIsFirmwareDefault
-                        ? BuildPerformanceModeHeaderText("Firmware default")
-                        : BuildPerformanceModeHeaderText(_currentPerformanceMode);
+                        ? OmenCore.Localization.TrayStatusDisplayText.Performance("Firmware default")
+                        : OmenCore.Localization.TrayStatusDisplayText.Performance(_currentPerformanceMode);
                 }
 
                 UpdatePerformanceModeCheckmarks(_currentPerformanceMode);
@@ -1085,7 +1085,7 @@ namespace OmenCore.Utils
             {
                 if (_monitoringHealthMenuItem != null)
                 {
-                    _monitoringHealthMenuItem.Header = BuildMonitoringHealthHeaderText(_monitoringHealth);
+                    _monitoringHealthMenuItem.Header = OmenCore.Localization.TrayStatusDisplayText.Monitor(_monitoringHealth);
                 }
 
                 if (_quickPopup != null)
@@ -1096,7 +1096,7 @@ namespace OmenCore.Utils
         }
 
         private string BuildFanModeHeader() =>
-            BuildFanModeHeaderText(_currentFanMode, _pendingFanModeRequest, _linkFanToPerformanceMode);
+            OmenCore.Localization.TrayStatusDisplayText.Fan(_currentFanMode, _pendingFanModeRequest, _linkFanToPerformanceMode);
 
         private static string NormalizeFanModeForDisplay(string? mode)
         {

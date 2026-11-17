@@ -1962,4 +1962,18 @@ Continue with calibration?</value></data>
   <data name="SafetyFollowup12" xml:space="preserve"><value>Battery power performance mode</value></data>
   <data name="SafetyFollowup13" xml:space="preserve"><value>Link fan to performance mode</value></data>
   <data name="SettingsDriverSecurityNotice" xml:space="preserve"><value>On modern Windows systems, Secure Boot and Memory Integrity can block legacy drivers. OmenCore prefers driverless control paths (WMI/OGH) when available, and recommends PawnIO for Secure Boot compatible MSR/EC access.</value></data>
+  <data name="TrayHeaderFan" xml:space="preserve"><value>Fan Mode: {0}{1}</value></data>
+  <data name="TrayHeaderFanPending" xml:space="preserve"><value>Fan Mode: {0}{1} (requested: {2})</value></data>
+  <data name="TrayHeaderLinked" xml:space="preserve"><value> [linked]</value></data>
+  <data name="TrayHeaderPerformance" xml:space="preserve"><value>Performance: {0}</value></data>
+  <data name="TrayHeaderMonitor" xml:space="preserve"><value>Monitor: {0}</value></data>
+  <data name="TrayStateUnknown" xml:space="preserve"><value>Unknown</value></data>
+  <data name="TrayStateHealthy" xml:space="preserve"><value>Healthy</value></data>
+  <data name="TrayStateDegraded" xml:space="preserve"><value>Degraded</value></data>
+  <data name="TrayStateStale" xml:space="preserve"><value>Stale</value></data>
+  <data name="TrayStateFirmwareDefault" xml:space="preserve"><value>Firmware default</value></data>
+  <data name="TrayStateCustom" xml:space="preserve"><value>Custom</value></data>
+  <data name="TrayStateCharging" xml:space="preserve"><value>Charging</value></data>
+  <data name="TrayStateBattery" xml:space="preserve"><value>On Battery</value></data>
+  <data name="TrayFanRpm" xml:space="preserve"><value>Fan: {0} · {1}</value></data>
 </root>

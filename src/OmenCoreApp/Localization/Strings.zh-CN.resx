@@ -1954,4 +1954,18 @@
   <data name="SafetyFollowup12" xml:space="preserve"><value>电池供电性能模式</value></data>
   <data name="SafetyFollowup13" xml:space="preserve"><value>将风扇与性能模式关联</value></data>
   <data name="SettingsDriverSecurityNotice" xml:space="preserve"><value>在较新版本的 Windows 上，安全启动和内存完整性可能阻止旧版驱动。OmenCore 在可用时优先采用无需驱动的控制路径（WMI/OGH），并推荐使用与安全启动兼容的 PawnIO 来访问 MSR/EC。</value></data>
+  <data name="TrayHeaderFan" xml:space="preserve"><value>风扇模式：{0}{1}</value></data>
+  <data name="TrayHeaderFanPending" xml:space="preserve"><value>风扇模式：{0}{1}（请求：{2}）</value></data>
+  <data name="TrayHeaderLinked" xml:space="preserve"><value>［已关联］</value></data>
+  <data name="TrayHeaderPerformance" xml:space="preserve"><value>性能：{0}</value></data>
+  <data name="TrayHeaderMonitor" xml:space="preserve"><value>监控：{0}</value></data>
+  <data name="TrayStateUnknown" xml:space="preserve"><value>未知</value></data>
+  <data name="TrayStateHealthy" xml:space="preserve"><value>正常</value></data>
+  <data name="TrayStateDegraded" xml:space="preserve"><value>降级</value></data>
+  <data name="TrayStateStale" xml:space="preserve"><value>数据过期</value></data>
+  <data name="TrayStateFirmwareDefault" xml:space="preserve"><value>固件默认</value></data>
+  <data name="TrayStateCustom" xml:space="preserve"><value>自定义</value></data>
+  <data name="TrayStateCharging" xml:space="preserve"><value>正在充电</value></data>
+  <data name="TrayStateBattery" xml:space="preserve"><value>电池供电</value></data>
+  <data name="TrayFanRpm" xml:space="preserve"><value>风扇：{0} · {1}</value></data>
 </root>

@@ -1810,5 +1810,19 @@ namespace OmenCore.Localization
         public static string SafetyFollowup12 => Get(nameof(SafetyFollowup12));
         public static string SafetyFollowup13 => Get(nameof(SafetyFollowup13));
         public static string SettingsDriverSecurityNotice => Get(nameof(SettingsDriverSecurityNotice));
+        public static string TrayHeaderFan => Get(nameof(TrayHeaderFan));
+        public static string TrayHeaderFanPending => Get(nameof(TrayHeaderFanPending));
+        public static string TrayHeaderLinked => Get(nameof(TrayHeaderLinked));
+        public static string TrayHeaderPerformance => Get(nameof(TrayHeaderPerformance));
+        public static string TrayHeaderMonitor => Get(nameof(TrayHeaderMonitor));
+        public static string TrayStateUnknown => Get(nameof(TrayStateUnknown));
+        public static string TrayStateHealthy => Get(nameof(TrayStateHealthy));
+        public static string TrayStateDegraded => Get(nameof(TrayStateDegraded));
+        public static string TrayStateStale => Get(nameof(TrayStateStale));
+        public static string TrayStateFirmwareDefault => Get(nameof(TrayStateFirmwareDefault));
+        public static string TrayStateCustom => Get(nameof(TrayStateCustom));
+        public static string TrayStateCharging => Get(nameof(TrayStateCharging));
+        public static string TrayStateBattery => Get(nameof(TrayStateBattery));
+        public static string TrayFanRpm => Get(nameof(TrayFanRpm));
     }
 }

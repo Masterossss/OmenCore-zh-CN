@@ -346,6 +346,22 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void TrayDisplayKeepsRequestedModeDistinctFromActiveMode()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                TrayStatusDisplayText.Fan("Auto", "Max", true).Should().Contain("自动").And.Contain("请求：最大").And.Contain("已关联");
+                TrayStatusDisplayText.Monitor("Degraded").Should().Contain("降级");
+                TrayStatusDisplayText.Value("Vendor mode").Should().Be("Vendor mode");
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                TrayStatusDisplayText.Fan("Auto", "Max", true).Should().Be(OmenCore.Utils.TrayIconService.BuildFanModeHeaderText("Auto", "Max", true));
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void HotkeyOsdDisplaysKnownValuesAndPreservesCustomNames()
         {
             var original = CultureInfo.CurrentUICulture;
