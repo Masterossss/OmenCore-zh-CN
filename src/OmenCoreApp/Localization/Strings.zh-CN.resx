@@ -2082,4 +2082,33 @@
   <data name="GamePlatformAll" xml:space="preserve"><value>全部</value></data>
   <data name="GamePlatformManual" xml:space="preserve"><value>手动添加</value></data>
   <data name="GamePlatformUnknown" xml:space="preserve"><value>未知</value></data>
+  <data name="SettingsUiBatch0" xml:space="preserve"><value>OmenCore 现在自动管理刷新节奏：活动窗口和 OSD 保持响应，空闲时安全降低频率；没有阻碍时，低开销的仅托盘模式可降至超低频率。</value></data>
+  <data name="SettingsUiBatch1" xml:space="preserve"><value>界面或 OSD 需要实时数据时为 1 秒，普通后台空闲时为 5 秒，符合条件的低开销仅托盘模式为 10 秒。可使用下方低开销模式优先选择较低频率。</value></data>
+  <data name="SettingsUiBatch2" xml:space="preserve"><value>应用未处于活动状态时停用热键，以避免冲突</value></data>
+  <data name="SettingsUiBatch3" xml:space="preserve"><value>游戏配置文件启用或停用时通知</value></data>
+  <data name="SettingsUiBatch4" xml:space="preserve"><value>通过热键更改风扇或性能模式时通知</value></data>
+  <data name="SettingsUiBatch5" xml:space="preserve"><value>下载并安装 PawnIO：兼容安全启动的 EC/MSR 访问驱动</value></data>
+  <data name="SettingsUiBatch6" xml:space="preserve"><value>重新检查驱动和 EC 后端状态</value></data>
+  <data name="SettingsUiBatch7" xml:space="preserve"><value>切换到软件清理页面</value></data>
+  <data name="SettingsUiBatch8" xml:space="preserve"><value>支持 Corsair 键盘、鼠标和耳机</value></data>
+  <data name="SettingsUiBatch9" xml:space="preserve"><value>支持 Logitech G 外设</value></data>
+  <data name="SettingsUiBatch10" xml:space="preserve"><value>游戏启动时自动应用配置文件</value></data>
+  <data name="SettingsUiBatch11" xml:space="preserve"><value>OMEN 键盘四区 RGB 灯光</value></data>
+  <data name="SettingsUiBatch12" xml:space="preserve"><value>将键盘和外设与屏幕颜色同步（环境光效果）</value></data>
+  <data name="SettingsUiBatch13" xml:space="preserve"><value>💡 从屏幕边缘采样颜色并应用到 RGB 设备</value></data>
+  <data name="SettingsUiBatch14" xml:space="preserve"><value>💡 安全的替代方案：使用 HP Omen Gaming Hub 控制键盘灯光</value></data>
+  <data name="SettingsUiBatch15" xml:space="preserve"><value>接管 OMEN 键，显示 OmenCore 而不是 HP Gaming Hub</value></data>
+  <data name="SettingsUiBatch16" xml:space="preserve"><value>（卡片更小，次要文字更少）</value></data>
+  <data name="SettingsUiBatch17" xml:space="preserve"><value>提高风扇转速前等待</value></data>
+  <data name="SettingsUiBatch18" xml:space="preserve"><value>降低风扇转速前等待</value></data>
+  <data name="SettingsUiBatch19" xml:space="preserve"><value>保存当前配置以便分享或备份</value></data>
+  <data name="SettingsUiBatch20" xml:space="preserve"><value>导出日志和系统信息以便排查问题</value></data>
+  <data name="SettingsUiBatch21" xml:space="preserve"><value>打开 %LOCALAPPDATA%\OmenCore，其中存放设置和配置文件</value></data>
+  <data name="SettingsUiBatch22" xml:space="preserve"><value>打开包含 OmenCore 诊断日志文件的文件夹</value></data>
+  <data name="SettingsUiBatch23" xml:space="preserve"><value>在浏览器中打开 OmenCore GitHub 仓库</value></data>
+  <data name="SettingsUiBatch24" xml:space="preserve"><value>查看此版本的完整更新日志</value></data>
+  <data name="SettingsUiBatch25" xml:space="preserve"><value>打开 GitHub 问题跟踪器以报告错误或请求功能</value></data>
+  <data name="SettingsUiBatch26" xml:space="preserve"><value>OmenCore 是免费开源软件。如果它对您有帮助，欢迎支持其开发！</value></data>
+  <data name="SettingsUiBatch27" xml:space="preserve"><value>每天在计划时间自动应用风扇预设和性能模式。</value></data>
+  <data name="SettingsUiBatch28" xml:space="preserve"><value>内置自动化支持的触发条件：时间段、电池阈值、交流电源状态、CPU/GPU 温度及系统空闲时间。</value></data>
 </root>

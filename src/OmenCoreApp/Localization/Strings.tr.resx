@@ -2086,4 +2086,33 @@ Continue?</value></data>
   <data name="GamePlatformAll" xml:space="preserve"><value>All</value></data>
   <data name="GamePlatformManual" xml:space="preserve"><value>Manual</value></data>
   <data name="GamePlatformUnknown" xml:space="preserve"><value>Unknown</value></data>
+  <data name="SettingsUiBatch0" xml:space="preserve"><value>OmenCore now owns cadence automatically: active windows and OSD stay responsive, idle sessions slow down safely, and low-overhead tray-only mode can settle to the ultra-low cadence when nothing is blocking it.</value></data>
+  <data name="SettingsUiBatch1" xml:space="preserve"><value>1s when the UI or OSD needs live data, 5s in standard background idle, and 10s for eligible tray-only low-overhead sessions. Use Low overhead mode below to favor the lighter cadence path.</value></data>
+  <data name="SettingsUiBatch2" xml:space="preserve"><value>Prevents conflicts by deactivating hotkeys when the app isn’t active</value></data>
+  <data name="SettingsUiBatch3" xml:space="preserve"><value>Notify when game profiles are activated/deactivated</value></data>
+  <data name="SettingsUiBatch4" xml:space="preserve"><value>Notify when fan or performance modes change via hotkey</value></data>
+  <data name="SettingsUiBatch5" xml:space="preserve"><value>Download and install PawnIO — a Secure Boot compatible driver for EC/MSR access</value></data>
+  <data name="SettingsUiBatch6" xml:space="preserve"><value>Re-check driver and EC backend status</value></data>
+  <data name="SettingsUiBatch7" xml:space="preserve"><value>Switch to the Bloatware Manager tab</value></data>
+  <data name="SettingsUiBatch8" xml:space="preserve"><value>Support for Corsair keyboards, mice, headsets</value></data>
+  <data name="SettingsUiBatch9" xml:space="preserve"><value>Support for Logitech G peripherals</value></data>
+  <data name="SettingsUiBatch10" xml:space="preserve"><value>Automatically apply profiles when games launch</value></data>
+  <data name="SettingsUiBatch11" xml:space="preserve"><value>OMEN keyboard 4-zone RGB lighting</value></data>
+  <data name="SettingsUiBatch12" xml:space="preserve"><value>Sync keyboard/peripherals with screen colors (Ambilight-style)</value></data>
+  <data name="SettingsUiBatch13" xml:space="preserve"><value>💡 Samples colors from screen edges and applies to RGB devices</value></data>
+  <data name="SettingsUiBatch14" xml:space="preserve"><value>💡 Safe alternative: Use HP Omen Gaming Hub for keyboard lighting</value></data>
+  <data name="SettingsUiBatch15" xml:space="preserve"><value>Capture OMEN key to show OmenCore instead of HP Gaming Hub</value></data>
+  <data name="SettingsUiBatch16" xml:space="preserve"><value>(smaller card, less secondary text)</value></data>
+  <data name="SettingsUiBatch17" xml:space="preserve"><value>Wait before increasing fan speed</value></data>
+  <data name="SettingsUiBatch18" xml:space="preserve"><value>Wait before decreasing fan speed</value></data>
+  <data name="SettingsUiBatch19" xml:space="preserve"><value>Save your current configuration to share or backup</value></data>
+  <data name="SettingsUiBatch20" xml:space="preserve"><value>Export logs and system info for troubleshooting</value></data>
+  <data name="SettingsUiBatch21" xml:space="preserve"><value>Open %LOCALAPPDATA%\OmenCore — where settings and profiles are stored</value></data>
+  <data name="SettingsUiBatch22" xml:space="preserve"><value>Open the folder containing OmenCore diagnostic log files</value></data>
+  <data name="SettingsUiBatch23" xml:space="preserve"><value>Open the OmenCore GitHub repository in your browser</value></data>
+  <data name="SettingsUiBatch24" xml:space="preserve"><value>View the full changelog for this release</value></data>
+  <data name="SettingsUiBatch25" xml:space="preserve"><value>Open the GitHub issue tracker to report a bug or request a feature</value></data>
+  <data name="SettingsUiBatch26" xml:space="preserve"><value>OmenCore is free and open source. If you find it useful, consider supporting its development!</value></data>
+  <data name="SettingsUiBatch27" xml:space="preserve"><value>Automatically apply fan presets and performance modes at scheduled times each day.</value></data>
+  <data name="SettingsUiBatch28" xml:space="preserve"><value>Promoted triggers for shipped automation: time window, battery threshold, AC power state, CPU/GPU temperature, and system idle time.</value></data>
 </root>

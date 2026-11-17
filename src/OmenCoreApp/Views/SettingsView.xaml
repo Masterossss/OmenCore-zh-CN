@@ -917,7 +917,7 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText918Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="OmenCore now owns cadence automatically: active windows and OSD stay responsive, idle sessions slow down safely, and low-overhead tray-only mode can settle to the ultra-low cadence when nothing is blocking it." FontSize="12"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch0}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                             </StackPanel>
                         </Grid>
@@ -929,7 +929,7 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText930Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="1s when the UI or OSD needs live data, 5s in standard background idle, and 10s for eligible tray-only low-overhead sessions. Use Low overhead mode below to favor the lighter cadence path." FontSize="12"
+                                <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch1}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                             </StackPanel>
                         </Grid>
@@ -1550,7 +1550,7 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1551Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Prevents conflicts by deactivating hotkeys when the app isn’t active" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch2}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
@@ -1679,7 +1679,7 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1680Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Notify when game profiles are activated/deactivated" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch3}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
@@ -1698,7 +1698,7 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText1699Text}" FontSize="14"
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Notify when fan or performance modes change via hotkey" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch4}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
@@ -1776,13 +1776,13 @@
                                     HorizontalAlignment="Left"
                                     Padding="20,10"
                                     Margin="0,0,12,0"
-                                    ToolTip="Download and install PawnIO — a Secure Boot compatible driver for EC/MSR access"/>
+                                    ToolTip="{x:Static loc:Strings.SettingsUiBatch5}"/>
                             <Button AutomationProperties.Name="Refresh Status" Content="🔄 Refresh Status" 
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding RefreshDriverStatusCommand}"
                                     HorizontalAlignment="Left"
                                     Padding="20,10"
-                                    ToolTip="Re-check driver and EC backend status"/>
+                                    ToolTip="{x:Static loc:Strings.SettingsUiBatch6}"/>
                         </StackPanel>
                         
                         <!-- EC Reset Section -->
@@ -2097,7 +2097,7 @@
                                 Command="{Binding NavigateToBloatwareCommand}"
                                 HorizontalAlignment="Left"
                                 Padding="20,10"
-                                ToolTip="Switch to the Bloatware Manager tab"/>
+                                ToolTip="{x:Static loc:Strings.SettingsUiBatch7}"/>
                     </StackPanel>
                 </Border>
 
@@ -2124,7 +2124,7 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="Corsair iCUE Integration" FontSize="14" 
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Support for Corsair keyboards, mice, headsets" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch8}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
@@ -2142,7 +2142,7 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="Logitech G HUB Integration" FontSize="14" 
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Support for Logitech G peripherals" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch9}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
@@ -2160,7 +2160,7 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="Game Profile Auto-Switching" FontSize="14" 
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="Automatically apply profiles when games launch" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch10}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
@@ -2178,7 +2178,7 @@
                             <StackPanel Grid.Column="0">
                                 <TextBlock Text="Keyboard Backlight Control" FontSize="14" 
                                            Foreground="{StaticResource TextPrimaryBrush}"/>
-                                <TextBlock Text="OMEN keyboard 4-zone RGB lighting" FontSize="12" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch11}" FontSize="12"
                                            Foreground="{StaticResource TextSecondaryBrush}"/>
                             </StackPanel>
                             <ToggleButton Grid.Column="1" 
@@ -2198,7 +2198,7 @@
                                     <StackPanel Grid.Column="0">
                                         <TextBlock Text="🌈 Ambient Lighting" FontSize="14" FontWeight="SemiBold"
                                                    Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <TextBlock Text="Sync keyboard/peripherals with screen colors (Ambilight-style)" 
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch12}"
                                                    FontSize="12" Foreground="{StaticResource TextSecondaryBrush}"/>
                                     </StackPanel>
                                     <ToggleButton Grid.Column="1" 
@@ -2250,7 +2250,7 @@
                                                    VerticalAlignment="Center" Margin="8,0,0,0" MinWidth="50"/>
                                     </Grid>
                                     
-                                    <TextBlock Text="💡 Samples colors from screen edges and applies to RGB devices" 
+                                    <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch13}"
                                                FontSize="11" Foreground="{StaticResource TextSecondaryBrush}"
                                                Margin="0,8,0,0" FontStyle="Italic"/>
                                 </StackPanel>
@@ -2352,7 +2352,7 @@
                                                   AutomationProperties.Name="Invert RGB Zone Order"/>
                                 </Grid>
                                 
-                                <TextBlock Text="💡 Safe alternative: Use HP Omen Gaming Hub for keyboard lighting" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch14}"
                                            FontSize="11" Foreground="{StaticResource TextSecondaryBrush}"
                                            Margin="0,8,0,0" FontStyle="Italic"/>
                             </StackPanel>
@@ -2444,7 +2444,7 @@
                                             <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2447Text}" FontSize="14" FontWeight="SemiBold"
                                                        Foreground="{StaticResource TextPrimaryBrush}"/>
                                         </StackPanel>
-                                        <TextBlock Text="Capture OMEN key to show OmenCore instead of HP Gaming Hub" FontSize="12" 
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch15}" FontSize="12"
                                                    Foreground="{StaticResource TextSecondaryBrush}" Margin="24,4,0,0"/>
                                     </StackPanel>
                                     <ToggleButton AutomationProperties.Name="Omen Key Interception Enabled" Grid.Column="1" 
@@ -2651,7 +2651,7 @@
                                 <StackPanel Orientation="Horizontal" Margin="0,0,0,12">
                                     <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2655Text}" VerticalAlignment="Center" Margin="0,0,8,0" Foreground="{StaticResource TextPrimaryBrush}"/>
                                     <ToggleButton AutomationProperties.Name="Compact Popup" Style="{StaticResource ModernToggleButton}" IsChecked="{Binding OsdHotkeyToastCompact}"/>
-                                    <TextBlock Text="(smaller card, less secondary text)" VerticalAlignment="Center" Margin="8,0,0,0" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}"/>
+                                    <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch16}" VerticalAlignment="Center" Margin="8,0,0,0" FontSize="11" Foreground="{StaticResource TextTertiaryBrush}"/>
                                 </StackPanel>
 
                                 <!-- Metrics Selection -->
@@ -2930,7 +2930,7 @@
                                     <StackPanel Grid.Column="0">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2934Text}" FontSize="13"
                                                    Foreground="{StaticResource TextSecondaryBrush}"/>
-                                        <TextBlock Text="Wait before increasing fan speed" FontSize="11" 
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch17}" FontSize="11"
                                                    Foreground="{StaticResource TextTertiaryBrush}"/>
                                     </StackPanel>
                                     <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
@@ -2950,7 +2950,7 @@
                                     <StackPanel Grid.Column="0">
                                         <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText2954Text}" FontSize="13"
                                                    Foreground="{StaticResource TextSecondaryBrush}"/>
-                                        <TextBlock Text="Wait before decreasing fan speed" FontSize="11" 
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch18}" FontSize="11"
                                                    Foreground="{StaticResource TextTertiaryBrush}"/>
                                     </StackPanel>
                                     <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
@@ -3263,12 +3263,12 @@
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding ExportProfileCommand}"
                                     Padding="16,8" Margin="0,0,12,0"
-                                    ToolTip="Save your current configuration to share or backup"/>
+                                    ToolTip="{x:Static loc:Strings.SettingsUiBatch19}"/>
                             <Button AutomationProperties.Name="Export Diagnostics" Content="🔬 Export Diagnostics" 
                                     Style="{StaticResource SecondaryButton}"
                                     Command="{Binding ExportDiagnosticsCommand}"
                                     Padding="16,8"
-                                    ToolTip="Export logs and system info for troubleshooting"/>
+                                    ToolTip="{x:Static loc:Strings.SettingsUiBatch20}"/>
                         </StackPanel>
 
                         <!-- Info -->
@@ -3304,12 +3304,12 @@
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding OpenConfigFolderCommand}"
                                     Padding="16,8" Margin="0,0,12,0"
-                                    ToolTip="Open %LOCALAPPDATA%\OmenCore — where settings and profiles are stored"/>
+                                    ToolTip="{x:Static loc:Strings.SettingsUiBatch21}"/>
                             <Button AutomationProperties.Name="Open Log Folder" Content="📋 Open Log Folder" 
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding OpenLogFolderCommand}"
                                     Padding="16,8" Margin="0,0,12,0"
-                                    ToolTip="Open the folder containing OmenCore diagnostic log files"/>
+                                    ToolTip="{x:Static loc:Strings.SettingsUiBatch22}"/>
                             <Button AutomationProperties.Name="Reset to Defaults" Content="🔄 Reset to Defaults" 
                                     Style="{StaticResource SecondaryButton}"
                                     Command="{Binding ResetToDefaultsCommand}"
@@ -3356,17 +3356,17 @@
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding OpenGitHubCommand}"
                                     Padding="16,8" Margin="0,0,12,0"
-                                    ToolTip="Open the OmenCore GitHub repository in your browser"/>
+                                    ToolTip="{x:Static loc:Strings.SettingsUiBatch23}"/>
                             <Button AutomationProperties.Name="Release Notes" Content="📝 Release Notes" 
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding OpenReleaseNotesCommand}"
                                     Padding="16,8" Margin="0,0,12,0"
-                                    ToolTip="View the full changelog for this release"/>
+                                    ToolTip="{x:Static loc:Strings.SettingsUiBatch24}"/>
                             <Button AutomationProperties.Name="Report Issue" Content="🐛 Report Issue" 
                                     Style="{StaticResource ModernButton}"
                                     Command="{Binding OpenIssuesCommand}"
                                     Padding="16,8"
-                                    ToolTip="Open the GitHub issue tracker to report a bug or request a feature"/>
+                                    ToolTip="{x:Static loc:Strings.SettingsUiBatch25}"/>
                         </StackPanel>
                         
                         <!-- Support Section -->
@@ -3374,7 +3374,7 @@
                             <StackPanel>
                                 <TextBlock Text="💖 Support Development" FontSize="14" FontWeight="SemiBold" 
                                            Foreground="{StaticResource TextPrimaryBrush}" Margin="0,0,0,8"/>
-                                <TextBlock Text="OmenCore is free and open source. If you find it useful, consider supporting its development!" 
+                                <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch26}"
                                            FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" TextWrapping="Wrap" Margin="0,0,0,12"/>
                                 <Button AutomationProperties.Name="Donate via PayPal" Command="{Binding OpenDonateCommand}" 
                                         Style="{StaticResource PrimaryButton}"
@@ -3402,7 +3402,7 @@
                                     <Path Data="{StaticResource IconSchedule}" Fill="{StaticResource AccentBrush}" Width="22" Height="22" Stretch="Uniform" VerticalAlignment="Center" Margin="0,0,10,0"/>
                                     <TextBlock Text="{x:Static loc:Strings.SettingsReferenceText3406Text}" FontSize="20" FontWeight="SemiBold" Foreground="{StaticResource TextPrimaryBrush}"/>
                                 </StackPanel>
-                                <TextBlock Text="Automatically apply fan presets and performance modes at scheduled times each day." FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" Margin="0,0,0,20"/>
+                                <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch27}" FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" Margin="0,0,0,20"/>
 
                                 <!-- Rules list -->
                                 <ItemsControl ItemsSource="{Binding ScheduleRules}">
@@ -3476,7 +3476,7 @@
                                     </Grid.ColumnDefinitions>
                                     <StackPanel Grid.Column="0">
                                         <TextBlock Text="Automation Rules" FontSize="20" FontWeight="SemiBold" Foreground="{StaticResource TextPrimaryBrush}"/>
-                                        <TextBlock Text="Promoted triggers for shipped automation: time window, battery threshold, AC power state, CPU/GPU temperature, and system idle time." FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" Margin="0,4,0,0"/>
+                                        <TextBlock Text="{x:Static loc:Strings.SettingsUiBatch28}" FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" Margin="0,4,0,0"/>
                                     </StackPanel>
                                     <Button AutomationProperties.Name="Add Automation Rule" Grid.Column="1" Content="+ Add Automation Rule" Command="{Binding AddAutomationRuleCommand}"
                                             Style="{StaticResource SecondaryButton}" VerticalAlignment="Center"/>

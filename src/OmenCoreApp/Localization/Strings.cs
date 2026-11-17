@@ -1936,5 +1936,34 @@ namespace OmenCore.Localization
         public static string GamePlatformAll => Get(nameof(GamePlatformAll));
         public static string GamePlatformManual => Get(nameof(GamePlatformManual));
         public static string GamePlatformUnknown => Get(nameof(GamePlatformUnknown));
+        public static string SettingsUiBatch0 => Get(nameof(SettingsUiBatch0));
+        public static string SettingsUiBatch1 => Get(nameof(SettingsUiBatch1));
+        public static string SettingsUiBatch2 => Get(nameof(SettingsUiBatch2));
+        public static string SettingsUiBatch3 => Get(nameof(SettingsUiBatch3));
+        public static string SettingsUiBatch4 => Get(nameof(SettingsUiBatch4));
+        public static string SettingsUiBatch5 => Get(nameof(SettingsUiBatch5));
+        public static string SettingsUiBatch6 => Get(nameof(SettingsUiBatch6));
+        public static string SettingsUiBatch7 => Get(nameof(SettingsUiBatch7));
+        public static string SettingsUiBatch8 => Get(nameof(SettingsUiBatch8));
+        public static string SettingsUiBatch9 => Get(nameof(SettingsUiBatch9));
+        public static string SettingsUiBatch10 => Get(nameof(SettingsUiBatch10));
+        public static string SettingsUiBatch11 => Get(nameof(SettingsUiBatch11));
+        public static string SettingsUiBatch12 => Get(nameof(SettingsUiBatch12));
+        public static string SettingsUiBatch13 => Get(nameof(SettingsUiBatch13));
+        public static string SettingsUiBatch14 => Get(nameof(SettingsUiBatch14));
+        public static string SettingsUiBatch15 => Get(nameof(SettingsUiBatch15));
+        public static string SettingsUiBatch16 => Get(nameof(SettingsUiBatch16));
+        public static string SettingsUiBatch17 => Get(nameof(SettingsUiBatch17));
+        public static string SettingsUiBatch18 => Get(nameof(SettingsUiBatch18));
+        public static string SettingsUiBatch19 => Get(nameof(SettingsUiBatch19));
+        public static string SettingsUiBatch20 => Get(nameof(SettingsUiBatch20));
+        public static string SettingsUiBatch21 => Get(nameof(SettingsUiBatch21));
+        public static string SettingsUiBatch22 => Get(nameof(SettingsUiBatch22));
+        public static string SettingsUiBatch23 => Get(nameof(SettingsUiBatch23));
+        public static string SettingsUiBatch24 => Get(nameof(SettingsUiBatch24));
+        public static string SettingsUiBatch25 => Get(nameof(SettingsUiBatch25));
+        public static string SettingsUiBatch26 => Get(nameof(SettingsUiBatch26));
+        public static string SettingsUiBatch27 => Get(nameof(SettingsUiBatch27));
+        public static string SettingsUiBatch28 => Get(nameof(SettingsUiBatch28));
     }
 }
