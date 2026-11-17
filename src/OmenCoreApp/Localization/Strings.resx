@@ -1961,4 +1961,5 @@ Continue with calibration?</value></data>
   <data name="SafetyFollowup11" xml:space="preserve"><value>Auto-switch on power change</value></data>
   <data name="SafetyFollowup12" xml:space="preserve"><value>Battery power performance mode</value></data>
   <data name="SafetyFollowup13" xml:space="preserve"><value>Link fan to performance mode</value></data>
+  <data name="SettingsDriverSecurityNotice" xml:space="preserve"><value>On modern Windows systems, Secure Boot and Memory Integrity can block legacy drivers. OmenCore prefers driverless control paths (WMI/OGH) when available, and recommends PawnIO for Secure Boot compatible MSR/EC access.</value></data>
 </root>

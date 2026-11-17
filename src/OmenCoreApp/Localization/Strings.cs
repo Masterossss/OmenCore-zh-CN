@@ -1809,5 +1809,6 @@ namespace OmenCore.Localization
         public static string SafetyFollowup11 => Get(nameof(SafetyFollowup11));
         public static string SafetyFollowup12 => Get(nameof(SafetyFollowup12));
         public static string SafetyFollowup13 => Get(nameof(SafetyFollowup13));
+        public static string SettingsDriverSecurityNotice => Get(nameof(SettingsDriverSecurityNotice));
     }
 }

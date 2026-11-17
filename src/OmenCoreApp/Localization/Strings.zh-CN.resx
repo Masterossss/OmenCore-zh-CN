@@ -1953,4 +1953,5 @@
   <data name="SafetyFollowup11" xml:space="preserve"><value>电源变化时自动切换</value></data>
   <data name="SafetyFollowup12" xml:space="preserve"><value>电池供电性能模式</value></data>
   <data name="SafetyFollowup13" xml:space="preserve"><value>将风扇与性能模式关联</value></data>
+  <data name="SettingsDriverSecurityNotice" xml:space="preserve"><value>在较新版本的 Windows 上，安全启动和内存完整性可能阻止旧版驱动。OmenCore 在可用时优先采用无需驱动的控制路径（WMI/OGH），并推荐使用与安全启动兼容的 PawnIO 来访问 MSR/EC。</value></data>
 </root>
