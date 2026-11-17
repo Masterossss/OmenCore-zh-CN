@@ -2295,5 +2295,21 @@ namespace OmenCore.Localization
         public static string BloatRestoreCode => Get(nameof(BloatRestoreCode));
         public static string BloatRestoreSystemError => Get(nameof(BloatRestoreSystemError));
         public static string BloatRestoreCreateError => Get(nameof(BloatRestoreCreateError));
+        public static string OptStatusScanning => Get(nameof(OptStatusScanning));
+        public static string OptStatusRefreshing => Get(nameof(OptStatusRefreshing));
+        public static string OptStatusPreflight => Get(nameof(OptStatusPreflight));
+        public static string OptStatusPreflightDone => Get(nameof(OptStatusPreflightDone));
+        public static string OptStatusDone => Get(nameof(OptStatusDone));
+        public static string OptStatusFailed => Get(nameof(OptStatusFailed));
+        public static string OptStatusTimeout => Get(nameof(OptStatusTimeout));
+        public static string OptStatusApplied => Get(nameof(OptStatusApplied));
+        public static string OptStatusAppliedPartial => Get(nameof(OptStatusAppliedPartial));
+        public static string OptStatusReverted => Get(nameof(OptStatusReverted));
+        public static string OptStatusCategoryPartial => Get(nameof(OptStatusCategoryPartial));
+        public static string OptStatusExporting => Get(nameof(OptStatusExporting));
+        public static string OptStatusReportMissing => Get(nameof(OptStatusReportMissing));
+        public static string OptStatusNoReport => Get(nameof(OptStatusNoReport));
+        public static string OptStatusReportOpened => Get(nameof(OptStatusReportOpened));
+        public static string OptStatusReportCopied => Get(nameof(OptStatusReportCopied));
     }
 }

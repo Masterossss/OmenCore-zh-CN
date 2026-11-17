@@ -368,6 +368,22 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void OptimizerStatusKeepsPartialFailureAndTimeoutDistinct()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                SystemOptimizerStatusDisplayText.Translate("Done: Applied 3/5 optimizations (2 failed)").Should().Contain("3/5").And.Contain("2 项失败");
+                SystemOptimizerStatusDisplayText.Translate("Failed: Revert timed out — check system state manually").Should().Contain("超时").And.Contain("手动检查");
+                SystemOptimizerStatusDisplayText.Translate("Failed: unknown error").Should().Contain("失败").And.Contain("unknown error");
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                SystemOptimizerStatusDisplayText.Translate("Done: Applied 3/5 optimizations (2 failed)").Should().Be("Done: Applied 3/5 optimizations (2 failed)");
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void GamePlatformDisplayPreservesFilterIdentity()
         {
             var original = CultureInfo.CurrentUICulture;

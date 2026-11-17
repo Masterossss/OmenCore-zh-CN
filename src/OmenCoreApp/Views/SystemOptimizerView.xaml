@@ -153,7 +153,7 @@
                                  Maximum="{Binding OperationProgressMaximum}"
                                  Margin="0,0,0,10"
                                  Visibility="{Binding HasOperationProgress, Converter={StaticResource BoolToVisibility}}"/>
-                    <TextBlock Text="{Binding StatusMessage}" 
+                    <TextBlock Text="{Binding StatusMessageDisplay}"
                                Foreground="{StaticResource TextSecondaryBrush}" 
                                TextWrapping="Wrap"
                                HorizontalAlignment="Center"/>
@@ -207,7 +207,7 @@
                                        FontSize="18" 
                                        FontWeight="SemiBold" 
                                        Foreground="White"/>
-                            <TextBlock Text="{Binding StatusMessage}" 
+                            <TextBlock Text="{Binding StatusMessageDisplay}"
                                        FontSize="12" 
                                        Foreground="{StaticResource TextSecondaryBrush}"
                                        Margin="0,4,0,0"/>

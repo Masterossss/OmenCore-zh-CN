@@ -2450,4 +2450,20 @@ To enable: Control Panel → System → System Protection → Configure</value><
   <data name="BloatRestoreCode" xml:space="preserve"><value>System Restore failed with error code {0}</value></data>
   <data name="BloatRestoreSystemError" xml:space="preserve"><value>System Restore error: {0}</value></data>
   <data name="BloatRestoreCreateError" xml:space="preserve"><value>Failed to create restore point: {0}</value></data>
+  <data name="OptStatusScanning" xml:space="preserve"><value>Scanning system state...</value></data>
+  <data name="OptStatusRefreshing" xml:space="preserve"><value>Refreshing optimizer state...</value></data>
+  <data name="OptStatusPreflight" xml:space="preserve"><value>Refreshing optimizer preflight...</value></data>
+  <data name="OptStatusPreflightDone" xml:space="preserve"><value>Done: Preflight updated</value></data>
+  <data name="OptStatusDone" xml:space="preserve"><value>Done</value></data>
+  <data name="OptStatusFailed" xml:space="preserve"><value>Failed: {0}</value></data>
+  <data name="OptStatusTimeout" xml:space="preserve"><value>Failed: Revert timed out — check system state manually</value></data>
+  <data name="OptStatusApplied" xml:space="preserve"><value>Done: Applied {0}/{1} optimizations</value></data>
+  <data name="OptStatusAppliedPartial" xml:space="preserve"><value>Done: Applied {0}/{1} optimizations ({2} failed)</value></data>
+  <data name="OptStatusReverted" xml:space="preserve"><value>Done: Reverted {0}/{1} optimizations</value></data>
+  <data name="OptStatusCategoryPartial" xml:space="preserve"><value>Done: Applied {0}/{1} items in {2} ({3} failed)</value></data>
+  <data name="OptStatusExporting" xml:space="preserve"><value>Exporting optimization report...</value></data>
+  <data name="OptStatusReportMissing" xml:space="preserve"><value>Failed: Report file not found</value></data>
+  <data name="OptStatusNoReport" xml:space="preserve"><value>Failed: No report path to copy</value></data>
+  <data name="OptStatusReportOpened" xml:space="preserve"><value>Done: Opened exported report</value></data>
+  <data name="OptStatusReportCopied" xml:space="preserve"><value>Done: Copied report path to clipboard</value></data>
 </root>
