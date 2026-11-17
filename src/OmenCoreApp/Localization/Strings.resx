@@ -2087,4 +2087,7 @@ Are you sure?</value></data>
   <data name="GameLibraryExeFilter" xml:space="preserve"><value>Executable Files (*.exe)|*.exe|All Files (*.*)|*.*</value></data>
   <data name="GameLibraryProfile" xml:space="preserve"><value>Profile: {0}</value></data>
   <data name="GameLibraryNoProfile" xml:space="preserve"><value>No profile</value></data>
+  <data name="GamePlatformAll" xml:space="preserve"><value>All</value></data>
+  <data name="GamePlatformManual" xml:space="preserve"><value>Manual</value></data>
+  <data name="GamePlatformUnknown" xml:space="preserve"><value>Unknown</value></data>
 </root>

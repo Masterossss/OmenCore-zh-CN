@@ -2079,4 +2079,7 @@
   <data name="GameLibraryExeFilter" xml:space="preserve"><value>可执行文件 (*.exe)|*.exe|所有文件 (*.*)|*.*</value></data>
   <data name="GameLibraryProfile" xml:space="preserve"><value>配置文件：{0}</value></data>
   <data name="GameLibraryNoProfile" xml:space="preserve"><value>无配置文件</value></data>
+  <data name="GamePlatformAll" xml:space="preserve"><value>全部</value></data>
+  <data name="GamePlatformManual" xml:space="preserve"><value>手动添加</value></data>
+  <data name="GamePlatformUnknown" xml:space="preserve"><value>未知</value></data>
 </root>

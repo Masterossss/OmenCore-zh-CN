@@ -346,6 +346,24 @@ namespace OmenCoreApp.Tests.Localization
         }
 
         [Fact]
+        public void GamePlatformDisplayPreservesFilterIdentity()
+        {
+            var original = CultureInfo.CurrentUICulture;
+            try
+            {
+                var converter = new GamePlatformDisplayConverter();
+                var selected = OmenCore.ViewModels.GamePlatformFilter.All;
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CN");
+                converter.Convert(selected, typeof(string), null!, CultureInfo.CurrentCulture).Should().Be("全部");
+                converter.Convert(OmenCore.Services.GamePlatform.Manual, typeof(string), null!, CultureInfo.CurrentCulture).Should().Be("手动添加");
+                selected.Should().Be(OmenCore.ViewModels.GamePlatformFilter.All);
+                CultureInfo.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                converter.Convert(selected, typeof(string), null!, CultureInfo.CurrentCulture).Should().Be("All");
+            }
+            finally { CultureInfo.CurrentUICulture = original; }
+        }
+
+        [Fact]
         public void TrayDisplayKeepsRequestedModeDistinctFromActiveMode()
         {
             var original = CultureInfo.CurrentUICulture;

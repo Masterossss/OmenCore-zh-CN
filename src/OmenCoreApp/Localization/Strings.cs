@@ -1933,5 +1933,8 @@ namespace OmenCore.Localization
         public static string GameLibraryExeFilter => Get(nameof(GameLibraryExeFilter));
         public static string GameLibraryProfile => Get(nameof(GameLibraryProfile));
         public static string GameLibraryNoProfile => Get(nameof(GameLibraryNoProfile));
+        public static string GamePlatformAll => Get(nameof(GamePlatformAll));
+        public static string GamePlatformManual => Get(nameof(GamePlatformManual));
+        public static string GamePlatformUnknown => Get(nameof(GamePlatformUnknown));
     }
 }

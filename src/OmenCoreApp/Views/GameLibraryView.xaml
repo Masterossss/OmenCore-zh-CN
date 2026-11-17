@@ -9,6 +9,7 @@
              Background="{StaticResource SurfaceDarkBrush}">
     
     <UserControl.Resources>
+        <loc:GamePlatformDisplayConverter x:Key="GamePlatformDisplay"/>
         <!-- Game Card Style -->
         <Style x:Key="GameCardStyle" TargetType="Border">
             <Setter Property="Background" Value="{DynamicResource SurfaceMediumBrush}"/>
@@ -164,7 +165,11 @@
                       Margin="0,0,12,0"
                       Background="#252525"
                       Foreground="White"
-                      BorderBrush="#3a3a3a"/>
+                      BorderBrush="#3a3a3a">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate><TextBlock Text="{Binding Converter={StaticResource GamePlatformDisplay}}"/></DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
 
             <!-- Scan Button -->
             <Button Grid.Column="2" 
@@ -280,7 +285,7 @@
                                                 <TextBlock Text="{Binding PlatformIcon}"
                                                            FontSize="10"
                                                            Margin="0,0,4,0"/>
-                                                <TextBlock Text="{Binding Platform}"
+                                                <TextBlock Text="{Binding Platform, Converter={StaticResource GamePlatformDisplay}}"
                                                            Foreground="#aaa"
                                                            FontSize="10"/>
                                             </StackPanel>
