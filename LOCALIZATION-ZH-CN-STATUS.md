@@ -216,3 +216,10 @@
 - 审计核对 v5.0.1 的 App.xaml.cs、MainViewModel、核心硬件、NVIDIA 和 HardwareWorker 无源码差异；审查关键应用层显示、通知、日志和状态路径。其余应用层差异并非全部运行场景均已验证。
 - 已生成自包含 win-x64 开发预览 ZIP，包含中文卫星资源及独立 HardwareWorker；521 文件的 ZIP CRC 和结构检查通过。SHA256：AEAFB6A595A71B00623DE55AD4999847E287E5ED0E0E4F91BD1C578E494C3FA7。源码构建提交 a372252。
 - 未完成 GUI、DPI、真实 Toast、实际启动安全与硬件兼容性验证。仅供隔离 Windows 测试，不能视为稳定版或替代官方版。构建记录及已知问题见 BUILD-VERIFICATION.md、KNOWN-ISSUES-ZH-CN.md。
+
+## 实机独立 GUI 宿主验证
+
+- 源码提交 653724d 创建独立 WPF UI 宿主，不构造真实 App 或 ViewModel，页面控件禁用。以模拟数据在本机打开 12 个原版页面，Release 版最终截图 12 张，页面构造失败数为 0。查看了仪表盘、设置、调校及灯光首屏，未全面逐页人工验收。
+- 修复仪表盘 FanCurveChart 的 Points 非依赖属性导致绑定加载失败，以及 Tuning 图片的跨程序集 URI；增加纯软件绑定测试。Debug、Release 解决方案构建通过，72 项筛选测试通过；四语言 2560 键、占位符及 34 个 XAML XML 解析通过。
+- 未测试生产程序启动、真实硬件、125%/150% DPI、语言切换重启、弹窗、托盘及 OSD；没有设备写入的系统调用追踪，安全结论仅限代码审查和宿主结构验证。详见 GUI-TEST-REPORT.md、SAFETY-VERIFICATION.md。
+- 候选 ZIP：D:\Projects\GPT\OmenCore\OmenCore-5.0.1-zh-CN-gui-tested-preview-win-x64.zip；SHA256 CE1E60938BC4E436E78078F966A704C8E52AAA1F0084B9705653EE84A9EC0A4D。ZIP CRC 和必要文件检查通过；不视为稳定版。
