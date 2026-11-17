@@ -1985,12 +1985,12 @@ Continue with calibration?</value></data>
   <data name="FanCalSavedTitle" xml:space="preserve"><value>Calibration Saved</value></data>
   <data name="FanCalSaveFailed" xml:space="preserve"><value>Failed to save calibration: {0}</value></data>
   <data name="FanCalSaveErrorTitle" xml:space="preserve"><value>Save Error</value></data>
-  <data name="FanCalClearPrompt" xml:space="preserve"><value>This will remove all calibration data for this model.
+  <data name="FanCalClearPrompt" xml:space="preserve"><value>This action does not currently delete saved calibration data.
 
-Are you sure?</value></data>
+Continue?</value></data>
   <data name="FanCalClearTitle" xml:space="preserve"><value>Clear Calibration Data</value></data>
-  <data name="FanCalCleared" xml:space="preserve"><value>Calibration data cleared.</value></data>
-  <data name="FanCalClearedTitle" xml:space="preserve"><value>Data Cleared</value></data>
+  <data name="FanCalCleared" xml:space="preserve"><value>No calibration data was removed.</value></data>
+  <data name="FanCalClearedTitle" xml:space="preserve"><value>Calibration Data Unchanged</value></data>
   <data name="FanAndGpuGuide0" xml:space="preserve"><value> Modern NVIDIA GPUs auto-manage voltage. To reduce power/heat: lower the</value></data>
   <data name="FanAndGpuGuide1" xml:space="preserve"><value> Power Limit</value></data>
   <data name="FanAndGpuGuide2" xml:space="preserve"><value> (forces lower voltage at each frequency) or use</value></data>

@@ -1977,12 +1977,12 @@
   <data name="FanCalSavedTitle" xml:space="preserve"><value>校准数据已保存</value></data>
   <data name="FanCalSaveFailed" xml:space="preserve"><value>保存校准数据失败：{0}</value></data>
   <data name="FanCalSaveErrorTitle" xml:space="preserve"><value>保存错误</value></data>
-  <data name="FanCalClearPrompt" xml:space="preserve"><value>这将删除此机型的所有校准数据。
+  <data name="FanCalClearPrompt" xml:space="preserve"><value>此操作目前不会删除已保存的校准数据。
 
-确定继续吗？</value></data>
+是否继续？</value></data>
   <data name="FanCalClearTitle" xml:space="preserve"><value>清除校准数据</value></data>
-  <data name="FanCalCleared" xml:space="preserve"><value>校准数据已清除。</value></data>
-  <data name="FanCalClearedTitle" xml:space="preserve"><value>数据已清除</value></data>
+  <data name="FanCalCleared" xml:space="preserve"><value>未删除任何校准数据。</value></data>
+  <data name="FanCalClearedTitle" xml:space="preserve"><value>校准数据未更改</value></data>
   <data name="FanAndGpuGuide0" xml:space="preserve"><value>现代 NVIDIA GPU 会自动管理电压。如需降低功耗和热量，可降低</value></data>
   <data name="FanAndGpuGuide1" xml:space="preserve"><value>功率限制</value></data>
   <data name="FanAndGpuGuide2" xml:space="preserve"><value>（迫使每个频率使用更低电压），或使用</value></data>
