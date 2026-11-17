@@ -2081,4 +2081,10 @@ Are you sure?</value></data>
   <data name="MainPagesBatch25" xml:space="preserve"><value>Show last 5 minutes of history</value></data>
   <data name="MainPagesBatch26" xml:space="preserve"><value>Show last 15 minutes of history</value></data>
   <data name="MainPagesBatch27" xml:space="preserve"><value>Show last 30 minutes of history</value></data>
+  <data name="GameLibraryScanning" xml:space="preserve"><value>Scanning game libraries...</value></data>
+  <data name="GameLibraryFound" xml:space="preserve"><value>{0} games found</value></data>
+  <data name="GameLibrarySelectExe" xml:space="preserve"><value>Select game executable</value></data>
+  <data name="GameLibraryExeFilter" xml:space="preserve"><value>Executable Files (*.exe)|*.exe|All Files (*.*)|*.*</value></data>
+  <data name="GameLibraryProfile" xml:space="preserve"><value>Profile: {0}</value></data>
+  <data name="GameLibraryNoProfile" xml:space="preserve"><value>No profile</value></data>
 </root>

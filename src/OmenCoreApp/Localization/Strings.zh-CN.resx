@@ -2073,4 +2073,10 @@
   <data name="MainPagesBatch25" xml:space="preserve"><value>显示最近 5 分钟的历史记录</value></data>
   <data name="MainPagesBatch26" xml:space="preserve"><value>显示最近 15 分钟的历史记录</value></data>
   <data name="MainPagesBatch27" xml:space="preserve"><value>显示最近 30 分钟的历史记录</value></data>
+  <data name="GameLibraryScanning" xml:space="preserve"><value>正在扫描游戏库…</value></data>
+  <data name="GameLibraryFound" xml:space="preserve"><value>找到 {0} 个游戏</value></data>
+  <data name="GameLibrarySelectExe" xml:space="preserve"><value>选择游戏可执行文件</value></data>
+  <data name="GameLibraryExeFilter" xml:space="preserve"><value>可执行文件 (*.exe)|*.exe|所有文件 (*.*)|*.*</value></data>
+  <data name="GameLibraryProfile" xml:space="preserve"><value>配置文件：{0}</value></data>
+  <data name="GameLibraryNoProfile" xml:space="preserve"><value>无配置文件</value></data>
 </root>

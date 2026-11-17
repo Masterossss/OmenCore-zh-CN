@@ -1927,5 +1927,11 @@ namespace OmenCore.Localization
         public static string MainPagesBatch25 => Get(nameof(MainPagesBatch25));
         public static string MainPagesBatch26 => Get(nameof(MainPagesBatch26));
         public static string MainPagesBatch27 => Get(nameof(MainPagesBatch27));
+        public static string GameLibraryScanning => Get(nameof(GameLibraryScanning));
+        public static string GameLibraryFound => Get(nameof(GameLibraryFound));
+        public static string GameLibrarySelectExe => Get(nameof(GameLibrarySelectExe));
+        public static string GameLibraryExeFilter => Get(nameof(GameLibraryExeFilter));
+        public static string GameLibraryProfile => Get(nameof(GameLibraryProfile));
+        public static string GameLibraryNoProfile => Get(nameof(GameLibraryNoProfile));
     }
 }

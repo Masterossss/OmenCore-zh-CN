@@ -83,7 +83,7 @@ namespace OmenCore.ViewModels
             }
         }
 
-        public string ScanStatusText => IsScanning ? "Scanning game libraries..." : $"{FilteredGames.Count} games found";
+        public string ScanStatusText => IsScanning ? OmenCore.Localization.Strings.GameLibraryScanning : string.Format(OmenCore.Localization.Strings.GameLibraryFound, FilteredGames.Count);
 
         public string SearchFilter
         {
@@ -226,8 +226,8 @@ namespace OmenCore.ViewModels
             {
                 var dialog = new OpenFileDialog
                 {
-                    Title = "Select game executable",
-                    Filter = "Executable Files (*.exe)|*.exe|All Files (*.*)|*.*",
+                    Title = OmenCore.Localization.Strings.GameLibrarySelectExe,
+                    Filter = OmenCore.Localization.Strings.GameLibraryExeFilter,
                     Multiselect = true,
                     CheckFileExists = true
                 };
@@ -500,7 +500,7 @@ namespace OmenCore.ViewModels
             }
         }
 
-        public string ProfileStatusText => HasProfile ? $"Profile: {ProfileName}" : "No profile";
+        public string ProfileStatusText => HasProfile ? string.Format(OmenCore.Localization.Strings.GameLibraryProfile, ProfileName) : OmenCore.Localization.Strings.GameLibraryNoProfile;
         public string ProfileStatusIcon => HasProfile ? "✓" : "○";
 
         public string PlatformIcon => Platform switch
