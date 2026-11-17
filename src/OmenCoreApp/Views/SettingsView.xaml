@@ -1883,8 +1883,7 @@
                         <TextBlock TextWrapping="Wrap" FontSize="12" 
                                    Foreground="{StaticResource TextSecondaryBrush}" 
                                    Margin="0,0,0,12">
-                            Check HP's website for BIOS updates. Always read the release notes before updating BIOS.
-                            BIOS updates can improve stability, security, and compatibility.
+                            <Run Text="{x:Static loc:Strings.SettingsBiosAdvice}"/>
                         </TextBlock>
 
                         <StackPanel Orientation="Horizontal">
@@ -1923,8 +1922,7 @@
                         <TextBlock TextWrapping="Wrap" FontSize="13" 
                                    Foreground="{StaticResource TextSecondaryBrush}" 
                                    Margin="0,0,0,16">
-                            Keep your OMEN laptop up to date with official HP drivers, BIOS updates, and support tools.
-                            Using official HP drivers ensures best compatibility and performance.
+                            <Run Text="{x:Static loc:Strings.SettingsHpSupportAdvice}"/>
                         </TextBlock>
 
                         <!-- Quick Links Grid -->
@@ -1979,9 +1977,8 @@
                         <Border Background="#2229B6F6" CornerRadius="6" Padding="12" Margin="0,8,0,0">
                             <TextBlock TextWrapping="Wrap" FontSize="12" 
                                        Foreground="{StaticResource TextPrimaryBrush}">
-                                <Run Foreground="#29B6F6" FontWeight="Bold">💡 Tip:</Run>
-                                HP Support Assistant can automatically detect and install the correct drivers for your system.
-                                Install it from the Microsoft Store or HP's website for the best experience.
+                                <Run Foreground="#29B6F6" FontWeight="Bold" Text="{x:Static loc:Strings.SettingsTipLabel}"/>
+                                <Run Text="{x:Static loc:Strings.SettingsHpAssistantTip}"/>
                             </TextBlock>
                         </Border>
                     </StackPanel>
@@ -2002,18 +1999,17 @@
                         <TextBlock TextWrapping="Wrap" FontSize="13" 
                                    Foreground="{StaticResource TextSecondaryBrush}" 
                                    Margin="0,0,0,12">
-                            Runs fans at maximum speed to increase airflow and help dislodge loose dust particles.
+                            <Run Text="{x:Static loc:Strings.SettingsFanBoostDesc}"/>
                         </TextBlock>
                         
                         <!-- Important disclaimer -->
                         <Border Background="#33FFB74D" CornerRadius="6" Padding="12" Margin="0,0,0,16">
                             <TextBlock TextWrapping="Wrap" FontSize="12" 
                                        Foreground="{StaticResource TextPrimaryBrush}">
-                                <Run Foreground="#FFB74D" FontWeight="Bold">⚠️ Note:</Run>
-                                This is NOT the same as HP's "Fan Cleaner" feature (OMEN Max only) which actually reverses fan direction.
-                                That requires special omnidirectional fans that most OMEN laptops don't have.
+                                <Run Foreground="#FFB74D" FontWeight="Bold" Text="{x:Static loc:Strings.SettingsNoteLabel}"/>
+                                <Run Text="{x:Static loc:Strings.SettingsFanBoostWarning}"/>
                                 <LineBreak/><LineBreak/>
-                                For thorough cleaning, use compressed air or open the chassis.
+                                <Run Text="{x:Static loc:Strings.SettingsFanBoostCleaning}"/>
                             </TextBlock>
                         </Border>
 
@@ -2087,8 +2083,7 @@
                         <TextBlock TextWrapping="Wrap" FontSize="13"
                                    Foreground="{StaticResource TextSecondaryBrush}"
                                    Margin="0,0,0,16">
-                            Bloatware removal has moved to its own dedicated tab with per-app risk ratings,
-                            selective removal, restore capability, and a full item list.
+                            <Run Text="{x:Static loc:Strings.SettingsBloatMoved}"/>
                         </TextBlock>
 
                         <Button AutomationProperties.Name="Open Bloatware Manager →" Content="{x:Static loc:Strings.SettingsLabelBatch37}"
@@ -2502,8 +2497,8 @@
                         <Border Background="#1F1F1F" CornerRadius="4" Padding="12" Margin="0,16,0,0">
                             <TextBlock TextWrapping="Wrap" FontSize="12" 
                                        Foreground="{StaticResource TextSecondaryBrush}">
-                                <Run FontWeight="SemiBold" Foreground="{StaticResource TextPrimaryBrush}">💡 Tip:</Run>
-                                Disable unused features to reduce CPU/memory usage. Restart OmenCore for changes to take effect.
+                                <Run FontWeight="SemiBold" Foreground="{StaticResource TextPrimaryBrush}" Text="{x:Static loc:Strings.SettingsTipLabel}"/>
+                                <Run Text="{x:Static loc:Strings.SettingsFeatureRestartTip}"/>
                             </TextBlock>
                         </Border>
                     </StackPanel>
@@ -2854,13 +2849,13 @@
                         <Border Background="#1A4CAF50" CornerRadius="4" Padding="12" Margin="0,0,0,0">
                             <TextBlock TextWrapping="Wrap" FontSize="12" 
                                        Foreground="{StaticResource TextSecondaryBrush}">
-                                <Run FontWeight="SemiBold" Foreground="#81C784">💡 Battery Health Tips:</Run>
+                                <Run FontWeight="SemiBold" Foreground="#81C784" Text="{x:Static loc:Strings.SettingsBatteryTips}"/>
                                 <LineBreak/>
-                                • <Run FontWeight="SemiBold">80%</Run> is recommended for daily use (doubles battery lifespan)
+                                • <Run FontWeight="SemiBold">80%</Run><Run Text="{x:Static loc:Strings.SettingsBattery80}"/>
                                 <LineBreak/>
-                                • <Run FontWeight="SemiBold">60-70%</Run> for maximum longevity if always plugged in
+                                • <Run FontWeight="SemiBold">60-70%</Run><Run Text="{x:Static loc:Strings.SettingsBattery70}"/>
                                 <LineBreak/>
-                                • <Run FontWeight="SemiBold">100%</Run> when you need full capacity for travel
+                                • <Run FontWeight="SemiBold">100%</Run><Run Text="{x:Static loc:Strings.SettingsBattery100}"/>
                             </TextBlock>
                         </Border>
                     </StackPanel>
@@ -3275,13 +3270,13 @@
                         <Border Background="#1A64B5F6" CornerRadius="4" Padding="12">
                             <TextBlock TextWrapping="Wrap" FontSize="12" 
                                        Foreground="{StaticResource TextSecondaryBrush}">
-                                <Run FontWeight="SemiBold" Foreground="#64B5F6">💡 Profile Info:</Run>
+                                <Run FontWeight="SemiBold" Foreground="#64B5F6" Text="{x:Static loc:Strings.SettingsProfileInfo}"/>
                                 <LineBreak/>
-                                • Profiles include fan curves, performance modes, GPU OC settings, battery/hysteresis config
+                                <Run Text="{x:Static loc:Strings.SettingsProfileDetail}"/>
                                 <LineBreak/>
-                                • Safe to share - no personal data included, just hardware settings
+                                <Run Text="{x:Static loc:Strings.SettingsProfileShare}"/>
                                 <LineBreak/>
-                                • Diagnostics export creates a troubleshooting bundle (logs, config, hardware status)
+                                <Run Text="{x:Static loc:Strings.SettingsProfileDiag}"/>
                             </TextBlock>
                         </Border>
                     </StackPanel>
@@ -3348,7 +3343,7 @@
                             <Run Text="{x:Static loc:Strings.SettingsLabelBatch72}"/><Run Text="{Binding AppVersion, Mode=OneWay}" FontWeight="SemiBold"/>
                         </TextBlock>
                         <TextBlock FontSize="12" Foreground="{StaticResource TextSecondaryBrush}" Margin="0,0,0,16">
-                            A lightweight replacement for HP OMEN Gaming Hub
+                            <Run Text="{x:Static loc:Strings.SettingsAboutTagline}"/>
                         </TextBlock>
 
                         <StackPanel Orientation="Horizontal">

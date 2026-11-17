@@ -2056,5 +2056,24 @@ namespace OmenCore.Localization
         public static string SettingsLabelBatch88 => Get(nameof(SettingsLabelBatch88));
         public static string SettingsLabelBatch89 => Get(nameof(SettingsLabelBatch89));
         public static string SettingsLabelBatch90 => Get(nameof(SettingsLabelBatch90));
+        public static string SettingsBiosAdvice => Get(nameof(SettingsBiosAdvice));
+        public static string SettingsHpSupportAdvice => Get(nameof(SettingsHpSupportAdvice));
+        public static string SettingsTipLabel => Get(nameof(SettingsTipLabel));
+        public static string SettingsHpAssistantTip => Get(nameof(SettingsHpAssistantTip));
+        public static string SettingsFanBoostDesc => Get(nameof(SettingsFanBoostDesc));
+        public static string SettingsNoteLabel => Get(nameof(SettingsNoteLabel));
+        public static string SettingsFanBoostWarning => Get(nameof(SettingsFanBoostWarning));
+        public static string SettingsFanBoostCleaning => Get(nameof(SettingsFanBoostCleaning));
+        public static string SettingsBloatMoved => Get(nameof(SettingsBloatMoved));
+        public static string SettingsFeatureRestartTip => Get(nameof(SettingsFeatureRestartTip));
+        public static string SettingsBatteryTips => Get(nameof(SettingsBatteryTips));
+        public static string SettingsBattery80 => Get(nameof(SettingsBattery80));
+        public static string SettingsBattery70 => Get(nameof(SettingsBattery70));
+        public static string SettingsBattery100 => Get(nameof(SettingsBattery100));
+        public static string SettingsProfileInfo => Get(nameof(SettingsProfileInfo));
+        public static string SettingsProfileDetail => Get(nameof(SettingsProfileDetail));
+        public static string SettingsProfileShare => Get(nameof(SettingsProfileShare));
+        public static string SettingsProfileDiag => Get(nameof(SettingsProfileDiag));
+        public static string SettingsAboutTagline => Get(nameof(SettingsAboutTagline));
     }
 }

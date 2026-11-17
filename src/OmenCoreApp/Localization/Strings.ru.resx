@@ -2206,4 +2206,23 @@ Continue?</value></data>
   <data name="SettingsLabelBatch88" xml:space="preserve"><value>Process name (e.g. game.exe)</value></data>
   <data name="SettingsLabelBatch89" xml:space="preserve"><value>WiFi network name (SSID)</value></data>
   <data name="SettingsLabelBatch90" xml:space="preserve"><value>Lid state</value></data>
+  <data name="SettingsBiosAdvice" xml:space="preserve"><value>Check HP's website for BIOS updates. Always read the release notes before updating BIOS. BIOS updates can improve stability, security, and compatibility.</value></data>
+  <data name="SettingsHpSupportAdvice" xml:space="preserve"><value>Keep your OMEN laptop up to date with official HP drivers, BIOS updates, and support tools. Using official HP drivers ensures best compatibility and performance.</value></data>
+  <data name="SettingsTipLabel" xml:space="preserve"><value>💡 Tip:</value></data>
+  <data name="SettingsHpAssistantTip" xml:space="preserve"><value>HP Support Assistant can automatically detect and install the correct drivers for your system. Install it from the Microsoft Store or HP's website for the best experience.</value></data>
+  <data name="SettingsFanBoostDesc" xml:space="preserve"><value>Runs fans at maximum speed to increase airflow and help dislodge loose dust particles.</value></data>
+  <data name="SettingsNoteLabel" xml:space="preserve"><value>⚠️ Note:</value></data>
+  <data name="SettingsFanBoostWarning" xml:space="preserve"><value>This is NOT the same as HP's "Fan Cleaner" feature (OMEN Max only) which actually reverses fan direction. That requires special omnidirectional fans that most OMEN laptops don't have.</value></data>
+  <data name="SettingsFanBoostCleaning" xml:space="preserve"><value>For thorough cleaning, use compressed air or open the chassis.</value></data>
+  <data name="SettingsBloatMoved" xml:space="preserve"><value>Bloatware removal has moved to its own dedicated tab with per-app risk ratings, selective removal, restore capability, and a full item list.</value></data>
+  <data name="SettingsFeatureRestartTip" xml:space="preserve"><value>Disable unused features to reduce CPU/memory usage. Restart OmenCore for changes to take effect.</value></data>
+  <data name="SettingsBatteryTips" xml:space="preserve"><value>💡 Battery Health Tips:</value></data>
+  <data name="SettingsBattery80" xml:space="preserve"><value> is recommended for daily use (doubles battery lifespan)</value></data>
+  <data name="SettingsBattery70" xml:space="preserve"><value> for maximum longevity if always plugged in</value></data>
+  <data name="SettingsBattery100" xml:space="preserve"><value> when you need full capacity for travel</value></data>
+  <data name="SettingsProfileInfo" xml:space="preserve"><value>💡 Profile Info:</value></data>
+  <data name="SettingsProfileDetail" xml:space="preserve"><value>• Profiles include fan curves, performance modes, GPU OC settings, battery/hysteresis config</value></data>
+  <data name="SettingsProfileShare" xml:space="preserve"><value>• Safe to share - no personal data included, just hardware settings</value></data>
+  <data name="SettingsProfileDiag" xml:space="preserve"><value>• Diagnostics export creates a troubleshooting bundle (logs, config, hardware status)</value></data>
+  <data name="SettingsAboutTagline" xml:space="preserve"><value>A lightweight replacement for HP OMEN Gaming Hub</value></data>
 </root>

@@ -2202,4 +2202,23 @@
   <data name="SettingsLabelBatch88" xml:space="preserve"><value>进程名称（例如 game.exe）</value></data>
   <data name="SettingsLabelBatch89" xml:space="preserve"><value>WiFi 网络名称（SSID）</value></data>
   <data name="SettingsLabelBatch90" xml:space="preserve"><value>屏幕盖状态</value></data>
+  <data name="SettingsBiosAdvice" xml:space="preserve"><value>请在 HP 网站检查 BIOS 更新。更新 BIOS 前务必阅读版本说明。BIOS 更新可以改善稳定性、安全性和兼容性。</value></data>
+  <data name="SettingsHpSupportAdvice" xml:space="preserve"><value>使用 HP 官方驱动、BIOS 更新和支持工具保持 OMEN 笔记本电脑更新。使用官方 HP 驱动可确保最佳兼容性和性能。</value></data>
+  <data name="SettingsTipLabel" xml:space="preserve"><value>💡 提示：</value></data>
+  <data name="SettingsHpAssistantTip" xml:space="preserve"><value>HP Support Assistant 可自动检测并安装适用于您系统的驱动。为获得最佳体验，请从 Microsoft Store 或 HP 网站安装。</value></data>
+  <data name="SettingsFanBoostDesc" xml:space="preserve"><value>以最大转速运行风扇，增加气流并帮助吹散松散的灰尘。</value></data>
+  <data name="SettingsNoteLabel" xml:space="preserve"><value>⚠️ 注意：</value></data>
+  <data name="SettingsFanBoostWarning" xml:space="preserve"><value>这不同于 HP 的“风扇清洁”功能（仅限 OMEN Max）；后者会实际反转风扇方向。该功能需要特殊的全向风扇，而大多数 OMEN 笔记本电脑没有这种风扇。</value></data>
+  <data name="SettingsFanBoostCleaning" xml:space="preserve"><value>如需彻底清洁，请使用压缩空气或打开机箱。</value></data>
+  <data name="SettingsBloatMoved" xml:space="preserve"><value>软件清理已移至独立页面，提供逐应用风险等级、选择性删除、还原功能及完整项目列表。</value></data>
+  <data name="SettingsFeatureRestartTip" xml:space="preserve"><value>禁用未使用的功能可减少 CPU 和内存占用。重启 OmenCore 后更改才会生效。</value></data>
+  <data name="SettingsBatteryTips" xml:space="preserve"><value>💡 电池健康提示：</value></data>
+  <data name="SettingsBattery80" xml:space="preserve"><value>建议日常使用（可使电池寿命翻倍）</value></data>
+  <data name="SettingsBattery70" xml:space="preserve"><value>适用于始终连接电源时延长电池寿命</value></data>
+  <data name="SettingsBattery100" xml:space="preserve"><value>适用于旅行时需要完整电量的情况</value></data>
+  <data name="SettingsProfileInfo" xml:space="preserve"><value>💡 配置信息：</value></data>
+  <data name="SettingsProfileDetail" xml:space="preserve"><value>• 配置文件包含风扇曲线、性能模式、GPU 超频设置及电池／迟滞配置</value></data>
+  <data name="SettingsProfileShare" xml:space="preserve"><value>• 可以安全分享：仅包含硬件设置，不含个人数据</value></data>
+  <data name="SettingsProfileDiag" xml:space="preserve"><value>• 导出诊断信息会生成故障排查包（日志、配置、硬件状态）</value></data>
+  <data name="SettingsAboutTagline" xml:space="preserve"><value>HP OMEN Gaming Hub 的轻量替代方案</value></data>
 </root>
